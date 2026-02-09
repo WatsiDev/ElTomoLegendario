@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import ChampionCard from '../components/ChampionCard.astro';
+import ChampionCard from '../components/champion/ChampionCard.astro';
 import champions from '../data/champions.json';
 
 // Tomamos 4 campeones icónicos para mostrar un adelanto
@@ -39,7 +39,7 @@ const featuredChampions = champions.filter(champ => ['acrizia', 'gnut', 'maria-s
 				
 				<!-- CTAs principales -->
 				<div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-					<a href="#guias-destacadas" class="px-8 py-4 bg-raid-gold text-raid-bg font-bold text-lg rounded-lg hover:shadow-xl hover:shadow-raid-gold/60 transition-all duration-300 animate-pulse-gold">
+					<a href="/facciones" class="px-8 py-4 bg-raid-gold text-raid-bg font-bold text-lg rounded-lg hover:shadow-xl hover:shadow-raid-gold/60 transition-all duration-300 animate-pulse-gold">
 						Explorar Guías
 					</a>
 					<a href="#campeones-meta" class="px-8 py-4 border-2 border-raid-purple text-raid-purple font-bold text-lg rounded-lg hover:bg-raid-purple hover:text-white transition-all duration-300">
@@ -154,7 +154,7 @@ const featuredChampions = champions.filter(champ => ['acrizia', 'gnut', 'maria-s
 							Campeones Meta Actuales
 						</span>
 					</h2>
-					<a href="/campeones" class="text-raid-gold hover:text-raid-purple font-semibold text-sm">Ver todos →</a>
+					<a href="/facciones" class="text-raid-gold hover:text-raid-purple font-semibold text-sm">Ver todos →</a>
 				</div>
 				
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
@@ -275,7 +275,7 @@ const featuredChampions = champions.filter(champ => ['acrizia', 'gnut', 'maria-s
 				Miles de jugadores ya están mejorando su juego. No te quedes atrás.
 			</p>
 			<div class="flex flex-col sm:flex-row gap-4 justify-center">
-				<a href="#guias-destacadas" class="px-8 py-4 bg-raid-gold text-raid-bg font-bold rounded-lg hover:shadow-xl hover:shadow-raid-gold/60 transition-all duration-300">
+				<a href="/campeones" class="px-8 py-4 bg-raid-gold text-raid-bg font-bold rounded-lg hover:shadow-xl hover:shadow-raid-gold/60 transition-all duration-300">
 					Explorar Ahora
 				</a>
 				<a href="/" class="px-8 py-4 border-2 border-gray-500 text-gray-300 font-bold rounded-lg hover:border-white hover:text-white transition-all duration-300">

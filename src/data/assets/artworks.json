@@ -1,0 +1,11 @@
+{
+    "xenomorfo" :[
+        "assets/artworks/xenomorfo_artwork.webp"
+    ],
+    "michelangelo" :[
+        "assets/artworks/michelangelo_artwork.webp"
+    ],
+    "valkiria" : [
+        "assets/artworks/valkiria_artwork.webp"
+    ]
+}

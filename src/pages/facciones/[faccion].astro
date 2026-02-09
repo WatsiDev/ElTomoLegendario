@@ -1,0 +1,185 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ChampionCard from '../../components/champion/ChampionCard.astro'; // Ajusta si tu componente está en otra ruta
+import champions from '../../data/champions.json';
+import factionsList from '../../data/factions.json';
+
+export async function getStaticPaths() {
+  // Recorremos la lista de facciones para crear una página por cada una
+  return factionsList.map((factionData) => {
+    
+    // 1. Generamos el SLUG (URL) en minúsculas y con guiones
+    // Ejemplo: "Orden Sagrada" -> "orden-sagrada"
+    const slug = factionData.name.toLowerCase().replace(/\s+/g, '-');
+
+    // 2. Filtramos los campeones usando el NOMBRE EXACTO (con mayúsculas/espacios)
+    // Comparamos factionData.name ("Orden Sagrada") con champion.faction ("Orden Sagrada")
+    const factionChampions = champions.filter(c => c.faction === factionData.name);
+
+    return {
+      params: { faccion: slug }, // La URL será /facciones/orden-sagrada
+      props: { 
+        factionName: factionData.name, // Pasamos el nombre bonito ("Orden Sagrada")
+        factionData: factionData,
+        champions: factionChampions // Pasamos la lista ya filtrada
+      },
+    };
+  });
+}
+
+// Recuperamos las props
+const { factionName, factionData, champions: factionChampions } = Astro.props;
+const factionImage = factionData?.image || '/favicon.png';
+
+// Valores únicos para los selectores de filtro
+const rarities = [...new Set(factionChampions.map(c => c.rarity))].sort();
+const affinities = [...new Set(factionChampions.map(c => c.affinity))].sort();
+const types = [...new Set(factionChampions.map(c => c.type))].sort();
+---
+
+<Layout title={`${factionName} - Campeones`}>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    
+    <div class="flex flex-col md:flex-row items-center gap-8 mb-12 bg-gray-900/80 p-8 rounded-2xl border border-gray-800 shadow-2xl">
+      <img src={factionImage} alt={factionName} class="w-32 h-32 object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.2)]" />
+      <div class="text-center md:text-left">
+        <h1 class="text-4xl md:text-6xl font-black text-white uppercase tracking-tighter mb-2">
+          {factionName}
+        </h1>
+        <p class="text-gray-400 text-lg max-w-2xl">
+          Explorando <span class="text-raid-gold font-bold">{factionChampions.length}</span> campeones de esta facción.
+        </p>
+      </div>
+    </div>
+
+    <div class="bg-gray-800/50 p-6 rounded-xl border border-gray-700 mb-8 sticky top-4 z-30 backdrop-blur-md shadow-lg">
+      <div class="flex flex-col md:flex-row justify-between items-center mb-4 gap-4">
+        <h2 class="text-lg font-bold text-white flex items-center gap-2">
+          🔍 Filtrar Búsqueda
+        </h2>
+        <button id="clearFilters" class="text-xs font-bold text-raid-gold hover:text-white underline transition-colors hidden">
+          Limpiar filtros
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="relative">
+          <select id="filterRarity" class="w-full bg-gray-900 border border-gray-600 rounded-lg px-4 py-2.5 text-sm text-gray-200 focus:border-raid-gold focus:ring-1 focus:ring-raid-gold outline-none appearance-none">
+            <option value="">Todas las Rarezas</option>
+            {rarities.map(r => <option value={r}>{r}</option>)}
+          </select>
+          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-400">▼</div>
+        </div>
+
+        <div class="relative">
+          <select id="filterAffinity" class="w-full bg-gray-900 border border-gray-600 rounded-lg px-4 py-2.5 text-sm text-gray-200 focus:border-raid-gold focus:ring-1 focus:ring-raid-gold outline-none appearance-none">
+            <option value="">Todas las Afinidades</option>
+            {affinities.map(a => <option value={a}>{a}</option>)}
+          </select>
+          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-400">▼</div>
+        </div>
+
+        <div class="relative">
+          <select id="filterType" class="w-full bg-gray-900 border border-gray-600 rounded-lg px-4 py-2.5 text-sm text-gray-200 focus:border-raid-gold focus:ring-1 focus:ring-raid-gold outline-none appearance-none">
+            <option value="">Todos los Roles</option>
+            {types.map(t => <option value={t}>{t}</option>)}
+          </select>
+          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-400">▼</div>
+        </div>
+
+        <div>
+          <input 
+            type="text" 
+            id="filterSearch" 
+            placeholder="Buscar por nombre..."
+            class="w-full bg-gray-900 border border-gray-600 rounded-lg px-4 py-2.5 text-sm text-gray-200 placeholder-gray-500 focus:border-raid-gold focus:ring-1 focus:ring-raid-gold outline-none"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="championsGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 min-h-[300px]">
+      {factionChampions.map((champion) => (
+        <div 
+          class="champion-card transition-all duration-300 hover:-translate-y-1"
+          data-name={champion.name.toLowerCase()} 
+          data-rarity={champion.rarity} 
+          data-affinity={champion.affinity} 
+          data-type={champion.type}
+        >
+          <ChampionCard champion={champion} />
+        </div>
+      ))}
+    </div>
+
+    <div id="noResults" class="hidden text-center py-20 bg-gray-800/30 rounded-xl border border-dashed border-gray-700">
+      <p class="text-2xl text-gray-500 font-bold mb-2">🤷‍♂️ No hay campeones</p>
+      <p class="text-gray-400">Intenta cambiar los filtros de búsqueda.</p>
+    </div>
+
+  </main>
+
+  <script>
+    // Lógica de Filtrado (Script del Cliente)
+    const filterRarity = document.getElementById('filterRarity') as HTMLSelectElement;
+    const filterAffinity = document.getElementById('filterAffinity') as HTMLSelectElement;
+    const filterType = document.getElementById('filterType') as HTMLSelectElement;
+    const filterSearch = document.getElementById('filterSearch') as HTMLInputElement;
+    const clearBtn = document.getElementById('clearFilters') as HTMLButtonElement;
+    const noResults = document.getElementById('noResults') as HTMLElement;
+
+    function applyFilters() {
+      // Obtenemos valores
+      const rVal = filterRarity.value;
+      const aVal = filterAffinity.value;
+      const tVal = filterType.value;
+      const sVal = filterSearch.value.toLowerCase();
+
+      const cards = document.querySelectorAll('.champion-card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        // Obtenemos datos de la tarjeta
+        const cRarity = card.getAttribute('data-rarity');
+        const cAffinity = card.getAttribute('data-affinity');
+        const cType = card.getAttribute('data-type');
+        const cName = card.getAttribute('data-name') || '';
+
+        // Lógica de coincidencia (AND)
+        const matchR = !rVal || cRarity === rVal;
+        const matchA = !aVal || cAffinity === aVal;
+        const matchT = !tVal || cType === tVal;
+        const matchS = !sVal || cName.includes(sVal);
+
+        if (matchR && matchA && matchT && matchS) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      // Mostrar/Ocultar mensaje de vacío y botón de limpiar
+      noResults.classList.toggle('hidden', visibleCount > 0);
+      
+      // Mostrar botón "Limpiar" si hay algún filtro activo
+      const hasFilters = rVal || aVal || tVal || sVal;
+      clearBtn.classList.toggle('hidden', !hasFilters);
+    }
+
+    function clearAll() {
+      filterRarity.value = "";
+      filterAffinity.value = "";
+      filterType.value = "";
+      filterSearch.value = "";
+      applyFilters();
+    }
+
+    // Event Listeners
+    filterRarity?.addEventListener('change', applyFilters);
+    filterAffinity?.addEventListener('change', applyFilters);
+    filterType?.addEventListener('change', applyFilters);
+    filterSearch?.addEventListener('input', applyFilters);
+    clearBtn?.addEventListener('click', clearAll);
+  </script>
+</Layout>

@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Hidalgos",
+        "slug": "Hidalgos",
+        "image": "/assets/icons/factions/hidalgos.webp"
+    },
+    {
+        "name": "Altos Elfos",
+        "slug": "Altos Elfos",
+        "image": "/assets/icons/factions/altos-elfos.webp"
+    },
+    {
+        "name": "Orden Sagrada",
+        "slug": "Orden Sagrada",
+        "image": "/assets/icons/factions/orden-sagrada.webp"
+    },
+    {
+        "name": "Bárbaros",
+        "slug": "Bárbaros",
+        "image": "/assets/icons/factions/barbaros.webp"
+    },
+    {
+        "name": "Tribus de Ogretes",
+        "slug": "Tribus de Ogretes",
+        "image": "/assets/icons/factions/ogretes.webp"
+    },
+    {
+        "name": "Hombres Lagarto",
+        "slug": "Hombres Lagarto",
+        "image": "/assets/icons/factions/hombres-lagarto.webp"
+    },
+    {
+        "name": "Cambiapieles",
+        "slug": "Cambiapieles",
+        "image": "/assets/icons/factions/cambiapieles.webp"
+    },
+    {
+        "name": "Orcos",
+        "slug": "Orcos",
+        "image": "/assets/icons/factions/orcos.webp"
+    },
+    {
+        "name": "Engendros",
+        "slug": "Engendros",
+        "image": "/assets/icons/factions/engendros.webp"
+    },
+    {
+        "name": "No Muertos",
+        "slug": "No Muertos",
+        "image": "/assets/icons/factions/no-muertos.webp"
+    },
+    {
+        "name": "Elfos Oscuros",
+        "slug": "Elfos Oscuros",
+        "image": "/assets/icons/factions/elfos-oscuros.webp"
+    },
+    {
+        "name": "Aparecidos",
+        "slug": "Aparecidos",
+        "image": "/assets/icons/factions/aparecidos.webp"
+    },
+    {
+        "name": "Enanos",
+        "slug": "Enanos",
+        "image": "/assets/icons/factions/enanos.webp"
+    },
+    {
+        "name": "Sombríos",
+        "slug": "Sombríos",
+        "image": "/assets/icons/factions/sombrios.webp"
+    },
+    {
+        "name": "Vigías Silvanos",
+        "slug": "Vigías Silvanos",
+        "image": "/assets/icons/factions/vigias-silvanos.webp"
+    },
+    {
+        "name": "Argonitas",
+        "slug": "Argonitas",
+        "image": "/assets/icons/factions/argonitas.webp"
+    }
+]
