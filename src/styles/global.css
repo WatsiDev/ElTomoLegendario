@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Colores de Rareza */
+    --color-raid-gold: #ffb400;
+    --color-raid-purple: #a033ff;
+    --color-raid-blue: #0090ff;
+    
+    /* Colores de Fondo */
+    --color-raid-bg: #0a0e14;
+    --color-raid-card: #161d27;
+
+    /* Afinidades */
+    --color-affinity-magic: #3192ff;
+    --color-affinity-spirit: #4ade80;
+    --color-affinity-force: #ef4444;
+    --color-affinity-void: #c084fc;
+
+    /* Efectos de Resplandor Personalizados */
+    --shadow-gold-glow: 0 0 15px rgba(255, 180, 0, 0.4);
+    --shadow-purple-glow: 0 0 15px rgba(160, 51, 255, 0.4);
+  }
+
+  /* Animación de flotación suave para el título */
+  @keyframes float-slow {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  /* Animación de pulso para el botón principal */
+  @keyframes pulse-gold-glow {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255, 180, 0, 0.6); }
+    70% { box-shadow: 0 0 0 15px rgba(255, 180, 0, 0); }
+  }
+}
+
+/* Clases de utilidad para usar las animaciones */
+@layer utilities {
+  .animate-float {
+    animation: float-slow 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-gold {
+    animation: pulse-gold-glow 2s infinite;
+  }
+}
+
+/* Clase para el fondo de imagen fijo (efecto parallax) */
+@layer utilities {
+  .bg-hero-image {
+    /* IMPORTANTE: Reemplaza esta URL por una imagen épica de Raid (ej. un loading screen sin texto) */
+    background-image: url('https://www.sendaplays.com/images/backgrounds/cover-assassins.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Esto hace la magia del parallax */
+  }
+
+  /* Un pequeño truco de diseño: Fondo con textura de viñeta */
+  .bg-raid-vignette {
+    background: radial-gradient(circle, #1a202c 0%, #0a0e14 100%);
+  }
+}

@@ -1,11 +1,288 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import ChampionCard from '../components/ChampionCard.astro';
+import champions from '../data/champions.json';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Tomamos 4 campeones icónicos para mostrar un adelanto
+// (Idealmente, elegirías manualmente a Kael, Gnut, etc. por sus índices)
+const featuredChampions = champions.filter(champ => ['acrizia', 'gnut', 'maria-sanguinaria', 'lord-entretenedor-fabian'].includes(champ.slug));
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="El Tomo Legendario | La mayor comunidad de guías de Raid en español">
+	<!-- Hero Section - Landing Page -->
+	<section class="relative min-h-screen bg-raid-bg overflow-hidden flex items-center">
+		<!-- Background con efecto parallax -->
+		<div class="absolute inset-0 bg-hero-image opacity-20 -z-10"></div>
+		<div class="absolute inset-0 bg-raid-vignette -z-10"></div>
+		
+		<!-- Contenido del Hero -->
+		<div class="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-20">
+			<div class="max-w-4xl mx-auto text-center">
+				<!-- Badge de confianza -->
+				<div class="mb-6 animate-float">
+					<span class="inline-block px-4 py-2 bg-linear-to-r from-raid-gold to-raid-purple rounded-full text-sm font-bold text-white">
+						🏆 Tu Referencia en Raid: Shadow Legends
+					</span>
+				</div>
+				
+				<!-- Claim Principal (Value Proposition) -->
+				<h1 class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 animate-float leading-tight">
+					<span class="bg-linear-to-r from-raid-gold via-raid-purple to-raid-blue bg-clip-text text-transparent">
+						La mayor comunidad en español de guías de Raid
+					</span>
+				</h1>
+				
+				<!-- Subtítulo de apoyo -->
+				<p class="text-lg sm:text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+					Accede a guías oficiales, estrategias probadas y análisis de campeones creados por los mejores jugadores. Diseñado para llevarte desde principiante hasta endgame.
+				</p>
+				
+				<!-- CTAs principales -->
+				<div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+					<a href="#guias-destacadas" class="px-8 py-4 bg-raid-gold text-raid-bg font-bold text-lg rounded-lg hover:shadow-xl hover:shadow-raid-gold/60 transition-all duration-300 animate-pulse-gold">
+						Explorar Guías
+					</a>
+					<a href="#campeones-meta" class="px-8 py-4 border-2 border-raid-purple text-raid-purple font-bold text-lg rounded-lg hover:bg-raid-purple hover:text-white transition-all duration-300">
+						Ver Campeones Meta
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Scroll indicator -->
+		<div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+			<svg class="w-6 h-6 text-raid-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+			</svg>
+		</div>
+	</section>
+
+	<!-- ¿Qué Ofrece el Sitio? Section -->
+	<section class="bg-raid-card py-16 px-4 sm:px-6 lg:px-8 border-b border-gray-700">
+		<div class="max-w-6xl mx-auto">
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+				<!-- Feature 1 -->
+				<div class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300">
+					<div class="text-3xl mb-3">📋</div>
+					<h3 class="font-bold text-white mb-2">Guías Oficiales y Actualizadas</h3>
+					<p class="text-gray-400 text-sm">Mantenidas al día con cada patch y actualización del juego</p>
+				</div>
+				
+				<!-- Feature 2 -->
+				<div class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-purple transition-all duration-300">
+					<div class="text-3xl mb-3">🎯</div>
+					<h3 class="font-bold text-white mb-2">Estrategias para Todos</h3>
+					<p class="text-gray-400 text-sm">Desde jugadores nuevos hasta expertos de endgame</p>
+				</div>
+				
+				<!-- Feature 3 -->
+				<div class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-blue transition-all duration-300">
+					<div class="text-3xl mb-3">🌎</div>
+					<h3 class="font-bold text-white mb-2">Comunidad en Español</h3>
+					<p class="text-gray-400 text-sm">La comunidad activa más grande de habla hispana</p>
+				</div>
+				
+				<!-- Feature 4 -->
+				<div class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300">
+					<div class="text-3xl mb-3">👑</div>
+					<h3 class="font-bold text-white mb-2">Creadores Expertos</h3>
+					<p class="text-gray-400 text-sm">Contenido de jugadores legendarios y competitivos</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Social Proof - Statistics Section -->
+	<section class="bg-raid-bg py-16 px-4 sm:px-6 lg:px-8">
+		<div class="max-w-6xl mx-auto">
+			<h2 class="text-3xl font-bold text-center mb-12 text-white">
+				Números que Hablan por Nosotros
+			</h2>
+			
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+				<!-- Stat 1 -->
+				<div class="text-center p-6 border border-gray-700 rounded-lg hover:border-raid-gold transition-all duration-300">
+					<div class="text-4xl font-black bg-linear-to-r from-raid-gold to-raid-purple bg-clip-text text-transparent mb-2">
+						500+
+					</div>
+					<p class="text-gray-400 font-semibold">Campeones Analizados</p>
+				</div>
+				
+				<!-- Stat 2 -->
+				<div class="text-center p-6 border border-gray-700 rounded-lg hover:border-raid-purple transition-all duration-300">
+					<div class="text-4xl font-black bg-linear-to-r from-raid-purple to-raid-blue bg-clip-text text-transparent mb-2">
+						150+
+					</div>
+					<p class="text-gray-400 font-semibold">Guías Oficiales</p>
+				</div>
+				
+				<!-- Stat 3 -->
+				<div class="text-center p-6 border border-gray-700 rounded-lg hover:border-raid-blue transition-all duration-300">
+					<div class="text-4xl font-black bg-linear-to-r from-raid-blue to-raid-gold bg-clip-text text-transparent mb-2">
+						1K+
+					</div>
+					<p class="text-gray-400 font-semibold">Guías Comunidad (Próximo)</p>
+				</div>
+				
+				<!-- Stat 4 -->
+				<div class="text-center p-6 border border-gray-700 rounded-lg hover:border-raid-gold transition-all duration-300">
+					<div class="text-4xl font-black bg-linear-to-r from-raid-gold to-raid-blue bg-clip-text text-transparent mb-2">
+						20K+
+					</div>
+					<p class="text-gray-400 font-semibold">Usuarios (Futuro)</p>
+				</div>
+				
+				<!-- Stat 5 -->
+				<div class="text-center p-6 border border-gray-700 rounded-lg hover:border-raid-purple transition-all duration-300">
+					<div class="text-4xl font-black bg-linear-to-r from-raid-purple to-raid-gold bg-clip-text text-transparent mb-2">
+						XXX
+					</div>
+					<p class="text-gray-400 font-semibold">Clanes Activos</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contenido Destacado Section -->
+	<section class="bg-raid-card py-16 px-4 sm:px-6 lg:px-8 border-y border-gray-700">
+		<div class="max-w-6xl mx-auto">
+			<!-- Campeones Meta -->
+			<div id="campeones-meta" class="mb-20">
+				<div class="flex items-center justify-between mb-8">
+					<h2 class="text-3xl font-bold">
+						<span class="bg-linear-to-r from-raid-gold to-raid-purple bg-clip-text text-transparent">
+							Campeones Meta Actuales
+						</span>
+					</h2>
+					<a href="/campeones" class="text-raid-gold hover:text-raid-purple font-semibold text-sm">Ver todos →</a>
+				</div>
+				
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
+					{featuredChampions.map((champion) => (
+						<ChampionCard champion={champion} />
+					))}
+				</div>
+			</div>
+
+			<!-- Guías Más Vistas -->
+			<div id="guias-destacadas" class="mb-20">
+				<div class="flex items-center justify-between mb-8">
+					<h2 class="text-3xl font-bold">
+						<span class="bg-linear-to-r from-raid-purple to-raid-blue bg-clip-text text-transparent">
+							Guías Más Vistas
+						</span>
+					</h2>
+					<a href="/guias" class="text-raid-purple hover:text-raid-blue font-semibold text-sm">Ver todas →</a>
+				</div>
+				
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+					{[
+						{ title: "Guía Completa: Cómo Empezar en Raid", views: "15.2K", icon: "🚀" },
+						{ title: "Farming Eficiente en Campaña Normal", views: "12.8K", icon: "⚡" },
+						{ title: "Mejores Equipos para Arena", views: "11.5K", icon: "🏆" },
+						{ title: "Guía de Dungeons: Paso a Paso", views: "10.3K", icon: "🗝️" }
+					].map((guide) => (
+						<div class="p-6 bg-raid-bg border border-gray-700 rounded-lg hover:border-raid-purple hover:shadow-lg hover:shadow-raid-purple/20 transition-all duration-300 cursor-pointer">
+							<div class="text-4xl mb-4">{guide.icon}</div>
+							<h3 class="font-bold text-white mb-2 text-lg">{guide.title}</h3>
+							<p class="text-gray-400 text-sm">{guide.views} vistas</p>
+						</div>
+					))}
+				</div>
+			</div>
+
+			<!-- Progreso del Jugador - Early/Mid/Late Game -->
+			<div class="mb-16">
+				<h2 class="text-3xl font-bold text-center mb-12">
+					<span class="bg-linear-to-r from-raid-blue to-raid-gold bg-clip-text text-transparent">
+						Tu Progreso en Raid
+					</span>
+				</h2>
+				
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+					<!-- Early Game -->
+					<div class="group relative bg-linear-to-br from-raid-blue/20 to-transparent p-8 rounded-lg border-2 border-raid-blue overflow-hidden hover:shadow-lg hover:shadow-raid-blue/30 transition-all duration-300">
+						<div class="absolute top-0 right-0 text-6xl opacity-10">🌱</div>
+						<div class="relative z-10">
+							<h3 class="text-2xl font-bold text-raid-blue mb-4">Early Game</h3>
+							<p class="text-gray-300 mb-6">Tus primeros pasos en Teleria. Aprende lo básico y consigue tu primer equipo viable.</p>
+							<ul class="space-y-2 mb-6">
+								<li class="text-gray-300 text-sm">✓ Primeros campeones</li>
+								<li class="text-gray-300 text-sm">✓ Construir tu primer equipo</li>
+								<li class="text-gray-300 text-sm">✓ Mazmorras iniciales</li>
+								<li class="text-gray-300 text-sm">✓ Medidas de oro</li>
+							</ul>
+							<a href="/guias/early-game" class="inline-block px-4 py-2 bg-raid-blue text-white font-semibold rounded hover:bg-raid-blue/80 transition-colors">
+								Ver Guías →
+							</a>
+						</div>
+					</div>
+
+					<!-- Mid Game -->
+					<div class="group relative bg-linear-to-br from-raid-purple/20 to-transparent p-8 rounded-lg border-2 border-raid-purple overflow-hidden hover:shadow-lg hover:shadow-raid-purple/30 transition-all duration-300">
+						<div class="absolute top-0 right-0 text-6xl opacity-10">⚔️</div>
+						<div class="relative z-10">
+							<h3 class="text-2xl font-bold text-raid-purple mb-4">Mid Game</h3>
+							<p class="text-gray-300 mb-6">Mejora tu poder. Domina estrategias avanzadas y sube a la Arena.</p>
+							<ul class="space-y-2 mb-6">
+								<li class="text-gray-300 text-sm">✓ Composiciones de equipos</li>
+								<li class="text-gray-300 text-sm">✓ Arena y Campeones clave</li>
+								<li class="text-gray-300 text-sm">✓ Dungeons de nivel medio</li>
+								<li class="text-gray-300 text-sm">✓ Artefactos óptimos</li>
+							</ul>
+							<a href="/guias/mid-game" class="inline-block px-4 py-2 bg-raid-purple text-white font-semibold rounded hover:bg-raid-purple/80 transition-colors">
+								Ver Guías →
+							</a>
+						</div>
+					</div>
+
+					<!-- Late Game -->
+					<div class="group relative bg-linear-to-br from-raid-gold/20 to-transparent p-8 rounded-lg border-2 border-raid-gold overflow-hidden hover:shadow-lg hover:shadow-raid-gold/30 transition-all duration-300">
+						<div class="absolute top-0 right-0 text-6xl opacity-10">👑</div>
+						<div class="relative z-10">
+							<h3 class="text-2xl font-bold text-raid-gold mb-4">Late Game</h3>
+							<p class="text-gray-300 mb-6">Domina Teleria. Estrategias para clanes, raids y endgame puro.</p>
+							<ul class="space-y-2 mb-6">
+								<li class="text-gray-300 text-sm">✓ Clan Boss strategies</li>
+								<li class="text-gray-300 text-sm">✓ Arena tope 1-3%</li>
+								<li class="text-gray-300 text-sm">✓ Hydra y contenido extremo</li>
+								<li class="text-gray-300 text-sm">✓ Optimización de UNM</li>
+							</ul>
+							<a href="/guias/late-game" class="inline-block px-4 py-2 bg-raid-gold text-raid-bg font-semibold rounded hover:bg-raid-gold/80 transition-colors">
+								Ver Guías →
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Eventos Activos (Placeholder) -->
+			<div class="bg-linear-to-r from-raid-gold/10 to-raid-purple/10 p-8 rounded-lg border border-gray-700 text-center">
+				<h3 class="text-xl font-bold text-white mb-2">🎉 Evento Activo: Double XP Week</h3>
+				<p class="text-gray-300 mb-4">Aprovecha los dobles de oro y experiencia. Finaliza en 3 días.</p>
+				<a href="#" class="inline-block text-raid-gold hover:text-raid-purple font-semibold">Ver detalles →</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- CTA Final Section -->
+	<section class="bg-linear-to-r from-raid-gold/20 via-raid-purple/20 to-raid-blue/20 py-16 px-4 sm:px-6 lg:px-8 border-t border-gray-700">
+		<div class="max-w-4xl mx-auto text-center">
+			<h2 class="text-4xl sm:text-5xl font-bold mb-6 text-white">
+				Empieza a Mejorar en Raid Hoy
+			</h2>
+			<p class="text-xl text-gray-300 mb-8">
+				Miles de jugadores ya están mejorando su juego. No te quedes atrás.
+			</p>
+			<div class="flex flex-col sm:flex-row gap-4 justify-center">
+				<a href="#guias-destacadas" class="px-8 py-4 bg-raid-gold text-raid-bg font-bold rounded-lg hover:shadow-xl hover:shadow-raid-gold/60 transition-all duration-300">
+					Explorar Ahora
+				</a>
+				<a href="/" class="px-8 py-4 border-2 border-gray-500 text-gray-300 font-bold rounded-lg hover:border-white hover:text-white transition-all duration-300">
+					Más Información
+				</a>
+			</div>
+		</div>
+	</section>
+
 </Layout>
