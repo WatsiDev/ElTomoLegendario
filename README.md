@@ -1,46 +1,31 @@
-# Astro Starter Kit: Basics
+# 📜 El Tomo Legendario
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+> La biblioteca definitiva en español para la comunidad de **Raid: Shadow Legends**.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-1C1C1C?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
 
-## 🚀 Project Structure
+## 🎯 Propósito
+Este proyecto busca democratizar el acceso a estrategias de alto nivel para jugadores de habla hispana, permitiendo optimizar recursos y progresar eficientemente mediante guías técnicas, tier lists y un sistema de comunidad interactivo.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚀 Funcionalidades (MVP)
+- [ ] **Base de Datos de Campeones:** Navegación por las 14 facciones.
+- [ ] **Guías de Jefes:** Estrategias específicas para Clan Boss e Hydra.
+- [ ] **Tier Lists Dinámicas:** Clasificaciones por modo de juego (Arena, PVE, Mazmorras).
+- [ ] **SEO Optimizado:** Carga ultrarrápida gracias a la arquitectura de Astro.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## 🛠️ Stack Tecnológico
+- **Frontend:** Astro + React (Arquitectura de Islas para interactividad).
+- **Estilos:** Tailwind CSS.
+- **Backend/DB:** Supabase (Auth y base de datos de la comunidad).
+- **Data:** Archivos JSON locales para la información estática del juego.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🗺️ Mapa del Sitio (Roadmap)
+1. **Home:** Dashboard de valor con contenido destacado.
+2. **Facciones:** Listado y filtrado de campeones.
+3. **Comunidad (Próximamente):** Foros, reclutamiento de clanes y guías de usuario.
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+*Proyecto desarrollado por [WatsiDev]*
