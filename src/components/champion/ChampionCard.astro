@@ -1,28 +1,40 @@
 ---
+import { getRarityStyle } from "../../utils/rarity";
+
 const { champion } = Astro.props;
 const { name, rarity, slug, faction } = champion;
 
-const rarityBorders = {
-  'Legendario': 'border-raid-gold shadow-gold-glow',
-  'Épico': 'border-raid-purple shadow-purple-glow',
-  'Raro': 'border-raid-blue',
-};
+const style = getRarityStyle(rarity);
+const borderClass = `${style.border} ${style.glow}`;
 ---
 
-<a href={`/campeon/${slug}`} class="group block">
-  <div class={`relative bg-raid-card border ${rarityBorders[rarity] || 'border-gray-800'} rounded-lg overflow-hidden transition-all duration-500 hover:-translate-y-1 w-fit`}>
-    <div class="absolute inset-0 bg-linear-to-t from-raid-bg via-transparent to-transparent z-10 opacity-70"></div>
-    
-    <img 
-      src={`/assets/champions/${slug}.webp`} 
+<a href={`/campeon/${slug}`} class="group w-fit mx-auto flex flex-col">
+  <div
+    class={`relative bg-raid-card border ${borderClass} rounded-lg overflow-hidden transition-all duration-500 hover:-translate-y-1 w-fit`}
+  >
+    <div
+      class="absolute inset-0 bg-linear-to-t from-raid-bg via-transparent to-transparent z-10 opacity-70"
+    >
+    </div>
+
+    <img
+      src={`/assets/champions/${slug}.webp`}
       alt={name}
       class="w-32 h-auto object-cover transition-transform duration-700 group-hover:scale-105 z-0 display-block"
       loading="lazy"
     />
 
     <div class="absolute bottom-0 left-0 right-0 p-2 z-20 text-center">
-      <p class="text-[7px] text-raid-gold font-bold uppercase tracking-widest mb-0.5">{rarity}</p>
-      <h3 class="text-white font-bold text-[9px] leading-tight group-hover:text-raid-gold transition-colors line-clamp-2">{name}</h3>
+      <p
+        class={`text-[7px] ${style.text} font-bold uppercase tracking-widest mb-0.5`}
+      >
+        {rarity}
+      </p>
+      <h3
+        class="text-white font-bold text-[9px] leading-tight group-hover:text-raid-gold transition-colors line-clamp-2"
+      >
+        {name}
+      </h3>
       <p class="text-gray-400 text-[6px] line-clamp-1">{faction}</p>
     </div>
   </div>

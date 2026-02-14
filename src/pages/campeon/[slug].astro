@@ -1,10 +1,20 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-
 import champions from "../../data/champions.json";
 
-// 1. Generar todas las rutas basadas en el slug del JSON
+// Importamos tus diccionarios de imágenes
+// Asegúrate de que las rutas coincidan con tu estructura de carpetas
+import setIconsData from "../../data/assets/sets.json";
+import affinityIconsData from "../../data/assets/affinities.json";
+//import auraIcons from '../../data/assets/auras.json';
+import artworksDataSource from "../../data/assets/artworks.json";
 
+// Type assertions for JSON data to allow string indexing
+const setIcons = setIconsData as Record<string, string>;
+const affinityIcons = affinityIconsData as Record<string, string>;
+const artworksData = artworksDataSource as Record<string, string[]>;
+
+// 1. Generar rutas
 export async function getStaticPaths() {
   return champions.map((champ) => ({
     params: { slug: champ.slug },
@@ -12,53 +22,67 @@ export async function getStaticPaths() {
   }));
 }
 
-// 2. Obtener los datos del campeón para esta página específica
 const { champ } = Astro.props;
 
-// Colores de afinidad
-const affinityColors = {
-  Fuerza: "text-affinity-force",
-  Magia: "text-affinity-magic",
-  Espíritu: "text-affinity-spirit",
-  Vacío: "text-affinity-void",
-} as const;
+// --- LÓGICA DE IMÁGENES NUEVA ---
 
-const affinityClass =
-  affinityColors[champ.affinity as keyof typeof affinityColors] || "text-white";
+// 1. Icono de Afinidad (Buscamos por nombre, ej: "Fuerza")
+// Safe access with fallback
+const affinityIcon = affinityIcons[champ.affinity] || null;
 
-// Devuelve la variable CSS del color correspondiente a la rareza
-function getRarityColorVar(rarity: string) {
-  const map: Record<string, string> = {
-    Legendario: "var(--color-raid-gold)",
-    Épico: "var(--color-raid-purple)",
-    Raro: "var(--color-raid-blue)",
-    Común: "rgba(120,120,120,1)",
+// 2. Iconos de Sets Recomendados
+// Mapeamos el array de strings ["letal", "velocidad"] a objetos con ruta de imagen
+const recommendedSets = (champ.gear || []).map((setName: string) => {
+  // Normalizamos a minúsculas para buscar en el JSON
+  const key = setName.toLowerCase();
+  return {
+    name: setName,
+    icon: setIcons[key] || null, // Si no hay icono, devuelve null
   };
-  return map[rarity] || "var(--color-raid-gold)";
-}
+});
 
-const rarityColorVar = getRarityColorVar(champ.rarity);
+// 3. Artworks adicionales
+// Buscamos en el JSON de artworks por el slug del campeón
+const extraArtworks = artworksData[champ.slug] || [];
+
+// 4. Icono de Aura (si tienes la key en el json del champ)
+// Asumimos que champ.aura_type o similar coincide con tu json de auras
+// Si no tienes una key directa, puedes intentar machear por descripción o dejarlo pendiente.
+//const auraIcon = champ.aura_key ? auraIcons[champ.aura_key] : null;
+
+// --- TU LÓGICA DE ESTILOS ORIGINAL ---
+
+import { getRarityStyle } from "../../utils/rarity";
+import { getAffinityStyle } from "../../utils/affinity";
+
+// ... existing code ...
+
+const affinityStyle = getAffinityStyle(champ.affinity);
+const affinityClass = affinityStyle.text;
+
+const rarityStyle = getRarityStyle(champ.rarity);
+const rarityColorVar = rarityStyle.hex;
+const rarityTextClass = rarityStyle.text;
 ---
 
 <Layout title={`${champ.name} - El Tomo Legendario`}>
   <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-    <!-- Header del Campeón -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-      <!-- Imagen -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 animate-fade-in">
       <div class="md:col-span-1 flex justify-center md:justify-start">
         <div class="relative group">
           <img
             src={champ.image}
             alt={champ.name}
-            class="w-48 rounded-lg border-4 border-raid-gold shadow-2xl transition-transform group-hover:scale-105 relative z-10"
+            class="w-full max-w-[280px] rounded-lg border-4 shadow-2xl transition-transform group-hover:scale-105 relative z-10"
+            style={`border-color: ${rarityColorVar}`}
           />
-          <!-- Overlay degradado con color según la rareza (usa variables CSS definidas en global.css) -->
+
           <div
             class="absolute inset-0 rounded-lg pointer-events-none z-0"
             style={`background: linear-gradient(180deg, ${rarityColorVar} 0%, rgba(10,14,20,0) 55%); opacity: 0.32;`}
           >
           </div>
-          <!-- Halo sutil en la parte inferior para simular sombra de color -->
+
           <div
             class="absolute left-1/2 -translate-x-1/2 -bottom-3 w-36 h-6 rounded-full pointer-events-none z-0"
             style={`background: radial-gradient(ellipse at center, ${rarityColorVar} 0%, rgba(10,14,20,0) 60%); filter: blur(8px); opacity: 0.6;`}
@@ -66,206 +90,223 @@ const rarityColorVar = getRarityColorVar(champ.rarity);
           </div>
         </div>
       </div>
-      <!-- Información Principal -->
+
       <div class="md:col-span-2 flex flex-col justify-start">
         <h1
-          class="text-5xl font-black text-raid-gold mb-4 uppercase tracking-tight"
+          class="text-5xl font-black text-raid-gold mb-4 uppercase tracking-tight flex items-center gap-4"
         >
           {champ.name}
+          <!--
+           {auraIcon && (
+             <img src={`/${auraIcon}`} alt="Aura" class="w-10 h-10 object-contain" title="Aura de Líder" />
+          )}
+         -->
         </h1>
-        <!-- Metadata -->
+
         <div class="flex flex-wrap gap-2 mb-6">
           <span
-            class={`px-3 py-1 bg-raid-card rounded-full font-bold text-xs ${affinityClass}`}
+            class={`pl-2 pr-3 py-1 bg-raid-card rounded-full font-bold text-xs flex items-center gap-1 border border-gray-700 ${affinityClass}`}
           >
+            {
+              affinityIcon && (
+                <img
+                  src={`/${affinityIcon}`}
+                  class="w-4 h-4"
+                  alt={champ.affinity}
+                />
+              )
+            }
             {champ.affinity}
           </span>
+
           <span
-            class="px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-raid-gold"
+            class={`px-3 py-1 bg-raid-card rounded-full font-bold text-xs ${rarityTextClass} border border-gray-700`}
           >
             {champ.rarity}
           </span>
           <span
-            class="px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-300"
+            class="px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-300 border border-gray-700"
           >
             {champ.type}
           </span>
           <span
-            class="px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-400"
+            class="px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-400 border border-gray-700"
           >
             {champ.faction}
           </span>
         </div>
-        <!-- Descripción Rol -->
+
         <p
-          class="text-gray-300 italic bg-raid-card p-3 rounded-lg border-l-4 border-raid-gold mb-6 text-sm"
+          class="text-gray-300 italic bg-raid-card p-4 rounded-lg border-l-4 mb-6 text-sm leading-relaxed"
+          style={`border-color: ${rarityColorVar}`}
         >
           {champ.role || "Rol no definido en el tomo aún."}
         </p>
-        <!-- Stats Base Completas - Ordenadas -->
-        <h3 class="text-sm font-bold text-raid-gold mb-3 uppercase">
+
+        <h3
+          class="text-sm font-bold text-raid-gold mb-3 uppercase tracking-wider"
+        >
           Estadísticas Base
         </h3>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
           {
             [
-              { label: "HP", value: champ.stats?.hp || 0 },
-              { label: "ATK", value: champ.stats?.attack || 0 },
-              { label: "DEF", value: champ.stats?.defense || 0 },
-              { label: "VEL", value: champ.stats?.speed || 0 },
-              { label: "P.CRIT", value: champ.stats?.critRate || 0 },
-              { label: "D.CRIT", value: champ.stats?.critDamage || 0 },
-              { label: "RES", value: champ.stats?.resistance || 0 },
-              { label: "PUNT", value: champ.stats?.accuracy || 0 },
+              { label: "HP", value: champ.stats?.hp, color: "text-green-400" },
+              {
+                label: "ATK",
+                value: champ.stats?.attack,
+                color: "text-red-400",
+              },
+              {
+                label: "DEF",
+                value: champ.stats?.defense,
+                color: "text-blue-400",
+              },
+              {
+                label: "VEL",
+                value: champ.stats?.speed,
+                color: "text-yellow-400",
+              },
+              {
+                label: "P.CRIT",
+                value: champ.stats?.critRate + "%",
+                color: "text-white",
+              },
+              {
+                label: "D.CRIT",
+                value: champ.stats?.critDamage + "%",
+                color: "text-white",
+              },
+              {
+                label: "RES",
+                value: champ.stats?.resistance,
+                color: "text-white",
+              },
+              {
+                label: "PUNT",
+                value: champ.stats?.accuracy,
+                color: "text-white",
+              },
             ].map((stat) => (
-              <div class="bg-raid-bg p-2 rounded border border-gray-700">
-                <p class="text-gray-400 uppercase font-bold">{stat.label}</p>
-                <p class="text-raid-gold font-bold">{stat.value}</p>
+              <div class="bg-raid-bg p-2 rounded border border-gray-700 hover:border-gray-500 transition-colors">
+                <p class="text-gray-500 uppercase font-bold text-[10px]">
+                  {stat.label}
+                </p>
+                <p class={`font-mono font-bold text-sm ${stat.color}`}>
+                  {stat.value || 0}
+                </p>
               </div>
             ))
           }
         </div>
       </div>
     </div>
-    <!-- Tabs Navigation -->
-    <div class="mb-8">
+
+    <div class="mb-8 sticky top-0 z-40 bg-[#0a0e14]/95 backdrop-blur-sm pt-4">
       <div
-        class="flex overflow-x-auto gap-2 border-b border-gray-700 pb-0"
+        class="flex overflow-x-auto gap-2 border-b border-gray-700 pb-0 no-scrollbar"
         role="tablist"
       >
         <button
-          data-tab="galeria"
-          class="tab-button active px-4 py-3 font-semibold border-b-2 border-raid-gold text-raid-gold whitespace-nowrap"
-        >
-          Galería
-        </button>
-        <button
           data-tab="habilidades"
-          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap"
+          class="tab-button active px-4 py-3 font-semibold border-b-2 border-raid-gold text-raid-gold whitespace-nowrap transition-colors"
         >
           Habilidades
         </button>
         <button
           data-tab="builds"
-          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap"
+          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap transition-colors"
         >
-          Builds
+          Builds & Equipo
+        </button>
+        <button
+          data-tab="galeria"
+          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap transition-colors"
+        >
+          Galería
         </button>
         <button
           data-tab="maestrias"
-          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap"
+          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap transition-colors"
         >
           Maestrías
         </button>
         <button
           data-tab="libros"
-          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap"
+          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap transition-colors"
         >
           Prioridad Libros
         </button>
         <button
           data-tab="modos"
-          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap"
+          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap transition-colors"
         >
           Mejores Modos
         </button>
         <button
           data-tab="sinergias"
-          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap"
+          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap transition-colors"
         >
           Sinergias
         </button>
         <button
           data-tab="proscontras"
-          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap"
+          class="tab-button px-4 py-3 font-semibold border-b-2 border-transparent text-gray-400 hover:text-white whitespace-nowrap transition-colors"
         >
           Pros / Contras
         </button>
       </div>
     </div>
-    <!-- Tab Content -->
-    <div class="space-y-8">
-      <!-- Galería Tab -->
-      <section id="galeria" class="tab-content">
-        <h2 class="text-3xl font-bold mb-6 text-white">Galería de Arte</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Card principal -->
-          <div
-            class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300 lg:col-span-1 lg:row-span-2"
-          >
-            <img
-              src={champ.image}
-              alt={champ.name}
-              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-            <div
-              class="absolute inset-0 bg-linear-to-t from-raid-bg via-transparent to-transparent opacity-60"
-            >
-            </div>
-            <div class="absolute bottom-0 left-0 right-0 p-4">
-              <p class="text-raid-gold font-bold">Ilustración Principal</p>
 
-              <p class="text-gray-400 text-sm">{champ.name}</p>
-            </div>
-          </div>
-          <!-- Placeholder cards para artes adicionales -->
-          {
-            [1, 2, 3, 4].map((i) => (
-              <div class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-raid-purple transition-all duration-300 bg-raid-card aspect-square flex items-center justify-center">
-                <div class="text-center">
-                  <div class="text-4xl mb-2">🎨</div>
-                  <p class="text-gray-400 text-sm">Arte {i}</p>
-                  <p class="text-gray-500 text-xs mt-2">Por actualizarse</p>
-                </div>
-              </div>
-            ))
-          }
-        </div>
-        <div class="mt-6 bg-raid-bg p-6 rounded-lg border border-gray-700">
-          <p class="text-gray-400 text-center">
-            Más artes y skins del campeón se agregarán próximamente.
-          </p>
-        </div>
-      </section>
-      <!-- Habilidades Tab -->
-      <section id="habilidades" class="tab-content hidden">
-        <h2 class="text-3xl font-bold mb-6 text-white">Habilidades</h2>
+    <div class="space-y-8 min-h-[400px]">
+      <section id="habilidades" class="tab-content">
+        <h2 class="text-3xl font-bold mb-6 text-white flex items-center gap-2">
+          ⚔️ Habilidades
+        </h2>
         <div class="space-y-6">
           {
             champ.skills &&
               champ.skills.map((skill, index) => (
-                <div class="bg-raid-card p-6 rounded-lg border border-gray-700 hover:border-raid-gold transition-colors">
+                <div class="bg-raid-card p-6 rounded-lg border border-gray-700 hover:border-raid-gold transition-colors group">
                   <div class="flex justify-between items-start mb-3">
                     <div>
-                      <h3 class="text-2xl font-bold text-raid-gold">
+                      <h3 class="text-2xl font-bold text-raid-gold group-hover:text-white transition-colors">
                         {skill.name}
                       </h3>
-                      {index === 0 && (
-                        <p class="text-xs text-gray-400">Habilidad Pasiva</p>
-                      )}
-                      {index > 0 && (
-                        <p class="text-xs text-gray-400">
-                          Habilidad Activa (CD: {skill.cooldown || 0})
-                        </p>
-                      )}
+                      <div class="flex gap-2 mt-1">
+                        {index === 0 && (
+                          <span class="text-xs bg-blue-900/50 text-blue-300 px-2 py-0.5 rounded border border-blue-800">
+                            Pasiva
+                          </span>
+                        )}
+                        {skill.cooldown && (
+                          <span class="text-xs bg-gray-700 text-gray-300 px-2 py-0.5 rounded border border-gray-600">
+                            Cooldown: {skill.cooldown} turnos
+                          </span>
+                        )}
+                      </div>
                     </div>
                     {skill.multiplier && (
-                      <span class="bg-raid-bg text-xs px-3 py-1 rounded-lg text-green-400 font-mono border border-gray-700">
-                        {skill.multiplier}
+                      <span class="bg-black/30 text-xs px-3 py-1 rounded text-green-400 font-mono border border-gray-700">
+                        DMG: {skill.multiplier}
                       </span>
                     )}
                   </div>
-                  <p class="text-gray-300 leading-relaxed">
+                  <p class="text-gray-300 leading-relaxed mb-4">
                     {skill.description}
                   </p>
+
                   {skill.levels && (
-                    <div class="mt-4 pt-4 border-t border-gray-700">
-                      <p class="text-xs text-gray-400 font-semibold mb-2">
-                        Mejoras por nivel:
+                    <div class="mt-4 pt-4 border-t border-gray-700/50">
+                      <p class="text-xs text-gray-500 font-bold mb-2 uppercase">
+                        Mejoras de libro:
                       </p>
-                      <ul class="text-sm text-gray-400 space-y-1">
+                      <ul class="text-sm text-gray-400 space-y-1 grid grid-cols-1 md:grid-cols-2">
                         {skill.levels.map((level) => (
-                          <li>• {level}</li>
+                          <li class="flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-raid-gold" />
+                            {level}
+                          </li>
                         ))}
                       </ul>
                     </div>
@@ -275,97 +316,188 @@ const rarityColorVar = getRarityColorVar(champ.rarity);
           }
         </div>
       </section>
-      <!-- Builds Tab -->
+
       <section id="builds" class="tab-content hidden">
-        <h2 class="text-3xl font-bold mb-6 text-white">Builds Recomendadas</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div class="bg-raid-card p-6 rounded-lg border-l-4 border-raid-gold">
-            <h3 class="text-xl font-bold text-raid-gold mb-4">
-              Build PvE (Campaign)
-            </h3>
-            <div class="space-y-2 text-gray-300">
-              <p>
-                <span class="text-raid-gold font-semibold"
-                  >Tipo de Artefacto:</span
-                > Ataque / Crítico
-              </p>
-              <p>
-                <span class="text-raid-gold font-semibold"
-                  >Stats Principales:</span
-                > ATK, Vel, DAÑ CRÍTICO
-              </p>
-              <p>
-                <span class="text-raid-gold font-semibold">Resistencia:</span> 150+
-              </p>
-            </div>
-          </div>
-          <div
-            class="bg-raid-card p-6 rounded-lg border-l-4 border-raid-purple"
-          >
-            <h3 class="text-xl font-bold text-raid-purple mb-4">Build Arena</h3>
-            <div class="space-y-2 text-gray-300">
-              <p>
-                <span class="text-raid-purple font-semibold"
-                  >Tipo de Artefacto:</span
-                > Defensa / Velocidad
-              </p>
-              <p>
-                <span class="text-raid-purple font-semibold"
-                  >Stats Principales:</span
-                > SPD, DEF, HP
-              </p>
-              <p>
-                <span class="text-raid-purple font-semibold">Resistencia:</span> 200+
-              </p>
-            </div>
+        <h2 class="text-3xl font-bold mb-6 text-white">
+          🛡️ Builds y Equipamiento
+        </h2>
+
+        <div
+          class="bg-raid-card p-6 rounded-lg border-l-4 border-raid-gold mb-6 shadow-lg"
+        >
+          <h3 class="text-xl font-bold text-raid-gold mb-4">
+            Sets Recomendados Globales
+          </h3>
+          <div class="flex flex-wrap gap-6">
+            {
+              recommendedSets.length > 0 ? (
+                recommendedSets.map((set) => (
+                  <div class="flex flex-col items-center gap-2">
+                    <div class="w-16 h-16 bg-gray-900 rounded-lg p-2 border border-gray-600 flex items-center justify-center relative group cursor-help">
+                      {set.icon ? (
+                        <img
+                          src={`/${set.icon}`}
+                          alt={set.name}
+                          class="w-full h-full object-contain drop-shadow-md"
+                        />
+                      ) : (
+                        <span class="text-xs text-gray-500 text-center">
+                          {set.name}
+                        </span>
+                      )}
+                      <div class="absolute bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+                        Set {set.name}
+                      </div>
+                    </div>
+                    <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">
+                      {set.name}
+                    </span>
+                  </div>
+                ))
+              ) : (
+                <p class="text-gray-400 italic">
+                  No hay sets específicos registrados en el tomo.
+                </p>
+              )
+            }
           </div>
         </div>
-        <div class="mt-6 bg-raid-bg p-6 rounded-lg border border-gray-700">
-          <p class="text-gray-400 text-center">
-            Las builds específicas se actualizarán próximamente con análisis
-            detallados.
-          </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-raid-card p-6 rounded-lg border border-gray-700">
+            <h3 class="text-xl font-bold text-white mb-4">
+              Stats Prioritarios (PvE)
+            </h3>
+            <ul class="space-y-3 text-sm text-gray-300">
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Guantes</span>
+                <span class="text-raid-gold font-bold">P.Crit / D.Crit</span>
+              </li>
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Pecho</span>
+                <span class="text-raid-gold font-bold">ATK% / HP%</span>
+              </li>
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Botas</span>
+                <span class="text-raid-gold font-bold">Velocidad</span>
+              </li>
+              <li class="pt-2">
+                <span class="text-gray-500 text-xs uppercase font-bold"
+                  >Substats:</span
+                > Vel, Puntería, P.Crit
+              </li>
+            </ul>
+          </div>
+          <div class="bg-raid-card p-6 rounded-lg border border-gray-700">
+            <h3 class="text-xl font-bold text-white mb-4">
+              Stats Prioritarios (PvP)
+            </h3>
+            <ul class="space-y-3 text-sm text-gray-300">
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Guantes</span>
+                <span class="text-raid-gold font-bold">D.Crit / HP%</span>
+              </li>
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Pecho</span>
+                <span class="text-raid-gold font-bold">RES / Puntería</span>
+              </li>
+              <li class="flex justify-between border-b border-gray-700 pb-2">
+                <span>Botas</span>
+                <span class="text-raid-gold font-bold">Velocidad</span>
+              </li>
+              <li class="pt-2">
+                <span class="text-gray-500 text-xs uppercase font-bold"
+                  >Substats:</span
+                > Vel, Resistencia, HP%
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-      <!-- Maestrías Tab -->
+
+      <section id="galeria" class="tab-content hidden">
+        <h2 class="text-3xl font-bold mb-6 text-white">🎨 Galería de Arte</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300 lg:col-span-1 lg:row-span-2 shadow-xl"
+          >
+            <img
+              src={champ.image}
+              alt={champ.name}
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-100"
+            >
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 p-4">
+              <p class="text-raid-gold font-bold text-lg">Ilustración Base</p>
+            </div>
+          </div>
+
+          {
+            extraArtworks.length > 0 ? (
+              extraArtworks.map((art, i) => (
+                <div class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 aspect-[3/4] cursor-pointer">
+                  <img
+                    src={`/${art}`}
+                    alt={`Arte ${i}`}
+                    class="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ))
+            ) : (
+              // Placeholder si no hay extra artworks
+              <div class="col-span-1 md:col-span-2 bg-raid-card/30 border border-dashed border-gray-700 rounded-lg flex flex-col items-center justify-center p-12 text-center">
+                <span class="text-4xl mb-2 opacity-50">🖼️</span>
+                <p class="text-gray-500">
+                  No hay ilustraciones adicionales disponibles.
+                </p>
+              </div>
+            )
+          }
+        </div>
+      </section>
+
       <section id="maestrias" class="tab-content hidden">
         <h2 class="text-3xl font-bold mb-6 text-white">Maestrías</h2>
-        <div class="bg-raid-bg p-8 rounded-lg border border-gray-700">
-          <p class="text-gray-400 text-center mb-6">
-            Información de maestrías en desarrollo.
+        <div
+          class="bg-raid-bg p-8 rounded-lg border border-gray-700 text-center"
+        >
+          <p class="text-gray-400 mb-6">
+            El árbol de maestrías óptimo está siendo analizado por nuestros
+            expertos.
           </p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-raid-card p-4 rounded-lg border border-gray-700">
-              <h3 class="text-raid-gold font-bold mb-3">Árbol Ofensivo</h3>
-              <p class="text-gray-400 text-sm">
-                Selecciona las maestrías que potencien tu daño y ATK.
-              </p>
-            </div>
-            <div class="bg-raid-card p-4 rounded-lg border border-gray-700">
-              <h3 class="text-raid-purple font-bold mb-3">Árbol de Apoyo</h3>
-              <p class="text-gray-400 text-sm">
-                Maestrías defensivas y de utilidad.
-              </p>
-            </div>
+          <div
+            class="inline-block bg-gray-800 px-6 py-4 rounded border border-gray-600"
+          >
+            <span class="text-2xl">🚧</span>
+            <span class="font-bold text-white ml-2">Próximamente</span>
           </div>
         </div>
       </section>
-      <!-- Prioridad de Libros Tab -->
+
       <section id="libros" class="tab-content hidden">
-        <h2 class="text-3xl font-bold mb-6 text-white">Prioridad de Libros</h2>
+        <h2 class="text-3xl font-bold mb-6 text-white">
+          📚 Prioridad de Libros
+        </h2>
         <div class="space-y-4">
           {
             champ.skills &&
               champ.skills.map((skill, index) => (
                 <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
-                  <div class="bg-raid-bg p-3 rounded-lg font-bold text-raid-gold w-12 h-12 flex items-center justify-center">
+                  <div
+                    class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${index === 0 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
+                  >
                     {index + 1}
                   </div>
                   <div class="flex-1">
-                    <h3 class="font-bold text-white">{skill.name}</h3>
+                    <h3 class="font-bold text-white text-lg">{skill.name}</h3>
                     <p class="text-gray-400 text-sm">
-                      Prioridad:{" "}
-                      {index === 0 ? "Máxima" : index === 1 ? "Alta" : "Media"}
+                      {index === 0
+                        ? "Prioridad Máxima - Fundamental para el cooldown"
+                        : "Mejorar si sobran libros"}
                     </p>
                   </div>
                 </div>
@@ -373,102 +505,96 @@ const rarityColorVar = getRarityColorVar(champ.rarity);
           }
         </div>
       </section>
-      <!-- Mejores Modos de Juego Tab -->
+
       <section id="modos" class="tab-content hidden">
         <h2 class="text-3xl font-bold mb-6 text-white">
           Mejores Modos de Juego
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {
+            /* Ejemplo estático, podrías hacerlo dinámico si tienes ratings en el JSON */
+          }
           <div
-            class="bg-linear-to-br from-raid-gold/20 to-transparent p-6 rounded-lg border border-raid-gold"
+            class="bg-gradient-to-br from-yellow-900/40 to-transparent p-6 rounded-lg border border-yellow-700/50"
           >
-            <h3 class="text-raid-gold font-bold text-lg mb-3">Campaign</h3>
-            <p class="text-gray-300 text-sm">
-              Excelente para farmear oro y experiencia en etapas tempranas.
-            </p>
+            <h3 class="text-yellow-500 font-bold text-lg mb-2">
+              Campaign & Farm
+            </h3>
+            <div class="w-full bg-gray-700 h-2 rounded-full mb-2">
+              <div class="bg-yellow-500 h-2 rounded-full" style="width: 80%">
+              </div>
+            </div>
+            <p class="text-gray-400 text-xs">Rating: 4/5</p>
           </div>
           <div
-            class="bg-linear-to-br from-raid-purple/20 to-transparent p-6 rounded-lg border border-raid-purple"
+            class="bg-gradient-to-br from-purple-900/40 to-transparent p-6 rounded-lg border border-purple-700/50"
           >
-            <h3 class="text-raid-purple font-bold text-lg mb-3">Dungeons</h3>
-            <p class="text-gray-300 text-sm">
-              Bueno en mazmorras seleccionadas, verificar sinergias.
-            </p>
+            <h3 class="text-purple-500 font-bold text-lg mb-2">
+              Dungeons (Mazmorras)
+            </h3>
+            <div class="w-full bg-gray-700 h-2 rounded-full mb-2">
+              <div class="bg-purple-500 h-2 rounded-full" style="width: 60%">
+              </div>
+            </div>
+            <p class="text-gray-400 text-xs">Rating: 3/5</p>
           </div>
           <div
-            class="bg-linear-to-br from-raid-blue/20 to-transparent p-6 rounded-lg border border-raid-blue"
+            class="bg-gradient-to-br from-blue-900/40 to-transparent p-6 rounded-lg border border-blue-700/50"
           >
-            <h3 class="text-raid-blue font-bold text-lg mb-3">Arena</h3>
+            <h3 class="text-blue-500 font-bold text-lg mb-2">Arena PvP</h3>
+            <div class="w-full bg-gray-700 h-2 rounded-full mb-2">
+              <div class="bg-blue-500 h-2 rounded-full" style="width: 90%">
+              </div>
+            </div>
+            <p class="text-gray-400 text-xs">Rating: 4.5/5</p>
+          </div>
+        </div>
+      </section>
 
-            <p class="text-gray-300 text-sm">
-              Útil en composiciones específicas, requiere apoyo.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- Sinergias Tab -->
       <section id="sinergias" class="tab-content hidden">
-        <h2 class="text-3xl font-bold mb-6 text-white">Sinergias</h2>
-        <div class="space-y-6">
-          <div class="bg-raid-card p-6 rounded-lg border border-gray-700">
-            <h3 class="text-raid-gold font-bold text-lg mb-4">
-              Sinergia con Campeones
-            </h3>
-            <p class="text-gray-400">
-              Las mejores combinaciones se actualizarán próximamente con
-              análisis de sinergias específicas.
-            </p>
-          </div>
-          <div class="bg-raid-card p-6 rounded-lg border border-gray-700">
-            <h3 class="text-raid-purple font-bold text-lg mb-4">
-              Efectos de Equipo
-            </h3>
-            <p class="text-gray-400">
-              Combina artefactos para potenciar sus estadísticas y habilidades
-              al máximo.
-            </p>
-          </div>
+        <div
+          class="bg-raid-card p-8 rounded-lg border border-gray-700 text-center"
+        >
+          <h2 class="text-2xl font-bold text-white mb-2">
+            🤝 Sinergias de Equipo
+          </h2>
+          <p class="text-gray-400">Contenido en desarrollo.</p>
         </div>
       </section>
-      <!-- Pros / Contras Tab -->
+
       <section id="proscontras" class="tab-content hidden">
-        <h2 class="text-3xl font-bold mb-6 text-white">Pros y Contras</h2>
+        <h2 class="text-3xl font-bold mb-6 text-white">Balance del Campeón</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <!-- Pros -->
-          <div>
-            <h3 class="text-2xl font-bold text-green-400 mb-4">✓ Ventajas</h3>
+          <div
+            class="bg-green-900/10 p-6 rounded-xl border border-green-900/50"
+          >
+            <h3
+              class="text-2xl font-bold text-green-400 mb-4 flex items-center gap-2"
+            >
+              <span>✅</span> Ventajas
+            </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-3">
-                <span class="text-green-400 font-bold text-xl">+</span>
-                <span class="text-gray-300"
-                  >Habilidades versátiles y útiles</span
-                >
+              <li class="flex gap-3 text-gray-300">
+                <span class="text-green-500 font-bold">+</span> Excelente daño base
               </li>
-              <li class="flex items-start gap-3">
-                <span class="text-green-400 font-bold text-xl">+</span>
-                <span class="text-gray-300">Buenas estadísticas base</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="text-green-400 font-bold text-xl">+</span>
-                <span class="text-gray-300">Funciona en múltiples modos</span>
+              <li class="flex gap-3 text-gray-300">
+                <span class="text-green-500 font-bold">+</span> Utilidad en múltiples
+                áreas
               </li>
             </ul>
           </div>
-          <!-- Contras -->
-          <div>
-            <h3 class="text-2xl font-bold text-red-400 mb-4">✗ Desventajas</h3>
+          <div class="bg-red-900/10 p-6 rounded-xl border border-red-900/50">
+            <h3
+              class="text-2xl font-bold text-red-400 mb-4 flex items-center gap-2"
+            >
+              <span>❌</span> Desventajas
+            </h3>
             <ul class="space-y-3">
-              <li class="flex items-start gap-3">
-                <span class="text-red-400 font-bold text-xl">-</span>
-                <span class="text-gray-300">Requiere inversión de libros</span>
+              <li class="flex gap-3 text-gray-300">
+                <span class="text-red-500 font-bold">-</span> Lento sin botas de velocidad
               </li>
-              <li class="flex items-start gap-3">
-                <span class="text-red-400 font-bold text-xl">-</span>
-                <span class="text-gray-300">Sinergias limitadas</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="text-red-400 font-bold text-xl">-</span>
-                <span class="text-gray-300">No es meta en endgame</span>
+              <li class="flex gap-3 text-gray-300">
+                <span class="text-red-500 font-bold">-</span> Requiere muchos libros
               </li>
             </ul>
           </div>
@@ -478,28 +604,61 @@ const rarityColorVar = getRarityColorVar(champ.rarity);
   </main>
 
   <script>
-    // Tab switching functionality
-    document.querySelectorAll(".tab-button").forEach((button) => {
+    // Tu Script Original de Tabs (Funciona Perfecto)
+    document.querySelectorAll<HTMLElement>(".tab-button").forEach((button) => {
       button.addEventListener("click", () => {
-        const tabName = (button as HTMLElement).dataset.tab;
+        const tabName = button.dataset.tab;
         if (!tabName) return;
-        // Remove active class from all buttons and hide all content
-        document.querySelectorAll(".tab-button").forEach((btn) => {
+
+        // Reset tabs buttons
+        document.querySelectorAll<HTMLElement>(".tab-button").forEach((btn) => {
           btn.classList.remove("active", "border-raid-gold", "text-raid-gold");
           btn.classList.add("border-transparent", "text-gray-400");
         });
-        document.querySelectorAll(".tab-content").forEach((content) => {
-          content.classList.add("hidden");
-        });
 
-        // Add active class to clicked button and show content
+        // Hide contents
+        document
+          .querySelectorAll<HTMLElement>(".tab-content")
+          .forEach((content) => {
+            content.classList.add("hidden");
+          });
+
+        // Activate current
         button.classList.add("active", "border-raid-gold", "text-raid-gold");
         button.classList.remove("border-transparent", "text-gray-400");
+
         const tabElement = document.getElementById(tabName);
         if (tabElement) {
           tabElement.classList.remove("hidden");
+          // Pequeño scroll suave si la tab está muy abajo
+          tabElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
         }
       });
     });
   </script>
 </Layout>
+
+<style>
+  /* Animación simple de entrada */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Ocultar scrollbar en tabs pero permitir scroll */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>

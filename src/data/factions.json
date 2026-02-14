@@ -20,8 +20,8 @@
         "image": "/assets/icons/factions/barbaros.webp"
     },
     {
-        "name": "Tribus de Ogretes",
-        "slug": "Tribus de Ogretes",
+        "name": "Ogretes",
+        "slug": "Ogretes",
         "image": "/assets/icons/factions/ogretes.webp"
     },
     {
@@ -65,8 +65,8 @@
         "image": "/assets/icons/factions/enanos.webp"
     },
     {
-        "name": "Sombríos",
-        "slug": "Sombríos",
+        "name": "Sombrios",
+        "slug": "Sombrios",
         "image": "/assets/icons/factions/sombrios.webp"
     },
     {
