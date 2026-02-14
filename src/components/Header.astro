@@ -8,44 +8,132 @@
             <!-- Logo/Brand -->
             <div class="shrink-0">
                 <a href="/" class="flex items-center gap-2 group">
-                    <div class="text-2xl font-black bg-linear-to-r from-raid-gold to-raid-purple bg-clip-text text-transparent">
-                        <img src="/favicon.png" alt="El Tomo Legendario Logo" class="w-8 h-8 object-contain"/>
+                    <div
+                        class="text-2xl font-black bg-linear-to-r from-raid-gold to-raid-purple bg-clip-text text-transparent"
+                    >
+                        <img
+                            src="/favicon.png"
+                            alt="El Tomo Legendario Logo"
+                            class="w-8 h-8 object-contain"
+                        />
                     </div>
-                    <span class="text-lg font-bold text-white group-hover:text-raid-gold transition-colors hidden sm:inline">
+                    <span
+                        class="text-lg font-bold text-white group-hover:text-raid-gold transition-colors"
+                    >
                         El Tomo Legendario
                     </span>
                 </a>
             </div>
 
             <!-- Navigation Links -->
-            <nav class="hidden md:flex items-center justify-center flex-1 gap-8">
-                <a href="/" class="text-gray-300 hover:text-raid-gold transition-colors text-sm font-semibold">
+            <nav
+                class="hidden md:flex items-center justify-center flex-1 gap-8"
+            >
+                <a
+                    href="/"
+                    class="text-gray-300 hover:text-raid-gold transition-colors text-sm font-semibold"
+                >
                     Home
                 </a>
-                <a href="/facciones" class="text-gray-300 hover:text-raid-purple transition-colors text-sm font-semibold">
+                <a
+                    href="/facciones"
+                    class="text-gray-300 hover:text-raid-purple transition-colors text-sm font-semibold"
+                >
                     Facciones
                 </a>
-                <a href="/guias" class="text-gray-300 hover:text-raid-blue transition-colors text-sm font-semibold">
+                <a
+                    href="/guias"
+                    class="text-gray-300 hover:text-raid-blue transition-colors text-sm font-semibold"
+                >
                     Guías
                 </a>
-                <a href="#" class="text-gray-300 hover:text-raid-gold transition-colors text-sm font-semibold">
+                <a
+                    href="#"
+                    class="text-gray-300 hover:text-raid-gold transition-colors text-sm font-semibold"
+                >
                     Comunidad
                 </a>
             </nav>
 
             <!-- CTA Button -->
             <div class="flex items-center gap-4">
-                <a href="/campeones" class="hidden sm:inline-block px-4 py-2 bg-raid-gold text-raid-bg font-bold text-sm rounded-lg hover:shadow-lg hover:shadow-raid-gold/50 transition-all duration-300">
+                <a
+                    href="/campeones"
+                    class="hidden sm:inline-block px-4 py-2 bg-raid-gold text-raid-bg font-bold text-sm rounded-lg hover:shadow-lg hover:shadow-raid-gold/50 transition-all duration-300"
+                >
                     Explorar
                 </a>
 
                 <!-- Mobile Menu Button -->
-                <button class="md:hidden p-2 rounded-lg hover:bg-raid-card transition-colors" aria-label="Toggle menu">
-                    <svg class="w-6 h-6 text-raid-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                <button
+                    id="mobile-menu-btn"
+                    class="md:hidden p-2 rounded-lg hover:bg-raid-card transition-colors text-raid-gold"
+                    aria-label="Toggle menu"
+                >
+                    <svg
+                        class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
             </div>
         </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div
+            id="mobile-menu"
+            class="hidden md:hidden bg-raid-card border-t border-gray-700 animate-fade-in absolute top-16 left-0 right-0 shadow-xl z-50"
+        >
+            <nav class="flex flex-col p-4 space-y-4">
+                <a
+                    href="/"
+                    class="text-gray-300 hover:text-raid-gold transition-colors font-semibold block py-2 border-b border-gray-700/50"
+                >
+                    Home
+                </a>
+                <a
+                    href="/facciones"
+                    class="text-gray-300 hover:text-raid-purple transition-colors font-semibold block py-2 border-b border-gray-700/50"
+                >
+                    Facciones
+                </a>
+                <a
+                    href="/guias"
+                    class="text-gray-300 hover:text-raid-blue transition-colors font-semibold block py-2 border-b border-gray-700/50"
+                >
+                    Guías
+                </a>
+                <a
+                    href="#"
+                    class="text-gray-300 hover:text-raid-gold transition-colors font-semibold block py-2"
+                >
+                    Comunidad
+                </a>
+                <a
+                    href="/campeones"
+                    class="inline-block w-full text-center px-4 py-3 bg-raid-gold text-raid-bg font-bold rounded-lg hover:shadow-lg hover:shadow-raid-gold/50 transition-all duration-300 mt-2"
+                >
+                    Explorar Campeones
+                </a>
+            </nav>
+        </div>
     </div>
+
+    <script is:inline>
+        const btn = document.getElementById("mobile-menu-btn");
+        const menu = document.getElementById("mobile-menu");
+
+        if (btn && menu) {
+            btn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+            });
+        }
+    </script>
 </header>

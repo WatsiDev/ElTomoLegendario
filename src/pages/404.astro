@@ -1,0 +1,83 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getAffinityStyle } from "../utils/affinity";
+
+const voidStyle = getAffinityStyle("Vacío");
+---
+
+<Layout title="404 - Página no encontrada | El Tomo Legendario">
+    <main
+        class="min-h-[70vh] flex flex-col items-center justify-center text-center px-4 relative overflow-hidden"
+    >
+        <!-- Background element -->
+        <div
+            class="absolute inset-0 bg-raid-vignette opacity-80 pointer-events-none z-0"
+        >
+        </div>
+        <div
+            class={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full blur-[100px] opacity-20 ${voidStyle.bg} pointer-events-none z-0`}
+        >
+        </div>
+
+        <div class="relative z-10 animate-fade-in">
+            <h1
+                class="text-6xl font-black leading-none mb-4 select-none drop-shadow-[0_0_25px_rgba(160,51,255,0.5)]"
+            >
+                <span
+                    class="bg-linear-to-b from-gray-200 to-gray-600 bg-clip-text text-transparent"
+                    >4</span
+                >
+                <span class="text-raid-purple animate-pulse">0</span>
+                <span
+                    class="bg-linear-to-b from-gray-200 to-gray-600 bg-clip-text text-transparent"
+                    >4</span
+                >
+            </h1>
+
+            <h2
+                class="text-3xl sm:text-4xl font-bold text-white mb-6 uppercase tracking-wider"
+            >
+                Perdido en el <span class="text-raid-purple">Vacío</span>
+            </h2>
+
+            <p
+                class="text-gray-400 text-lg max-w-md mx-auto mb-10 leading-relaxed"
+            >
+                Ni siquiera la Mediadora puede encontrar esta página. Parece que
+                ha sido consumida por la corrupción o nunca existió.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                    href="/"
+                    class="px-8 py-4 bg-raid-gold text-raid-bg font-bold rounded-lg hover:shadow-xl hover:shadow-raid-gold/40 transition-all duration-300 transform hover:-translate-y-1"
+                >
+                    Regresar al Bastión (Home)
+                </a>
+                <a
+                    href="/facciones"
+                    class="px-8 py-4 border border-gray-600 text-gray-300 font-bold rounded-lg hover:border-raid-purple hover:text-raid-purple hover:bg-raid-purple/10 transition-all duration-300"
+                >
+                    Explorar Facciones instead
+                </a>
+            </div>
+        </div>
+    </main>
+</Layout>
+
+<style>
+    @keyframes pulse {
+        0%,
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        50% {
+            opacity: 0.8;
+            transform: scale(0.95);
+        }
+    }
+    .animate-pulse {
+        animation: pulse 3s infinite ease-in-out;
+    }
+</style>

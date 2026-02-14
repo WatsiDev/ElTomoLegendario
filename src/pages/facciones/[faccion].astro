@@ -89,7 +89,6 @@ const { factionName, factionData, groupedChampions, allChampions } =
   Astro.props as Props;
 const factionImage = factionData?.image || "/favicon.png";
 ---
-
 <Layout title={`${factionName} - Campeones`}>
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div
@@ -176,59 +175,73 @@ const factionImage = factionData?.image || "/favicon.png";
     </div>
   </main>
 
-  <script lang="ts">
-    document.addEventListener("DOMContentLoaded", () => {
-      // Lógica de Filtrado (Script del Cliente)
-      const filterSearch =
-        document.querySelector<HTMLInputElement>("#filterSearch");
-      const noResults = document.querySelector<HTMLElement>("#noResults");
+  <script is:inline>
+    (function () {
+      console.log("Initializing Faction Search Script...");
 
-      function applyFilters() {
-        if (!filterSearch || !noResults) return;
+      function initSearch() {
+        const filterSearch = document.getElementById("filterSearch");
+        const noResults = document.getElementById("noResults");
+        const rarityGroups = document.querySelectorAll(".rarity-group");
 
-        // Obtenemos valores
-        const sVal = filterSearch.value.toLowerCase();
+        if (!filterSearch) {
+          console.error("Search input #filterSearch not found!");
+          return;
+        }
 
-        const rarityGroups =
-          document.querySelectorAll<HTMLElement>(".rarity-group");
-        let totalVisibleCards = 0;
+        console.log("Search input found, attaching listener.");
 
-        rarityGroups.forEach((group) => {
-          const cards = group.querySelectorAll<HTMLElement>(".champion-card");
-          let groupVisibleCount = 0;
+        filterSearch.addEventListener("input", (e) => {
+          const sVal = e.target.value.toLowerCase();
+          console.log("Filtering for:", sVal);
 
-          cards.forEach((card) => {
-            // Obtenemos datos de la tarjeta
-            const cName = card.getAttribute("data-name") || "";
+          let totalVisibleCards = 0;
 
-            // Lógica de coincidencia
-            const matchS = !sVal || cName.includes(sVal);
+          rarityGroups.forEach((group) => {
+            const cards = group.querySelectorAll(".champion-card");
+            let groupVisibleCount = 0;
 
-            if (matchS) {
-              card.classList.remove("hidden");
-              card.classList.add("flex"); // Asegurar que se muestre flexible para centrado
-              groupVisibleCount++;
+            cards.forEach((card) => {
+              const cName = card.getAttribute("data-name") || "";
+              // Normalizamos strings para evitar problemas con tildes, etc.
+              const match = !sVal || cName.includes(sVal);
+
+              if (match) {
+                card.classList.remove("hidden");
+                card.classList.add("flex");
+                groupVisibleCount++;
+              } else {
+                card.classList.add("hidden");
+                card.classList.remove("flex");
+              }
+            });
+
+            // Mostrar/Ocultar el grupo entero (Header + Grid)
+            if (groupVisibleCount > 0) {
+              group.classList.remove("hidden");
+              totalVisibleCards += groupVisibleCount;
             } else {
-              card.classList.add("hidden");
-              card.classList.remove("flex");
+              group.classList.add("hidden");
             }
           });
 
-          // Ocultar el grupo si no tiene cartas visibles
-          if (groupVisibleCount > 0) {
-            group.classList.remove("hidden");
-            totalVisibleCards += groupVisibleCount;
-          } else {
-            group.classList.add("hidden");
+          // Mostrar mensaje si no hay resultados
+          if (noResults) {
+            if (totalVisibleCards === 0) {
+              noResults.classList.remove("hidden");
+            } else {
+              noResults.classList.add("hidden");
+            }
           }
         });
-
-        // Mostrar/Ocultar mensaje de vacío
-        noResults.classList.toggle("hidden", totalVisibleCards > 0);
       }
 
-      // Event Listeners
-      filterSearch?.addEventListener("input", applyFilters);
-    });
+      // Ejecutar cuando el DOM esté listo
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initSearch);
+      } else {
+        initSearch();
+      }
+    })();
   </script>
 </Layout>
