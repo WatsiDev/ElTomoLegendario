@@ -1,0 +1,139 @@
+{
+  "slug": "jefe-de-manada-shyek",
+  "name": "Jefe de Manada Shy'ek",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo con limitadas sinergias pero con potencial de tanque para Shogun",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=Gj1ifd880Hg",
+  "blessings": [
+    "fuego-y-azufre",
+    "presencia-amenazante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "sombra_encaramada"
+  ],
+  "gear": [
+    "percepcion",
+    "incansable",
+    "punteria",
+    "velocidad",
+    "guardian",
+    "resiliencia"
+  ],
+  "uses": "No se usa, necesita que pongan más 'perros' poderosos para que sea útil",
+  "stats": {
+    "hp": 22305,
+    "speed": 98,
+    "attack": 870,
+    "defense": 1222,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Orden de Matar (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos. Luego se junta con cualquier Goremask, Bestia del Terror, Engendro Canino, Colmillo Infernal, Bestia Cosida y Sabueso Letal aliado, para atacar. Los aliados que se unan al ataque usarán su habilidad base.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Manada Alfa",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "burlon"
+        },
+        {
+          "key_name": "reflejar-dano-2"
+        }
+      ],
+      "description": "Elimina todos los debufos de este campeón y le cura el 50% de su MAX HP.\n\n Luego aplica un bufo de [Escudo] a este campeón durante 2 turnos. La magnitud del [Escudo] es igual a la curación sobrante. El bufo de [Escudo] no se puede eliminar, robar ni traspasar si hay al menos un Goremask, Bestia del Terror, Engendro Canino, Colmillo Infernal, Bestia Cosida y Sabueso Letal en el mismo grupo. \n\nPor último, aplica un bufo de [Burlón] y un bufo de 30% de [Reflejar Daño] a este campeón durante 2 turnos. Estos bufos no se pueden eliminar, robar ni traspasar si hay al menos un Goremask, Bestia del Terror, Engendro Canino, Colmillo Infernal, Bestia Cosida y Sabueso Letal en el mismo grupo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aullido de Sangre",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "description": "Llena un 25% las barras de turno de todos los aliados. También tiene un 80% de probabilidad de aplicar un debufo de [Bloquear debufos] a todos los enemigos durante 2 turnos. Este debufo no se puede resistir si hay al menos un Goremask, Bestia del Terror, Engendro Canino, Colmillo Infernal, Bestia Cosida y Sabueso Letal en el mismo grupo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cazamos como uno solo (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "description": "Al ser atacado, aplica un debufo de [Maleficio] al atacante durante 1 turno. Los aliados que ataquen a un enemigo que tenga un debufo de [Maleficio] aplicado por este campeón hacen un 20% más de daño. \n\nCuando este campeón es atacado, todos los Goremasks, Bestias del Terror, Engendros Caninos, Colmillos Infernales, Bestias Cosidas y Sabuesos Letales aliados contraatacan.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/jefe-de-manada-shyek.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

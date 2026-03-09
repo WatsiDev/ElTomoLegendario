@@ -1,0 +1,143 @@
+{
+  "slug": "sir-nicolas",
+  "name": "Sir Nicolas",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Buen nuker de HP. También cuenta con buena capacidad de control con Congelar, y muchos bufos defensivos. Combinado con Lady Noelle es top",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=hai6Q2x8pAs",
+  "blessings": [
+    "segar-almas",
+    "guarda-de-los-caidos"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "la_carcajada_final",
+    "garra_malefica",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "proteccion",
+    "letal",
+    "salvaje",
+    "apoyo",
+    "instinto"
+  ],
+  "uses": "Bastante versátil pero más en arenas junto con Lady Noelle puede servir y oleadas. Pone muchos bufos. Su Inmortal también puede servir para setups inmortales de Señor Demoníaco",
+  "stats": {
+    "hp": 22800,
+    "speed": 105,
+    "attack": 936,
+    "defense": 1123,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Espada boreal (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "0.28xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 65% de posibilidades de aplicar una debufo [Congelar] durante 1 turno. Este debufo no se puede resistir.\n\n Si Lady Noelle está en el mismo grupo, la probabilidad aumenta al 100% y el debufo no se puede bloquear ni resistir.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Protección Polar (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos. Ignora el 30% de DEF de cada objetivo si Lady Noelle está en el mismo grupo.\n\n Aplica un bufo de 25% de [Fortalecer] y un bufo [Escudo] en todos los aliados durante 2 turnos. El valor del [Escudo] es igual al 30% del daño infligido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Buena voluntad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "burlon"
+        }
+      ],
+      "description": "Aplica un bufo de [Inmortal] y un 15% [Curación continua] en todos los aliados durante 2 turnos.\n\n También aplica un bufo de [Contraataque] a este campeón durante 2 turnos. \n\nSi Lady Noelle está en el mismo grupo, también aplica un bufo de [Burlón] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardián del Invierno (Pasiva)",
+      "levels": [],
+      "description": "Reduce un 30% los efectos de Ignorar DEF enemigos usados contra aliados que tienen un bufo de [Escudo]. Si Lady Noelle tiene un bufo de [Escudo], reduce un 60% los efectos de ignorar DEF enemigos usados contra ella.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": " Aumenta el HP aliado en todas las batallas en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sir-nicolas.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "susurro",
+  "name": "Susurro",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Épico top que destruye jefes obteniendo turnos adicionales",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=Leyp-jr7jJY",
+  "blessings": [
+    "toque-fantasmal",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "bomba_de_terror",
+    "malleos_de_fuego",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Muchos, por eso es tan buena: Facciones, Gemelos, Dragón, Hydra y Jefes en general",
+  "stats": {
+    "hp": 16020,
+    "speed": 95,
+    "attack": 1443,
+    "defense": 793,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Empuje Debilitante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un debufo de 25 % [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asalto Cargado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo del 50 % [Aumentar ATK] y un 30 % [Aumentar P.Crit] en este campeón durante 2 turnos antes de atacar si el objetivo tiene HP MÁXIMO más alto que este campeón. Ignorará DEF si el objetivo está bajo un debufo de [Debilitar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ráfaga Incesante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "2.6xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 50% de probabilidad de robar 1 bufo aleatorio del objetivo.\n\n Ataca a 1 enemigo 2 veces. Otorga un Turno Extra si el objetivo está bajo debufos de [Reducir DEF] y [Debilitar].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Implacable (Pasiva)",
+      "levels": [],
+      "description": "Tiene un 10 % de probabilidad de otorgar un turno adicional cada vez que este campeón asesta un golpe crítico. Aumenta el daño infligido a los jefes en un 20 %",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en Mazmorras en 29%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/susurro.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

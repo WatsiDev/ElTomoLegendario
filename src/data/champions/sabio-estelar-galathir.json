@@ -1,0 +1,172 @@
+{
+  "slug": "sabio-estelar-galathir",
+  "name": "Sabio Estelar Galathir",
+  "faction": "Altos Elfos",
+  "rarity": "Mítico",
+  "role": "Gran campeón multiusos con debufos, control y revivir",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "segar-almas"
+  ],
+  "relics": [
+    "politopo_infernal",
+    "orbe_de_transfixion",
+    "diario_de_necrotos",
+    "varita_de_sumision",
+    "corazon_volcardiaco",
+    "crisalida_de_renacer",
+    "politopo_infernal",
+    "infernosfera",
+    "estrellas_jinang",
+    "servidumbre_de_xibia"
+  ],
+  "gear": [
+    "supersonico",
+    "justiciero"
+  ],
+  "uses": "Principalmente se ve en arenas, pero es top en casi cualquier sitio. Hace de todo menos daño",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de Aliados en todas las batallas en 80."
+    }
+  ],
+  "lore": "El relato comienza en una época anterior al tiempo, cuando los dioses Lumaya y Siroth emergieron del Reino de la Increación, un vacío cósmico repleto de potencial ilimitado. Desde este vacío infinito, los dioses dieron forma al universo, creando mundos para explorar y seres para habitarlos. Las estrellas, que brillaban contra el cielo oscuro, eran vistas como símbolos de reinos posibles, esperando ser formados por una voluntad divina o poderosa. Entre los cautivados por esta danza cósmica estaba Galathir, un elfo brillante que creía que al estudiar las estrellas, podría desentrañar los misterios de la creación misma.\n\n Impulsado por su deseo de comprender el universo, Galathir se embarcó en un viaje a las Montañas Cloudspire, donde se decía que los antiguos Dragonkin habían construido centros de observación de estrellas. En los fríos y remotos picos, estableció su propio observatorio, utilizando herramientas intrincadas y cristales encantados para cartografiar el cielo nocturno. Día tras día, Galathir registraba meticulosamente el movimiento de las estrellas, buscando patrones que pudieran revelar las leyes ocultas de la existencia. Su obsesión por las estrellas y sus posibles significados lo empujó más allá de los límites del estudio convencional, mezclando la ciencia con la experimentación arcana.\n\n Un día, por pura casualidad, Galathir descubrió algo extraordinario. Cuando iluminó sus mapas estelares de cristal con una poderosa luz mágica, formaron una red de rayos que él creyó que era una forma de lenguaje cósmico, un mensaje del mismísimo Reino de la No-creación. Convencido de que había encontrado una forma de comunicarse con los antiguos espíritus primordiales, Galathir comenzó a experimentar con la idea de hablarle al vacío. A pesar de las advertencias y acusaciones de locura, siguió adelante y construyó placas estelares artificiales en un intento de invocar a esas fuerzas misteriosas.\n\n A medida que pasaban los años, Galathir se fue aislando cada vez más, y solo le quedaba a su lado un aprendiz, Mallul. El último experimento de Galathir consistió en encerrarse en una esfera de cristal, rodeada de una serie de luces mágicas peligrosamente poderosas. Cuando se activaban las luces, bañaban a Galathir con un brillo sobrenatural, creando líneas de energía arcana que parecían conectarlo con las fuerzas con las que buscaba comunicarse. Pero el experimento salió terriblemente mal. A medida que la luz se intensificaba, el observatorio comenzó a derrumbarse y Mallul, abrumado por el miedo, huyó del lugar.\n\n El observatorio se derrumbó y un destello de luz brillante se disparó hacia el cielo, marcando el fin de la vida de Galathir tal como se la conocía. Aunque su cuerpo se perdió, se dice que Galathir ahora existe en el Reino de la No-creación, vigilando Teleria e influyendo en los eventos de maneras que siguen estando más allá de la comprensión mortal. Su legado, de ambición, obsesión y descubrimiento cósmico, continúa dando forma al mundo que una vez trató de comprender.",
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 22305,
+        "speed": 115,
+        "attack": 1013,
+        "defense": 1354,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Tormenta Astral (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "3.5xATK",
+          "description": "Ataca a todos los enemigos. Llena las Barras de turno de todos los aliados en un 10%. También llena la barra de turno de cada aliado en un 5% adicional si tienen algún bufo aplicado por este campeón."
+        },
+        {
+          "name": "Embrión Estelar (ATK)",
+          "levels": [
+            "Nivel 2: Curación +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-debufos"
+          ],
+          "description": "Elimina todos los debufos de todos los aliados y luego los cura en un 25 % del HP MÁXIMO de este campeón. También llena las barras de turno de todos los aliados en 15 y les aplica un bufo de [Bloquear Debufos] durante 2 turnos."
+        },
+        {
+          "name": "Retirar el Velo",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 6,
+          "buffDebuff": [
+            "velo-perfecto"
+          ],
+          "description": "Revive a todos los aliados muertos con 50% HP y 50% de la barra de turno. También aplica un bufo de [Velo Perfecto] a todos los aliados, excepto a este Campeón, durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Eternidad Sin Igual (Pasiva)",
+          "levels": [],
+          "description": "[Efecto pasivo] Este campeón recibe un 5 % menos de daño por cada 100 RES que tenga este campeón (se acumula hasta un 25 %). \n\n[Efecto activo] Previene la muerte de este Campeón y lo mantiene vivo con 1 HP cuando recibe un golpe mortal, luego iguala su HP. El nivel de HP de este Campeón aumentará al nivel de HP promedio del equipo."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 22305,
+        "speed": 115,
+        "attack": 1013,
+        "defense": 1354,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Haz de Descreación (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "multiplier": "3.5xATK",
+          "description": "Ataca a todos los enemigos. Reduce las barras de turno de todos los enemigos en un 10%. Reduce la Barra de turno de cada enemigo en un 5% adicional si están bajo un debufo [Bloquear habilidades activas], [Reducir RES] o [Aturdir] aplicado por este Campeón."
+        },
+        {
+          "name": "Eclipe Desgarrador (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-habilidades-activas"
+          ],
+          "multiplier": "5.5xATK",
+          "description": "Ataca a todos los enemigos. Antes de atacar, elimina todos los bufos de todos los enemigos. Luego, aplica un debufo de [Bloquear habilidades activas] durante 2 turnos. Este ataque no activará contraataques."
+        },
+        {
+          "name": "Nebulosa Oscura (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aumentar-punt-2",
+            "red-res-2",
+            "aturdir"
+          ],
+          "description": "Aplica un bufo del 50% [Aumentar PUNT] a todos los aliados durante 2 turnos. Luego, aplica un debufo de [Reducir RES] del 50% en todos los enemigos durante 2 turnos y un debufo de [Aturdir] en todos los enemigos durante 1 turno."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Reflejo de Luz Estelar (Pasiva)",
+          "levels": [],
+          "description": "[Efecto pasivo] Aumenta la PUNT de este Campeón igual al 75% de su RES al aplicar debufos o activar efectos instantáneos. \n\n[Efecto activo] Si la PUNT de un enemigo es mayor que la RES de este Campeón. tiene un 50 % de posibilidades de transferir cualquier debufo de [Miedo], [Miedo de verdad], [Congelar], [Provocar], [Sueño], [Aturdir] o [Petrificación] al enemigo al aplicar estos debufos a este Campeón."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/sabio-estelar-galathir.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

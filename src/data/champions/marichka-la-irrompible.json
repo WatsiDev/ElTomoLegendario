@@ -1,0 +1,138 @@
+{
+  "slug": "marichka-la-irrompible",
+  "name": "Marichka la Irrompible",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo top con curas, limpiezas y revivir pasivo",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "polimorfar",
+    "cosechar-vida"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "politopo_infernal",
+    "efigie_demoniaca",
+    "diario_de_necrotos",
+    "crisalida_de_renacer",
+    "arpa_de_kasbiel",
+    "estrellas_jinang",
+    "dedo_real",
+    "eternizalmas",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "resistencia",
+    "inmortal",
+    "justiciero",
+    "mercurial"
+  ],
+  "uses": "Apoyo top para casi todo el contenido del juego.",
+  "stats": {
+    "hp": 21810,
+    "speed": 110,
+    "attack": 892,
+    "defense": 1233,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Unidos Triunfamos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Un aliado al azar se uniráal ataque. El aliado que se une al ataque siempre usará su ataque básico. Si Taras el Fiero está en el mismo equipo, siempre será él quien se una al ataque de este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuente de Tenacidad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo+10%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo+10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Restaura por completo el HP MÁXIMO disminuido de cualquier aliado, luego cura a todos los aliados en un 40% del HP MÁXIMO de este Campeón. \n\nAplica un bufo de [Escudo] y un bufo protegido de [Fortalecer] en todos los aliados durante 2 turnos. El tamaño del [Escudo] es igual al 20% del HP MÁXIMO de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Amistad Nutrida ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Elimina todos los debufos de todos los aliados, luego llena las barras de turno de todos los aliados en un 15%. Llena  las barras de turno de cada aliado en un 5 % adicional por cada debufo eliminado. Aumenta el RES de los aliados en 5 por cada debufo eliminado. Otorga un turno adicional si se eliminan 5 o más debufos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Darlo Todo (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con un 50 % de vida y un 75 % de la barra de turno cada vez que matan a este campeón. \n\n [Efecto activo] Aplica un bufo de [Bloquear daño] en todos los aliados durante 1 turno cada vez que un aliado recibe un debufo de [Bomba], [Veneno] o [Quemar HP]. \n\nSi hay varios campeones en el equipo con esta habilidad, solo se activará uno. El Tiempo de Reutilización de esta habilidad solo se aplica a su efecto activo",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en un 24% en todas las batallas."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/marichka-la-irrompible.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

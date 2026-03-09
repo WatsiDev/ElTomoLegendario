@@ -1,0 +1,132 @@
+{
+  "slug": "thor-faehammer",
+  "name": "Thor Faehammer",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Nuker para oleadas e hydra con bastante daño",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=as37cDvxJn4",
+  "blessings": [
+    "llegado-del-cielo",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "invocatormentas",
+    "colmillo_asesino",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Arenas, Hydra, Arañas y limpiado oleadas",
+  "stats": {
+    "hp": 15690,
+    "speed": 105,
+    "attack": 1553,
+    "defense": 980,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ira de Mjolnir (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        }
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 20 % de probabilidad de repetir el ataque. Cada golpe reduce la barra de turno del objetivo en un 10 %",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rebote Fulminante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5xATK",
+      "description": "Ataca a todos los enemigos. Después de golpear al primer enemigo, golpeará a todos los demás enemigos en un orden aleatorio. Tras el primer ataque, cada golpe posterior aumenta el daño infligido en un 25% [se acumula hasta un 100%]. Ignorará los bufos de [Bloquear Daño] e [Inmortal]. Este efecto no funciona contra jefes.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Martillo del Cielo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 50% [Aumentar ATK] y un bufo de 30% [Aumentar D.Crit] a este campeón durante 2 turnos. Tiene un 75% de probabilidad de reducir permanentemente la RES de cada enemigo en un 10% [se acumula hasta un 50%]. También tiene un 75% de probabilidad de aplicar un debufo de 30% [Reducir VEL] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ruptura del Cielo (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Cada vez que este campeón inflige daño, el contador de Trueno aumenta en 1 [se acumula hasta 10]. Cada acumulación de Trueno aumenta el daño de este campeón en un 3 % [se acumula hasta un 30 %]. Una vez que el contador de Trueno llega a 10, ataca a todos los enemigos y les aplica un debufo [Aturdir] durante 1 turno. Después del ataque, el contador de Trueno se reinicia a 0.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/thor-faehammer.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

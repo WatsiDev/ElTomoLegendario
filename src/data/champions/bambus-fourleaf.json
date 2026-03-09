@@ -1,0 +1,146 @@
+{
+  "slug": "bambus-fourleaf",
+  "name": "Bambus Fourleaf",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Debufer con debufos de nicho. Poco versátil",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=fbfateiRqBg",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "vara_de_la_blasfemia"
+  ],
+  "gear": [
+    "frenesi",
+    "incitar",
+    "maldito"
+  ],
+  "uses": "Ninguno en específico",
+  "stats": {
+    "hp": 21480,
+    "speed": 110,
+    "attack": 870,
+    "defense": 1277,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Astilla de Bambú (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3.8xATK / 5.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de posibilidades de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos. En su lugar, atacará a todos los enemigos si el objetivo inicial tiene al menos 2 debufos. Este ataque tiene un 75% de probabilidad de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos. \n\nLuego aplica un debufo de [Dormir] a este Campeón durante 1 turno. Este debufo no se puede bloquear ni resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Grovetender (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "5.6xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de [Escudo] a todos los aliados equivalente al 30% del MAX HP de este campeón durante 2 turnos. También aumenta la duración de todos los bufos de todos los aliados en 1 turno. \n\nDespués de atacar, tiene un 75% de posibilidades de reducir la duración de todas los bufos enemigos en 1 turno, incluso si el ataque es un golpe débil. También aumenta el tamaño del [Escudo] en todos los aliados en un 3% por cada bufo enemigo cuya duración haya sido reducida con esta habilidad. \n\nLuego aplica un debufo de [Dormir] a este Campeón durante 1 turno. Este debufo no se puede bloquear ni resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cordero de Sacrificio",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "desfallecer"
+        },
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "description": "Apunta a un enemigo. \n\nPrimero, aplica un bufo del 50 % [Aumentar PUNT] y un bufo del 50 % [Aumentar de ATK] a todos los aliados durante 2 turnos. Luego, tiene un 75 % de aplicar un debufo de [Desfallecer]. un debufo de [Reducir PUNT] a todos los enemigos durante 2 turnos. El debufo de [Desfallecer] no se puede aplicar a los jefes. Tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] a los jefes durante 2 turnos en lugar en su lugar.\n\n Finalmente, aplica un debufo de [Dormir] en este campeón durante 1 turno. Este debufo no se puede ni bloquear ni resisitr.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sabio durmiente (Pasiva)",
+      "levels": [],
+      "description": "[Efecto pasivo]\n\n Tiene un 75% de posibilidades de transferir cualquier debufo aplicado a un aliado a este Campeón mientras está bajo un debufo de [Dormir]. No transferirá los debufos [Bloquear Revivir], [Aturdir], [Congelar], [Miedo], [Miedo de Verdad], [Provocar] y [Petrificación]. Al comienzo del turno de este Campeón, elimina cualquier debufo de [Dormir] de este Campeón. \n\n[Efecto activo]\n\n Transfiere todos los debufos de este Campeón al enemigo con la RES más alta, si la habilidad pasiva de este Campeón eliminó un debufo de [Dormir] de este Campeón o fue eliminado por un ataque enemigo. Este efecto no se puede resistir ni bloquear.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bambus-fourleaf.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

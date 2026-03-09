@@ -1,0 +1,136 @@
+{
+  "slug": "caza-cascabeles",
+  "name": "Caza Cascabeles",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Debufer con algo de daño",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "tiempo_de_sangre",
+    "corona_de_ireth",
+    "diario_de_necrotos",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "cruel",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Poco o ninguno, no es muy bueno",
+  "stats": {
+    "hp": 14700,
+    "speed": 101,
+    "attack": 1498,
+    "defense": 826,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Misil de Muérdago (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 40% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] durante 2 turnos si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Helada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "5.9xATK",
+      "description": "Ataca a 1 enemigo. Si este ataque mata al enemigo, tiene un 90% de probabilidad de aplicar un debufo de [Congelar] a todos los enemigos durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ola de Frío (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos. Reduce un 20% la barra de turno si este ataque es crítico. Llena un 10% la barra de turno de este campeón si este ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en arenas en 24%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/caza-cascabeles.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "maderero",
+  "name": "Maderero",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Ninguno, no se usa",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [
+    {
+      "set_name": ""
+    }
+  ],
+  "uses": "Pollo",
+  "stats": {
+    "hp": 16185,
+    "speed": 89,
+    "attack": 1233,
+    "defense": 716,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Moler de Verdad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de 25% de [Reducir Ataque] durante 2 turnos. También tiene un 20% de probabilidad de aumentar 1 turno la duración de todos los debufos de [Reducir DEF] del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aplastar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "6.45xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ímpetu Masivo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-1"
+        }
+      ],
+      "multiplier": "3.85xATK",
+      "description": "Aplica un bufo de 15% de [Aumentar D.Crit] a este campeón durante 2 turnos y luego ataca a todos los enemigos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/maderero.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

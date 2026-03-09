@@ -1,0 +1,123 @@
+{
+  "slug": "richtoff-el-audaz",
+  "name": "Richtoff el Audaz",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Nuker envenenador que hace más daño en base a venenos en el enemigo",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "cruel",
+    "percepcion",
+    "punteria",
+    "dano-critico",
+    "golpe-mortal"
+  ],
+  "uses": "Golem y Dragon en fácil. Oleadas quizá si explotamos venenos. Señor Demoníaco",
+  "stats": {
+    "hp": 18825,
+    "speed": 95,
+    "attack": 1398,
+    "defense": 925,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Perdición (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca a todos los enemigos. Destruye el HP MAX de cada objetivo en un 30% del daño infligido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangría (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe aplica un debufo del 5% [Veneno] en todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maldición Posesiva (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "6.2xATK",
+      "description": "Ataca a 1 enemigo. El daño crítico aumenta un 20% por cada debufo de Veneno en el objetivo. Se acumula hasta el 100%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": " Aumenta el ATK de aliado en criptas de facción en un 27%"
+    }
+  ],
+  "lore": "Pocos se atreverían a argumentar que el Capitán de la Guardia personal del Rey Tayba, Richtoff, conocido como el «Audaz», se ganó su título. Nacido en la familia de una piedra quebrada con un noble menor, las perspectivas de Richtoff en la vida no eran mucho mejores que las de un plebeyo. Pero Lumaya misma debe haberle sonreído. En lugar de ser enviado como una página a un noble de valor similar (o más bien falta de él) o a su propio padre, el destino de Richtoff tomó un giro diferente. El Gran Torneo en el Castillo Kaerok reunió a nobles de todo el reino, sin importar cuán intrascendentes puedan ser. Y donde la mayoría de los nobles jóvenes se contentaban con mirar y soñar con el día en que podían participar, Richtoff intentó escabullirse de los guardias en el campo de tiro con arco. El Rey, divertido por un acto tan descarado, impidió que sus hombres arrastraran a Richtoff y permitió que el niño participara. Muchos se rieron y se burlaron abiertamente del advenedizo, pero tan pronto como la primera flecha de Richtoff se hizo realidad, los murmullos y las burlas cesaron. No podía igualar a los verdaderos maestros a esa edad, por supuesto, pero había demostrado ser lo suficientemente talentoso como para ganarse su lugar en la corte de Kaerok. Allí se le dieron las herramientas y los maestros para perfeccionar su habilidad. Al llegar a la edad adulta, Richtoff ya era conocido como uno de los mejores francotiradores que el Reino tenía para ofrecer. Se dice que mató a trolls y no muertos con solo un disparo a cientos de pasos de distancia, y ninguno pudo igualar la velocidad con la que volvió a cargar su ballesta para golpear al enemigo con una lluvia de peleas. Ahora un Caballero ungido, Richtoff ha subido recientemente de rango para liderar la propia Guardia del Rey. Y los enemigos de Kaerok pueden estar seguros, nunca más el Rey será amenazado mientras sus fieles sirvientes vigilen.",
+  "forms": null,
+  "image": "/src/assets/champions/richtoff-el-audaz.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

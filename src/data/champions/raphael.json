@@ -1,0 +1,143 @@
+{
+  "slug": "raphael",
+  "name": "Raphael",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Nuker capaz de potenciar su daño y aplicar Bloquear Revivir",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=6DD5qHwHYPM",
+  "blessings": [
+    "desgarro-aplastante",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "sombra_encaramada",
+    "garra_malefica",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "cruel",
+    "despiadado",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Nuker. Oleadas o arenas con otras tortugas",
+  "stats": {
+    "hp": 16515,
+    "speed": 100,
+    "attack": 1498,
+    "defense": 980,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Pincho de Cloaca (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "2.2xATK",
+      "description": "Ataca 2 veces a 1 enemigo.\n\n Aplica un debufo de [Bloquear Revivir] si el objetivo muere.\n\n Cada crítico llena un 10% la barra de turno de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe Sísmico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4.3xATK",
+      "description": "Ataca a todos los enemigos. \n\nIgnora debufos de [Escudo] y [Bloquear Daño] si ataca con un debufo de [Berserker] aplicado por este campeón. Si este campeón no tiene un debufo de [Berserker] aplicado por sí mismo, aumenta un 50% el daño que hace a enemigos con bufos de [Escudo].\n\n Cada crítico llena un 10% la barra de turno de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "¡Hoy no, tontorrón!",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "berserker"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 3 veces. \n\nCada ataque ignora el 20% de DEF.\n\n Aplica un bufo de [Velo Perfecto] y un bufo de [Inmortal] a este campeón durante 2 turnos si el objetivo muere. Si el objetivo sobrevive, en lugar de lo anterior aplica un debufo de [Berserker] a este campeón durante 2 turnos. Este debufo no se puede resistir ni bloquear..",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Paliza en Nueva York (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "berserker"
+        }
+      ],
+      "description": "Este campeón se une al ataque siempre que ataca Leonardo, Donatello, Mikey o Raphael.\n\n Aplica un debufo de [Berserker] a este campeón durante 1 turno siempre que muere un campeón.\n\n Tiene un 20% de probabilidad de obtener un turno adicional al atacar con un debufo de [Berserker] aplicado por este campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/raphael.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

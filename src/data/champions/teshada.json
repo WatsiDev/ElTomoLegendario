@@ -1,0 +1,121 @@
+{
+  "slug": "teshada",
+  "name": "Teshada",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Apoyo con varios bufos y debufos así como un revivir",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "diario_de_necrotos",
+    "corona_lugubre"
+  ],
+  "gear": [],
+  "uses": "Facciones como mucho, pero el juego nos regala a Scyl que es mucho mejor",
+  "stats": {
+    "hp": 16350,
+    "speed": 96,
+    "attack": 826,
+    "defense": 1387,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Furia Salvaje (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "multiplier": "3.4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un bufo de 60% de [Aumentar DEF] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carnicería Máxima (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "2xDEF",
+      "description": "Ataca 3 veces al azar. Cada ataque tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Apaciguar Espíritus",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        }
+      ],
+      "cooldown": 3,
+      "description": "Revive a un aliado con el 40% de HP y el 40% de Barra de Turno y luego cura a todos los aliados el 15% de su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en Criptas de Facción en 20%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/teshada.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

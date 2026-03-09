@@ -1,0 +1,134 @@
+{
+  "slug": "kael-oscuro",
+  "name": "Kael Oscuro",
+  "faction": "Elfos Oscuros",
+  "rarity": "Épico",
+  "role": "Debufer con sinergias para poner muchos venenos",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=hdjGSw52rRM",
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "corona_de_ireth",
+    "garra_malefica",
+    "orquidea_mortilunar",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "percepcion",
+    "velocidad",
+    "cruel",
+    "salvaje",
+    "punteria"
+  ],
+  "uses": "Mid game, facciones y alguna mazmorra.",
+  "stats": {
+    "hp": 14205,
+    "speed": 96,
+    "attack": 1343,
+    "defense": 1013,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Tejedor de Aflicciones (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "1.35xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 25% de probabilidad de activar instantáneamente 2 debuffs de [Veneno] o 1 debufo de [Veneno] y 1 debufo de [Quemar HP].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Oscuridad Vinculante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos. Cada golpe crítico también tiene un 75% de probabilidad de aumentar la duración de todos los debuffos del objetivo en 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ácido de la realidad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "sensibilidad-al-veneno"
+        }
+      ],
+      "description": "Tiene un 75% de probabilidad de aplicar tres debuffs del 5% [Veneno] y un debufo del 25% [Sensibilidad al veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "lore": "Habían pasado milenios desde el gran cisma que partió en dos a la raza de los Elfos. Generaciones tras generaciones torcieron la historia para adaptarla a sus necesidades políticas, y la verdad se había perdido hace mucho tiempo, reemplazada por el odio y el resentimiento que los dos reinos Elfos fracturados albergan entre sí. Para muchos, este odio es todo lo que hay. No así para Kael, cuya mente aguda siempre buscaba la verdad, sin importar cuántas capas de falsedades tuviera que atravesar. Como aprendiz de hechicero, Kael tuvo acceso a algunos de los mayores depósitos de conocimiento que aún sobrevivieron dentro del dominio de los Elfos Oscuros. Y a diferencia de sus compañeros, tenía tanto el deseo como la paciencia de examinar manuscritos de historia antigua que no ayudaban directamente a su destreza mágica. Era un interés que podía perseguir en serio después de alcanzar la mayoría de edad y convertirse en mago por derecho propio. Kael había emprendido muchas expediciones en solitario a las antiguas ruinas del bosque de Durham y más allá, donde las reliquias del pasado de su pueblo aún permanecían intactas. Con el tiempo, se ganó el respeto cauteloso de los poderosos Elfos Oscuros, aunque la falta de odio feroz de Kael por sus primos aravos ahogó sus posibilidades de obtener un puesto en las cortes de los Nobles. Eso le pareció bien a Kael en su mayor parte, incluso si todavía ansiaba aprovechar cada oportunidad para expandir su conocimiento. Era una búsqueda que eventualmente lo convertiría en un paria entre los suyos y lo llevaría al servicio de la Mediadora.  Pero a medida que las fuerzas de Siroth se reúnen y la esperanza se desvanece en Teleria, Kael una vez más considera recurrir a las magias más oscuras que su gente había practicado durante siglos. Lo hace no para servir al mal, sino para volver su propia arma contra él. Pobre de él, ya que innumerables héroes ambiciosos intentaron hacer lo mismo. Su arrogancia y falta de comprensión fueron un camino hacia la condenación que Kael no tenía prisa por recorrer. Pero primero necesita algo que pueda ayudarlo a aprovechar las energías infernales sin ser consumido por ellas. Entonces, sus ojos se volvieron hacia la Torre del Destino. Allí, dentro de las entrañas de la antigua prisión arcana que la Mediadora había creado para algunas de las peores abominaciones de Teleria, yacían los misterios de épocas pasadas. Si Kael pudiera completar este peligroso viaje a la cima de la Torre y reclamar los artefactos ocultos esparcidos por sus pasadizos secretos, finalmente podría aprovechar la fuente de la magia oscura y desatar todo su potencial contra las criaturas oscuras sin estar sometido a la voluntad del propio Siroth",
+      "name": "Delirio (Pasiva)",
+      "levels": [],
+      "description": "Reduce en un 15% el P.Crit de los enemigos que tienen al menos 2 debuffos de veneno. Si hay varios campeones en el equipo con esta habilidad, solo uno se activará.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/kael-oscuro.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "nazana",
+  "name": "Nazana",
+  "faction": "Engendros",
+  "rarity": "Épico",
+  "role": "Sólido campeón de apoyo para early-mid game y facciones",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "diadema_no_muerta",
+    "dedo_real",
+    "abanico_negro"
+  ],
+  "gear": [
+    "inmortal",
+    "percepcion",
+    "resiliencia",
+    "ferreo"
+  ],
+  "uses": "Puede servir como tanque en facciones normal",
+  "stats": {
+    "hp": 21480,
+    "speed": 103,
+    "attack": 859,
+    "defense": 1013,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Lanza oscura (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "2.7xATK",
+      "description": "Ataca a todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Contrato impío",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Protección de aliado] en todos los aliados durante 2 turnos. Aplica un bufo de [Escudo] en este Campeón durante 2 turnos. El valor del [Escudo] es igual al 40% de los HP máximos de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Romper el acero (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Buff/Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel5: Probabilidad de Buff/Debuff + 15%"
+        },
+        {
+          "level_desc": "Nivel6: Cooldown -1"
+        },
+        {
+          "level_desc": "Nivel7: Cooldown -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "6xATK",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 50% de aplicar una debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP aliado en criptas de facción en un 28%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/nazana.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

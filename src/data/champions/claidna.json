@@ -1,0 +1,135 @@
+{
+  "slug": "claidna",
+  "name": "Claidna",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Tanque debufer",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=05OLd7RPM9Q",
+  "blessings": [
+    "polimorfar",
+    "fuego-y-azufre"
+  ],
+  "relics": null,
+  "gear": [
+    "velocidad",
+    "percepcion",
+    "punteria",
+    "apoyo",
+    "guardian",
+    "proteccion"
+  ],
+  "uses": "Principalmente facciones y oleadas, pero no es demasiado buena",
+  "stats": {
+    "hp": 21315,
+    "speed": 100,
+    "attack": 804,
+    "defense": 1354,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Toque de Sueño (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "multiplier": "0.28xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de posibilidades de aplicar un debufo de 50% de [Dormir] durante 2 turnos. Llena la barra de Turno de este Campeón en un 15% si se aplica el debufo de [Dormir].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Perder en el Bosque (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "description": "Tiene un 75 % de probabilidad de aplicar un debufo del 30 % [Reducir VEL] y un debufo [Chupar Vida] en todos los enemigos durante 2 turnos.\n\n También cura a todos los aliados en un 20 % del HP MÁXIMO de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Imbuir de Otro Mundo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos] y uno de [Revivir al morir] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Monarca Feérico (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15 %"
+        }
+      ],
+      "description": "Tiene un 30% de probabilidad de bloquear por completo el daño entrante para el primer golpe de un ataque. Ocurre una vez por turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en Mazmorras en 40%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/claidna.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

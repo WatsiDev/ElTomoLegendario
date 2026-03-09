@@ -1,0 +1,126 @@
+{
+  "slug": "osgrun-el-profanador",
+  "name": "Osgrun el Profanador",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Campeón de Apoyo con control, manipulación de barra de turno y habilidades, y una poderosa carga",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "cosechar-vida"
+  ],
+  "relics": [
+    "campana_fundida",
+    "tiempo_de_sangre"
+  ],
+  "gear": [
+    "punteria",
+    "velocidad",
+    "exactitud",
+    "percepcion"
+  ],
+  "uses": "Puede tener uso en arenas. Será bueno en facciones y la carga irá bien contra jefes, aunque generalmente será más usado para control de oleadas",
+  "stats": {
+    "hp": 19815,
+    "speed": 109,
+    "attack": 1156,
+    "defense": 1101,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada de Obsidiana (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 50% de probabilidad de aumentar el tiempo de reutilización de una habilidad activa del objetivo en 2 turnos.\n\n También llena la barra de turno de todos los aliados en un 10%",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Magia de Ireth",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "Tiene un 75% de probabilidad de eliminar todos los bufos de todos los enemigos.\n\n Reduce las barras de turno de todos los enemigos cuya barra de turno es igual o inferior al 50% en 20%. Si la barra de turno de un enemigo está más del 50% llena, la reduce en un 50% en lugar de lo anterior.\n\n Tiene un 75% de probabilidad de aplicar un [Aturdir] durante 1 turno cuyas barras de turno se haya reducido un 50%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hasta la Muerte, Sin Rendirse",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "romper-1"
+        }
+      ],
+      "description": "Se une junto a los aliados para atacar a un enemigo. Los aliados que se unan al ataque usarán su habilidad base. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] y un bufo de 7.5% de [Romper] a todos los aliados durante 2 turnos.\n\n Reduce los tiempos de reutilización de todas las habilidades de los aliados en 1 turno si el objetivo muere tras este ataque.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Susurros Oscuros (Pasiva)",
+      "levels": [],
+      "description": "[Efecto Pasivo]\n\n Los aliados hacen un 20% más de daño a enemigos bajo un debufo de [Aturdir].\n\n[Efecto Activo]\n\n Siempre que un aliado muere, automáticamente activa la habilidad de Magias de Ireth. No pondrá la habilidad en tiempo de reutilzación. Si hay múltiples campeones en el equipo con esta habilidad, solo se activará una..",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en batallas de Arena en 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/osgrun-el-profanador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

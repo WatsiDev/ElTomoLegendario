@@ -1,0 +1,129 @@
+{
+  "slug": "arix",
+  "name": "Arix",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Nuker de HP y protección de aliados",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "garra_malefica",
+    "sombra_encaramada",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal"
+  ],
+  "uses": "Un poco para todo y para nada. Hay opciones mejores, aunque técnicamente es un nuker de HP pega duro y en área, lo que la hace versátil para oleadas. ",
+  "stats": {
+    "hp": 22965,
+    "speed": 99,
+    "attack": 881,
+    "defense": 1167,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Artes Mortales (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5 %"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 25 % de probabilidad de eliminar 1 bufo aleatorio de cada objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maldición de Púas (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.35xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 50 % de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Transfiere un debufo aleatoria de este Campeón a los objetivos que reciben desventajas [Aturdir] de esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guía Retorcida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Aplica un bufo de [Protección de aliado] del 50 % a todos los aliados, excepto a este campeón, durante 2 turnos. También aplica un bufo de [Contraataque] en este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cínica (Pasiva)",
+      "description": "Llena la barra de turno de este campeón en un 5 % cada vez que un aliado inflige un golpe crítico. \n\nCura a este Campeón en un 5% de su HP MÁXIMO cada vez que un enemigo inflige un golpe crítico.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/arix.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

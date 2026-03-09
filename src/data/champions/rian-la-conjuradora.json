@@ -1,0 +1,134 @@
+{
+  "slug": "rian-la-conjuradora",
+  "name": "Rian la Conjuradora",
+  "faction": "Elfos Oscuros",
+  "rarity": "Épico",
+  "role": "Debufer con red.def y debilitar. Combos con otros campeones",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante",
+    "crueldad"
+  ],
+  "relics": [
+    "arpa_de_kasbiel",
+    "crisalida_de_renacer",
+    "dedo_real"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "velocidad",
+    "velocidad-divina",
+    "punteria"
+  ],
+  "uses": "Facciones y mazmorras",
+  "stats": {
+    "hp": 17010,
+    "speed": 98,
+    "attack": 1002,
+    "defense": 1167,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bola de Magma (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de Bufo / Debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "4.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de [Bloquear Bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rechazo Radical",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "description": "Tiene un 75% de probabilidad de eliminar todos los bufos de todos los enemigos. También tiene un 75% de probabilidad de aplicar un debufo del 25% [Debilitar] en todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maestro de Invocaciones",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Revive a un aliado muerto con un 50% de HP y un 50% de barra de turno, luego le aplica una debufo [Bloquear Debufos] durante 2 turnos. También revivirá a Akoth y a Urost con un 30% de HP y un 30% de barra de turno si están en el mismo equipo y no son el objetivo de la habilidad. Si Akoth o Urost son el objetivo de la habilidad, ese Campeón revivirá con un 50% de HP y un 50% de barra de turno, y un bufo de [Bloquear Debuffos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en todas las batallas en 40."
+    }
+  ],
+  "lore": "Muchos magos confían en las fuerzas de la naturaleza, canalizándolas a través de medios arcanos hacia cualquier objetivo que tengan en mente. Invocan lluvia y relámpagos, prenden fuego a las espadas de sus aliados o incluso destruyen a sus enemigos con granizo ácido, todas demostraciones impresionantes de hechicería para los legos. Y todo más apropiado para los embaucadores que montan un espectáculo con luces y espejos o los niños que juegan con fuerzas que no pueden comprender por completo si hay que creer en Rian the Conjurer. Es una afirmación arrogante, pero una que puede respaldar con un inmenso poder y conocimiento. Una vez una hechicera al servicio de un cruel señor de la guerra elfo oscuro, Rian siempre fue una mujer ambiciosa. No se contentaba con servir a otro, rasparse e inclinarse ante un futuro rey cuyo reinado seguramente terminaría con una daga clavada en su negro corazón. No, este arreglo nunca estuvo destinado a durar, y Rian usó su posición para adquirir toda la riqueza y el conocimiento que pudo manipulando a su desventurado matón de un patrón. Cuando llegó el momento, instigó el asesinato del señor de la guerra y huyó en el caos de las luchas internas que siguieron. Con su libertad asegurada, Rian viajó a través de los reinos de Teleria en busca de reliquias antiguas y poderosos magos de quienes podría aprender … o robar. Buscó a eruditos aravos exiliados, chamanes de las tribus orcas y bárbaras, ansiosos por robar sus secretos. Estudió todas las técnicas oscuras que tenían para ofrecer hasta que dominó el elemento fuego y pudo conjurar un infierno ardiente con un simple chasquido de sus dedos. Luego, Rian se dirigió a la ciudad de Narbuk y llegó a un pacto con el aquelarre de Nigromantes que existió durante mucho tiempo dentro de sus antiguas murallas. De estos villanos, aprendió los oscuros secretos de la magia de la plaga de almas y los rituales adecuados que le permitirían devolver la vida a los muertos. Pero Rian no sería ella misma si no perfeccionara estas técnicas oscuras, asegurándose de que sus hechizos superaran con creces la cruda reanimación de la carne muerta. Sin embargo, eso tampoco fue suficiente. Rian trató de ascender a mayores alturas de dominio y concibió un atrevido plan que la vio entrar en la corte real de Kaerok. Durante años, creó una identidad falsa para ocultar sus malas acciones. Cuando llegó el momento se presentó como una aprendiz de baja cuna de un mago alto élfico fallecido y buscó las gracias del propio Archimago del Rey, Hellmut. No fue una tarea fácil, porque Hellmut era un hombre astuto, sabio por la experiencia y la intriga constante. Se necesitó toda la astucia de Rian para asegurar su acceso a la torre del Archimago. Allí, encontró tomos antiguos que hablaban de la creación de vida artificial, sirvientes nacidos de piedra, fuego y metal para hacer las órdenes del mago, y un cetro de poder que mejoraba el flujo del talento mágico innato de uno. Por desgracia, Hellmut la atrapó en el acto, y se produjo una terrible batalla entre los dos. Las paredes de piedra de la torre se agrietaron y la madera se astilló, los libros de valor incalculable se quemaron y el cielo mismo se ennegreció en una tormenta de energía arcana cuando los dos chocaron. Hellmut había demostrado ser más fuerte al final, pero el de Rian no moriría fácilmente. Cuando todo parecía decidido, usó el conocimiento de los propios tomos de Hellmut para llamar a un golem ardiente que la protegió de la ira del Archimago. Una vez más, escapó mientras Hellmut luchaba contra su creación, desapareciendo en el desierto y evadiendo todas las persecuciones que los Señores de la Bandera del Rey enviaron tras ella. Nadie sabe dónde vive Rian el Conjurador ahora, pero hay avistamientos de una mujer elfa que se ajusta a su descripción, aunque vestida con túnicas chillonas. Aquellos que tuvieron la suerte de sobrevivir al encuentro también hablaron de una daga de vidrio de obsidiana que llevaba, envuelta en magia oscura, su sola presencia despertaba el terror primario en los corazones de los desprevenidos. Se dice que dos criaturas de piedra viva la acompañan a veces: una una fiera bestia de pura rabia, la otra una horrible construcción de almas torturadas encarceladas en un cuerpo artificial. Qué son estas criaturas y qué sacrificios tuvo que hacer Rian para crearlas, nadie puede decirlo. Pero una cosa es segura: ahora es más poderosa que nunca, y los invocadores que buscan sus servicios deben tener cuidado. Quién sabe de qué traición es capaz.",
+  "forms": null,
+  "image": "/src/assets/champions/rian-la-conjuradora.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

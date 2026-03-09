@@ -1,0 +1,117 @@
+{
+  "slug": "sir-artimage",
+  "name": "Sir Artimage",
+  "faction": "Hidalgos",
+  "rarity": "Épico",
+  "role": "Nuker para midgame con algunos debufos útiles en jefes",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "llegado-del-cielo",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Early-mid contra jefes (Golem, Dragón, facciones) ",
+  "stats": {
+    "hp": 14535,
+    "speed": 97,
+    "attack": 1310,
+    "defense": 1024,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Maza de Noble (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "2.1xATK",
+      "description": "Ataca a 1 enemigo 2 veces. El primer golpe tiene un 40 % de probabilidad de aplicar un debufo de [Reducir DEF] del 60 % durante 2 turnos. El segundo golpe tiene un 40 % de probabilidad de aplicar un debufo de [Reducir VEL] del 30 % durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Circulo de la verdad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4.2xATK",
+      "description": "Elimina todos los debufos de este campeón y luego ataca a todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Valor Irrompible (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "multiplier": "6.7xATK",
+      "description": "Ataca a 1 enemigo. Ignorará el 30 % de la DEF del objetivo. Aplica un bufo a este campeón de 50% de [Aumentar ATK] y un bufo de [Aumentar D.Crit] del 30 % durante 2 turnos si este ataque mata a un enemigo. Estos bufos no se pueden eliminar.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en arenas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sir-artimage.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

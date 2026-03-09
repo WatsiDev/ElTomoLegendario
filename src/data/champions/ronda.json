@@ -1,0 +1,139 @@
+{
+  "slug": "ronda",
+  "name": "Ronda",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Nuker versátil capaz de muchos golpes",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=YBHFm4xwHb8",
+  "blessings": [
+    "segar-almas",
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "invocatormentas",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "apagador_de_esencia",
+    "orbe_de_transfixion",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "instinto"
+  ],
+  "uses": "Principalmente arenas y Caballero de Fuego fácil. Versátil en daño en general",
+  "stats": {
+    "hp": 14865,
+    "speed": 101,
+    "attack": 1542,
+    "defense": 1046,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Ráfaga Llameante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "1.2xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Hace un golpe adicional si el objetivo tiene menos del 50% de HP después del tercer golpe.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aceleración de fase (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "bloquear-habilidades-pasivas"
+        }
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Ignorará los bufos de [Escudo] y el 30 % de la DEF del objetivo. Aplica un debufo [Bloquear habilidades pasivas] durante 2 turnos antes de atacar. Este debufo no se puede resistir. También aplica un debufo de [Bloquear habilidades activas] durante 2 turnos después de atacar. Este debufo no se puede resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Temblor de Furia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "1.9xATK",
+      "description": "Ataca a todos los enemigos 2 veces. El daño aumenta en un 30% si este campeón tiene más del 50% de HP.\n\n [Efecto pasivo] Inmune a los efectos de reducción de barra de turno cuando esta habilidad no está en Tiempo de Reutilización. Reduce todos los efectos de reducción de barra de turno utilizados contra este campeón en un 50% cuando esta habilidad está en Tiempo de Reutilización.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "En tu rincón (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Tiene un 15 % de probabilidad de unirse a un ataque cada vez que un aliado ataca a un enemigo. Esta campeona atacará con su habilidad predeterminada. Al comienzo de cada ronda, aplica un bufo de [Escudo] en este campeón durante 2 turnos equivalente al 40% de su HP MÁXIMO.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en todas las batallas en 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ronda.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

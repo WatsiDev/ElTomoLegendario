@@ -1,0 +1,139 @@
+{
+  "slug": "baron",
+  "name": "Baron",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Nuker que ignora DEF",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=KCNpXjUjFbA",
+  "blessings": [
+    "desgarro-aplastante",
+    "segar-almas"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "luna_de_sangre",
+    "invocatormentas",
+    "apagador_de_esencia",
+    "repartemuerte",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "despiadado",
+    "rompepiedra",
+    "cruel"
+  ],
+  "uses": "Principalmente arenas, pero buen limpiador de oleadas",
+  "stats": {
+    "hp": 15030,
+    "speed": 100,
+    "attack": 1575,
+    "defense": 1002,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Pisotear (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Atacará a todos los enemigos restantes con cualquier daño adicional si el objetivo muere. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Partir en dos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de 60% [Reducir DEF] durante 2 turnos. Este debufo no se puede resistir. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carga justa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3xATK x 1+bufos activos x0.25",
+      "description": "Ataca a 1 enemigo. El daño aumenta de acuerdo con la cantidad de buffos en este Campeón. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rasgacielos (ATK)",
+      "levels": [],
+      "cooldown": 4,
+      "multiplier": "4.3xATK",
+      "description": "Ataca a todos los enemigos. Ignorará los bufos de [Escudo] y [Bloquear Daño] ademas del 50% de DEF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": " Aumenta el ATK de aliado en todas las batallas en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/baron.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

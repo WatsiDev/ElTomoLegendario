@@ -1,0 +1,154 @@
+{
+  "slug": "ethlen-el-dorado",
+  "name": "Ethlen el Dorado",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Nuker capaz de potenciar su propio daño",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "despiadado",
+    "cruel",
+    "percepcion"
+  ],
+  "uses": "Nuker de oleadas, pero queda opacado rápido por legendarios que hacen lo mismo.",
+  "stats": {
+    "hp": 13215,
+    "speed": 97,
+    "attack": 1432,
+    "defense": 991,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Hendedura Protectora (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "3.4xATK",
+      "description": "Ataca a 1 enemigo. aplica un bufo de [Escudo] en este Campeón equivalente al 10% del daño infligido durante 2 turnos. También cura a este Campeón en un 10% del daño infligido si su HP es inferior al 50%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estacas Paralizantes (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10% "
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "2.1xATK",
+      "description": "Ataca a todos los enemigos 2 veces. El primer golpe tiene un 75 % de posibilidades de generar una debufo [Bloquear habilidades activas] durante 2 turnos. El segundo golpe tiene un 75 % de probabilidad de aplicar una debufo de [Miedo verdadero] durante 1 turno si los enemigos no están bajo una debufo de [Bloquear habilidades activas].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Oro Reluciente",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30 % [Aumentar D.Crit] en este Campeón durante 3 turnos y un bufo del 50 % [Aumentar PUNT] en este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe al Corazón (Pasiva)",
+      "levels": [],
+      "description": "Ignora el 10 % de DEF al atacar a campeones de Apoyo, DEF y HP [No funciona contra jefes]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 40"
+    }
+  ],
+  "lore": "Ethlen el Dorado es un héroe popular de Aravia que ha sido visto por los desesperados y abandonados desde la Era del Fuego Infernal hace siglos, hasta el día de hoy. Ningún elfo podría alcanzar tal esperanza de vida, por lo que el Ethlen de los cuentos debe haber cambiado de un salvador enmascarado y velado a otro que adoptó el nombre y la distintiva vestimenta dorada.\n\n Aunque Ethlen se adorna con un rico esplendor dorado, no mantiene sus armas y armaduras en un estado de perfección pulida y reluciente. Soportan el polvo del camino y la suciedad de los campos, el desgaste de largos viajes y duras batallas, y brillan solo donde la superficie dorada está desgastada por el uso constante. Ethlen no es un noble ostentoso y ocioso, aunque siempre parece comportarse con porte regio y dignidad. Del mismo modo, habla poco, dejando que sus acciones hablen por él. Su causa es proteger a aquellos que no pueden protegerse a sí mismos, de la fauna salvaje, las monstruosidades retorcidas y los maliciosos telerianos en igual medida.\n\n Las intervenciones de Ethlen son notoriamente breves y eficientes. Junto con su taciturnidad, Ethlen no hace movimientos excesivos, florituras inútiles o pasos no calculados. Maneja una pequeña espada en espacios reducidos, así como su bastón con forma de gancho, un famoso instrumento de sus heroicos rescates. Lo usa para balancearse en las ramas, ahuyentar a las bestias, quitar troncos y rocas caídos de las víctimas heridas y muchas otras cosas.\n\n Y luego están sus misteriosas estacas doradas, un crescendo común a las ráfagas de ataques de Ethlen. Lanzando diminutas agujas de oro con precisión mortal, Ethlen inflige heridas dolorosas pero menores. Pero luego, Ethlen -o quizás las agujas mismas- invoca manifestaciones cristalinas penetrantes que vibran con magia, que son atraídas por las agujas doradas como un rayo a una vara. Las propiedades alquímicas del oro, el metal más noble e imperecedero, son muy debatidas por los cabalistas, y tal vez Ethlen descubrió un secreto para explotar una propiedad tan misteriosa. Los resultados, ya sea que los poderes de Ethlen sean de origen sagrado, alquímico o arcano, son bastante distintos: dolor intenso e inmovilización ferozmente persistente de la carne circundante.\n\n Aunque Ethlen lucha contra su cuota de engendros Siroth con determinación estoica para ayudar a los necesitados, muestra una mayor inclinación por combatir a aquellos mortales que, dotados de razón y compasión como los hijos iluminados de los dioses, aún eligen la violencia contra sus compañeros. Al castigar a los bandidos y asesinos, Ethlen revela los destellos más cercanos de emoción o talento, utilizando sus misiles dorados paralizantes para frustrar sus extorsiones y depredación y, si puede, infligir dolor y humillación adicionales a los matones mientras se lleva a los inocentes a un lugar seguro. En el Pantano Ugrun, situado entre Kaerok y Aravia, por ejemplo, bandidos notorios estaban interrumpiendo las rutas comerciales que eran el único vínculo de los sufridos lugareños con el mundo exterior. Ethlen dejó a una banda de sus asaltantes boca abajo en la oscuridad luchando por respirar a través del repugnante lodo, con los brazos y las piernas inmovilizados por heridas de espinas doradas que de otro modo serían superficiales. Pero cuando un lobo feroz y cubierto de barro atacó a los bandidos indefensos, Ethlen ahuyentó a la bestia y los salvó también.\n\n Aunque la frecuencia de sus apariciones ha disminuido de forma constante, las historias del salvador errante Ethlen han persistido a lo largo de generaciones. La mayoría cree que el primero entrenó a un discípulo, quien a su vez entrenó a su propio sucesor, y así sucesivamente. Otros tienen teorías aún más atrevidas y consideran a Ethlen un Primogénito inmortal.",
+  "forms": null,
+  "image": "/src/assets/champions/ethlen-el-dorado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

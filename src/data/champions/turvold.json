@@ -1,0 +1,127 @@
+{
+  "slug": "turvold",
+  "name": "Turvold",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Poderoso nuker de 1 solo objetivo, aunque algo desactualizado al contenido actual",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "colmillo_asesino",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "apagador_de_esencia",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Algo antiguado. Quizá hydra o jefe de clan en setups especificas",
+  "stats": {
+    "hp": 17505,
+    "speed": 93,
+    "attack": 1498,
+    "defense": 914,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Espada Crepitante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%."
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%."
+        },
+        {
+          "level_desc": "Nivel 4: posibilidades +10%."
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%."
+        },
+        {
+          "level_desc": "Nivel 6: posibilidades +10%."
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene una probabilidad del 55% de aplicar una debufo del 25% [Debilitar] durante 2 turnos. Daño basado en ATK",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Poder de los Ancestros (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Aumentar ATK] , un bufo de 30% [Aumentar P.Crit] y un bufo de 30% [Aumentar VEL] en este Campeón durante 2 turnos. Otorga un turno extra.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Juggernaut (ATK)",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Daño +10%."
+        },
+        {
+          "level_desc": "Niv. 3 Daño +10%."
+        },
+        {
+          "level_desc": "Niv. 4 Tiempo de Reutilización -1."
+        },
+        {
+          "level_desc": "Niv. 5 Daño +10%."
+        },
+        {
+          "level_desc": "Niv. 6 Tiempo de Reutilización -1."
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3xATK x (1 + 0.2xCantidad de bufos)",
+      "description": "Ataca 1 enemigo 2 veces. El daño aumenta según el número de bufos en este Campeón. Reinicia el tiempo de reutilización de esta habilidad si el objetivo muere",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Incrementa el ataque de aliados en criptas de facción en un 42%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/turvold.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "ermitano-jorrg",
+  "name": "Ermitaño Jorrg",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Iniciador y revividor para la faccion",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "efigie_demoniaca",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "renacer",
+    "velocidad",
+    "velocidad-divina",
+    "supersonico"
+  ],
+  "uses": "Útil en early y mid-game en general y facciones",
+  "stats": {
+    "hp": 16350,
+    "speed": 104,
+    "attack": 1134,
+    "defense": 1079,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Brasero pútrido (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un [Quemar HP] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Héroes de antaño (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo del 50% [Aumentar ATK] en todos los aliados durante 2 turnos y llena las barras de turno de todos los aliados en un 20%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caminada Fantasmal ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Revive a 2 aliados aleatorios con un 60% de HP, luego llena sus medidores de turno en un 40% y les otorga un bufo de [Velo perfecto] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ermitano-jorrg.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

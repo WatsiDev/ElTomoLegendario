@@ -1,0 +1,134 @@
+{
+  "slug": "abadesa",
+  "name": "Abadesa",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker con debufos, pero de poca utilidad en mid y late game.",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=Se1Y2mg7xL4",
+  "blessings": [
+    "segar-almas",
+    "crueldad"
+  ],
+  "relics": [
+    "garra_malefica",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "martillo_del_fin",
+    "invocatormentas",
+    "mirada_del_gato",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "velocidad",
+    "cruel",
+    "ataque",
+    "punteria",
+    "dano-critico",
+    "percepcion",
+    "despiadado",
+    "instinto"
+  ],
+  "uses": "No es mala, pero hay campeones que hacen lo mismo mejor. ",
+  "stats": {
+    "hp": 16020,
+    "speed": 104,
+    "attack": 1674,
+    "defense": 837,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Flecha de Reprimenda (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "2.8xATK",
+      "description": "Ataca a 1 enemigo. Elimina 1 debufo aleatorio de este campeón y lo aplica al objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Empalamiento masivo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "5.1xATK",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 75% de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cólera divina (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "4.5xATK o 4.5xATK/DEF enemigo (la que sea más alta que el ATK de Abadesa)",
+      "description": "Ataca a todos los enemigos. El daño infligido es proporcional al ATK de este Campeón o a la DEF o al ATK del objetivo, lo que sea más alto. Causa un DAÑO CRIT adicional de 30% si el ATK del objetivo es más alto, e ignora el 30% de la DEF del objetivo si la DEF del objetivo es más alta.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": " Aumenta el ATK de aliados en criptas de facción en un 34%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/abadesa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

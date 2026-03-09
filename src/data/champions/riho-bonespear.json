@@ -1,0 +1,157 @@
+{
+  "slug": "riho-bonespear",
+  "name": "Riho Bonespear",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Poderoso campeón de apoyo con muchos debufos en una sola habilidad y curas",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=EQtS9xIOCEg",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "diario_de_necrotos",
+    "sombra_encaramada"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Buena en PvE. Su A2 la hace muy buena en Necrópolis de Arena y contra Jefes ",
+  "stats": {
+    "hp": 18660,
+    "speed": 105,
+    "attack": 1189,
+    "defense": 1145,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Absorción (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Ataca al enemigo. Aplica un bufo del 15% [Curación continua] en el aliado con el menor HP durante 1 turno. También aplica un bufo de 7.5% [Curación continua] en todos los aliados con 30% de HP o menos durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Puntos de presión",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        },
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-p-crit-2"
+        }
+      ],
+      "description": "Aplica un debufo de [Aturdir] en un enemigo objetivo durante 1 turno, así como un debufo de [Quemar HP], un debufo del 60% [Reducir DEF], un 25% [Debilitar] debufo, un debufo del 50% [Reducir ATK] y un debufo del 30% [Reducir P.Crit] durante 2 turnos, luego ataca al objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cuerpo perfecto",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados, luego les aplica un bufo de [Bloquear Debufos] durante 2 turnos. También cura a todos los aliados en un 35% de su MAX HP y en un 5% más por cada debufo que se les quita.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reflejar (Pasiva)",
+      "levels": [],
+      "cooldown": 3,
+      "description": "Al recibir cualquier debufo, lo transfiere instantáneamente de este Campeón al atacante. [No transferirá debufos que no se puedan eliminar].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en las criptas de facción en un 42%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/riho-bonespear.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

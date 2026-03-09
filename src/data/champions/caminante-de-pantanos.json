@@ -1,0 +1,129 @@
+{
+  "slug": "caminante-de-pantanos",
+  "name": "Caminante de Pantanos",
+  "faction": "Hombres Lagarto",
+  "rarity": "Raro",
+  "role": "Apoyo con algún bufo defensivo potente para early game",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "curacion-milagrosa"
+  ],
+  "relics": [
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": "Facciones como mucho, es un raro decente a falta de otras cosas.",
+  "stats": {
+    "hp": 16020,
+    "speed": 93,
+    "attack": 848,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Katars de Hueso (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aplicar un debufo de 50 % [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ataque Combo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 7: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "multiplier": "2xATK + 2.3xDEF",
+      "description": "Ataca a todos los enemigos. Aplica un bufo de [Aumentar DEF] del 30% en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Explorador (Pasiva) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "reflejar-dano-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30 % de [Reflejar Daño] a todos los aliados durante 1 turno cuando reciben un golpe crítico.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta los HP de los aliados en las mazmorras en un 25 %."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/caminante-de-pantanos.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "trunda-giltmallet",
+  "name": "Trunda Giltmallet",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Tremendo nuker, muy poderoso en hydra y arenas",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=xByGmBisfKM",
+  "blessings": [
+    "llegado-del-cielo",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "colmillo_asesino",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "invocatormentas",
+    "corona_de_ireth",
+    "pergamino_invisible",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "fervor",
+    "dano-critico",
+    "golpe-mortal",
+    "despiadado",
+    "cruel",
+    "parada-rapida"
+  ],
+  "uses": "Arenas, Oleadas e Hydra. A mejor setup con reseteos, mejor daño",
+  "stats": {
+    "hp": 22800,
+    "speed": 100,
+    "attack": 1608,
+    "defense": 980,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 80
+  },
+  "skills": [
+    {
+      "name": "Mazo Dorado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "1.85xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 50% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Capa de las Edades (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo, luego ataca a todos los demás enemigos con un segundo ataque que hace el 60% del daño infligido del primero e ignora el 50% de DEF del objetivo.\n\n El segundo ataque de esta habilidad es el único que ignora el 50% de la DEF del objetivo. El segundo ataque siempre es normal.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ritmo de la Forja (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 70% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno. También aplica un  debufo de [Quemar HP] durante 2 turnos. Ataca una vez más a los enemigos que no tienen un debufo de [Aturdir]. Los dos ataques de esta habilidad hacen un 50% más de daño a los escudos de [Piel de Piedra].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Justicia rápida (Pasiva)",
+      "levels": [],
+      "description": "+10% de ATK por cada debufo de [Aturdir] o [Quemar HP] que aplique este Campeón a los enemigos. (se acumula hasta 50% por ronda). \n\n +5 de VEL por cada enemigo que tenga un debufo de [Quemar HP] o [Aturdir] (se acumula hasta 15). Solo cuentan los debufos de [Quemar HP] o [Aturdir] activos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados de magia en todas las batallas en un 36%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/trunda-giltmallet.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

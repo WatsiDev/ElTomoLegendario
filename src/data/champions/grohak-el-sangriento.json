@@ -1,0 +1,134 @@
+{
+  "slug": "grohak-el-sangriento",
+  "name": "Grohak el Sangriento",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Nuker con potencial de aumento de barra de turno, aunque off-meta",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "repartemuerte",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "invocatormentas",
+    "tiempo_de_sangre",
+    "luna_de_sangre",
+    "campana_fundida",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "cruel",
+    "letal",
+    "salvaje",
+    "instinto",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Oleadas y facciones, pero no es lo mejor.",
+  "stats": {
+    "hp": 15690,
+    "speed": 96,
+    "attack": 1487,
+    "defense": 1046,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Robar la Celeridad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca 2 veces al azar. Cada golpe tiene un 35% de posibilidades de aplicar un debufo de 30% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia Sin Límite (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.7xATK",
+      "description": "Ataca a todos los enemigos. Llena la barra de turno de este campeón en un 20% por cada golpe critico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Señor de la guerra (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "5.9xATK",
+      "description": "Ataca a 1 enemigo y toda la barra de turno del objetivo. Aplica un debufo de [Debilitar] durante 2 turnos si este golpe es crítico.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliado en mazmorras en un 24%"
+    }
+  ],
+  "lore": "Grohak el sangriento proviene de una época de leyendas y tragedias alejadas de la actual guerra de Teleria. En aquel entonces, la civilización orca había estado en la cima de su poder y amenazó con derrocar el poder del Reino de los Elfos. Todo lo que habría requerido era un solo líder para unir a los clanes fracturados, y la marea de acero salvaje habría barrido todo a su paso hasta que se estrellara contra las mismas puertas del Palacio de Aravia. Convertirse en ese líder había sido el objetivo de la vida de Grohak desde que probó la victoria por primera vez y escuchó los gritos de sus miembros del clan que gritaban su nombre. Buscó desafíos dignos de un guerrero legendario, aprendió a luchar contra los odiados Elfos de una manera que los privó de sus bufos. De hecho, Grohak, o la mayoría de los Orcos, a menudo luchan para igualar la velocidad y la destreza de sus enemigos. Pero el joven jefe de guerra perfeccionó las técnicas de lucha que paralizarían y frenarían a los guerreros élficos, haciéndolos presa fácil de su furia desatada. Tal vez, hubiera visto su sueño hecho realidad eventualmente, o muerto gloriosamente en la batalla, si no fuera por las maquinaciones de Siroth y la interferencia del árbitro. Justo cuando el conflicto entre los Altos Elfos y los Orcos llegó a su sangriento crescendo, las oscuras legiones de Siroth rasgaron el velo entre reinos. Invadieron a Teleria con fuerza, masacrando o subyugando a cualquiera que se atreviera a resistir. Fue entonces cuando el árbitro buscó reclutar a los guerreros mortales más poderosos, y Grohak había sido uno de los héroes a los que se podía llamar. Al principio, se resistió a gritar en contra de la voluntad del Árbitro cuando su destino fue arrebatado de su alcance. Eventualmente, sin embargo, Grohak aceptó su nuevo papel y lideró a innumerables campeones a luchar contra las hordas de engendros. Había triunfado en innumerables duelos antes de que se frustrara la invasión, derribando a muchos demonios y sobreviviendo heridas graves. Algunos de ellos no podían curarse por completo ni siquiera por el poder del árbitro, por lo que Grohak salió de esta victoria marcado y marcado para siempre por el color carmesí de su piel, un color que con gusto había abrazado y exhibido en su armadura.",
+  "forms": null,
+  "image": "/src/assets/champions/grohak-el-sangriento.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

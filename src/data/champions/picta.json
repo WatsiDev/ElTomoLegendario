@@ -1,0 +1,113 @@
+{
+  "slug": "picta",
+  "name": "Picta",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Épico del montón sin muchos usos",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 19815,
+    "speed": 97,
+    "attack": 1013,
+    "defense": 969,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Espadazo Cruzado (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "0.13xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 25% de posibilidades de aplicar un debufo de [Bloquear habilidades activas] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia Inagotable",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "reflejar-dano-2"
+        }
+      ],
+      "description": "Elimina todos los debufos de este Campeón y 1 debufo aleatorio de todos los aliados, luego cura a este Campeón en un 100 % de su HP MÁXIMO y cura a todos los aliados en una cantidad equivalente al 50 % de la curación sobrante. Luego, aplica un bufo del 30% de [Reflejar daño] a todos los aliados durante 2 turnos y luego le da a este campeón un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Abrumar (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "0.42xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de posibilidades de aplicar un debufo de [Bloquear habilidades activas] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/picta.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

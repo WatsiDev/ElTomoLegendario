@@ -1,0 +1,141 @@
+{
+  "slug": "belz-el-ajusticiador",
+  "name": "Belz-el-Ajusticiador",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Nuker de HP con buenos debufos",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=b8UpmH8c5Ew",
+  "blessings": [
+    "fuego-y-azufre",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "corona_de_ireth",
+    "garra_malefica",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "instinto",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Muy buen nuker de HP con debufos útiles para Hydra hasta late-game",
+  "stats": {
+    "hp": 23295,
+    "speed": 99,
+    "attack": 749,
+    "defense": 1277,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Aniquilador de Demonios (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5:  Probabilidad bufo / debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad un debufo de 60% de [Reducir DEF] durante 2 turnos. Ignora 5% de DEF del objetivo por cada debufo que tenga.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Don del Dolor (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.3xHP",
+      "description": "Ataca a 1 enemigo. Antes de atacar, roba todos los bufos del objetivo. Repite el ataque contra todos los enemigos si el objetivo inicial tiene un debufo de [Chupar Sangre].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Brecha de Terrestre (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5:  Probabilidad bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "0.27xHP",
+      "description": "Ataca a todos los enemigos. \n\nTiene un 75% de probabilidad de aplicar un debufo de [Chupar Vida] a todos los enemigos durante 2 turnos. \n\nTambién llena un 5% la Barra de Turno de este campeón por cada debufo aplicado por esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marcha del Juicio (Pasiva) ",
+      "levels": [],
+      "description": "+5% MAX HP (se acumula hasta el 50%) y +5% D.Crit (se acumula hasta el 50%) por cada debufo aplicado por este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta PUNT de aliados en todas las batallas en 60"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/belz-el-ajusticiador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

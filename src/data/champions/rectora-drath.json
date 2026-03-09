@@ -1,0 +1,142 @@
+{
+  "slug": "rectora-drath",
+  "name": "Rectora Drath",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Campeón de Apoyo con buenos bufos y debufos para jefes",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "nutrir",
+    "cura-de-urgencia"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "arpa_de_kasbiel",
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "incondicional",
+    "proteccion",
+    "inmortal",
+    "velocidad",
+    "ferreo",
+    "impulso"
+  ],
+  "uses": "Facciones, y casos puntuales hasta mid-late game como revividor",
+  "stats": {
+    "hp": 17010,
+    "speed": 109,
+    "attack": 1035,
+    "defense": 1134,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cetro de autoridad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 35% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Necro Mutación",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Cura a todos los aliados en un 20% de los PS MÁXIMOS de este campeón. Después de curar, aplica un bufo de [Velo perfecto] durante 2 turnos a todos los aliados con HP completo. Aplica un bufo del 15% [Curación continua] durante 1 turno en lugar de todos los aliados con menos del 100% de HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Forma de espíritu",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Revive a un solo aliado con un 60% de HP y llena su barra de turno en un 60%. Le aplica un bufo de [Velo perfecto] durante 3 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maestro de los fantasmas (Pasiva)",
+      "levels": [],
+      "description": "Siempre que un aliado bajo un [Velo] o [Velo perfecto] obtiene un turno, lo cura en un 10% de su MAX HP. También aumenta el RES de los aliados bajo los beneficios de [Velo] o [Velo perfecto] en 50. Solo aumentará el RES una vez por aliado si hay varios Rectores en el equipo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESISTENCIA de los aliados en las batallas de la Torre del Destino en 55."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/rectora-drath.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

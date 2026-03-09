@@ -1,0 +1,129 @@
+{
+  "slug": "kantra-el-ciclon",
+  "name": "Kantra el Ciclon",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Tanque debufer con muchos debufos así como control y auto curación",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "cadenas-temporales"
+  ],
+  "relics": [
+    "rocadragon_dorada",
+    "orbe_de_transfixion",
+    "caldero_acaparador"
+  ],
+  "gear": [],
+  "uses": "Decente en Hydra por sus debufos. Buena en oledadas también.",
+  "stats": {
+    "hp": 18330,
+    "speed": 99,
+    "attack": 815,
+    "defense": 1542,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Hacha de Perdición (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "1.6xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 40% de probabilidad de robar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tempestad del Caos (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "1xATK",
+      "description": "Ataca a todos los enemigos 3 veces. Cada golpe tiene un 50% de posibilidades de aplicar uno de los siguientes debuffs durante 2 turnos: un debufo de [Bloquear bufos], un 50% [Reducir ATK] debufo, un 30% [Reducir VEL] debufo, 25% [Debilitar] debufo , una debufo de 50% [Reducir PUNT], o una debufo de 100% [Curación Reducida].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "No Hay Escapatoria (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Reduce la PUNT de cada enemigo en 10 por cada debufo en la que se encuentran. Este campeón recibirá un 4% menos de daño por cada debufo en el equipo enemigo. Cura a este campeón en 1.250 HP cada vez que un debufo caduca sobre un enemigo. Tiene un 75% de posibilidades de aplicar un debufo [Incitar] por 1 turno en enemigos menores de 5 o más debufo al comienzo del turno de este Campeón. Este campeón puede aplicar debufos en golpes débiles.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/kantra-el-ciclon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

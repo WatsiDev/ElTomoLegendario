@@ -1,0 +1,134 @@
+{
+  "slug": "sun-wukong",
+  "name": "Sun Wukong",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Nuker polivalente y versátil, especialista en arenas y con potencial en algunas mazmorras y oleadas",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=RBpY_Adbl2w",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "segar-almas"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "invocatormentas",
+    "varita_de_sumision",
+    "repartemuerte",
+    "politopo_infernal",
+    "garra_malefica",
+    "pasion_codiciosa",
+    "el_colectivo",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Principalmente arenas. En early en casi cualquier sitio por su revivir.",
+  "stats": {
+    "hp": 16515,
+    "speed": 105,
+    "attack": 1586,
+    "defense": 892,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Te Pillé (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25 % de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. La probabilidad aumenta al 50% si el objetivo tiene algún bufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vara de Esperanza (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "oveja"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Ignorará el 50% de la DEF del objetivo. Atacará a todos los enemigos restantes con cualquier daño adicional si el objetivo muere. Este ataque también ignorará el 50% de la DEF del objetivo. Este ataque no puede ser crítico. \n\nSi el objetivo inicial sobrevive, le aplica un debufo [Oveja] durante 1 turno. Este debufo no se puede bloquear.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ahora nos ves (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, roba todas los bufos de todos los enemigos y luego les aplica un debufo de [Bloquear Bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sun-wukong.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

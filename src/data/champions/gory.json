@@ -1,0 +1,165 @@
+{
+  "slug": "gory",
+  "name": "Gory",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Nuker de nicho con mecánicas de congelar",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "cruel",
+    "salvaje",
+    "punteria",
+    "velocidad"
+  ],
+  "uses": "Caballero de Fuego Dificil (primeros pisos) o combinado con otros congeladores para oleadas, Torre del Destino o Facciones para controlar",
+  "stats": {
+    "hp": 14535,
+    "speed": 90,
+    "attack": 1476,
+    "defense": 859,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Consuelo Frío (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Ataca 1 vez más si el objetivo tiene un debufo de [Congelar]. Cura a este campeón el 10% de daño hecho.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Jutsu de Escarcha (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "2.1xATK",
+      "description": "Ataca 3 veces al azar. Cada ataque tiene un 75% de probabilidad de aplicar un debufo de 75% de [Congelar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompehielo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "5.6xATK",
+      "description": "Ataca a 1 enemigo. Ignora bufos de [Aumentar DEF] y [Escudo]. También ignora el 50% de DEF del objetivo si tiene un debufo de [Congelar].\n\n Aplica un bufo de [Contraataque] y un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Dignidad (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Contraataca con la habilidad Consuelo Frío siempre que un enemigo aplica un debufo de .",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gory.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

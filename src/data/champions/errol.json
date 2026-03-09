@@ -1,0 +1,131 @@
+{
+  "slug": "errol",
+  "name": "Errol",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Poderoso nuker, pero limitado, ya que solo aporta daño",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=Q3msPrD8Zt4",
+  "blessings": [
+    "segar-almas",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "malleos_de_fuego",
+    "la_carcajada_final",
+    "martillo_del_fin",
+    "sombra_encaramada",
+    "invocatormentas",
+    "luna_de_sangre",
+    "corona_corrompida",
+    "pasion_codiciosa",
+    "mirada_del_gato",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "cruel",
+    "velocidad",
+    "dano-critico",
+    "despiadado",
+    "instinto"
+  ],
+  "uses": "Yo tengo uno muy potente y limpia bien contenido en Facciones Dificiles. Arenas también sirve aunque no esa meta, y puede ayudar con limpieza de oleadas",
+  "stats": {
+    "hp": 16020,
+    "speed": 104,
+    "attack": 1674,
+    "defense": 837,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada Flameante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% más de posibilidades de infligir un golpe crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompeyelmos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "1.5xATK",
+      "description": "Ataca a todos los enemigos 2 veces. Tiene un 30% más de posibilidades de infligir un golpe crítico. Cada ataque ignora el 15% de DEF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Negación (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.2xATK",
+      "description": "Ataca a un enemigo. Elimina todos los debufos de este campeón y roba todos los bufos del enemigo antes de atacar. Tiene un 30% más de posibilidades de infligir un golpe crítico. Obtén un turno adicional si el enemigo muere.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 28%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/errol.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

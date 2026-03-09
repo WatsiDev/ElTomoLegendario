@@ -1,0 +1,144 @@
+{
+  "slug": "aratheia-florcadaver",
+  "name": "Aratheia Florcadaver",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Nuker que gira en torno a Maleficios y obtener barra de turno",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "corona_de_ireth",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "despiadado",
+    "letal",
+    "cruel",
+    "instinto",
+    "golpe-letal",
+    "dano-critico"
+  ],
+  "uses": "Nuker principalmente para arenas, pero también viable en oleadas aunque no es muy específica",
+  "stats": {
+    "hp": 14700,
+    "speed": 100,
+    "attack": 1498,
+    "defense": 1101,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Floración Maldita (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo.\n\n Llena un 10% la Barra de turno de este campeón. Llena un 10% más la barra de turno de este campeón si el enemigo tiene un debufo de [Maleficio].\n\n Contraataca con esta habilidad al ser atacado con enemigos que tienen un debufo de [Maleficio].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rencor Caprichoso (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "2xATK+1+0.1xATK por cada debufo de Maleficio",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n Hace un 10% más de daño por cada debufo de [Maleficio]. Ignora bufos de [Escudo] y [Fortalecer]. También ignora los bufos de [Bloquear Daño] de enemigos con un debufo de [Maleficio].\n\n Llena un 30% la Barra de Turno de este campeón. Llena un 20% más la barra de turno de este campeón por cada enemigo que mate esta habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Nube Hechizamentes (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "marca-de-la-muerte"
+        },
+        {
+          "key_name": "maleficio"
+        },
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "multiplier": "0.4xHP",
+      "description": "Aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Marca de la Muerte] a un objetivo enemigo durante 2 turnos. También tiene un 75% de probabilidad de aplicar un debufo de [Maleficio] a todos los enemigos durante 2 turnos.\n\n Luego llena un 50% la Barra de Turno de este campeón. Llena un 10% más la barra de turno de este campeón por cada debufo aplicado por esta habilidad. También aplica un bufo de [Bloquear Daño] a este campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Frenesí de Colmillos (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Si este campeón mata a 1 o más enemigos en combate, ignora el 10% de DEF.\n\n Si este campeón mata a 2 o más enemigos en combate, obtiene un bufo de [Escudo] del 40% de su MAX HP durante 2 turnos al comienzo de su turno.\n\n Si este campeón mata a 3 o más enemigos en combate, cada ataque reduce un 10% la Barra de Turno del objetivo. Este efecto no se puede resistir.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/aratheia-florcadaver.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

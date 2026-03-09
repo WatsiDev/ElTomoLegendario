@@ -1,0 +1,135 @@
+{
+  "slug": "depredador",
+  "name": "Depredador",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Nuker de HP capaz de aplicar \"Marca del Cazador\" y golpes en área decentes para ser un nuker de HP",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=pHrW9bo1UPE",
+  "blessings": [
+    "desgarro-aplastante",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "tributo_de_san_zavier",
+    "martillo_del_fin",
+    "pasion_codiciosa",
+    "corona_corrompida",
+    "vial_del_sombrerero",
+    "garra_malefica",
+    "invocatormentas",
+    "luna_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Arenas y limpieza de oleadas principalmente, pero hay opciones que pegan más, y gratis",
+  "stats": {
+    "hp": 25770,
+    "speed": 98,
+    "attack": 716,
+    "defense": 1145,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Muñequera (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "0.26xHP",
+      "description": "Ataca a 1 enemigo. Cura a este campeón el 30% del daño hecho.\n\n[Efecto Pasivo]\n\n Cada vez que este campeón Evade con éxito una habilidad enemiga y todos los efectos asociados, contraataca con esta habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Disco Inteligente (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.19xHP",
+      "description": "Ataca 2 veces a todos los enemigos. Primero al enemigo seleccionado inicialmente y luego al resto en orden aleatorio. En el primer ataque, el enemigo seleccionado inicialmente recibe un 75% más de daño. Cada enemigo atacado tras el ataque inicial recibe un 15% menos de daño adicional (se reduce hasta el 15% de daño adicional). También destruye MAX HP de cada enemigo (el 30% del daño hecho y se acumula hasta el 50%).\n\n En el segundo ataque, el enemigo seleccionado inicialmente recibe un 15% más de daño. Cada enemigo atacado tras el ataque inicial recibe un 15% más de daño adicional (se acumula hasta el 75% de daño adicional).\n\n Este ataque ignora el 15% de DEF si este campeón tiene un bufo de [Velo] o [Velo Perfecto]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lanzar Combistick (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "marca-del-cazador"
+        },
+        {
+          "key_name": "bloquear-revivir"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "0.38xHP",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un debufo de [Marca del Cazador] durante 1 turno. Este debufo no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].\n\n Si este ataque mata a un enemigo, aplica un debufo de [Bloquear Revivir] al objetivo y un debufo de [Mirada del Cazador] a un enemigo vivo al azar durante 1 turno. El debufo de [Mirada del Cazador] no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].\n\n Si este ataque no mata a un enemigo, aplica un bufo de [Velo Perfecto] a este campeón durante 2 turnos y llena un 50% su barra de turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Camuflaje Yautja (Pasiva)",
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Al comienzo de cada ronda, aplica un bufo de [Velo Perfecto] a este campeón durante 1 turno.\n\n Antes de que este campeón actúe, también tiene un 50% de probabilidad inicial de [Evadir] una habilidad enemiga y todos sus efectos. Esta probabilidad inicial se reduce al 0% después del primer trno de este campeón en una ronda.\n\n Cada vez que este campeón mata a un enemigo, aumenta un 20% la probabilidad de [Evadir] habilidades enemigas y sus efectos (se acumula hasta un 60%)",
+      "levels": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de Aliados en Arenas en 35%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/depredador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

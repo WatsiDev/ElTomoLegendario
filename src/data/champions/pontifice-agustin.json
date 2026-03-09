@@ -1,0 +1,146 @@
+{
+  "slug": "pontifice-agustin",
+  "name": "Pontífice Agustín",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Controlador y debufer. Capaz de eliminar bufos enemigos y prevenir que tengan barra de turno mediante sus Enredar",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "polimorfar"
+  ],
+  "relics": [
+    "varita_de_sumision",
+    "diario_de_necrotos",
+    "arpa_de_kasbiel",
+    "caldero_acaparador",
+    "retono_repugnante",
+    "impasse_temporal",
+    "servidumbre_de_xibia",
+    "estrellas_jinang",
+    "mascara_de_zozobra",
+    "plumaje_dorado",
+    "tempus_morbidia",
+    "sombra_encaramada",
+    "rostro_inmortal",
+    "cronocubo",
+    "mano_de_descrear",
+    "orbe_de_transfixion",
+    "tiempo_de_sangre"
+  ],
+  "gear": [
+    "supersonico",
+    "velocidad",
+    "punteria",
+    "percepcion",
+    "mercurial"
+  ],
+  "uses": "Muy bueno como controlador en cualquier sitio, PvE y PvP",
+  "stats": {
+    "hp": 21810,
+    "speed": 110,
+    "attack": 947,
+    "defense": 1178,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cuchillas Edénicas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "5.4xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 2 turnos. Roba un 5% de la barra de turno del objetivo por cada bufo que tenga.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Encadenar a los Injustos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "enredar-2"
+        }
+      ],
+      "description": "Elimina todos los bufos de todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 100% de [Enredar] a todos los enemigos durante 2 turnos. Este debufo ignorará los bufos de [Bloquear Debufos] en los enemigos con 3 o más bufos.\n\n También reduce la barra de turno de todos los enemigos en 25%. Si un enemigo tiene 3 o más bufos, le reduce la barra de turno en 40% en lugar de lo anterior.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Benedicción Etérea",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "interceptar"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar PUNT] durante 2 turnos y una acumulación de [Interceptar] a todos los aliados. También llena su barra de turno en 25%.\n\n Luego, obtén un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Su eminencia (Pasiva) ",
+      "levels": [],
+      "description": "Los aliados reciben un 25% menos de daño de enemigos con bufos de [Bloquear Daño], [Inmortal], [Velo], [Velo Perfecto] o [Piel de Piedra]. \n\nCada vez que un enemigo recibe un bufo, es curado o se llena su barra de turno, tiene un 50% de probabilidad de reducir 1 turno la duración de todos sus bufos. Ocurre 1 vez vez por habilidad y 1 vez por objetivo.\n\n Si hay multiples campeones en el equipo con esta habilidad, solo se activará una. Esta habilidad no se activará en copias duplicadas de este campeon si este campeón está muerto",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 24%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pontifice-agustin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

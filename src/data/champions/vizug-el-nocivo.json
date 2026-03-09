@@ -1,0 +1,148 @@
+{
+  "slug": "vizug-el-nocivo",
+  "name": "Vizug el Nocivo",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Activador de Quemar HP y Venenos",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "orquidea_mortilunar",
+    "antorcha_esclava",
+    "sombra_encaramada",
+    "antorcha_esclava"
+  ],
+  "gear": [
+    "incansable",
+    "punteria",
+    "percepcion",
+    "velocidad"
+  ],
+  "uses": "Top en facciones, viable en cualquier sitio donde se apliquen Quemar HP o Venenos",
+  "stats": {
+    "hp": 22470,
+    "speed": 106,
+    "attack": 881,
+    "defense": 1200,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Convertir en Carne (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +10%"
+        }
+      ],
+      "multiplier": "0.16xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 35% de probabilidad de activar inmediatamente todos los debufos de [Veneno] y [Quemar HP] de todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuego de Venganza (HP) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "0.26xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar dos debufos de 5% de [Veneno] y un debufo de [Quemar HP] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Saqueador de Anhelt (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Antes de atacar aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos. Luego aumenta 1 turno la duración de todos los debufos enemigos. También reduce 1 turno la duración de todos los debufos aliados.",
+      "factionUnity": "Unidad de Ogretes",
+      "unityEffects": {
+        "1-ally": "Aplica un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos.",
+        "2-ally": "En lugar de 1 turno, aumenta 2 turnos la duración de todos los debufos enemigos y reduce  turnos la duración de todos los debufos aliados.",
+        "3-ally": "Cura a todos los aliados el 5%d e MAX HP de este campeón. Los cura un 2% adicional (se acumula hasta el 50%) por cada debufo enemigo al que esta habilidad le haya aumentado la duración y cada debufo aliado al que le haya reducido la duración."
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Moledor de Huesos (Pasiva)",
+      "levels": [],
+      "description": "Todos los aliados obtienen +10 de PUNT por cada debufo de [Quemar HP] y [Veneno] del grupo enemigo. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "factionUnity": "Unidad de Ogretes",
+      "unityEffects": {
+        "1-ally": "Los debufos de [Quemar HP] y [Veneno] aplicados por aliados hacen un 30% más de daño.",
+        "2-ally": "Los aliados hacen un 5% más de daño por cada debufo de [Quemar HP] y [Veneno] que tiene el objetivo.",
+        "3-ally": "Los debufos de [Quemar HP] y [Veneno] aplicados por  aliados no se pueden eliminar, robar ni traspasar."
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 30%"
+    },
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en todas las batallas en 15% (solo se aplica a Tribus de Ogretes)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/vizug-el-nocivo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

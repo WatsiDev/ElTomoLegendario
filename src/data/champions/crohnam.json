@@ -1,0 +1,131 @@
+{
+  "slug": "crohnam",
+  "name": "Crohnam",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Quemador y activador de Quemar HP del programa de referidos",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "caldero_acaparador"
+  ],
+  "gear": [
+    "percepcion",
+    "bestial",
+    "punteria",
+    "velocidad",
+    "incansable"
+  ],
+  "uses": "Arañas, Golem Dificil, Hydra. Puede hacer duo con Aniri en Necrópolis. Es más un Quemador-Activar que un nuker",
+  "stats": {
+    "hp": 15195,
+    "speed": 101,
+    "attack": 1564,
+    "defense": 1002,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espadas de Djinn (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "multiplier": "1.5xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30 % de probabilidad de aumentar la duración de un debufo aleatorio en el objetivo en 1 turno. \n\nSi Djamarsa está en el mismo equipo, cada golpe también aumenta la duración de cualquier debufo de [Quemar HP] en el objetivo en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Deleite del Berserker (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "1.5xATK",
+      "description": "Ataca 3 veces al azar. Cada golpe tiene un 80 % de probabilidad de activar instantáneamente cualquier debufo de [Quemar HP] en ​​cada objetivo. Cura a este Campeón en un 10 % de su HP MÁXIMO por cada debufo de [Quemar HP] activado por esta habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Céfiro Llameante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 80 % de probabilidad de aplicar un debufo de [Quemar HP] durante 2 turnos. Llena la barra de turno de este campeón en un 15 % por cada debufo de [Quemar HP] aplicado por esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ira Latente (Pasiva)",
+      "levels": [],
+      "description": "[Efecto pasivo] Cada 10 veces que los campeones enemigos o aliados usan habilidades activas en la batalla, este campeón activa instantáneamente la habilidad de Deleite del Beserker. Esto sucede cada 5 veces que se usan habilidades activas si Djamarsa está en el mismo equipo. \n\n[Efecto activo] Si Djamarsa está en el mismo equipo, revive a este campeón con un 50 % de vida y un 50 % de barra de turno cuando muere.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en todas las batallas en un 50."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/crohnam.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "ma-shalled",
+  "name": "Ma'Shalled",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Nuker y debufer capaz de gran daño y autocuración",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=kNnlyW2siyg",
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "colmillo_asesino",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "martillo_del_fin",
+    "sombra_encaramada",
+    "campana_fundida",
+    "invocatormentas",
+    "hacha_serpentis",
+    "mirada_condenadora",
+    "varita_de_sumision",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "cruel",
+    "despiadado",
+    "dano-critico",
+    "percepcion",
+    "golpe-mortal"
+  ],
+  "uses": "Bastante bueno en oleadas, facciones e Hydra",
+  "stats": {
+    "hp": 17835,
+    "speed": 103,
+    "attack": 1454,
+    "defense": 936,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Chupasangres (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a 1 enemigo. Sana a este campeón un 30% del daño infligido. Luego atacará a los enemigos bajo debuffs [Chupar Vida].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tornado",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% [Aumentar VEL] y un bufo de 30% [Aumentar D.Crit] en todos los aliados durante 2 turnos. Aplica debuffs [Miedo de Verdad] y [Chupar Vida] en todos los enemigos durante 2 turnos. Otorga a este campeón un turno extra.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Heridas abiertas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "6.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 80% de probabilidad de robar todos los bufos del objetivo antes de atacar. Aplica un debufo del 100% [Curación Reducida] durante 2 turnos. También aplicados bufos de 15% [Curación continua] en este Campeón durante 3 turnos. El daño aumenta un 50% contra objetivos que no tienen bufos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliado en mazmorras en un 34%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ma-shalled.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

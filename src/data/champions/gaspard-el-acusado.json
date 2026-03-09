@@ -1,0 +1,157 @@
+{
+  "slug": "gaspard-el-acusado",
+  "name": "Gaspard el Acusado",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Nuker de DEF poderoso con buenos debufos y control",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=2AEUFklyx-w",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "invocatormentas",
+    "bomba_de_terror",
+    "sombra_encaramada",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "letal",
+    "salvaje",
+    "instinto",
+    "dano-critico",
+    "golpe-mortal"
+  ],
+  "uses": "Útil en Hydra y arenas, muy poderoso con sinergias interesantes en ambos sitios.",
+  "stats": {
+    "hp": 18495,
+    "speed": 104,
+    "attack": 749,
+    "defense": 1597,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Eslabones de la Muerte (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "2.3xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] y un debufo de 25% de [Debilitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guillotina Abominable (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "Daño: 4.1xDEF, Escudo: 3xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. \n\nAplica un bufo de 60% de [Aumentar DEF] y un bufo de [Escudo] a todos los aliados durante 2 turnos. La magnitud del [Escudo] es proporcional a la DEF de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estás Acusado (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "5.2xDEF",
+      "description": "Ataca a 1 enemigo. Ignora bufos de [Barrera de Vida], [Nube de Veneno], [Escudo] y [Bloquear Daño] además del 25% de DEF del objetivo.\n\n Si esta habilidad mata al objetivo, revive un aliado muerto al azar con el 50% de HP y el 50% de Barra de turno. Esta reanimación ignora debufos de [Bloquear Revivir].\n\n Aplica un debufo de [Bloquear Revivir] a los objetivos que mata esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Leyenda Caída (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que este campeón mata a un enemigo o decapita una Cabeza de Hidra, llena un 25% las Barras de Turno de todos los aliados y les cura un 25% de su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "El Maestro lo Ordena (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que se revive un enemigo, activa inmediatamente la habilidad Estás Acusado contra él. Si se reviven varios enemigos, el objetivo inicial de la reanimación será el objetivo de la habilidad Estás Acusado. Esto no pone la habilidad Estás Acusado en tiempo de reutilización.\n\n Cada vez que muere un aliado, tiene un 50% de probabilida de activar la habilidad Estás Acusado. Una vez por turno.\n\n Cada vez que una Cabeza de Hidra consume a un aliado, activa inmediatamente la habilidad Estás Acusado contra dicha Cabeza de Hidra. Esto no pone la habilidad Estás Acusado en tiempo de reutilización.\n\n Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gaspard-el-acusado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

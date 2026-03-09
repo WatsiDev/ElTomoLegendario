@@ -1,0 +1,141 @@
+{
+  "slug": "rey-gallcobar",
+  "name": "Rey Gallcobar",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Intercambiador de bufos y debufos por venenos y curaciones. Es...raro",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "polimorfar",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "elixir_aracnido",
+    "aberracion_antigua",
+    "impasse_temporal",
+    "varita_de_sumision",
+    ""
+  ],
+  "gear": [
+    "proteccion",
+    "inmortal",
+    "resiliencia",
+    "percepcion",
+    "bestial"
+  ],
+  "uses": "No es malo pero es demasiado de nicho. Facciones, Dragón, alguna oleada...",
+  "stats": {
+    "hp": 20415,
+    "speed": 108,
+    "attack": 879,
+    "defense": 1243,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bastón de Embrollos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "3.75xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de [Escudo] durante 2 turnos en el aliado con el HP más bajo. El valor del [Escudo] es igual al 15% del HP MÁXIMO del aliado",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espinas Vitriólicas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 80% de posibilidades de eliminar todos los bufos. Aplica un debufo del 5% [Veneno] durante 2 turnos en cada enemigo por cada bufo que se les quite. También tiene un 80 % de probabilidad de aplicar un debufo de [Bloquear Bufos] en todos los enemigos durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hipertrofia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados. Aplica un bufo de [Curación continua] del 15% durante 1 turno en cada aliado por cada debufo que se les quite. Aplica también un bufo de [Escudo] en todos los aliados durante 2 turnos. El valor del [Escudo] es igual al 25% del HP MÁXIMO de este Campeón",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Chamán de Zarzas (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que un enemigo bajo un debufo de [Veneno] ataca a un aliado bajo un bufo de [Escudo], activa instantáneamente un debufo de [Veneno] en ese enemigo. También activa instantáneamente 1 bufo de [Curación continua] en el aliado atacado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en todas las batallas de arena en un 35%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/rey-gallcobar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

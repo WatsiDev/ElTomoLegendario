@@ -1,0 +1,117 @@
+{
+  "slug": "templario",
+  "name": "Templario",
+  "faction": "Orden Sagrada",
+  "rarity": "Raro",
+  "role": "Poco definido, cuenta con un incitar para oleadas y un bloquear daño situacional",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "elixir_dorado"
+  ],
+  "gear": [
+    "inmortal",
+    "regeneracion"
+  ],
+  "uses": "Se puede usar para pasar a Bommal, jefe de la Torre del Destino. Si teneis ya algo para eso, usadlo como pollo.",
+  "stats": {
+    "hp": 15855,
+    "speed": 92,
+    "attack": 881,
+    "defense": 1090,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Cargar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3.9xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] durante 2 turnos. El daño hecho es proporcional a la DEF.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desafío Justo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "multiplier": "1.7xDEF",
+      "description": "Ataca 4 veces al azar. Cada ataque tiene un 25% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. Aplica un bufo de [Bloquear Daño] a este campeón durante 1 turno. El daño hecho es proporcional a la DEF.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desdén (Pasiva)",
+      "levels": [],
+      "description": "Ataca con la habilidad base de este campeón siempre que un enemigo le aplique un debufo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en batallas de arena en 50."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/templario.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

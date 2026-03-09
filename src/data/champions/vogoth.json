@@ -1,0 +1,144 @@
+{
+  "slug": "vogoth",
+  "name": "Vogoth",
+  "faction": "No Muertos",
+  "rarity": "Épico",
+  "role": "Tanque que cura a aliados en base al daño recibido",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "curacion-milagrosa"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "campana_fundida",
+    "dedo_real",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "escudo",
+    "vida",
+    "inmortal",
+    "apoyo",
+    "resiliencia",
+    "guardian"
+  ],
+  "uses": "Muy bueno en facciones. En early sirve bastante para cualquier mazmorra, luego se queda corto",
+  "stats": {
+    "hp": 19320,
+    "speed": 89,
+    "attack": 804,
+    "defense": 1211,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Fuerza horrenda (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "0.07xHP",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 30% de probabilidad de aumentar la duración de 1 debufo aleatorio en el objetivo en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ola de repulsión (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 60% de probabilidad de aplicar un debufo de [Incitar] en todos los enemigos durante 1 turno. También tiene un 60% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos en los objetivos que reciben el debufo [Incitar] de esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Dínamo purulento (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que este campeón es atacado, cura a todos los aliados en un 50% del daño recibido. [Solo cura un 25% del daño recibido por los ataques de los jefes. Este campeón solo recibe la mitad de la curación que reciben todos los demás aliados.]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Presencia espeluznante (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "description": "Cuando es atacado, aplicaun debufo de [Chupar Vida] en el atacante durante 2 turnos. Si el atacante tiene un debufo de [Provocar] colocado por este Campeón, también tiene un 70% de probabilidad de aumentar el tiempo de reutilización de una habilidad aleatoria en el atacante en 2 turnos. Ocurre una vez por ataque.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en todas las batallas en 40."
+    }
+  ],
+  "lore": "Los muertos no descansan tranquilos en una tierra maldita. No puede haber paz donde el suelo está impregnado de locura y rencor. Especialmente para alguien cuyos huesos llevan la mancha de una maldición impía. Un ser así es Vogoth el Maldito.\n\n Vogoth, que en su día fue un poderoso caballero al servicio de los Señores del Estandarte de Kaerok, es ahora una torpe y tambaleante pústula de inmundicia nigromántica... un armatoste en descomposición, cuya sola presencia hace que las aguas se agrien y los árboles se marchiten.\n\n Hace siglos, Vogoth sirvió a su señor fielmente y bien, enfrentándose a enemigos tanto dentro como fuera del campo de batalla. Para él no había mayor gloria que una acción realizada con honor o una vida inocente preservada. Pero incluso el más heroico de los guerreros tiene enemigos.\n\n Algunos dicen que un guerrero honorable es una ventaja en el campo de batalla y un obstáculo en cualquier otro lugar. Tal fue el caso de Vogoth. Desaprobó la feroz politiquería de la corte de Kaerok y, sin darse cuenta, obstaculizó los intentos de su señor de aumentar su propia influencia a costa de otros, en más de una ocasión. Finalmente, el señor de Vogoth decidió prescindir de sus servicios. Pero no podía simplemente despedir al caballero y arriesgarse a que Vogoth se uniera al séquito de un rival. Tampoco podía simplemente hacer que lo mataran, porque había quienes podrían sospechar la verdad y usarla para sus propios fines. En cambio, el final de Vogoth tenía que parecer un accidente... una muerte por accidente.\n\n Entonces, Vogoth fue enviado al Pantano Abismal, donde se decía que acechaba un nido de no muertos. Las aldeas cercanas llevaban mucho tiempo rogando a su señor que pusiera fin a la amenaza de los seres muertos en el pantano, y estaban encantados con la llegada de Vogoth. El caballero estaba acompañado por un grupo de once hombres seleccionados por su señoría; guerreros valientes, con los que se podía contar para llevar a cabo la tarea junto a él.\n\n Doce hombres se adentraron en el fango, pero solo once regresaron. Se decía que Vogoth había muerto poniendo fin a la amenaza de los no muertos y, aunque hubo quienes lo cuestionaron, nadie lo hizo al alcance del oído de su señor. A los pocos días del funeral del caballero, en el que se enterró un ataúd vacío con todos los honores, el asunto quedó casi olvidado. Quince días después, Vogoth regresó, pero no como un hombre, sino como algo repugnante y podrido, algo en busca de venganza.\n\n Ahora, esta criatura maldita se cierne sobre sus oponentes, una enorme losa de carne cubierta de hervor. Su cuerpo maldito está atrapado en un ciclo de descomposición eterna, nunca se pudre por completo, siempre se expande con miasmas impíos que se liberan de su piel desgarrada con cada golpe de su alabarda oxidada. Sus rasgos, una vez atractivos, son ahora una masa hinchada oculta bajo un yelmo beatífico, y su armadura es una masa ruidosa de placas deformadas y correas rotas, apenas capaz de contener su físico hinchado. Los valientes gritos de batalla que una vez escaparon de sus labios ahora son poco más que gemidos gorgoteantes, y él no marcha por honor o gloria, sino para traer dolor a los vivos.\n\n Vogoth ha sido destruido más de una vez, a menudo por caballeros de Kaerok o guerreros de la Orden Sagrada. Pero quince días después de cualquier derrota, se levanta una vez más de los pantanos pestilentes donde murió, ansioso por reanudar su guerra interminable contra los vivos.\n\n Si existe una manera de terminar de manera permanente con la existencia maldita de Vogoth, nadie la ha descubierto aún. Y hasta que alguien lo haga, Vogoth seguirá librando una guerra contra aquellos a quienes una vez trató de proteger.",
+  "forms": null,
+  "image": "/src/assets/champions/vogoth.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

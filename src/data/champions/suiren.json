@@ -1,0 +1,137 @@
+{
+  "slug": "suiren",
+  "name": "Suiren",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Debufer para potenciar daño",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": null,
+  "gear": [
+    "percepcion",
+    "punteria",
+    "bestial",
+    "velocidad"
+  ],
+  "uses": "En early y mid puede ir bien como debufer de oleadas y jefes.",
+  "stats": {
+    "hp": 14370,
+    "speed": 99,
+    "attack": 1310,
+    "defense": 1035,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Beso del Loto (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "2.2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 40% de probabilidad de aplicar un debufo de 5% de [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reducir la Magnitud (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3.1xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 60% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reina de la Confusión (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Reducir tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 60% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en Mazmorras en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/suiren.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

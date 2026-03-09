@@ -1,0 +1,142 @@
+{
+  "slug": "cromax-moonblood",
+  "name": "Cromax Moonblood",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Tanque debufer, guardián de cámara",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "mascara_de_ira"
+  ],
+  "gear": [],
+  "uses": "Muy malo, no se usa.",
+  "stats": {
+    "hp": 18000,
+    "speed": 100,
+    "attack": 956,
+    "defense": 1421,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Lanza Lunar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo /  debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 60 % de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vinculos de Luz Lunar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo /  debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo /  debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "4.35xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 75 % de probabilidad de aplicar un debufo de [Bloquear Bufos] durante 2 turnos. También llena la barra de turno de este Campeón en un 30%",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Luna de Sangre (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo /  debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo /  debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "3.6xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un [Incitar] durante 1 turno y uno del 50 % [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Miedo a la Plata (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo  +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo  +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo  +15 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "description": "Cuando es atacado, tiene un 35 % de posibilidades de aplicar un debufo de [Maleficio] en el atacante durante 1 turno después de cada golpe.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 70"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/cromax-moonblood.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

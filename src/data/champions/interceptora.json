@@ -1,0 +1,114 @@
+{
+  "slug": "interceptora",
+  "name": "Interceptora",
+  "faction": "Altos Elfos",
+  "rarity": "Raro",
+  "role": "Debufer, pero con versiones malas de los mismos y bajos %.",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [],
+  "uses": "No muy buena, se puede usar de comida.",
+  "stats": {
+    "hp": 15360,
+    "speed": 84,
+    "attack": 881,
+    "defense": 1123,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Perforar Pierna (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-1"
+        }
+      ],
+      "multiplier": "4.4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de aplicar un debufo de 15% de [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Toxina Somnífera (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        },
+        {
+          "key_name": "debilitar-1"
+        }
+      ],
+      "multiplier": "5.8xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 45% de probabilidad de aplicar un debufo de [Dormir] durante 2 turnos. Aplica un debufo de 15% de [Debilitar] durante 2 turnos si esta habilidad no aplica un debufo de [Dormir].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ahuyentar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Reduce un 15% la barra de turno de todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/interceptora.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

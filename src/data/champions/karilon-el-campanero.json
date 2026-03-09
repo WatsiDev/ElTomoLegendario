@@ -1,0 +1,128 @@
+{
+  "slug": "karilon-el-campanero",
+  "name": "Karilon el Campanero",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Iniciador con control de congelar",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-amenazante",
+    "polimorfar"
+  ],
+  "relics": [
+    "campana_fundida"
+  ],
+  "gear": [
+    "supersonico",
+    "percepcion",
+    "velocidad"
+  ],
+  "uses": "Muy interesante en arenas. Brilla también en facciones y oleadas en general",
+  "stats": {
+    "hp": 19155,
+    "speed": 109,
+    "attack": 1189,
+    "defense": 1112,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Anuncio del Fin (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "2.6xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 35% de posibilidades de reducir la duración de todos los debufos enemigos en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cántico del Frio (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de aplicar un debufo de [Maleficio] y un debufo del 25% [Debilitar] durante 2 turnos. Si el objetivo está afectado por un debufo de [Congelar] , tiene un 75 % de probabilidad de aplicar un debufo de [Maleficio] y un debufo del 25 % [Debilitar] durante 3 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vórtice Polar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "description": "Aplica un debufo de [Congelar] a todos los enemigos durante 1 turno. Reduce por completo las barras de turno de todos los enemigos que reciben desventajas de [Congelar] de esta habilidad. Llena las barras de turno de todos los aliados en un 10 % por cada intento de [Congelar] bloqueado o resistido por el equipo enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Martillo de Escarcha (Pasiva)",
+      "levels": [],
+      "description": "Los aliados ignorarán el 10% de la DEF del objetivo si el objetivo tiene debufos de [Congelar] . Si este Campeón aplicó el debufo de [Congelar] , los aliados ignorarán el 20% de la DEF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en batallas de Arena en un 30%"
+    }
+  ],
+  "lore": "El invierno y la muerte están íntimamente relacionados. El frío y el hambre mina la fuerza del alma, y ​​muchas culturas telerianas tienen diversos festivales, fiestas y días sagrados a lo largo de la estación que garantizan compañía y un cálido fuego, como la Navidad. Estas ocasiones van acompañadas de personajes famosos y de las historias que los rodean: el infame ladrón de banquetes ogretes, Grunch, el poderoso Sir Nicholas o el monstruo elemental de nieve conocido como Blizaar el Aullador. Pocos de estos seres invernales casi míticos provocan una respuesta entre la gente común como Karilon el Anillador.\n\n En las historias, Karilon suele aparecer en el último mes del invierno. Para muchos, este es el momento más difícil, cuando los almacenes y las bodegas, que estaban repletos al comienzo de la temporada, se han quedado prácticamente vacíos.\n\n Ninguno de los narradores sabe de dónde viene Karilon. Lo primero que un pueblo o ciudad se entera de su presencia es el tañido de las campanas, un sonido lento y sonoro que acompaña su paso mesurado. El ruido atrae a la gente a las puertas y ventanas, limpiando la escarcha y la condensación, y muchos se preguntan al principio quién o qué parece estar llamándolos.\n\n La figura que ven es tan amenazante como el sonido de su llegada. Karilon es un hombre alto y demacrado, vestido con placas de armadura negra y gris, y envuelto en una vieja túnica carmesí ribeteada de piel blanca. En la cabeza lleva un casco con púas y una placa frontal que oculta sus rasgos, reemplazándolos por un rostro de acero tallado de un hombre barbudo con una expresión fría y estoica. En su espalda lleva un escudo pesado, mientras que en su puño derecho agarra un bastón coronado por una corona marchita y un trío de campanas, la fuente del repique que anuncia su llegada.\n\n En las fábulas, Karilon cumple una función que es a la vez sombría y esperanzadora. Hace sonar los últimos restos del invierno y anuncia el comienzo de la primavera. Al hacerlo, reúne a los débiles y moribundos y los conduce hacia una nueva vida de paz después de la muerte. Para la mayoría, esto es una mera historia, pero para algunos tiene un significado mucho mayor, ya que Karilon el Anillador es un Caballero Renacido y los acólitos del Culto de K'Leth lo tienen en la más alta reverencia.\n\n Los cultistas creen que Karilon viene a guiar a los acólitos a sus nuevos cuerpos. Cuando aparece en una ciudad, aquellos con suficiente coraje y convicción lo siguen. La niebla fría convocada por sus campanas envuelve el camino que recorren, ocultándolos de aquellos que no son leales a las enseñanzas de K'Leth. El lento repique de las campanas de Karilon mantiene su rumbo correcto, y los conduce a la guarida de un Pastor de Almas por rutas que solo él conoce. Allí, los dignos transfieren su esencia a gemas del alma, lo que garantiza que seguirán existiendo hasta que su conciencia pueda ser implantada en un cuerpo nuevo.\n\n Esto es cierto, aunque los cultistas comunes no se dan cuenta de que las posibilidades de recibir un nuevo cuerpo para su alma son extremadamente escasas. Karilon, una vez que ha llevado a su último grupo de acólitos a la presencia de un Pastor de Almas, vigila las magias ceremoniales de la transferencia, actuando como guardia y vigilia. En el primer papel, es un individuo temible, la naturaleza arcana de sus campanas significa que, si él lo desea, la resonancia sónica de las campanas puede congelar a un oponente en el lugar o robarle su fuerza. Incluso más que las Brujas de la Cripta, los guardianes tradicionales de los Pastores de Almas, tener a Karilon el Campanero presente garantiza que una transferencia de alma se complete con éxito.\n\n El supuesto papel de Karilon como guía y guardián de los fieles del culto garantiza que sea uno de los Caballeros Revenant más reverenciados por los acólitos comunes y descarriados. De hecho, son tan grandiosas las historias asociadas con él que algunos consideran a Karilon como el Caballero Aparecido más poderoso de todos, solo por debajo del gran K'Leth en persona. Estos acólitos llevan pequeñas campanillas en su cuerpo, se las tatúan en la piel y se esfuerzan ansiosamente durante el amanecer de cada invierno para escuchar el sonido de la llegada de Karilon, seguros de que es la única forma segura de alcanzar la inmortalidad que anhelan.\n\n A Karilon no le importa nada el subculto que se le dedica. Antiguo alumno de Umbral en la temida isla de la Perdición, su lealtad es hacia K'Leth y hacia nadie más. Sabe que su propósito es actuar como un faro de falsa esperanza y conducir a los perdidos a una condenación temprana. El tañido de sus campanas no es solo para los cultistas: anuncian a los Caballeros Revenant el comienzo de un nuevo año y una nueva cosecha de cuerpos frescos para que los roben y habiten.",
+  "forms": null,
+  "image": "/src/assets/champions/karilon-el-campanero.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

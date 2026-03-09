@@ -1,0 +1,138 @@
+{
+  "slug": "pythion",
+  "name": "Pythion",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Gran campeón de apoyo con curas, revivir y limpiezas",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=2aTh1jybgX0",
+  "blessings": [
+    "cosechar-vida",
+    "polimorfar"
+  ],
+  "relics": [
+    "el_triturador",
+    "diario_de_necrotos",
+    "mano_de_descrear",
+    "politopo_infernal",
+    "arpa_de_kasbiel",
+    "efigie_demoniaca",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "apoyo",
+    "parada-rapida",
+    "piel-de-piedra",
+    "escudo",
+    "inmortal",
+    "renacer",
+    "resiliencia",
+    "mercurial"
+  ],
+  "uses": "Arenas de todo tipo, muy bueno en facciones, Quimera e incluso Hydra.",
+  "stats": {
+    "hp": 21135,
+    "speed": 105,
+    "attack": 870,
+    "defense": 1299,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Bastón Rapaz (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación + 15%"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cura al aliado con menos HP el 5% de MAX HP de éste campeón después de cada ataque.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mudar la Piel",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados y luego los cura el 10% de su MAX HP. Cura a cada aliado un 5% adicional de su MAX HP por cada debufo que se le haya eliminado. También aplica un [Bloquear Debufos] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Serpiente Inmortal (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con un 50% de HP y un 50% de Barra de Turno, y luego aplica un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Superposición (Pasiva)",
+      "levels": [],
+      "description": "Los aliados reciben un 5% menos de daño de habilidades por cada bufo que tienen. Se acumula hasta el 25%",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 60"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pythion.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "lady-annabelle",
+  "name": "Lady Annabelle",
+  "faction": "Hidalgos",
+  "rarity": "Épico",
+  "role": "Debufer / Tanque capaz de curarse constantemente",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=lEFE3jSEbmM",
+  "blessings": [
+    "rompe-cadenas"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "rocadragon_dorada"
+  ],
+  "gear": [
+    "regeneracion",
+    "inmortal"
+  ],
+  "uses": "Especialista en Bommal, en torre del destino.",
+  "stats": {
+    "hp": 20310,
+    "speed": 100,
+    "attack": 881,
+    "defense": 1068,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Uñas Codiciosas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "2.4xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe cura a este Campeón en un 3% de su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cautivar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "4.4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un debufo de [Chupar Vida] durante 2 turnos. También tiene un 75 % de probabilidad de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos a objetivos con menos del 50 % de barra de turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Intercambio Sanguíneo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Intercambia HP con un aliado objetivo. Si el HP de este Campeón es igual o mayor que el del objetivo después del intercambio, aplica un bufo de [Revivir al morir] en el aliado objetivo durante 2 turnos. Si el HP de este Campeón es más bajo que el del objetivo después del intercambio, aplica un bufo de [Revivir al morir] en este Campeón durante 2 turnos. \n\nTambién aplica un bufo de 30% [Aumentar VEL] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "La Dama Roja (Pasiva)",
+      "levels": [],
+      "description": "Cura a este Campeón en un 50% de su MAX HP cada vez que muere un aliado o enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lady-annabelle.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

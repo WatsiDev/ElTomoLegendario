@@ -1,0 +1,150 @@
+{
+  "slug": "toragi-la-rana",
+  "name": "Toragi la Rana",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Buen campeón defensivo capaz de curas y venenos",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "aberracion-antigua"
+  ],
+  "relics": [
+    "elixir_aracnido"
+  ],
+  "gear": [
+    "inmortal",
+    "regeneracion",
+    "percepcion",
+    "punteria",
+    "velocidad"
+  ],
+  "uses": "Bastante decente contra jefes en early así sitios concretos de la Ciudad Maldita y facciones",
+  "stats": {
+    "hp": 21810,
+    "speed": 96,
+    "attack": 892,
+    "defense": 958,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Club del Pantano (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de colocar un debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hedor Potente (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. La probabilidad aumenta en un 5% por cada debufo en el equipo enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición de la ciénaga",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "reflejar-dano-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] equivalente al 15% de los HP MÁXIMO de este campeón y un bufo del 50% de [Protección de aliados] en todos los aliados excepto este Campeón durante 2 turnos. También cura a este campeón en un 25% de su MAX HP y le da un bufo del 30% [Reflejar daño] durante 3 turnos. La curación aumenta en un 2.5% por cada debufo de [Veneno] en el equipo enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre tóxica (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "description": "Cuando es atacado, tiene un 50% de probabilidad de colocar un debufo de [Veneno] del 5% en el atacante durante 2 turnos. Ocurre una vez por golpe.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en todas las batallas en 40."
+    }
+  ],
+  "lore": "La costa oriental de Yakai es un lugar fracturado, salpicado de islas grandes y pequeñas, ensenadas, caletas y bahías. En algunos lugares, la tierra y el mar se fusionan, sin que sus luchas den un claro vencedor, lo que crea extensiones de marismas y ciénagas que se pudren y burbujean bajo nieblas húmedas. Muchos de estos lugares tienen una mala reputación entre los marineros y los habitantes de tierra firme, pero ninguno es tan temido como el pantano conocido como Brackish.\n\n No es el pantano en sí el que causa la sombría reputación de la zona, aunque es cierto que el barro pegajoso y las mareas repentinas y crecientes han sido la muerte de muchas almas. Hay algo más que la naturaleza en acción en este sombrío rincón de Teleria. Ese algo es un hada conocido por los mortales como Toragi la Rana.\n\n Parece que Toragi siempre ha habitado Brackish. Quizás nació allí, o quizás lo creó, conjurándolo para que reflejara el contenido fétido de su propia alma. Su guarida se encuentra en lo profundo de la parte más inhóspita del pantano, un gran árbol caído y medio consumido en el lodazal. Su corteza podrida ahora está llena de hongos y larvas de insectos retorcidas, mientras que su tronco ahuecado sirve como lugar de descanso para los enormes Fae.\n\n El alcance de los poderes de Toragi es motivo de especulación entre quienes viven cerca de Brackish o se ven obligados a navegar por su costa arruinada. Se le culpa de las tormentas que azotan la zona, de las nieblas empalagosas y de las inquietantes luces de la muerte que parpadean en medio de cada crepúsculo que se establece. Se sabe que atrae a los perdidos o a los inconscientes para darse un festín con su carne, o con sus almas, o con ambas. Hay más que un grano de verdad en todo esto, aunque no es simplemente una criatura de pesadilla agazapada en medio de los pantanos.\n\n A Toragi le encantan los regalos y los cuentos fantásticos. Se cree que la única forma de evitar que se lo traguen es dándole un regalo impresionante o contándole una historia que considere digna de su tiempo. De esta manera, algunos se han topado con Toragi y han vivido para contar la experiencia. Hablan de un Fae que alterna entre malhumorado y jovial, tan impredecible como los pantanos cambiantes.\n\n Aún más extraños son aquellos que afirman haber contado con la ayuda de Toragi. Se dice que si un viajero puede deleitar a Toragi con una historia verdaderamente maravillosa, el Fae no solo le perdonará la vida al que la pide, sino que le ofrecerá una bendición del pantano, una promesa de ayudar en tiempos de necesidad. A aquellos que son lo suficientemente dignos, les concede un puñado de barro salobre para que se lo lleven, que puede usarse para invocarlo.\n\n Un potente hedor anuncia la llegada del Fae, acompañado de su risa húmeda y cortante. Si se lo convoca para luchar, el Fae se lanza a la refriega con entusiasmo, blandiendo su maza del pantano con un efecto devastador contra quienquiera que su invocador desee. Incluso la sangre del gran bruto es tóxica y corrosiva. Todo en el Fae es repugnante, su hedor es suficiente para revolver el estómago, mientras que su carne pálida y grasosa resiste todos los golpes excepto los más decididos de espada y hacha. Sin embargo, aquellos que llevan a Toragi a la batalla deben tener cuidado, porque después considerará que su deuda de enigmas ha sido saldada. En el mejor de los casos, puede irse, pero en el peor, buscará más regalos o historias. Cualquiera que no pueda proporcionar esto satisfactoriamente corre el riesgo de que el Fae use su poderoso garrote contra ellos tan rápidamente como cayó sobre sus enemigos.",
+  "forms": null,
+  "image": "/src/assets/champions/toragi-la-rana.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

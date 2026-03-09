@@ -1,0 +1,153 @@
+{
+  "slug": "jingwon",
+  "name": "Jingwon",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Bufer y debufer con control que protege a aliados y a sí mismo de debufos de control",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "orbe_de_transfixion"
+  ],
+  "gear": [
+    "velocidad",
+    "percepcion",
+    "impulso",
+    "incansable",
+    "bestial"
+  ],
+  "uses": "Bueno en PvE. Facciones y oleadas de cualquier tipo",
+  "stats": {
+    "hp": 22800,
+    "speed": 103,
+    "attack": 925,
+    "defense": 1134,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Intercambiar Perdición (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca a 1 enemigo. Transfiere todos los debufos de este campeón al objetivo. Tiene un 50% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Calamidad Compuesta (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "0.35xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aumentar la duración de todos los debufos a todos los objetivos en 1 turno. También aplica un debufo de [Bloquear habilidades activas]  y un debufo de [Bloquear Bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llamarada de Poder (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "red-d-crit-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "multiplier": "0.14xHP",
+      "description": "Ataca a todos los enemigos 2 veces. El primero tiene un 80 % de probabilidad de eliminar todos los bufos de todos los enemigos. El segundo golpe tiene un 80 % de probabilidad de aplicar un debufo del 30 % de [Reducir PUNT] y un debufo de [Reducir D.Crit] durante 2 turnos. También aplica un bufo de [Fortalecer] del 25% en a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desatado (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "[Efecto Activo] Inmune a los debufos de [Miedo], [Miedo de verdad], [Congelar], [Provocar], [Sueño], [Aturdir] y [Petrificación].\n\n [Efecto Pasivo] Al final de cada turno enemigo o aliado, elimina todos los debufos de [Miedo], [Miedo de verdad], [Congelar], [Provocar], [Dormir], [Aturdir] y [Petrificación] de todos los aliados y aplica un [Bloquear Debufos] durante 1 turno en los aliados a los que se les han quitado los debufos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 33%"
+    }
+  ],
+  "lore": "Crecer como hijo de un carnicero no fue un comienzo muy auspicioso para la vida de una de las figuras más infames de la Rebelión Yakai. El padre de Jingwon fue obligado a trabajar para la autocracia Mikage como cocinero para sus ejércitos. Jingwon fue aprendiz de su padre y se concentró en aprender a cortar y perfeccionar sus guisos como una forma de sobrevivir a la miseria y la brutalidad de la guerra en curso contra la revolución que arrasaba Yakai.\n\n El padre de Jingwon falleció poco después de que su hijo alcanzara la mayoría de edad, y a Jingwon no le quedó otra opción que continuar con su trabajo. Se hizo fuerte, levantando cadáveres y cortando huesos, y aprendió la mejor manera de matar y descuartizar, la mejor manera de partir la carne o de abrir gargantas. Pronto estaba al frente de los cocineros asignados al ejército del general Mikage Zenshi el Talon.\n\n Incluso entre los Demonspawn, Zenshi era un comandante infamemente cruel e intransigente. Un bruto corpulento, dirigió campañas en áreas pro-rebelión, incendiando aldeas y matando indiscriminadamente. Durante todo ese tiempo, el corazón de Jingwon se endureció al ser testigo involuntario de la violencia que los Mikage empleaban tan fácilmente.\n\n Las depredaciones de Zenshi provocaron una respuesta inflexible de la rebelión. Las guerrillas atacaron las líneas de suministro del ejército, hostigaron sus flancos sin piedad y brutalizaron a los que capturaron. La vanguardia de los Mikage atravesaba nuevos territorios, pero se encontró con que los exploradores que creían que iban por delante estaban clavados en árboles a lo largo del camino. Hubo tres intentos de asesinato separados contra Zenshi y muchos de sus lugartenientes fueron eliminados.\n\n El ejército de Zenshi se deterioró rápidamente, y muchos de los mortales que componían el cuerpo principal de soldados desertaron, lo que solo hizo que Zenshi fuera más despiadado. Aquellos que fueron sorprendidos huyendo fueron torturados antes de ser ejecutados públicamente. El descontento se extendió por los rangos inferiores, un sentimiento que Jingwon compartía. Con la escasez de suministros y con la mayor parte del campo circundante incendiado, no tenía comida para alimentar al ejército de Zenshi. En primer lugar, nunca había deseado servir al Mikage.\n\n La gota que colmó el vaso fue cuando Zenshi dio su orden más vil hasta la fecha. Consciente de los problemas de suministro, ordenó una aniquilación caníbal: uno de cada diez soldados rasos debía ser asesinado y consumido por sus camaradas, una orden recibida con repulsión incluso por los guerreros humanos de la Autocracia más curtidos en la batalla.\n\n Esa tarde, Zenshi celebró un consejo con los pocos comandantes supervivientes del ejército, muchos de los cuales cenaron con la última comida que habían conseguido. Zenshi tuvo la temeridad de quejarse de lo que Jingwon estaba sirviendo, y el hijo del carnicero montó en cólera. Arrebató la gran hacha de guerra de Zenshi, le cortó la mano al engendro demonio que descansaba sobre la mesa y le gritó que se diera un festín con ella si así lo deseaba.\n\n Cuando los lugartenientes de Zenshi gritaron a los guardias humanos hambrientos que capturaran a Jingwon, los mortales en cambio desenvainaron sus espadas contra el engendro demonio. Después de una lucha feroz, Jingwon emergió del consejo con el casco ensangrentado de Zenshi en alto y lanzó un gran grito de triunfo. Los mortales desesperados que presenciaron esto, al darse cuenta de lo que estaba ocurriendo, se unieron a él y se volvieron contra sus amos, y la rebelión se extendió por el campamento. Al final de la lucha, todos los leales a Zenshi habían sido asesinados o expulsados. Los mortales sobrevivientes eligieron a Jingwon como su líder. Él reclamó gran parte de la armadura de Zenshi, incluido su gran casco con cuernos. También tomó el hacha y el escudo del engendro demonio, clavándole la mano cortada de Zenshi, antes de declarar su intención de unirse a la rebelión.\n\n Pasaron los años y Jingwon cambió su oficio de carnicero por la carnicería más letal del campo de batalla, descubriendo que no eran tan diferentes. Los líderes de la rebelión no solo quedaron impresionados por su tamaño y la habilidad con la que manejaba su hacha, sino también por su fría disposición a abatir a los enemigos de la rebelión, quienesquiera que fueran. Se estableció como un ejecutor, responsable de la difícil tarea de suprimir las inevitables dificultades y diferencias internas que plagaban un levantamiento tan importante. Se decía que dejaba la mano de Zenshi fuera de las tiendas de cualquiera que amenazara a la rebelión con discordia, y que despertarse y ver el trofeo era suficiente para sofocar casi cualquier indicio de inquietud.\n\n Las obligaciones de Jingwon se volvieron más vitales después de que la rebelión finalmente triunfó. Los líderes de la rebelión se propusieron consolidar su fuerza y ​​eliminar a cualquier extraño que pudiera amenazar la estabilidad del nuevo reino, incluso entre aquellos con quienes alguna vez habían luchado. Jingwon era la herramienta perfecta para el nuevo establecimiento: no se podía permitir que nada amenazara el legado de la rebelión, por temor a que regresara la autocracia.\n\n La mano cortada de Zenshi seguía siendo un potente símbolo de autoridad en Yakai, pero los traidores no eran la única preocupación de Jingwon. Era solo cuestión de tiempo antes de que Zenshi regresara, y el ex hijo del carnicero esperaba con ansias el día en que pudiera agregar la segunda mano de Zenshi a la primera.",
+  "forms": null,
+  "image": "/src/assets/champions/jingwon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

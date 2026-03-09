@@ -1,0 +1,123 @@
+{
+  "slug": "acusadora",
+  "name": "Acusadora",
+  "faction": "Altos Elfos",
+  "rarity": "Raro",
+  "role": "Útil en early game en Caballero, Hydra e incluso Gemelos.",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=Y3tq8UXloAU",
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [],
+  "uses": "Limitada al early game. Hay épicos que hacen lo mismo mucho mejor, por lo que se acaba quedando obsoleta.",
+  "stats": {
+    "hp": 13545,
+    "speed": 96,
+    "attack": 1288,
+    "defense": 837,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Robar la Iniciativa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "1.85xATK",
+      "description": "Ataca a 1 enemigo. Cada ataque tiene un 20% de probabilidad de reducir un 10% la barra de turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Detener el Proceso (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidades de aplicar un debufo de 30% de [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Enjuiciar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Ataca a 1 enemigo 3 veces. Antes de atacar aplica un bufo de 50% de [Aumentar PUNT] a este campeón durante 2 turnos.\n\n Cada ataque tiene un 30% de probabilidad de aplicar un debufo de 100% de [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/acusadora.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

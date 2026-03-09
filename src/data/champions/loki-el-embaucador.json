@@ -1,0 +1,123 @@
+{
+  "slug": "loki-el-embaucador",
+  "name": "Loki el Embaucador",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Debufer molesto con kit interesante aunque poco específico",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=8YYrLkC2aDI",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": "Muy específico. Alguna setup de arena pero no es meta",
+  "stats": {
+    "hp": 19155,
+    "speed": 105,
+    "attack": 980,
+    "defense": 1321,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Llamas de Travesuras (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 30 % de probabilidad de aumentar la duración de todos los debufos enemigos en 1 turno. Si este campeón está bajo una bufo de [Velo] o [Velo perfecto], la probabilidad aumenta al 50 %",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Gambito del Embaucador",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Selecciona un objetivo. Si el objetivo es un enemigo, tiene un 75 % de probabilidad de aplicar un debufo de [Bloquear habilidades activas] y un debufo de [Bloquear bufos] durante 2 turnos. Si el campeón que usa esta habilidad está bajo una bufo de [Velo] o [Velo perfecto], también aplica un efecto [Contagiar debufos], que coge 2 debufos aleatorios del objetivo y los aplica a todos los enemigos. \n\nSi el objetivo es un aliado o este campeón, lo cura en un 50% del MÁXIMO HP de este campeón y le aplica un bufo de [Velo perfecto] durante 2 turnos. Si este campeón está bajo un bufo de [Velo] o [Velo perfecto], también aplica un efecto de [Contagiar Bufos], que coge un bufo aleatorio del objetivo y la aplica a todos los aliados.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Destello Bandido",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Tiene un 75 % de probabilidad de robar todos los bufos de un enemigo objetivo y el 100 % de su barra de turno. Estos efectos no se pueden resistir si este campeón está bajo un bufo de [Velo] o [Velo perfecto]. \n\nSi no se roba la barra de turno del objetivo, llena las barras de turno de todos los aliados en un 15 %. \n\nTambién aplica un bufo de [Aumentar ATK] del 50 % a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Paso de Niebla (Pasiva)",
+      "description": "[Efecto pasivo] \n\nAplica un bufo de [Velo perfecto] a este campeón durante 2 turnos al comienzo de cada ronda. También aplica un bufo de [Velo perfecto] a este campeón durante 1 turno cuando su HP cae por debajo del 50 %. \n\nTiene un 15 % de probabilidad de evadir una habilidad enemiga y todos los efectos que la acompañan. Si este campeón está bajo un bufo de [Velo] o [Velo perfecto], la probabilidad de evadir aumenta al 30 %. \n\n[Efecto activo] \n\nSi los HP de este campeón están por debajo del 50 % cuando es el objetivo de una habilidad enemiga, tiene un 100 % de probabilidad de evadir esa habilidad y todos los efectos que la acompañan. Esta evasión garantizada entra en Tiempo de Reutilización.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/loki-el-embaucador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

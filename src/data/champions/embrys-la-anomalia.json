@@ -1,0 +1,177 @@
+{
+  "slug": "embrys-la-anomalia",
+  "name": "Embrys la Anomalía",
+  "faction": "Aparecidos",
+  "rarity": "Mítico",
+  "role": "Debufer / Nuker. Con PUNT para que ponga debufos, sin PUNT para que pegue duro",
+  "type": "Apoyo / HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=PkDWNQyabUA",
+  "blessings": [
+    "segar-almas",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "luna_de_sangre",
+    "corona_de_ireth",
+    "vial_del_sombrerero",
+    "mascara_de_zozobra",
+    "varita_de_sumision",
+    "corona_corrompida",
+    "mirada_condenadora",
+    "apagador_de_esencia",
+    "repartemuerte"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "piel-de-piedra",
+    "bestial",
+    "percepcion",
+    "mercurial"
+  ],
+  "uses": "Poderoso nuker anti piel de piedra y bloqueador de revivir. Top en arenas",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de Aliados en todas las batallas en 80"
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 22140,
+        "speed": 111,
+        "attack": 1101,
+        "defense": 1277,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Guja Fétida (HP)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +10%"
+          ],
+          "multiplier": "0.19xHP",
+          "description": "Ataca a todos los enemigos. Destruye un 3% de MAX HP de cada objetivo (se acumula hasta el 30%) \n\nTambién aumenta 1 turno la duración de 1 debufo al azar de todos los enemigos. Este efecto no se puede resistir si los enemigos tienen alguna acumulación de [Necrosis]"
+        },
+        {
+          "name": "Mirada al Vacío",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "miedo-de-verdad",
+            "red-atk-2"
+          ],
+          "description": "Luego aplica un debufo de [Miedo de Verdad] a todos los enemigos durante 1 turno y un debufo de 50% de [Reducir ATK] a todos los enemigos durante 2 turnos. Estos efectos no se pueden resistir si los enemigos tienen alguna acumulación de [Necrosis].\n\n Luego obtén un turno adicional."
+        },
+        {
+          "name": "Deshacer Totalmente (HP)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "multiplier": "0.27xHP",
+          "description": "Ataca a todos los enemigos.\n\n Elimina todos los bufos [Piel de Piedra] y los reemplaza con debufos de [Miedo de Verdad]. Reemplaza los bufos de [Bloquear Debufos] con debufos de [Bloquear Bufos].\n\n También elimina todos los bufos que afectan positivamente a los atributos y los reemplaza con sus debufos equivalentes, por ejemplo, reemplaza los bufos [Aumentar ATK] con debufos de [Reducir ATK]. Los bufos como [Curación Continua] y [Fortalecer] se reemplazan con debufos de [Curación Continua] y [Debilitar] respectivamente. Los debufos reflejados tienen la misma duración que tenían los bufos antes de ser reemplazados.\n\n Luego roba un 5% de la barra de turno de cada objetivo por cada bufo que esta habilidad convierta en un debufo. También reduce un 20% las barras de turno de todos los enemigos.\n\n Estos efectos no se pueden resistir si los enemigos tienen alguna acumulación de [Necrosis]."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Existencia Errónea (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "necrosis"
+          ],
+          "description": "Cada vez que un enemigo muere, aplica una acumulación de [Necrosis] a todos los enemigos. Las acumulaciones de [Necrosis] solo se pueden eliminar resucitando aliados muertos. Este efecto no funciona contra jefes y sus esbirros. Si hay varios campeones en el grupo con esta habilidad, este efecto solo se activa una vez. Al comienzo del turno de este campeón, activa inmediatamente todas las acumulaciones de [Necrosis] de todos los enemigos.."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 24615,
+        "speed": 105,
+        "attack": 991,
+        "defense": 1222,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Espada del Destructor (HP)(PUNT)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +20%"
+          ],
+          "buffDebuff": [
+            "bloquear-revivir"
+          ],
+          "multiplier": "HPx(0.25+PUNT/1000",
+          "description": "Ataca a 1 enemigo. Hace un golpe adicional si el objetivo tiene acumulaciones de [Necrosis]. También aplica un debufo de [Bloquear Revivir] si este ataque mata a un enemigo."
+        },
+        {
+          "name": "Atomizar (HP)(PUNT)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "HPx(0.28+PUNT/1000",
+          "description": "Ataca a todos los enemigos. Inflige el doble de daño a los enemigos cuya PUNT sea inferior al de este campeón. Ignora el 50 % de la DEF de cada enemigo cuya PUNT sea igual o superior al de este campeón."
+        },
+        {
+          "name": "Tu vida está perdida!",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "description": "Intercambia HP con un enemigo. Si el objetivo es un jefe, restaura por completo eñ MAX HP destruido de este campeón y lo cura por completo en su lugar. Cada vez que se usa esta habilidad, aumenta el efecto Ignorar DEF de este campeón en un 10 % mientras está en su forma alternativa (se acumula hasta un 50 %). Luego, obtén un turno adicional."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Degenerador (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "necrosis",
+            "revivir-al-morir"
+          ],
+          "description": "[Efecto pasivo] Al morir este campeón, refleja el 50% del daño del ataque letal de vuelta al atacante, incluido todo el daño sobrante. Cada vez que un enemigo muere, aplica una acumulación de [Necrosis] sobre todos los demás enemigos. Las acumulaciones de [Necrosis] no se pueden resistir ni bloquear. Las acumulaciones de [Necrosis] solo se pueden eliminar reviviendo a los aliados muertos. Este efecto no se aplica contra jefes y sus esbirros. Si hay varios campeones en el equipo con esta habilidad, solo se activará uno.\n\n [Efecto activo] Si este campeón está a punto de morir por un ataque letal, se anticipa a ese golpe y aplica instantáneamente un bufo de [Revivir al morir] sobre él durante 1 turno antes de que reciba el daño."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/embrys-la-anomalia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

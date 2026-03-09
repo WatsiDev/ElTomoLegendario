@@ -1,0 +1,129 @@
+{
+  "slug": "nobel",
+  "name": "Nobel",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Nuker de ataque que juega con el Miedo/Miedo de Verdad para potenciarse",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=w6LtEyJYb9Q",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": null,
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "despiadado",
+    "punteria",
+    "dano-critico"
+  ],
+  "uses": "Comida de Ninja. Si no tienes a Ninja, entonces nuker para facciones, pero hay muchas mejores opciones que él",
+  "stats": {
+    "hp": 14865,
+    "speed": 98,
+    "attack": 1553,
+    "defense": 1035,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Oler el Miedo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de reducir en 1 turno la duración de 2 bufos al azar del objetivo. Si el objetivo tiene un debufo de [Miedo] o [Miedo de Verdad], en vez de eso reduce 1 turno la duración de todos sus bufos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Heraldo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "3.4xATK",
+      "description": "Ataca a 1 enemigo. Ignorará el 30% de la DEF del objetivo. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos si el objetivo tiene un debufo de [Miedo] o [Miedo de verdad].\n\n Después de atacar, reduce 1 turno el tiempo de reutilización de la habilidad Costernar si el objetivo tiene un debufo de [Miedo] o [Miedo de verdad]. Luego llena un 25% la barra de turno de este campeón en un 25%. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Consternar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de robar el 50% de la barra de turno actual del objetivo. Si este ataque mata a un objetivo con un debufo de [Miedo] o [Miedo de Verdad], reduce 1 turno el tiempo de reutilización de la habilidad Heraldo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "aura": [],
+      "name": "Desolación (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo + 15%"
+        }
+      ],
+      "description": "Siempre que la Barra de Turno de un campeón sea reducia por un campeón, tiene un 20% de probabilidad de aplicar un debufo de [Miedo de Verdad] a dicho enemigo durante 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/nobel.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

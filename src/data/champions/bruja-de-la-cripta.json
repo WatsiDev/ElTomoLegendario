@@ -1,0 +1,121 @@
+{
+  "slug": "bruja-de-la-cripta",
+  "name": "Bruja de la Cripta",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Nuker para facciones",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Facciones como mucho pero es un poco relleno",
+  "stats": {
+    "hp": 14865,
+    "speed": 98,
+    "attack": 1421,
+    "defense": 892,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Acero Fétido (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.4xATK",
+      "description": "Ataca a 1 enemigo. Inflige un 30% más de daño si el objetivo tiene algun bufo. Ignorará los bufos de [Escudo] y [Bloquear daño] .",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desmantelar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "2.2xATK",
+      "description": "Ataca 3 veces al azar. Cada golpe tiene un 75 % de probabilidad de aplicar un debufo del 60 % de [Reducir DEF] durante 2 turnos. Cada golpe también ignorará el 15% de la DEF del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "No tan rápido (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4,5xATK",
+      "description": "Ataca a 1 enemigo. Ignorará el 50% de la DEF del objetivo si este Campeón tiene mayor VEL que el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en Guerra de Facciones en un 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bruja-de-la-cripta.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

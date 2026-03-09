@@ -1,0 +1,103 @@
+{
+  "slug": "cuernos-retorcidos",
+  "name": "Cuernos Retorcidos",
+  "faction": "Cambiapieles",
+  "rarity": "Raro",
+  "role": "Tanque inmortal para Arboleda del Shogun",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=8BBroKR-gkc",
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": "Arboleda del Shogun y Facciones como controlador",
+  "stats": {
+    "hp": 17010,
+    "speed": 96,
+    "attack": 958,
+    "defense": 936,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Embestir (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "ATKx(2.5+3x(1-% de HP actual))",
+      "description": "Ataca a 1 enemigo. El daño aumenta según la cantidad de HP que este campeón ha perdido. Este ataque no puede ser un golpe fuerte, crítico o débil.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tambor de Guerra ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-1"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Aplica un debufo de [Incitar] en todos los enemigos durante 1 turno. Aplica un bufo de 30% [Aumentar DEF] en este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Determinado",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Aplica un bufo de [Inmortal] en este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliado en mazmorras en un 27%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/cuernos-retorcidos.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

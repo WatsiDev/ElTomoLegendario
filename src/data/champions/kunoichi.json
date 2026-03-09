@@ -1,0 +1,142 @@
+{
+  "slug": "kunoichi",
+  "name": "Kunoichi",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Debufer y protector de equipo",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "agarre_de_valkanen",
+    "diadema_no_muerta",
+    "abanico_negro"
+  ],
+  "gear": [
+    "inmortal",
+    "guardian",
+    "resiliencia",
+    "ferreo"
+  ],
+  "uses": "Decente para progresar hasta early-mid game. Útil en facciones normal.",
+  "stats": {
+    "hp": 17835,
+    "speed": 99,
+    "attack": 782,
+    "defense": 1332,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Seccionar Músculo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3.1xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Veneno Penetrante (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Chupar Sangre] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Interponer",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Protección de Aliado] a todos los aliados excepto a este campeon durante 2 turnos. Llena un 50% la barra de turno de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agallas de Sangre (Pasiva)",
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Daño] a este campeónh durante 1 turno cuando sus HP bajan del 50%.",
+      "levels": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en Mazmorras en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/kunoichi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

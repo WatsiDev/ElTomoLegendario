@@ -1,0 +1,140 @@
+{
+  "slug": "canonesa",
+  "name": "Canonesa",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Tanque debufer, útil en facciones pero con poca contribución en otras áreas",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante"
+  ],
+  "relics": [
+    "abanico_negro",
+    "diadema_no_muerta",
+    "dedo_real"
+  ],
+  "gear": [
+    "incondicional",
+    "inmortal",
+    "resiliencia",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Facciones normales, poco más",
+  "stats": {
+    "hp": 17670,
+    "speed": 98,
+    "attack": 804,
+    "defense": 1321,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Encabezar el Ataque (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un bufo de [Aumentar ATK] del 50 % a un aliado aleatorio durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asalto Cegador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "0.3xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 80 % de probabilidad de aplicar un debufo de [Reducir PUNT] del 50 % y un debufo de [Chupar Vida] sobre el objetivo durante 2 turnos. Este ataque siempre es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardián Inmutable",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Protección de Aliados] del 50 % al objetivo durante 2 turnos y un bufo de [Aumento de DEF] del 60 % al objetivo y a este campeón durante 2 turnos. También aplica un bufo de [Curación continua] del 15 % a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en criptas de facción en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/canonesa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

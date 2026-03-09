@@ -1,0 +1,148 @@
+{
+  "slug": "legado-teox",
+  "name": "Legado Teox",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Nuker muy completo",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=SnKa6uUH0dQ",
+  "blessings": [
+    "desgarro-aplastante",
+    "segar-almas"
+  ],
+  "relics": [
+    "garra_malefica",
+    "invocatormentas",
+    "luna_de_sangre",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "antorcha_esclava",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "despiadado",
+    "cruel",
+    "salvaje",
+    "instinto",
+    "fervor"
+  ],
+  "uses": "Nuker poderoso muy bueno en hydra, arena y oleadas.",
+  "stats": {
+    "hp": 17175,
+    "speed": 103,
+    "attack": 1520,
+    "defense": 914,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Tácticas de Guerrilla (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. El aliado con el mayor D.Crit se unirá al ataque. El aliado que se una al ataque usará su habilidad base. El daño infligido por este campeón y el aliado que se una al ataque aumentará en un 10 % por cada debufo del objetivo (se acumula hasta un 100 %).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Retribución Dracónica (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "2.1xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe ignorará el 10 % de la DEF del objetivo por cada debufo que tenga (se acumula hasta un 50 %). Cada golpe también aumentará el ATK de este campeón en un 10 % (se acumula hasta un 50 %). Obtén un turno adicional si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ira de la Legión (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de [Aumentar ATK] del 50 % y un bufo de [Aumentar D.Crit] del 30 % a este campeón durante 2 turnos. Aplica un golpe adicional a los enemigos bajo cualquier debufo.",
+      "factionUnity": "Unidad de Hombres Lagarto",
+      "unityEffects": {
+        "1-ally": "Ignora bufos de [Fortalecer], [Protección de Aliados] y [Escudo].",
+        "2-ally": "Si esta habilidad mata a un enemigo con algún debufo, le aplica un debufo de [Bloquear Revivir]",
+        "3-ally": "Hace un 20% más de daño por cada debufo de cada enemigo (se acumula hasta el 100%)"
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sobrevivir a toda costa (Pasiva)",
+      "levels": [],
+      "description": "Llena la barra de turno de este campeón en un 5 % cada vez que un enemigo o un aliado recibe un debufo.",
+      "factionUnity": "Unidad de Hombres Lagarto",
+      "unityEffects": {
+        "1-ally": "Tiene un 25% de probabilidad de contraatacar siempre que un aliado es atacado por un enemigo con algún debufo. Si hay varios campeones en el grupo con esta habilidad solo se activa una vez.",
+        "2-ally": "Reduce un 50% el daño que recibe este campeón de enemigos con algún debufo y un 20% el daño que reciben los aliados de enemigos con algún debufo.",
+        "3-ally": "Todos los aliados son inmunes a debufos de [Oveja]"
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
+    },
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de Aliados en todas las batallas en 40 (solo se aplica a a Hombres Lagarto)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/legado-teox.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

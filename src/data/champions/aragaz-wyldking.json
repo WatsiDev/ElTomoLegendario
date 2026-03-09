@@ -1,0 +1,143 @@
+{
+  "slug": "aragaz-wyldking",
+  "name": "Aragaz Wyldking",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Poderoso controlador que combinado con otros Orcos, tiene buenas sinergias de daño",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "el_triturador",
+    "mascara_de_ira",
+    "campana_fundida",
+    "apagador_de_esencia",
+    "antorcha_esclava"
+  ],
+  "gear": [
+    "inmortal",
+    "percepcion",
+    "velocidad",
+    "supersonico",
+    "punteria",
+    "velocidad-divina"
+  ],
+  "uses": "Buenas sinergias combinados con otros Orcos, pero no se usa en nada en específico",
+  "stats": {
+    "hp": 22305,
+    "speed": 106,
+    "attack": 881,
+    "defense": 1200,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Biscarma Salvaje (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "0.26xHP",
+      "description": "Ataca a 1 enemigo. Cura a los aliados que tengan menos del 50% de HP hasta el 50% de su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ardid Sacrificial",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Ataca a 1 aliado. Hace un daño equivalente al 50% de HP actuales del objetivo. Luego aplica un bufo de [Escudo] a dicho aliado durante 2 turnos. La magnitud del [Escudo] es igual a la cantidad de HP que le falta a dicho aliado.\n\n También llena la barra de turno de dicho aliado en un porcentaje equivalente a los HP que le faltan. Por último, llena la barra de turno de este campeón en la misma medida.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cacareo de Espadas (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 100% de probabilidad de aplicar un debufo de [Incitar] a todos los enemigos durante 1 turno. También aplica un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos.",
+      "factionUnity": "Unidad de Orcos",
+      "unityEffects": {
+        "1-ally": "Este campeón es inmune a debufos de [Bloquear Habilidades Activas] y efectos que aumentan los tiempos de reutilización.",
+        "2-ally": "Activa inmediatamente esta habilidad siempre que los HP de un aliado bajan del 50%. Activar instantáneamente esta habnilidad no la pone en tiempo de reutilización.",
+        "3-ally": "Los debufos de [Incitar] aplicados por esta habilidad no se pueden resistir."
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desvalidos (Pasiva) ",
+      "levels": [],
+      "description": "Los aliados con el 50% o menos de HP hacen un 30% más de daño.",
+      "factionUnity": "Unidad de Orcos",
+      "unityEffects": {
+        "1-ally": "Los aliados con el 50% o menos de HP reciben un 30% menos de daño.",
+        "2-ally": "Siempre que muere un aliado o un enemigo, aumenta un 5% de HP, ATK, DEF y VEL de todos los aliados (se acumula hasta el 25%)",
+        "3-ally": "Siempre que un aliado mata a un enemigo, da un turno instantáneo a dicho aliado. Una vez por aliado y ronda."
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en 33%"
+    },
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en un 25% (solo se aplica a Orcos)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/aragaz-wyldking.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

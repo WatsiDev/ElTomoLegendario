@@ -1,0 +1,143 @@
+{
+  "slug": "fyr-gun-isbeil",
+  "name": "Fyr-Gun Isbeil",
+  "faction": "Enanos",
+  "rarity": "Épico",
+  "role": "Nuker de bombas que hacen más daño a jefes",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=FeoQRn29Nf4",
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Limitados, versión pequeña del legendario Gnishak, útil contra jefes poniendo bombas",
+  "stats": {
+    "hp": 13215,
+    "speed": 102,
+    "attack": 1542,
+    "defense": 881,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Disparo Fyr (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bomba"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de reducir 1 turno la duración de un debufo de [Bomba]. También tiene un 25% de probabilidad de aplicar un debufo de [Bomba] de 1 turno a un enemigo al azar. Detona inmediatamente el debufo de [Bomba] aplicado al azar.\n\n Los debufos de [Bomba] aplicados por esta habilidad a enemigos con Max HP mayor a 200 000 hacen un 20% más de daño",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Munición Rastreadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bomba"
+        }
+      ],
+      "multiplier": "2.7xATK",
+      "description": "Ataca a 1 enemigo 2 veces. El primer ataque tiene un 75% de probabilidad de aplicar 2 debufos de [Bomba] que explotarán en 2 turnos. El segundo ataque tiene un 55% de probabilidad de aplicar un efecto de [Contagiar Debufos] que contagia 1 debufo de [Bomba] al resto de enemigos.\n\n Los debufos de [Bomba] aplicados por esta habilidad a enemigos con mas MAX HP mayor que 200 000 hacen un 50% más de daño.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Andanada Eruptiva (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos. Obtén un turno adicional si esta habilidad aplica el debufo de [Debilitar] a todos los enemigos",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fénix Explosivo (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Aplica un bufo de [Revivir al Morir] a este campeón durante 2 turnos siempre que un enemigo muere por un debufo de [Bomba]",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en las batallas en 40"
+    }
+  ],
+  "lore": "Muchas hazañas de arquitectura, ingeniería, navegación y guerra logradas en toda Teleria no serían posibles sin los dispositivos y conocimientos que los Enanos proporcionaron originalmente. A Isbeil, creadora del Fyr-gun, le encantaría unirse a la ilustre lista de inventores Enanos de renombre mundial, pero no será fácil dadas las fuerzas desplegadas en su contra que querrían ver su innovación aplastada y olvidada. Los detractores de Isbeil señalan su juventud y su vena rebelde, llamándola una peligrosa renegada manitas y su dispositivo una amenaza para ella y para los demás. Sus prejuicios simplemente los ciegan al verdadero potencial del Fyr-gun, cree ella.\n\n En Port Wretched, Isbeil era una huérfana, ignorada por sus padres negligentes y despreciada por su dependencia de ellos. Era socialmente torpe y saltaba de un tema a otro en sus conversaciones y su lógica. Pero este ritmo febril de pensamiento le producía estallidos de visión y una necesidad apasionada de crear. Casi la atraparon en numerosas ocasiones cuando entraba en talleres, forjas y casas gremiales para conseguir herramientas y materiales. Al hacerlo, improvisó una especie de aprendizaje híbrido para sí misma a pesar de los feroces caninos y las peligrosas trampas que se suponía que la defendían de intrusos como ella.\n\n Los esfuerzos de Isbeil culminaron con la combinación de ingeniería mecánica, geoquímica y magia rúnica enana para crear un resultado explosivo. Primero, preparó una mezcla secreta de polvos de piedra y ácidos. La pasta resultante la colocó sobre la bandeja receptora de un artilugio de acero que se parecía a un martillo y un yunque con resorte. Luego activó el dispositivo y la pasta fue golpeada a gran velocidad por un martillo en miniatura que tenía en su cabeza una marca rúnica enana que denota de diversas maneras 'ignición', 'chispa' o 'inspiración'. El poder de la runa interactuó con la matriz química del combustible de Isbeil mientras se comprimía por el rápido impacto y convirtió el combustible en fuego, tan explosivamente rápido que este primer prototipo explotó en pedazos y le dejó a Isbeil una franja de dolorosas cicatrices.\n\n Isbeil se dio cuenta rápidamente de que podía convertir la reacción en un arma y finalmente perfeccionó su cañón Fyr, el séptimo prototipo y su amada obra maestra. Hizo que la detonación fuera útil canalizando la explosión a través de un tubo largo, al que agregó una cuchilla para que pudiera funcionar como un hacha resistente si fuera necesario. Tenía que ser robusta, para contener y dirigir las energías de la reacción de Isbeil. La onda expansiva de la detonación era un espectáculo impresionante y una fuerza de percusión letal. Tenía desventajas en comparación con los arcos y ballestas tradicionales. Pero tenía claras ventajas en términos de poder destructivo puro y el terror espectacular que podía causar.\n\n Debido a su falta de carisma y a su origen poco recomendable, Isbeil tuvo dificultades para obtener el reconocimiento que merecía. Los propietarios de las fábricas de armas en las que Isbeil intentó dar publicidad a su creación la despreciaban abiertamente, pero en confianza mutua les preocupaba mucho que el Fyr-gun pudiera perturbar sus ordenados y rentables negocios.\n\n Para exhibir su creación, Isbeil comenzó a hacerse con recompensas de alto valor y contratos de mercenarios, reclamando una docena a la vez solo para acaparar las oportunidades, y dejó trozos carbonizados y salpicados de varios criminales y forajidos tirados en las tablas de los barcos o en la parte trasera de callejones sin salida. Sin embargo, en el proceso enfureció a varias personas cuyas ofertas de recompensa aceptó y luego ignoró. Entre ellos, la acaudalada camarilla de traficantes de armas y los socios vengativos de aquellos cuyas recompensas ella perseguía, Fyr-gun Isbeil tal vez esté a punto de una serie de enfrentamientos explosivos. Sin embargo, la noticia de Isbeil ha llegado a Hurndig, el Ingeniero Supremo del Dominio de Skyiron. Está profundamente intrigado y, si se sale con la suya, pronto estará trabajando en sus forjas, con todos los recursos que pueda soñar.",
+  "forms": null,
+  "image": "/src/assets/champions/fyr-gun-isbeil.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

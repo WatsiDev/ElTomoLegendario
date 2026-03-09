@@ -1,0 +1,136 @@
+{
+  "slug": "melga-steelgirdle",
+  "name": "Melga Steelgirdle",
+  "faction": "Enanos",
+  "rarity": "Épico",
+  "role": "Buen campeón de apoyo con revivir y curaciones",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=_xRs199AFxg",
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    "crisalida_de_renacer",
+    "dedo_real",
+    "efigie_demoniaca",
+    "rocadragon_dorada",
+    "elixir_dorado",
+    "cristal_de_exanima",
+    "corona_lugubre"
+  ],
+  "gear": [],
+  "uses": "Revividor para facciones y PvE en early-mid",
+  "stats": {
+    "hp": 20475,
+    "speed": 100,
+    "attack": 947,
+    "defense": 991,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Inspirar Violencia (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 9: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "0.15xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de eliminar 1 debufo aleatorio de un aliado aleatorio. No se puede eliminar un debufo de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agallas Puras (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo 5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo 5%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo 5%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo 5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] en todos los aliados igual al 20% de los HP MAX de este Campeón durante 2 turnos. También aplica un bufo del 15% [Curación continua] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Retorno glorioso",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Revive a 2 aliados aleatorios con un 20% de HP y un 20% de medidor de turno. También aplica un bufo de [Escudo] en los aliados revividos durante 2 turnos equivalente al 30% de su HP máximo.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de los aliados en todas las batallas en un 15%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/melga-steelgirdle.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

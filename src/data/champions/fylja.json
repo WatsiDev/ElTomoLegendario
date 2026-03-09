@@ -1,0 +1,126 @@
+{
+  "slug": "fylja",
+  "name": "Fylja",
+  "faction": "Enanos",
+  "rarity": "Épico",
+  "role": "Nuker de un solo objetivo con utilidad puntual",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Ninguno en late, demasiado simple y sin sinergias",
+  "stats": {
+    "hp": 14535,
+    "speed": 104,
+    "attack": 1310,
+    "defense": 1024,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Juicio de los Ancianos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Destruye el HP MAX del objetivo en un 10% del daño infligido. No se puede destruir el HP MAX de un solo enemigo en más del 50%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Eternidad Aplastante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de posibilidades de vaciar por completo la barra de turno del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Evocación Justa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.5xATK",
+      "description": "Ataca a todos los enemigos. Llena la barra de turno de este campeón en un 15% y lo cura en un 15% del daño infligido si este ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Canto de Bendición (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-critico-2"
+        }
+      ],
+      "description": "Si este Campeón tiene 2 bufos o menos al comienzo del turno, aplica un bufo del 50 % [Aumentar ATK] y un bufo del 30 % [Aumentar D.Crit] a este Campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/fylja.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "lyssandra",
+  "name": "Lyssandra",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Gran iniciador con mucho control de barra de turno",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=3_GtFUXF-u8",
+  "blessings": [
+    "presencia-amenazante",
+    "cadenas-temporales"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "tiempo_de_sangre",
+    "arpa_de_kasbiel",
+    "estrellas_jinang"
+  ],
+  "gear": [
+    "impulso",
+    "velocidad",
+    "velocidad-divina",
+    "exactitud",
+    "supersonico"
+  ],
+  "uses": "Caballero de Fuego normal, Astranyx (Jefe de Torre del Destino) y arenas. En Asedio brillará mucho por su aura y función.",
+  "stats": {
+    "hp": 21480,
+    "speed": 110,
+    "attack": 969,
+    "defense": 1178,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Transferencia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Transfiere todos los debufos de este campeón al objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agotamiento (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Reduce completamente la barra de turno del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Energizar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% [Aumentar VEL] a todos los aliados durante 2 turnos. Llena la barra de turno de todos los aliados en un 30%. Reduce la barra de turno de todos los enemigos en un 30%.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en un 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lyssandra.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

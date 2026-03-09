@@ -1,0 +1,118 @@
+{
+  "slug": "baerdal-fellhammer",
+  "name": "Baerdal Fellhammer",
+  "faction": "Enanos",
+  "rarity": "Épico",
+  "role": "Nuker de un solo objetivo con autocontraataque",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Caballero de Fuego en early y facciones, pero se queda corto en mid y late",
+  "stats": {
+    "hp": 16185,
+    "speed": 94,
+    "attack": 1398,
+    "defense": 826,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 60
+  },
+  "skills": [
+    {
+      "name": "Hacha Hechizada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "2.1xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30% de probabilidad de aplicar un debufo del 100% [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Protección de Fey (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 75 % de probabilidad de aplicar un debufo de [Reducir DEF] del 60 % durante 2 turnos si el objetivo está bajo un debufo de [Curación Reducida] . Aplica un bufo de [Escudo] en este Campeón durante 3 turnos equivalente al 30% del daño infligido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Paranoia (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Aplica un bufo de [Contraataque] en este Campeón durante 1 turno al comienzo de cada Ronda. Aplica un bufo de [Contraataque] en este Campeón durante 1 turno al final de su turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en Mazmorras en 32%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/baerdal-fellhammer.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

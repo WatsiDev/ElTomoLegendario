@@ -1,0 +1,125 @@
+{
+  "slug": "portadora-de-escarcha",
+  "name": "Portadora de Escarcha",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Bufer de apoyo para facciones, pero del montón en el resto de sitios.",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante"
+  ],
+  "relics": null,
+  "gear": [
+    "punteria",
+    "percepcion",
+    "velocidad"
+  ],
+  "uses": "Pocos, no recomiendo subirla",
+  "stats": {
+    "hp": 20310,
+    "speed": 110,
+    "attack": 870,
+    "defense": 1079,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Conos de Frío (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca 2 veces al azar. Tiene un 30 % de probabilidad de aplicar un debufo de [Curación Reducida] del 100 % durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ráfaga de Nieve (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "2.2xATK",
+      "description": "Ataca 3 veces al azar. Cada golpe tiene un 75 % de probabilidad de aplicar un debufo de [Reducir DEF] del 60 % durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vientos Árticos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Aumentar VEL] y del 50% [Aumentar ATK] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en Mazmorras en 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/portadora-de-escarcha.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

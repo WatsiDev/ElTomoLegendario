@@ -1,0 +1,121 @@
+{
+  "slug": "suma-khatun",
+  "name": "Suma Khatun",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Iniciador gratuíto. No es la mejor, pero es gratis y  sirve en facciones",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante"
+  ],
+  "relics": [
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "velocidad",
+    "impulso",
+    "velocidad-divina",
+    "percepcion"
+  ],
+  "uses": "Arena en early hasta que consigamos a Medidora. Luego queda relegada a facciones, aunque tampoco es realmente necesaria.",
+  "stats": {
+    "hp": 16350,
+    "speed": 104,
+    "attack": 1024,
+    "defense": 1189,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Gracia Imperial (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad Bufo / Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de posibilidades de aplicar un 30% [Reducir VEL] debufo durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reunir a la horda",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Llena las barras de turno de todos los aliados en un 15% y aplica un bufo de 30% [Aumentar VEL] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rayo chamánico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Oportunidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Oportunidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de posibilidades de reducir las barras de turno en un 15%",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliado en todas las batallas en un 19%"
+    }
+  ],
+  "lore": "Los nómadas del desierto de Krokhan son conocidos por su feroz habilidad en el combate y su espíritu ferozmente independiente. Si bien rara vez se ponen de acuerdo, sus disputas suelen resolverse mediante el combate y los rencores entre clanes pueden perdurar durante generaciones. Si no fuera por estas rivalidades tan arraigadas, los clanes podrían haber construido un reino tan poderoso como Aravia o Kaerok.\n\n En raras ocasiones, cuando se requiere la unidad, las tribus dejan de lado sus diferencias y eligen a un líder conocido como el Gran Khatun. Este señor de la guerra debe encarnar las cualidades que los nómadas más valoran: destreza en la batalla, coraje, sabiduría, carisma y una voluntad inquebrantable. Muchos jefes poseen algunos de estos rasgos, pero solo unos pocos pueden reivindicarlos todos. Incluso menos pueden mantener el título de Gran Khatun durante mucho tiempo, ya que la traición, la derrota o las meras circunstancias suelen conducir a su caída.\n\n El ascenso de un Alto Khatun es impredecible. Algunos guerreros se adjudican el título después de liderar a su pueblo en conquistas, otros lo ganan a través de misiones en el desierto y otros reciben el título de sus pares en tiempos de gran necesidad. Perasha el Halcón es uno de esos líderes, elegido para unir a los nómadas cuando la oscura ciudad de la academia de Ireth intentó expandirse a su territorio.\n\n Aunque era joven y pertenecía a un clan menos poderoso, la brillantez táctica de Perasha se hizo evidente rápidamente. Lideró audaces incursiones que atrajeron a las fuerzas irethi al desierto, donde los nómadas las eliminaron fácilmente. Su éxito inquietó a los demás jefes, que temían que uniera a los clanes de forma permanente. Una vez ganada la guerra, conspiraron para acabar con su vida.\n\n La verdadera naturaleza de la muerte de Perasha sigue siendo un tema de debate. Algunos dicen que fue asesinada por un asesino mágico, otros afirman que una flecha la atravesó por detrás. Independientemente de los detalles, todos los clanes coinciden en que, si bien un Alto Khatun es esencial en tiempos de crisis, su liderazgo no debería sobrevivir a la amenaza que fueron elegidos para superar.",
+  "forms": null,
+  "image": "/src/assets/champions/suma-khatun.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

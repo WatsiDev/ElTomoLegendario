@@ -1,0 +1,120 @@
+{
+  "slug": "vengadora",
+  "name": "Vengadora",
+  "faction": "Altos Elfos",
+  "rarity": "Raro",
+  "role": "Muy mala, comida.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [],
+  "gear": [],
+  "uses": "Ninguno, muy mala. Puedes usarla para subir otros campeones",
+  "stats": {
+    "hp": 12225,
+    "speed": 104,
+    "attack": 1398,
+    "defense": 815,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cacería (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-1"
+        }
+      ],
+      "multiplier": "2.55xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de 30% de [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vórtice Mortal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "2.4xATK",
+      "description": "Ataca 2 veces al azar. Tiene un 15% más de probabilidad de crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe Letal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "5.2xATK",
+      "description": "Ataca a 1 enemigo. Siempre es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en criptas de facción en 17%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/vengadora.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

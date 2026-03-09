@@ -1,0 +1,138 @@
+{
+  "slug": "teela-goremane",
+  "name": "Teela Goremane",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Gran campeón para Hydra con Maleficio y Quemar HP en área así como curas.",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=pchaH7Wjqyc",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [
+    "reflejo",
+    "punteria",
+    "percepcion",
+    "velocidad"
+  ],
+  "uses": "Muy buena en Hydra. Buena en oleadas y Golem difícil.",
+  "stats": {
+    "hp": 21975,
+    "speed": 98,
+    "attack": 892,
+    "defense": 1222,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cimitarra antiembrujos (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10 %"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo. Roba 1 bufo aleatorio del objetivo. También tiene un 50 % de probabilidad de robar otro bufo aleatorio si el objetivo tiene menos de 2 bufos",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe de pira (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +20 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de posibilidades de aplicar un debufo de [Quemar HP] durante 2 turnos. También aplica un bufo de [Curación continua] del 15% en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Gusano de vida (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 85% de probabilidad de aumentar la duración de todos los debufo de [Quemar HP] en todos los enemigos en 1 turno. También tiene un 85 % de probabilidad de aplicar un debufo de [Chupar Vida] y uno de [Maleficio] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESISTENCIA de aliados en todas las batallas en 35."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/teela-goremane.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

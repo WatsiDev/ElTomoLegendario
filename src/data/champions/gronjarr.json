@@ -1,0 +1,131 @@
+{
+  "slug": "gronjarr",
+  "name": "Gronjarr",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Quemador de HP",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "mano_de_descrear"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "percepcion",
+    "punteria",
+    "redirigir",
+    "mercurial"
+  ],
+  "uses": "Pocos o ninguno. Se consigue muy tarde para ser viable y es muy mediocre",
+  "stats": {
+    "hp": 22800,
+    "speed": 100,
+    "attack": 837,
+    "defense": 1222,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Golpe Pirotécnico (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        }
+      ],
+      "multiplier": "0.1xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30 % de probabilidad de aumentar la duración de los debufos de [Quemar HP] en ​​1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Destrozar la Falsedad (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.15xHP",
+      "description": "Ataca a 1 enemigo 2 veces. El primer golpe tiene un 75 % de probabilidad de eliminar cualquier bufo de [Bloquear Debufos]. El segundo golpe tiene un 75 % de probabilidad de eliminar 1 bufo aleatorio, excepto los bufos de [Bloquear Debufos].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuegos de Auld (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de posibilidades de aplicar un debufo de [Quemar HP] durante 2 turnos. También llena la barra de Turno de este Campeón en un 5% por cada debufo [Quemar HP] que el equipo enemigo tenía antes de este ataque.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardián de Llamas (Pasiva)",
+      "levels": [],
+      "description": "[Efecto pasivo] \n\n Este campeón no recibirá ningún daño de los debufos de [Quemar HP]. En cambio, los debufos de [Quemar HP] curarán a este campeón en un 5% MAX HP cada vez que se activen los debufos. \n\n [Efecto activo] \n\n Cada vez que un enemigo intenta aplicar un debufo de [Congelar] en este Campeón, la elimina instantáneamente y la aplica en el atacante. También aplica un debufo de [Quemar HP] en el atacante durante 1 turno. Este [Quemar HP] no se puede resistir.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gronjarr.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

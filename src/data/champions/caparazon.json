@@ -1,0 +1,129 @@
+{
+  "slug": "caparazon",
+  "name": "Caparazón",
+  "faction": "No Muertos",
+  "rarity": "Épico",
+  "role": "Nuker de HP resistente y con un incitar muy útil en Hydra",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "incansable",
+    "percepcion"
+  ],
+  "uses": "Hydra principalmente, hasta mid y un poco de late game",
+  "stats": {
+    "hp": 20970,
+    "speed": 98,
+    "attack": 969,
+    "defense": 936,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Hierro Ardiente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de debufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de debufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de debufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "2.8xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 20 % de probabilidad de aplicar un debufo de [Incitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desesperar (MAX HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de debufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de debufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de debufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.1xMAX HP del enemigo",
+      "description": "Ataca a todos los enemigos. Tiene un 35 % de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. El daño infligido es proporcional al HP MÁXIMO del enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vengarse (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Ataca a 1 enemigo. El daño aumenta según el HP actual de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta los HP de los aliados en la Arena en un 30%"
+    }
+  ],
+  "lore": "Entre los nigromantes no hay arte más grande que el de la construcción de cáscaras. Para crear al guerrero perfecto a partir de los cuerpos de los muertos se necesita un ojo hábil y un toque delicado. No sirve cualquier cadáver. Para crear una cáscara eficaz, hay que recorrer un campo de batalla reciente y seleccionar solo las partes más selectas de los recién muertos. El brazo de un espadachín, las piernas de un escudero, el cráneo de un general... piezas dispares combinadas en un todo despiadado.\n\n Pero encontrar las piezas adecuadas es sólo el primer paso de un proceso agotador. El cuerpo debe ser ensamblado según ciertos ritos y cosido con hilo tejido a partir del cabello de un hombre ahorcado. La armadura y las armas recuperadas de túmulos y tumbas se unen al cuerpo mediante suturas y ganchos.\n\n La parte más difícil se reserva para el final. La desdichada “ella” debe ser imbuida de No-muerte. Hay muchos métodos posibles para lograr esta acción impía. Un nigromante puede emplear las fuerzas vitales del mundo natural, a menudo en forma de relámpagos, para llenar la cáscara con poder motriz. Atrae estas fuerzas hacia el cadáver utilizando tecnologías prohibidas o rituales tabú, y luego las atrapa dentro de la cáscara. O puede usar una variedad de elixir de restauración hecho con la sangre de Demonspawn o Skinwalkers, combinado con varias tinturas alquímicas, para infundir a la monstruosidad algo parecido a la vida.\n\n Sin embargo, el método más común consiste en atrapar las almas de los guerreros muertos y fusionarlas mágicamente en una esencia cohesiva, aunque no del todo estable. Esta es también la forma más peligrosa de lograr la potenciación de una cáscara. Si la magia que las une falla aunque sea por un momento, las almas fusionadas intentarán desgarrarse, lo que conducirá inevitablemente a la destrucción de la cáscara, o algo peor. Este tipo de sucesos suelen provocar que la cáscara atormentada se vuelva loca, mate a su creador y se descontrole hasta que sea destruida.\n\n Aunque la mayoría de las cáscaras solo existen durante un corto período de tiempo debido a que están compuestas en gran parte de cuerpos en descomposición, algunas persisten durante años y sobreviven grotescamente incluso a la putrefacción de su propia carne. Una de esas cáscaras era la criatura conocida como el Carnicero. Creado a partir de los restos de una escaramuza entre una banda de orcos y soldados kaerok por un ambicioso nigromante, el Carnicero fue enviado a masacrar a más guerreros para reunir una reserva de partes nuevas con las que su amo pudiera experimentar. En las semanas siguientes, mató a docenas de enemigos: campeones orcos, caballeros de Kaerok y sirvientes de la Orden Sagrada, que buscaban activamente al creador de la cáscara. Tomó piezas de cada persona que mató y usó los sangrientos trofeos para repararse a sí mismo.\n\n El nigromante esperaba crear un ejército de cáscaras, de las cuales el Carnicero era solo el primero. Pero las almas que le daban poder al Carnicero se volvían más rebeldes con cada batalla, y el Carnicero se volvía cada vez menos receptivo a las órdenes de su creador, aunque este último le prestaba poca atención a esto, estando más preocupado por crear más cáscaras. Finalmente, llegó un día en que el Carnicero se volvió contra el nigromante, lo desgarró con sus propias manos y destruyó su guarida en una orgía de violencia sangrienta. Quienes lo habían estado cazando y su amo asumieron que había perecido con su creador.\n\n Pero algunos dicen que el Carnicero continúa vagando por los campos de batalla de Kaerok y los reinos circundantes, continuando sin pensar su recolección de partes del cuerpo para seguir funcionando.",
+  "forms": null,
+  "image": "/src/assets/champions/caparazon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "bloodfeather",
+  "name": "Bloodfeather",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Épico necesario para fusionar a Rhazin, debufer de defensa y velocidad",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [
+    "ataque",
+    "ataque-divino",
+    "salvaje",
+    "cruel",
+    "letal",
+    "percepcion"
+  ],
+  "uses": "No muy buena, no se usa",
+  "stats": {
+    "hp": 13875,
+    "speed": 102,
+    "attack": 1542,
+    "defense": 837,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Salto bestial (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % más de posibilidades de crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompe Armaduras (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "5.3xATK",
+      "description": "Aplica un debufo de [Reducir DEF] del 60 % durante 2 turnos y luego ataca a 1 enemigo. Tiene un 30 % más de posibilidades de crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tiro Cargado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "6.1xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Reducir VEL] del 30 % durante 2 turnos. Reduce la barra de turno del objetivo en un 50 %. Tiene un 30 % más de probabilidad de crítico.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la P.Crit de aliados en Criptas de Facción en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bloodfeather.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

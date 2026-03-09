@@ -1,0 +1,6 @@
+{
+  "name": "Ataque",
+  "slug": "atk",
+  "icon": "/src/assets/icons/auras/Attack.png",
+  "image": "/src/assets/icons/auras/large/Attack.png"
+}

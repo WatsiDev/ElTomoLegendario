@@ -1,0 +1,112 @@
+{
+  "slug": "astralith",
+  "name": "Astralith",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Campeón de bombas. Usos limitados",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "pergamino_invisible",
+    "luna_de_sangre",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Arena con Visir Ovelis contagiando o Bommal en Torre del Destino",
+  "stats": {
+    "hp": 17175,
+    "speed": 102,
+    "attack": 1487,
+    "defense": 947,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Líder de asalto (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Llena la barra de turno de un aliado aleatorio en un 15%. Llena la barra de turno de todos los aliados en un 15% adicional si este ataque es crítico. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rotura del corazón (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bomba"
+        }
+      ],
+      "multiplier": "5.6xATK",
+      "description": "Ataca a 1 enemigo. Aplica 2 debufos de [Bomba] que detonan después de 1 turno. Las bombas no se pueden resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sentencia",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "Intercambia los niveles restantes de HP con un enemigo objetivo, luego ataca con la habilidad predeterminada. No se puede usar en un jefe.\n\n [Efecto pasivo] Obtiene un turno adicional y disminuye el tiempo de reutilización de esta habilidad en 3 turnos si el HP de este campeón cae por debajo del 20% cuando es atacado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en la arena en un 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/astralith.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

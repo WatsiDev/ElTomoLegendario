@@ -1,0 +1,135 @@
+{
+  "slug": "fahrakin-el-gordo",
+  "name": "Fahrakin el Gordo",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Muy buen apoyo con cargas y buenos debufos, útil en bastantes sitios",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "corona_de_ireth",
+    "lente_intangible",
+    "caldero_acaparador"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 14535,
+    "speed": 100,
+    "attack": 1244,
+    "defense": 1090,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe candente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aplicar un debufo del 60% [Reduir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marca de Vergüenza (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "7.3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de aplicar un debufo [Quemar HP] y dos debufo del 5% [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Doblegar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Aumentar D.Crit] y un bufo del 30% [Aumentar P.Crit] en todos los aliados excepto este campeón durante 3 turnos. Luego todos los aliados excepto este campeón atacarán a 1 enemigo objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bloqueo con cuerpos (Pasiva)",
+      "levels": [],
+      "description": "Desvía el 20% de todo el daño recibido por este campeón a todos los aliados. El daño se distribuirá por igual entre todos los aliados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Fahrakin el Gordo es un nombre muy conocido entre los jugadores y jefes de gremios de Velyzar. En su día, no era más que otro luchador sin nombre, destinado a morir en una arena y ser olvidado. Ahora, es uno de los jefes más poderosos del desierto de Krokhan.\n\n Fahrakin era apenas un niño cuando su padre, un cuidador de animales del Gremio de Caravanas, lo vendió al Gremio de Gladiadores a cambio de que le perdonaran sus deudas. El joven tenía fuerza y ​​resistencia, pero no verdadera habilidad. Se sometió a un régimen de entrenamiento brutal que casi lo llevó a la muerte más de una vez, pero perseveró y ocupó su lugar en una arena. Al principio, estaba destinado a ser carne de cañón y nada más; un desafío menor para un luchador más popular, o algo para abrir el apetito de uno de los monstruos empleados en los fosos.\n\n Pero durante su primer combate, contra una de las grandes bestias-lagarto de escamas de arena de los Krokhan, la multitud observó estupefacta cómo el joven gladiador distraía a la bestia con la superficie pulida de su escudo y luego cortaba hábilmente los tendones de tres de sus seis patas. Era evidente que conocía sus debilidades. Con el monstruo incapitado, Fahrakin se permitió un momento de triunfo. Fue casi su perdición. La bestia-lagarto le escupió veneno, cegándolo momentáneamente y quemándole la carne. Fahrakin se derrumbó en agonía.\n\n Cuando despertó, Fahrakin se encontró frente a frente con el rostro arrugado y sonriente de uno de los señores de las bestias de la arena, Ouse. Ouse no era un hombre de Velyzar, sino más bien el jefe de un clan nómada contratado como cazador de bestias por el Gremio de la Arena. Ouse interrogó a Fahrakin y descubrió que el padre del joven le había enseñado a observar a un animal y volverlo inofensivo. Intrigado, Ouse le preguntó a Fahrakin si estaría interesado en unirse a su clan. Fahrakin aceptó de inmediato, prefiriendo la vida mucho menos peligrosa de un nómada a la de un gladiador.\n\n En los meses siguientes, Ouse enseñó al joven Fahrakin más sobre la caza. El desierto era inhóspito y estaba lleno de criaturas sobrenaturales. Grandes felinos con pieles acorazadas rondaban por los riscos y serpientes con escamas de guijarros lo suficientemente grandes como para tragarse un caballo acechaban bajo la arena. El Gremio de la Arena deseaba que esos monstruos actuaran como atracciones estelares entre los combates más tradicionales. Pero Ouse era viejo y esperaba que el excelente Fahrakin ocupara su lugar como domador de bestias. Pero primero, había una prueba final que superar.\n\n Fahrakin fue enviado al desierto para capturar una bestia-lagarto para reemplazar a la que había herido en su debut. Después de varios días encontró el rastro de una y localizó su guarida. Recordó el veneno, esta vez bloqueándolo con el mismo escudo pulido con el que distrajo a la criatura. Regresó al clan arrastrando al reptil atado e incapacitado, y Ouse lo recibió como miembro de pleno derecho de su clan. Fahrakin continuó capturando muchas bestias para las arenas y trajo mucha riqueza a su nuevo pueblo. Y con el tiempo, reemplazó a su mentor no solo como maestro de bestias, sino como jefe.\n\n En la actualidad, Fahrakin rara vez realiza cacerías de monstruos, ya que se ha vuelto sedentario con su edad, comportamiento que le ha valido su apodo despectivo. En cambio, ha entrenado a su gente para encontrar y capturar a los monstruos que anhelan las arenas. Pero nadie más que él tiene permitido manejar el gran hierro para marcar que le regaló su mentor. Con él, Fahrakin marca a la criatura cautiva como propiedad de su clan, para que todos los que la vean en las arenas sepan quién la capturó.",
+  "forms": null,
+  "image": "/src/assets/champions/fahrakin-el-gordo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

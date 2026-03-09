@@ -1,0 +1,121 @@
+{
+  "slug": "akemtum",
+  "name": "Akemtum",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Potente envenenador y debufer, top en arañas y oleadas aunque blandito",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=CFXjMaZ4ws0",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "aberracion_antigua",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Muy útil en oleadas, jefes y facciones",
+  "stats": {
+    "hp": 13545,
+    "speed": 95,
+    "attack": 1498,
+    "defense": 903,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Garras Nocivas (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. bufo/debufo +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "1.1xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada ataque tiene un 40% de probabilidad de aplicar un debufo de 5% de [Veneno] durante 2 turnos. Si el objetivo tiene un debufo de [Maleficio] cada ataque también tiene un 40% de probabilidad de aplicar el efecto de [Contagiar debufos] que propaga un 1 debufo al azar del objetivo a todos los enemigos",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maldición Inmortal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "1.1xATK",
+      "description": "Ataca a todos los enemigos 3 veces. Cada ataque tiene un 60% de probabilidad de aumentar 1 turno la duración de cualquier debufo de [Maleficio] de los enemigos. A enemigos que no tienen ningún debufo de [Maleficio], cada ataque tiene un 60% de probabilidad de aplicar un debufo de [Maleficio] durante 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre Maldita (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 3: Prob. bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. bufo/debufo +10 %"
+        }
+      ],
+      "description": "Tiene un 80% de probabilidad de hacer daño de un debufo de [Veneno] a los enemigos que tienen un debufo de [Maleficio] siempre que sus aliados sufren daño de debufos de [Veneno].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 18%"
+    }
+  ],
+  "lore": "Akemtum, en su vida tanto como humano como Cambiapieles, siempre ha vivido bajo la sombra de la temida Ireth, la ciudad de los inmortales dementes. Hace mucho tiempo, los magos de Ireth buscaron los secretos de la vida y la muerte, y las maquinaciones de los nigromantes eternos, plagados de locura, llevaron a esta otrora próspera metrópolis a un estado de ruina putrefacta y horrorosa. Pocos seres vivos en su sano juicio se aventuran voluntariamente al corazón de Ireth, pero en las afueras existen suburbios que albergan a los pocos mortales que quedan de la caída ciudad-estado. Estos se aferran a lo poco que pueden para sobrevivir y cobran tarifas actuando como intermediarios entre los príncipes alquimistas locos y el resto del mundo. Ireth puede estar infestada de corrupción, pero su oro sigue siendo muy persuasivo.\n\n Akemtum era un habitante de los suburbios, atrapado para siempre entre la podredumbre interna y el desierto exterior. Era un don nadie que se convirtió en ladrón y luego en asesino. Sus métodos incluían el uso de garras de metal para destrozar a sus víctimas mientras dormían o estaban vulnerables. Luego, abría puertas o ventanas con esas mismas garras y arrastraba el cuerpo para que los carroñeros lo consumieran parcialmente, disfrazando sus crímenes como ataques de animales. Tras enmascarar sus crímenes de esta manera varias veces, rió en silencio, pero de corazón, al ver que ofrecían una recompensa por un peligroso y gran gato del desierto. Tal vez cazaría a uno de esos gatos salvajes hinchados por la carroña que merodeaban bajo los muros de Ireth e intentaría reclamar la recompensa. O quizás no. La recompensa por la supuesta bestia asesina era una suma insignificante en comparación con los pagos que recibía por asesinatos contratados por algún comerciante extranjero o un inmortal local en potencia.\n\n El tiempo pasó hasta que Akemtum emprendió lo que pensó que sería una misión sencilla: eliminar a un molesto chatarrero que buscaba entre desechos en un basurero reclamado por el cliente de Akemtum. Mientras se arrastraba por el lugar, un gato rosado y sin pelo emergió de los montones de basura, siseando y aullando. El ruido atrajo a otro chatarrero, quien ahuyentó al gato. Para que su crimen no fuera presenciado, Akemtum se escondió, furioso, entre los restos oxidados y esperó a que el intruso se marchara. Cuando finalmente lo hizo, Akemtum alcanzó a su objetivo y volvió a ver al ruidoso gato, esta vez en los brazos del débil recolector de chatarra. Con desdén, Akemtum atravesó con sus garras de hierro tanto al humano como al animal, sellando el destino del hombre, el gato y el suyo propio. Solo en el basurero, de pie sobre los cadáveres aún calientes, Akemtum fue asaltado por el oscuro y vengativo espíritu del gato que había matado. Cayó de rodillas y comenzó a alucinar, viendo cómo los montones de basura a su alrededor crecían hasta convertirse en temibles colinas y montañas. Entonces apareció un gran gato, cuya alma era el esfinge sin pelo que acababa de destripar, pero cuya forma era la de la verdadera bestia cazadora de hombres que Akemtum había estado imitando falsamente. La criatura declaró que, por vivir según los caminos de la bestia, sería juzgado y castigado por el espíritu vengador de la animalidad primigenia que todos los Skinwalkers han tocado de alguna forma.\n\n Akemtum sigue vivo, pero ya no en los suburbios. Exiliado por clamor popular a las ruinas más cercanas al denso y odioso centro de la siniestra Ireth, un lugar al que la gente decente no se atreve a llegar, aún empuña sus garras como asesino. Estas garras ahora gotean con la podredumbre de Ireth, prometiendo muerte tanto a aquellos marcados por él como a todos los que se le opongan. Su mente fracturada anhela cazar y matar, y su nueva forma híbrida felina lo ha hecho aún más capaz de cumplir con ese propósito.",
+  "forms": null,
+  "image": "/src/assets/champions/akemtum.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

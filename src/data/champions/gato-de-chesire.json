@@ -1,0 +1,143 @@
+{
+  "slug": "gato-de-chesire",
+  "name": "Gato de Chesire",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Nuker capaz de ocultarse y golpear fuertemente en área",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=feHKPnWGJ0g",
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "pergamino_invisible",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "invocatormentas",
+    "cronocubo",
+    "luna_de_sangre",
+    "repartemuerte",
+    "lente_intangible",
+    "ojos_de_acero"
+  ],
+  "gear": [
+    "letal",
+    "despiadado",
+    "instinto",
+    "dano-critico",
+    "salvaje",
+    "cruel",
+    "golpe-mortal"
+  ],
+  "uses": "Buen nuker en arenas y oleadas",
+  "stats": {
+    "hp": 15360,
+    "speed": 101,
+    "attack": 1520,
+    "defense": 1035,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Garra de Fase (ATK)(VEL)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "ATK x (1 +VEL/100)",
+      "description": "Ataca a 1 enemigo. Si este campeón tiene un bufo de [Velo] o [Velo Perfecto], ataca a todos los enemigos en lugar de a 1.\n\n Aplica un bufo de [Velo Perfecto] a este campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Frenesí Felino (ATK)(VEL)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "ATK x (0.5 x VEL/100)",
+      "description": "Ataca a 1 enemigo 3 veces. Cada ataque reduce un 1% de VEL de un enemigo (se acumula hasta el 10%). Este efecto no funciona contra Jefes. Cada ataque aumenta un 1% de VEL de este Campeón (se acumula hasta el 10%).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espiral Sonriente (ATK)(VEL)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "ATK x (1 x VEL/100)",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de [Velo Perfecto] y un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos.\n\n Obtén un turno adicional si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sonrisa de Sombra (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "[Efecto Pasivo] Si este campeón tiene un bufo de [Velo] o [Velo Perfecto], aumenta un 30% la eficacia de los efectos de llenar barra de turno. Además, si este campeón tiene un bufo de [Velo] o [Velo Perfecto], los ataques de este campeón ignoran 15% de DEF y hacen un +15% de daño.\n\n [Efecto Activo] Siempre que este campeón vaya a recibir un ataque que le bajaría del 20% de HP, bloquea el daño entrante y aplica un bufo de [Bloquear Daño] y un bufo de [Velo Perfecto] a este campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gato-de-chesire.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

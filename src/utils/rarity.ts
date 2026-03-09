@@ -9,37 +9,37 @@ export const RARITY_STYLES: Record<string, RarityStyle> = {
   "Mítico": {
     text: "text-raid-red",
     border: "border-raid-red",
-    glow: "shadow-red-glow",
+    glow: "shadow-raid-red",
     hex: "#ef4444",
   },
   "Legendario": {
     text: "text-raid-gold",
     border: "border-raid-gold",
-    glow: "shadow-gold-glow",
+    glow: "shadow-raid-gold",
     hex: "#ffb400",
   },
   "Épico": {
     text: "text-raid-purple",
     border: "border-raid-purple",
-    glow: "shadow-purple-glow",
+    glow: "shadow-raid-purple",
     hex: "#a033ff",
   },
   "Raro": {
     text: "text-raid-blue",
     border: "border-raid-blue",
-    glow: "", // No glow for Rare by default in current design, but could add one
+    glow: "shadow-raid-blue",
     hex: "#0090ff",
   },
   "Poco Común": {
     text: "text-raid-green",
     border: "border-raid-green",
-    glow: "",
+    glow: "shadow-raid-green",
     hex: "#4ade80",
   },
   "Común": {
     text: "text-raid-grey",
     border: "border-raid-grey",
-    glow: "",
+    glow: "shadow-raid-grey",
     hex: "#9ca3af",
   },
 };
@@ -48,7 +48,7 @@ export const RARITY_STYLES: Record<string, RarityStyle> = {
 export const DEFAULT_RARITY_STYLE: RarityStyle = {
   text: "text-gray-200",
   border: "border-gray-700",
-  glow: "",
+  glow: "shadow-raid-grey",
   hex: "#e5e7eb",
 };
 

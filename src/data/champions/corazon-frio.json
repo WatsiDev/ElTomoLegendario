@@ -1,0 +1,127 @@
+{
+  "slug": "corazon-frio",
+  "name": "Corazón Frío",
+  "faction": "Elfos Oscuros",
+  "rarity": "Raro",
+  "role": "Uno de los mejores raros del juego, muy útil en ciertos sitios",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=wH2bheSiYJA",
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "orquidea_mortilunar",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "dano-critico",
+    "incondicional",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Caballero de Fuego, Shogun, Gemelos, Amius...Depende de la compañía",
+  "stats": {
+    "hp": 13710,
+    "speed": 94,
+    "attack": 1376,
+    "defense": 738,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Aluvión de flechas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "0.7xATK",
+      "description": "Ataca 4 veces al azar. Cada golpe tiene un 25% de posibilidades de aplicar un debufo del 100% [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arte del dolor (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Cooldown -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "3.3xATK",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 30% de aplicar un debufo del 50% [Reducir PUNT] durante 1 turno. Aplica un debufo de 5% [Veneno] durante 2 turnos si el objetivo está bajo un debufo de [Curación Reducida].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Buscacorazones (MAX HP enemigo)(ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "0.1xMAX HP enemigo + ATKx1.7",
+      "description": "Ataca a 1 enemigo. Reduce completamente la barra de turno. Tiene un 30% más de posibilidades de infligir un golpe crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/corazon-frio.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

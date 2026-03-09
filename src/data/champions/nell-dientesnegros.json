@@ -1,0 +1,181 @@
+{
+  "slug": "nell-dientesnegros",
+  "name": "Nell Dientesnegros",
+  "faction": "Vigías Silvanos",
+  "rarity": "Mítico",
+  "role": "Debufer y Nuker capaz de mucho daño rápido y sinergia con venenos",
+  "type": "Apoyo / ATK",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=BIP3XdyjJLI",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "elixir_aracnido",
+    "aberracion_antigua",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "vara_de_esporas",
+    "garra_malefica",
+    "luna_de_sangre",
+    "invocatormentas",
+    "elixir_aracnido",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "instinto",
+    "despiadado",
+    "cruel",
+    "percepcion"
+  ],
+  "uses": "Va muy bien en muchos sitios: se usa en arenas, oleadas, jefes...",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en arena en 100."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 23130,
+        "speed": 112,
+        "attack": 1013,
+        "defense": 1299,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Trampa (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +15%"
+          ],
+          "buffDebuff": [
+            "miedo-de-verdad"
+          ],
+          "multiplier": "5xATK",
+          "description": "Ataca a 1 enemigo. Roba el 10% de la barra de turno del objetivo. Roba un 5% más de barra de turno por cada debufo del enemigo.\n\n También tiene un 75% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 1 turno."
+        },
+        {
+          "name": "Almizcle Soporífero (ATK)",
+          "levels": [
+            "Nivel 2: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "dormir"
+          ],
+          "description": "Roba todos los bufos de todos los enemigos. Reduce un 10% la barra de turno de cada objetivo. Reduce un 5% adicional de barra de turno de cada enemigo por cada debufo que tenga dicho objetivo.\n\n Activa inmediatamente todos los debufos de [Veneno] de todos los enemigos.\n\n Luego aplica un debufo de [Dormir] durante 1 turno a todos los enemigos que no tienen ningún debufo de [Veneno]."
+        },
+        {
+          "name": "Hoz de Corrupción (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "red-def-2",
+            "debilitar-2"
+          ],
+          "multiplier": "5.2xATK",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de 60% de [Reducir DEF] y un debufo de [Debilitar] a todos los enemigos durante 2 turnos. Llena un 20% las barras de turno de todos los aliados."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Bufé de Dientes Negros (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "veneno-2"
+          ],
+          "description": "Cada vez que un enemigo recibe un bufo, se cura o llena su barra de turno, aplica un debufo de 5% de [Veneno] a dicho a enemigo durante 2 turnos. Ignora bufos de [Bloquear Daño]. \n\n Llena un 5% la Barra de Turno de este campeón por cada debufo de 5% de [Veneno] aplicado."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 17340,
+        "speed": 112,
+        "attack": 1542,
+        "defense": 1156,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Abrir en Canal (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "buffDebuff": [
+            "escudo-habilidad"
+          ],
+          "multiplier": "1xATK",
+          "description": "Ataca a 1 enemigo 4 veces. Cada ataque ignora el 30% de la DEF. Cada ataque también reduce MAX HP del objetivo el 25% del daño hecho. Si el objetivo no es un jefe, también aplica un bufo de [Escudo] a este campeón del 20% de MAX HP del objetivo."
+        },
+        {
+          "name": "Hacer Trocitos (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Daño +20%"
+          ],
+          "cooldown": 3,
+          "multiplier": "3xATK (6xATK si el enemigo tiene alguno de esos debufos",
+          "description": "Ataca a 1 enemigo 2 veces. Hace un 100% más de daño a los enemigos que tienen un debufo de [Aturdir], [Dormir], [Congelar], [Incitar], [Miedo], [Miedo de Verdad] o [Petrificación].\n\n Si el objetivo muere, activa inmediatamente la habilidad [Festín del Terror]"
+        },
+        {
+          "name": "Festín del Terror (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "miedo-de-verdad"
+          ],
+          "multiplier": "3.9xATK",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de [Miedo de Verdad] durante 2 turnos. Los enemigos que están al 50% o menos de HP no pueden resistir ni bloquear este debufo."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Hambre Vertiginosa (Pasiva)",
+          "levels": [],
+          "description": "Obtén un turno adicional cada vez que este campeón mata a un enemigo usando una habilidad activa.\n\n +2% de HP, ATK y DEF (se acumula hasta el 50%) y +2 VEL (se acumula hasta 50) en su forma alternativa por cada debufo que aplica este campeón en cualquiera de sus formas."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/nell-dientesnegros.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

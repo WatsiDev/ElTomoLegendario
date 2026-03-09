@@ -1,0 +1,141 @@
+{
+  "slug": "rotos-el-novio",
+  "name": "Rotos el Novio",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Gran nuker de 1 solo objetivo, brilla principalmente en arena",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=09q7R1p0GWo",
+  "blessings": [
+    "guarda-de-los-caidos",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "aspecto_de_siroth",
+    "garra_malefica",
+    "luna_de_sangre",
+    "eternizalmas",
+    "sombra_encaramada",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "bomba_de_terror",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "incansable",
+    "instinto",
+    "cruel"
+  ],
+  "uses": "Principalmente en arenas, es muy poderoso si está bien equipado. También como nuker en mazmorras hace mucho daño a 1 solo objetivo.",
+  "stats": {
+    "hp": 11895,
+    "speed": 90,
+    "attack": 1520,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Azote de terror (ATK / HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "1.9xATK + 0.19xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de posibilidades de aplicar un debufo de 60% [Reducir DEF] durante 2 turnos. También tiene un 25% de probabilidad de otorgar un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Saqueo de vitalidad (ATK / HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "3.5xATK + 0.3xHP",
+      "description": "Ataca a 1 enemigo. Destruye el MAX HP del enemigo en 20% del daño hecho y lo añade al MAX HP de éste campeón. No se puede reducir el MAX HP de un solo campeón en más del 60 % en una batalla. No se puede aumentar el HP MÁXIMO de este campeón en más de 60 000. Reduce el HP MÁXIMO de Bosses en un 30% del daño infligido en su lugar. El HP MÁXIMO de este Campeón se incrementará en 15.000 cuando esta habilidad se use contra Jefes.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Destrucción predestinada (ATK / HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "2.1xATK+0.19xHP",
+      "description": "Ataca a 1 enemigo. Ignorará el 60% de la DEF del objetivo. También ignorará los bufos de [Inmortal] y [Bloquear Daño]. Otorga un turno adicional si este ataque mata a un enemigo. Los enemigos asesinados por esta habilidad no pueden ser revividos si Rotos se ha puesto el máximo de MAX HP mediante la skill de Saqueo de Vitalidad",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Despreciar el olvido (Pasiva)",
+      "levels": [],
+      "description": "Disminuirá el daño de un solo golpe enemigo para que el daño entrante no supere el 50% del HP MÁXIMO de este Campeón de ese golpe. Puede ocurrir una vez por ataque enemigo. Otorga un turno adicional si se produce esta reducción de daño. [No funciona contra jefes] Reduce el daño recibido de los jefes en un 15%. Reduce el daño recibido de los jefes en 30 si Siphi la novia perdida está en el mismo equipo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Hay otra historia de amor bien conocida en Kaerok y Arnoc, pero una mucho más oscura que las aventuras de Minaya y Khoronar. Comienza con un joven noble audaz, cuya familia había perdido todo menos su título; sus tierras, sus propiedades, su riqueza, todo había sido confiscado para pagar las deudas acumuladas durante generaciones de libertinaje descuidado. Esto dejó a Rotos con poco a su nombre, excepto por su orgullo y su habilidad con el estoque. Aunque eso apenas evitó que el joven pasara su juventud en duelo, bebiendo y acumulando nuevas deudas. Fue solo cuando el peligro de los asesinos enviados por los usureros se hizo real que finalmente se dio cuenta de que era hora de desaparecer, al menos por un tiempo. Aunque sus talentos eran limitados y también lo eran los campos donde Rotos podía emplearlos por completo, había elegido una carrera que muchos no habrían considerado: la de un pirata. Con la poca plata que quedaba en su bolso y su fiel estoque a su lado, Rotos buscó a la tripulación de un barco pirata e hizo su intento de unirse. Pasó la siguiente década navegando por los mares y viviendo la vida de una gran aventura, donde la habilidad, la valentía audaz y una pizca de buena fortuna eran las únicas cosas en las que uno podía confiar. Aunque lideró muchas incursiones descaradas al lograr su propia capitanía y se hizo rico con el saqueo, Rotos siguió siendo un caballero de buena reputación en primer lugar. Nunca tuvo sed de sangre y nunca mató sin necesidad, ni permitió a su tripulación ningún exceso. En ocasiones, persiguió y luchó contra corsarios menos escrupulosos que «dieron mala fama a la profesión», como afirmó el propio Rotos. Fue uno de esos encuentros que le permitió al valiente Capitán reclamar su tesoro más preciado. Pero ni la plata ni las gemas ni siquiera un arma encantada de días pasados ​​cautivaron el corazón de Rotos. Era una mujer llamada Siphi, proveniente de lejanas islas del sur, a quien Rotos liberó del cautiverio. Era hermosa y feroz, y aunque no estaba entrenada como guerrera, Siphi aprovechó la oportunidad durante la batalla de abordaje y derribó a sus captores justo en frente de Rotos atónito. Si alguna vez hubo amor a primera vista, le dijo a su tripulación más tarde, tendría que ser la vista de una mujer sureña enojada golpeando a un bruto dos veces su tamaño con un candelabro. Si bien algunos sinvergüenzas pueden haber aprovechado la situación, Rotos estaba decidido a cortejar y cortejar a su hermoso rescatado a la antigua usanza. Siphi enfrentó sus avances con fría burla al principio, luego con diversión, pero los encantos de Rotos eran tan ciertos como su determinación. Después de semanas de ir y venir, finalmente cedió y mostró interés, y esto no fue más que una chispa que encendió las llamas de la pasión. Durante los siguientes meses, Siphi y Rotos pasaron casi todas las horas de vigilia juntos y realmente se apreciaron mutuamente. Ella se convirtió en su confidente, su voz de razón, y Rotos siguió siendo el descarado tomador de riesgos con un deseo contagioso de aventura y un talento dramático que avergonzaría a los Altos Elfos. Cuando su amor floreció, Rotos finalmente se dio cuenta de que había llegado el momento de regresar a casa. Con las riquezas que ganó en la última década, logró pagar todas sus deudas, y aún posee lo suficiente para asegurarse de que él y Siphi vivieran en el lujo, siempre que la plata se gastara sabiamente para establecer su hogar ancestral una vez más. Desafortunadamente, Mayhew Pouillac, el prestamista de dinero más rico de Arnoc en ese momento, consideró que el daño que sufrió su reputación cuando Rotos huyó era mucho mayor de lo que cualquier pago podría compensar. Fingió lo contrario, sin embargo, y aceptó a Rotos y su novia como invitados de honor. Por un fuerte interés además de la deuda original y las multas, Pouillac ‘perdonó’ a Rotos e incluso ofreció asistencia en la reconstrucción de su patrimonio familiar. Pero el día de la boda de Rotos y Siphi, el vengativo usurero finalmente promulgó su cruel plan. Los matones contratados irrumpieron en la iglesia donde se llevaba a cabo la ceremonia. Llevaban armas descubiertas que ignoraban toda la tradición y la ley de Lumayan y mataban invitados desarmados como ganado. Aunque la última posición frenética de Rotos le costó la vida a más de una docena de mercenarios, no tenía ninguna posibilidad contra tantos por su cuenta. Crucificado contra la pared con lanzas, solo podía ver con desesperación cómo los brutos contratantes asesinaban a Siphi momentos antes de que su corazón dejara de latir. Lo último que escuchó fue que Siphi maldijo a los traicioneros miserables en su lengua nativa y prometió venganza desde más allá de la tumba. Con su sangriento trabajo hecho, los mercenarios de Pouillac partieron, dejando los cuerpos de los muertos donde habían caído. Fue afortunado que la gente del pueblo local descubriera la matanza y se asegurara de que se mantuvieran los ritos funerarios adecuados, pero de los asesinos no había señales. Pasaron los días, el alguacil encargado de supervisar esa provincia no encontró pistas e hizo poco esfuerzo para buscar justicia en nombre de un hombre que era un conocido pirata y, mientras tanto, los rumores siniestros se extendieron por la tierra. La gente decía que las flores dejadas en las tumbas de los recién casados ​​se marchitaron en una noche. Todos excepto dos rosas, que se volvieron de un azul antinatural y misterioso, a diferencia de cualquiera de las flores que crecieron en esas partes. Otros hablaron de fuertes llantos y lamentos, del sonido de clavos rastrillando la madera de los ataúdes que venían del subsuelo. De extrañas figuras de bruma que aparecen en la iglesia. Los locales no tardaron en declarar el lugar maldito y abandonarlo por completo. Pero los ecos de esta masacre llegaron hasta Arnoc, y la venganza prometida por Siphi se hizo realidad antes de que sus asesinos tuvieran la oportunidad de celebrar su éxito. Uno por uno, los mercenarios involucrados en el ataque murieron en circunstancias misteriosas. Siempre desaparecían en la oscuridad de la noche solo para ser encontrado por la mañana con sus rostros pálidos y retorcidos por el miedo, sus cuerpos se desangraron. No importa lo que hicieron, sin importar a qué dioses rezaran, en quince días murieron a un hombre. La noticia de los asesinatos llegó a Pouillac y lo envió luchando. ¿Había sobrevivido Rotos de alguna manera al ataque? ¿Mintieron sus mercenarios? No hubo respuestas a estas preguntas, y el aterrorizado usurero se encerró en su propiedad, dobló la guardia y esperó a que pasara la tormenta. Nada de eso le sirvió … Una noche, los gritos escalofriantes rompieron el silencio sobre la propiedad de Pouillac. Tan terroríficos que eran, que los ciudadanos que vivían cerca cerraron sus puertas y ventanas, sin querer arriesgarse por los monstruos que acecharan sus calles. Solo por la mañana se atrevieron a entrar en la gran mansión del usurero. Lo que encontraron adentro fue impactante: cuerpos apilados en el suelo, todos con la misma mirada temerosa congelada en sus rostros. Ni una sola alma sobrevivió, sin guardia, sin sirviente, todos habían perecido durante la noche. Y en cuanto al propio Pouillac, fue encontrado en sus aposentos, acurrucado y agarrado con tanta fuerza que a los forenses les costó un esfuerzo considerable apartar las manos de su rostro y revelar la expresión de terror primario que debió haber detenido el corazón del usurero en su final. momentos Nunca se encontró ningún rastro de los asesinos, pero Old Arnault, un borracho medio loco lisiado de algún renombre en la ciudad, juró por el nombre de Lumaya que vio dos figuras fantasmales en el patio de la finca esa noche. Uno, un hombre con las trampas de un noble, una: una mujer vestida con extrañas galas de marcas extranjeras. Quién o incluso qué eran, no podía decirlo.",
+  "forms": null,
+  "image": "/src/assets/champions/rotos-el-novio.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

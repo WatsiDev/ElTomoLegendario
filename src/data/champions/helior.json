@@ -1,0 +1,129 @@
+{
+  "slug": "helior",
+  "name": "Helior",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Tanque con poderosos escudos",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=vdbiuqouoR4",
+  "blessings": [
+    "presencia-amenazante",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "el_triturador",
+    "corazon_volcardiaco",
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "resistencia",
+    "inmortal",
+    "salvaje",
+    "letal",
+    "percepcion",
+    "justiciero"
+  ],
+  "uses": "Arañas para poner escudos. Quizá Dragón también. Poco específico.",
+  "stats": {
+    "hp": 18495,
+    "speed": 95,
+    "attack": 804,
+    "defense": 1542,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Alabarda del sol (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "3.2xDEF",
+      "description": "Ataca a 1 enemigo. Aumenta la DEF de este campeón en un 5% si este ataque es crítico (se acumula hasta un 20%). También curará a este campeón en un 75% de su DEF después de atacar si su DEF ya ha aumentado en un 20%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición solar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "3xDEF",
+      "description": "Ataca a todos los enemigos. Aplica un bufo de [Escudo] en todos los aliados durante 2 turnos equivalente al 20% del daño infligido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Luz Fuerte",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Transfiere todas las debufos de todos los aliados a un enemigo objetivo, luego ataca a ese enemigo con la habilidad predeterminada. Convierte la RES de este campeón en PUNT adicional cuando se usa esta habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Intercesor (Pasiva) ",
+      "levels": [],
+      "description": "Siempre que un aliado que tenga 2 o más debufos sea atacado, este Campeón absorberá el 30% del daño infligido a ese aliado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESISTENCIA de los aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": "Helior, el Caballero del Sol, es una de las figuras más reconocibles entre los Señores del Estandarte. Según a quién le preguntes, es un héroe noble o un dandi exagerado. Su extravagante armadura y su estilo llamativo lo hacen destacar, provocando admiración y críticas por igual. Mientras que algunos lo descartan como un símbolo del exceso noble, especialmente en su tierra natal de Kaerok, otros argumentan que debajo de su apariencia extravagante se esconde un hombre profundamente piadoso y erudito, apasionado por su búsqueda del conocimiento. Independientemente de la opinión, el innegable talento de Helior y su dedicación a sus ideales lo hacen imposible de ignorar.\n\n A pesar de tener el título de conde, el estatus de Helior es en gran medida ceremonial, ya que sus tierras ancestrales ya no existen debido a una maraña de política y guerra. Sin un feudo que administrar, Helior dedica su vida a las actividades académicas y al servicio militar. Vaga de un lugar a otro, a menudo deteniéndose en bibliotecas, monasterios y lugares sagrados, sumergiéndose en estudios relacionados con el Sol y las estrellas. Su objetivo final, que muchos consideran tonto, es viajar al Sol mismo o estudiarlo tan profundamente que descubra su verdadera naturaleza. En el camino, compra reliquias raras y continúa expandiendo su conocimiento del cosmos.\n\n La obsesión de Helior con el Sol suele provocar burlas, ya que algunos creen que su tiempo y sus recursos se emplearían mejor sirviendo al reino de formas más prácticas. Sin embargo, a pesar de no ser un guerrero a tiempo completo, Helior no es ajeno a la batalla. Es un maestro de la alabarda y posee una magia solar única. En sus viajes, a menudo se enfrenta a amenazas locales, aunque su verdadero objetivo sigue siendo su búsqueda para comprender el Sol. Sus formas excéntricas pueden dejar a algunos escépticos, pero los niños y la gente común a menudo quedan cautivados por su brillante presencia cuando pasa por pueblos y aldeas.\n\n Aunque su obsesión por el Sol parece inusual, Helior ha adquirido una profunda visión espiritual y filosófica a través de sus estudios. Él cree que en el pasado antiguo, durante la Era Primordial de Teleria, el Sol estaba hecho de Luz pura, directamente conectada con la esencia divina de la diosa Lumaya. Sin embargo, con el tiempo, esta Luz se mezcló con la esencia natural del mundo, perdiendo parte de su pureza divina. Helior espera que al estudiar el Sol, pueda descubrir secretos del universo, acercando a la humanidad un paso más a la comprensión de las fuerzas divinas que dieron forma a su mundo.\n\n Ya sea que se lo considere un noble ostentoso o un erudito visionario, el viaje de Helior para desentrañar los misterios del Sol lo define. Su pasión y determinación, combinadas con su estilo inconfundible, lo convierten en una leyenda en el reino, amado por algunos y ridiculizado por otros. Sin embargo, mientras continúa su búsqueda, una cosa está clara: el corazón de Helior arde con tanta intensidad como el cuerpo celestial que intenta comprender.",
+  "forms": null,
+  "image": "/src/assets/champions/helior.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "senescal",
+  "name": "Senescal",
+  "faction": "Hidalgos",
+  "rarity": "Épico",
+  "role": "Bufer con control para facciones",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "dedo_real",
+    "campana_fundida"
+  ],
+  "gear": [],
+  "uses": "Pocos. Facciones como mucho.",
+  "stats": {
+    "hp": 19980,
+    "speed": 105,
+    "attack": 705,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Maza Sangrienta (DEF)(ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "2.6xDEF + 2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de posibilidades de aplicar un debufo de [Chupar Sangre] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Distraer",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Velo perfecto] y un bufo de [Curación continua] del 15 % en un aliado durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desafío de Lords",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Aplica un bufo de [Contraataque] en este Campeón durante 2 turnos. Tiene un 50 % de posibilidades de aplicar un debebufo de [Incitar] en todos los enemigos durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/senescal.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

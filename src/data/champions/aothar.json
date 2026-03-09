@@ -1,0 +1,139 @@
+{
+  "slug": "aothar",
+  "name": "Aothar",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Nuker con debufos de veneno. Útil en jefe de clan y dragón aunque bastante blandito.",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "aberracion_antigua",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "velocidad",
+    "robar-vida",
+    "sed-de-sangre"
+  ],
+  "uses": "Dragon, Golem normal, Señor Demoníaco hasta Brutal",
+  "stats": {
+    "hp": 14535,
+    "speed": 92,
+    "attack": 1509,
+    "defense": 826,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Furia (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 15% de probabilidad de robar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llama Sagrada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "1.5xATK",
+      "description": "Ataca 4 veces al azar. Aplica una debufo del 5% de [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marcar con Fuego (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "5.1xATK",
+      "description": "Ataca a 1 enemigo. Aplica una debufo de [Bloquear habilidades activas] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en todas las batallas en un 21%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/aothar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "versulf-el-lugubre",
+  "name": "Versulf el Lúgubre",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Nuker de HP mediocre",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=MPuS8h2OPfo",
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "campana_fundida",
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 22635,
+    "speed": 96,
+    "attack": 870,
+    "defense": 1200,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Amonestación severa (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debuff de [Provocar] durante 1 turno. También aplica un bufo de [Escudo] en este Campeón durante 2 turnos equivalente al 10% de su MAX HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reino de Sorrow (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos. Da un golpe adicional a los enemigos bajo los debuffs [Aturdir], [Congelar], [Miedo], [Miedo de Verdad] y [Incitar]. Cada golpe tiene un 75% de probabilidad de aplicar un debuff de [Chupar Vida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Esbirros de calidad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Aplica un buff del 60% [Aumentar DEF] en todos los aliados durante 2 turnos. También aplica un bufo del 50% [Protección de aliados] en todos los aliados excepto este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia infecciosa (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Cuando es golpeado, tiene un 20% de probabilidad de aplicar un debufo de [Incitar] en el atacante durante 1 turno. Ocurre una vez por golpe.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de los aliados en todas las batallas en un 33%."
+    }
+  ],
+  "lore": "Más de un bardo prefiere los cánticos de buenos reyes, simplemente reyes cuyo corazón sangra por las aflicciones de su pueblo y cuyo día a día se dedica a trabajar para aliviar esas mismas aflicciones. Pero, ay, es la naturaleza de los mortales dejar que la codicia, el orgullo y la ambición los desvíen. Así era el rey Versulf, llamado el Lúgubre por su comportamiento cruel y sin humor. Una vez, gobernó una próspera ciudad-estado en la tierra que se conocería como las Tierras Baldías de Ventormenta, y su malicia era tan grande que ni siquiera la tumba le pondría fin. Nada le importaba más a Versulf que el poder temporal, por lo que libró muchas guerras contra los estados vecinos. Sus súbditos sufrieron mucho bajo el yugo de impuestos exorbitantes que Versulf exigió para financiar sus planes y las horribles condiciones a las que se vieron obligados gradualmente. Pero aunque el rey era cruel y malvado, no era tonto. A su alrededor, se reunía una camarilla de devotos aduladores y guardaespaldas; para ellos, Versulf les concedió el dominio sobre todos los demás para saquearlos y explotarlos como mejor les pareciera. Versulf solo temía a un enemigo: la muerte. Aunque se burló y desafió a los predicadores de Lumaya, en sus momentos privados, el tirano temió lo que vendría después de que su caparazón mortal no pudiera soportarlo más. Como tantos otros, buscó el consejo de los maestros de la magia negra de su corte y de los que estaban más allá, sin embargo, el hambre voraz de los No Muertos no atraía a Versulf. Al final, fue el emisario del culto a la muerte de K’leath quien logró cautivar la atención de Versulf con la promesa de la resurrección en una forma nueva y más fuerte a cambio de su patrocinio. Así se forjó una nueva y terrible alianza. Versulf había dedicado el resto de su vida a fortalecer sus vínculos con el Culto. Les había dado esclavos y víctimas de sacrificios y riquezas en abundancia, y su dominio sobre el reino crecía día a día. A cambio, los sacerdotes de K’leath realizaban horribles rituales para prolongar la vida del tirano y preparar su espíritu para el inevitable fallecimiento. Las leyendas dicen que vivió no menos de cuatrocientos años y murió en agonía cuando su cuerpo finalmente falló, asaltado por innumerables dolencias e incapaz de contener el embate del tiempo. Sin embargo, el Culto de K’leath perseveró, evolucionando hasta convertirse en la secta militante conocida hoy como los Caballeros Aparecidos. Y también lo hizo el pacto que habían hecho. Ahora ha llegado el momento, y después de siglos de letargo, el antiguo rey ha vuelto a surgir. Con su nuevo cuerpo lleno de energías arcanas, Versulf el Siniestro busca recuperar el poder que había ejercido hace eones. Su ciudad puede ser polvo y ruinas, pero tiene el mando de muchos cultistas y ha reclamado la llave de la Bóveda del Olvido. La Bóveda contiene misterios de la vida y la muerte que permitirían al espíritu de Versulf cambiar de cuerpo a voluntad, poniendo así fin a su necesidad del Culto. Se necesitará un Invocador valiente para frustrar los planes del tirano y traerlo al redil de Lumaya, porque aunque es una criatura del mal, sus habilidades marciales y su poder siguen siendo un activo considerable que podría usarse en la guerra contra la Sombra.",
+  "forms": null,
+  "image": "/src/assets/champions/versulf-el-lugubre.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

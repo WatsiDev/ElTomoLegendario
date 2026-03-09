@@ -1,0 +1,174 @@
+{
+  "slug": "theodosia-la-deshonrada",
+  "name": "Theodosia la Deshonrada",
+  "faction": "No Muertos",
+  "rarity": "Mítico",
+  "role": "Gran campeón de apoyo con formas defensiva y debufer",
+  "type": "Apoyo / Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "polimorfar",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "efigie_dorada",
+    "crisalida_de_renacer",
+    "cronocubo",
+    "tiempo_de_sangre",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "servidumbre_de_xibia",
+    "politopo_infernal"
+  ],
+  "gear": [
+    "escudo",
+    "apoyo",
+    "inmortal",
+    "resiliencia",
+    "velocidad",
+    "vida-divina",
+    "velocidad-divina",
+    "bestial",
+    "percepcion"
+  ],
+  "uses": "Muy completa y versátil, útil en arenas, oleadas y varios jefes",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en todas las Batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 22470,
+        "speed": 115,
+        "attack": 925,
+        "defense": 1432,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Tormenta de Serpentia (HP)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Curaicón +10%"
+          ],
+          "multiplier": "?xHP",
+          "description": "Ataca a 1 enemigo.\n\n Cura a todos los aliados el 5% de MAX HP de este campeón.\n\n Llena un 5% la barra de turno de este campeón por cada alaido vivo y un 2,5% adicional por cada enemigo vivo."
+        },
+        {
+          "name": "Fortaleza Trastornada",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "velo-perfecto",
+            "piel-de-piedra"
+          ],
+          "description": "Elimina todos los debufos de todos los aliados y luego aplica un bufo de [Velo Perfecto] a todos los aliados, excepto este campeón, durante 2 turnos.\n\n Aplica un bufo de [Piel de Piedra] a este campeón durante 1 turno."
+        },
+        {
+          "name": "Regeneración Antinatural",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "inmortal"
+          ],
+          "description": "Revive a todos los aliados muertos con el 50% de HP y el 50% de Barra de Turno. Aplica un bufo de [Inmortal] a todos los aliados durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Protección Atroz (Pasiva)",
+          "levels": [],
+          "description": "Cada 7 turnos, iguala los HP de todos los aliados. Los niveles de HP de todos los aliados se establecen al nivel medio de HP del grupo.\n\n Los aliados reciben un 1% menos de daño  por cada 2% de HP perdido (se acumula hasta el 25%). Si hay varios campeones en el grupo con esta habilidad, solo se activa una."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 22470,
+        "speed": 115,
+        "attack": 925,
+        "defense": 1432,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Te encontraré (HP)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "multiplier": "?xHP",
+          "description": "Ataca a 1 enemigo. Destruye 3 de VEL del objetivo (se acumula hasta el 30).\n\n Reduce un 5% de la barra de turno del objetivo por cada aliado vivo y un 2.5% adicional por cada enemigo vivo."
+        },
+        {
+          "name": "Ataque Funesto (HP)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "?xHP",
+          "description": "Ataca a todos los enemigos. Antes de atacar, roba todos los bufos del enemigo.\n\n Aplica un debufo de [Bloquear Bufos] y un debufo de 60% de [Reducir DEF] durante 2 turnos a todos los enemigos. Si el enemigo tiene menos VEL que este campeón, estos debufos están protegidos."
+        },
+        {
+          "name": "Susurro Somnoliento (HP)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "dormir",
+            "red-vel-2"
+          ],
+          "description": "Aplica un debufo de [Dormir] durante 1 turno y un debufo de 30% de [Reducir VEL] durante 2 turnos a todos los enemigos. Si un enemigo tiene menos VEL que este campeón, el debufo de [Reducir VEL] está protegido.\n\n Luego reduce un 25% las barras de turno de todos los enemigos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Banquete de la Muerte (Pasiva)",
+          "levels": [],
+          "description": "Este campeón es inmune a debufos de [Bloquear Habilidades Activas]. Los aliados hacen el 25% de la barra de turno actual del objetivo de daño extra al atacar. Si hay varios campeones en el grupo con esta habilidad, solo se activa una."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/theodosia-la-deshonrada.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

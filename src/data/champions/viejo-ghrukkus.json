@@ -1,0 +1,125 @@
+{
+  "slug": "viejo-ghrukkus",
+  "name": "Viejo Ghrukkus",
+  "faction": "Ogretes",
+  "rarity": "Épico",
+  "role": "Debufer con bastantes debufos diferentes pero a un solo enemigo",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante"
+  ],
+  "relics": null,
+  "gear": [
+    "punteria",
+    "percepcion",
+    "velocidad"
+  ],
+  "uses": "No se usa, demsiado limitado",
+  "stats": {
+    "hp": 17010,
+    "speed": 98,
+    "attack": 1079,
+    "defense": 1090,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bastión de Pegar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "1.3xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 15 % de probabilidad de aplicar un debufo de [Chupar Sangre] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pisar la Línea (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3 Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "6.2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 60 % de probabilidad de aplicar un debufo de [Reducir VEL] del 30 % durante 2 turnos. También tiene un 40 % de probabilidad de reducir la barra de turno del objetivo en un 30 %.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Disciplina Dura (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 80 % de probabilidad de aplicar un debufo de [Reducir ATK] del 50 % y un debufo de [Curación Reducida] del 100 % durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en mazmorras en 24%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/viejo-ghrukkus.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

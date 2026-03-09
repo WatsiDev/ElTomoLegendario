@@ -1,0 +1,106 @@
+{
+  "slug": "jareg",
+  "name": "Jareg",
+  "faction": "Hombres Lagarto",
+  "rarity": "Épico",
+  "role": "Tanque de HP con buenos bufos y debufos.",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "defensa-impecable"
+  ],
+  "relics": [
+    "abanico_negro",
+    "diadema_no_muerta",
+    "elixir_dorado"
+  ],
+  "gear": [],
+  "uses": "Bueno en casi todas parte en early-mid game. Se puede seguir usando en Golem y Facciones",
+  "stats": {
+    "hp": 23460,
+    "speed": 96,
+    "attack": 683,
+    "defense": 1057,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Garras desgarradoras (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad bufo / debufo +10 %"
+        }
+      ],
+      "multiplier": "6.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 35% de posibilidades de aplicar una debufo de 50% [Reducir ATK] durante 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Líder de manada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Protección de aliado] y 60% [Aumentar DEF] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escamas protectoras",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de 15% [Curación continua] en un aliado durante 1 turno cada vez que un aliado pierde el 20% de su HP MÁXIMO en un golpe.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP aliado en todas las batallas en un 33%."
+    }
+  ],
+  "lore": "La sociedad de los Hombres Lagarto es apenas homogénea. Mientras que algunas tribus viven casi como los humanos y los elfos de antaño, construyendo asentamientos y construyendo herramientas, otras son poco más que depredadores de inteligencia que viven y cazan en manadas. Jareg es el líder de una de esas «familias», que lo ha guiado durante muchas décadas. Puede que no sea un estratega sin igual o un maestro de armas, pero hay dos cualidades forjadas por las dificultades que tuvo que soportar que son invaluables: tenacidad e instinto. Como líder de la manada, es el deber de Jareg defender a sus parientes de cualquier peligro que puedan enfrentar, así como liderarlos en cacerías y luchar por más territorio. Durante décadas de lucha constante, aprendió a proteger a quienes dependen de él, incluso si eso significa ponerse en peligro.",
+  "forms": null,
+  "image": "/src/assets/champions/jareg.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

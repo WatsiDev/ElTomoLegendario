@@ -1,0 +1,131 @@
+{
+  "slug": "drexthar-bloodtwin",
+  "name": "Drexthar Bloodtwin",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Gran campeón gratuito para early-mid muy efectivo en jefes",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=1xuI3iEc34Y",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "rocadragon_dorada",
+    "filos_de_akumori",
+    "craneo_de_traicion"
+  ],
+  "gear": [
+    "chupar-vida",
+    "ferreo",
+    "punteria",
+    "percepcion",
+    "sed-de-sangre"
+  ],
+  "uses": "Buen debufer/tanque útil para casi todo en early. Bueno contra casi todos los jefes",
+  "stats": {
+    "hp": 18990,
+    "speed": 100,
+    "attack": 914,
+    "defense": 1398,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Llamas Eldricas (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "1xDEF",
+      "description": "Ataca a 1 enemigo 3 veces. Tiene un 30 % de probabilidad de aplicar un debufo de [Quemar HP] durante 2 turnos. Cura a este Campeón en un 20% del daño infligido si el objetivo está bajo un debufo de [Quemar HP].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Latigazo ardiente (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "5.2xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 40 % de probabilidad de aplicar un debufo de [Provocar] durante 1 turno. Esta probabilidad aumenta al 100 % si el objetivo tiene un debufo de [Quemar HP]. También aplica un debufo de 50% de [Reducir Ataque] durante 2 turnos si se el debufo de [Provocar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre Fiera  (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "description": "Tiene un 55% de posibilidades de aplicar un debufo de [Quemar HP] cuando es golpeado. La RES de este campeón aumenta en 10 por cada enemigo que tenga [Quemar HP] hasta un máximo de 50",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 70."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/drexthar-bloodtwin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

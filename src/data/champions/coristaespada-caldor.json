@@ -1,0 +1,160 @@
+{
+  "slug": "coristaespada-caldor",
+  "name": "Coristaespada Caldor",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Nuker unidad de facción con mucho daño, debufos y curaciones",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "campana_fundida",
+    "corona_de_ireth",
+    "colmillo_asesino",
+    "hacha_serpentis",
+    "pergamino_invisible",
+    "corona_corrompida",
+    "antorcha_esclava"
+  ],
+  "gear": [
+    "salvaje",
+    "despiadado",
+    "letal",
+    "cruel",
+    "percepcion",
+    "ataque"
+  ],
+  "uses": "Dragón, Facciones, Oleada, Facciones, Hydra...muy poderoso en general",
+  "stats": {
+    "hp": 15855,
+    "speed": 103,
+    "attack": 1663,
+    "defense": 859,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Canción de Dagas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 15% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Ignora un 20% de RES por cada bufo de [Curación Continua] de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Orquesta de Guerra",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Selecciona un objetivo.\n\n Si el objetivo es un enemigo, reduce 1 turno la duración de todos los bufos de todos los enemigos. Aplica un debufo de 5% de [Veneno] a todos los enemigos durante 2 turnos y un debufo adicional de [Veneno] durante 2 turnos por cada bufo de [Curación Continua] de este campeón. Estos debufos no se pueden resistir. Luego activa inmediatamente todos los debufos de [Veneno] de todos los enemigos.\n\n Si el objetivo es un aliado, alarga 1 turno la duración de todos los bufos de todos los aliados y activa inmediatamente todos los bufos de [Curación Continua] de todos los aliados. Aplica un bufo de [Velo Perfecto] a este campeón durante 2 turnos. También aplica un bufo de 15% de [Curación Continua] a este campeón durante 2 turnos y otro bufo de 15% de [Curación Continua] durante 2 turnos por cada aliado vivo.\n\n Por último, llena un 15% la barra de turno de este campeón por cada bufo o debufo aplicado por esta habillidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Crescendo del Ritmo (ATK)(MAX HP enemigo)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, tiene un 100% de probabilidad de eliminar todos los bufos del objetivo y aplicar un debufo de 60% de Reducir DEF y un debufo de 25% de [Debilitar] al objetivo durante 2 turnos. Ignora un 20% de RES por cada bufo de [Curación Continua] de este campeón.",
+      "factionUnity": "Unidad de Vigías Silvanas",
+      "unityEffects": {
+        "1-ally": "Si el objetivo inicial muere, elimina todos los bufos de todos los enemigos. Esta eliminación de bufos no se puede resistir.",
+        "2-ally": "Ignora un 5% de DEF por cada debufo de [Veneno] del objetivo y cada bufo de [Curación Continua] de este campeón.",
+        "3-ally": "Si el objetivo inicial tiene un debufo de [Veneno], también ataca al resto de enemigos. El daño es proporcional a MAX HP del objetivo inicial y la cantidad de bufos de [Veneno] que tiene. Si el objetivo es un Jefe o un esbirro, el daño es del 10% de su MAX HP."
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sinfonía Silvestre (Pasiva) ",
+      "levels": [],
+      "description": "Ignora el 15% de DEF al atacar con un bufo de [Velo] o [Velo Perfecto].\n\n Este campeón recibe un 30% menos de daño de enemigos si no tiene un bufo de [Velo] o [Velo Perfecto].",
+      "factionUnity": "Unidad de Vigías Silvanas",
+      "unityEffects": {
+        "1-ally": "+20% P.Crit por cada bufo de [Curación Continua] de este campeón.",
+        "2-ally": "Cada vez que se activa un bufo de [Curación Continua] en este campeón, llena un 8% su barra de turno.",
+        "3-ally": "Cada vez que se activa un bufo de [Curación Continua] en este campeón o un aliado, aumenta un 5% el daño de este campeón (se acumula hasta el 150%)."
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit. de los aliados en todas las batallas en un 25%."
+    },
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 15% (solo se aplica a Vigías Silvanos)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/coristaespada-caldor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

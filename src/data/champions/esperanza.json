@@ -1,0 +1,126 @@
+{
+  "slug": "esperanza",
+  "name": "Esperanza",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Limpiador de bufos enemigos y protectora de aliados. No es la mejor, pero puede ser útil en ciertas situaciones como facciones.",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=oJfNn3SyL_0",
+  "blessings": [
+    "defensa-impecable",
+    "rompe-cadenas"
+  ],
+  "relics": null,
+  "gear": [
+    "escudo",
+    "apoyo",
+    "punteria",
+    "percepcion",
+    "inmortal",
+    "vida",
+    "velocidad"
+  ],
+  "uses": "Arena en early-mid y facciones como limpiadora de bufos enemigos",
+  "stats": {
+    "hp": 21315,
+    "speed": 104,
+    "attack": 1079,
+    "defense": 804,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Requisar [ATK]",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "4.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar una debufo de [Bloquear bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alentar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +5%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aumenta la duración de los bufos de todos los aliados en 1 turno. Aplica un bufo de [Escudo] equivalente al 25% de los HP de este Campeón en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tormenta Sagrada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4.9xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de posibilidades de eliminar todos los buffos de los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta los HP de los aliados en las criptas de facción en un 31%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/esperanza.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

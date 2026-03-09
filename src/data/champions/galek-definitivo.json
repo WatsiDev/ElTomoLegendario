@@ -1,0 +1,142 @@
+{
+  "slug": "galek-definitivo",
+  "name": "Galek Definitivo",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Quemador de HP útil en early, pero que necesita de aumentar ataque",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "velocidad",
+    "cruel",
+    "maldito"
+  ],
+  "uses": "Araña en early principalmente a falta de otro quemador mejor. ",
+  "stats": {
+    "hp": 15195,
+    "speed": 98,
+    "attack": 1332,
+    "defense": 958,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe de Furia (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de [Quemar HP] en el objetivo durante 2 turnos si este campeón tiene un bufo de [Aumentar ATK]. Llena la barra de turno de este campeón en un 10 % si este ataque es crítico. Llena la barra de turno de este campeón en un 5% si este ataque no es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aplastar la Esperanza (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "5.95xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo [Quemar HP] en el objetivo durante 2 turnos si este campeón tiene un bufo [Aumentar ATK]. Reduce la barra de turno del objetivo en un 25% y aplica un bufo de [Aumentar ATK] del 50% en este campeón durante 2 turnos si este ataque es crítico. Reduce la barra de turno del objetivo en un 10% si este ataque no es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rabia Ardiente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a todos los enemigos 2 veces. Cada golpe tiene un 50 % de posibilidades de aplicar un debufo de [Quemar HP] en el objetivo durante 2 turnos si este campeón tiene unbufo de [Aumentar ATK]. Cada golpe también tiene un 75% de posibilidades de reducir la barra de turno en un 20% si el objetivo está bajo un debufo de [Quemar HP].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ningunear (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Cura completamente a este campeón y elimina instantáneamente cualquier debufo de [Aturdir] cada vez que un enemigo aplica un debufo de [Aturdir] en este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/galek-definitivo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "akoth-el-abrasado",
+  "name": "Akoth el Abrasado",
+  "faction": "Engendros",
+  "rarity": "Épico",
+  "role": "Quemador de HP en área épico y obtenible gratis en la Torre del Destino",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "garra_malefica",
+    "campana_fundida",
+    "lente_intangible"
+  ],
+  "gear": [
+    "inmortal",
+    "percepcion",
+    "resiliencia",
+    "ferreo",
+    "punteria"
+  ],
+  "uses": "Quizá arañas normal en mid-game, pero hay muchas otras opciones mejores",
+  "stats": {
+    "hp": 16680,
+    "speed": 95,
+    "attack": 892,
+    "defense": 1299,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Puñetazo Fundidor (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-p-crit-2"
+        }
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo del 30% [Reducir P.Crit] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Piroclasma (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "3.4xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 20% de probabilidad de aplicar un debufo [Quemar HP] durante 2 turnos. La probabilidad de aplicar el debufo aumenta en un 20% por cada enemigo vivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Liberación pirética (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aumentar los tiempos de reutilización de todas las habilidades en 2 turnos en enemigos con debufos de [Quemar HP]. También aplicaun buff de [Escudo] equivalente al 20% del Máximo HP de este Campeón en todos los aliados durante 2 turnos. Activa instantáneamente esta habilidad cuando este Campeón es revivido por Rian la Conjuradora",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Barrido de Llamas (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "description": "Tiene un 10% de probabilidad de aplicar un debufo de [Miedo] en un enemigo durante 1 turno siempre que reciba daño de un debufo de [Quemar de HP]..",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de los aliados en todas las batallas en un 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/akoth-el-abrasado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

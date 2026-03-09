@@ -1,0 +1,158 @@
+{
+  "slug": "krisk-el-eterno",
+  "name": "Krisk el Eterno",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Tanque / Debufer protector de aliados. Legenadario top",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "mascara_de_ira",
+    "abanico_negro",
+    "rocadragon_dorada",
+    "elixir_dorado",
+    "diadema_no_muerta"
+  ],
+  "gear": [
+    "proteccion",
+    "bestial",
+    "inmortal",
+    "resiliencia",
+    "percepcion"
+  ],
+  "uses": "Gemelos, Hydra, Oleadas, Facciones...casi todo.",
+  "stats": {
+    "hp": 19485,
+    "speed": 94,
+    "attack": 760,
+    "defense": 1520,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Entrar en la ciénaga (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "2xDEF",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 30% de aplicar un debufo del 30% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vigor Centuriado (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "3xDEF",
+      "description": "Ataca a todos los enemigos. Aplica un bufo de 50% [Protección de aliado] en todos los aliados excepto este Campeón durante 2 turnos. Aplica dos buffos de 15% [Curación continua] en este Campeón durante 1 turno. Aumenta la duración de todos los buffos de todos los aliados en 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caparazón invencible",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un debufo de [Incitar] en todos los enemigos durante 1 turno. Aplica un bufo de 60% [Aumentar DEF] en este Campeón durante 2 turnos. Aplica un bufo de 30% [Aumentar VEL] en todos los aliados excepto este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Poder del Tiempo (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "description": "Al comienzo de cada ronda, aplica un bufo de [Escudo] en todos los aliados durante 2 turnos, igual al 50% del HP máximo de este campeón. Tiene una probabilidad del 75% de aplicar una debufo del 60% [Reducir DEF] y una debufo del 50% [Reducir ATK] en el atacante durante 1 turno cuando es golpeado.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/krisk-el-eterno.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

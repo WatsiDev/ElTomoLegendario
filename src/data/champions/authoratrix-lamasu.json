@@ -1,0 +1,130 @@
+{
+  "slug": "authoratrix-lamasu",
+  "name": "Authoratrix Lamasu",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Debufer con inmundad a polimorfia y potentes debufos de miedo",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=u758OlwgNVg",
+  "blessings": [
+    "polimorfar",
+    "crueldad"
+  ],
+  "relics": [
+    "cronocubo",
+    "politopo_infernal",
+    "arpa_de_kasbiel",
+    "elixir_dorado",
+    "plumaje_dorado"
+  ],
+  "gear": [
+    "reflejo",
+    "impulso",
+    "bestial"
+  ],
+  "uses": "Gran debufer y reseteador de habilidades para PvE",
+  "stats": {
+    "hp": 20805,
+    "speed": 115,
+    "attack": 936,
+    "defense": 1255,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Céfiro de la Conquista (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "multiplier": "2.7xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50 % de probabilidad de aplicar un debufo de [Reducir ATK] del 50 % durante 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Dominio del Terror",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "description": "Tiene un 75 % de probabilidad de aplicar un debufo de [Bloquear Bufos] y un debufo de [Miedo de verdad] a todos los enemigos durante 2 turnos. Si el objetivo es un jefe, tiene un 75 % de probabilidad de aplicar un debufo de [Bloquear Bufos] y un debufo de [Reducir VEL] del 30 % en su lugar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Icono de Dominación",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "interceptar"
+        }
+      ],
+      "description": "Elimina todos los debufos de un solo aliado (excepto este campeón) y le aplica 2 bufos de [Interceptar]. También llena la barra de turno del aliado objetivo en un 50 % y reinicia los tiempos de reutilización de todas sus habilidades.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Manifiesto de Autoridad (Pasiva)",
+      "levels": [],
+      "description": "Este campeón es inmune a los debufos de [Oveja]. Cada debufo que aplica este campeón reduce la barra de turno de un objetivo en un 5 % y reduce su RES y PUNT en 10 [se acumula hasta 100].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en 24%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/authoratrix-lamasu.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "galek",
+  "name": "Galek",
+  "faction": "Orcos",
+  "rarity": "Raro",
+  "role": "Nuker, campeón inicial (el peor de los 4 probablemente)",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [
+    "ataque",
+    "cruel",
+    "punteria",
+    "salvaje",
+    "percepcion",
+    "robar-vida"
+  ],
+  "uses": "En early game en todo. En mid y late game, en nada",
+  "stats": {
+    "hp": 13710,
+    "speed": 103,
+    "attack": 1200,
+    "defense": 914,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Hachazo Cruzado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "1.5xATK",
+      "description": "Ataca a 1 enemigo 2 veces.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Traer el Infierno (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 15% más de probablidad de crítico. Aplica un bufo de 30% de [Aumentar VEL] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Filo Maldito (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo / Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-1"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 4 veces al azar. Tiene un 30% de probabilidad de aplicar un debufo de 30% de [Reducir Defensa] durante 2 turnos. Tiene un 30% de probabilidad de aplicar un debufo de 60% de [Reducir Defensa] durante 2 turnos si el objetivo tiene más de 2 debufos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas de 15%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/galek.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

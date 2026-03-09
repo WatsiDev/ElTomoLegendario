@@ -1,0 +1,131 @@
+{
+  "slug": "hansel-cazabrujas",
+  "name": "Hansel Cazabrujas",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker / Debufer mediocre que combina con Gretel",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=-2eCmn5792o",
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "malleos_de_fuego",
+    "corona_corrompida",
+    "pasion_codiciosa",
+    "mirada_del_gato",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "velocidad",
+    "percepcion",
+    "despiadado",
+    "instinto",
+    "matador"
+  ],
+  "uses": "Él solo será bastante mediocre. Puede ser decente si lo usamos junto a Gretel, pero no viables en el contenido más avanzado del juego",
+  "stats": {
+    "hp": 15030,
+    "speed": 100,
+    "attack": 1663,
+    "defense": 914,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Purgar todo mal (ATK)",
+      "levels": [
+        {
+          "level_desc": " Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": " Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": " Nivel 4: Probabilidad de bufo/Debufo +10%"
+        },
+        {
+          "level_desc": " Nivel 5: Probabilidad de bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3.5xATK golpe individual, 2.3xATK en area",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidades de aplicar un debufo de 25% de [Debilitar] durante 2 turnos. Si Gretel Mata Arpías está en el mismo equipo, ataca a todos los enemigos en lugar de a 1 solo. Tiene un 25% de probabilidades de aplicar un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos. También hace 1 golpe extra a enemigos que tengan algún debufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cuchillos Santificados (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "2.8xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Ignorará los bufos de [Escudos] e [Inmortal]. Da un turno extra si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Explosión Perniciosa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.5xATK",
+      "description": "Ataca a todos los enemigos. Ignorará el 15% de la DEF de cada enemigo. También aumenta el tiempo de reutilización de 1 habilidad aleatoria enemiga en 2 turnos.\n\n Si Gretel Mata Arpías está en el mismo equipo, ignorará un 30% de la DEF de cada enemigo en lugar de lo anterior. También aumentará el tiempo de reutilización de todas las habilidades enemigas en 2 turnos. Este efecto de reducción del tiempo de reutilización no se puede resistir.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vínculo de Hermano (Pasiva)",
+      "levels": [],
+      "description": "[Efecto Pasivo]\n\n Refleja todos los debufos de [Miedo] y [Miedo de verdad] aplicados a este campeón de vuelta al atacante. Si Gretel Mata Arpías está en el mismo equipo, también refleja los debufos de [Miedo] y [Miedo de verdad] aplicados en Gretel Mata Arpías de vuelta al atacante. \n\n [Efecto Activo] Si Gretel Mata Arpías está en el mismo equipo y muere por un ataque enemigo, instantáneamente activa la habilidad de Explosión funesta.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en batallas de arena en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/hansel-cazabrujas.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "malkith-bandasangre",
+  "name": "Malkith Bandasangre",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Revividor decente para facciones",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=foRIeePWcyU",
+  "blessings": [
+    "crueldad",
+    "presencia-dominante"
+  ],
+  "relics": [
+    "rocadragon_dorada"
+  ],
+  "gear": [],
+  "uses": "Facciones y revividor para cualquier sitio en early",
+  "stats": {
+    "hp": 16515,
+    "speed": 99,
+    "attack": 1079,
+    "defense": 1123,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Pluma de Muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de robar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hemobomba (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de reducir la duración de todos los debufos enemigos en 1 turno. También tiene un 75% de posibilidades de aumentar la duración de todos los debufos de los aliados en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Transfusión de Sangre",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Revive a 2 aliados aleatorios con 30 % de HP y 30 % de barra de turno. Aplica un bufo de [Escudo] en todos los aliados revividos durante 2 turnos equivalente al 30% del HP MÁXIMO de este Campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en criptas de facción en 50."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/malkith-bandasangre.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

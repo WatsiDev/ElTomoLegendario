@@ -1,0 +1,123 @@
+{
+  "slug": "psylar",
+  "name": "Psylar",
+  "faction": "Elfos Oscuros",
+  "rarity": "Épico",
+  "role": "Iniciadora 'a la inversa'",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "tiempo_de_sangre"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "exactitud",
+    "percepcion",
+    "punteria",
+    "supersonico"
+  ],
+  "uses": "Arenas, Facciones y oleadas en early-mid",
+  "stats": {
+    "hp": 18165,
+    "speed": 105,
+    "attack": 1123,
+    "defense": 969,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada Maldita (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marca de Miedo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 80% de probabilidad de aplicar un debufo del 50% [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Piernas de plomo",
+      "levels": [
+        {
+          "level_desc": "Nivel: 2 Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel: 3 Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "description": "Aplica un debufo del 30% [Reducir VEL] en todos los enemigos durante 2 turnos. Reduce la barra de turno de todos los enemigos en un 40%.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en las criptas de facción en un 22%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/psylar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

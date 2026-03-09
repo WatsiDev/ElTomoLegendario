@@ -1,0 +1,151 @@
+{
+  "slug": "iron-brago",
+  "name": "Iron Brago",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Tanque con bufos y debufos para reducir mucho el daño que recibe nuestro equipo",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=vUXWJyLH5VM",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "campana_fundida",
+    "rocadragon_dorada"
+  ],
+  "gear": [
+    "punteria",
+    "percepcion",
+    "defensa",
+    "ferreo"
+  ],
+  "uses": "Tanque para Señor Demoníaco en early y buen aguante en general",
+  "stats": {
+    "hp": 18165,
+    "speed": 99,
+    "attack": 881,
+    "defense": 1487,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Golpe fundido (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        }
+      ],
+      "multiplier": "3.6xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 20% de probabilidad de reducir la duración de todos los bufos enemigos en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carga intrépida (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "5.1xDEF",
+      "description": "Aplica un bufo del 60% [Aumentar DEF] en todos los aliados durante 3 turnos, luego ataca a 1 enemigo. Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 2 turnos si el objetivo 2 bufos o menos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tormenta de Batalla (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo de [Provocar] durante 1 turno. Además, aplicaun debufo del 50% [Reducir ATK] en todos los enemigos durante 2 turnos si Iron Brago está bajo un buff [Aumentar DEF].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Otorgar fuerza (Pasiva)",
+      "levels": [],
+      "description": "Aumenta la DEF de todos los aliados en un 10% de la DEF de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en las batallas de la Torre del Destino en un 34%."
+    }
+  ],
+  "lore": "Muchos Orcos disfrutan de la emoción del combate y pasan toda su vida buscando la adrenalina que se siente al calor de la batalla. Los sentidos agudizados, la oleada de poder y la delicada danza entre la vida y la muerte crean una experiencia embriagadora que ninguna otra cosa puede comparar. Para una pequeña minoría de Orcos, la necesidad de esta sensación es tan abrumadora que terminan en una tumba temprana, después de lanzarse a peleas que nunca podrían tener la esperanza de ganar. Estos 'luchadores de batalla' son pocos y distantes entre sí, y a menudo olvidados, ya que sus vidas tienden a terminar temprano. Sin embargo, hay un orco de este tipo cuyas hazañas fueron legendarias: Iron Brago.\n\n Iron Brago fue proclamado líder de su clan antes de llegar a la edad adulta, tal era su inmensa fuerza y ​​destreza. Blandiendo una sólida maza de hierro en cada mano y vistiendo una gruesa armadura de hierro tan pesada que casi podría aplastar a la mayoría de los Orcos, la sed de batalla de Brago lo impulsaba como un motor interno. Incluso antes de que fuera completamente adulto, había pocos que se acercaran a igualar su fuerza, y la facilidad con la que derrotaba a los oponentes lo dejaba insatisfecho. Por lo tanto, buscó continuamente nuevas formas de probar los límites de sus habilidades. Aunque sus acciones con frecuencia ponían a su clan en peligro, ya sea insultando a los líderes de los clanes rivales o invadiendo territorios enemigos para provocar una respuesta, nadie se atrevió a desafiarlo.\n\n Después de derrotar a un pequeño enclave enano del Dominio de Skyiron, Brago llevó a su clan al borde de Stormwind Wastes, un lugar desolado que albergaba monstruos de una miríada de tipos atroces. A pesar de las protestas de los miembros del clan que temían lo que pudiera haber dentro de esta tierra llena de cicatrices e infernal, establecieron un campamento, Brago tenía la esperanza de que tal vez aquí finalmente encontraría el desafío que había estado buscando. Esa noche, soñó con fuego, desolación e innumerables engendros demoníacos. Soñó con un lugar de violencia y crueldad, donde solo los más fuertes sobrevivirían. La imagen cambió, saliendo de ese plano y regresando a Teleria, donde había un portal abierto en las profundidades de un barranco. Lentamente, la imagen se alejó aún más, trazando una línea que salía del barranco, atravesaba Stormwind Wastes y directamente hacia donde estaba acampado el clan de Brago. El orco se despertó sobresaltado, seguro de que finalmente había encontrado su vocación. Se aventuraría en el corazón de las Tierras Desoladas, encontraría este portal y libraría una batalla gloriosa en el lugar infernal de su visión que estaba seguro estaba detrás de él.\n\n Brago no esperó al amanecer para despertar a su clan. Les contó su visión y les dijo que aquellos que quisieran irse eran libres de hacerlo. Dos tercios de ellos lo hicieron. Los que se quedaron sintieron inquietud y emoción. Brago habló con fervor y celo de las glorias que les aguardaban y de enterrar sus espadas en los cuerpos de mil engendros demoníacos y más. En un estado casi frenético, cruzaron hacia las Tierras Desoladas. Su viaje fue largo y sangriento. Sus números se redujeron a la mitad, luego a la mitad otra vez, a medida que los engendros demoníacos, las criaturas no muertas y las bestias de pesadilla los atacaban. No pasaba un día sin violencia, cada orco se agotaba para seguir el ritmo del incansable Brago, cuya energía parecía crecer con cada batalla que pasaba. Siempre hacia adelante, se adentraron en un ataque implacable en las profundidades de las Tierras Desoladas, apilando los cuerpos mientras abrían un camino hacia su destino.\n\n Después de siete días seguidos de marcha con poca comida y descanso, Brago tuvo claro que finalmente se acercaban al portal. El aire se espesó y se cerró a su alrededor, y un calor opresivo amenazó con quemarles la carne. El orco y los pocos guerreros que le quedaban descendieron más profundamente en el barranco con renovado entusiasmo, el asalto de engendros demoníacos, monstruos y no muertos se hizo más intenso que nunca. Aunque continuaron avanzando a través de las cuevas y túneles, uno a uno los guerreros de Brago cayeron, hasta que solo quedó Brago. Imperturbable ante las pérdidas y sin ceder ni un centímetro ante sus enemigos, continuó golpeando sus mazas en los cráneos de sus enemigos, riéndose mientras lo hacía e insultando su coraje, habilidad y fuerza. Si bien el destino de Iron Brago se pierde en el tiempo, es seguro que en el crescendo de esta batalla finalmente encontró la euforia y el significado que había estado buscando.",
+  "forms": null,
+  "image": "/src/assets/champions/iron-brago.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

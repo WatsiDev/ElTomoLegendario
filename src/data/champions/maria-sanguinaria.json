@@ -1,0 +1,129 @@
+{
+  "slug": "maria-sanguinaria",
+  "name": "Maria Sanguinaria",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Nuker de 1 solo objetivo capaz de ignorar piel de piedra cada tercer turno",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=hc7IaVmO3CI",
+  "blessings": [
+    "desgarro-aplastante",
+    "jaula-de-rayos"
+  ],
+  "relics": [
+    "garra_malefica",
+    "colmillo_asesino",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "sombra_encaramada",
+    "invocatormentas",
+    "mirada_condenadora",
+    "varita_de_sumision",
+    "bomba_de_terror",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "cruel",
+    "despiadado",
+    "dano-critico",
+    "percepcion",
+    "golpe-mortal"
+  ],
+  "uses": "Principalmente para arenas, aunque de nicho y dificil de cuadrar. En PvE hará bastante daño",
+  "stats": {
+    "hp": 15525,
+    "speed": 99,
+    "attack": 1520,
+    "defense": 1024,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cuchillas Hemáticas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        }
+      ],
+      "multiplier": "0.8xATK",
+      "description": "Ataca a 1 enemigo 3 veces. \n\nCada golpe tiene un 33% de probabilidad de otorgar un turno extra. No puede obtener más de 1 turno extra. No puede obtener turno extra si el objetivo es un Jefe.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fisura Sanguínea (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo.\n\n Ignorará el 33% de la DEF del objetivo. Ignorará el 99% de la DEF del objetivo así como bufos de [Piel de Piedra] y [Bloquear Daño] en lugar de lo anterior si este habilidad se usa en un turno que sea divisible por 3. Si el objetivo muere por esta habilidad, aumenta el tiempo de reutilización de todos los enemigos en 3 turnos. Este efecto no se puede resistir si esta habilidad se usa en un turno qe sea divisible por 3.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Gorescream",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, elimina todos los bufos de todos los enemigos. Los enemigos que tengan un número de bufos que sea divisible por 3 no pueden resistir este efecto. Atacará al resto de enemigos que tengan menos del 66% de HP.\n\n Otorga un turno extra si este campeón está bajo un número de bufos que sea divisible por 3.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Dí su nombre (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "description": "Cada golpe consecutivo que realiza este campeón hará un 33% más de daño (se acumula hasta el 99%). Se resetea al llegar al bonus de 99%.\n\n Cada golpe consecutivo que recibe este campeón, le hace un 33% menos de daño (11% de Jefes). Se acumula hasta 3 veces. Se resetea cuando la reducción de daño se ha aplicado por tercera vez (33-66-99% con enemigos normales, 11-22-33% conJefes).\n\nSiempre que un enemigo es revivido, revive a este campeón con el 33% de HP y el 66% de barra de turno. Tras ser revivida, aplica un debufo de [Miedo de Verdad] durante 2 turnos a todos los enemigos. Este debufo no se puede ni resistir ni bloquear.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en todas las Batallas en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/maria-sanguinaria.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "desalmado",
+  "name": "Desalmado",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Nuker defensivo con potencial de control. Recibió un rework en Enero de 2026 para añadirle más debufos y daño",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=5fJlJ4Er5nM",
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "apagador_de_esencia",
+    "luna_de_sangre",
+    "rocadragon_dorada",
+    "campana_fundida",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "ferreo",
+    "salvaje",
+    "letal",
+    "fervor",
+    "piel-de-piedra",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Facciones y oleadas. ",
+  "stats": {
+    "hp": 19650,
+    "speed": 97,
+    "attack": 848,
+    "defense": 1421,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Golpe Confundidor (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff + 15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "2.9xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 35% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno.\n\n Ignorará el 30% de la DEF del objetivo si está bajo un debufo de [Provocar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ola de desesperación (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff + 15%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "multiplier": "2.2xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de eliminar todos los bufos.\n\n También tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] y un debufo de [Maleficio] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reino de Terror (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "multiplier": "4.9xDEF",
+      "description": "Ataca a todos los enemigos. Aumenta 1 turno la duración de todos sus debufos y luego aplica un debufo [Incitar] en todos los enemigos durante 1 turno.\n\n Aplica un bufo [Escudo] a todos los aliados de 2 turnos igual al 30% del daño hecho y un bufo de [Contraataque] a éste campeón durante 2 turnos. El daño aumenta en un 10% por cada debufo en el objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Provocación Temeraria (Pasiva)",
+      "description": "Ignorará el 30% de la RES del objetivo si la DEF del objetivo es más baja que la de éste campeón.\n\n Los aliados hacen un 25% más de daño a objetivos bajo un debufo de [Provocar] aplicado por éste campeón.\n\n Si hay varios campeones en el equipo con esta habilidad, solo una se activará una. Esta habilidad no se activará en copias duplicadas de éste campeón si éste campeón está muerto.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/desalmado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

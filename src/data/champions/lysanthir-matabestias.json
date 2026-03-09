@@ -1,0 +1,161 @@
+{
+  "slug": "lysanthir-matabestias",
+  "name": "Lysanthir Matabestias",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Nuker de DEF especialista en hydra",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "colmillo_asesino",
+    "hacha_serpentis",
+    "garra_malefica",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "salvaje",
+    "resiliencia",
+    "percepcion",
+    "punteria",
+    "letal"
+  ],
+  "uses": "Hydra principalmente, demasiado de nicho y con pocas habilidades para otras mazmorras.",
+  "stats": {
+    "hp": 18000,
+    "speed": 103,
+    "attack": 837,
+    "defense": 1542,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rayo Reverberado (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo 2 veces.\n\n El primer golpe tiene un 75% de probabilidad de aplicar un debufo de [Maleficio] en el objetivo durante 2 turnos. Aplica un bufo del 30% de [Aumentar D.Crit] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cazador Astuto (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño + 20%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 20% de probabilidades de repetir este ataque.\n\n Cuando este campeón contraataca o se une a ataques de aliados, usará esta habilidad en lugar de su habilidad base. El daño que hace esta habilidad aumentará un 10% cada vez que un aliado sea devorado (se acumula hasta el 50%)",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Trampas rúnicas (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Niv. 4: Probabilidad Bufo / Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a todos los enemigos 2 veces.\n\n Cada golpe tiene un 75% de probabilidad de aplicar un debufo de 30% de [Reducir Velocidad] y un debufo de 25% de [Debilitar] durante 2 turnos. Si el enemigo está bajo un debufo de [Maleficio], aplica estos debufos antes de atacar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Superviviente Supremo (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Niv. 4: Probabilidad Bufo / Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "description": "Ignorará bufos de [Barrera de Vida] y [Protección de Aliado].\n\n Aumenta la DEF de este campeón en 5% por cada bufo activo en este campeón (se acumula hasta el 50%)",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en un 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lysanthir-matabestias.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

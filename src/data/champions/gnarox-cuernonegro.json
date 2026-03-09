@@ -1,0 +1,147 @@
+{
+  "slug": "gnarox-cuernonegro",
+  "name": "Gnarox Cuernonegro",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Tanque controlador decente",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "campana_fundida"
+  ],
+  "gear": [],
+  "uses": "Oleadas y facciones. En facciones difíciles puede servir para las 3*",
+  "stats": {
+    "hp": 17505,
+    "speed": 100,
+    "attack": 749,
+    "defense": 1387,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Machaca Rodillas (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque tiene un 30% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Medios para un Fin",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Protección de aliado] a todos los aliados, excepto a este campeón, durante 2 turnos. También aplica un bufo de [Contraataque] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Luchador Tenaz (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "reflejar-dano"
+        }
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a todos los enemigos. \n\nTiene un 50% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. Este debufo no se puede resistir si este campeón tiene menos DEF que el objetivo.\n\n Aplica un bufo de 30% de [Reflejar Daño] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Paria Aborrecido (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Siempre que un enemigo ataca a un aliado con un bufo de [Protección de Aliado], tiene un 15% de probabilidad de aplicar un debufo de [Incitar] al atacante durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en criptas de facción en 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gnarox-cuernonegro.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

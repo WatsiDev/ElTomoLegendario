@@ -1,0 +1,143 @@
+{
+  "slug": "espadachin-rathalos",
+  "name": "Espadachin Rathalos",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Nuker de PvE",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=VQOBAR4AkLo",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "garra_malefica",
+    "colmillo_asesino",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "cruel",
+    "fervor",
+    "golpe-mortal",
+    "matador"
+  ],
+  "uses": "Buen nuker de Hydra junto con alguien que ponga Quemar HP.",
+  "stats": {
+    "hp": 16185,
+    "speed": 105,
+    "attack": 1487,
+    "defense": 1013,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Empuje de Espíritu (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un debufo del 60 % [Reducir DEF] durante 2 turnos. Si el objetivo es un jefe, este debufo no se puede resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corte de Espíritu (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Cada segunda vez que se usa esta habilidad en una ronda atacará a todos los enemigos. También ignorará el 25% de la DEF del objetivo. Si el objetivo es un Jefe, ignorará el 100% de la DEF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corte Vertical (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "multiplier": "4.1xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo del 30% [Aumentar D.Crit] y un bufo del 30% [Aumentar VEL] a este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maestría Rathalos (Pasiva)",
+      "levels": [],
+      "description": "Inflige un 50% más de daño contra objetivos bajo debufos de [Quemar HP] . Recibe un 25% menos de daño de los enemigos bajo bajo debufos de [Quemar HP] . Cada quinta habilidad utilizada por este Campeón causa un 200% más de daño.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en Mazmorras en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/espadachin-rathalos.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

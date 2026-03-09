@@ -1,0 +1,137 @@
+{
+  "slug": "duquesa-lilitu",
+  "name": "Duquesa Lilitu",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Gran campeón de apoyo: mitiga daño, revive y vale para casi todo",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=NFB165jYf0k",
+  "blessings": [
+    "cura-de-urgencia",
+    "cosechar-vida"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "corazon_volcardiaco",
+    "arpa_de_kasbiel",
+    "servidumbre_de_xibia",
+    "cristal_de_exanima",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "apoyo",
+    "proteccion",
+    "mercurial"
+  ],
+  "uses": "Casi todo: arenas, hydra, oleadas, facciones, ",
+  "stats": {
+    "hp": 22470,
+    "speed": 103,
+    "attack": 793,
+    "defense": 1288,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Invocación abisal (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Escudo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "1.7xDEF",
+      "description": "Ataca a 1 enemigo 2 veces, luego aplicaun bufo de [Escudo] igual al 10% del HP MÁXIMO de este Campeón durante 2 turnos en este Campeón y el aliado con el HP más bajo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sudario de almas ",
+      "levels": [
+        {
+          "level_desc": "Nivel2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Aumentar ATK] y un bufo de [Bloquear Debufos] en todos los aliados durante 2 turnos. Aplica un bufo de [Velo perfecto] a todos los aliados, excepto este Campeón, durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Renacimiento espectral",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "velo"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con 70% de HP. Aplica un bufo de [Velo] en todos los aliados excepto este Campeón durante 1 turno. Aplica un bufo de 15% [Curación continua] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caminos Etéreos (Pasiva)",
+      "levels": [],
+      "description": "Reduce el daño recibido por todos los aliados de los ataques de área de efecto en un 25% (15% de los jefes).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliado en todas las batallas en un 19%"
+    }
+  ],
+  "lore": "La duquesa Lilitu es uno de los demonios más poderosos de las legiones de Siroth y un teniente de Mortu-Macaab. Sus poderes hechiceros solo se corresponden con su mente y experiencia astutas. De hecho, Lilitu tuvo el bufo de existir durante miles de años, aprendiendo todo lo que hay que aprender sobre la magia oscura y las intrigas infernales de las cortes demoníacas. De hecho, ella ha vivido lo suficiente como para participar personalmente en no menos de tres invasiones de Teleria. Ella luchó contra el árbitro y sobrevivió a la experiencia, apenas, no es que ella lo admitiera, lo cual es un logro en sí mismo. Una de las mayores fortalezas de Lilitu es su sabia evaluación de sus propios talentos y la falta de arrogancia que es tan común entre sus parientes. Ella sabe que no es una guerrera de la leyenda y que sería de poca utilidad en el torbellino cuerpo a cuerpo. En lugar, ella enfoca sus poderes en empoderar y proteger a quienes luchan por ella. En la batalla, Lilitu canta hechizos y hechizos en la lengua oscura, ahora olvidada por todos menos por los sirvientes de Siroth, invocando a la estructura misma del Vacío para proteger a sus aliados. No lo hace por la amabilidad de su corazón, por supuesto, sino con el propósito frío y calculado de mantener vivos a sus secuaces durante el tiempo suficiente para llevar a cabo su voluntad. Por esa misma razón, ella gastará una gran cantidad de energía mágica para apoderarse de las almas de los caídos y guiarlos de regreso a sus recipientes mortales, curando sus heridas y haciendo que luchen de nuevo. Ahora, mientras la oscura voluntad de Siroth envuelve a todo Teleria una vez más, Lilitu se aleja de su palacio infernal, con sus ejércitos a la espalda. Ya es hora de que los mortales paguen los insultos pasados ​​y finalmente doblen la rodilla.",
+  "forms": null,
+  "image": "/src/assets/champions/duquesa-lilitu.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

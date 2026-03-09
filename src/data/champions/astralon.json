@@ -1,0 +1,140 @@
+{
+  "slug": "astralon",
+  "name": "Astralon",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker algo mediocre en daño pero con potencial de revivir aliados y control",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=rlxWCxvIeKw",
+  "blessings": [
+    "segar-almas",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "campana_fundida",
+    "corona_de_ireth",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "despiadado",
+    "letal",
+    "percepcion",
+    "cruel"
+  ],
+  "uses": "Oleadas, Arenas en early-mid y facciones",
+  "stats": {
+    "hp": 16845,
+    "speed": 102,
+    "attack": 1619,
+    "defense": 837,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Atador del Infierno (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 30% de probabilidad de aplicar una debufo del 60% [Reducir DEF] durante 2 turnos. La condesa Lix formará equipo y se unirá al ataque si están en el mismo equipo. La Condesa Lix usará su habilidad predeterminada. La condesa Lix no formará equipo en este ataque si la habilidad se usa al contraatacar o cuando se une para atacar con otro Campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Inmanencia divina (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.8xATK",
+      "description": "Ataca a 1 enemigo. Ignorará las bufos de [Aumentar DEF], [Fortalecer] y [Protección de aliados]. Revive a un aliado aleatorio con un 40% de HP y le otorga un bufo de [Escudo] equivalente al 20% de su MAX HP durante 2 turnos si este ataque mata a un enemigo. También aplica un bufo de [Escudo] en este Campeón igual al 20% de su MAX HP durante 2 turnos si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Luz de santidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "Elimina todos los bufos de objetivos que tienen un bufo de [Velo] o [Velo Perfecto], aplica un debufo de [Debilitar] a los enemigos a los que ha eliminado un debufo de [Velo] o [Velo Perfecto] y ataca a todos los enemigos. También tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] en todos los enemigos durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Emisario (Pasiva)",
+      "levels": [],
+      "description": "Reduce el daño que infligen los enemigos bajo las debufos de [Veneno] (5 % menos por debufo de [Veneno], se acumula hasta un 25 %).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/astralon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

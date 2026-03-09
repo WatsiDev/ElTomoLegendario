@@ -1,0 +1,133 @@
+{
+  "slug": "sangre-de-magma",
+  "name": "Sangre de Magma",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Ninguno, muy malo",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [
+    {
+      "set_name": ""
+    }
+  ],
+  "uses": "Pollo",
+  "stats": {
+    "hp": 13710,
+    "speed": 93,
+    "attack": 1387,
+    "defense": 727,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Arrojar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Astillas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 30% de probabilidad de aplicar un debufo de 50% de [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bomba de Magma (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bomba"
+        }
+      ],
+      "description": "Ataca 2 veces al azar. Cada ataque tiene un 60% de probabilidad de aplicar un debufo de [Bomba] que explotará en 3 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en mazmorras en 40"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sangre-de-magma.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

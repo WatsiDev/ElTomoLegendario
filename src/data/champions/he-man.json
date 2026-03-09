@@ -1,0 +1,133 @@
+{
+  "slug": "he-man",
+  "name": "He-Man",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker con potencial en arena capaz de pegar durísimo si lo cargamos antes aplicandole muchos bufos.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=O0uha4Cn9PA",
+  "blessings": [
+    "llegado-del-cielo",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "malleos_de_fuego",
+    "sombra_encaramada",
+    "corona_corrompida",
+    "pasion_codiciosa",
+    "mirada_del_gato",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "velocidad",
+    "piel-de-piedra",
+    "despiadado",
+    "instinto",
+    "mercurial"
+  ],
+  "uses": "Principalmente arena, aunque su A3 cargada puede servir en todas partes. La pega es que habrá que jugarlo manual para que no la tire antes...y que no se puede conseguir más",
+  "stats": {
+    "hp": 16845,
+    "speed": 104,
+    "attack": 1465,
+    "defense": 991,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Corte Eterniano (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "3xATK 0.12xHP",
+      "description": "Ataca a 1 enemigo. Ataca 1 vez más a enemigos Corrompidos. \n\nTambién llena un 10% la barra de turno de este campeón. Llena un 2% adicional su barra de turno por cada bufo en este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hendidura Lumínica (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "5.5xATK 0.15xHP",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Yo tengo el poder!",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.5xATK 0.2xHP",
+      "description": "Ataca a todos los enemigos. Esta habilidad hace +10% de daño por cada bufo aplicado a este campeón antes de usarse esta habilidad (se acumula hasta el 500%). Se reinicia después de usarse esta habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Master del Universo (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "+5% de ATK y HP por cada bufo aplicado a este campeón (se acumula hasta el 50%). Aplica un bufo de 25% de [Fortalecer] a este campeón durante 2 turnos al inico de cada ronda. También aplica un bufo de 25% de [Fortalecer] a este campeón durante 2 turnos cuando los HP de un enemigo bajan del 50% a causa de un ataque de este campeón. \n\nEste campeón es inmune a debufos de [Petrificación].",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en Arenas en 28%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/he-man.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

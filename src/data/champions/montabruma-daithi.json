@@ -1,0 +1,115 @@
+{
+  "slug": "montabruma-daithi",
+  "name": "Montabruma Daithi",
+  "faction": "Vigías Silvanos",
+  "rarity": "Épico",
+  "role": "Nuker con debufos para limpiar oleadas",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 15360,
+    "speed": 97,
+    "attack": 1376,
+    "defense": 903,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Flechas de Brezo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de eliminar 1 beneficio aleatorio del objetivo. También tiene un 10% de posibilidades de otorgarle a este Campeón un Turno Extra.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Borrasca de Astiles (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de colocar una desventaja del 60 % [Reducir DEF] durante 2 turnos. Otorga un Turno Adicional si esta habilidad coloca una desventaja del 60% [Reducir DEF] en todos los enemigos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cazar las Brumas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Aumentar ATK] del 50% y un bufo de [Aumentar PUNT] del 50% en este Campeón durante 3 turnos, luego otorga un turno adicional.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 40"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/montabruma-daithi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

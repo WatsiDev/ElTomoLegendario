@@ -1,0 +1,135 @@
+{
+  "slug": "scabrius",
+  "name": "Scabrius",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Nuker de early-mid game con debufos interesantes para mazmorras",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Jefes en early. Nuker en Señor Demoníaco en early",
+  "stats": {
+    "hp": 13215,
+    "speed": 95,
+    "attack": 1365,
+    "defense": 1057,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cuchillo Desollador (ATK)",
+      "levels": [
+        {
+          "level_desc": "NNivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 50% de aplicar un debufo de [Veneno] del 5% durante 2 turnos   .",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Horda insistente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "4.1xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Leech] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rencor vicioso (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 75% de aplicar un debufo del 25% [Debilitar] durante 2 turnos. También aplica un bufo  del 50% [Aumentar ATK] en este campeón durante 2 turnos si se aplica el debufo [Debilitar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alimañas (Pasiva) ",
+      "levels": [],
+      "description": "Aumenta el daño en un 20% cuando se ataca a enemigos con debufos de [Veneno].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/scabrius.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

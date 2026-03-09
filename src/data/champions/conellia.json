@@ -1,0 +1,119 @@
+{
+  "slug": "conellia",
+  "name": "Conellia",
+  "faction": "Enanos",
+  "rarity": "Épico",
+  "role": "Utilidad casual por sus sinergias con el dormir",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir",
+    "presencia-dominante"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [],
+  "uses": "Limitados o de nicho, como Necrópolis de Arena o Facciones",
+  "stats": {
+    "hp": 19650,
+    "speed": 109,
+    "attack": 826,
+    "defense": 1167,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rapidez sorprendente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aumentar el tiempo de reutilización de una de las habilidades del objetivo en 2 turnos al azar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Paz de las profundidades",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        },
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "description": "Tiene un 80% de probabilidad de aplicar un debufo de [Dormir] en todos los enemigos durante 1 turno. [Efecto pasivo] Siempre que un enemigo pierde un debufo de [Dormir] colocado por esta habilidad, tiene un 50% de probabilidad de reemplazarla con un debufo de [Miedo] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Descanso revitalizante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "description": "Aplica un debufo de [Dormir] en un aliado durante 1 turno. Cura a ese aliado en un 50% de sus HP MÁXIMOS y llena su barra de turno en un 50% cada vez que el debufo [Sueño] expira o se elimina. Cura a ese aliado en un 100% y llena por completo su barra de turno si se pierde el debufo [Sueño] debido a recibir daño de un enemigo.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en un 18%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/conellia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

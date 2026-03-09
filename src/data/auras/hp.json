@@ -1,0 +1,6 @@
+{
+  "name": "Vida",
+  "slug": "hp",
+  "icon": "/src/assets/icons/auras/Health.png",
+  "image": "/src/assets/icons/auras/large/Health.png"
+}

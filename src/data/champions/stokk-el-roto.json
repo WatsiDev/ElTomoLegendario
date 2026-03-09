@@ -1,0 +1,138 @@
+{
+  "slug": "stokk-el-roto",
+  "name": "Stokk el Roto",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Envenenador y debufer",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=HTIIGNlrFjM",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": null,
+  "gear": [
+    "velocidad",
+    "percepcion",
+    "punteria",
+    "impulso",
+    "velocidad-divina",
+    "incansable"
+  ],
+  "uses": "Muy bueno en oleadas, y jefes suscepcitibles de Venenos y Quemar HP. Lo he visto en Dragon, Golem, Araña, Facciones...principalmente todo lo PvE",
+  "stats": {
+    "hp": 20145,
+    "speed": 103,
+    "attack": 1079,
+    "defense": 1156,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Frascos de Perdición (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +15%"
+        }
+      ],
+      "multiplier": "2.4xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 25% de probabilidad de aumentar 1 turno la duración de los debufos de [Veneno] y [Quemar HP] del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mezcla Volátil (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "2.2xATK",
+      "description": "Ataca a todos los enemigos 2 veces. El primer ataque activa inmediatamente todos los debufos de [Veneno] y de [Quemar HP] de todos los enemigos y todos los bufos de [Curación Continua] de todos los aliados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Inundación de Vengativa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "4.4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 80% de probabilidad de aplicar dos debufos de 5% de [Veneno] a todos los enemigos durante 2 turnos. A los objetivos que tengan un debufo de [Quemar HP], en lugar de los anterior, les aplica tres debufos de 5% de [Veneno] y un debufo de 25% de [Debilitar] durante 2 turnos. También aplica dos bufos de 15% de [Curación Continua] a todos los  aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Listo para Explotar (Pasiva)",
+      "levels": [],
+      "cooldown": 4,
+      "description": "El daño de los debufos de [Veneno] y [Quemar HP] ignora bufos de [Bloquear Daño] e [Inmortal]. \n\n Siempre que un aliado ataca a un enemigo con MAX HP destruido, hace un +10% de daño. \n\n Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/stokk-el-roto.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

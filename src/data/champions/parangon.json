@@ -1,0 +1,115 @@
+{
+  "slug": "parangon",
+  "name": "Parangón",
+  "faction": "Elfos Oscuros",
+  "rarity": "Raro",
+  "role": "Campeón con una habilidad única que permite setups 'trampa'",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Arañas en early o campaña pesadilla. Sitios puntuales",
+  "stats": {
+    "hp": 14370,
+    "speed": 96,
+    "attack": 958,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Consumo de Energía (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.9xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de reducir la barra de turno del objetivo en un 10 %. El daño infligido es proporcional a la DEF.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Control de Daños",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "aumentar-atk-1"
+        }
+      ],
+      "description": "Aplica un bufo de [Inmortal] y un bufo de 25% de [Aumentar ATK] a un aliado objetivo durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Valle de la Muerte (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "2.6xDEF",
+      "description": "Ataca 3 veces al azar. Cada golpe tiene un 30 % de probabilidad de aplicar un debufo de 100% [Curación Reducida] y un debufo de 50% [Reducir ATK] durante 2 turnos. El daño infligido es proporcional a la DEF.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/parangon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

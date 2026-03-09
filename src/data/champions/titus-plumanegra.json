@@ -1,0 +1,143 @@
+{
+  "slug": "titus-plumanegra",
+  "name": "Titus Plumanegra",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Poderoso tanque capaz de aplicar bufos, y que hace daño escalando por el tamaño del escudo",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=xB1LJwsEHWQ",
+  "blessings": [
+    "desgarro-aplastante",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "elixir_dorado",
+    "abanico_negro",
+    "diadema_no_muerta",
+    "dedo_real",
+    "eternizalmas"
+  ],
+  "gear": [
+    "apoyo",
+    "escudo",
+    "inmortal",
+    "salvaje",
+    "letal",
+    "proteccion"
+  ],
+  "uses": "Como tanque vale para casi todo, PvE y PvP. Generalmente se usa para Hydra y Jefe de Clan en setups de Wixwell de escudos infinitos",
+  "stats": {
+    "hp": 18495,
+    "speed": 97,
+    "attack": 837,
+    "defense": 1509,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Espada del Cuervo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 40% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] en el objetivo durante 2 turnos. Este efecto no se puede resistir si este campeón tiene un bufo de [Escudo]. \n\n Siempre que un aliado contraataca, se une con otros para atacar a un enemigo o instantáneamente activa una habilidad, también tien un 40% de aplicar un debufo de [Bloquear Habilidades Activas] en el objetivo durante 2 turnos. Si hay multiples campeones en el equipo con esta habilidad, solo se activará una.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estudiante de la Guerra (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo. Este ataque siempre es crítico si este campeón está bajo un bufo de [Escudo]. Este ataque también aumenta su daño equivalente al tamaño del [Escudo].\n\n Elimina todos los debufos de los aliados si este ataque mata al objetivo. Si el objetivo sobrevive, aplica un debufo de [Provocar] a todos los enemigos durante 1 turno. Este efecto no puede resistir si este campeón está bajo un debufo de [Escudo].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Confidente de Androc",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Protección de Aliado], un 50% de [Aumentar Ataque] y un 30% de [Aumentar VEL] a un aliado durante 2 turnos. También llena la barra de turno de ese campeón un 40%.\n\n Instantáneamente activa esta habilidad al final del turno de un aliado si éste no tiene ningún bufo y su HP es inferior al 100%. Si hay múltiples campeones en el equipo con esta habilidad, solo se activará una.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Por Señor y Tierra (Pasiva) ",
+      "levels": [],
+      "description": "Cada vez que un enemigo ataca a un aliado, el próximo ataque de ese aliado hará un 10% de daño adicional por cada golpe recibido (se acumula hasta el 100%). El aumento de daño se resetea cuando ese campeón aliado hace daño.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de los aliados del Vacío en un 40%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/titus-plumanegra.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

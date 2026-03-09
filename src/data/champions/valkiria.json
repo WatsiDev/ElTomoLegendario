@@ -1,0 +1,118 @@
+{
+  "slug": "valkiria",
+  "name": "Valkiria",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Gran campeón defensivo con capacidad de grandes escudos, contraataque e incluso daño",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=ydGFP4nqfts",
+  "blessings": [
+    "fuego-y-azufre",
+    "crueldad"
+  ],
+  "relics": [
+    "rocadragon_dorada",
+    "corazon_volcardiaco",
+    "tiempo_de_sangre"
+  ],
+  "gear": [],
+  "uses": "Caballero normal y difici, jefe de clan, oleadas e incluso arenas",
+  "stats": {
+    "hp": 17835,
+    "speed": 104,
+    "attack": 793,
+    "defense": 1597,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Denigración (ATK)(DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        }
+      ],
+      "multiplier": "1.7xATK + 0.6xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Reduce la barra de turno en un 10% en cada golpe si el objetivo tiene algún bufo. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mantener la posición (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "multiplier": "3xDEF (Multiplicador del escudo 4xDEF)",
+      "description": "Ataca a todos los enemigos. Aplica un bufo de [Escudo] en todos los aliados durante 3 turnos y una debufo [Contraataque] en todos los aliados durante 2 turnos. El valor de [Escudo] y el daño infligido son proporcionales a la DEF de este Campeón. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Celos (Pasiva)",
+      "levels": [],
+      "description": "La barra de turno de este campeón aumentará en un 10% cada vez que un campeón enemigo aplica un bufo. También reduce la barra de turno de los campeones enemigos en un 10% por cada bufo que reciben. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en criptas de facción en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/valkiria.webp",
+  "masteries": [],
+  "artworks": [
+    "/src/assets/artworks/valkiria/valkiria_artwork.webp"
+  ],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

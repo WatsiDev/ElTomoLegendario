@@ -1,0 +1,144 @@
+{
+  "slug": "karato-cazazorros",
+  "name": "Karato Cazazorros",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Nuker pareja de la poderosa Yumeko, aunque poco usado al no ser meta",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "crueldad"
+  ],
+  "relics": [
+    "colmillo_malefico",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "pasion_codiciosa",
+    "sombra_encaramada",
+    "malleos_de_fuego"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "despiadado",
+    "punteria",
+    "dano-critico"
+  ],
+  "uses": "Guardián de Cámara. Bastante malo poco nuker y no se usa",
+  "stats": {
+    "hp": 17340,
+    "speed": 99,
+    "attack": 1564,
+    "defense": 859,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Tres Visitas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "1.5xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 20 % de probabilidad de aplicar un debufoo de 25 % de [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Atormentar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Aturdir] durante 2 turnos. Otorga un turno adicional y restablece el tiempo de reutilización de esta habilidad si Yumeko está en el mismo equipo y esta habilidad mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guarda de Supresión (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10 %"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "4.65xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 80 % de probabilidad de aplicar un debufo de [Bloquear habilidades activas] durante 2 turnos. Este debufo no se puede resistir si Yumeko está en el mismo equipo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estoicismo (Pasiva)",
+      "levels": [],
+      "description": "El daño infligido por este Campeón no puede ser disminuido por las habilidades Pasivas o Maestrías enemigas, excepto por las habilidades Pasivas de los Jefes.\n\n El daño infligido por este Campeón no se puede aumentar con las Maestrías de este Campeón o las Habilidades Pasivas de los aliados (¡Excepto los Jefes!)\n\n Cada vez que Yumeko muere, instantáneamente otorga un turno a este Campeón y restablece los tiempos de reutilización de todas las habilidades de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la P.Crit de Aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/karato-cazazorros.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

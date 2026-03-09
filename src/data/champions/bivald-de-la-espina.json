@@ -1,0 +1,144 @@
+{
+  "slug": "bivald-de-la-espina",
+  "name": "Bivald de la Espina",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Bufer / debufer con algo de utilidad en early y mid game",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "tiara_de_andromeda",
+    "empunadura_sacra",
+    "campana_fundida",
+    "mascara_de_ira"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "inmortal",
+    "velocidad"
+  ],
+  "uses": "Kuldath, Hydra y control de oleadas. No está mal pero tampoco es top",
+  "stats": {
+    "hp": 20145,
+    "speed": 101,
+    "attack": 1057,
+    "defense": 1178,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Mazo de Espinas (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de beneficio/desventaja +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de beneficio/desventaja +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. También cura al aliado con el HP más bajo en un 15% del daño infligido.\n\n El debufo de [Incitar] se aplica aunque este golpe sea débil.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Advertencia de púas (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "multiplier": "0.15xHP",
+      "description": "Ataca a todos los enemigos 2 veces. El primer golpe tiene un 75 % de probabilidad de aplicar un debufo [Incitar] durante 1 turno. El segundo golpe tiene un 75 % de probabilidad de aplicar un debufo [Chupar Vida] durante 2 turnos.\n\n También aplica un bufo de [Fortalecer] del 25% en este Campeón durante 2 turnos. Los debufos de [Chupar Vida] y [Provocar] se pueden aplicar incluso si este ataque es golpe débil.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Nexo de púas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Enfriamiento -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.25xHPx (1+0.05 x cada debuff)",
+      "description": "Ataca a todos los enemigos. Hace un 5% más de daño por cada debuffo sobre el enemigo.\n\n También cura a todos los aliados en un 20 % del daño infligido y les otorga un [Escudo] durante 2 turnos equivalente al 20 % del daño infligido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sin Espinas (Pasiva)",
+      "levels": [],
+      "description": "Reduce el daño recibido por todos los aliados de los enemigos que tengan un debufo de [Incitar] en un 15%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de todos los aliados en todas las batallas en 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bivald-de-la-espina.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

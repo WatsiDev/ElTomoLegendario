@@ -1,0 +1,135 @@
+{
+  "slug": "artak",
+  "name": "Artak",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Quemador y activador",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=kAjD3VqOsaU",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "craneo_de_traicion",
+    "plumaje_dorado",
+    "tumba_de_sintranos",
+    "cascaron_gelido",
+    "sigilo_de_los_akar",
+    "retono_repugnante"
+  ],
+  "gear": [
+    "inmortal",
+    "regeneracion",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Hydra, Golem Difícil y arañas, así como facciones.",
+  "stats": {
+    "hp": 22140,
+    "speed": 100,
+    "attack": 936,
+    "defense": 1167,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Hoja del Caos (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5 %"
+        }
+      ],
+      "multiplier": "0.1xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 35 % de probabilidad de extender la duración de cualquier debufo de [Quemar HP] en cada objetivo por 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Perros de Guerra (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos. Antes de atacar, activa instantáneamente cualquier debufo de [Quemar HP] en cada enemigo. \n\nTiene un 75 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Puriquema (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "0.14xHP",
+      "description": "Ataca a todos los enemigos 2 veces. El primer golpe tiene un 75 % de probabilidad de aplicar un debufo de [Quemar HP] a ​​todos los enemigos durante 2 turnos. \n\nRestaura un 10% de MAX HP destruidos de este campeón por cada debufo de [Quemar HP] que aplica esta habilidad. Cura a este campeón un 5% de su MAX HP por cada debufo de [Quemar HP] que haya bloqueado o resistido el grupo enemigo. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre Hirviente (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que se activa un debufo de [Quemar HP], destruye el MAX HP de este campeón en un 5%. Se acumula hasta un 50%.\n\n Este campeón hace un 1% más de daño y obtiene +1% de D.Crit y DEF por cada 1% de MAX HP destruido. Este campeón también obtiene +2 VEL y RES por cada 1% de MAX HP destruido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/artak.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "uzol-de-jade",
+  "name": "Uzol de Jade",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Nuker que pega más duro al obtener turnos adicionales",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "invocatormentas",
+    "luna_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "incansable",
+    "letal",
+    "salvaje",
+    "instinto"
+  ],
+  "uses": "Principalmente arenas, aunque hace mucho daño en PvE en general también.",
+  "stats": {
+    "hp": 15195,
+    "speed": 99,
+    "attack": 1498,
+    "defense": 1068,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Hachero Implacable (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a 1 enemigo. \n\nTiene un 20% de probabilidad de obtener un Turno Adicional. Obtén un turno adicional si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corazón de Piedra (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, reduce un 100% la magnitud de los bufos de [Escudo] de todos los enemigos y les aplica un debufo de 60% de [Reducir DEF] durante 2 turnos. Estos efectos no se pueden resistir si esta habilidad se ha usado durante un turno adicional.\n\n Tiene un 20% de probabilidad  de obtener un turno adicional. La probabilidad aumenta un 10% por cada crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia Real (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. Ignora bufos de [Escudo], [Bloquear Daño] e [Inmortal].\n\n También ignora bufos de [Piel de Piedra] y el 100% de DEF del objetivo si esta habilidad se ha usado en un turno adicional o en un turno instantáneo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rey de Jade (Pasiva)",
+      "description": "Aumenta un 5% la probabilidad de que los aliados obtengan un turno adicional. Si hay varios campeones con esta habilidad en el equipo, solo se activará una.\n\n Este campeón hace un 25% más de daño en turnos adicionales.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en batallas de Arena en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/uzol-de-jade.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

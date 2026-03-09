@@ -1,0 +1,137 @@
+{
+  "slug": "zelotah",
+  "name": "Zelotah",
+  "faction": "No Muertos",
+  "rarity": "Épico",
+  "role": "Controlador con dormir y algunos básicos bufos defensivos",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "rocadragon_dorada"
+  ],
+  "gear": [
+    "escudo",
+    "vida",
+    "inmortal",
+    "resiliencia",
+    "velocidad",
+    "vida-divina",
+    "velocidad-divina"
+  ],
+  "uses": "Oleadas, facciones. Es decente pero poco específico",
+  "stats": {
+    "hp": 20640,
+    "speed": 95,
+    "attack": 826,
+    "defense": 1101,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Mirada hipnótica (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "4.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de probabilidad de aplicar un debufo [Dormir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escamas blindadas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +5%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] en todos los aliados igual al 20% del HP máximo de este campeón durante 3 turnos. Aplica un bufo de 15% [Curación continua] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sueños horribles (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 50% de posibilidades de aplicar un debufo [Dormir] durante 1 turno. Tiene un 75% de probabilidad contra enemigos bajo debufos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en la arena en 70."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/zelotah.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

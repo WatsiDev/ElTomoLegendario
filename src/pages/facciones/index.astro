@@ -1,7 +1,17 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import factions from "../../data/factions.json";
-import champions from "../../data/champions.json";
+import factionsData from "../../data/factions.json";
+
+// Access the array from the object wrapper
+const factions = factionsData.factions;
+
+// Cargar todos los campeones desde la carpeta de datos
+const championFiles = import.meta.glob("../../data/champions/*.json", {
+  eager: true,
+});
+const champions = Object.values(championFiles).map(
+  (file: any) => file.default || file,
+);
 
 // Función auxiliar para generar slugs (URLs amigables)
 const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
@@ -31,7 +41,7 @@ const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
             <div class="absolute inset-0 bg-linear-to-t from-raid-gold/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
             <img
-              src={faction.image || "/favicon.png"}
+              src={faction.image || "/assets/favicon.png"}
               alt={faction.name}
               class="w-20 h-20 object-contain mb-4 transform group-hover:scale-110 transition-transform duration-300 drop-shadow-lg"
             />

@@ -1,0 +1,127 @@
+{
+  "slug": "carlinia",
+  "name": "Carlinia",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Debufer y reductor de bufos enemigos y debufos aliados.",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [],
+  "gear": [],
+  "uses": "Hydra en early, pero será muy mediocre",
+  "stats": {
+    "hp": 17175,
+    "speed": 105,
+    "attack": 793,
+    "defense": 1365,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Perdición (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de posibilidades de aplicar un debufo de [Quemar HP] durante 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Penitencia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 55% de probabilidad de aplicar un debufo de 50% [Reducir ATK] durante 2 turnos. Este debufo no se puede resistir si el enemigo está bajo un debufo de [Quemar HP].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Observación Continua",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Reduce la duración de todos los debufos de los aliados en 1 turno y luego aplica un bufo de 15% de [Fortalecer] en todos los aliados. Este bufo estará protegido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arde con Verguenza (Pasiva)",
+      "description": "Cada vez que un enemigo afectado por un debufo de [Quemar HP] tenga un turno, reduce la duración de 2 bufos aleatorios en ese enemigo, en 1 turno.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en todas las batallas en 35"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/carlinia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

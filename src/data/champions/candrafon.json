@@ -1,0 +1,133 @@
+{
+  "slug": "candrafon",
+  "name": "Candrafon",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Poderoso nuker de arenas, capaz de ocultarse y golpear duro",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "invocatormentas",
+    "repartemuerte",
+    "luna_de_sangre",
+    "garra_malefica",
+    "ojos_de_acero",
+    "tributo_de_san_zavier",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "cruel",
+    "salvaje",
+    "despiadado",
+    "instinto"
+  ],
+  "uses": "Arenas y facciones",
+  "stats": {
+    "hp": 17505,
+    "speed": 96,
+    "attack": 1509,
+    "defense": 903,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Castigar la arrogancia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Hace un golpe adicional si el objetivo está tiene algún bufo",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Regocijo del carnicero (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.7xATK",
+      "description": "Ataca a todos los enemigos. Otorga un turno adicional y restablece el tiempo de reutilización de habilidad De caza si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "De caza",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% [Aumentar VEL] y un 30% [Aumentar D.Crit] a este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desde las Sombras (Pasiva)",
+      "levels": [],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "[Efecto pasivo] : el daño aumenta en un 40% al atacar bajo un bufo de [Velo] o [Velo perfecto]. Recibe un 40% menos de daño mientras está bajo un bufo de [Velo] o [Velo perfecto]. También aumenta la barra de turno de este campeón en un 15% cada vez que este campeón recibe daño bajo un bufo de [Velo] o [Velo perfecto]. No funciona si este Campeón es el único aliado vivo del equipo. \n\n[Efecto activo]: Aplica un bufo de [Velo perfecto] en este campeón durante 1 turno cada vez que se llena el barra de turno de un enemigo. Este bufo no se puede eliminar.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ataque de aliado en arena en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/candrafon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Salvaje",
+  "slug": "salvaje",
+  "image": "/src/assets/icons/sets/Salvaje.webp",
+  "description": "Ignora el 25% de DEF del enemigo",
+  "bonuses": []
+}

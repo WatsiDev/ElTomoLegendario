@@ -1,0 +1,175 @@
+{
+  "slug": "lady-mikage",
+  "name": "Lady Mikage",
+  "faction": "Sombrios",
+  "rarity": "Mítico",
+  "role": "Versátil campeón de apoyo para cualquier contenido PvE o PvP",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=LW0OhVThSvM",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "campana_fundida",
+    "antorcha_esclava",
+    "colmillo_asesino",
+    "sombra_encaramada"
+  ],
+  "gear": [
+    "proteccion",
+    "bestial",
+    "percepcion",
+    "punteria",
+    "exactitud",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Casi todo: Hydra, Quimera, Señor Demoníaco, Arenas, Caballero de Fuego...",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la Punt de aliados en todas las batallas en 80."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 21645,
+        "speed": 115,
+        "attack": 1200,
+        "defense": 1211,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Latigazo de Sombra (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%"
+          ],
+          "buffDebuff": [
+            "escudo-habilidad"
+          ],
+          "multiplier": "3.9xATK",
+          "description": "Ataca a 1 enemigo con 1 aliado aleatorio de la facción de Sombríos. El aliado que se una al ataque utilizará su habilidad base. Aplica un bufo de [Escudo] equivalente al 10% del HP MÁXIMO de este Campeón al aliado con el HP más bajo durante 2 turnos."
+        },
+        {
+          "name": "Trampa de Seda (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "multiplier": "3.8xATK",
+          "description": "Ataca a todos los enemigos. Reduce la duración de todos los bufos de los enemigos y de todos los debufos de los aliados en 1 turno. Luego, aumenta la duración de todos los debufos enemigos y reduce los de todos los aliados en 1 turno."
+        },
+        {
+          "name": "Decreto Imperial",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "aumentar-atk-2",
+            "aumentar-d-crit-2"
+          ],
+          "description": "Aplica un bufo del 50% [Aumentar ATK] y un bufo del 30% [Aumentar D.Crit] a todos los aliados durante 2 turnos, ataca a un enemigo junto con todos los aliados. Los aliados que se unan al ataque utilizarán sus habilidades base."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Voluntad de Mikage (Pasiva)",
+          "levels": [],
+          "description": "Al comienzo del turno de este Campeón, elimina todos los debufos del aliado con mayor ATK."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 21645,
+        "speed": 115,
+        "attack": 1200,
+        "defense": 1211,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Araña de Pesadilla (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "buffDebuff": [
+            "dormir"
+          ],
+          "multiplier": "3.8xATK",
+          "description": "Ataca a 1 enemigo. Aplica un debufo de [Dormir] durante 1 turno. También reduce la barra de turno del objetivo en un 15%."
+        },
+        {
+          "name": "Muerte Escurridiza (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aturdir"
+          ],
+          "multiplier": "3.8xATK",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de [Aturdir] durante 1 turno. También reduce las barras de turno de todos los enemigos en un 30%."
+        },
+        {
+          "name": "Perdición de Yakai (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "aumentar-punt-2",
+            "debilitar-2"
+          ],
+          "description": "Aplica un bufo del 50% [Aumentar PUNT] en todos los aliados durante 2 turnos. También elimina todos los bufos de todos los enemigos y les aplica un debufo [Debilitar] del 25% durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Mirada demoníaca (Pasiva)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "description": "Al inicio del turno de este Campeón, reduce la barra de turno del enemigo con mayor ATK en un 15%."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/lady-mikage.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

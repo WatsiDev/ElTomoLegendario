@@ -1,0 +1,135 @@
+{
+  "slug": "harima",
+  "name": "Harima",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Nuker de defensa con mucho daño, control y una poderosa pasiva",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "colmillo_malefico",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "pasion_codiciosa",
+    "sombra_encaramada",
+    "malleos_de_fuego"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "impulso",
+    "bestial",
+    "dano-critico"
+  ],
+  "uses": "Arenas, limpieza de oleadas, Hydra como incitadora-nuker...muy buena",
+  "stats": {
+    "hp": 16845,
+    "speed": 97,
+    "attack": 925,
+    "defense": 1531,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Degradar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos. También tiene un 25 % de probabilidad de aplicar este [Reducir ATK] a todos los demás enemigos durante 2 turnos si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Castigo Purgativo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "1.6xDEF",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe reduce la DEF del objetivo en un 5 % (se acumula hasta un 30 %). Cada golpe también aumenta la DEF de este campeón en un 5 % (se acumula hasta un 100 %).\n\n Activa instantáneamente la habilidad Asombro Celestial si esta habilidad mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asombro Celestial (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "3.9xDEF",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de [Incitar] durante 1 turno. Este debufo no se puede bloquear ni resistir si el campeón es de la facción de Engendros.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mata Demonios (Pasiva)",
+      "levels": [],
+      "description": "Los efectos enemigos de Ignorar Defensa se reducen en un 50%.\n\n Los campeones de la facción de Engendros no pueden infligir golpes críticos a este campeón.\n\n Este campeón no puede asestar golpes débiles a los campeones de la facción de Engendros.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": {
+    "type": "res",
+    "description": "Aumenta la Resistencia de los aliados en Arena Battles en 80."
+  },
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/harima.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

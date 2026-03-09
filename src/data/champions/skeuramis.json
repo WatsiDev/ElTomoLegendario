@@ -1,0 +1,172 @@
+{
+  "slug": "skeuramis",
+  "name": "Skeuramis",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Tanque con incitar para control en guerra de facciones",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "defensa-impecable"
+  ],
+  "relics": [
+    "mascara_de_ira",
+    "campana_fundida"
+  ],
+  "gear": [
+    "resiliencia",
+    "redirigir",
+    "inmortal",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Control de oleadas, facciones",
+  "stats": {
+    "hp": 19980,
+    "speed": 97,
+    "attack": 848,
+    "defense": 1123,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Dejar Atrás (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.21xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 80 % de probabilidad de robar el 15 % de la barra de turno del objetivo. Tiene un 20 % de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno si la barra de turno el objetivo se agota por completo con esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Supremacía Cómoda (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos. Reduce la duración de todos los bufos enemigos en 1 turno. También tiene un 60 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos. Llena la barra de turno de este campeón en un 10 % por cada bufo al que se ha reducido la duración.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe preventivo  (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "5.3xDEF",
+      "description": "Ataca a 1 enemigo. Reduce la barra de turno del objetivo en un 50%. Si el ataque agota por completo la barra de turno, aplicará una debufo [Aturdir] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aguantar el Frente",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Tiene un 75% de aplicar un debufo de [Incitar] a todos los enemigos durante 1 turno. Aplica un bufo de [Contraataque] y un bufo del 15% [Curación continua] a este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/skeuramis.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

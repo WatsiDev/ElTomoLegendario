@@ -1,0 +1,171 @@
+{
+  "slug": "arachoa-hilaluna",
+  "name": "Arachoa Hilaluna",
+  "faction": "Elfos Oscuros",
+  "rarity": "Mítico",
+  "role": "En su forma base, controladora y debufer. En su forma alternativa, nuker de muchos golpes capaz de ignorar DEF y bufos así como obtener barra de turno",
+  "type": "Apoyo / Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=9PMUe-Dglx4",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "garra_malefica",
+    "mirada_del_gato",
+    "corona_de_ireth",
+    "varita_de_sumision",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "percepcion",
+    "bestial",
+    "punteria",
+    "velocidad",
+    "mercurial"
+  ],
+  "uses": "En su forma base es muy buena controladora tanto en arenas si va rápida como en cualquier oleada. Su segunda forma es puramente de daño que se beneficia de los debufos que aplica la forma base",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 80."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 22635,
+        "speed": 110,
+        "attack": 881,
+        "defense": 1465,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Colmillos Hipnóticos (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca a 1 enemigo 2 veces.\n\n Cada ataque reduce un 5% la barra de turno del objetivo. Si el objetivo tiene algún debufo aplicado por este campeón, la reducción es de un 5% adicional."
+        },
+        {
+          "name": "Fauces de Araña Lunar (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "miedo-de-verdad"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca a todos los enemigos.\n\n Reduce un 50% las barras de turno de todos los enemigos. Reduce un 100% las barras de turno de todos los enemigos si esta habilidad se usa en un turno adicional o instantáneo.\n\n Aplica un debufo de [Miedo de Verdad] durante 1 turno. Contra Jefes y enemigos a los que reduzca completamente la barra de turno, el debufo de [Miedo de Verdad] tiene una duración de 2 turnos."
+        },
+        {
+          "name": "Trance Oscuro (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "bloquear-habilidades-activas",
+            "red-def-2"
+          ],
+          "description": "Elimina todos los bufos de todos los enemigos.\n\n Aplica un debufo de 60% de [Reducir DEF] y un debufo de [Bloquear Habilidades Activas] a todos los enemigos durante 2 tunros.\n\n Obtén un turno adicional si esta habilidad aplica al menos 8 debufos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Araña Escurridiza (Pasiva)",
+          "levels": [],
+          "description": "+4 VEL por cada debufo que aplica este campeón y +2 VEL por cada debufo resistido cuando este campeón intenta aplicar debufos (se acumula hasta 100). Solo cuentan los debufos aplicados por las habilidades de este campeón."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 18825,
+        "speed": 105,
+        "attack": 1498,
+        "defense": 1101,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Devastación Astral (HP)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca 2 veces a 1 enemigo.\n\n Llena un 5% la barra de turno de este campeón por cada crítico. Si el objetivo tiene un debufo de [Bloquear Habilidades Activas] o [Reducir DEF], la barra de turno de este campeón se llena un 5% adicional.\n\n Si este ataque mata a un enemigo, obtén un turno adicional en lugar de lo anterior."
+        },
+        {
+          "name": "Hilo de la Muerte (ATK)(MAX HP del enemigo)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "cooldown": 3,
+          "multiplier": "?xATK",
+          "description": "Ataca a 1 enemigo 3 veces. Siempre usa esta habilidad en lugar de la habilidad base al contraatacar. Esta habilidad no se puede bloquear con debufos de [Bloquear Habilidades Activas].\n\n Ignora bufos de [Escudo] y [Bloquear Daño]. Si el objetivo tiene un debufo de [Bloquear Habilidades Activas] o [Reducir DEF], también ignora bufos de [Inmortal].\n\n Llena un 15% la barra de turno de este campeón por cada crítico."
+        },
+        {
+          "name": "Ejecución por Telaraña (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "velo-perfecto"
+          ],
+          "description": "Ataca a 1 enemigo 4 veces.\n\n Cada ataque ignora el 15% de DEF. Si el objetivo tiene un debufo de [Bloquear Habilidad Activas] o [Reducir DEF], cada ataque ignora el 30% de DEF (en vez del 15%).\n\n Llena un 20% la barra de turno de este campeón por cada crítico.\n\n Luego aplica un bufo de [Velo Perfecto] a este campeón durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Gran Señora de la Telaraña (Pasiva)",
+          "description": "Este campeón es inmune a debufos de [Aturdir], [Dormir], [Miedo], [Miedo de Verdad], [Incitar], [Congelar] y [Petrificación] si tiene un bufo de [Velo] o [Velo Perfecto].\n\n Este campeón tampoco puede sufrir críticos si tiene un bufo de [Velo] o [Velo Perfecto]"
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/arachoa-hilaluna.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

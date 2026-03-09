@@ -1,0 +1,166 @@
+{
+  "slug": "galleus-bloodcrest",
+  "name": "Galleus Bloodcrest",
+  "faction": "Cambiapieles",
+  "rarity": "Mítico",
+  "role": "Nuker raro con algunos de bufos y debufos de control así como daño",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "jaula-de-rayos",
+    "segar-almas"
+  ],
+  "relics": [
+    "campana_fundida",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "fervor",
+    "instinto"
+  ],
+  "uses": "Hydra, oleadas y algunos jefes, dependiendo de la forma",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en un 35%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 22140,
+        "speed": 101,
+        "attack": 881,
+        "defense": 1498,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Corte de Ala (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "multiplier": "3.6xDEF",
+          "description": "Ataca a 1 enemigo. Aplica un debufo de 30% de [Reducir VEL] durante 2 turnos. Al contraatacar, el daño hecho por esta habilidad se basa en DEF de este campeón y MAX HP del enemigo."
+        },
+        {
+          "name": "Mofa Cortante (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "incitar",
+            "inmortal",
+            "contraataque"
+          ],
+          "multiplier": "3.9xDEF",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de [Incitar] durante 1 turno. Si el objetivo es un Jefe, el debufo de [Incitar] es de 2 turnos. \n\nAplica un bufo de [Inmortal] a este campeón durante 1 turno y un bufo de [Contraataque] a este campeón durante 2 turnos."
+        },
+        {
+          "name": "Llamada Sanguinaria",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "revivir-al-morir",
+            "aumentar-def-2"
+          ],
+          "description": "Restaura todo el MAX HP destruido de todos los aliados. También aplica un bufo de [Revivir al Morir] y un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos.\n\n Luego, obtiene un turno adicional."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Liderar el Gallinero (Pasiva)",
+          "levels": [],
+          "description": "Refleja el 50% del daño que recibe este campeón al atacante. Si el atacante es un Jefe, refleja el 100% del daño que recibe este campeón y también le cura el 50% del daño que recibe. También cura a este campeón el 50% del daño recibido."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 22140,
+        "speed": 101,
+        "attack": 881,
+        "defense": 1498,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Chillido Fulminante (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "4xDEF primer golpe, 3xDEF segundo golpe",
+          "description": "Ataca a 1 enemigo. Ataca 1 veces más a los enemigos que tienen un debufo de [Reducir DEF]"
+        },
+        {
+          "name": "Cielo Partido (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "red-def-2"
+          ],
+          "multiplier": "4.2xDEF",
+          "description": "Ataca a todos los enemigos. Antes de atacar, aplica un debufo de 60% de [Reducir Defensa] durante 2 turnos. Este debufo no se puede resistir.\n\n Hace un 10% más de daño por cada enemigo que tiene un debufo de [Reducir Defensa]. \n\nTambién roba el 20% de la Barra de Turno de cada enemigo."
+        },
+        {
+          "name": "Tortura Sónica (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 4,
+          "description": "Ataca a todos los enemigos.\n\n Ignorará el 20% de la DEF de cada enemigo que no tenga bufos. También ignora bufos de [Bloquear Daño].\n\n Hace un 15% más de daño por cada bufo que tiene cada objetivo. Reduce 2 turnos la duración de todos los bufos enemigos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Experimento Impío (Pasiva)",
+          "levels": [],
+          "description": "Inmune a debufos de [Aturdir], [Dormir], [Miedo], [Miedo de verdad], [Incitar], [Congelar] y [Petrificación]. \n\nTambién resetea el tiempo de reutilización de una habilidad aleatoria cuando mate a un enemigo. Ocurre una vez por habilidad."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/galleus-bloodcrest.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "elva-autumnborn",
+  "name": "Elva Autumnborn",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Gran campeón de apoyo con revivir, curaciones y limpieza así como velo. Top en Quimera e Hydra",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "curacion-milagrosa",
+    "nutrir"
+  ],
+  "relics": [
+    "crisalida_de_renacer",
+    "politopo_infernal",
+    "elixir_dorado",
+    "efigie_demoniaca",
+    "arpa_de_kasbiel",
+    "infernosfera",
+    "dedo_real",
+    "codice_luminis",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "proteccion",
+    "inmortal"
+  ],
+  "uses": "Muy buena en casi todo: Quimera, Hydra, Facciones, Mazmorras, PvP...",
+  "stats": {
+    "hp": 19650,
+    "speed": 110,
+    "attack": 936,
+    "defense": 1332,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Cetro de Prosperidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "4.8xATK",
+      "description": "Aplica un bufo de [Curación continua] del 15% durante 2 turnos en el aliado con el HP más bajo",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Camino de la Naturaleza",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Tiene un 75 % de posibilidades de eliminar todos los debufos de todos los aliados.\n\n Aplica un bufo de [Bloquear Debufos] y un bufo del 30% [Aumentar VEL] todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Temporada de Germinación",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "2.4xATK",
+      "description": "Revive a un aliado objetivo con un 40 % de HP y la barra de turno del 50 %, luego aplica un bufo de [Aumentar DEF] del 60 % y un bufo de [Aumentar ATK] del 50 % en ese aliado durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sudario de Hoja (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Cura a cada aliado en un 10% de su MAX HP al comienzo de su turno.\n\n Aplica un bufo de [Velo perfecto] durante 1 turno en el aliado con el HP más bajo y al final del turno de este Campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en 19% en todas las batallas."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/elva-autumnborn.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

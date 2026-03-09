@@ -1,0 +1,152 @@
+{
+  "slug": "lady-kimi",
+  "name": "Lady Kimi",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Campeón iniciador / segundo iniciador con buena manipulacion de barra de turno y debufos",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=0r94iJfE6eM",
+  "blessings": [
+    "presencia-amenazante",
+    "cadenas-temporales"
+  ],
+  "relics": [
+    "cronocubo",
+    "eternizalmas",
+    "varita_de_sumision",
+    "sombra_encaramada",
+    "impasse_temporal",
+    "orquidea_mortilunar",
+    "diario_de_necrotos",
+    "estrellas_jinang",
+    "tiempo_de_sangre"
+  ],
+  "gear": [
+    "impulso",
+    "velocidad",
+    "velocidad-divina",
+    "exactitud"
+  ],
+  "uses": "Arenas, Asesdios, Facciones. En Hydra puede funcionar en alguna setup. Más enfocada al PvP",
+  "stats": {
+    "hp": 20475,
+    "speed": 115,
+    "attack": 1068,
+    "defense": 1145,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Toque de la Dama (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "2.4xATK",
+      "description": "Ataca a 1 enemigo, luego ataca al enemigo con el medidor de Turno más alto. Atacará al mismo enemigo dos veces si el objetivo inicial también tiene el medidor de turno más alto. El segundo golpe tiene un 50% de probabilidad de reducir la barra de turno del objetivo en un 15%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ráfaga de pétalos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 50% [Reducir PUNT] y un debufo del 30% [Reducir VEL] durante 2 turnos. También tiene un 75% de probabilidad de Reducir el medidor de turno de cada objetivo en un 15%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Flujo Espiritual",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Elimina un bufo aleatorio de cada enemigo, luego tiene un 75% de probabilidad de aplicar un debufo [Bloquear Bufos] durante 2 turnos en enemigos a los que se les han eliminado los buffos. También llena los medidores de turno de todos los aliados en un 15% y aplica un bufo de 50% [Aumentar PUNT] y un 30% [Aumentar VEL] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Imperioso (Pasiva)",
+      "levels": [],
+      "description": "Siempre que este Campeón aplica un debufo en un enemigo, también disminuye el Medidor de Turno de ese enemigo en un 5% por cada desventaja colocada. Cada vez que este Campeón o un aliado recibe un debufo, llena su Medidor de Turno en un 5% por cada desventaja recibida.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en la Torre del Destino en un 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lady-kimi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

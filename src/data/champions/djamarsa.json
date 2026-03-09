@@ -1,0 +1,134 @@
+{
+  "slug": "djamarsa",
+  "name": "Djamarsa",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Revividor y apoyo poderoso para early-mid y facciones",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "rompe-cadenas"
+  ],
+  "relics": [
+    "crisalida_de_renacer",
+    "arpa_de_kasbiel",
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 19320,
+    "speed": 105,
+    "attack": 936,
+    "defense": 1079,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Dedo de la Noche (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aplicar un debufo de [Dormir] durante 1 turno. \n\nSi Crohnam está en el mismo equipo, y el debufo de [Dormir] fue resistido o bloqueado, aplica un debufo del 30% [Reducir VEL] en su lugar durante 2 turnos. Este debufo no se puede bloquear..",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Luna Radiante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Cura a un aliado objetivo en un 30 % de su HP MÁXIMO y llena su barra de turno en un 30 %. \n\nSi esta habilidad se usa en Crohnam , activará instantáneamente su habilidad Berserker’s Delight.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marcha a Luz de Luna ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "Revive a todos los aliados muertos con 30% HP y un 30% de la barra de turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cambio de Fase (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 2,
+      "description": "Cada vez que un aliado usa una habilidad activa, tiene un 20 % de probabilidad de reducir el tiempo de reutilización de esa habilidad en 1 turno",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 20 %."
+    }
+  ],
+  "lore": "Son muchos los videntes que viven entre los clanes nómadas del desierto de Krokhan. Desde los proféticos Caminantes espirituales hasta los temibles Chamanes tocados por el cielo, hay todo tipo de sectas, cultos y sistemas de creencias que florecen en el calor abrasador del desierto. Algunos están más en sintonía con las gélidas horas de oscuridad. Ninguno de estos creyentes es tan poderoso y misterioso como Djamarsa, Hija de la Luna, Sirviente del Ojo que todo lo ve.\n\n De niña, Djamarsa se separó de su clan durante la migración estacional y casi muere. Perdida entre las arenas movedizas, vagó hasta que cayó la noche y la luna se elevó sobre el desierto, llena y brillante. Desesperada, rezó al orbe plateado, viendo su brillo plateado como un símbolo de la divinidad de Lumaya. Tal vez haya algo de verdad en eso, porque Djamarsa recibió ayuda. Fue encontrada y rescatada por una anciana, una vidente de la noche, que la acogió y comenzó a enseñarle.\n\n Djamarsa progresó rápidamente y dominó las artes de la profecía aprovechando las horas de oscuridad y luz de la luna. Cuando previó la muerte de su maestra, la vidente mayor anunció que el aprendizaje de su estudiante estaba completo. Le entregó sus dos reliquias más preciadas: el Ojo que todo lo ve y el Fragmento de luz de luna, y le dijo que este último era un trozo de luna que ella misma había visto sumergirse en el corazón del desierto.\n\n A partir de entonces, Djamarsa ejerció una difícil profesión como chamán oracular entre los clanes. La magia lunar y el culto nocturno son poco comunes entre los Krokhan, y pronto adquirió una reputación de presagio de fatalidad. Mientras algunos estaban ansiosos por escuchar su sabiduría, otros la veían como una sirvienta del mal y buscaban poner fin a sus profecías para siempre.\n\n Djamarsa había previsto sus acciones y esperaba a sus atacantes. Mientras la rodeaban y desenvainaban sus espadas, se escuchó un grito desde cerca. Sin que ellos lo supieran, Djamarsa los había llevado cerca del campamento de Crohnam, el jefe de un clan local. Este tropezó con la posible escena del crimen y exigió que liberaran a Djamarsa, insistiendo en que nadie era asesinado en su territorio sin su permiso. Cuando sus agresores se negaron y lo atacaron, él desenvainó sus espadas en llamas y los mató.\n\n Ella le dio las gracias a Crohnam y le contó muchas cosas, tanto del pasado como del futuro. Crohnam, aunque era un señor de la guerra marcado y brutal, quedó impresionado por Djamarsa y le preguntó si podía quedarse y actuar como su oráculo y consejera. Ella aceptó, porque ya había previsto su petición.\n\n Desde entonces, Djamarsa rara vez se ha separado de Crohnam. Además de darle profecías y sabios consejos, es una poderosa aliada en la batalla. Puede curar con el poder de los rayos de la luna y adormecer a los enemigos con la magia de la noche. Aun así, todas sus habilidades oscuras pueden no ser suficientes para ayudar a Crohnam a llegar al amargo final.\n\n Djamarsa ha previsto el futuro de Crohnam, un hecho del que el señor de la guerra del clan es consciente, aunque nunca le ha preguntado a Djamarsa al respecto: sabe que ella no se lo diría, ya que hacerlo correría el riesgo de alterar el delicado equilibrio del destino, y su respeto por ella es demasiado grande como para preguntarle algo así. Esto está bien, porque Djamarsa ha previsto la muerte de Crohnam en batalla, un sacrificio hecho para salvar a su pueblo. Esa visión la duele más que cualquier otra que haya conocido, pero aún así mantiene una esperanza persistente de que de alguna manera pueda evitarse, incluso si otros deben pagar el precio.",
+  "forms": null,
+  "image": "/src/assets/champions/djamarsa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

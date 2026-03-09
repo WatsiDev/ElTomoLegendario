@@ -1,0 +1,122 @@
+{
+  "slug": "lord-shazar",
+  "name": "Lord Shazar",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Nuker que aplica bombas y tiene un aura poderosa",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-amenazante",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "vara_de_esporas",
+    "varita_de_sumision"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Arenas, aunque no es meta",
+  "stats": {
+    "hp": 15690,
+    "speed": 101,
+    "attack": 1343,
+    "defense": 1189,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Condenación (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "1.3xATK",
+      "description": "Ataca a 1 enemigo 3 veces. El daño aumenta un 15% por cada debufo en el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia eterna ",
+      "levels": [
+        {
+          "level_desc": "Nivel2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Aumentar ATK] en este Campeón durante 2 turnos. Este buff no se puede eliminar. Aplica un bufo [Bloquear debufos] en este campeón durante 2 turnos. Otorga un turno extra.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Destino cruel (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bomba"
+        }
+      ],
+      "multiplier": "3.2xATK (Daño de la bomba 4.2xATK)",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de coaplicarlocar 2 debufos [Bomba] que detonan en 2 turnos. Reduce la cuenta atrás de la detonación en 1 turno si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliado en la arena en un 32%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lord-shazar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "nekmo-thaar",
+  "name": "Nekmo Thaar",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Gran campeón con debufos en área y aumento de barra de turno",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "crueldad"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "dedo_real",
+    "arpa_de_kasbiel"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "punteria",
+    "incitar",
+    "maldito",
+    "reflejo",
+    "incansable",
+    "impulso"
+  ],
+  "uses": "Muy buen iniciador de Hydra y Quimera con buenos debufos en área.",
+  "stats": {
+    "hp": 17340,
+    "speed": 104,
+    "attack": 1233,
+    "defense": 1189,
+    "accuracy": 30,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ácido Come Acero (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 40 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos. La probabilidad aumenta al 75 % contra objetivos que tengan algún debufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cadenas Planares (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "3.1xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un debufo de 30 % [Reducir VEL] y uno de [Chupar Vida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aceleración Absurda",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Aumento de VEL] del 30% en todos los aliados durante 2 turnos y llena sus barra de turno en un 30%, y luego este campeón obtiene un turno extra.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Runa de Celeridad (Pasiva)",
+      "levels": [],
+      "description": "Llena la barra de turno de este campeón en un 5 % cada vez que se elimina, transfiere o expira un debufo de un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en un 19 %."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/nekmo-thaar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

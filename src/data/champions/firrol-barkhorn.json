@@ -1,0 +1,135 @@
+{
+  "slug": "firrol-barkhorn",
+  "name": "Firrol Barkhorn",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Buen debufer, capaz de aumentar muchisimo el daño de los aliados",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": null,
+  "gear": [
+    "proteccion",
+    "supersonico",
+    "percepcion"
+  ],
+  "uses": "Facciones y principalmente se lo ve en Hydra, por su pasiva potenciando el daño de aliados",
+  "stats": {
+    "hp": 18330,
+    "speed": 100,
+    "attack": 859,
+    "defense": 1498,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Tronco Entorpecedor (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 80% de posibilidades de aplicar un debufo del 30% [Reducir VEL] durante 2 turnos. Si el objetivo es un Jefe, ignorará el 20% del RES del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Crecimiento Boreal (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un debufo del 50 % [Reducir PUNT] y un debufo de [Bloquear bufos] durante 2 turnos. Si el objetivo es un Jefe, ignorará el 20% del RES del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Capa de Aurora",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-res-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Aplica un bufo del 50% [Aumentar RES] en todos los aliados durante 3 turnos. También aplica un bufo [Velo Perfecto] a todos los aliados excepto a este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espíritu del Norte (Pasiva)",
+      "levels": [],
+      "description": "Si un aliado tiene al menos 2 bufos, aumenta su RES en +50. Si un aliado tiene al menos 3 bufos, también aumenta su PUNT en +50. Si un aliado tiene al menos 4 bufos, aumenta un 20% el daño que hace",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": "Según la leyenda, en la cima de la corona del mundo, en las Tierras de Invierno, se alza un solo árbol. Las historias afirman que se trata de un abeto inmenso, más alto que casi cualquier torre. Se desconoce cómo llegó allí, en la tundra helada, lejos de los bosques siempre verdes de las regiones del sur. Muchos creen que fue plantado por el propio Sir Nicholas, aunque el motivo es un misterio. Lo que sí se sabe es que el árbol tiene un defensor... un centinela solitario que vigila las Tierras de Invierno. Esa es la historia de Firrol el Cuerno de la Corteza.\n\n El origen de Firrol en las Tierras de Invierno es tan misterioso como el origen del gran árbol con el que está relacionado. La teoría más común es que nació allí, a partir de un retoño de abeto que Sir Nicholas tomó del Bosque de la Niebla para que pudiera ayudar en las tareas del Portador de Luz. Algunos afirman que Firrol llegó a esas tierras prohibidas desde el Bosque de la Niebla por voluntad propia, siguiendo el ritmo único del gran árbol plantado por Sir Nicholas. Independientemente de las razones, se ha propuesto convertirse en el guardián no solo del árbol, sino de las propias Tierras de Invierno.\n\n El árbol que se dice que Firrol protege está supuestamente iluminado por mil velas que nunca se apagan, por mucho que aúlle el viento. Se dice que sus raíces llegan hasta las Aguas de la Vida, aunque si esto es cierto o no, sólo Sir Nicholas, o tal vez el Árbitro, lo sabe. Algunos creen que Sir Nicholas lo plantó para que actuara como una luz en un lugar de oscuridad total. Otros insisten en que el Portador de Luz plantó el árbol por consejo de los Vigilantes Silvanos del Bosque de la Niebla, que, de alguna manera, actúa para fortalecer el Ritmo que los guía.\n\n Tal vez por eso vino Firrol, aunque nadie puede decirlo con seguridad, ya que no es el ser más hablador de todos. De hecho, pocos lo han visto de cerca; a menudo es poco más que una sombra vislumbrada entre las furiosas nieves. Hay muchas historias sobre los vagabundeos de Firrol por las Tierras de Invierno, y aunque en muchas de ellas es una figura heroica que presta ayuda a los exploradores o rescata a viajeros perdidos, en otras es una fuerza más aterradora, un espíritu de pesadilla del invierno y la madera. Es la oscuridad al borde del fuego y el aullido del viento ártico. Sea cual sea la historia, cuando se lo ve, su apariencia es la misma: una figura imponente cubierta de ramas perennes y corteza gruesa, coronada por un inmenso par de astas, con una gran cantidad de campanillas colgando de su forma arbórea. Estas últimas anuncian su llegada, y su estruendo se puede escuchar a leguas de distancia en todas las direcciones.\n\n No está claro si cumple con sus deberes con la aprobación o las instrucciones de Sir Nicholas, pero en más de una ocasión se ha visto a Firrol en compañía de las legendarias Reinbeasts, que se dice que sirven al antiguo Portador de Luz. En la batalla, Firrol es un coloso, que recorre el campo a grandes zancadas y aplasta a los enemigos con grandes barridos de manos con garras; pocos enemigos pueden resistirse a su inmensa fuerza. Además de eso, cuando el viento pasa sobre sus hojas, corteza y campanas, crea una cacofonía aterradora y desorientadora que sus enemigos escuchan, pero que él filtra a través del Ritmo para que sus aliados la conviertan en una sinfonía conmovedora que refuerza su determinación y coraje. Firrol tiene muchas grandes batallas en su haber; en el olvidado asentamiento Norr de Rimestone, su llegada repentina aseguró la supervivencia de una banda de cazadores de tesoros humanos y enanos acosados ​​por una manada de salvajes perros de escarcha y su amo Demonspawn. Más al sur, mató al legendario oso de hielo, Kazrakag, cuando la maligna criatura había elegido un campamento de pastores de renos de Norr como presa. Pero quizás su mayor hazaña sea su interminable batalla contra el antiguo engendro demoníaco conocido como Perkas Childeater. Se dice que Perkas ronda las Tierras de Invierno del sur, atacando a los niños de los pocos habitantes restantes de Norr o intentando destruir el gran árbol que se alza en el norte. Nadie sabe si la abominación hace estas cosas por malicia o porque Siroth se lo ordena. Es una criatura feroz, con cuernos y pezuñas, garras de hierro, envueltas en cadenas que humean eternamente con el calor de Anathraad. Algunos creen que Siroth lo liberó para atormentar a Sir Nicholas, trayendo aflicción y desesperación allí donde el Portador de Luz se esfuerza por traer esperanza.\n\n Firrol ha luchado contra Perkas muchas veces a lo largo de los siglos. Ha derrotado a los Demonspawn más de una vez, pero Perkas siempre regresa. Su conflicto se ha extendido de un extremo a otro de las Tierras de Invierno, sin un final claro a la vista. Sin embargo, mientras Firrol se mantenga en pie, también lo hará el gran árbol. Eso dicen los cuentos.",
+  "forms": null,
+  "image": "/src/assets/champions/firrol-barkhorn.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

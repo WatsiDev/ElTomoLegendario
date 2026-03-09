@@ -1,0 +1,134 @@
+{
+  "slug": "belanor",
+  "name": "Belanor",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Nuker / Debufer que combina bien con Zavia",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "salvaje",
+    "percepcion",
+    "bestial",
+    "punteria",
+    "letal"
+  ],
+  "uses": "Más de los que parece. Bueno en Hydra, jefe de clan y cualquier oleada/jefe, Principalmente PvE",
+  "stats": {
+    "hp": 15195,
+    "speed": 105,
+    "attack": 1520,
+    "defense": 1046,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Líder de la Espada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Daño +5%"
+        },
+        {
+          "level_desc": "Niv. 3 Daño +5%"
+        },
+        {
+          "level_desc": "Niv. 4 Daño +10%"
+        },
+        {
+          "level_desc": "Niv. 5 Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de 30% [Aumentar P.Crit] a todos los aliados durante 1 turno si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Insuperable (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de 60% [Reducir DEF] y un 25% [Debilitar] debufo durante 2 turnos. Estos debufos no se pueden resistir cuando Zavia está en el mismo equipo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arrasar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6.8xATK",
+      "description": "Ataca a 1 enemigo. Atacará al enemigo con menos HP con cualquier daño sobrante si este ataque mata al enemigo. El daño sobrante adicional no puede ser crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pareja Táctica (ATK)",
+      "levels": [],
+      "cooldown": 4,
+      "multiplier": "6.8xATK",
+      "description": "Activa la habilidad de Arrasar de este campeón. También activa la Habilidad Lluvia de Veneno de Zavia si Zavia está en el mismo grupo.\n\n [Solo disponible si Zavia está en el mismo grupo]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de aliados en todas las batallas en 24%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/belanor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "thea-angel-de-tumba",
+  "name": "Thea, Ángel de Tumba",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Nuker que aplica maleficios",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=DDQEPvCs3bo",
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Bastante inútil, no se usa",
+  "stats": {
+    "hp": 16020,
+    "speed": 100,
+    "attack": 1542,
+    "defense": 969,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Sacrilegio (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca 2 veces al azar. Tiene un 75% de probabilidad de aplicar un debufo [Maleficio] durante 5 turnos. Este debufo no se puede resistir. Cada golpe crítico reduce el tiempo de reutilización de la habilidad [De otro mundo] en 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Segar Maleficios (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "3.5xATK",
+      "description": "Ataca a todos los enemigos. El daño aumenta en un 50% por cada debufo [Maleficio] en el equipo enemigo. Se acumula hasta un 300%. Elimina todos los debufos de [Maleficio] de todos los enemigos después de atacar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "De otro Mundo (ATK)",
+      "levels": [],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Aplica un bufo de [Velo perfecto] en este campeón durante 3 turnos. Otorga un turno extra.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Angel Cruel (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "description": "Tiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] en todos los enemigos durante 1 turno cuando un enemigo pierde el 30% o más de su MAX HP en un solo golpe.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/thea-angel-de-tumba.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

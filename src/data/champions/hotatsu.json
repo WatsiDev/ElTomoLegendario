@@ -1,0 +1,150 @@
+{
+  "slug": "hotatsu",
+  "name": "Hotatsu",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Tanque con bufos y debufos útiles",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "defensa-impecable",
+    "sobrevivir"
+  ],
+  "relics": [
+    "elixir_dorado"
+  ],
+  "gear": [
+    "resiliencia",
+    "inmortal",
+    "ferreo",
+    "velocidad",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Facciones, y progreso en general de mazmorras",
+  "stats": {
+    "hp": 17505,
+    "speed": 96,
+    "attack": 760,
+    "defense": 1376,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Río Rojo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5 % "
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 9: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "3.2xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 40 % de probabilidad de colocar un debufo de [Chupar Vida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Muerte Precipitada (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Icono Oni",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo del 60 % [Aumentar DEF] en todos los aliados durante 2 turnos y un bufo del 15 % [Curación continua] en todos los aliados durante 1 turno",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tocado por Espíritus (Pasiva)",
+      "levels": [],
+      "description": "Elimina 1 debufo aleatorio de este Campeón al comienzo de cada turno. Eliminará las desventajas [Aturdir], [Sueño], [Congelar], [Miedo], [Miedo verdadero], [Petrificación] y [Provocar] antes que otros debufos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/hotatsu.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "galapo-el-recluso",
+  "name": "Galapo el Recluso",
+  "faction": "Hombres Lagarto",
+  "rarity": "Épico",
+  "role": "Apoyo, revividor de la facción. Bastante decente y duro",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": [
+    "efigie_demoniaca"
+  ],
+  "gear": [
+    "renacer",
+    "inmortal",
+    "regeneracion",
+    "guardian"
+  ],
+  "uses": "Facciones principalmente si no tenemos otro revividor. Decente en early como revividor / campeón de apoyo",
+  "stats": {
+    "hp": 17340,
+    "speed": 98,
+    "attack": 881,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Adaptarse a los Tiempo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Cura a este campeón el 5% de su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sabio Recluso",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-res-1"
+        }
+      ],
+      "description": "Cura a todos los alaidos el 15% de MAX HP de este campeón y llena un 15% las barras de turno de todos los aliados.\n\n También aplica un bufo de 25% de [Aumentar RES] a todos los aliados.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tienes mucho que aprender",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "reflejar-dano-2"
+        }
+      ],
+      "description": "Revive a un aliado con el 75% de HP y el 50% de Barra de turno.\n\n Aplica un bufo de [Inmortal] y un bufo de 30% de [Reflejar Daño] a dicho aliado durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Testigo de Imperios Caídos (Pasiva)",
+      "levels": [],
+      "description": "Cura a este campeón el 25% de su MAX HP siempre que muere un aliado. Al morir, cura a todos los aliados el 50% de MAX HP de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en Criptas de Facción en 45."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/galapo-el-recluso.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "luria",
+  "name": "Luria",
+  "faction": "Elfos Oscuros",
+  "rarity": "Épico",
+  "role": "Nuker con multitud de debufos y un congelar en área y bloquear revivir",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "campana_fundida",
+    "apagador_de_esencia",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "cruel",
+    "salvaje",
+    "punteria"
+  ],
+  "uses": "Arenas y Golem Fácil. Buen campeón para facciones",
+  "stats": {
+    "hp": 13050,
+    "speed": 104,
+    "attack": 1487,
+    "defense": 947,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada maldita (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debuffa +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "curacion-reducida-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3.55xATK",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 50% de aplicar un debufo del 60% [Reducir DEF] O un debufo del 100% [Curación Reducida] O un debufo del 30% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marca de miedo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debuff + 15%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        },
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo [Congelar] durante 1 turno. Los enemigos muertos por esta habilidad no pueden revivir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maleficio (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debuff +10%"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "5.4xATK",
+      "description": "Ataca a 1 enemigo. Elimina todos los bufos. También tiene un 80% de posibilidades de aplicar un debufo [Bloquear bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/luria.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "konstantin-el-diurno",
+  "name": "Konstantin el Diurno",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker que combina especialmente bien con Vlad el Nocturno",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=QtD_Aj-fuKk",
+  "blessings": [
+    "segar-almas",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "despiadado",
+    "cruel"
+  ],
+  "uses": "Facciones, Arenas u oleadas. No es muy bueno y no suele merecer la pena llevarlo a él y a Vlad",
+  "stats": {
+    "hp": 14700,
+    "speed": 105,
+    "attack": 1421,
+    "defense": 1178,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada de Soles (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.6xATK (primer golpe), 3.1 ATK (segundo golpe si hay debufo)",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de 60% de [Reducir Defensa] durante 2 turnos. Este debufo no se puede resistir si Vlad el Nocturno está en el mismo equipo.\n\n Hace un golpe adicional si el objetivo está bajo algun debufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Romper runas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "2.5xATK",
+      "description": "Ataca a todos los enemigos 2 veces. Cada golpe ignora el 15% de la DEF de cada objetivo. Cada golpe ignorará un 10% adicional por cada debufo de [Chupar Vida], [Reducir DEF] y [Bloquear habilidades activas] que tenga el enemigo. Si el enemigo está bajo los 3 debufos al mismo tiempo, cada golpe ignorará un 75% de su DEF en su lugar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Quietud (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, roba todas los buffos del objetivo y luego transfiere todos las debufos de este Campeón al objetivo. Este efecto no se puede resistir si Vlad el Nocturno está en el mismo equipo. Reduce el tiempo de reutilización de la habilidad [Quietud] en 2 turnos si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Exaltado (Pasiva)",
+      "levels": [],
+      "description": "Los enemigos que mata este campeon no pueden ser revividos si son de las facciones de No Muertos, Engendros o Aparecidos [Solo disponible cuando Vlad el Nocturno está en el mismo equipo.]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": " Aumenta el ATK de los aliados en las batallas de arena en un 35%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/konstantin-el-diurno.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

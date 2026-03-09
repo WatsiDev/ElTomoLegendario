@@ -1,0 +1,139 @@
+{
+  "slug": "barbagris",
+  "name": "Barbagris",
+  "faction": "Cambiapieles",
+  "rarity": "Raro",
+  "role": "Buen controlador para ser un raro",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia"
+  ],
+  "relics": [
+    "campana_fundida"
+  ],
+  "gear": [
+    "inmortal",
+    "resiliencia",
+    "punteria",
+    "defensa",
+    "percepcion",
+    "redirigir"
+  ],
+  "uses": "Facciones e incluso torre del destino",
+  "stats": {
+    "hp": 14700,
+    "speed": 92,
+    "attack": 936,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Exponer Debilidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hielo Aplastador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "4.1xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 25% de probabilidad de aplicar un debufo de [Congelar] durante 1 turno. El daño hecho es proporcional a DEF",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sin Miedo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "Multiplicador del escudo: 4xDEF",
+      "description": "Aplica un bufo de [Escudo] a este campeón durante 2 turnos. Tiene un 80% de probabilidad de aplicar un bufo de [Contraataque] a este campeón durante 2 turnos.\n\n El valor del [Escudo] es proporcional a DEF. Este bufo no se puede eliminar.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en mazmorras en 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/barbagris.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

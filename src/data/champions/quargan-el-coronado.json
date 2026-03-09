@@ -1,0 +1,124 @@
+{
+  "slug": "quargan-el-coronado",
+  "name": "Quargan el Coronado",
+  "faction": "Hombres Lagarto",
+  "rarity": "Épico",
+  "role": "Apoyo con algo de curación y bufos útil en facciones",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir",
+    "curacion-milagrosa"
+  ],
+  "relics": [
+    "el_triturador",
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": "Apoyo para facciones",
+  "stats": {
+    "hp": 17670,
+    "speed": 103,
+    "attack": 903,
+    "defense": 1222,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ciclo de la Naturaleza (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aumentar la duración de un bufo aleatorio de un aliado aleatorio en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Crecimiento Excesivo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Cura a todos los aliados en un 15% de su HP MAX y aplica un bufo de [Escudo] igual al 15% de su HP MAX a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Afinar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Velo perfecto] y un bufo de [Aumentar ATK] del 50 % durante 2 turnos a todos los aliados cuyo ATK sea mayor que su DEF. Aplica un bufo de [Bloquear debufos] durante 1 turno y un bufo de [Aumentar DEF] del 60% durante 2 turnos y a todos los aliados cuya DEF es mayor que su ATK.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/quargan-el-coronado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

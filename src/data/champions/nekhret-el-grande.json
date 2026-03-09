@@ -1,0 +1,143 @@
+{
+  "slug": "nekhret-el-grande",
+  "name": "Nekhret el Grande",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Tanque protector de un campeón capaz de aplicar buenos escudos y hacer cargas",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "cosechar-vida",
+    "polimorfar"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "diadema_no_muerta",
+    "inferosfera",
+    "abanico_negro",
+    "dedo_real",
+    "codice_luminis"
+  ],
+  "gear": [
+    "apoyo",
+    "proteccion",
+    "incansable",
+    "escudo",
+    "relisiencia",
+    "inmortal"
+  ],
+  "uses": "Arenas y PvE en casi cualquier sitio excepto Jefes de Clan",
+  "stats": {
+    "hp": 21480,
+    "speed": 97,
+    "attack": 793,
+    "defense": 1354,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Gladius de la tumba (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "1.3xDEF",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 20% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 1 turno. Este efecto no se puede resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Legion de condenados",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Se une a los aliados para atacar a 1 enemigo. Todos los aliados bajo los bufos de [Protección de aliados] colocados por este Campeón se unirán al ataque. Los aliados que se unan al ataque usarán sus habilidades base. Otorga un turno extra si este ataque no mata al objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Infusión perturbadora",
+      "levels": [
+        {
+          "level_desc": " Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debuffos], un bufo de [Protección de aliados] del 50% y un bufo de [Fortalecer] del 25% en un aliado durante 3 turnos. El bufo [Protección de aliados] no se puede eliminar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aegis Incesante (Pasiva)",
+      "levels": [],
+      "description": "Siempre que un aliado sea atacado mientras está bajo un bufo de [ Protección de aliados] aplicado por este Campeón, aplica un bufo de [Escudo] en el aliado igual al 30% de los PS MÁXIMOS de este Campeón durante 2 turnos. Ocurre solo si el aliado aún no tiene un bufo de [Escudo] aplicado por este Campeón. También reduce el tiempo de reutilización de la habilidad Legion de los Caidos de este campeón en 2 turnos si se aplica el bufo [Escudo].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Levantaos Esbirros (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear debufos] y un bufo de [Fortalecer] del 25% durante 3 turnos en el aliado con los PS MÁXIMOS más bajos al comienzo de cada Ronda. También les aplica un bufo del 50% de [Protección de aliados] durante 6 turnos. El bufo de [Protección de aliados] no se puede eliminar.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESISTENCIA de los aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/nekhret-el-grande.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

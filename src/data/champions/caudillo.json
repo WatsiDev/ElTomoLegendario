@@ -1,0 +1,118 @@
+{
+  "slug": "caudillo",
+  "name": "Caudillo",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Excelente controlador de arenas y oleadas",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=m9eCbiR7NxI",
+  "blessings": [
+    "polimorfar",
+    "cosechar-vida"
+  ],
+  "relics": [
+    "el_triturador",
+    "politopo_infernal",
+    "cronocubo",
+    "estrellas_jinang",
+    "mente_de_marquat"
+  ],
+  "gear": [
+    "punteria",
+    "percepcion",
+    "supersonico",
+    "velocidad",
+    "velocidad-divina",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Poderoso controlador para arenas, Astranyx y oleadas en general",
+  "stats": {
+    "hp": 22305,
+    "speed": 100,
+    "attack": 914,
+    "defense": 1178,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Apalear (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de aumentar la duración de todos los debuffs en el objetivo en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Protección de los dioses",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Tiempo de Reutilización -1."
+        }
+      ],
+      "cooldown": 4,
+      "description": "Aplica un bufode [Bloquear debuffs] en todos los aliados durante 1 turno. Aplica un buff de [Escudo] igual al 30% del HP MÁXIMO de este Campeón en todos los aliados durante 2 turnos. Restaura el HP de todos los aliados en un 25%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rituales Orcos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Niv. 3 Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Niv. 4 Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Niv. 5 Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Niv. 6 Tiempo de Reutilización -1."
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "5.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 70% de posibilidades de poner las habilidades de cada objetivo en tiempo de reutilización. Tiene un 30% de posibilidades de agotar completamente el barra de turno de cada objetivo. Daño basado en ATK",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 80"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/caudillo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

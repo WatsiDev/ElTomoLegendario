@@ -1,0 +1,130 @@
+{
+  "slug": "robar",
+  "name": "Robar",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Nuker off meta con control y buenos escalados de daño.",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "despiadado",
+    "punteria",
+    "ataque",
+    "cruel",
+    "instinto"
+  ],
+  "uses": "Control de oleadas de 1 solo objetivo, no se usa.",
+  "stats": {
+    "hp": 18990,
+    "speed": 97,
+    "attack": 1619,
+    "defense": 694,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Fuerza aturdidora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Daño +5%"
+        },
+        {
+          "level_desc": "Niv. 3 Daño +5%"
+        },
+        {
+          "level_desc": "Niv. 4 Daño +5%"
+        },
+        {
+          "level_desc": "Niv. 5 Daño +10%"
+        }
+      ],
+      "multiplier": "3.4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de aplicar un debufo [Aturdir] durante 1 turno. Otorga un turno adicional si este debufo se aplicacon éxito.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estocada Salvaje (ATK)",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Daño +5%."
+        },
+        {
+          "level_desc": "Niv. 3 Daño +10%."
+        },
+        {
+          "level_desc": "Niv. 4 Probabilidad de bufo / debufo +10%."
+        },
+        {
+          "level_desc": "Niv. 5 Probabilidad de bufo / debufo + 15%."
+        },
+        {
+          "level_desc": "Niv. 6 Tiempo de Reutilización -1."
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Ataca a todos los enemigos. Cada golpe tiene una probabilidad del 75% de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asalto despiadado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Daño +5%"
+        },
+        {
+          "level_desc": "Niv. 3 Daño +10%"
+        },
+        {
+          "level_desc": "Niv. 4 Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4.2xATK",
+      "description": "Ataca a todos los enemigos. El daño aumenta si el objetivo está bajo debuffs [Dormir] , [Aturdir] o [Congelar]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de todos los aliados en criptas de facción en 50."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/robar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

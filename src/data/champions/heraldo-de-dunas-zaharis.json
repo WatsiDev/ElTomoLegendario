@@ -1,0 +1,141 @@
+{
+  "slug": "heraldo-de-dunas-zaharis",
+  "name": "Heraldo de Dunas Zaharis",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Bufer y Debufer enfocado a proteger y molestar a 1 único objetivo",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=NEZEm68vgsQ",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "impasse_temporal",
+    "elixir_dorado",
+    "diario_de_necrotos"
+  ],
+  "gear": [],
+  "uses": "Apoyo en early-mid. No molesta pero tampoco es top",
+  "stats": {
+    "hp": 21480,
+    "speed": 108,
+    "attack": 1035,
+    "defense": 1112,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe de Halcón (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de robar el 15% de barra de turno del objetivo. También tiene un 75% de probabilidad de aplicar un efecto de [Contagiar Debufos] que contagia 2 debufos aleatorios del objetivo a todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "El Heraldo habla (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, tiene un 75% de probabilidad de robar todos los bufos del objetivo. Luego aplica un efecto de [Contagiar Bufos], que aplica todos los bufos de este campeón a todos los aliados.\n\n Aplica un debufo de [Bloquear Bufo] y un debufo de [Bloquear Habilidades Activas] al objetivo durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Voz Resonante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "interceptar"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica 1 acumulación de [Interceptar] al aliado objetivo.\n\n También aplica un bufo de [Bloquear Debufos] y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alas de Victoria (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Al comienzo de cada ronda, aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 3 turnos. Siempre que se elimina, vence a se reduce la duración de un debufo de un enemigo, llen un 5% de Barra de Turno de este campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 20%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/heraldo-de-dunas-zaharis.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

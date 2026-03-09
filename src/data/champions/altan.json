@@ -1,0 +1,111 @@
+{
+  "slug": "altan",
+  "name": "Altan",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Nuker de defensa",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=57aJwSG0l-c",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "rocadragon_dorada"
+  ],
+  "gear": [],
+  "uses": "Casi ninguno. Demasiado anticuado",
+  "stats": {
+    "hp": 20145,
+    "speed": 102,
+    "attack": 837,
+    "defense": 1398,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Golpe abrasador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2 Daño +5%."
+        },
+        {
+          "level_desc": "Nivel 3 Daño +5%."
+        },
+        {
+          "level_desc": "Nivel 4 Probabilidad de bufo / debufo +5%."
+        },
+        {
+          "level_desc": "Nivel 5 Probabilidad de bufo / debufo 10%."
+        },
+        {
+          "level_desc": "Nivel 6 Daño +10%."
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 25% de aplicar una debufo del 50% [Reducir ATK] durante 2 turnos. Daño basado en DEF.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Muro de llamas (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2 Daño +5%."
+        },
+        {
+          "level_desc": "Nivel 3 Daño +5%."
+        },
+        {
+          "level_desc": "Nivel 4 Daño +10%."
+        },
+        {
+          "level_desc": "Nivel 5 Tiempo de Reutilización -1."
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "5.6xDEF",
+      "description": "Ataques 1 enemigo. Aplica un bufo de 60% [Aumentar DEF] en todos los aliados durante 2 turnos. Aplica una debufo [Escudo] en todos los aliados durante 2 turnos igual al 20% de su HP MÁX si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reanimación Fiera (Pasiva)",
+      "levels": [],
+      "description": "Revive un aliado aleatorio con 30% de HP cada vez que este Campeón mata a un enemigo. Restablece los tiempos de reutilización de las habilidades de este campeón si este campeón mata a un enemigo y todos los aliados están vivos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la defensa de aliados en todas las batallas en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/altan.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

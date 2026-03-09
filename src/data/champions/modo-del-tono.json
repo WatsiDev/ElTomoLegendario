@@ -1,0 +1,141 @@
+{
+  "slug": "modo-del-tono",
+  "name": "Modo del Tono",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Nuker con buen daño y control especialista en arenas",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=9w1EY7pZIqE",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "campana_fundida",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "cruel",
+    "letal",
+    "despiadado",
+    "matador",
+    "dano-critico",
+    "rompepiedra",
+    "golpe-mortal"
+  ],
+  "uses": "Arena y limpieza de oleadas principalmente. Funciona mejor con Esme la Bailarina",
+  "stats": {
+    "hp": 15360,
+    "speed": 99,
+    "attack": 1498,
+    "defense": 1057,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cascador de Cráneos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 50% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompe Tímpanos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Ataca 1 vez más a los enemigos que tienen un debufo de [Aturdir]. Si Esme la Bailarina está en el mismo grupo, siempre ataca 1 vez más e ignora un 20% de DEF.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tañido de Rotura",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Ignora bufos de [Escudo]. Hace un 75% más de daño al atacar a enemigos que tienen un bufo de [Piel de Piedra]. \n\nSi este ataque elimina uno o más bufos de [Piel de Piedra], obtén un turno adicional.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Querido Compañero (Pasiva) ",
+      "levels": [],
+      "description": "Siempre que este campeón mata a un enemigo, aplica un debufo de [Aturdir] durante 2 turnos al enemigo con más Barra de Turno. Ocurre una vez por habilidad.\n\n Si Esme la Bailarina está en el mismo grupo, las habilidades de este campeón ignoran el 50% de la RES. Además, si Esme la Bailarina está en el mismo grupo, aplica una acumulación de [Interceptar] a este campeón al comienzo de su turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/modo-del-tono.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

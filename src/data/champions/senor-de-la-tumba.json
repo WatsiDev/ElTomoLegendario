@@ -1,0 +1,134 @@
+{
+  "slug": "senor-de-la-tumba",
+  "name": "Señor de la Tumba",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Gran campeón para progresión con muchos debufos.",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "impasse_temporal",
+    "infernosfera",
+    "aberracion_antigua",
+    "dedo_real"
+  ],
+  "gear": [
+    "punteria",
+    "percepcion",
+    "ferreo",
+    "incondicional"
+  ],
+  "uses": "Dragon principalmente, pero también Caballero de Fuego, oleadas, Golem normal y facciones. Bastante versátil",
+  "stats": {
+    "hp": 18165,
+    "speed": 99,
+    "attack": 1387,
+    "defense": 980,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpes lisiadores (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.1xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Aplica un debufo de 30% [Reducir VEL] en el objetivo durante 2 turnos si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estallido de muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Si el golpe es crítico, tiene un 70% de posibilidades de aplicar cuatro debufos [Veneno] del 5% en todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Infortunio",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "description": "Reduce un 100% la barra de turno de todos los enemigos con menos del 50% de HP. Tiene un 80% de probabilidad de aplicar un debufo del 50% [Reducir ATK] en todos los enemigos durante 2 turnos. También tiene un 80% de posibilidades de aplicar un debufo del 60% [Reducir DEF] en todos los enemigos durante 2 turnos. Obtiene un turno adicional si reduce completamente la barra de turno de un enemigo con esta habilidad.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en la Torre del Destino en 70"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/senor-de-la-tumba.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

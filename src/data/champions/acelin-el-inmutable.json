@@ -1,0 +1,145 @@
+{
+  "slug": "acelin-el-inmutable",
+  "name": "Acelin el Inmutable",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Unidad de facción, con potentes escudos y curas",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-amenazante",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "campana_fundida",
+    "corazon_volcardiaco",
+    "diadema_no_muerta",
+    "abanico_negro",
+    "agarre_de_valkanen"
+  ],
+  "gear": [
+    "resiliencia",
+    "percepcion",
+    "guardian",
+    "proteccion"
+  ],
+  "uses": "Útil para casi todo, sobretodo con otros Hidalgos",
+  "stats": {
+    "hp": 18825,
+    "speed": 106,
+    "attack": 760,
+    "defense": 1564,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Martillo de Kaerok (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno. Ignorará el 25% de la RES del objetivo si este Campeón tiene un bufo de [Escudo] .",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aplastar con Escudo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Cura a todos los aliados por el valor total de todos los [Escudos] de todos los aliados. Luego elimina todos los [Escudos] de todos los aliados y ataca a todos los enemigos. El daño causado por este ataque es igual al valor total de los [Escudos] eliminados (el daño no puede exceder el 1000% de la DEF de este Campeón).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Contemplar el Estandarte",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] equivalente al 30% del MAX HP de este Campeón a todos los aliados durante 2 turnos, y un bufo de [Protección de aliados] del 50% en todos los aliados excepto este Campeón durante 2 turnos.",
+      "factionUnity": "Unidad de Hidalgos",
+      "unityEffects": {
+        "1-ally": "Activa inmediatamente esta habilidad siempre que se revive a un aliado. No la pone en tiempo de reutilización. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+        "2-ally": "También aplica un bufo de [Bloquear Daño] a este campeón durante 2 turnos.",
+        "3-ally": "Los bufos aplicados por esta habilidad no se pueden eliminar"
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caballero de Caballeros (Pasiva)",
+      "levels": [],
+      "description": "Los aliados con bufos de [Escudo] reciben un 10 % menos de daño. Si hay varios campeones en el equipo con esta habilidad, solo se activará uno.",
+      "factionUnity": "Unidad de Hidalgos",
+      "unityEffects": {
+        "1-ally": "Los aliados que tienen un bufo de [Escudo] son inmunes a debufos de [Aturdir, Congelar, Dormir, Incitar, Miedo, Miedo de Verdad y Petrificación]",
+        "2-ally": "Los aliados que tienen un bufo de [Protección de Aliados] tienen un 20% de probabilidad de contraatacar al ser atacados",
+        "3-ally": "Aumenta un 100% la magnitud de los bufos de [Escudo] de todos los aliados, excepto los bufos de [Escudo] aplicados por sets de artefactos"
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en todas las batallas en 25%"
+    },
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las Batallas en 15% (solo se aplica a Hidalgos)."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/acelin-el-inmutable.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

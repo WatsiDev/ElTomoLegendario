@@ -1,0 +1,131 @@
+{
+  "slug": "gaellut-hijo-del-pacto",
+  "name": "Gaellut, Hijo del Pacto",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo de HP, capaz de control, debufos, limpiezas y buenos bufos defensivos, dependiendo de la ocasión",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=nh2LkAdn4zY",
+  "blessings": [
+    "fuego-y-azufre",
+    "crueldad"
+  ],
+  "relics": [
+    "campana_fundida",
+    "sombra_encaramada"
+  ],
+  "gear": [
+    "percepcion",
+    "inmortal",
+    "bestial",
+    "punteria"
+  ],
+  "uses": "Bastante versátil, pero limitado al mismo tiempo: es bueno en cualquier tipo de oleadas y contenido, pero no especialista en ningún jefe. Su pasiva es interesante en sitios como Dragón, Quimera o Hydra, pero no pinta ser meta",
+  "stats": {
+    "hp": 23460,
+    "speed": 99,
+    "attack": 914,
+    "defense": 1101,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Golpe Decapitador (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "?xHP",
+      "description": "Ataca a 1 enemigo. Antes de atacar, reduce 1 turno la duración de todos los bufos del objetivo. También tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] durante 2 turnos. Este debufo está protegido al aplicarse a Jefes.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia de Gaellen (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "?xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno y un debufo de 60% de [Reducir DEF] durante 2 turnos. Reduce un 30% la Barra de Turno de los enemigos que no tienen debufos de [Aturdir]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre del Pacto",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "fortificar-2"
+        }
+      ],
+      "multiplier": "",
+      "description": "Elimina todos los debufos de todos los aliados y luego les cura el 25% de MAX HP de este campeón. Aplica un bufo de [Escudo] del 25% de MAX HP de este campeón y un bufo de [Fortificar] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Muerte o Libertad (Pasiva)",
+      "description": "Cada 10 debufos que recibe el grupo de este campeón, se activa la habilidad de Sangre del Pacto. Al activarse de esta forma, los bufos aplicados por la habilidad Sangre del Pacto están protegidos. No pone la habilidad de Sangre del Pacto en tiempo de reutilización. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta HP de aliados en todas las batallas en 35%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gaellut-hijo-del-pacto.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "marius-el-galante",
+  "name": "Marius el Galante",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Gran nuker defensivo multiusos.",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "invocatormentas",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "colmillo_asesino",
+    "garra_malefica",
+    "corona_corrompida",
+    "lente_intangible"
+  ],
+  "gear": [
+    "fervor",
+    "letal",
+    "salvaje",
+    "matador"
+  ],
+  "uses": "Top en Arena, Hydra, Quimera, Necropolis, etc.. Probablemente uno de los mejores legendarios del juego.",
+  "stats": {
+    "hp": 19815,
+    "speed": 110,
+    "attack": 716,
+    "defense": 1542,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lanza Áurica (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "desfallecer"
+        }
+      ],
+      "multiplier": "2.5xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 35 % de probabilidad de aplicar un debufo de [Desfallecer] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Muerte o Gloria (DEF y MAX HP enemigo)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "1.2xDEF+0.03xMAX HP enemigo",
+      "description": "Ataca a todos los enemigos 3 veces. Cada golpe reduce la duración de todos los bufos enemigos en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Trueno Galopante (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "Aplica un bufo de [Aumentar PUNT] del 50 % y un bufo de [Aumentar DEF] del 60 % a todos los aliados durante 3 turnos. Luego aplica un debufo de [Aturdir] al enemigo con la barra de turno más alta durante 1 turno. Por último, obtén un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caballero Firme (Pasiva)",
+      "levels": [],
+      "description": "Este campeón es inmune a los efectos de reducción de barra de turno y a los debufos de [Reducir VEL] . Siempre que un enemigo cambia de forma o intenta reducir la barra de turno de este campeón, contraataca con la habilidad base de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en 35%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/marius-el-galante.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

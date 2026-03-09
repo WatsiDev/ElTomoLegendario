@@ -1,0 +1,164 @@
+{
+  "slug": "pequena-miss-annie",
+  "name": "Pequeña Miss Annie",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Poderoso nuker de 1 solo objetivo, pero poco usada",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=T_oP85y4Y9U",
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "eternizalmas",
+    "sombra_encaramada",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "impulso"
+  ],
+  "uses": "Bastante limitada. Sirve en el escarabajo de la Torre pero no lo solea.",
+  "stats": {
+    "hp": 17835,
+    "speed": 102,
+    "attack": 1597,
+    "defense": 793,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Uñas bonitas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "1.3xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 50% de probabilidad de aplicar un debufo del 100% [Curación Reducida] y un debufo de [Reducir Defensa] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Muñeca vacía (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "2.4xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Antes de atacar, aplica un bufo del 50% [Aumentar ATK] bufo de [Velo perfecto] en este campeón durante 2 turnos. Luego, llena la barra de turno de este campeón en un 30%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cita para jugar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "multiplier": "5.7xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 25% de la DEF del objetivo. Reduce el HP MAX del objetivo en un 25% del daño infligido. \n\nRepetirá el ataque por segunda vez si el objetivo tiene una DEF más alta y un HP MAX más alto que este Campeón. Aplica un bufo de [Revivir al Morir] a este campeón durante 2 turnos si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Un Juguete no Muere (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Al revivir, ataca al enemigo que mató a este campeón con la habilidad predeterminada. También llena la barra de turno de este campeón en un 25% y aplica un bufo de [Escudo] en este campeón igual al 50% de su HP MÁXIMO durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corazón mágico (Pasiva)",
+      "levels": [],
+      "description": "Cada ataque tiene un 50% de probabilidad de reducir la barra de Turno del objetivo en un 10% y un 100% de probabilidad de reducir el HP MÁXIMO del objetivo en un 10% del daño infligido al atacar enemigos con un debufo de [Curación Reducida] o [Reducir Defensa]. También cura a este Campeón en un 10% del daño infligido cuando ataca a enemigos con un debufo de [Curación Reducida] o [Reducir Defensa].[No se curará del daño infligido por Maestrías]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATQ de los aliados en todas las batallas en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pequena-miss-annie.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

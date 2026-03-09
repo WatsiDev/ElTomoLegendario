@@ -1,0 +1,138 @@
+{
+  "slug": "luthiea",
+  "name": "Luthiea",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Nuker con debufos de control y venenos",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "campana_fundida",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "cruel",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Facciones como nuker y control",
+  "stats": {
+    "hp": 14370,
+    "speed": 93,
+    "attack": 1277,
+    "defense": 1068,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Flechar Ardiente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "4.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo del 5% [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tiro Helador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "2.6xATK",
+      "description": "Ataca 3 veces al azar. Cada golpe tiene un 25 % de probabilidad de aplicar un debufo de [Congelar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Veneno Entumecedor (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la P.Crit de aliados en mazmorras en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/luthiea.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

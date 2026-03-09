@@ -1,0 +1,127 @@
+{
+  "slug": "bestia-de-roca",
+  "name": "Bestia de Roca",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Ninguno, muy malo",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [
+    {
+      "set_name": ""
+    }
+  ],
+  "uses": "Pollo.",
+  "stats": {
+    "hp": 19485,
+    "speed": 95,
+    "attack": 892,
+    "defense": 837,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Garrotazo (ATK)(HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de Bufo / Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "1.5xATK + 0.15xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. El daño aumenta según MAX HP de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agacharse",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Llena un 50% la barra de turno. Aplica un bufo de 60% de [Aumentar DEF] a este campeón durante 3 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bramido (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de aliados en batallas de arena en 16%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bestia-de-roca.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

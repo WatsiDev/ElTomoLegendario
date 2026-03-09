@@ -1,0 +1,122 @@
+{
+  "slug": "hegemon",
+  "name": "Hegemon",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Nuker para arenas que inicia siempre el primero",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "crueldad"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "repartemuerte",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "despiadado",
+    "cruel",
+    "aturdir"
+  ],
+  "uses": "Arena 100%. No brilla en ningún otro sitio",
+  "stats": {
+    "hp": 19155,
+    "speed": 96,
+    "attack": 1487,
+    "defense": 815,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Agarre de la Tumba (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad Buff / Debuff +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca 2 veces al azar. Cada golpe tiene un 35% de posibilidades de aplicar una debufo de 30% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Frialdad entumecedora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a todos los enemigos. Aplica una debufo de 50% [Reducir ATK] durante 2 turnos. También tiene un 50% de posibilidades de aplicar una debufo [Bloquear habilidades] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llegada fatídica (Pasiva)",
+      "levels": [],
+      "description": "Siempre va primero en cada ronda. Si hay varios Hegemones en batalla, el Hegemón con la VEL más alta actuará primero, seguido del siguiente más alto, y así sucesivamente.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de aliados en todas las batallas en un 19%"
+    }
+  ],
+  "lore": "Hay innumerables historias de valor y habilidad que los Campeones de Lumaya han demostrado durante milenios. Valientes caballeros, cuya habilidad con la espada es incomparable, sabios magos, por cuya sola palabra se derrumban montañas, audaces pícaros y soldados incondicionales. Sin embargo, tampoco se debe subestimar a quienes siguen el camino oscuro. El Hegemón es una presencia imponente en cualquier campo de batalla, su dominio de la espada solo se compara con su capacidad para dirigir los ataques de sus secuaces. Se dice que alguna vez fue un noble Campeón de su pueblo y la perdición de los malhechores. Había derrotado a muchos enemigos en esa vida pasada, traído la victoria a muchas batallas. Pero esa habilidad viene con orgullo la mayoría de las veces, y con orgullo, la semilla de la arrogancia que humilló a tantos héroes. Asegurado de su superioridad y sabiduría, el Campeón había renunciado a su señor, dejando a un lado sus votos y lealtades. A partir de entonces, fue conocido como el Hegemón, el único gobernante digno cuyo derecho se ganó con sangre y espada. Muchos de los soldados bajo su mando, influidos por el carisma del Hegemón, se unieron a su rebelión y marcharon sobre las tierras de sus rivales. Se necesitaron muchos meses de guerra sangrienta y los esfuerzos conjuntos de Kaerok y los Señores de la frontera Aravian, así como una Misión de la Orden Sagrada para finalmente detener la campaña del Hegemón y derrotar a su ejército. Aunque el propio Campeón rebelde huyó después de matar sin ayuda a los hombres de armas enviados tras él. Con su caída ahora completa, juró venganza sangrienta sobre la gente de Teleria y entregó su alma a Siroth y sus secuaces mortales. Un día, cuando sus rivales entre los caballeros renegados Aparecidos sean derrotados, el Hegemón reunirá un nuevo ejército y marchará sobre Kaerok.",
+  "forms": null,
+  "image": "/src/assets/champions/hegemon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "uugo",
+  "name": "Uugo",
+  "faction": "Ogretes",
+  "rarity": "Épico",
+  "role": "Debufer muy bueno con debufos útiles así como curaciones y un revivir",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "curacion-milagrosa"
+  ],
+  "relics": [
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "maldito",
+    "punteria",
+    "reflejo",
+    "impulso",
+    "percepcion",
+    "bestial",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Sirve hasta late game, muy bueno en hydra, oleadas, facciones e incluso como debufer de arenas",
+  "stats": {
+    "hp": 19650,
+    "speed": 102,
+    "attack": 738,
+    "defense": 1255,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Mano Negra (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-sangre"
+        }
+      ],
+      "multiplier": "5.2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 35% de probabilidad de aplicar un debufo de [Chupar Vida] durante 2 turnos. La probabilidad aumenta en un 5% por cada enemigo vivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Torbellino atormentador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "4.8xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. También tiene un 50% de posibilidades de aplicar una debufo [Bloquear bufos] durante 2 turnos. La probabilidad de aplicar la debufo [Bloquear bufos] aumenta un 5% por cada enemigo vivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Brebaje de Uugo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Elimina todas las debufos de [Curación Reducida] de todos los aliados, luego elimina 1 debufo aleatoria de todos los aliados, luego cura a todos los aliados en un 20% de los PS MAX de este campeón. Si todos los aliados están muertos, los revive con un 50% de HP y, en su lugar, llena sus medidores de turno en un 50%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rencor Final",
+      "levels": [],
+      "cooldown": 5,
+      "description": "Aplica un bufo del 30% [Aumentar VEL] y un bufo de [Bloquear daño] en este Campeón durante 1 turno cada vez que muere el último aliado vivo de este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Uugo es una invocadora de batalla, una heraldo de una guerra que se perdió hace mucho tiempo. Sus habilidades están vinculadas al Cuerno de Invocación y al Gran Tambor de Guerra, artefactos gemelos de poder simbólico y mágico que han adquirido un estatus casi mítico entre los ogretes a lo largo de los siglos. Uugo conoce las historias de sus antepasados ​​y cree que llegará un momento en que sus instrumentos mágicos ayudarán a marcar el comienzo de una nueva era para la raza ogreta, uniendo a las tribus y tal vez incluso formando una verdadera nación ogreta.\n\n En los últimos años de la Guerra Gaélica, cuando las fuerzas del Pacto Gaélico luchaban contra los ejércitos de la Liga Teleriana, los hechiceros del Pacto buscaron nuevos reclutas uniendo a las tribus de ogretes que habitaban fuera de los Lagos de las Penas y llevándolas a la guerra a su favor. Además de emisarios y súplicas, crearon una serie de artefactos mágicos, instrumentos imbuidos de energías arcanas que podían hablar al corazón tribal de muchos ogretes. Estos instrumentos acompañaban a los mensajeros del Pacto y, siempre que se tocaban, resonaban en los sueños y llamaban a los ogretes que los escuchaban, avivando tanto su deseo de venganza por la Cruzada Roja como sus sentimientos de unidad y parentesco con otros de su especie.\n\n Una mujer ogreta fuerte, con unos pulmones poderosos y un sentido instintivo del ritmo, llamada Glogg, fue elegida para ser la portadora de dos de estas herramientas mágicas, el Cuerno de Invocación y el Gran Tambor de Guerra. Si bien tuvieron un efecto pronunciado en las tribus ogretas neutrales que visitó (lo que llevó a muchos a unirse al Pacto), no fue suficiente para cambiar el curso de la guerra. Glogg y su cuerno y tambor sobrevivieron a la derrota del Pacto, y los instrumentos se convirtieron en preciadas reliquias familiares, pero casi todos esos artefactos fueron destruidos por las victoriosas fuerzas telerianas o por el implacable paso del tiempo.\n\n Como la última descendiente de Glogg, Uugo protege celosamente tanto el Cuerno de Invocación como el Gran Tambor de Guerra, y los toca con destreza y vigor. Está tremendamente orgullosa de los instrumentos que, a pesar de tener siglos de antigüedad, siguen siendo robustos: la vieja piel del tambor está tan tensa como siempre, mientras que el cuerno suena nítido y claro. Y aunque ya no existe un verdadero Pacto Gaellen al que los Ogretes puedan adherirse, cada vez que ng0 toca sus instrumentos, los Ogretes que la rodean experimentan una sensación de unidad guerrera más allá de todo lo que hayan sentido o conocido antes. Al hacer esto, Uugo espera enorgullecer a Glogg y a todos los que han tocado los instrumentos desde entonces.\n\n Uugo se considera una guardiana de la tradición ogreta, y por ello es habitual verla en las reuniones tribales, invocando a los ogretes desde kilómetros a la redonda o indicando el comienzo y el final de fiestas, consejos o juegos competitivos. Espera utilizar sus instrumentos para recordar a su pueblo su orgullosa herencia y traer unidad a tribus que con demasiada frecuencia están divididas. Esto la ha convertido en un objetivo en el pasado: ha sido perseguida por un noble araviano decidido a reclamar los instrumentos para estudiar sus propiedades mágicas, y por agentes de la Orden Sagrada que esperan destruirlos y así ayudar a romper cualquier sentido de parentesco entre los ogretes. A pesar de esto, se ha enfrentado y ha derrotado a todos los rivales, y sus continuos esfuerzos por unir a su pueblo están respaldados por su tamaño, fuerza y ​​el daño que puede causar en combate cuando lleva el Gran Tambor de Guerra colgado a la espalda y usa sus pesados ​​palos como mazas.",
+  "forms": null,
+  "image": "/src/assets/champions/uugo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "genzin",
+  "name": "Genzin",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Nuker divertido, capaz de aplicar reducir defensa y obtener turno para pegar muy rápido",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=_CupCq3pEEo",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "colmillo_malefico",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "pasion_codiciosa",
+    "sombra_encaramada",
+    "malleos_de_fuego"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "despiadado",
+    "punteria",
+    "dano-critico",
+    "instinto"
+  ],
+  "uses": "Facciones y oleadas. No pega muy fuerte pero pega rápido",
+  "stats": {
+    "hp": 17505,
+    "speed": 100,
+    "attack": 1553,
+    "defense": 859,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cortes fluidos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "1.3xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe llena el medidor de turno de este campeón en un 6%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Separación de acero (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de colocar un debufo del 60% [Reducir DEF] durante 2 turnos. Cada golpe crítico llena el medidor de turno de este campeón en un 10%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Venganza predestinada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. Ignorará los buffos de [Inmortal] y [Escudo]. Llena este medidor de turnos de campeones en un 30%. En su lugar, llena el medidor de turnos de estos campeones en un 60% si el objetivo tiene un 50% de HP o menos después de este ataque. También reduce el tiempo de reutilización de las habilidades de Separación de acero y Venganza predestinada en 1 turno si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bushido (Pasiva)",
+      "levels": [],
+      "description": "Aumenta la VEL de este campeón en 10 y la RES en 50 si hay menos campeones en este equipo de campeones que el número de enemigos en el equipo enemigo. Este efecto siempre funciona cuando luchas contra jefes.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Genzin creció con admiración y temor por el Bosque de la Niebla. Si bien las historias de los elfos silvanos que residían allí le fascinaban, historias que enfatizaban su sabiduría y nobleza, eran los otros habitantes del Bosque de la Niebla los que le resultaban particularmente atractivos. Los Fae, criaturas de espíritu y sustancia sobrenatural que adoptaban los rostros más peculiares, parecían estar siempre en los márgenes de la mente de Genzin. Al crecer a la sombra del Bosque de la Niebla a solo unas pocas millas al norte de su frontera, a menudo se encontraba mirando el bosque, como si lo llamara un susurro espectral. Aunque siempre resistió la tentación de aventurarse dentro, sabiendo muy bien lo que a menudo les sucedía a quienes ingresaban al Bosque de la Niebla sin invitación, persistía la sensación de que algo, o alguien, lo estaba esperando, allí, en las profundidades incognoscibles de los árboles. Lo alejaron de su hogar durante muchos años después de ser reclutado en el ejército de la Autocracia Mikage. Sirvió a bordo del gran buque de guerra, el Atatsu, llamado así por un legendario espíritu serpiente del mar que escupe fuego. Durante años atacó tierras lejanas y más tarde se convirtió en capitán de marines, ganándose los apodos de 'Flujo de acero' y 'Llama de la muerte' por sus tácticas brutalmente efectivas, el uso del arma del terror conocida como 'fuego inextinguible' y su increíble habilidad con la espada. Después de completar su tiempo de servicio, regresó a su hogar, habiendo sentido siempre un profundo anhelo de devolver la gran madera.\n\n Una tarde de finales de verano, cuando el sol todavía estaba alto, Genzin se encontró al pie mismo del bosque. No sabía cómo había llegado allí, porque ciertamente no se había propuesto ir a ese lugar, pero mientras se detenía y miraba fijamente la oscuridad del bosque, estaba seguro de que podía oír su nombre en el silbido del viento entre los árboles. Haciendo acopio de todo el coraje que pudo, cruzó hacia la exuberante extensión, donde inmediatamente sintió una sensación de dirección y propósito. Avanzando a grandes zancadas con un conocimiento inexplicable de hacia dónde se dirigía, pero sin saber cuál era su destino, Genzin se adentró cada vez más en las profundidades del bosque. Siguió avanzando a paso rápido, incapaz de reducir la velocidad incluso si hubiera querido, hasta que se detuvo en un claro. Flores de colores deslumbrantes pintaban el suelo, nieblas brillantes flotaban en el aire y la luz que atravesaba el dosel bañaba la escena con un resplandor dorado. En el centro de todo había una pequeña cascada, que caía delicadamente en cascada en un estanque que parecía un espejo.\n\n Un silencio descendió sobre este lugar mágico, incluso el sonido del goteo constante del agua cesó, cuando una figura emergió de la cuenca de la cascada. Era casi humana en apariencia, con un rostro que mostraba una expresión de gracia serena. La piel de la criatura parecía fluir como agua sobre su cuerpo y brillaba en la cálida luz. Era un Fae. Se reveló a Genzin como la Duquesa del Agua Corriente, alguien que tenía dominio sobre arroyos, ríos, glaciares, riachuelos, todo lo que fluye. Una tiara plateada y brillante con piedras preciosas de gotas de rocío cristalinas parecía probar su estatus. La duquesa luego invitó al Shadowkin a hablar. Genzin cayó de rodillas en reverencia y habló con entusiasmo sobre la conexión que siempre había sentido con el Bosque de la Niebla y la profunda curiosidad que siempre había tenido por los Fae. La duquesa le dio una amplia y encantadora sonrisa y reveló que era ella quien lo había llamado al Bosque de la Niebla. Ella había previsto que el bosque necesitaría un protector, alguien que no estuviera en sintonía con el Ritmo pero que se preocupara profundamente por este lugar. Genzin se ofreció sin dudarlo, declarando que daría gustosamente su vida para servir a un ser tan maravilloso como ella. Una vez hecho el juramento, la duquesa envió a Genzin fuera de su claro y le dijo que regresara cuando sintiera su llamado una vez más.\n\n Pasaron semanas mientras Genzin esperaba que lo llamaran de vuelta ante la duquesa. Esas semanas pronto se convirtieron en meses, que se convirtieron en años. A medida que pasaba el tiempo, Genzin se preocupaba cada vez más de que algo estuviera mal, de que tal vez se había perdido alguna señal o convocatoria. Pasaron cinco años y, cuando amaneció el día del aniversario de su primer encuentro con la duquesa, de repente sintió una voz angustiada que lo llamaba desde el corazón del Bosque de la Niebla. Corrió directamente al claro con la cascada, pero llegó demasiado tarde y encontró el lugar quemado y desolado. En lugar de la duquesa, todo lo que encontró fue un par de Demonspawn que se escabullían, jugando con los pedazos rotos de su tiara, que aún brillaban, incluso más radiantes cuando se contrastaban con el paisaje ahora horriblemente marcado. Enfurecido, atacó a las dos criaturas desprevenidas y decapitó a ambas. Cuando su furia de batalla se calmó, recogió los pedazos de la tiara. Luego cayó de rodillas, abrumado por el dolor. Hizo un nuevo juramento: vengar la aparente muerte de la duquesa y matar a todos los engendros demoníacos que pudiera encontrar.",
+  "forms": null,
+  "image": "/src/assets/champions/genzin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "espadachin-fatalis",
+  "name": "Espadachin Fatalis",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Nuker de HP con bajos multiplicadores.",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=cf0HSO91BYI",
+  "blessings": [
+    "desgarro-aplastante",
+    "segar-almas"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "invocatormentas",
+    "luna_de_sangre",
+    "apagador_de_esencia"
+  ],
+  "gear": [],
+  "uses": "Nuker de arenas, no se usa.",
+  "stats": {
+    "hp": 23130,
+    "speed": 104,
+    "attack": 782,
+    "defense": 1255,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Corte Cargado (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a 1 enemigo. Ignora el 15% de la DEF del objetivo si este ataque es crítico. También tiene un 20% de posibilidades de otorgar un turno extra.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corte Amplio (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.3xHP",
+      "description": "Ataca a 1 enemigo. Ignora los bufos de [Fortalecer], [Piel de piedra], [Aumentar DEF] y [Protección de aliados]. También ignora el 15% de la DEF del objetivo si este ataque es crítico. Reduce el ATK del objetivo en un 10% (se acumula hasta un 30%).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corte Amplio Fuerte (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.26xHP",
+      "description": "Ataca a todos los enemigos. Ignora el 15% de la DEF del objetivo si este ataque es crítico. Reduce la DEF del objetivo en un 5% (se acumula hasta un 30%).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corte Cargado de Verdad (HP)",
+      "levels": [],
+      "cooldown": 4,
+      "multiplier": "0.36xHP",
+      "description": "Ataca a 1 enemigo. Ignorará el 50% de la DEF del objetivo. Llena la barra de turno de este campeón en un 50% si el ataque es crítico. El daño infligido por esta habilidad no puede reducirse con las habilidades pasivas o maestrías del enemigo, excepto con las habilidades pasivas de los jefes. El daño infligido por esta habilidad no se puede aumentar ni con las maestrías de este campeón ni con las habilidades pasivas de los aliados, excepto cuando se ataca a jefes. Esta es una habilidad secreta y solo está disponible cuando este campeón ha usado 3 habilidades en una ronda.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Leyenda de Fatalis (Pasiva)",
+      "levels": [],
+      "description": "Aplica un bufo de [Escudo] a este Campeón, equivalente al 25% de su HP MÁXIMO, durante 2 turnos al final de su turno. Este Campeón no puede recibir golpes críticos mientras esté bajo un [Escudo] colocado por este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 35%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/espadachin-fatalis.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

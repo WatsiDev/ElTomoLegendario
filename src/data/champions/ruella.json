@@ -1,0 +1,132 @@
+{
+  "slug": "ruella",
+  "name": "Ruella",
+  "faction": "Vigías Silvanos",
+  "rarity": "Épico",
+  "role": "Buen debufer capaz de potenciar el daño de nuestros campeones",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [
+    "percepcion",
+    "punteria",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Facciones y jefes. Al aplicar 3 debufos poderosos, yo la uso por ejemplo en Necropolis de Arena",
+  "stats": {
+    "hp": 15855,
+    "speed": 112,
+    "attack": 1376,
+    "defense": 870,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Volea Hostigadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de mejora/desventaja +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de mejora/desventaja +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de mejora/desventaja +10 %"
+        }
+      ],
+      "multiplier": "1.5xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe crítico tiene un 80 % de probabilidad de robar el 5 % del medidor de turno del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sin Respiro (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de mejora/desventaja +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de mejora/desventaja +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de mejora/desventaja +10 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "2.3xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 50 % de probabilidad de aplicar un debufo del 60 % [Reducir Def], un debufo del 25 % [Debilitar] y un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ofensiva Oportuna",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Llena los medidores de turno de todos los aliados en un 20 % y otorga un beneficio de [Aumentar P.Crit] del 30 % a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta el PUNT de los aliados en las mazmorras en 40."
+    }
+  ],
+  "lore": "Ruella ha derribado a muchos enemigos con su salvaje arco de hueso y tendones, pero si uno amplía el perfil de su letalidad para incluir todas las muertes de aquellos que aprendieron arquería bajo su tutela, la cifra es verdaderamente asombrosa. Es por eso que Ruella fue uno de los enemigos más odiados de la Autocracia Mikage durante los años de agitación que llevaron a la caída final de su estado. Como una de las primeras agentes enviadas por la Corte Sylvan para intervenir en la rebelión en curso, además se convirtió en un símbolo para los Autócratas Mikage de la exasperante intromisión de los Sylvan.\n\n Ruella ganó reconocimiento por primera vez al liderar un contingente de Arcos de las Sombras y Exploradores que patrullaban las tierras fronterizas del Bosque Brumoso. Recibió la orden de detener la depredación de los saqueadores Hombres Lagarto de las Islas Perdidas, frustró sus incursiones repetidamente y tuvo éxito suficiente para fabricar una armadura espantosa y un arco de hueso de lagarto con los cuerpos de sus enemigos muertos. Cuando se enfrentó a los Hombres Lagarto por última vez vestida con los restos de sus parientes, estos se vieron horrorizados y se retiraron rápidamente. Su éxito llevó a la Corte Silvana a elegirla como vanguardia de su intervención en la rebelión de los Hombres de las Sombras y a enviarla a ella y a sus guerreros al sur de Yakai.\n\n En su primera acción allí, Ruella vio enjambres de reclutas rebeldes mal entrenados, con armadura ligera e inexpertos que intentaban, sin éxito, abrirse paso a través de una línea de disciplinados guerreros Mikage y sus astutos líderes. Estos comandantes fueron los primeros en caer ante la descarga de disparos increíblemente precisos de Ruella, y mientras rebeldes y opresores reaccionaban por igual a la aparición de la elfa y su destacamento, la Sylvan se alejó corriendo y se reposicionó. El caos que sembraron ayudó a los rebeldes a desmembrar la formación enemiga y a invadirla. Cansada pero triunfante, Ruella se puso de pie ante los rebeldes y les ofreció su servicio. Su actuación había ganado la confianza de los presentes, pero los organizadores rebeldes más influyentes tardaron más en convencerse. Todos querían que demostrara su lealtad con sangre Mikage, que ella proporcionó de buena gana en una serie de batallas posteriores. Quedó claro que era una excelente líder de campo, y pronto se unió a compañías de arqueros rebeldes. Aquí, Ruella realmente brilló. Ella convirtió el cuerpo de arqueros rebeldes de un grupo de cazadores de patos, aficionados y ancianos soldados retirados en una fuerza de combate capaz de igualar o superar a sus homólogos Mikage.\n\n Pasaron años de insurrección y más Sylvan llegaron a Yakai para apoyar a los rebeldes. Pero, incluso cuando se hizo evidente que los Shadowkin prevalecerían, Ruella se aburrió de su papel de tutelar. También sufría por su prolongada ausencia del Bosque de la Niebla, lo que hizo que su conexión con el gran Ritmo (la conciencia emocional compartida que define a los Sylvan) disminuyera. La nostalgia se apoderaba de su corazón de una manera intensa y única que ningún no Sylvan podría comprender. Sin embargo, estaba obligada a cumplir con su deber y llegó a tener un gran compromiso personal con la causa y los ideales de los rebeldes. Así que aguantó.\n\n Finalmente, el último de los Autócratas que aún permanecía leal a Siroth fue derrocado y Ruella fue llamada de vuelta a Nyresa. Pero el Ritmo al que se reconectó no era el mismo que había sido antes de la guerra. Un sutil pulso de agresión militarista lo atravesaba, mezclándose con sus frustraciones personales persistentes por haber perdido la gloria del campo de batalla en Yakai y amplificándolas. Aunque acababa de regresar de años de conflicto, partió en una expedición para castigar a sus antiguos enemigos, los Hombres Lagarto de las Islas Perdidas, a pesar de que la avanzada edad comenzaba a hacer mella en ella. Pero en el camino desapareció en el mar, y su destino sigue siendo incierto hasta el día de hoy.",
+  "forms": null,
+  "image": "/src/assets/champions/ruella.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

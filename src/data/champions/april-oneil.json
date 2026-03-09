@@ -1,0 +1,167 @@
+{
+  "slug": "april-oneil",
+  "name": "April O'Neil",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Controlador de 1 solo objetivo",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=LtBWzyPNg_I",
+  "blessings": [
+    "polimorfar",
+    "presencia-amenazante"
+  ],
+  "relics": [
+    "campana_fundida",
+    "estrellas_jiinang",
+    "mascara_de_zozobra",
+    "impasse_temporal",
+    "arpa_de_kasbiel",
+    "tiempo_de_sangre",
+    "mente_de_marquat",
+    "varita_de_sumision"
+  ],
+  "gear": [
+    "velocidad",
+    "incansable",
+    "percepcion",
+    "punteria",
+    "exactitud",
+    "velocidad-divina"
+  ],
+  "uses": "Algo de nicho, es buena en arenas como debufer y controladora.",
+  "stats": {
+    "hp": 19320,
+    "speed": 108,
+    "attack": 1046,
+    "defense": 1244,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Noticia de última hora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        },
+        {
+          "key_name": "congelar"
+        },
+        {
+          "key_name": "dormir"
+        },
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "miedo"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "petrificacion"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Aturdir], [Congelar], [Dormir], [Incitar], [Miedo], [Miedo de Verdad] o [Petrificación] al objetivo durante 1 turno.\n\n Luego aplica un bufo de [Velo Perfecto] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Exclusiva Explosiva (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "anular"
+        },
+        {
+          "key_name": "sello"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de robar todos los bufos del objetivo. También tiene un 75% de probabilidad de robar el 100% de la Barra de Turno actual del objetivo. También tiene un 75% de probabilidad de aplicar un debufo de [Anular] y un debufo de [Sello] al objetivo durante 2 turnos.\n\n [Efecto Pasivo]\n\n Al obtener un turno adicional o un turno instantáneo, tiene un 25% de probabildiad de activar la habilidad Exclusiva Explosiva contra un enemigo. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "En directo desde el lugar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n También reduce un 20% las barras de turno de todos los enemigos.\n\n Luego obtén un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reportera Estrella (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "description": "[Efecto Pasivo]\n\n Reduce un 10% la barra de turno de todos los enemigos siempre que un enemigo activa una habilidad, se junta con otros aliados para atacar, obtiene un turno extra o un turno instantáneo, se reduce el tiempo de reutilización de sus habilidad, se aumenta la magnitud de su escudo, se restablecen sus HP destruidos, él o sus aliados intercambian sus HP, Evade un efecto o habilidad enemiga, se equilibra su barra de turno o sus HP. Ocurre una vez por habilidad. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.\n\n [Efecto Activo]\n\n Reduce en un 25% la barra de turno de todos los enemigos siempre que los enemigos eliminan, traspasan o reducen la duración de cualquier debufo a 0. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en batallas de arena en 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/april-oneil.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

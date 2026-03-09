@@ -1,0 +1,145 @@
+{
+  "slug": "ishiyama-el-inamovible",
+  "name": "Ishiyama el Inamovible",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Nuker de HP",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=PqB5QeDDIbQ",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "invocatormentas",
+    "luna_de_sangre",
+    "garra_malefica",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Nuker de HP para arenas. Puede usarse en oleadas y Guerra de Facciones Dificil.",
+  "stats": {
+    "hp": 22800,
+    "speed": 99,
+    "attack": 892,
+    "defense": 1167,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cometa Ardiente (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "multiplier": "0.14xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe transfiere un debufo aleatorio de este camopeón al objetivo. Si este campeón está bajo algún debufo al ser atacado, contraataca con éste habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Andanada Calculada (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        },
+        {
+          "key_name": "red-d-crit-2"
+        },
+        {
+          "key_name": "red-p-crit-2"
+        }
+      ],
+      "multiplier": "0.3xHP",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Miedo], un debufo de 25% [Reducir P.Crit] y un debufo de 30% de [Reducir D.Crit] a todos los enemigos durante 2 turnos. Los enemigos que tienen al menos 2 debufos no pueden resistir estos debufos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Acaba con ellos (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "multiplier": "0.34xHP",
+      "description": "Ataca a 1 enemigo. Ignora el 25% de DEF. Ignora el 50% de DEF en lugar del 25% si el objetivo tiene al menos 2 debufos.\n\n Aplica un bufo de [Bloquear Daño] a este campeón durante 2 turnos si este ataque mata a un enemigo",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "El Inamovible (Pasiva) ",
+      "levels": [],
+      "description": "Siempre que un campeón resiste un debufo de este campeón, el siguiente debufo aplicado por este campeón no se puede resistir. Cada debufo aplicado por este campeón aumenta un 3% su MAX HP (se acumula hasta el 30%).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de Aliados en todas las batallas en 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ishiyama-el-inamovible.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "magnarr",
+  "name": "Magnarr",
+  "faction": "Engendros",
+  "rarity": "Épico",
+  "role": "Nuker de HP con buenos escalados",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "vial_del_sombrerero",
+    "luna_de_sangre",
+    "corona_de_ireth",
+    "apagador_de_esencia",
+    "martillo_del_fin",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "inmortal",
+    "resiliencia"
+  ],
+  "uses": "Arenas y oleadas",
+  "stats": {
+    "hp": 20970,
+    "speed": 100,
+    "attack": 837,
+    "defense": 1068,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Martillo Candente (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de Bufo / Debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 45% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. En cambio, tiene un 100% de probabilidad si el objetivo tiene un debufo de [Quemar HP].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe de percusión (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a todos los enemigos. Da un golpe adicional a los enemigos sin debuffos de [Quemar HP]. Tiene un 50% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno en enemigos bajo debufo de [Quemar HP].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Avivar las Llamas (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "0.37xHP",
+      "description": "Ataca a 1 enemigo. Aplica un efecto de [Contagiar Debufos], que contagia 2 debuffos aleatorios del objetivo y las aplicasobre todos los enemigos que tengan un [Quemar HP]. También aumenta la duración de los debuffos de [Quemar HP] en todos los enemigos en 1 turno. No propagará [Miedo], [Miedo de Verdad], [Congelar], [Provocar], [Dormir] o [Aturdir]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fundidor de Carne (Pasiva)",
+      "levels": [],
+      "description": "Este campeón se cura un 1% de su MAX HP cada vez que alguien en la batalla recibe daño de un debufo [Quemar HP].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en las batallas de la Torre del Destino en un 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/magnarr.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

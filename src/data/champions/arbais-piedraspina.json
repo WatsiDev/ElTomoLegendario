@@ -1,0 +1,185 @@
+{
+  "slug": "arbais-piedraspina",
+  "name": "Arbais Piedraspina",
+  "faction": "Vigías Silvanos",
+  "rarity": "Mítico",
+  "role": "Poderoso tanque de apoyo con curas, control y debufos",
+  "type": "Apoyo / HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=1y6m-cswm8k",
+  "blessings": [
+    "polimorfar"
+  ],
+  "relics": [
+    "eternizalmas",
+    "corazon_volcardiaco",
+    "rocadragon_dorada",
+    "elixir_dorado",
+    "arpa_de_kasbiel",
+    "codice_luminis"
+  ],
+  "gear": [
+    "percepcion",
+    "resistencia",
+    "parada-rapida",
+    "punteria",
+    "justiciero",
+    "proteccion"
+  ],
+  "uses": "Vale para todo, PvP y PvE",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en 25%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 22305,
+        "speed": 115,
+        "attack": 980,
+        "defense": 1387,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Vendaval Afilado (ATK) ",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "buffDebuff": [
+            "bloquear-habilidades-activas"
+          ],
+          "multiplier": "3.75xATK",
+          "description": "Ataca a todos los enemigos. Tiene un 40% de probabilidad de aplicar un debufo de [Bloquear Habilidad Activas] durante 1 turno."
+        },
+        {
+          "name": "Renacimiento Verde",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "revivir-al-morir"
+          ],
+          "description": "Elimina todos los bufos de todos los enemigos. Aumenta 1 turno la duración de todos los bufos aliados. Luego aplica un bufo de [Revivir al Morir] a todos los aliados durante 2 turnos"
+        },
+        {
+          "name": "Susurro Armonioso",
+          "levels": [
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "aumentar-atk-2",
+            "aumentar-punt-2"
+          ],
+          "description": "Llena la barra de turno de todos los aliados un 30% y les aplica un bufo del 50% de [Aumentar ATK] y un bufo de [Aumentar PUNT] durante 2 turnos"
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Abrazo Piedraspina (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "petrificacion"
+          ],
+          "description": "Tiene un 30% de probabilidad de aplicar un debufo de [Petrificación] a un atacante durante 1 turno, siempre que un aliado que tiene un debufo de Revivir al Morir aplicado por este campeón es atacado."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 23955,
+        "speed": 100,
+        "attack": 958,
+        "defense": 1299,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Lanzamiento de Rocas (HP) ",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "buffDebuff": [
+            "curacion-continua-2"
+          ],
+          "multiplier": "0.27xHP",
+          "description": "Ataca a un enemigo. Reduce un 30% la barra de turno del objetivo. Luego aplica un bufo de 15% de [Curación Continua] a este campeón durante 1 turno. También aplica un bufo de 15% de [Curación continua] al aliado con menos HP, excepto a este campeón, durante 1 turno."
+        },
+        {
+          "name": "Trampas de Espinas (HP)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "chupar-vida",
+            "quemar-hp"
+          ],
+          "multiplier": "0.25xHP",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de [Chupar Vida] y un debufo de [Quemar HP] durante 2 turnos."
+        },
+        {
+          "name": "Rugido Brumoso",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "curacion-continua-2",
+            "burlon",
+            "piel-de-piedra"
+          ],
+          "description": "Aplica dos bufos de 15% de [Curación Continua] a todos los aliados durante 2 turnos. También aplica un bufo de [Burlón] a este campeón durante 2 turnos y un bufo de [Piel de Piedra] durante 1 turno."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Maraña de púas (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "red-vel-2"
+          ],
+          "description": "Al ser atacado, aplica un debufo de 30% de [Reducir VEL] al atacante durante 2 turnos, una vez por ataque. También reduce un 20% el daño de habilidades que reciben todos los aliados. Este campeón recibirá ese daño."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/arbais-piedraspina.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

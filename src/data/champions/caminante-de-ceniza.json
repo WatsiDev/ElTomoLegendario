@@ -1,0 +1,139 @@
+{
+  "slug": "caminante-de-ceniza",
+  "name": "Caminante de Ceniza",
+  "faction": "Aparecidos",
+  "rarity": "Raro",
+  "role": "Debufer de early game y faccion",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 10905,
+    "speed": 103,
+    "attack": 1498,
+    "defense": 804,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Gran Martillo (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a 1 enemigo. Restablece el tiempo de reutilización de la habilidad [Devastador] si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Devastadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10% Nivel"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 65% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno. Reduce las barras de turno de todos los enemigos en un 10% si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompe Espaldas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de aplicar un debufo [Debilitar] del 15% durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ningunear (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "description": "Cura completamente a este campeón y elimina instantáneamente cualquier debufo de [Aturdir] cada vez que un enemigo aplica un debufo de [Aturdir] en este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/caminante-de-ceniza.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "burangiri",
+  "name": "Burangiri",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Tanque con mucho control y curas a sí mismo",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "presencia-dominante"
+  ],
+  "relics": null,
+  "gear": [
+    "inmortal",
+    "resiliencia",
+    "velocidad"
+  ],
+  "uses": "Oleadas de facciones con control, y capaz de solear ciertos pisos de Bommal en Torre del Destino",
+  "stats": {
+    "hp": 16680,
+    "speed": 93,
+    "attack": 804,
+    "defense": 1387,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ariete de Cráneo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "3.1xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 20% de probabilidad de colocar un debufo de [Incitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carga de Bakemono (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 40% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Grito estremecedor",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de [Fortalecer] del 25% en todos los aliados durante 2 turnos. También aplica un bufo de [Escudo] durante 2 turnos en todos los aliados con menos del 50% de HP. El beneficio [Escudo] es igual al 15% de los PS MÁXIMOS del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Recogealmas (Pasiva)",
+      "levels": [],
+      "description": "Cura a este Campeón en un 50% de su MAX HP cada vez que un aliado o enemigo muere.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en todas las batallas en 40."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/burangiri.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

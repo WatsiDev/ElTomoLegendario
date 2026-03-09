@@ -1,0 +1,132 @@
+{
+  "slug": "shirimani",
+  "name": "Shirimani",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Healer y Controlador",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "cadenas-temporales",
+    "curacion-milagrosa"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "campana_fundida"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": null,
+  "stats": {
+    "hp": 19980,
+    "speed": 104,
+    "attack": 1167,
+    "defense": 1079,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Rayos de Frio (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "1.4xATK",
+      "description": "Ataca 3 veces al azar. Tiene un 15% de probabilidad de aplicar una debufo [Congelar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ola rejuvenecedora",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Cura 1 aliado en un 50% y otros aliados en un 20% de su HP MÁX. Aplica un bufo de 15% [Curación continua] durante 2 turnos en objetivos con HP total.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tormenta de Hielo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "4.1xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 80% de posibilidades de aplicar una debufo [Congelar] durante 1 turno. Llena la barra de turno de este campeón un 10% por cada enemigo atacado.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Nadie es Imbatible (Pasiva)",
+      "levels": [],
+      "description": "Aumenta un 20% el Max.HP de este campeón por cada enemigo que mata o cada cabeza de Hydra que decapita (se acumula hasta 50.000)",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en Criptas de Facción en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/shirimani.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

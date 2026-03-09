@@ -1,0 +1,131 @@
+{
+  "slug": "skullcrown",
+  "name": "Skullcrown",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Nuker en área con buenos multiplicadores y sinergias",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=SQNgz_MULzE",
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Arenas en early. Con set de aturdir se usa como control en varios sitios",
+  "stats": {
+    "hp": 14535,
+    "speed": 96,
+    "attack": 1509,
+    "defense": 826,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ola de almas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca a todos los enemigos. Haz un segundo golpe si el objetivo tiene más del 50% de HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Toque corrupto (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 50% de aplicar una debufo del 25% [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resistente (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Aplica un buff de [Inmortal] en este Campeón durante 1 turno cada vez que su HP cae por debajo del 20%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "De más allá (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 8,
+      "description": "Revive a este campeón con un 30% de HP. [Solo disponible cuando Sinesha está en el mismo equipo",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en la arena en un 23%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/skullcrown.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

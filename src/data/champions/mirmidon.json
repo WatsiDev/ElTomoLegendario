@@ -1,0 +1,136 @@
+{
+  "slug": "mirmidon",
+  "name": "Mirmidón",
+  "faction": "Hidalgos",
+  "rarity": "Raro",
+  "role": "Bufer de apoyo, decente en early",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [],
+  "relics": null,
+  "gear": [],
+  "uses": "Pocos. Early game o facciones.",
+  "stats": {
+    "hp": 15030,
+    "speed": 99,
+    "attack": 804,
+    "defense": 1222,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpes de Martillo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 9: Probabilidad de bufo/debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "3.1xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 20% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno si el objetivo tiene más MAX HP que este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Barrido Desarmante (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-1"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 60% de probabilidad de aplicar un debufo de 25% de [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Entre sus Filas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Protección de Aliado] a todos los aliados durante 2 turnos. Aplica un bufo de 15% de [Curación Continua] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en Mazmorras de 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/mirmidon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

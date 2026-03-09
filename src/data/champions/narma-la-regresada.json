@@ -1,0 +1,156 @@
+{
+  "slug": "narma-la-regresada",
+  "name": "Narma la Regresada",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Poderoso envenador y extensor, pero que requiere de demasiados libros",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "elixir_aracnido",
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "punteria",
+    "velocidad"
+  ],
+  "uses": "Tras un rework, pasó a ser un poderoso envenenador/debufer para oleadas y jefes susceptibles a venenos",
+  "stats": {
+    "hp": 19815,
+    "speed": 100,
+    "attack": 1002,
+    "defense": 1255,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Infierno Ascendente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aumentar la duración de todos los debufos del objetivo en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Baile extraño (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Reducir ATK] durante 3 turnos. También tiene un 75% de probabilidad de aplicar un debufo de [Chupar Vida] a todos los enemigos durante 2 turnos. Luego activa instantáneamente los debufos de [Veneno] de todos los enemigos.\n\n Cura a todos los aliados el 25% del MAX HP de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Trance Tóxico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "sensibilidad-al-veneno-1"
+        }
+      ],
+      "multiplier": "7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de aplicar tres debufos del 5% [Veneno] y un debufo del 25% [Sensibilidad al veneno] durante 3 turnos.\n\n Si el objetivo inicial ya está bajo 3 o más debufos, aplica 3 debufos de 5% de [Veneno] y un debufo de 25% de [Sensibilidad al Veneno] a todos los enemigos durante 3 turnos en su lugar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caustic Rebbutal (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "description": "Siempre que un aliado es atacado, tiene un 25% de probabilidad de aplicar un debufo de 5% de [Veneno] al atacante durante 2 turnos. Siempre que este campeón es atacado, aumenta esa probabilidad al 50%.\n\n Los enemigos bajo debufos de [Veneno] inflingen un 5% menos de daño por cada debufo de [Veneno] que tengan (se acumula hasta el 25%). Si hay multiples campeones en el equipo con esta habilidad, solo se activa una.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en las mazmorras en 80"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/narma-la-regresada.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

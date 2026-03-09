@@ -1,0 +1,129 @@
+{
+  "slug": "maton-de-fortaleza",
+  "name": "Matón de Fortaleza",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Protector y defensor de aliados con debufos",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "defensa-impecable"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    {
+      "set_name": ""
+    }
+  ],
+  "uses": "Caballero de Fuego en early o mazmorra de pociones verdes. Pero no mucho más",
+  "stats": {
+    "hp": 15525,
+    "speed": 90,
+    "attack": 859,
+    "defense": 1134,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Trampa Cruel (DEF)(ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-1"
+        }
+      ],
+      "multiplier": "3xDEF+1xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de probabilidad de aplicar un debufo de 15% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Heridas Asoladoras (DEF)(ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-1"
+        }
+      ],
+      "multiplier": "2xDEF+2xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 40% de probabilidad de aplicar un debufo de 50% de [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerte Móvil",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-1"
+        }
+      ],
+      "description": "Cura a todos los aliados el 10% de su MAX HP. Aplica un bufo de 30% de [Aumentar DEF] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta el DEF de aliados en mazmorras en 23%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/maton-de-fortaleza.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

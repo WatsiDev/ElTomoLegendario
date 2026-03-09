@@ -1,0 +1,135 @@
+{
+  "slug": "pharsalas-gravedirt",
+  "name": "Pharsalas Gravedirt",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Debufer y controlador que gira en torno a miedos para oleadas",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": "Control de oleadas, facciones",
+  "stats": {
+    "hp": 18660,
+    "speed": 90,
+    "attack": 892,
+    "defense": 1157,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Agarre de la Tumba (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/ debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/ debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "4.4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 20% de posibilidades de aplicar un debufo de [Incitar] durante 1 turno. Aplica un debufo del 50% [Reducir ATK] durante 1 turno si el objetivo está bajo un debufo de [Miedo] o [Miedo de Verdad] .",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Necrosis (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/ debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/ debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "4.65xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de aplicar un debufo del 100% [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bastión de Féretros (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] en todos los aliados durante 2 turnos equivalente al 30% de su HP MÁXIMO. También aplica un bufo de [Fortalecer] del 15 % a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desquiciado (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "description": "Inmune a los debufos de [Miedo] y [Miedo de verdad] . Siempre que el HP de un aliado cae por debajo del 50% debido a un ataque enemigo, tiene un 50% de posibilidades de aplicar un debufo de [Miedo] en el atacante durante 1 turno. Cada vez que un enemigo mata a un aliado, tiene un 75 % de probabilidad de aplicar un debufo de [Miedo de Verdad] en todos los enemigos durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en un 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pharsalas-gravedirt.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

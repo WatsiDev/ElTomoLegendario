@@ -1,0 +1,128 @@
+{
+  "slug": "maulie-tankard",
+  "name": "Maulie Tankard",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Buen campeón de apoyo con Revivir y un poderoso incitar",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "arpa_de_kasbiel",
+    "crisalida_de_renacer",
+    "diario_de_necrotos",
+    "mascara_de_ira",
+    "elixir_dorado",
+    "cristal_de_exanima"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "resistencia",
+    "velocidad",
+    "velocidad-divina",
+    "justiciero"
+  ],
+  "uses": "Facciones, Oleadas, Hydra y algún jefe.",
+  "stats": {
+    "hp": 18495,
+    "speed": 107,
+    "attack": 881,
+    "defense": 1465,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 80
+  },
+  "skills": [
+    {
+      "name": "Asado (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a 1 enemigo. El daño aumenta en un 50% si el objetivo tiene un debufo de [Quemar HP].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pelea de bar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "reflejar-dano-2"
+        }
+      ],
+      "description": "Aplica un debufo de [Incitar] en todos los enemigos durante 1 turno. Tiene un 50% de posibilidades de aplicar un debufo de [Incitar] en el objetivo durante 2 turnos. Aplica un bufo de del 30% [Reflejar Daño] en este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "¡Salud!",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "description": "Revive a un aliado con 50% de HP y llena su barra de turno en un 50%. Aplica un bufo de [Bloquear Daño] en ese aliado durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Público Alborotado (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 2,
+      "description": "Llena los medidores de turno de todos los aliados en un 15% cuando este Campeón es golpeado. Llena los medidores de turno de todos los aliados en un 25% cuando un campeón golpea a este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Podría decirse que no hay una taberna tan famosa y querida en todo el Reino de los Enanos como el Stout Oak Inn, que se encuentra cómodamente a solo un par de calles de la plaza principal de la capital. Y Maulie Tankard, la camarera siempre alegre, cuya sonrisa deslumbra incluso al enano más rudo, jugó un papel importante en el mantenimiento de la reputación de su amado establecimiento. De hecho, sería difícil encontrar una doncella tan alegre y optimista. Maulie sabe cuándo sirven la cerveza y cuentan una anécdota que hará reír a los clientes, y cuándo incitarlos a una buena pelea de taberna. Pero cuando el polvo se asienta y los muebles rotos son arrojados por la puerta, todos vuelven a beber, cantar y alabar a su anfitriona. La vida habría seguido al mismo ritmo alegre si no fuera por la invasión demoníaca de su tierra natal. Durante un tiempo, Stout Oak se había quedado callado, no se cantaban canciones dentro de sus paredes, no se llevaban a cabo competencias ni juegos de beber. En cambio, soldados sombríos de la Guardia del Rey se refugiaron dentro. Cuando Demonspawn descendió sobre ellos, usando alas o magia oscura para vencer los muros de la ciudad, también la posada fue atacada. Fue entonces cuando Maulie Tankard mostró su coraje. Cuando un monstruoso sabueso derribó al Capitán de la Guardia y casi se le partió la mandíbula, fue Maulie quien le salvó la vida. Cogiendo un tenedor enorme, una de las salchichas que estaba cocinando aún empalada en los dientes, cargó a la bestia y la bajó con un solo golpe preciso. Envalentonado por su ejemplo, Los guerreros enanos contraatacaron y derrotaron a los demonios. Una vez que se levantó el asedio, el Capitán encontró a Maulie nuevamente y le presentó un martillo de obra maestra, uno de los símbolos más antiguos de los Guerreros Enanos, encargado a imagen de ese tenedor fatídico. Aunque era puramente simbólico, el martillo era un arma potente, y Maulie no tendría otra cuando el atractivo de la aventura finalmente la sacara de su taberna y la llevara a la superficie. Aunque donde algunos buscan gloria y riquezas, Maulie Tankard no quiere nada más que una gran cantidad de buenas historias que contar cuando regrese, y algunas recetas nuevas para consentir a sus clientes habituales. ",
+  "forms": null,
+  "image": "/src/assets/champions/maulie-tankard.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

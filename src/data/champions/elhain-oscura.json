@@ -1,0 +1,131 @@
+{
+  "slug": "elhain-oscura",
+  "name": "Elhain Oscura",
+  "faction": "No Muertos",
+  "rarity": "Épico",
+  "role": "Nuker gratuito poderoso contra campeones que congelan",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "luna_de_sangre",
+    "garra_malefica",
+    "invocatormentas",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "salvaje",
+    "despiadado"
+  ],
+  "uses": "Counter de Tormin en arenas, aunque por desgracia no se usa",
+  "stats": {
+    "hp": 17010,
+    "speed": 94,
+    "attack": 1365,
+    "defense": 804,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rayo Necrótico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.1xATK",
+      "description": "Ataca a 1 enemigo. Destruye el MAX HP del objetivo en un 30% del daño infligido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Majestad de la Muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Aplica un bufo del 50% [Aumentar ATK] a este Campeón durante 2 turnos, luego ataca a todos los enemigos. Tiene un 50 % de posibilidades de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Invierno Letal (Pasiva)",
+      "levels": [],
+      "cooldown": 1,
+      "description": "Llena la barra de turno de este campeón en un 25 % y activa instantáneamente la habilidad Majestad de la muerte cada vez que este campeón o un aliado recibe un debufo de [Congelar] .",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Venas de Hielo (Pasiva)",
+      "levels": [],
+      "cooldown": 1,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Elimina instantáneamente cualquier debufo de [Congelar] a este Campeón y la reemplaza con un bufo del 30% [Aumentar P.Crit] , un bufo del 30% [Aumentar P.Crit] y un bufo del 15% [Fortalecer] cada vez que un enemigo aplica un [ Congelar] a este campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "El futuro nunca es seguro. Nadie puede saber con certeza qué habría sido de un individuo que hubiera elegido un camino en lugar de otro, pero es posible imaginar una existencia en la que los mayores guerreros de Teleria fueran sus más terribles saqueadores.\n\n Elhain es una de esas heroínas. Una noble elfa de Aravia que se benefició de todas las ventajas de su posición: una educación completa tanto en artes marciales como académicas, y que le decían sin ambages que era superior a los muchos otros pueblos que habitaban Teleria.\n\n Esta actitud no es infrecuente entre los Altos Elfos, pero es una semilla que en algunos casos produce frutos oscuros. Aunque Elhain se convirtió en una heroína de la Luz, ¿qué habría sido de ella si hubiera permitido que su sentido de superioridad la llevara por un camino diferente? Si hubiera encontrado a alguien que la igualara, ¿podría haberla herido hasta lo más profundo de su ser?\n\n Fue durante los Cónclaves de los Elfos cuando Elhain se encontró con un Elfo Oscuro que parecía tan erudito y capaz como ella. Se llamaba Kael y estuvo a la altura de Elhain tanto en las negociaciones como en las competiciones que actuaban como interludios entre las conversaciones. Elhain se sintió intrigada por Kael, pero ¿qué habría sucedido si hubiera tratado su primera derrota a manos del Elfo Oscuro como una afrenta personal?\n\n Incapaz de aceptar que había salido perdiendo, Elhain podría haberse convencido a sí misma de que su rival había usado magia oscura para obtener una ventaja. La supuesta maldad y duplicidad de Kael parecieron confirmarse cuando más tarde se vio involucrado en un intento de asesinar a la reina Eva de Aravia. Después de escapar, Elhain aprovechó la oportunidad para vengarse y juró ante su gobernante que rastrearía y mataría al regicida en potencia.\n\n Así comenzó la cacería de Elhain. Primero buscó a Kael en Durham, pero después de varios encuentros crueles, no estaba más cerca de matarlo. Frustrada más allá de lo razonable, Elhain buscó algo que le diera la ventaja. Incursionó en la misma magia oscura que creía que su rival estaba usando, volviéndose obsesiva.\n\n Elhain comenzó a hacer tratos oscuros, comunicándose con los engendros demoníacos y haciendo juramentos que ningún verdadero Alto Elfo debería haber aceptado jamás. En un trato en particular, entregó un fragmento de su alma a cambio de un arco cubierto de escarcha cuyas flechas podían atravesar los espíritus de sus objetivos. Cuando su cacería se prolongó durante décadas, finalmente hizo el trato más terrible. Se dio cuenta de que necesitaba poder y longevidad si quería finalmente poner a Kael bajo control. Al no ver otra opción, abrazó la No-muerte y, a través de ella, le dio lealtad al Dios de las Sombras. En su arrogancia, creía que esa mancha no la corrompería. Era solo una herramienta.\n\n Elhain finalmente logró su objetivo. Sin necesidad de dormir ni de alimentarse, localizó a Kael y lo remató con una flecha. Solo cuando él cayó, Elhain se dio cuenta de la magnitud de lo que había hecho. La victoria se había convertido en su única razón de ser y, ahora que la había conseguido, no quedaba nada más.\n\n Llena de un profundo aburrimiento, Elhain podría haber acabado con su propia existencia sobre el cuerpo de su enemigo, pero su propia arrogancia la detuvo. Ella simplemente había hecho lo que debía hacerse, o eso se dijo a sí misma. Siroth calmó su angustia y alimentó sus convicciones. Le sugirió que mostrara a todos cuánto había sacrificado y el verdadero alcance de la superioridad que había alcanzado. Ella regresó a Aravia. Es una suerte para la gente de la nación de los Altos Elfos que estos eventos nunca ocurrieran.",
+  "forms": null,
+  "image": "/src/assets/champions/elhain-oscura.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

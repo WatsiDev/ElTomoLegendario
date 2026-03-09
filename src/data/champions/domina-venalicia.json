@@ -1,0 +1,143 @@
+{
+  "slug": "domina-venalicia",
+  "name": "Domina Venalicia",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Poderoso debufer y revividor para PvE y PvP",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=2AEUFklyx-w",
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "rostro_inmortal",
+    "servidumbre_de_xibia",
+    "efigie_demoniaca",
+    "varita_de_sumision",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "punteria",
+    "percepcion",
+    "bestial",
+    "velocidad",
+    "piel-de-piedra",
+    "renacer",
+    "incansable",
+    "regeneracion",
+    "mercurial"
+  ],
+  "uses": "PvE y PvP, pero brillará más en PvE. Es parecida a Ankora pero en ofensiva.",
+  "stats": {
+    "hp": 22140,
+    "speed": 108,
+    "attack": 892,
+    "defense": 1211,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Pernos de Tortura (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "2.1xATK",
+      "description": "Ataca a 1 enemigo 3 veces.\n\n Cada ataque tiene un 50% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Purgar a los Impuros (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "6xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, elimina todos los bufos de todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] y un debufo de 60% de [Reducir DEF] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sabiduría de Madre",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Revive a todos los aliados muertos con el 50% de HP y el 50% de barra de turno. Si todos los demás aliados están muertos, en lugar de lo anterior, los revive con el 75% de barra de turno y reduce 1 turno el tiempo de reutilización de todas las habilidades de los aliados revividos.\n\n También aumenta 2 turnos los tiempos de reutilización de todas las habilidades enemigas.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Benevolencia Retorcida (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "vinculo-de-dolor"
+        }
+      ],
+      "description": "Llena un 20% la barra de turno de este campeón siempre que muere un aliado. \n\nAl ser atacado por un enemigo con un debufod e [Vinculo de Dolor], cura a este campeón el 20% de MAX HP. Una vez por turno.\n\nAplica un debufo de [Vinculo de Dolor] durante 2 turnos a todos los enemigos que hagan daño equivalente a 25% o más de MAX HP de un aliado con una sola habilidad. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. ",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/domina-venalicia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

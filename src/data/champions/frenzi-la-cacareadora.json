@@ -1,0 +1,130 @@
+{
+  "slug": "frenzi-la-cacareadora",
+  "name": "Frenzi la Cacareadora",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Nuker defensivo capaz de Quemar, útil a falta de uno en Arañas, Golem o Hydra",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Hydra, Golem y Arañas",
+  "stats": {
+    "hp": 16680,
+    "speed": 100,
+    "attack": 749,
+    "defense": 1443,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Abrasador (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de activar inmediatatamente cualquier debufo de [Quemar HP] del objetivo",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mandíbula de Llamas (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "1.8xDEF",
+      "description": "Ataca 3 veces al azar. Cada ataque tiene un 75% de probabilidad de aplicar un debufo de [Quemar HP] durante 2 turnos. Llena un 10% la Barra de Turno de este campeón por cada debufo de [Quemar HP] que aplica esta habilidad",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carcajada Irritante (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. También aplica un bufo del 60% de [Aumentar DEF] a este campeónb durante 2 turnos",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Baluarte Hirviente (Pasiva) ",
+      "levels": [],
+      "description": "Este campeón obtiene 2% de DEF cada vez que se activa un debufo de [Quemar HP] en los enemigos (se acumula hasta el 20%). Se reinicia cada ronda",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en mazmorras en 30%"
+    }
+  ],
+  "lore": "Entre los Montes del Amanecer se encuentra un volcán al que los nómadas locales llaman el Abuelo Rojo, pues sus abrasadoras laderas tienen un tono carmesí debido a los minerales de color óxido y, a veces, a la sangre resplandeciente y llameante de la tierra. Fren'zi, de los nómadas Krokhan, una guerrera y piromante aprendiz del chamán de su clan, fue una de los muchos buscadores que peregrinaron al volcán en busca de una conexión espiritual más profunda con el fuego. Uno incluso podía ver al mismísimo Abuelo Rojo, el espíritu de la montaña, el alma del magma: un gigante, rojo como las laderas, que emergería si el peregrino demostraba su valía. Solo aparecía en las laderas más altas, donde pocos podían sobrevivir durante mucho tiempo. Pero si uno se enfrentaba al peligro, encontraba al gigante y preguntaba con humilde respeto, podía recibir una bendición.\n\n Tal vez demasiado ansiosa después de una larga espera, Fren'zi partió sin apenas preparación. Tenía una gran resistencia y aguante, y una gran tolerancia al calor, como todos los habitantes del desierto. También era excepcionalmente robusta, incluso para una nómada. Pero ni siquiera ella estaba preparada para el intenso calor que derretía las botas, las explosiones de gas nocivo y el aire enrarecido. Empezó a delirar y empezó a vagar al azar, asándose lentamente hasta morir. El instinto y el azar la llevaron fuera de las letales laderas y vagó por el desierto en un estado de estupor antes de desplomarse.\n\n Fren'zi salió de su estado de ebriedad al sentir la agonía de que los carroñeros devoraran su propia carne. Aún resistía reflexivamente con sus últimos restos de vitalidad, a pesar de la tentadora liberación de la muerte que estaba tan cerca. Pero entonces llegó una manada de hienas y dispersó a los carnívoros menores. Cuando una docena de mandíbulas babeantes se acercaron a ella, Fren'zi juró furiosamente que se llevaría al menos a una de ellas.\n\n Atacó con su espada en forma de gancho y partió el cráneo de la primera bestia mientras el resto la envolvía. Su última impresión cuando el dolor la abrumó fue una repentina explosión de calor intenso, como si estuviera en las laderas del volcán una vez más. Cuando volvió en sí, era una Skinwalker con la forma de una hiena, su cuerpo herido y debilitado regenerado y transformado por la maldición. Todas las hienas yacían muertas, el hedor de su carne y pelaje quemados llenaba el aire. ¿Había convocado un último estallido desesperado de piromancia, o lo había hecho alguien más? En la distancia, creyó vislumbrar una gran forma roja y torpe que desaparecía en el horizonte... pero puede que solo haya sido el brillo del lejano Abuelo Rojo distorsionado en el calor del desierto.\n\n Fren'zi regresó al campamento de la base del volcán, donde recibió la ayuda de uno de los curanderos que se ganaban la vida atendiendo a quienes, como ella, habían sido rechazados en agonía por la montaña. Aunque estaba nerviosa y murmurando, recuperó rápidamente las fuerzas. Pero ningún curandero pudo arreglar su mente, que había sido doblegada por su terrible experiencia. El agudo cacareo de una hiena llegó sin que nadie lo pidiera a sus nuevos labios caninos, y ella luchó por organizar y contener sus pensamientos. A través de una neblina de desquiciamiento, todavía se aferra a una esperanza ardiente: llegar al gigante de la montaña y rogarle que la ayude a limpiar su mente.",
+  "forms": null,
+  "image": "/src/assets/champions/frenzi-la-cacareadora.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

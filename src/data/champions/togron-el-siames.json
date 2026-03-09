@@ -1,0 +1,120 @@
+{
+  "slug": "togron-el-siames",
+  "name": "Togron el Siamés",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Poderoso campeón de apoyo para casi todo: oleadas, mazmorras, arenas...",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=n22JlZYv1W0",
+  "blessings": [
+    "sobrevivir",
+    "fuego-y-azufre"
+  ],
+  "relics": null,
+  "gear": [
+    "proteccion"
+  ],
+  "uses": "Bastante polivalente, hace nuestro equipo mucho más tanque así como aumentar su daño y aplicar muchos bufos",
+  "stats": {
+    "hp": 21315,
+    "speed": 110,
+    "attack": 958,
+    "defense": 1200,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Triturar y destrozar (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "5.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 70 % de probabilidad de aplicar un efecto de [Contagiar Bufos], tomando 1 bufo aleatorio de cada aliado y colocándola en todos los aliados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "¡La comida está lista! ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Cura a todos los aliados en un 20% del MAX HP de este Campeón. \n\nAplica un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos. También aplica un bufo de 15% de [Curación Continua] y un bufo de [Bloquear Debufos] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Generosidad de Hermano",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados. Aumenta las barras de turno de todos los aliados en un 20% y un 2% adicional por cada debufo eliminado. Finalmente, aplica un bufo de [Aumentar PUNT] del 50% a los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llena las barrigas (Pasiva) ",
+      "levels": [],
+      "description": "Aumenta el daño hecho por todos los aliados en un 10% si actualmente tienen menos HP que su objetivo. Si el HP de un aliado es igual o superior al de su objetivo,  aumenta el daño hecho un 20%.\n\n Aumenta el MAX. HP de este Campeón y de todos los aliados en un 10% cada vez que este campeón usa una habilidad activa (se acumula hasta un 50%). Restablece cada ronda. \n\nTambién aumenta el HP MÁXIMO de cada aliado en un 5 % cada vez que usan una habilidad activa (se acumula hasta un 50 %). Restablece cada ronda.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL  de los aliados en todas las batallas en un 24 %."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/togron-el-siames.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

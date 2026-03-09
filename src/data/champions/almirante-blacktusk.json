@@ -1,0 +1,135 @@
+{
+  "slug": "almirante-blacktusk",
+  "name": "Almirante Blacktusk",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Buen incitador para la facción que potencia otros controladores",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=CN4wJKywnCk",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "campana_fundida",
+    "diario_de_necrotos",
+    "corona_de_ireth",
+    "antorcha_esclava"
+  ],
+  "gear": [],
+  "uses": "Control así como protección de aliados.",
+  "stats": {
+    "hp": 20640,
+    "speed": 100,
+    "attack": 826,
+    "defense": 1376,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Hacha de Blacktusk (DEF/HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3xDEF+0.2xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Este debufo no se puede resistir si este campeón ataca fuera de su turno activo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Órdenes del Capitán ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Elimina todos los debufos de todos los aliados. Luego se une con los aliados para atacar a un enemigo. Los aliados que se unen al ataque utilizarán sus habilidades base.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Defensor de Hierrocielo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "Elimina todos los bufos de un enemigo y aplica un debufo de [Aturdir] en ellos durante 2 turnos. Llena la barra de turno de este campeón un 50%. Llena la barra de turno un 10% adicional por cada bufo eliminado del objetivo.",
+      "factionUnity": "Unidad de Enanos",
+      "unityEffects": {
+        "1-ally": "La eliminación de bufos y el debufo de [Aturdir] no se puede resistir.",
+        "2-ally": "Resetea el cooldown de esta habilidad cuando un enemigo muere bajo un debufo de [Aturdir] aplicado por este campeón.",
+        "3-ally": "Los aliados hacen el doble de daño a objetivos bajo bufos de [Aturdir] aplicados por este campeón."
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Unidor de Enanos (Pasiva)",
+      "levels": [],
+      "description": "Los aliados contraatacarán con sus habilidades base cuando pierdan más del 10% de su MAX HP de un solo golpe. Si hay varios campeones con esta habilidad en el equipo, solo se activará una.",
+      "factionUnity": "Unidad de Enanos",
+      "unityEffects": {
+        "1-ally": "Siempre que un aliado aplique un debufo de [Miedo], [Miedo de Verdad], [Congelar], [Incitar], [Dormir], [Aturdir] o [Petrificación].",
+        "2-ally": "Siempre que un aliado es atacado, tiene un 50% de aplicar un debufo de 50% de [Reducir RES] y un debufo de 30% de [Reducir VEL] en el atacante durante 1 turno. Si el aliado está bajo un bufo de [Bloquear Daño], [Inmortal], [Protección de Aliados] o [Piel de Piedra], la probabilidad aumenta al 100%. Si hay múltiples campeones en el grupo con esta habilidad, solo se activará una.",
+        "3-ally": "Al comienzo de cada ronda, aplica un bufo de [Piel de Piedra] a todos los aliados durante 1 turno. Si hay múltiples campeones en el grupo con esta habilidad, solo se activará una."
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60"
+    },
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de alaidos en todas las batallas en 15% (aplica solo a los enanos)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/almirante-blacktusk.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

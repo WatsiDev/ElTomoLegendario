@@ -1,0 +1,113 @@
+{
+  "slug": "khafru-guardamuerte",
+  "name": "Khafru Guardamuerte",
+  "faction": "No-Muertos",
+  "rarity": "Épico",
+  "role": "Épico con Burlon. Poco específico",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "curacion-milagrosa"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": "Shogun o Facciones",
+  "stats": {
+    "hp": 18330,
+    "speed": 99,
+    "attack": 749,
+    "defense": 1332,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Gladius de Hueso (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "3.9xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de traspasar 1 debufo aleatorio de este Campeón al objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Órdenes de Khafru (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "4.1xDEF",
+      "description": "Ataca a todos los enemigos. Antes de atacar, elimina 1 debufo aleatorio de todos los aliados. El daño aumenta en un 5% por cada debufo eliminado. También cura a cada aliado en un 10% del MÁX HP de este Campeón si se les eliminó un debufo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": " Incitar a los vivos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "burlon"
+        },
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Aplica un bufo de [Inmortal] a este Campeón durante 1 turno y un bufo de [Burlón] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardián de Nekhret (Pasiva)",
+      "levels": [],
+      "description": "Reduce el daño que reciben todos los aliados en un 10%. Este Campeón recibirá ese daño en su lugar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/khafru-guardamuerte.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

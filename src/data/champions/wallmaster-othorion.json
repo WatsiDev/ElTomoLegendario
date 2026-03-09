@@ -1,0 +1,141 @@
+{
+  "slug": "wallmaster-othorion",
+  "name": "Wallmaster Othorion",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Nuker capaz de tener muchos turnos y golpear en área por MAX HP",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "incansable",
+    "reflejo",
+    "impulso",
+    "cruel",
+    "percepcion"
+  ],
+  "uses": "Hydra principalmente. Versión mejorada de Guardia Real. Puede servir para setups de one-shot en Necrópolis de Arena",
+  "stats": {
+    "hp": 15690,
+    "speed": 100,
+    "attack": 1454,
+    "defense": 1079,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Flecha Caída del Cielo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "2.5xATK",
+      "description": "Ataca a todos los enemigos. Este ataque no activa Contraataques. \n\nLlena un 5% la barra de turno de este campeón por cada enemigo que esté vivo después del ataque.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Disparo del Halcón (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob.Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob.Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "1.5xATK+0.035xMAX HP Enemigo",
+      "description": "Ataca a todos los enemigos 2 veces. El primer ataque tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] durante 2 turnos. El segundo ataque tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos.\n\n Llena un 5% la barra de turno de este campeón por cada enemigo que esté vivo después del ataque",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marcado para Siempre",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar ATK] un bufo de 50% de [Aumentar PUNT] y un bufo de 30% de [Aumentar VEL] a este campeón durante  3 turnos. Luego obtén un turno adicional",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Nadie es Imbatible (Pasiva)",
+      "levels": [],
+      "description": "Aumenta un 20% el Max.HP de este campeón por cada enemigo que mata o cada cabeza de Hydra que decapita (se acumula hasta 50.000)",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/wallmaster-othorion.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

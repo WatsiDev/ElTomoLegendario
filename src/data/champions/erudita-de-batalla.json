@@ -1,0 +1,101 @@
+{
+  "slug": "erudita-de-batalla",
+  "name": "Erudita de Batalla",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Limpiador de apoyo útil en ciertos sitios",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": "Facciones y early game, poco más",
+  "stats": {
+    "hp": 18000,
+    "speed": 100,
+    "attack": 980,
+    "defense": 1123,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Corte Relámpago (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "2.8xATK",
+      "description": "Ataca a todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Toque de la Naturaleza",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar Ataque] en todos los aliados durante 2 turnos, luego elimina todos los debufos de todos los aliados. Este bufo no se puede eliminar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Abrazo Maternal",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Aplica un bufo de [Revivir al Morir] a un aliado objetivo durante 3 turnos. El aliado revivirá instantáneamente si muere.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en 19%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/erudita-de-batalla.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

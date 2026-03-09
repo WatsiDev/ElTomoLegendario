@@ -1,0 +1,129 @@
+{
+  "slug": "jotun",
+  "name": "Jotun",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Épico mediocre con un Quemar HP de 4 turnos",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Jefes en early por el largo Quemar HP. Para todo lo demás es muy mediocre",
+  "stats": {
+    "hp": 16680,
+    "speed": 93,
+    "attack": 991,
+    "defense": 1200,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Fuerza Bruta (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aplicar un debufo del 30 % [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espada Ardiente (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "0.4xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de posibilidades de aplicar un debufo de [Quemar HP] durante 4 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Chamuscar (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "0.43xHP",
+      "description": "Ataca a 1 enemigo. Destruye el HP MAX del objetivo en un 30% del daño infligido. El daño aumenta en un 50% si el objetivo está bajo un debufo de [Quemar HP] .",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en criptas de Facción en 29%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/jotun.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

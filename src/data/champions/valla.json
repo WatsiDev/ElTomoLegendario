@@ -1,0 +1,126 @@
+{
+  "slug": "valla",
+  "name": "Valla",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Debufer de tipo defensa con buen daño",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "rocadragon_dorada",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 16845,
+    "speed": 99,
+    "attack": 771,
+    "defense": 1409,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Filo Penetrante (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "1.55xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Aumenta el daño infligido en un 15% si el objetivo está bajo un bufo de [Escudo].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Destrozar Muros (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Elimina todos los debufos de [Escudo] de todos los enemigos y luego ataca a todos los enemigos. Tiene un 30 % de probabilidad de aplicar un debufo del 60 % [Reducir DEF] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Nucleo Reforzado (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] en este campeón durante 3 turnos igual al 20 % de su HP MÁXIMO. También aplica un bufo de [Aumentar DEF] del 60 % a este campeón durante 3 turnos y llena la barra de turno de este campeón en un 50 %.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Defensa Firme (Pasiva)",
+      "levels": [],
+      "description": "Reduce un 15% el daño que sufre este campeón mientras tenga un bufo de [Escudo]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en batallas de Arena en 45."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/valla.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

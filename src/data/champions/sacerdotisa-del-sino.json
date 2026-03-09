@@ -1,0 +1,96 @@
+{
+  "slug": "sacerdotisa-del-sino",
+  "name": "Sacerdotisa del Sino",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Gran campeón de apoyo con curas y limpieza de debufos pasiva",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "curacion-milagrosa"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "diario_de_necrotos"
+  ],
+  "gear": [],
+  "uses": "Dragón, facciones y varios jefes de la torre del destino",
+  "stats": {
+    "hp": 19320,
+    "speed": 100,
+    "attack": 980,
+    "defense": 1035,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ola del Destino (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "multiplier": "4.1xATK",
+      "description": "Ataca a 1 enemigo. Si el golpe es crítico, aplica un bufo del 15% [Aumentar P.Crit] en un aliado aleatorio durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Posesión en masa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo del 50% [Aumentar ATK] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Impulsar (Pasiva)",
+      "levels": [],
+      "description": "Cura a todos los aliados en un 7.5% de su HP y elimina un debufo al azar que tengan al comienzo del turno de este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados de fuerza en todas las batallas en un 15%."
+    }
+  ],
+  "lore": "Los humildes acólitos del Culto de K'Leth hablan de los 'Sacerdotes de la Inmortalidad', aquellos que, según ellos, son figuras importantes en los rituales de transferencia de almas del Culto. Para los Caballeros Revenant, estos seres son conocidos por su verdadero nombre: Sacerdotes de la Muerte. Y, como su verdadero nombre delata, los Sacerdotes de la Muerte no son los salvadores que los cultistas menores creen que son.\n\n Las magias involucradas en la transferencia de almas de sus anfitriones a gemas de almas no son fáciles de dominar y, a medida que el Culto crecía, la necesidad de recolectar cuerpos para los Caballeros Revenant abrumaba la capacidad del pequeño número de Pastores de Almas. En un esfuerzo por mantener un suministro constante, acordaron enseñar el arte de la transferencia a unos pocos iniciados de confianza a los que llegaron a llamar Sacerdotes de la Muerte. Pero los Pastores de Almas se reservaron para sí mismos el arte de transferir almas de gemas a cuerpos, protegiendo así la mitad más crucial de su conocimiento arcano.\n\n Para la mayoría de los fieles del Culto, estos 'Sacerdotes de la Inmortalidad' son los heraldos de su ansiada recompensa: el comienzo de su viaje hacia la vida eterna. Pero los Sacerdotes de la Perdición y los Caballeros Revenant a los que sirven saben que muy pocas gemas del alma son transferidas a un nuevo cuerpo con su preciado contenido.\n\n La jerarquía entre los Sacerdotes de la Muerte sigue siendo opaca, pero se cree que la más importante entre ellos es Lady Klaxis, y la historia de cómo llegó a serlo dice mucho sobre las oscuras prácticas del Culto.\n\n Hija de un comerciante rico y codicioso, Klaxis fue marginada por su padre, cuya principal preocupación era el comercio y los negocios. Debido a sus vínculos financieros con el Culto de K'Leth, había llegado a saber que el dinero por sí solo no podía comprar la inmortalidad, y fue reclutado fácilmente. Después de haberle prometido que se le otorgaría rápidamente un nuevo cuerpo físico, felizmente se ofreció a renunciar a su propio cuerpo. Aunque el ritual en el que se extrajo su alma debería haber sido secreto, Klaxis había seguido a su padre y había observado desde un escondite cómo el Sacerdote de la Muerte transfería su esencia a una gema del alma. Fue descubierta, tomada prisionera y obligada a trabajar para el Culto.\n\n Con el alma de su padre atrapada, Klaxis no tenía adónde ir ni nadie que la ayudara, por lo que permaneció con el Culto, haciendo lo que fuera necesario para sobrevivir. Se ganó la confianza de sus captores y aprendió sus métodos, y años después comprendió el poder de los Sacerdotes de la Muerte. Se le permitió ayudar en las ceremonias de transferencia de almas y más tarde fue aceptada en sus filas. Hizo alianzas estrechas con varios pastores de almas prominentes, lo que le permitió asumir el papel de primera entre iguales y volverse indispensable.\n\n Desde entonces, Klaxis se encuentra en posesión de la brillante gema del alma que contiene la esencia de su padre. Tener poder sobre el hombre que una vez tuvo poder sobre ella le parece una ironía apropiada. Pero aún está por verse cómo usará ese poder. ¿Buscará el conocimiento prohibido que liberará a su único pariente? ¿O conservará su alma como una baratija, un recordatorio de lo lejos que ha llegado?",
+  "forms": null,
+  "image": "/src/assets/champions/sacerdotisa-del-sino.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

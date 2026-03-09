@@ -1,0 +1,140 @@
+{
+  "slug": "vergumkaar",
+  "name": "Vergumkaar",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Tanque anti-incitar",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "campana_fundida",
+    "mascara_de_ira"
+  ],
+  "gear": [],
+  "uses": "Facciones como mucho, no es gran cosa.",
+  "stats": {
+    "hp": 22140,
+    "speed": 99,
+    "attack": 914,
+    "defense": 1189,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Mole enjoyada (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 35% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno. La probabilidad aumenta en un 15% por cada bufo en el objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Anciano Honrado",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Elimina todos los debufos de [Provocar] y 1 debufo aleatorio de todos los aliados. Aplica un bufo del 60% [Aumentar DEF] durante 2 turnos a los aliados a los que se les han eliminado los debufos. También aplica un bufo de [Escudo] en todos los aliados igual al 20% del MAX HP de este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pisotear y Aplastar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4.85xATK",
+      "description": "Ataca a todos los enemigos. Elimina 1 bufo aleatorio de cada enemigo. Tiene un 75% de probabilidad de eliminar 2 bufos aleatorio de cada enemigo. Aplica un debufo del 100% [Bloquear Curación] durante 3 turnos a los enemigos a los que se les ha eliminado 1 o más bufos. También aplica un debufo del 60% [Reducir DEF] durante 2 turnos en enemigos a los que se les han eliminado 2 bufos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estoico saurio (Pasiva)",
+      "levels": [],
+      "description": "Inmune a los debufos de [Provocar]. Llena la barra de turno de este campeón en un 20% cada vez que un enemigo intenta aplicar un debufo de [Provocar] en este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en todas las batallas en 55"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/vergumkaar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

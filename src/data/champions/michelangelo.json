@@ -1,0 +1,161 @@
+{
+  "slug": "mikey",
+  "name": "Mikey",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Nuker con debufos",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=6DD5qHwHYPM",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "invocatormentas",
+    "corona_de_ireth",
+    "campana_fundida",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_corrompida",
+    "pasion_codiciosa",
+    "colmillo_asesino",
+    "sombra_encaramada",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "punteria",
+    "letal",
+    "despiadado",
+    "piel-de-piedra",
+    "cruel",
+    "mercurial"
+  ],
+  "uses": "Bastante versátil, arenas en early, oleadas o hydra",
+  "stats": {
+    "hp": 15360,
+    "speed": 99,
+    "attack": 1520,
+    "defense": 1035,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Buu-ya! (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 2 veces a un enemigo.\n\n Si alguno de los dos ataques es crítico, aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Entrega Exprés",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Ignora el 25% de RES si este ataque es crítico.\n\n Luego aplica un efecto de [Contagiar Debufos] que contagia todos los debufos del objetivo a todos los enemigos. Ignora el 25% de RES si el ataque inicial ha sido crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ciclón Caparazón",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "burlon"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] y un debufo de [Chupar Sangre] durante 2 turnos. Ignora el 25% de RES si este ataque es crítico.\n\n Luego aplica un bufo de [Burlón] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fiestero (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "[Efecto Pasivo]\n\n Tiene un 15% de probabilidad de Evadir una habilidad enemiga y todos los efectos asociados. Si este campeón tiene un bufo de [Burlón], la probabilidad aumenta a un 30%.\n\n Este campeón se une al ataque siempre que ataca Leonardo, Donatello, Mikey o Raphael.\n\n [Efecto Activo]\n\n Aplica un bufo de [Escudo] a este campeón del 300% de su ATK durante 1 turno cuando sufre un ataque.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 70"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/mikey.webp",
+  "masteries": [],
+  "artworks": [
+    "/src/assets/artworks/mikey/mikey_artwork.webp"
+  ],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

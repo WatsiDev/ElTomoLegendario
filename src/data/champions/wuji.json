@@ -1,0 +1,138 @@
+{
+  "slug": "wuji",
+  "name": "Wuji",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Debufer versátil pero increíblemente frágil",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "aturdir",
+    "punteria",
+    "ferreo",
+    "incondicional",
+    "velocidad"
+  ],
+  "uses": "Si la mantenemos viva, es útil en oleadas, Torre del Destino o incluso Hydra.",
+  "stats": {
+    "hp": 10080,
+    "speed": 97,
+    "attack": 1498,
+    "defense": 1134,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada Doble Letal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos. [Ataca a todos los enemigos en lugar de solo 1 al contraatacar con esta habilidad.]",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mundo de Oscuridad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 55% de probabilidad de aplicar un debufo de [Bloquear Bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Artes Shinobi",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Aplica un bufo de [Velo Perfecto] y un bufo de [Contraataque] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en todas las batallas en 20%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/wuji.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

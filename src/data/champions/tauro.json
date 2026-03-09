@@ -1,0 +1,117 @@
+{
+  "slug": "tauro",
+  "name": "Tauro",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Envenenador de nicho",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=JdrZC6U2n4A",
+  "blessings": [
+    "presencia-dominante"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "garra_malefica",
+    "elixir_aracnido",
+    "lente_intangible",
+    "caldero_acaparador"
+  ],
+  "gear": [],
+  "uses": "Muy pocos, salvo alguna setup especial de explotar venenos",
+  "stats": {
+    "hp": 17010,
+    "speed": 101,
+    "attack": 1310,
+    "defense": 859,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Metabolizar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Cura un 20% del daño infligido si el objetivo tiene un debufo de [Veneno] .",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corte de Tendón (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de posibilidades de aplicar un debufo de [Debilitar] del 25% durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Nova Tóxica (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "description": "Este Campeón recibe daño equivalente al 99% de su HP actual. Aplica un bufo de [Inmortal] en este Campeón durante 2 turnos. Tiene un 80% de posibilidades de aplicar 4 debufos de [Veneno] del 5% a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/tauro.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

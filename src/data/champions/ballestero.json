@@ -1,0 +1,102 @@
+{
+  "slug": "ballestero",
+  "name": "Ballestero",
+  "faction": "Hidalgos",
+  "rarity": "Raro",
+  "role": "Muy malo",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": "Ninguno, un pollo.",
+  "stats": {
+    "hp": 13875,
+    "speed": 95,
+    "attack": 1167,
+    "defense": 936,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Disparo Instantáneo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de probabilidad de atacar una vez más.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vista Aguda",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% de [Aumentar P.Crit] a un aliado objetivo durante 2 turnos. Obtén un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Flecha Roma (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        },
+        {
+          "key_name": "reducir-vel-2"
+        }
+      ],
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. También tiene un 50% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ballestero.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

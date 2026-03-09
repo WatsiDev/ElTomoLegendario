@@ -1,0 +1,139 @@
+{
+  "slug": "jurojin",
+  "name": "Jurojin",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Tanque con algo de daño, control y debufos",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "apagador_de_esencia",
+    "garra_malefica",
+    "elixir_dorado",
+    "lente_intangible"
+  ],
+  "gear": [
+    "inmortal",
+    "percepcion",
+    "robo-de-vida",
+    "regeneracion"
+  ],
+  "uses": "No muchos, algo limitado",
+  "stats": {
+    "hp": 20970,
+    "speed": 98,
+    "attack": 738,
+    "defense": 1167,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Pica de Monje (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.24xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 45% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Duelo Predestinado (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "0.32xHP",
+      "description": "Obtén un bufo de [Escudo] del 25% de su MAX HP durante durante 2 turnos y luego ataca a 1 enemigo. Aplica un debufo de [Incitar] durante 1 turno.\n\n Si el objetivo tiene igual o menos MAX HP que este campeón el debufo de [Incitar] no se puede resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Castigo Verdadero (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.32xHP",
+      "description": "Ataca a 1 enemigo. Ignora el 25% de DEF. También ignora bufos de [Inmortal] y [Bloquear Daño].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sonreír a la Muerte (Pasiva)",
+      "levels": [],
+      "description": "Sufre un 25% menos de daño de ataques enemigos cuando sus HP bajan al 50% o menos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta los HP de los aliados en todas las batallas en un 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/jurojin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

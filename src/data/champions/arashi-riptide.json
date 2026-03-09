@@ -1,0 +1,138 @@
+{
+  "slug": "arashi-riptide",
+  "name": "Arashi Riptide",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Buen nuker de HP para arena para batallas largas y capaz de quitar piel de piedra",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=rBmxpbeOcbk",
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "invocatormentas",
+    "luna_de_sangre",
+    "garra_malefica",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Nuker de HP. Puede usarse en oleadas y Guerra de Facciones.",
+  "stats": {
+    "hp": 23955,
+    "speed": 100,
+    "attack": 793,
+    "defense": 1189,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Hojas Escondidas (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "velo"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "0.14xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 75% de probabilidad de robar 1 bufo al azar. Este efecto no se puede resistir si el campeón tiene un bufo de [Velo] o [Velo Perfecto].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asesino Náutico (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "0.34xHP",
+      "description": "Ataca a 1 enemigo. Ignora el 25% de DEF y bufo de [Escudo] y [Fortalecer]. Si este campeón tiene un bufo de [Velo] o [Velo Perfecto] también ignora bufos de [Piel de Piedra]. \n\nSi este ataque mata a un enemigo, aumenta 1 turno la duración de todos los bufos de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ataque Contracorriente",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "multiplier": "0.32xHP",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de [Velo Perfecto] y un bufo de 30% de [Aumentar D.Crit] a este campeón durante 2  turnos.\n\nEste ataque hace daño individual a cada objetivo en lugar de daño de área. Ignora el 15% de DEF del primer enemigo. Después de atacar al primer enemigo, ataca al resto de enemigos. Tras el primer ataque, cada ataque posterior ignora un 5% más de DEF que el anterior (se acumula hasta el 35%). \n\n+5% de HP por cada enemigo que mata esta habilidad (se acumula hasta el 30%)",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Señor de los Piratas (Pasiva) ",
+      "levels": [],
+      "description": "[Efecto Pasivo]Al comienzo de cada ronda, aplica un bufo de [Velo Perfecto] a este campeón durante 1 turno. Tiene un 20% de probabilidad de reflejar todo el daño y los debufos que recibe este campeón de vuetla al atacante.\n\n[Efecto Pasivo] Si el daño reflejado mata a un enemigo, llena un 30% la barra de turno de este campeón y aplica un bufo de [Velo Perfecto] a este campeón durante 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en batallas de arena en 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/arashi-riptide.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

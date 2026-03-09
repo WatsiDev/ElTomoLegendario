@@ -1,0 +1,144 @@
+{
+  "slug": "arnorn-el-brillante",
+  "name": "Arnorn el Brillante",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Nuker con sinergias interesantes para arenas",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=_7QV3f4Eoto",
+  "blessings": [
+    "desgarro-aplastante",
+    "segar-almas"
+  ],
+  "relics": [
+    "invocatormentas",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "garra_malefica",
+    "la_carcajada_final",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "despiadado",
+    "dano-critico",
+    "golpe-mortal",
+    "instinto"
+  ],
+  "uses": "Nuker de arenas. Bien equipado y si se dan las condiciones, pega muy fuerte",
+  "stats": {
+    "hp": 15855,
+    "speed": 103,
+    "attack": 1586,
+    "defense": 936,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Hendidura Brillante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "1.75xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Hace 5% más de daño por cada bufo que tiene el objetivo. Cada ataque tiene un 35% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza de Luz Tenue (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "2.7xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Esta habilidad hace un 10% más de daño por cada 10% de HP que ha perdido este campeón. Si el objetivo tiene 2 o más debufos, también ignora el 35% de DEF del objetivo.\n\n Obtén un turno adicional si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ira del Glimo de Hroth (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "3.4xATK",
+      "description": "Ataca a todos los enemigos. Ignora bufos de [Aumentar DEF], [Fortalecer] y [Escudo].\n\n Si este ataque mata algún enemigo, reduce un 50% las barras de turno de todos los enemigos. Este efecto no se puede resistir.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rey Dorado (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "piel-de-piedra"
+        }
+      ],
+      "description": "[Efecto Pasivo]\n\n +5% de ATK por cada bufo activo del grupo enemigo (se acumula hasta el 100%)\n\n [Efecto Pasivo ]\n\n Evita que este campeón muera y le mantiene con vida con 1 HP al sufrir un ataque mortal. Le aplica un bufo de [Piel de Piedra] durante 1 turno. Luego, activa inmediatamente la habidad de Ira del Glimo de Hroth. Esto no hará que esa habilidad entre en tiempo de reutilización.\n\n Si hay varios campeones en el grupo con esta habilidad, solo activa una. ",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de todos los aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/arnorn-el-brillante.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

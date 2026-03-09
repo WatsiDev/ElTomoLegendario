@@ -1,0 +1,121 @@
+{
+  "slug": "chaman",
+  "name": "Chamán",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Campeón con revivir gratuito solo sirve los primeros días de juego.",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "dedo_real",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "punteria",
+    "vida",
+    "vida-divina",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Muy mala, como mucho dejarla al 50 como revividor de facciones",
+  "stats": {
+    "hp": 17505,
+    "speed": 106,
+    "attack": 1112,
+    "defense": 1024,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe de Desencantar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de eliminar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Explotar la debilidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "multiplier": "5.1xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo del 15% [Aumentar P.Crit] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Evocar (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Revive a un aliado con el 50% de su HP. Aplica un bufo de [Escudo] en el objetivo equivalente al 20% de los PS del objetivo.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en las criptas de facción en un 23%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/chaman.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

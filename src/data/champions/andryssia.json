@@ -1,0 +1,145 @@
+{
+  "slug": "andryssia",
+  "name": "Andryssia",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Tanque de usos limitados con debufos algo nicho",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante"
+  ],
+  "relics": [
+    "campana_fundida",
+    "abanico_negro"
+  ],
+  "gear": [
+    "defensa",
+    "resiliencia",
+    "redirigir",
+    "inmortal",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Facciones, se queda alto corta para contenido más dificil",
+  "stats": {
+    "hp": 18330,
+    "speed": 102,
+    "attack": 793,
+    "defense": 1288,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cachiporra Censuradora (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-d-crit-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de posibilidades de aplicar un debufo del 25% [Reducir D.Crit] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Prisión Mental (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "5.7xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno si el objetivo no tiene ningún bufo. Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 2 turnos si el objetivo tiene algún bufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Justicia Puntiaguda (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de reducir la duración de todos los bufos enemigos en 2 turnos. Aumenta la duración de todos los bufos de [Aumentar DEF] en los aliados en 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corazón Fuerte",
+      "levels": [],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Al comienzo de cada turno aplica un bufo de 50% de [Protección de Aliado] durante 2 turnos al aliado con menos MAX HP. No se aplicará a este campeón. También aplica un bufo de 25% de [Fortalecer] y un bufo de 60% de [Aumentar Defensa] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/andryssia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

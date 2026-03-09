@@ -1,0 +1,136 @@
+{
+  "slug": "guardia-de-honor",
+  "name": "Guardia de Honor",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Debufer limitado",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Bastante malo, no se usa.",
+  "stats": {
+    "hp": 15525,
+    "speed": 99,
+    "attack": 760,
+    "defense": 1233,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 55
+  },
+  "skills": [
+    {
+      "name": "Campanero (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-1"
+        }
+      ],
+      "multiplier": "3.12xDEF",
+      "description": "Ataca a 1 enemigo. \n\nTiene un 50% de probabilidad de aplicar un debufo de 25% de [Reducir PUNT] durante 2 turnos si el objetivo no tiene ningún bufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Transferir Destino (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.25xDEF",
+      "description": "Ataca a 1 enemigo. \n\nTiene un 50% de probabilidad de robar 2 bufos al azar del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cadenas Astrales (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "5.1xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/guardia-de-honor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

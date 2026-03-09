@@ -1,0 +1,132 @@
+{
+  "slug": "solanar-el-resplandeciente",
+  "name": "Solanar el Resplandeciente",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Nuker poderoso, pareja de Noldua la Crepuscular, capaz de ignorar piel de piedra, ignorar defensa, robar curaciones y ser inmune a debufos. Mucho más poderoso combinado con Noldua",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=GQxGXbwzYlY",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "malleos_de_fuego",
+    "mirada_del_gato",
+    "invocatormentas"
+  ],
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "letal",
+    "despiadado",
+    "instinto",
+    "salvaje"
+  ],
+  "uses": "Bastante poderoso para lidiar. con oleadas. Enfocado más quizá a Arenas junto con Noldua para intentar hacer counter al meta de velocidad",
+  "stats": {
+    "hp": 14700,
+    "speed": 105,
+    "attack": 1608,
+    "defense": 991,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Llamarada Solar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "fatiga"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Este ataque siempre es crítico si Noldua la Crepuscular está en el mismo equipo.\n\n Tiene un 60% de probabilidad de aplicar un debufo de [Fatiga] a todos los enemigos durante 1 turno.\n\n[Efecto Pasivo]\n\n Tiene un 80% de probabilidad de contraatacar con esta habilidad siempre que un enemigo obtiene un turno extra o tiene un efecto de [Turno Instantáneo] activado. Tiene un 15% de probabilidades de contraacar con esta habilidad siempre que un enemigo tiene su barra de turno aumentada.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza Llameante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Ataca a 1 enemigo. Este ataque siempre es crítico si Noldua la Crepuscular está en el mismo grupo. Ignora el 10% de la DEF del objetivo por cada bufo en este campeón.\n\n Este campeón es inmune a todos los debufos mientras esta habilidad no está en tiempo de reutilización. Siempre que un enemigo intenta aplicar un debufo en este campeón mientras esta habilidad no está en tiempo de reutiización, este campeón recibe un bufo aleatorio en su lugar",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resplandor sin Restricciones (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +20%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, roba todos los bufos y el 100% de la barra de turno del objetivo si este no está bajo un bufo de [Piel de Piedra]. Este efecto no se puede resistir. Este ataque siempre es crítico si Noldua la Crepuscular está en el mismo equipo. Ignora bufos de [Piel de Piedra]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estudiante del Sol (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-de-magma"
+        }
+      ],
+      "description": "Siempre que un enemigo recibe una curación, tiene un 100% de probabilidad de reducir esa curación recibida a 0. Este campeón recibirá esa curación en su lugar. Si Noldua la Crepuscular está en el mismo equipo, los enemigos recibirán daño igual a la cantidad de la curación en su lugar.\n\n Una vez por ronda, si este campeón está muerto, revive a este campeón con 100% de HP y 100% de barra de turno cuando el último aliado vivo muera. Luego aplica un bufo de [Escudo de Magma] en este campeón durante 2 turnos. El valor del escudo de [Escudo de Magma] es igual al 300% de MAX HP de este campeón. Si Noldua la Crepuscular está en el mismo equipo, este bufo será protegido.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en todas las batallas en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/solanar-el-resplandeciente.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

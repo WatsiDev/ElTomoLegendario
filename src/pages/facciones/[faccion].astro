@@ -1,9 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import ChampionCard from "../../components/champion/ChampionCard.astro"; // Ajusta si tu componente está en otra ruta
-
-import champions from "../../data/champions.json";
-import factionsList from "../../data/factions.json";
+import factionsData from "../../data/factions.json";
+import { getRarityStyle } from "../../utils/rarity";
 
 interface Champion {
   slug: string;
@@ -29,6 +28,16 @@ interface Props {
 }
 
 export async function getStaticPaths() {
+  const factionsList = factionsData.factions;
+
+  // Cargar todos los campeones desde la carpeta de datos
+  const championFiles = import.meta.glob("../../data/champions/*.json", {
+    eager: true,
+  });
+  const champions = Object.values(championFiles).map(
+    (file: any) => file.default || file,
+  );
+
   // Recorremos la lista de facciones para crear una página por cada una
   return factionsList.map((factionData) => {
     // 1. Generamos el SLUG (URL) en minúsculas y con guiones
@@ -38,7 +47,7 @@ export async function getStaticPaths() {
     // 2. Filtramos los campeones usando el NOMBRE EXACTO (con mayúsculas/espacios)
     // Comparamos factionData.name ("Orden Sagrada") con champion.faction ("Orden Sagrada")
     const factionChampions = champions.filter(
-      (c) => c.faction === factionData.name,
+      (c: any) => c.faction === factionData.name,
     );
 
     // 3. Orden de Rareza y Afinidad
@@ -53,7 +62,7 @@ export async function getStaticPaths() {
     const affinityOrder = ["Espíritu", "Magia", "Fuerza", "Vacío"];
 
     // 4. Agrupar por Rareza
-    const groupedChampions: Record<string, typeof champions> = {};
+    const groupedChampions: Record<string, Champion[]> = {};
     rarityOrder.forEach((rarity) => {
       const champsInRarity = factionChampions.filter(
         (c) => c.rarity === rarity,
@@ -82,13 +91,12 @@ export async function getStaticPaths() {
   });
 }
 
-import { getRarityStyle } from "../../utils/rarity";
-
 // Recuperamos las props
 const { factionName, factionData, groupedChampions, allChampions } =
   Astro.props as Props;
-const factionImage = factionData?.image || "/favicon.png";
+const factionImage = factionData?.image || "/assets/favicon.png";
 ---
+
 <Layout title={`${factionName} - Campeones`}>
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div

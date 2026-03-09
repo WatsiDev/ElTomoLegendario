@@ -1,0 +1,132 @@
+{
+  "slug": "emic-trunkheart",
+  "name": "Emic Trunkheart",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Tanque con reducir habilidades y burlón útil tanto en PvE como PvP",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=ZsXuCiCz8uU",
+  "blessings": [
+    "polimorfar",
+    "fuego-y-azufre"
+  ],
+  "relics": null,
+  "gear": [
+    "velocidad",
+    "reflejo"
+  ],
+  "uses": "Puntuales y específicos, pero es irremplazable en muchos equipos. Gemelos, Jefe de clan en setups inmortales. Shogun también.",
+  "stats": {
+    "hp": 23130,
+    "speed": 105,
+    "attack": 848,
+    "defense": 1189,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Zarzillo de Raíz de Tierra (HP) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "0.24xHP",
+      "description": "Ataca a 1 enemigo. Aumenta el valor de todas los bufos de [Escudo] de este campeón en un 25 %. También aumenta el tamaño de cualquier  [Escudo] en el aliado con el HP más bajo en un 25 %.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Terremoto de Vides (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.27xHP",
+      "description": "Ataca a todos los enemigos. Aplica un bufo de [Escudo] en todos los aliados equivalente al 30% del HP MÁXIMO de este Campeón durante 2 turnos. Disminuye el tiempo de reutilización de todas las habilidades de los aliados, excepto la de este Campeón, en 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Santuario de Corazón de Arbol (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "burlon"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de [Inmortal] a todos los aliados durante 2 turnos. También aplica un bufo de [Burlón] y un bufo de [Escudo] en este campeón durante 2 turnos. El valor del [Escudo] es igual al 30% del HP MÁXIMO de este Campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Enredo (Pasiva) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15 %"
+        }
+      ],
+      "description": "Cuando es atacado con un bufo de [Escudo], tiene un 50 % de probabilidad de aumentar el tiempo de reutilización de una habilidad aleatoria en el atacante en 2 turnos. Ocurre una vez por ataque. Cada vez que el HP de un aliado cae por debajo del 20%, aumenta el daño infligido por ese aliado en un 20%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en Mazmorras en 40%"
+    }
+  ],
+  "lore": "Emic Trunkheart no sabe de dónde vino, ni comprende el significado de la vida o del mundo más allá de su abrumador impulso por servir y proteger el Bosque de la Niebla. Los Vigilantes Silvanos aún no han logrado comunicarse con este solitario centinela; aunque lo perciben a través del Ritmo, Trunkheart sigue una melodía diferente. Algunos especulan que es una manifestación del Ritmo corrupto, fusionado con las almas virtuosas de guerreros caídos.\n\n Solo hay una persona que afirma conocer la verdad absoluta: la trovadora élfica Lila Stringpicker. Ella relata la historia de Emic a los Silvanos, desde las más pequeñas aldeas en las copas de los árboles hasta los grandes salones de Nyresa.\n\n El relato comienza cuando los señores Silvanos ordenaron un contraataque contra los Silvanos corruptos y los Demonspawn que habían infestado el Bosque de la Niebla tras haber expulsado a los Silvanos de su sagrado Árbol Corazón. Muchos años habían pasado desde el establecimiento de Nyresa, pero los Silvanos aún lloraban por sus bosques perdidos y sus hogares abandonados. Un ejército fue enviado para reclamar los restos del antiguo Árbol Corazón y los bosques circundantes, y para purgar el mal de sus raíces profundas.\n\n La batalla duró días. Los Vigilantes Silvanos lucharon con tal feroz determinación que los Demonspawn no pudieron permitirse tomar a ninguno prisionero. En su desesperada defensa, los Demonspawn quemaron grandes extensiones de tierra, y miles de Silvanos fueron incinerados por las llamas. A pesar de los mayores esfuerzos de los guerreros Silvanos por limpiar el Árbol Corazón, la oscuridad que envenenaba la tierra era inquebrantable. Los guerreros solo lograron frenar el avance de la corrupción antes de que los Demonspawn masacraran a tantos que los restos del ejército se vieron obligados a retirarse.\n\n El sacrificio de estos guerreros fue fundamental en la guerra contra el mal, ganando tiempo para que años después los Shadowkin, los Silvanos y los Enanos de Hierrocielo detuvieran finalmente la corrupción, evitando que la maldad devastara aún más el bosque. Sin embargo, nadie pudo recuperar sus cuerpos para honrarlos. Su sangre empapó la tierra, y su carne alimentó las raíces del Árbol Corazón, y con el tiempo, sus vidas se desvanecieron en historias de nobles héroes contadas a los niños bajo las estrellas.\n\n Pero el Árbol Corazón los recordó. Aunque el odio y la oscuridad del mal estaban tan profundamente arraigados que el Árbol quedó marcado para siempre por su corrupción, las canciones de esos guerreros aún resonaban en las raíces. A través del Ritmo, una fracción de sus almas quedó atrapada en las raíces del Árbol. Habitaron dentro del Árbol Corazón durante muchos inviernos, creciendo lentamente.\n\n Es en esta parte de la historia donde la trovadora afirma que ella misma jugó un papel vital. Lila había estado viajando por las tierras calcinadas del Bosque de la Niebla en busca de sinfonías olvidadas. Mientras evitaba a las locas Fae que habitaban allí, escuchó una melodía peculiar y la siguió hasta el tronco ennegrecido del Árbol Corazón. Desde debajo de la corteza podrida, un débil latido respondía cuando golpeaba la suave madera. Con un cuchillo, Lila cavó en el Árbol, retirando el mantillo muerto hasta encontrar una pequeña parte de madera sana y marrón debajo. Esta se retorció y tembló, transformándose en la figura de un guerrero, sin duda en memoria de los Vigilantes Silvanos caídos al pie del Árbol años atrás.\n\n Lila intentó llevarse al pequeño guerrero con ella, pero el Fae se negó a dejar el lugar de su nacimiento, así que ella continuó su viaje sola. Vagó por los peligrosos bosques durante el resto de la temporada y una noche fue despertada por un Demonspawn que la arrastraba entre espinas. La trovadora pateó y gritó, sabiendo en su corazón que nadie vendría a ayudarla... pero algo lo hizo. Una criatura de madera y hojas se abalanzó contra el Demonspawn. Lo derribó con su escudo y lo destrozó con su hacha. Este salvador desconocido se parecía a la pequeña figura de madera que había encontrado antes. Ahora estaba completamente desarrollado y resonaba no solo con una voluntad profunda y noble de defender, sino también con un aterrador y vengativo poder dispuesto a cumplir su propósito sin remordimientos.\n\n Lila lo llamó Emic Trunkheart y difundió la historia de una criatura forjada a partir del Árbol Corazón marcado y de almas heroicas. Qué tan ficticia es la historia de la trovadora aún está por verse, pero los Vigilantes Silvanos han presenciado a un Fae que coincide con sus descripciones enfrentando amenazas de la corrupción que aún contamina la tierra, y han sentido su extraña presencia en el Ritmo. Una figura silenciosa, con apariencia de armadura tallada en madera, patrulla las regiones que rodean el Bosque Sagrado, observando a cualquiera que entre en su dominio. Si atacaría a los Silvanos es algo desconocido, pues nadie ha sido lo suficientemente valiente como para acercarse. Desconcertados por esta misteriosa criatura, los Silvanos esperan que inspire el mismo miedo en los corazones de quienes se atrevan a dañar el bosque.",
+  "forms": null,
+  "image": "/src/assets/champions/emic-trunkheart.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

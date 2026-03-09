@@ -1,0 +1,129 @@
+{
+  "slug": "gretel-mata-arpias",
+  "name": "Gretel Mata Arpías",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker / Debufer mediocre que combina con Hansel",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=-2eCmn5792o",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "malleos_de_fuego",
+    "mirada_del_gato",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "velocidad",
+    "percepcion",
+    "despiadado",
+    "instinto",
+    "matador"
+  ],
+  "uses": "No muchos. Junto a Hansel mejor, pero por sí misma es un poco del montón y poco específica",
+  "stats": {
+    "hp": 15525,
+    "speed": 100,
+    "attack": 1564,
+    "defense": 980,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Destruir el mal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.8xATK individual, 2.4xATK en área",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos. \n\nSi Hansel Cazabrujas está en el mismo equipo, en lugar de lo anterior ataca a todos los enemigos. Tiene un 25% de probabilidades de aplicar un debufo de 60% de [Reducir DEF] a todos los enemigos durante 2 turnos. También hace un golpe adicional contra los enemigos que tengan algún bufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Virotes Buscasombras (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "1.4xATK",
+      "description": "Ataca a 1 enemigo 4 veces. El primer golpe ignorará el 10% de la DEF del objetivo, el segundo golpe ignorará el 15% de la DEF, el tercer golpe ignorará el 20% de la DEF y el cuarto golpe ignorará el 25% de la DEF. Si este ataque mata a un enemigo, resetea el tiempo de reutilización de esta habilidad y llena la barra de turno de este campeón un 50%",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ritual Sagrado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Ataca a todos los enemigos. Reduce la barra de turno de todos los enemigos en 25%.\n\n Si Hansel Cazabrujas está en el mismo equipo, reduce la barra de turno de los enemigos en 50% en lugar de lo anterior. Este efecto no se puede resistir. \n\nLuego, llena la barra de turno de este campeón en 20% por cada enemigo vivo después del ataque.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vínculo de Hermana (Pasiva)",
+      "levels": [],
+      "description": "\n\n[Efecto Pasivo] \n\nLlena la barra de turno de este campeón en 50% siempre que un enemigo obtenga un turno extra. \n\nSi Hansel Cazabrujas está en el mismo equipo, también llena su barra de turno en 50% cuando un enemigo obtenga un Turno Adicional. \n\n[Efecto Activo] \n\nSi Hansel Cazabrujas está en el mismo equipo y muere por un ataque enemigo, activa instantáneamente la habilidad de [Ritual Sagrado]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gretel-mata-arpias.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "elegaius",
+  "name": "Elegaius",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Debufer con mucho HP",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=3NSe_hxXaFw",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "impasse_temporal",
+    "infernosfera",
+    "orquidea_mortilunar",
+    "dedo_real"
+  ],
+  "gear": [
+    "escudo",
+    "apoyo",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Principalmente Faccciones. Bastante útil para bloquear habilidades y eliminar bufos enemigos.",
+  "stats": {
+    "hp": 22305,
+    "speed": 106,
+    "attack": 881,
+    "defense": 1211,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espíritus de rencor (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "0.18xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de [Bloquear habilidades activas] durante 2 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Parada muerta (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "0.27xHP",
+      "description": "Ataca a 1 enemigo. Pone las habilidades del objetivo en cooldown y un debufo de [Bloquear Bufos]. Si hay varios enemigos de la misma afinidad que el objetivo inicial, también pone sus habilidades en tiempo de reutilización y les aplica un debufo de [Bloquear Bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ira fantasmal (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "0.2xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de eliminar todos bufos de los enemigos. Tiene un 75% de probabilidad de reducir las barras de turno de todos los enemigos en un 20%. Reduce las barras de turno de los enemigos en un 10% más por cada bufo enemigo eliminado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Despreciado por la muerte (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Evita la muerte de este Campeón y lo mantiene vivo con 1 HP cuando es golpeado por un golpe fatal. Si esta habilidad evita la muerte de este campeón, lo cura en un 10% de su MAX HP, llena su barra de Turno en un 20% y aplicaun bufo  de [Escudo] sobre ellos igual al 30% de su MAX HP durante 2 turnos. No evitará la muerte de este Campeón si tiene un debufo de [Curación Reducida].",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/elegaius.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

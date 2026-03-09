@@ -1,0 +1,104 @@
+{
+  "slug": "anacoreta",
+  "name": "Anacoreta",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Bufer con curas y extensión de bufos aliados",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [],
+  "gear": [
+    "escudo",
+    "vida",
+    "vida-divina",
+    "inmortal",
+    "resiliencia",
+    "reflejo"
+  ],
+  "uses": "Él solo, en pocos sitios. Pero se lleva bastante como extensor de bufos en setups con Titus y Wixwell",
+  "stats": {
+    "hp": 19155,
+    "speed": 103,
+    "attack": 1046,
+    "defense": 980,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Abrazo Cálido (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +5%"
+        }
+      ],
+      "multiplier": "0.29xATK",
+      "description": "Ataca a todos los enemigos. Cura al aliado con menos HP el 10% del daño hecho.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Plegaria de Destreza",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1, Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Elimina 1 debufo aleatorio de todos los aliados y luego aumenta 1 turno la duración de todos los bufos aliados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Confianza Sagrada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Cura completamente al aliado objetivo y luego aplica un bufo de 30% de [Aumentar P.Crit] y un bufo de 30% de [Aumentar D.Crit] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta los HP de los aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/anacoreta.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

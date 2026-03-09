@@ -1,0 +1,132 @@
+{
+  "slug": "gran-guardian-prysma",
+  "name": "Gran Guardián Prysma",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Gran campeón de apoyo multiusos para casi todo el contenido",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=b8UpmH8c5Ew",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "crisalida_de_renacer",
+    "campana_fundida"
+  ],
+  "gear": [
+    "bestial",
+    "inmortal",
+    "resiliencia",
+    "velocidad",
+    "velocidad-divina",
+    "reflejo",
+    "impulso"
+  ],
+  "uses": "Bastante versátil pero poco específico de ningún sitio. Tampoco molesta en ninguna setup y es un buen campeón para tener",
+  "stats": {
+    "hp": 21810,
+    "speed": 103,
+    "attack": 936,
+    "defense": 1189,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Granizo Solar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 35 % de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Después de atacar, transfiere todos los debufos del aliado con más debufos al objetivo. No transferirá los debufos de [Aturdir], [Congelar], [Dormir], [Miedo], [Miedo de verdad], [Incitar], [Petrificar] y [Oveja].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Blitz Brillante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, elimina todos los bufos del objetivo. El aliado con más D.Crit se unirá al ataque. El aliado que se una al ataque usará su habilidad base e ignorará el 35 % de la DEF del objetivo. Si el aliado que se una a este ataque mata al enemigo, activa un efecto de [Turno Instantáneo] en ese aliado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resplandor de Reanimación",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Revive a un aliado muerto con un 75 % de HP y un 75 % de la barra de turno. Aplica un bufo de [Aumentar ataque] del 50 % y un bufo de [Velo perfecto] a ese aliado durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marcado por Luz (Pasiva)",
+      "levels": [],
+      "description": "Al comienzo del turno de este campeón, tiene un 40 % de probabilidad de eliminar cualquier bufo de [Bloquear debufos] de cada enemigo y reemplazarlo con un debufo de [Bloquear bufos]. También tiene un 40 % de probabilidad de eliminar cualquier bufo que afecte positivamente las estadísticas y reemplazarlo con su debufo equivalente, como [Aumentar ATK] que se reemplaza con [Reducir ataque]. Las bufos como [Curación continua] y [Fortalecer] se reemplazarán con debufos de [Curación Reducida] y [Debilitar] respectivamente.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gran-guardian-prysma.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

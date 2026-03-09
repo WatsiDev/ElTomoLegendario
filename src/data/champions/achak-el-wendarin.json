@@ -1,0 +1,149 @@
+{
+  "slug": "achak-el-wendarin",
+  "name": "Achak el Wendarin",
+  "faction": "Engendros",
+  "rarity": "Épico",
+  "role": "Gran controlador de oleadas y arañas que combina bien con campeones que apliquen quemar HP y/o congelar",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "campana_fundida",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "velocidad",
+    "percepcion",
+    "punteria",
+    "velocidad-divina",
+    "supersonico",
+    "reflejo"
+  ],
+  "uses": "Muy interesante para controlar arañas y oleadas en facciones",
+  "stats": {
+    "hp": 17505,
+    "speed": 94,
+    "attack": 947,
+    "defense": 1189,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Devorar toda esperanza (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 9: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de reducir la duración de 1 bufo aleatorio si el objetivo tiene un debufo de [Quemar HP]. También tiene un 30% de probabilidad de reducir la barra de turno del objetivo en un 15% si está bajo un debufo [Congelar].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Poder de Canibal",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Aplica un buff de [Bloquear Debufos] en todos los aliados durante 1 turno y un bufo del 25% [Fortalecer] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Huracan de Fuego Glacial (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 70% de probabilidad de aplicar un debufo [Congelar] durante 1 turno en enemigos cuyo ATK es mayor que su DEF. Tiene un 70% de probabilidad de aplicar un debuf de [Quemar HP] durante 1 turno en enemigos cuya DEF es igual o superior a su ATK.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hambre Retorcida (Pasiva)",
+      "levels": [],
+      "description": "Cura a todos los aliados en un 5% de su MAX HP cada vez que un enemigo bajo un debufo [Quemar HP] obtiene un turno. Llena las barras de turno de todos los aliados en un 10% cada vez que un enemigo bajo un debufo [Congelar] obtiene un turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/achak-el-wendarin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

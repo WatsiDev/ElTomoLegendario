@@ -1,0 +1,107 @@
+{
+  "slug": "tolf-el-tullido",
+  "name": "Tolf el Tullido",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Nuker extraño, poca utilidad o muy nicho",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "cura-de-urgencia"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "regeneracion",
+    "inmortal"
+  ],
+  "uses": "Es capaz de solear Shogun con 5-6* de ascensión, la Bendición de Cura de Urgencia y objetos del set de CvC que da escudo al hacer daño",
+  "stats": {
+    "hp": 21970,
+    "speed": 94,
+    "attack": 793,
+    "defense": 1046,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Carnicero Experto (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "multiplier": "0.21xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe cura a este Campeón en un 30% del daño infligido. \n\nEste ataque no puede ser crítico",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Abrir en Canal (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "No jefes por debajo del 50%: 0.32xHP o Jefes 1xHP",
+      "description": "Ataca a 1 enemigo. Cuando no ataca a los jefes, inflige daño puro y reduce el HP del objetivo al 50%. En su lugar, inflige daño basado en el HP MÁXIMO de este Campeón y aplicauna debufo de [Aturdir] durante 1 turno si el objetivo ya tiene menos del 50% HP. \n\nInflige daño basado en el HP MÁXIMO de este campeón cuando ataca a los jefes. \n\nEste ataque no puede ser crítico",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompe Armaduras (Pasiva) ",
+      "levels": [],
+      "description": "Reduce los valores de todos los bufos de [Escudos] enemigos en un 50% al comienzo de cada turno, luego aumenta el MAX HP de este campeón en la misma cantidad (hasta un 25% de su MAX HP).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/tolf-el-tullido.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

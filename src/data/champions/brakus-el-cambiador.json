@@ -1,0 +1,143 @@
+{
+  "slug": "brakus-el-cambiador",
+  "name": "Brakus el Cambiador",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Nuker para early/mid game. En late no es meta y se queda corto en daño",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "segar-almas",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "repartemuerte",
+    "colmillo_asesino",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "apagador_de_esencia",
+    "garra_malefica",
+    "lente_intangible",
+    "ojos_de_acero"
+  ],
+  "gear": [
+    "despiadado",
+    "salvaje",
+    "letal",
+    "cruel",
+    "instinto"
+  ],
+  "uses": "Arenas en early-mid",
+  "stats": {
+    "hp": 19815,
+    "speed": 101,
+    "attack": 1465,
+    "defense": 793,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Sangre inocente (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.75xATK",
+      "description": "Ataca a 1 enemigo. Cura a este campeón un 15% del daño infligido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Locura de Luna Llena (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Cooldown -1"
+        },
+        {
+          "level_desc": "Nivel 7: Cooldown -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "0.97xATK",
+      "description": "Ataca a 1 enemigo 6 veces. CUra a este campeón un 25% del daño infligido. Sana a este Campeón en un 50% del daño infligido en su lugar si el objetivo está bajo un debufo de [Miedo] o [Miedo de Verdad]. Después del primer golpe, tiene un 75% de posibilidades de aplicar un debufo del 25% [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aullido de Cazador",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Aumentar ATK] en todos los aliados durante 3 turnos, luego ataca a 1 enemigo 3 veces. Cada golpe tiene un 50% de posibilidades de aplicar un debufo de [Miedo de verdad] durante 1 turno. Tiene una probabilidad del 50% de aplicar un debufo de [Miedo] en 2 enemigos aleatorios durante 1 turno si se aplica el debufo de [Miedo de verdad].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Modo Bestia (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "[Efecto pasivo] el daño aumenta en un 40% cuando el HP de este Campeón cae por debajo del 40%.\n\n [Efecto activo]: revive a este campeón con un 20% de HP al morir. Inmediatamente otorga un turno extra.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Nadie sabe exactamente cómo surgieron las retorcidas criaturas conocidas como Cambiapieles. Algunos dicen que fueron abominaciones creadas por Siroth por envidia de los hijos de Lumaya, otros sostienen que fue una poderosa maldición de algún tipo que primero convirtió a humanos, elfos e incluso orcos en bestias. De hecho, en la mayoría de las leyendas conocidas, los primeros Cambiapieles son maldecidos para tomar la forma de una bestia bajo circunstancias específicas. Es solo más tarde que sus descendientes nacen con cuerpos similares a bestias que nunca pueden volver a la forma original que poseían sus antepasados. Una cosa que nunca se puede negar es la fuerza antinatural que fluye a través de sus venas. Y esta fuerza ha tentado durante mucho tiempo a los héroes en Teleria. Brakus fue una vez un guerrero de gran renombre. Proveniente de una tribu bárbara nórdica, se hizo un nombre por sí mismo en batallas y redadas, sirviendo a quien le ofreció la mayor cantidad de plata y la mayor oportunidad de gloria. Estaba obsesionado con volverse más fuerte, más rápido, más duro, cualquier cosa que le permitiera ser un mejor guerrero que sus enemigos. En sus viajes, Brakus se encontró con el antiguo folklore que hablaba de hombres en parte, bestias en parte, cuya fuerza era tan grande que ni siquiera una docena de oponentes mortales podían igualarlos. Hipnotizado por las posibilidades, Brakus se propuso encontrar una manera de aprovechar esa fuerza. Durante décadas vagó por las tierras, buscando portadores de magia de todos los ámbitos de la vida. Durante décadas no encontró nada más que desilusión. No fue hasta que Brakus se encontró con un ermitaño medio loco que vivía en el corazón oscuro del bosque de Durham que finalmente tuvo suerte. El viejo era extraño, por decir lo menos, pero conocía las historias de los días pasados ​​como el dorso de su palma. Y prometió otorgarle a Brakus la fuerza que buscaba, por un precio. Deseoso de finalmente aprovechar lo que había buscado durante tanto tiempo, Brakus aceptó cualquier cosa. E incluso cuando el ermitaño exigió su corazón, el guerrero obsesivo lo cortó de su pecho sin dudarlo, o eso dice la historia. Sin embargo, el Ermitaño se mantuvo fiel a su palabra también. Extendiendo sus brazos torcidos y delgados, el viejo mago entonó un antiguo encantamiento que mantuvo a Brakus al borde de la muerte. Así agarrado por el poder arcano, el cuerpo de Brakus se retorció y se deformó, revelando su verdadera naturaleza. En poco tiempo, una criatura viciosa, más lobo que hombre, se paró en el suelo frío de la cabaña. Por desgracia, el poder nunca viene sin un precio. El corazón que Brakus le había ofrecido al Ermitaño era tanto un sacrificio de sangre como uno de gran simbolismo. Aunque había obtenido la fuerza que ansiaba, También perdió su humanidad en el proceso. Al principio, mantuvo una astilla de su antiguo yo, incluso su forma humana durante el día. Pero, gradualmente, este control se deslizó, y Brakus descendió más profundamente en la locura bestial. Hasta que no quedó más que un cazador cruel, más lobo que hombre, tanto en cuerpo como en alma.",
+  "forms": null,
+  "image": "/src/assets/champions/brakus-el-cambiador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

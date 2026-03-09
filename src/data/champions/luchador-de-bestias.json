@@ -1,0 +1,112 @@
+{
+  "slug": "luchador-de-bestias",
+  "name": "Luchador de Bestias",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Nuker de 1 solo objetivo",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Bastante inútil, no se usa.",
+  "stats": {
+    "hp": 15525,
+    "speed": 97,
+    "attack": 1233,
+    "defense": 760,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Cuchilla Grávida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 1 enemigo 2 veces.\n\n Tiene un 20% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Masacrar a la Presa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "5.6xATK",
+      "description": "Ataca 1 enemigo.\n\n Los enemigos muertos por esta habilidad no pueden ser revividos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Primera Sangre (Pasiva)",
+      "levels": [],
+      "description": "+50% de daño en el primer ataque a cada enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de los aliados en batallas de arena en 16%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/luchador-de-bestias.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "krokhad-rajacuellos",
+  "name": "Kro'khad Rajacuellos",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Nuker. Funciona mejor con Shy'ek",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=8jN5LRPnEG4",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "llamada_de_tormenta",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "cruel",
+    "letal",
+    "salvaje",
+    "instinto",
+    "fervor"
+  ],
+  "uses": "Hydra principalmente. Sin Shy'ek es decente, con él es mejor.",
+  "stats": {
+    "hp": 14700,
+    "speed": 100,
+    "attack": 1729,
+    "defense": 870,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Sabueso Tirano (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Este ataque hace daño individual a cada objetivo en lugar de daño de área e ignora bufos de de [Vínculo de Dolor] y bufo de [Reflejar Daño] y [Protección de Aliado].\n\n Este ataque también hace el doble de daño al contraatacar si Jefe de Manada Shy'ek está en el grupo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mandíbula Supurante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Ataca 1 vez más a los enemigos que tienen al menos 2 debufos. \n\nTiene un 75% de probabilidad de aplicar un debufo de [Chupar Sangre] y un debufo de [Debilitar] durante 2 turnos. Estos debufos no se pueden resistir si Jefe de Manada Shy'ek está en el grupo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Depredador Dominante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Ignora el 50% de DEF del objetivo, así como bufos de [Barrera de Vida] y [Nube de Veneno] y los efectos que redirigen ataques, daño o debufos a otro objetivo. Repite este ataque una vez si Jefe de Manada Shy'ek está en el grupo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ambición Promordial (Pasiva)",
+      "levels": [],
+      "description": "+5% ATK al matar a un enemigo o decapitar una cabeza una cabeza de Hidra (se acumula hasta el 25%). +10% ATK al matar a un enemigo o depitar una cabeza de Hidra si Jefe de Manada Shy'ek está en el grupo (se acumula hasta el 50%).\n\n Activa inmediatamente la habilidad de Deprededor Dominante contra una Cabeza de Hidra cuando un aliado es devorado por dicha cabeza, so Jefe de Manada Shy'ek está en el grupo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de todos los aliados todas las batallas en 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/krokhad-rajacuellos.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

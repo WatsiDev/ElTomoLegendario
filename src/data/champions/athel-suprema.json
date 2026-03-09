@@ -1,0 +1,147 @@
+{
+  "slug": "athel-suprema",
+  "name": "Athel Suprema",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker capaz de potenciar su daño, pero muy del montón a pesar de ser del vacío.",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=8cNwPxNe72k",
+  "blessings": [
+    "segar-almas"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "despiadado",
+    "cruel"
+  ],
+  "uses": "Facciones. No es muy allá",
+  "stats": {
+    "hp": 16185,
+    "speed": 100,
+    "attack": 1597,
+    "defense": 903,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ejemplo de Estoicismo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "2.7xATK",
+      "description": "Ataca a 1 enemigo. Si hay enemigos bajo un debufo de [Congelar], también los ataca. Reduce el ATK de los enemigos en un 3%. Siempre que este Campeón golpee a un enemigo con esta habilidad (se acumula hasta un 30%). También aumenta el ATK de este campeón en un 3% cada vez que golpea a un enemigo con esta habilidad (se acumula hasta un 30%)",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Compañía Helada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 100% de probabilidad de aplicar un debufo de [Congelar] durante 1 turno. Ignorará los bufos de [Fortalecer], [Protección de aliados] e [Inmortal] además del 20% ade DEF en enemigos bajo un debufo de [Congelar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arrebato Irrazonable (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Aplica un bufo del 50 % [Aumentar ATK], uno del 30 % [Aumentar P.Crit] , un bufo de [Escudo] y un bufo de [Aumentar PUNT] a este Campeón durante 3 turnos, y luego obtiene un turno adicional. El valor del [Escudo] es proporcional al ATK de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mirada Helada (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "description": "Tiene un 15 % de probabilidad de aplicar una debufo [Congelar] en los atacantes durante 1 turno cuando se golpea mientras está bajo un bufo [Escudo]. Tiene un 35 % de probabilidad de aplicar una debufo [Congelar] en todos los enemigos durante 1 turno cada vez que se elimine un bufo [Escudo] en este campeón por daño.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en todas las batallas de arena en un 35%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/athel-suprema.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "driada-blanca-nia",
+  "name": "Dríada Blanca Nía",
+  "faction": "Vigías Silvanos",
+  "rarity": "Épico",
+  "role": "Reseteador de la facción con algún bufo de apoyo",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": null,
+  "gear": [
+    "reflejo",
+    "incansable",
+    "punteria",
+    "percepcion",
+    "impulso"
+  ],
+  "uses": "Principalmente reseteadora para Hydra. Puede ser decente en facciones también",
+  "stats": {
+    "hp": 20145,
+    "speed": 98,
+    "attack": 683,
+    "defense": 1277,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Plantas Ahogadoras (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de mejora/desventaja +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de mejora/desventaja +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de mejora/desventaja +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "2.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 30 % de probabilidad de colocar un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Renacer Alborotado",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Elimina todos las debuffos de un aliado objetivo, luego lo cura en un 40% de su MAX HP. Si el objetivo de esta habilidad no es este Campeón, reduce el tiempo de reutilización de todas las habilidades del objetivo en 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carne de Corteza",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "fortalecer-1"
+        }
+      ],
+      "description": "Aplica un bufo de [Protección de aliado] del 50 % a todos los aliados, excepto a este campeón, durante 2 turnos. También aplica un bufo de [Fortalecer] del 15% en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Raíces Anchas (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que se cura a este Campeón, cura a cada aliado excepto a este Campeón en un 20% de esa curación.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/driada-blanca-nia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

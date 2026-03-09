@@ -1,0 +1,121 @@
+{
+  "slug": "colmillo-hoforees",
+  "name": "Colmillo Hoforees",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Revividor de la facción con usos en Ciudad Maldita",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=UQz7p2o6doA",
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "infernosfera",
+    "dedo_real",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [],
+  "uses": "Revividor para facciones y algo de Ciudad Maldita",
+  "stats": {
+    "hp": 20475,
+    "speed": 97,
+    "attack": 903,
+    "defense": 1035,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Golpe Corpulento (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.12xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 10% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alarido de Guerra",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Pone un bufo del 50% [Aumentar ATK] y un bufo del 30% [Aumentar P.Crit] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guerra eterna",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Revive a 2 aliados aleatorios con un 50% de HP y llena sus barras de turno en un 50%. Después de revivirlos, pone un bufo de [Fortalecer] del 25% a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESISTENCIA de los aliados en todas las batallas en 40."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/colmillo-hoforees.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "ba-satha",
+  "name": "Ba Satha",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Tanque de HP con debufos de control",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "cadenas-temporales"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "invocatormentas",
+    "campana_fundida"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "inmortal",
+    "velocidad",
+    "resiliencia"
+  ],
+  "uses": "Oleadas, facciones y alguna oleada de la Torre y Ciudad Maldita.",
+  "stats": {
+    "hp": 20310,
+    "speed": 101,
+    "attack": 837,
+    "defense": 1387,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Giro de Muerte (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.24xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 40 % de probabilidad de aplicar una debufo del 50 % [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición de la Bestia",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Fortalecer] del 25 % y un bufo de [Curación continua] del 15 % en todos los aliados durante 2 turnos. También aplica un bufo de [Escudo] durante 2 turnos equivalente al 25% del HP de este Campeón a los aliados que tienen un debufo de [Miedo], [Miedo de verdad], [Congelar], [Incitar], [Dormir] o [Aturdir].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alzamiento Impactante (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.27xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar una debufo [Aturdir] durante 1 turno y reducir la barra de turno de cada enemigo en un 30 %.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guarda Almas (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "Cada vez que un enemigo revive, tiene un 75 % de probabilidad de aplicarle un debufo de [Aturdir] durante 1 turno. Este efecto no puede ser resistido o bloqueado.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta HP en todas las batallas en un 31%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ba-satha.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

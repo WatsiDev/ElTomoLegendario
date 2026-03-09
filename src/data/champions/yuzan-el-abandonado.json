@@ -1,0 +1,128 @@
+{
+  "slug": "yuzan-el-abandonado",
+  "name": "Yuzan el Abandonado",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Healer y manipulador de bufos y debufos",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "curacion-milagrosa",
+    "crueldad"
+  ],
+  "relics": [
+    "el_triturador",
+    "empunadura_sacra",
+    "tiara_de_andromeda"
+  ],
+  "gear": [
+    "inmortal",
+    "resiliencia",
+    "guardian",
+    "redirigir"
+  ],
+  "uses": "Buen healer para facciones y oleadas, sobretodo en early. En mid y late se queda algo corto.",
+  "stats": {
+    "hp": 19980,
+    "speed": 97,
+    "attack": 705,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Martillo Cuerno (HP) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo. Traspasa un debufo al azar de este campeón al objetivo.\n\n Cura a este campeón el 10% de su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carga Atronadora (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de eliminar 2 bufos al azar de cada enemigo.\n\n Cura a este campeón el 10% de su MAX HP por cada bufo eliminado por esta habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Amuleto de Buena Suerte",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "multiplier": "Curación 0.2xHP",
+      "description": "Elimina 1 debufo aleatorio de cada aliado.\n\n Cura a todos los aliados el 20% de MAX HP de este campeón y les aplica un bufo de [Bloquear Debufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alma Bondadosa (Pasiva) ",
+      "levels": [],
+      "description": "Siempre que este campeón se cura a sí mismo, también cura a todos los aliados el 20% de cualquier curación sobrante.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 40"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/yuzan-el-abandonado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "kurosa-la-codiciosa",
+  "name": "Kurosa la Codiciosa",
+  "faction": "Engendros",
+  "rarity": "Mítico",
+  "role": "Tanque con mucho aguante en la forma base, y nuker en la forma alternativa",
+  "type": "Apoyo / Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "invocatormentas",
+    "colmillo_asesino",
+    "corona_de_ireth",
+    "garra_malefica",
+    "codice_luminis",
+    "eternizalmas",
+    "antorcha_esclava",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "piel-de-piedra",
+    "letal",
+    "mercurial"
+  ],
+  "uses": "No es específica en ningún sitio, pero muy poderosa en todos. En arenas hará mucho daño, servirá para limpiar oleadas e incluso como nuker de hydra.",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 35%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "aura": [
+        {
+          "type": "atk",
+          "description": "Aumenta el ATK de aliados en todas las batallas en 35%."
+        }
+      ],
+      "name": "Forma Base",
+      "stats": {
+        "hp": 19155,
+        "speed": 110,
+        "attack": 1509,
+        "defense": 1068,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 53,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Oleada de Caos (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +10%"
+          ],
+          "multiplier": "3xATK, Cura 2xATK",
+          "description": "Ataca a todos los enemigos. \n\n Cura a todos los aliados. El valor de la curación es proporcional al ATK de este campeón. "
+        },
+        {
+          "name": "Todo por Siroth (ATK)",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aumentar-atk-2",
+            "escudo-habilidad"
+          ],
+          "multiplier": "3xATK",
+          "description": "Elimina todos los debufos de todos los aliados. \n\nLuego aplica un bufo de 50% de [Aumentar ATK] y un bufo de [Escudo] a todos los aliados durante 2 turnos. El valor del [Escudo] es proporcional al ATK de este campeón."
+        },
+        {
+          "name": "Desenfreno Total (ATK)",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "burlon",
+            "fortificar-1",
+            "inmortal"
+          ],
+          "description": "Aplica un bufo de [Burlón] y un bufo de [Fortificar] en este campeón durante 2 turnos. También aplica un bufo de [Inmortal] a todos los aliados excepto a este campeón durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Coleccionista de Peones (Pasiva)",
+          "levels": [],
+          "description": "[Efecto Pasivo]\n Recibe un 15% menos de daño por cada aliado vivo.\n\n [Efecto Activo]\n Transforma a este campeón en su forma alternativa instantáneamente siempre que muera el último aliado vivo."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 17175,
+        "speed": 105,
+        "attack": 1641,
+        "defense": 1068,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Destructora de Todo (ATK)",
+          "levels": [
+            "Nivel 1: Daño +20%"
+          ],
+          "multiplier": "1.3xATK - A jefes/esbirros 0.1xMAX HP - A campeones 0.3xMAX HP",
+          "description": "Ataca a 1 enemigo 3 veces.\n\n Si este ataque mata al objetivo, hace daño puro a todos los demás enemigos. Si el resto de enemigos no son Jefes o esbirros, la cantidad de daño puro hecho es igual al 30% del MAX del objetivo inicial. Si el resto de enemigos son Jefes o Esbirros, el daño puro es igual al 10% del MAX HP en lugar de lo anterior. Este ataque no puede ser crítico."
+        },
+        {
+          "name": "Icono de Devastación (ATK)",
+          "levels": [
+            "Nivel 1: Daño +20%",
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "debilitar-2"
+          ],
+          "multiplier": "4xATK",
+          "description": "Ataca 1 enemigo 3 veces.\n\n Antes de atacar, roba todos los bufos de todos los enemigos. Los objetivos cuyo ataque sea menor o igual que el de este campeón, no pueden resistir este efecto. También aplica un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos. Los objetivos cuyo ataque sea igual o inferior al de este campeón, no pueden resistir este debufo."
+        },
+        {
+          "name": "Agente Implacable (ATK)",
+          "levels": [
+            "Nivel 1: Daño +20%",
+            "Nivel 2: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "romper-2",
+            "aumentar-p-crit-2",
+            "miedo-de-verdad"
+          ],
+          "description": "Aplica un bufo de 15% de [Romper] y un bufo 30% de [Aumentar P.Crit] a este campeón durante 3 turnos. Aplica un debufo de [Miedo de Verdad] a todos los enemigos durante 1 turno. Los enemigos cuyo ataque sea menor o igual al de este campeón no pueden resistir este efecto."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Asesina Vil (Pasiva)",
+          "levels": [],
+          "description": "Hace un 15% más de daño por cada aliado muerto. Cada golpe crítico llena la barra de turno de este campeón un 10% por cada aliado muerto."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/kurosa-la-codiciosa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

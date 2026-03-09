@@ -1,0 +1,124 @@
+{
+  "slug": "praeva-la-escurridiza",
+  "name": "Praeva la Escurridiza",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Campeón tipo carry al estilo Elva, Lilitu o Siphi, polivalente y con gran utilidad",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=mjtOC_W6evI",
+  "blessings": [
+    "defensa-impecable",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "codice_luminis",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "apoyo",
+    "proteccion",
+    "inmortal",
+    "renacer",
+    "resiliencia"
+  ],
+  "uses": "Principalmente PvE",
+  "stats": {
+    "hp": 21975,
+    "speed": 110,
+    "attack": 947,
+    "defense": 1167,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Rayo de Aflicción (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
+      ],
+      "multiplier": "5.1xATK",
+      "description": "Ataca a 1 enemigo.\n\n Traspasa todos los debufos de este campeón al objetivo. Este efecto no se puede resistir si este campeón tiene al menos 3 debufos. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Energía Maligna",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Cura a todos los aliados el 25% del MAX HP de este campeón.\n\n Luego aplica un bufo de 60% de [Aumentar DEF] y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Semilla de Corrupción",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Revive a un aliado con el 100% de HP y el 50% de Barra de Turno. Reinicia completamente los tiempos de reutilización de todas sus habilidades.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sirviente Sacrificial (Pasiva) ",
+      "levels": [],
+      "description": "Al comienzo del turno de este campeón, traspasa 1 debufo de cada aliado a este campeón. No traspasa de bufos de [Aturdir], [Dormir], [Congelar], [Incitar], [Miedo], [Miedo de Verdad], [Petrificación] ni [Oveja]. Este efecto no se puede resistir ni bloquear. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. \n\n Al final del turno de este campeón, llena un 10% las barras de turno de todos los aliados (las llena un 2% adicional por cada debufo que tenga este campeón). Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/praeva-la-escurridiza.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

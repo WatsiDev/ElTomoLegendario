@@ -1,0 +1,137 @@
+{
+  "slug": "iudex-artor",
+  "name": "Iudex Artor",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Healer y revividor para early y mid game",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=5rlR0DqHrYk",
+  "blessings": [
+    "cura-de-urgencia",
+    "crueldad"
+  ],
+  "relics": [
+    "el_triturador",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "efigie_demoniaca",
+    "diario_de_necrotos",
+    "crisalida_de_renacer",
+    "sombra_encaramada",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "renacer",
+    "velocidad",
+    "reflejo",
+    "inmortal",
+    "velocidad-divina",
+    "aturdir",
+    "sanacion"
+  ],
+  "uses": "Bastante malo, facciones como mucho y durante los primeros meses, hasta que salga un revividor en área. Rectora Drath es casi más completa.",
+  "stats": {
+    "hp": 19980,
+    "speed": 102,
+    "attack": 980,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Remolino de Incensario (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "*xATK",
+      "description": "Ataca a todos los enemigos.\n\n Cura a todos los aliados el 5% del MAX HP de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Inciendo de Inspiración",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar ATK] y un bufo de 25% de [Fortalecer] en todos los aliados durante 2 turnos. Llena la barra de turno de todos los aliados en 15%",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mandato de Avivamiento",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Revive a un aliado con el 50% de HP y el 50% de barra de turno. También aplica un bufo de 50% de [Aumentar ATK] a ese aliado durante 1 turno.\n\n Luego activa la habilidad base del campeón revivido y ataca al campeón enemigo con el menor MAX HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Condenado a Cadena Perpetua (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Si un enemigo muere por el ataque de una habilidad base tras ser revivido por la habilidad de Mandato de Avivamiento, resetea el tiempo de reutilización de la habilidad de Mandato de Avivamiento..",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en batallas de Arena en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/iudex-artor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

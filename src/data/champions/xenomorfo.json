@@ -1,0 +1,145 @@
+{
+  "slug": "xenomorfo",
+  "name": "Xenomorfo",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Nuker capaz de aplicar venenos tanto activa como pasivamente. También contol.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=udpNZ13Hqls",
+  "blessings": [
+    "fuego-y-azufre",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "mirada_del_gato",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "regeneracion",
+    "salvaje",
+    "cruel",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Lo hará muy bien en cualquier sitio donde los enemigos sean susceptibles de venenos (Dragón, Golem Normal, oleadas...)",
+  "stats": {
+    "hp": 17670,
+    "speed": 102,
+    "attack": 1365,
+    "defense": 1035,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Aguijonazo de Cola (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de 5% de [Veneno] durante 2 turnos. Aplica 3 debufos de 5% de [Veneno] si este ataque es crítico.\n\n También aplica un bufo de [Velo Perfecto] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Infestación (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "infestar"
+        },
+        {
+          "key_name": "aturdir"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "5.9xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un debufo de [Aturdir] y un debufo de [Infestar] al objetivo durante 2 turnos. Estos debufos no se pueden resistir si este campeón tiene un bufo de [Velo Perfecto].\n\n Aplica un debufo de [Miedo de Verdad] al resto de enemigos durante 1 turno. Este debufo no se puede resistir si este campeón tiene un bufo de [Velo Perfecto].\n\n[Efecto Pasivo]\n\n Revive a este campeón con un 50% de HP y un 50% de barra de turno cada vez que muere un enemigo con un debufo de [Infestar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Destripar y Desgarrar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "(3.1+(3.1 x 0.15 x numero de venenos))xATK",
+      "description": "Ataca 2 veces a 1 enemigo. Hace un 15% más de daño por cada debufo de [Veneno] que tiene el objetivo.\n\n También aplica un bufo de [Velo Perfecto] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre Cáustica (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "description": "Al ser atacado, tiene un 25% de probabilidad de aplicar un debufo de 5% de [Veneno] al atacante durante 2 turnos. Este debufo no se puede resistir ni bloquear si el ataque es crítico.\n\n Si un enemigo tiene un debufo de [Veneno] aplicado por este campeón, reduce un 20% su DEF.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/xenomorfo.webp",
+  "masteries": [],
+  "artworks": [
+    "/src/assets/artworks/xenomorfo/xenomorfo_artwork.webp"
+  ],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

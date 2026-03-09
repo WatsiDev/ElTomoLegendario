@@ -1,0 +1,114 @@
+{
+  "slug": "gorgorab",
+  "name": "Gorgorab",
+  "faction": "No Muertos",
+  "rarity": "Épico",
+  "role": "Iniciador y revividor muy útil en early-mid y facciones",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Iniciador y revividor muy útil en early-mid en arenas y facciones",
+  "stats": {
+    "hp": 17670,
+    "speed": 97,
+    "attack": 1057,
+    "defense": 1068,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Desgracia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de eliminar 1 bufo aleatorio.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resurgir",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Llena la barra de turno de todos los aliados en un 15%. Aplica un bufo del 50% [Aumentar ATK] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Animar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Revive a los aliados muertos con un 25% de HP, luego cura a todos los aliados en un 25%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en la arena en un 23%."
+    }
+  ],
+  "lore": "Hace siglos, Gorgorab, junto con su hermano menor, Mortab, pertenecía a la hermandad de los Magos del Mausoleo. Guardianes y practicantes del conocimiento mágico oscuro, los Magos servían a un antiguo reino humano en la isla de Tarnok, entre las Islas Perdidas del este. Su deber, según la antigua costumbre y el calendario profético que guiaba al reino, era resucitar a sus gobernantes muertos a lo largo de una extensión de siglos, construyendo una dinastía de No Muertos que creían que era digna del Imperio Dragonkin al que Tarnok había jurado lealtad siglos antes. A pesar de ejercer artes nigrománticas, los Magos del Mausoleo tenían prohibido prolongar sus propias vidas.\n\n El temperamento de Gorgorab no era el adecuado para sus deberes sacerdotales. Impaciente y rebelde, nunca aceptó del todo el derecho de los gobernantes no muertos a ordenarle y controlarle, y mucho menos a emular perversamente al Imperio de los Dragones, que para entonces ya había caído hacía tiempo.\n\n Junto con Mortab, Gorgorab provocó el malestar entre los magos del mausoleo, señalando la injusticia de su subyugación y recomendando el único remedio posible: la rebelión. Aquellos a quienes los hermanos convencieron de traicionar sus juramentos se alzaron y utilizaron sus hechicerías para desligar y destruir a sus señores feudales. La anarquía pronto se apoderó de la isla de Tarnok con el colapso del régimen y, en medio de esto, los traidores, al darse cuenta de que habían perdido el control y no podían ponerse de acuerdo sobre ningún camino ahora que sus gobernantes habían sido asesinados, escaparon de las costas arruinadas de Tarnok.\n\n Los magos del mausoleo se dispersaron por Teleria y la mayoría siguió su propio camino. Después de algunos desacuerdos relacionados con el uso de sus poderes mágicos, Mortab perdió contacto con Gorgorab y más tarde llegó a creer que su hermano había sido asesinado por los descendientes supervivientes de los antiguos reyes. Se equivocó, porque Gorgorab había resistido y ocultado su identidad mientras viajaba a Anhelt con la intención de dejar atrás el legado de los magos del mausoleo y trazar su propio camino hacia la inmortalidad.\n\n Al igual que los demás magos del mausoleo, Gorgorab adoptó el uso desenfrenado de la nigromancia y se inundó de sus energías, prolongando de forma antinatural su vida y provocando la maldición de la decadencia persistente. Después de volverse contra sus antiguos gobernantes, se encontró poco apto para servir a los demás, a pesar de que muchos magos del mausoleo habían vuelto a caer en esos mismos hábitos. Lleno de aburrimiento, vagó por todas partes, buscando un propósito además de luchar contra la lenta corrupción de su cuerpo y la arrogancia de aquellos que creía que buscaban controlarlo y utilizarlo.\n\n Finalmente, Gorgorab viajó a las Tierras Desoladas de Ventormenta con la esperanza de encontrar los huesos de la civilización de los dragones que supuestamente alguna vez habían merecido el respeto y la veneración de sus antepasados ​​y resucitarlos para su propio beneficio. Vagó por la región durante muchos años y se convirtió en una leyenda terrible para los pocos mortales que lo encontraron en sus viajes y vivieron para contarlo.\n\n Gorgorab se topó con un santuario en ruinas que identificó como la tumba de un noble del Imperio Dragonkin que había muerto hacía mucho tiempo. Intentó resucitar los restos polvorientos, pero descubrió que estaban más allá de sus poderes. Gorgorab, que nunca se dio por vencido a la ligera, estableció las ruinas como su nuevo hogar y saqueó sus artefactos, incluidas antiguas tablillas de piedra con inscripciones de hechizos que el nigromante no podía comprender por completo. Creyendo que el Dragonkin podría ampliar su conocimiento y tal vez recompensar a su pueblo por su lealtad equivocada, renovó sus esfuerzos para resucitar al noble, con la intención de obligarlo a enseñarle cómo alcanzar un grado de poder que garantizara que nadie intentara usarlo nunca más como sirviente o sabio.",
+  "forms": null,
+  "image": "/src/assets/champions/gorgorab.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

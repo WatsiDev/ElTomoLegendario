@@ -1,0 +1,143 @@
+{
+  "slug": "danag-skullreap",
+  "name": "Danag Skullreap",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Nuker limitado a luchar contra elfos",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "cruel",
+    "letal",
+    "salvaje",
+    "instinto",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Malillo, no se usa",
+  "stats": {
+    "hp": 17010,
+    "speed": 98,
+    "attack": 1487,
+    "defense": 958,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Romper la Confianza (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30 % de probabilidad de aplicar un debufo del 60 % de [Reducir DEF] durante 2 turnos. La probabilidad aumenta al 50% si el objetivo está bajo un debufo de [Miedo] o [Miedo de verdad].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ruina de Elfos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de posibilidades de aplicar un debufo del 50 % [Reducir PUNT] durante 2 turnos y un debufo de [Miedo de verdad] durante 1 turno. Los campeones de las facciones de Altos Elfos y Elfos Oscuros no pueden resistir estos debuffos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Flujo de Batalla (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "multiplier": "5.9xATK",
+      "description": "Ataca a 1 enemigo. Ignorará los buffos de [Escudo].\n\n Reduce el tiempo de reutilización de la habilidad [Flujo de batalla] en 2 turnos, llena la barra de turno de este campeón en un 30 % y aplica un bufo de 30 % [Aumentar D.Crit] en este campeón durante 2 turnos si este ataque mata a un enemigo",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rencor Saludable (Pasiva)",
+      "levels": [],
+      "cooldown": 5,
+      "description": "Cura a este campeón en un 50 % de su HP MÁXIMO cada vez que este campeón mata a un enemigo.\n\nTambién otorga un turno extra cada vez que este campeón mata a un enemigo de las facciones de Altos Elfos o Elfos Oscuros.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/danag-skullreap.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

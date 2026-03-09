@@ -1,0 +1,130 @@
+{
+  "slug": "niahme-lanza-de-nyresa",
+  "name": "Niahme, Lanza de Nyresa",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Tanque defensivo, con poderosos bufos defensivos así como curaciones",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "curacion-milagrosa",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "rocadragon_dorada",
+    "agarre_de_valkanen",
+    "elixir_dorado"
+  ],
+  "gear": [
+    "velocidad",
+    "proteccion",
+    "guardian",
+    "apoyo",
+    "defensa"
+  ],
+  "uses": "Arena y PvE. Su pasiva te puede ahorrar ir con Piel de Piedra en el equipo",
+  "stats": {
+    "hp": 18990,
+    "speed": 98,
+    "attack": 782,
+    "defense": 1531,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Lanza de Madera (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        }
+      ],
+      "multiplier": "4.1xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Aplica un debufo de 50% de [Reducir ATK] y un debufo de 30% de [Reducir P.Crit] en el objetivo durante 2 turnos. Tiene un 50% de probabilidades de que estos debufos no se puedan resistir ni bloquear.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardia Cerúlea (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "5.4xDEF",
+      "description": "Ataca a 1 enemigo. Si el objetivo tiene 50% o menos de HP, este ataque siempre es crítico e ignorará el 50% de la DEF del objetivo.\n\n Aplica un bufo de [Escudo] a todos los aliados durante 2 turnos. El valor del [Escudo] es igual a la diferencia entre el HP actual del objetivo y su MAX HP. Si el objetivo es un jefe, el tamaño del escudo será proporcional a la DEF de este campeón.\n\n Si el objetivo muere, también reduce el tiempo de reutilización de todas las habilidades de los aliados en 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hoja enjoyada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "multiplier": "4xDEF",
+      "description": "Cura a todos los aliados. El valor de la cura es proporcional a la DEF de este campeón. \n\nTambién aplica un bufo de [Bloquear Debufos] y un bufo de 50% de [Protección de Aliado] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Dama de Escudos (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Daño] a todos los aliados durante 1 turno al comienzo de cada ronda, y cada vez que el HP de este campeón baje del 50%. Si hay multiples campeones en el grupo con la misma habilidad, solo se activa una.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en 35%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/niahme-lanza-de-nyresa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "ruffstone",
+  "name": "Ruffstone",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Nuker, hacer daño",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [
+    "cruel",
+    "salvaje",
+    "aturdir"
+  ],
+  "uses": "Circunstancial, quizá facciones",
+  "stats": {
+    "hp": 15525,
+    "speed": 99,
+    "attack": 1354,
+    "defense": 639,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Acorralar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carne Tierna (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4.8xATK",
+      "description": "Ataca a 1 enemigo. Destruye el MAX HP del objetivo (15% del daño hecho).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Decapar el Golpe (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.1xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 50% de la DEF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ruffstone.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

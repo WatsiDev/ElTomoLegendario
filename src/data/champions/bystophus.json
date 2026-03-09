@@ -1,0 +1,127 @@
+{
+  "slug": "bystophus",
+  "name": "Bystophus",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Nuker y controlador muy mediocre a pesar de su ATK",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "vial_del_sombrerero",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Facciones y oleadas pero ni pega demasiado ni sus sinergias son las más útiles. ",
+  "stats": {
+    "hp": 14700,
+    "speed": 100,
+    "attack": 1795,
+    "defense": 804,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Horror (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Buff / Debuff + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "3.3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de aplicar un debufo [Bloquear habilidades activas] durante 1 turno. tiene un 35% de probabilidad de aplicar un debuff de [Miedo de verdad] durante 1 turno en los objetivos bajo los debuffs de [Bloquear habilidades activas] .",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe sombrío (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Daño + 20%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.2xATK",
+      "description": "Ataca a todos los enemigos. Inflige un golpe crítico contra objetivos bajo debufos de [Bloquear habilidades activas]. Cura un 20% del daño infligido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desmoronar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff + 15%"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a todos los enemigos. Cada golpe tiene un 50% de posibilidades de aplicar un debufo [Bloquear habilidades activas] durante 2 turnos. Cada golpe también tiene un 50% de posibilidades de aplicar un debufo de 60% [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 70."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bystophus.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "archimago-hellmut",
+  "name": "Archimago Hellmut",
+  "faction": "Hidalgos",
+  "rarity": "Épico",
+  "role": "Poderoso épico con control, buenos stats y auto bufos",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=dgC2G81gALg",
+  "blessings": [
+    "toque-fantasmal",
+    "presencia-dominante"
+  ],
+  "relics": [
+    "campana_fundida",
+    "garra_malefica",
+    "corona_de_ireth",
+    "orquidea_mortilunar",
+    "lente_intangible"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "resiliencia",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Buen controlador de oleadas para facciones, mazmorras, ciudad maldita, etc",
+  "stats": {
+    "hp": 18825,
+    "speed": 108,
+    "attack": 925,
+    "defense": 1123,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Dínamo Arcana (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "4.8xATK",
+      "description": "Ataca a 1 enemigo. Llena la barra de turno de este campeón en un 10%. Llena la barra de turno en un 20% si este ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Salto Temporal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "6xATK (Objetivo), 3.5xATK (AoE)",
+      "description": "Ataca a 1 enemigo. También ataca a todos los demás enemigos si el primer ataque es crítico. Cada golpe tiene una probabilidad del 50% de aplicar un debufo de [Aturdir] durante 1 turno. Después de atacar, reduce las barras de turno de cada enemigo sin una debufo de [Aturdir] en un 20%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guía psíquica",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Aumentar VEL], un bufo del 30% [Aumentar P.Crit] y una debufo del 30% [Aumentar D.Crit] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en la arena en un 17%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/archimago-hellmut.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

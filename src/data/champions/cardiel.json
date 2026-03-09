@@ -1,0 +1,149 @@
+{
+  "slug": "cardiel",
+  "name": "Cardiel",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Uno de los mejores campeones de apoyo, capaz de curas, revivir, limpieza, cargas, aumento de daño a aliados e incluso daño. Super versátil.",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=Wy8ft54rdrY",
+  "blessings": [
+    "cura-de-urgencia"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "cascaron_gelido",
+    "brebaje_de_colera",
+    "infernosfera",
+    "estrellas_jiinang",
+    "la_carcajada_final",
+    "plumaje_dorado",
+    "elixir_dorado",
+    ""
+  ],
+  "gear": [
+    "proteccion",
+    "justiciero",
+    "resistencia",
+    "velocidad"
+  ],
+  "uses": "No molesta en ningún sitio: PvP, PvE, Jefes, oleadas... muy versátil y potenciará cualquier equipo",
+  "stats": {
+    "hp": 19650,
+    "speed": 106,
+    "attack": 1013,
+    "defense": 1255,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Amedrentar el mal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Curación +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Cura a todos los aliados en un 7.5% de su MAX HP. También aplica un debufo de [Miedo de Verdad] durante 1 turno si el objetivo es un campeón de las facciones de Engendros, No Muertos o Aparecidos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Canción Angelical",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados, luego aplica un bufo de [Bloquear debufos] y un [Revivir al morir] en todos los aliados durante 2 turnos. El bufo de [Revivir al morir] no se puede eliminar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hueste celestial",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Aumentar D.Crit] y una debufo del 30% [Aumentar P.Crit] en todos los aliados durante 2 turnos, luego se une a todos los aliados para atacar a un enemigo objetivo. Reduce el tiempo de reutilización de esta habilidad en 1 turno si un enemigo muere en este ataque.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Custodio de Diablos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo 5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo 5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo 5%"
+        }
+      ],
+      "description": "Los aliados reciben un 20% menos de daño de los campeones de las facciones Engendros, No Muertos o Aparecidos. Siempre que un aliado ataca, tiene un 15% de posibilidades de unirse a él y unirse a su ataque. Este campeón atacará con su habilidad predeterminada. Siempre se une a los ataques Sicia Flametongue si están en el mismo equipo. Solo puede unirse al ataque de un aliado una vez por turno. Cardiel no formará equipo en los ataques de aliados cuando contraataquen o cuando se unan para atacar con otros campeones.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en un 19%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/cardiel.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

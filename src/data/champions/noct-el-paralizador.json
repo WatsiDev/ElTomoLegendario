@@ -1,0 +1,135 @@
+{
+  "slug": "noct-el-paralizador",
+  "name": "Noct el Paralizador",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Buen envenenador / Healer para PvE",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "el_triturador",
+    "aberracion_antigua",
+    "campana_fundida"
+  ],
+  "gear": [],
+  "uses": "Golem y Dragón en fácil.",
+  "stats": {
+    "hp": 22470,
+    "speed": 99,
+    "attack": 826,
+    "defense": 1255,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Neblina del Dolor (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo /  debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo /  debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo /  debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un  debufo del 50 % [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Muerte del Soñador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo /  debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo /  debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        },
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de aplicar un debufo de [Dormir] durante 1 turno y dos debufos de [Veneno] del 5% durante 2 turnos.\n\n [Efecto pasivo] Aplica dos  debufos [Veneno] adicionales del 5% durante 2 turnos cada vez que un  debufo de [Dormir] aplicado por esta habilidad se elimina o vence después de que un enemigo recibe daño.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Humos de Embriaguez",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo del 50% [Protección de aliados] en todos los aliados excepto en este campeón durante 2 turnos. También otorga una debufo del 15 % de [Curación continua] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Somnolencia (Pasiva)",
+      "levels": [],
+      "description": "Cura a este campeón en un 3 % de su HP MÁXIMO y a todos los aliados, excepto a este campeón, en un 1 % de su HP MÁXIMO, cada vez que se activa un  debufo [Veneno] en un enemigo. \n\nSiempre que un aliado es atacado mientras está bajo un bufo de [Protección de aliado], tiene un 40 % de posibilidades de aplicar un  debufo de [Sueño] en el atacante durante 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de los aliados en las mazmorras en un 35%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/noct-el-paralizador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "leonardo",
+  "name": "Leonardo",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Poderoso nuker con habilidades para cada caso",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=6DD5qHwHYPM",
+  "blessings": [
+    "desgarro-aplastante",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "luna_de_sangre",
+    "corona_corrompida",
+    "varita_de_sumision",
+    "pasion_codiciosa",
+    "colmillo_asesino",
+    "sombra_encaramada",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "despiadado",
+    "ferreo",
+    "defensa"
+  ],
+  "uses": "Facciones, oleadas, arenas. Con las otras tortugas son muy versátiles",
+  "stats": {
+    "hp": 17670,
+    "speed": 101,
+    "attack": 782,
+    "defense": 1619,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Corte de Nueva York (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "1.7xDEF",
+      "description": "Ataca 2 veces a 1 enemigo. Al contraatacar, repite este ataque contra un enemigo al azar.\n\n Ignora un 3% de DEF por cada bufo que tenga este campeón (se acumula hasta el 15%).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "¡Con Caparazón!",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Aplica un bufo de 60% de [Aumentar DEF] durante 2 turnos a todos los aliados y un bufo de 50% de [Protección de Aliado] durante 2 turnos a todos los aliados excepto este campeón.\n\n También aplica un bufo de [Inmortal] y un bufo de [Contraataque] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tortugas Unidas (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.4xDEF",
+      "description": "Ataca a todos los enemigos. Esta habilidad hace un 5% más de daño por cada bufo que tengan los aliados y los enemigos.\n\n Elimina todos los bufos de todos los enemigos si este ataque mata a un enemigo. Este efecto no se puede resistir.",
+      "factionUnity": "Unidad de Tortugas Ninja",
+      "unityEffects": {
+        "1-ally": "Ignora el 15% de DEF por cada Leonardo, Donatello, Mikey y Raphael del grupo. Este campeón no cuenta.",
+        "2-ally": "El daño de esta habilidad aumenta según los HP que le falten a este campeón.",
+        "3-ally": "Activa esta habilidad siempre que los HP de un aliado bajan al 50%. Ocurre una vez por habilidad. Si hay varios campeones en el grupo con esta habilidad, solo se activa una."
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Heroe de Medio Caparazón (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "piel-de-piedra"
+        }
+      ],
+      "description": "Aplica un bufo de [Piel de Piedra] a este campeón durante 1 turno cuando los HP de este camopeón bajan del 50%. Ocurre una vez por habilidad.\n\n Este campeón se una al ataque siempre que ataca Leonardo, Donatello, Mikey o Raphael.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta el DEF de aliados en todas las batallas en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/leonardo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "taras-el-fiero",
+  "name": "Taras el Fiero",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Nuker top de HP que pega más cuantos más bufos tengan los aliados",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "polimorfar",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "garra_malefica",
+    "luna_de_sangre",
+    "invocatormentas",
+    "apagador_de_esencia",
+    "repartemuerte",
+    "aspecto_de_siroth",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "fervor",
+    "dano-critico",
+    "golpe-mortal"
+  ],
+  "uses": "Nuker top en arenas. Sirve para casi todo: arenas, hydra, oleadas, facciones...",
+  "stats": {
+    "hp": 22305,
+    "speed": 97,
+    "attack": 705,
+    "defense": 1387,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Romperse Encima (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15 %"
+        }
+      ],
+      "multiplier": "0.12xHP",
+      "description": "Ataca a 1 enemigo. Atacará a todos los enemigos restantes con cualquier daño adicional si el objetivo muere. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Intercesión del Héroe (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.35xHP(0.7 si tiene más HP)",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Aturdir] durante 2 turnos. Inflige el doble de daño a los enemigos cuyo ATK es igual o superior al ATK de este Campeón. \n\n[Efecto pasivo] Cada vez que un enemigo ataca a Marichka la Irrompible, ataca a ese enemigo usando esta habilidad. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Presión Constante (HP) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "0.26xHP",
+      "description": "Ataca a todos los enemigos. El daño aumenta en un 15 % por cada bufo en los aliados. Luego aumenta la duración de todos los bufos de los aliados en 1 turno. \n\n Cura a este Campeón en un 5 % por cada bufo que se ha aumentado la duración. Restaura la reducción de MAX HP igual a la cantidad de cualquier curación excedente.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Luchador Feroz (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "description": "[Efecto pasivo] Al ser atacado, reduce un 10% el ATK del enemigo (hasta un 50 %; 25 % contra jefes). Ocurre una vez por habilidad. La reducción de ATK se reinicia después de cada ronda. \n\n[Efecto activo] Aplica un debufo de [Miedo] en todos los enemigos de las facciones de orcos, ogretes, no muertos y engendros al comienzo de cada ronda. Este debufo no se puede resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pose (Pasiva)",
+      "levels": [],
+      "description": "Todo el daño entrante de las habilidades se reduce en un 50%. Cuando es atacado, el HP MÁXIMO de este Campeón se reducirá en un 25 % del daño inicial del ataque (antes de la reducción de daño).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la P.Crit de los aliados en todas las batallas en un 24 %."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/taras-el-fiero.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

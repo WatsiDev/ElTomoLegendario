@@ -1,0 +1,141 @@
+{
+  "slug": "mithrala-lifebane",
+  "name": "Mithrala Lifebane",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Bufer y Debufer top para todo el contenido del juego",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=UeHxMx0IdXA",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "colmillo_asesino",
+    "infernosfera",
+    "corazon_volcardiaco",
+    "mano_de_descrear"
+  ],
+  "gear": [],
+  "uses": "Muchos: Arena, Hydra, Gemelos, Facciones, Jefe de Ciudad Maldita...",
+  "stats": {
+    "hp": 20310,
+    "speed": 109,
+    "attack": 870,
+    "defense": 1354,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Libación de Dolor (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "2xDEF",
+      "description": "Ataca 2 veces al azar. Cada golpe tiene un 80 % de probabilidad de aplicar un debufo de 5 % de [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Gloria Tóxica (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de [Maleficio] durante 2 turnos. También aplica un bufo del 60 % [Aumentar DEF] y uno del 50 % [Aumentar ATK] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cílica Rebosante (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Elimina todos los debuffos de todos los aliados, luego aplica un bufo de [Fortalecer] del 25 % y un [Escudo] equivalente al 30 % del HP máximo de este campeón en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mirada de Piedra (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "petrificacion"
+        }
+      ],
+      "description": "Cuando este Campeón es atacado por un enemigo bajo un debufo de [Maleficio], tiene un 50% de probabilidad de aplicar [Petrificación] en el atacante durante 1 turno. \n\nCada vez que un aliado es atacado por un enemigo bajo un debufo de [Maleficio], hay un 30% de probabilidad de aplicar [Petrificación] en el atacante durante 1 turno. \n\nTambién aumenta la RES de este campeón. La cantidad aumentada será igual a la cantidad de PUNT que tiene este campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 80"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/mithrala-lifebane.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

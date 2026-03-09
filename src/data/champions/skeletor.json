@@ -1,0 +1,146 @@
+{
+  "slug": "skeletor",
+  "name": "Skeletor",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Bufer y debufer de nicho. Hay épicos mejores pero fue gratis. Normalmente pasará la mayor parte del tiempo en la cámara a partir del mid-game",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=O0uha4Cn9PA",
+  "blessings": [
+    "polimorfar",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "impasse_temporal",
+    "infernosfera",
+    "dedo_real"
+  ],
+  "gear": [
+    "velocidad",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Guardián de Camara. Demasiado nicho",
+  "stats": {
+    "hp": 21480,
+    "speed": 103,
+    "attack": 1046,
+    "defense": 1101,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Guardaña del Caos (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo / Debufo +15%"
+        }
+      ],
+      "multiplier": "0.12xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 75% de probabilidad de aumentar 1 turno el tiempo de reutilización de debufo al azar del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cometa Skull (HP) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo / Debufo +15%"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "petrificacion"
+        },
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "0.32xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de aplicar un debufo de [Petrificación] al objetivo durante 1 turno. Si el objetivo es un Jefe, en vez de lo anterior, aplica un debufo de 50% de [Reducir ATK] y un debufo de 30% de [Reducir VEL] durante 2 turnos. \n\nSiempre que se elimina o vence un debufo de [Petrificación] de un enemigo, tiene un 50% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] durante 1 turno a dicho enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuera inútiles!",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo / Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos. También tiene un 75% de probabilidad de robar todos los bufos de [Bloquear Debufos] además de otro bufo aleatorio de cada enemigo.\n\n Luego reduce un 15% la barra de turno de todos los enemigos. La reducción es del 30% en vez del 15% para los enemigos de la Liga Teleriana.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Master del Mal (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "red-res-2"
+        }
+      ],
+      "description": "+20 PUNT por cada debufo del enemigo cuando este campeón intenta aplicar un debufo, robar un bufo, reducir la barra de turno o aumentar la duración de un debufo de un enemigo. \n\n Cuando este campeón es atacado, tiene un 40% de probabilidad de aplicar un debufo de 50% de [Reducir RES] al atacante durante 1 turno. La probabilidad aumentar al 75% contra campeones de la Liga Teleriana.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/skeletor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

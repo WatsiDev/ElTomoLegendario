@@ -1,0 +1,135 @@
+{
+  "slug": "inithwe-bloodtwin",
+  "name": "Inithwe Bloodtwin",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Nuker para arenas con multiplicadores bajos, pero con una temible pasiva",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "pergamino_invisible",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "apagador_de_esencia",
+    "garra_malefica",
+    "invocatormentas",
+    "luna_de_sangre",
+    "repartemuerte",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "despiadado",
+    "instinto",
+    "dano-critico",
+    "salvaje",
+    "cruel",
+    "golpe-mortal"
+  ],
+  "uses": "Buen nuker de arenas, principalmente en Arena en Directo",
+  "stats": {
+    "hp": 14370,
+    "speed": 99,
+    "attack": 1729,
+    "defense": 892,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Censura de vitalidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Reduce el HP MAX del objetivo en un 30% del daño infligido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sin piedad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño + 15%"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 1 enemigo 3 veces. El daño aumenta igual al porcentaje de HP que ha perdido el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Susurros atormentadores (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "3.3xATK",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 80% de aplicar un debufo del 10% [Chupar Vida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Perdición Final (Pasiva)",
+      "levels": [],
+      "description": "Cura a este Campeón un 30% de su HP MÁX cada vez que mata a un enemigo. Los enemigos asesinados por este campeón no pueden ser revividos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliado en todas las batallas en un 33%"
+    }
+  ],
+  "lore": "Es difícil decir qué tipo de parentesco podría existir entre los elementales y, sin embargo, Inithwe y Drexthar Bloodtwins pueden considerarse hermanos. Convocados desde el mismo reino y vinculados a la causa de Siroth, estos seres de antiguo poder son terribles oponentes a los que deben enfrentarse solos, más aún cuando luchan juntos. Pero donde Drexthar es fuego y destrucción, Inithwe es oscuridad, frío, despiadado, implacable. Envuelto en una armadura similar a la de su familia y armado con una poderosa hacha grande, Inithwe desciende sobre sus enemigos con una furia inigualable. Su sola presencia debilita la fuerza vital de aquellos que se opondrían a él. Y mientras sus enemigos se debilitan y debilitan, el propio Inithwe se fortalece, alimentándose de la sangre de sus vidas y regenerando cualquier daño que pueda haber infligido a su forma mortal. A pesar de este poder aterrador, Algunos estudiosos teorizan que un Elemental del Vacío no es malo per se, simplemente sigue su naturaleza. Si eso es cierto, sería posible alejar esa naturaleza de la perpetua maldad de Siroth y utilizarla mejor al servicio de la gente de Teleria.",
+  "forms": null,
+  "image": "/src/assets/champions/inithwe-bloodtwin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

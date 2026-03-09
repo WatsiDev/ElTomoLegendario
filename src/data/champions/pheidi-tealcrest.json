@@ -1,0 +1,143 @@
+{
+  "slug": "pheidi-tealcrest",
+  "name": "Pheidi Tealcrest",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Gran campeón de apoyo con reseteo de habilidades y llenado de barra de turno",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=tTQII1O1ZsA",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "velocidad",
+    "velocidad-divina",
+    "impulso",
+    "punteria",
+    "reflejo",
+    "supersonico"
+  ],
+  "uses": "Hydra, oleadas, facciones...muy versátil",
+  "stats": {
+    "hp": 22965,
+    "speed": 105,
+    "attack": 958,
+    "defense": 1090,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lanza de Céfiro (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +15%"
+        }
+      ],
+      "multiplier": "0.13xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque cura a todos los aliados el 5% de MAX HP de este campeón. Cada ataque también tiene un 75% de probabilidad de llenar un 10% la barra de turno del aliado con la Barra de turno más baja.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Con Alas Turquesa (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "0.21xHP",
+      "description": "Ataca a todos los enemigos. Antes de atacar, elimina todos los bufos de todos los enemigos. Luego tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] y un debufo de 30% de [Reducir VEL] a todos los enemigos. También llena un 15% de barra de turno de todos los aliados.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espejismo del Cielo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar RES] y un bufo de [Velo perfecto] a todos los aliados, excepto este campeón, durante 2 turnos. \n\nReduce 3 turnos el tiempo de reutilización de todas las habilidades activas de todos los aliados, excepto este campeón. El tiempo de reutilización de esta habilidad no se puede reducir con otros efectos que reducen el tiempo de reutilización.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Velocidad de Draco (Pasiva)",
+      "levels": [],
+      "buffDebuff": [],
+      "description": "Aumenta un 30% los efectos de llenar barras de turno a otros aliados que tienen un debufo de [Atudir], [Congelar], [Dormir], [Incitar], [Miedo], [Miedo de verdad], [Petrificación] u [Oveja]. \n\nSiempre que un bufo de [Oveja] vence o es eliminado de un aliado, cura a dicho aliado, cura a dicho aliado un 25% de su MAX HP y le aplica un bufo de 30% de [Aumentar VEL] durante 1 turno. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 80"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pheidi-tealcrest.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "yoshi-el-borracho",
+  "name": "Yoshi el Borracho",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Extraño campeón capaz de aplicar debufos de nicho",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=yFGCP8xoq1Q",
+  "blessings": [
+    "presencia-amenazante"
+  ],
+  "relics": null,
+  "gear": [
+    "velocidad",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Casi ninguno, bastante malo y poco específico. Facciones como mucho",
+  "stats": {
+    "hp": 19650,
+    "speed": 103,
+    "attack": 1299,
+    "defense": 969,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Alcohol fuerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "4.1xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de colocar un debufo [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espíritus llameantes (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "2.6xATK",
+      "description": "Ataca 2 veces al azar. Tiene 75% de probabilidad de colocar un debufo de [Reducir PUNT] y un debufo de [Quemar HP] del 50% durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Brindis de batalla",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "description": "Coloca un buff del 50% [Aumentar ATK] y un 50% [Aumentar PUNT] en todos los aliados durante 2 turnos. También tiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] en todos los enemigos durante 1 turno. En su lugar, tiene un 75% de probabilidad en enemigos con buffos de [Aumentar ATK].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Partier (Pasiva)",
+      "levels": [],
+      "description": "Llena el medidor de turno de este campeón en un 4% cada vez que un enemigo recibe un buff.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en un 19%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/yoshi-el-borracho.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "mortu-macaab",
+  "name": "Mortu Macaab",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Nuker de arenas sorpresivo, con una habilidad secreta que se activa al ser golpeado",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "llegado-del-cielo",
+    "segar-almas"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "apagador_de_esencia"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "inmortal",
+    "salvaje",
+    "letal",
+    "mercurial"
+  ],
+  "uses": "Arenas principalmente",
+  "stats": {
+    "hp": 23130,
+    "speed": 94,
+    "attack": 1145,
+    "defense": 892,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Estigmas (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de Bufo/ Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de Bufo/ Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "4.8xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 60% de posibilidades de aplicar un debufo del 100% [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caer en Desgracia (ATK)(HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel5: Probabilidad de Bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "1xATK+0.01xHP",
+      "description": "Ataca a todos los enemigos 2 veces. Cada golpe tiene una probabilidad del 90% de aplicar un debufo de [Bloquear bufos] durante 2 turnos. Este debufo no se puede resistir si el objetivo está bajo un debufo de [Curación Reducida].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Peligro (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Ignorará los bufos de [Escudo] y [Bloquear daño], así como DEF. Los enemigos muertos por esta habilidad no pueden ser revividos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia ardiente (Pasiva) ",
+      "levels": [],
+      "description": "Tiene un 20% de probabilidad de desbloquear una habilidad secreta, Peligro, durante 1 turno, al ser golpeados. También tiene un 20% de probabilidad de llenar las barra de turno de este campeón en un 25% cuando es atacado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESIST de los aliados en todas las batallas en 50"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/mortu-macaab.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

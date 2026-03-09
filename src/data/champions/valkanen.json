@@ -1,0 +1,168 @@
+{
+  "slug": "valkanen",
+  "name": "Valkanen",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Nuker poderoso capaz de sinergias interesantes y bastante daño",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=nAr8bTi35iA",
+  "blessings": [
+    "llegado-del-cielo",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "martillo_del_fin",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "invocatormentas",
+    "sombra_encaramada",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "instinto"
+  ],
+  "uses": "Útil en Hydra y arenas, aunque no es meta.",
+  "stats": {
+    "hp": 14865,
+    "speed": 96,
+    "attack": 1531,
+    "defense": 1057,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Guadaña de la Muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Este ataque ignora los beneficios de [Escudo]. Tiene un 60 % de probabilidad de aumentar la duración de todas las debufos en el objetivo en un turno. También tiene un 80 % de probabilidad de aplicar un efecto [Contagiar Debufos], tomando 2 debufos aleatorias del objetivo y colocándolas en todos los enemigos bajo un debufo [Maleficio].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maleficio de Espadas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "multiplier": "4.2xATK + (4.2*ATKx0.1 x Numero de debufos)",
+      "description": "Ataca a todos los enemigos. Este ataque inflige daño de un solo objetivo a cada objetivo individualmente, en lugar de daño AOE. Antes de atacar, tiene un 80 % de probabilidad de aplicar un debufo de [Maleficio] en todos los enemigos durante 2 turnos. Ignorará el 20% de la RES de cada enemigo por cada aliado muerto. \n\nEl daño de esta habilidad aumenta en un 10 % por cada debufo en cada enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Trato con la Muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Apunta a un aliado. \n\nSi el aliado está vivo, lo mata y desbloquea una habilidad secreta, [Malicia Desbocada]. También aplica un debufo del 25% de [Debilitar] durante 2 turnos y un debufo de [Miedo de verdad] durante 1 turno en todos los enemigos. Estos debufos no se pueden resistir ni bloquear, llena la barra de Turno de este campeón en un 75 %. \n\nSi el aliado está muerto, cura a este campeón en un 50% del MAX HP del aliado muerto. Si todos los aliados están muertos, también desbloquea una habilidad secreta, [Malicia Desbocada]. Aplica un bufo de [Escudo] en este campeón durante 2 turnos. El valor del [Escudo] es igual a cualquier curación excedente. Si este campeón ya tiene un bufo de [Escudo], el valor del [Escudo] aumenta con cualquier curación excedente. Luego, llena la barra de turno de este campeón en un 75%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Malicia Desbocada (ATK)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "Jefe: 7.5xATK . Campeones: 7.5xATK+Ataque del objetivo si éste tiene más ATK",
+      "description": "Ataca a 1 enemigo. \n\nAntes de atacar, roba todos los bufos del objetivo. Este efecto no se puede resistir. Si el objetivo tiene ATK igual o superior al ATK de este campeón, este ataque obtiene un multiplicador de daño adicional, igual al ATK del objetivo. No aplicable a Jefes. Si el ATK del objetivo es menor que el ATK de este Campeón, este ataque ignorará el 50% de la DEF del objetivo. \n\nEste ataque también ignorará los bufos de [Bloquear daño], [Indestructible], [Escudo] y [Protección de aliado]. Aplica [Bloquear revivir] si el objetivo muere.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Baluarte Fantasma (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "[Efecto activo] Aplica un bufo de [Escudo] en este campeón cada vez que muere un campeón aliado o enemigo. El valor del bufo [Escudo] es igual al 50% del HP MÁXIMO del campeón muerto. Este bufo de [Escudo] no se puede quitar, robar ni transferir. \n\nSi este Campeón ya está bajo un bufo de [Escudo], el valor del [Escudo] aumenta en un 50% del HP MÁXIMO del campeón muerto. No se activa cuando muere un jefe o un súbdito. \n\n[Efecto pasivo]Cada vez que un enemigo golpea a este campeón mientras está bajo un bufo de [Escudo], aplicaun debufo aleatorio en el enemigo atacante. Las debufos [Miedo], [Miedo verdadero], [Congelar], [Provocar], [Petrificación], [Dormir] y [Aturdir] se colocan durante 1 turno. Cualquier otro debufo se aplicadurante 2 turnos. Ignorará el 20 % de la RES del enemigo por cada aliado muerto. No se pueden aplicar debuffs exclusivos de Boss, [Sheep] o [Smite] debuffs.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en las batallas de arena en 30 %."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/valkanen.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

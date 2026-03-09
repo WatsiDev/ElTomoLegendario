@@ -1,0 +1,141 @@
+{
+  "slug": "umetogi",
+  "name": "Umetogi",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Nuker de 1 solo objetivo con bueno daño y mecánicas de mejora",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "colmillo_malefico",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "pasion_codiciosa",
+    "sombra_encaramada",
+    "malleos_de_fuego"
+  ],
+  "gear": [
+    "salvaje",
+    "cruel",
+    "ataque",
+    "despiadado",
+    "letal"
+  ],
+  "uses": "Poco específica ya que solo pega a 1 objetivo y contra jefes solo aporta daño",
+  "stats": {
+    "hp": 13215,
+    "speed": 99,
+    "attack": 1564,
+    "defense": 859,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Asesinar con Sais (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 20% de probabilidad de crítico si este campeón tiene un bufo de [Velo] o [Velo Perfecto].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Despedida Silenciosa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "2.5xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque ignora el 20% de DEF. Tiene un 20% más de probabilidad de crítico si este campeón tiene un bufo de [Velo] o [Velo Perfecto].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desvanecerse en la Nada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Velo Perfecto] y un bufo de 30% de [Aumentar VEL] a este campeón durante 2 turnos y luego llena un 40% su Barra de Turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mantener a Raya (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "description": "Siempre que este campeón sea atacado, bloquea completamente 1 ataque, reduciendo el daño recibido a 0 y luego contraataca con la habilidad base.\n\n Al ser atacada por un Jefe, el daño recibido se reduce al 50% en vez de a 0.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de los aliados en todas las batallas en un 15%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/umetogi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "bedel-del-relicario",
+  "name": "Bedel del Relicario",
+  "faction": "Altos Elfos",
+  "rarity": "Raro",
+  "role": "Limpiadora, Healer y Revividora",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "totem_de_exuzar",
+    "elixir_dorado",
+    "codice_luminis",
+    "cascaron_gelido",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "velocidad",
+    "renacer",
+    "inmortal",
+    "resiliencia",
+    "escudo"
+  ],
+  "uses": "Del top 10 mejores raros del juego. Merece la pena subirla a 60 ya que es versátil a falta de algo mejor.",
+  "stats": {
+    "hp": 18165,
+    "speed": 103,
+    "attack": 859,
+    "defense": 958,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bastón de Custodio (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 9: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-1"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de aplicar un debufo de 15% de [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vigía de Bedel",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Elimina todos los debufos de los aliados y les aplica un bufo de 15% de [Curación Continua] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llamar a la Vida",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Revive a un aliado con el 30% del HP y llena su barra de turno un 30%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bedel-del-relicario.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

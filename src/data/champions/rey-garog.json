@@ -1,0 +1,147 @@
+{
+  "slug": "rey-garog",
+  "name": "Rey Garog",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Nuker off-meta para oleadas de early-mid game",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=y8fMPnYIiJM",
+  "blessings": [
+    "segar-almas",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "campana_fundida",
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "despiadado",
+    "punteria",
+    "ataque",
+    "cruel",
+    "instinto"
+  ],
+  "uses": "Oleadas y early-mid game. No hace nada especial",
+  "stats": {
+    "hp": 16020,
+    "speed": 105,
+    "attack": 1564,
+    "defense": 947,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Cuchillos Enormes (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 50% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno. La probabilidad aumenta al 75% si la barra de turno del objetivo no está a menos del 50%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hacer picadillo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "1.4xATK",
+      "description": "Ataca a un enemigo 4 veces. Cada ataque ignora el 20% de DEF. Cada crítico tiene un 50% de probabilidad de reducir 1 turno el tiempo de reutilización de la habilidad Violencia Extrema.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Violencia Extrema (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.7xATK",
+      "description": "Ataca a todos los enemigos. Ignorará el 20% de la DEF de cada objetivo. Ignorará un 5% más de DEF por cada bufo que tenga este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Máquina de guerra (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "+6 de VEL (se acumula hasta 30) y +7% D.Crit (se acumula hasta 35%) por cada enemigo que este campeón mata en una ronda. Este bonus no se reinicia si el campeón muere. \n\nCada vez que un campeón revive, llena la barra de turno de este campeón un 30% por cada enemigo revivido y luego aplica un bufo de 50% de [Aumentar ATK] y un bufo de [Aumentar D.Crit] a este campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/rey-garog.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

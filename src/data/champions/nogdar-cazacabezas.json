@@ -1,0 +1,126 @@
+{
+  "slug": "nogdar-cazacabezas",
+  "name": "Nogdar Cazacabezas",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Nuker único de arenas que juega con intercambio de vida y resurección",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=lNsjGMi_RPw",
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "invocatormentas",
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "repartemuerte",
+    "politopo_infernal",
+    "lente_intangible"
+  ],
+  "gear": [
+    "furia",
+    "cruel",
+    "letal",
+    "salvaje",
+    "despiadado",
+    "instinto"
+  ],
+  "uses": "Divertido nuker off meta para arenas, pero situacional y poco fiable",
+  "stats": {
+    "hp": 12060,
+    "speed": 96,
+    "attack": 1696,
+    "defense": 1079,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Veredicto brutal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "3.3xATK",
+      "description": "Ataca a 1 enemigo. Cura a este campeón en un 10% de su MAX HP. Otorga un turno extra si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Festival Gore (ATK/HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3.2xATK+0.5xHP",
+      "description": "Ataca a todos los enemigos. Después de atacar, este campeón sacrifica HP igual al 50% de su MAX HP, luego aplicaun bufo del 15% [Curación continua] a todos los aliados durante 2 turnos. El sacrificio de HP ocurrirá incluso si mata a este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Extrema Unción",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "Sacrifica HP igual al 50% de los HP MAX de este Campeón, luego iguala los niveles de HP con el enemigo objetivo. Luego, obtiene un turno adicional. Los niveles de HP tanto de este campeón como del enemigo objetivo se reducirán al nivel del que tiene el HP más bajo. [No funciona contra los jefes. Este campeón no puede morir con esta habilidad]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Retorno del Cazacabezas (Pasiva)",
+      "levels": [],
+      "cooldown": 1,
+      "description": "Revive a este Campeón con un 50% de HP y la barra de turno llena cuando lo matan si todos los demás aliados están vivos. [No funciona si hay varios Nogdars en el equipo o si hay 3 o menos campeones en el equipo].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en todas las batallas en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/nogdar-cazacabezas.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

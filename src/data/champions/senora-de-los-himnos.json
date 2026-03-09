@@ -1,0 +1,122 @@
+{
+  "slug": "senora-de-los-himnos",
+  "name": "Señora de los Himnos",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Revividora y healer.",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "inmortal",
+    "resiliencia",
+    "cruel",
+    "prob-critico",
+    "p-crit-divino"
+  ],
+  "uses": "Facciones y usos en early/mid",
+  "stats": {
+    "hp": 18990,
+    "speed": 103,
+    "attack": 1024,
+    "defense": 1013,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Reforzador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Cura al aliado con el HP más bajo un 15% del daño inflingido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Canción de Triunfo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "5.7xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de 15% de [Curación Continua] a los 2 aliados con menos HP durante 2 turnos si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Himno de Renacer",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "velo"
+        }
+      ],
+      "description": "Revive 2 aliados aleatorios con el 50% de HP y les aplica un bufo de [Velo] durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/senora-de-los-himnos.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

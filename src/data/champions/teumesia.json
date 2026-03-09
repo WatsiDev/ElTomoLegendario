@@ -1,0 +1,145 @@
+{
+  "slug": "teumesia",
+  "name": "Teumesia",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Nuker con Quemar HP",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "colmillo_asesino",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "fervor",
+    "punteria",
+    "despiadado",
+    "golpe-mortal",
+    "dano-critico"
+  ],
+  "uses": "Hydra principalmente en late. Buena en arañas también",
+  "stats": {
+    "hp": 16020,
+    "speed": 101,
+    "attack": 1476,
+    "defense": 1035,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Hacha ardiente (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. Tiene un 100% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos en el objetivo antes de atacar si el objetivo está bajo un debufo de [Quemar HP].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caos artero (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/ Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/ Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Quemar HP] durante 3 turnos. Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno en objetivos con un 50% de barra de turno o más. Tiene un 75% de probabilidad de aplicar un debufo del 30% [Reducir VEL] durante 3 turnos en el objetivo con menos del 50% del barra de turno.  ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lamento Ardiente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. El daño aumenta en un 40% por cada debufo activo de [Quemar HP] en la batalla (hasta un 400%). También tiene un 75% de probabilidad de reducir la barra de turno del objetivo en un 15%. Reduce la barra de turno del objetivo en un 15% adicional por cada debufo activo de [Quemar HP] en la batalla..",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Calor interior (Pasiva) ",
+      "levels": [],
+      "description": "Siempre que un aliado recibe un debufo de [Congelar], tiene un 50% de probabilidad de reemplazarla con un [Quemar HP] durante 2 turnos. Este debufo no se puede bloquear ni eliminar. Siempre que un aliado del enemigo esté bajo un [Quemar HP], este campeón es inmune a los debuffs de [Aturdir], [Dormir], [Congelar], [Miedo], [Miedo de verdad] y [Provocar].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en las batallas de arena en un 28 %."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/teumesia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "aphidus-el-hivelord",
+  "name": "Aphidus el Hivelord",
+  "faction": "Elfos Oscuros",
+  "rarity": "Mítico",
+  "role": "Nuker de Hydra en una forma, debufer y apoyo en la otra",
+  "type": "Ataque / Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "hacha_serpentis",
+    "pergamino_invisible",
+    "garra_malefica",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Principalmente hydra en la forma base.",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en un 35%."
+    }
+  ],
+  "lore": "La criatura conocida como Aphidus, el Señor de la Colmena, se ha aparecido recientemente a los Elfos Oscuros y considera el Bosque de Durham y todo lo que hay en él como su propiedad o presa, con la que puede hacer lo que crea conveniente. Aunque a veces tiene la apariencia de un elfo, en otras ocasiones adopta la forma de un insecto monstruoso, una cosa de quitina dura como el hierro y garras que aplastan los huesos. Esta última es su forma natural, ya que es una de las grandes bestias que han habitado y gobernado en Durham durante mucho más tiempo que cualquier elfo.\n\n La existencia de Aphidus salió a la luz por primera vez después de una serie de brutales ataques a varias expediciones de tala de los Elfos Oscuros al Bosque Desolado, en las cañadas de araña del norte. Hasta entonces, se creía que el Bosque Desolado era relativamente tranquilo, por lo que los ataques sorprendieron a los gremios forestales de los asentamientos del dosel del norte. Se enviaron guardabosques desde la ciudad de Redmoss para investigar.\n\n Ninguno regresó… al menos no en una sola pieza.\n\n Los cuerpos eviscerados de los rangers muertos fueron depositados en las afueras del campamento maderero de Welt por grupos desconocidos. Cada uno de los desafortunados elfos parecía haber sido cuidadosamente viviseccionado, como si alguien o algo los estuviera estudiando. Se sospechaba de nigromancia; los equipos de leñadores se negaron a salir, especialmente después de que uno de ellos informara haber visto a la enigmática criatura conocida como Ruel el Maestro de la Caza. Se enviaron mercenarios para obligar a los leñadores a volver al trabajo.\n\n El trabajo se reanudó, aunque a un ritmo más lento. Los ataques contra los equipos madereros se volvieron algo habitual, y en todos los casos los insectos depredadores eran los culpables. Al mismo tiempo, el Culto del Colmillo gravitó hacia el campamento maderero, provocando más trastornos.\n\n Unos meses después, llegó un mensajero… uno de varios leñadores que habían desaparecido y habían sido dados por muertos.\n\n El leñador estaba aterrorizado hasta el punto de la locura, pero por lo demás gozaba de buena salud. Habló de enjambres de escarabajos de hueso, avispas de sangre y los grandes ciempiés blancos que cazaban en el dosel superior como lobos, todos ellos en movimiento. Welt, insistió, estaba rodeado por un verdadero ejército, y que este y todos los asentamientos del Bosque Desolado pronto serían destruidos, a menos que negociaran. Un gran líder estaba esperando en el corazón del Bosque Desolado para hablar con los elfos oscuros gobernantes de la zona.\n\n Aunque la sola idea de esto resultaba ofensiva para los líderes de los Elfos Oscuros, cuando la noticia del incidente se extendió por los asentamientos más septentrionales, los señores mercaderes de Redmoss se dieron cuenta de que la única forma de mantener su autoridad y asegurar la santidad de sus fuentes de ingresos era reunirse con este supuesto gran líder. Se organizó una expedición, compuesta por varios nobles prominentes, entre ellos Ansell Grimir, el barón de Redmoss, sus guardias personales y un centenar de Yelmos Carmesí, liderados por el capitán Darga Preyk.\n\n Cuando la expedición llegó a Welt, se les unió un gran grupo de clérigos colmillos, que insistieron en que era su responsabilidad traducir para los insectos. El barón Ansell, que no era ningún tonto y conocía muy bien la reputación del culto, estuvo de acuerdo.\n\n El enigmático Ruel esperaba al grupo en las afueras del campamento. Ansell tenía claro que el Maestro de Caza sería su escolta, y entraron en el Bosque Desolado con el misterioso vagabundo a la cabeza del grupo.\n\n Han surgido muchas historias contradictorias sobre las tribulaciones del viaje de los Elfos Oscuros; las más comunes describen cómo los viajeros fueron seguidos por grupos de rastreadores de hojas y reptiles de raíces, y cómo Ruel parecía estar en comunicación con estas bestias.\n\n Han surgido muchas historias contradictorias sobre las tribulaciones del viaje de los Elfos Oscuros; las más comunes describen cómo los viajeros fueron seguidos por grupos de rastreadores de hojas y reptiles de raíces, y cómo Ruel parecía estar en comunicación con estas bestias.\n\n El lugar de reunión era un antiguo dolmen, cuyas piedras negras estaban envueltas en gruesas raíces y nidos de hiedra venenosa. Allí los esperaba algo que parecía un elfo. Su piel, donde no estaba oculta bajo una armadura espantosa y de aspecto orgánico, era del color de la bilis de los insectos. Su pelo era como telarañas, los saludó con una voz que sonaba como el zumbido de cien moscas y sus movimientos eran como el correr de un escorpión. Llevaba una enorme espada con forma de aguijón que, al igual que su armadura, parecía haber sido cultivada en lugar de forjada.\n\n El extraño ser se hacía llamar Aphidus y se declaró Señor de la Colmena de Bleakwood. Ordenó a los Elfos Oscuros que abandonaran sus confines y que cesaran sus esfuerzos por cosechar su madera. A cambio, él personalmente los dirigiría a regiones más rentables para la cosecha y se aseguraría de que no tuvieran que enfrentarse a los insectos que acechaban allí. Ansell y los demás nobles se reunieron para hablar de esto. Mientras lo hacían, llegaron más insectos y de mayor tamaño. Ansell se dio cuenta de que la expedición estaba enormemente superada en número. También notó la extraña sonrisa en el rostro de cera de Aphidus... ya que el ser no estaba seguro de cómo mantener la expresión.\n\n Los nobles aceptaron la propuesta de Aphidus, conscientes de que la criatura los tenía a su merced. Aun así, no pudieron evitar preguntarse por qué un ser tan poderoso estaría dispuesto a negociar. Ansell, más valiente que el resto, se atrevió a hacer esa misma pregunta. Sin embargo, en lugar de responder, el Señor de la Colmena soltó una risa burbujeante y se dio la vuelta para marcharse. Al hacerlo, se despojó de su forma élfica, revelando una forma enorme e insectoide, como un híbrido abominable de escorpión, ciempiés y escarabajo. Momentos después, se había ido, se había fundido en el bosque, Ruel con él, así como la multitud de bestias que rodeaban a los Elfos Oscuros.\n\n En los meses transcurridos desde entonces, Aphidus ha cumplido con su palabra. Incluso ha entrado en el campo de batalla más de una vez junto a las fuerzas de los Elfos Oscuros, destripando sangrientamente a sus enemigos con garras y espadas, o dejándolos paralizados o retorciéndose de dolor como si estuvieran en llamas con sus venenos. Mientras que Redmoss y los otros asentamientos del norte actúan en público como si el acuerdo fuera beneficioso, algunos susurran que una criatura como Aphidus no haría semejante trato sin un motivo oculto. Ni siquiera el Culto del Colmillo tiene respuestas, pero algunos entre ellos murmuran sobre un gran descontento entre los monstruosos habitantes del bosque profundo, y no pueden evitar preguntarse si esta alianza con el Señor de la Colmena no es más que un presagio de tiempos más peligrosos por venir...",
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 17010,
+        "speed": 103,
+        "attack": 1586,
+        "defense": 1134,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Corte Pulsante (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "buffDebuff": [
+            "red-def-2",
+            "velo-perfecto"
+          ],
+          "multiplier": "3.7xATK",
+          "description": "Ataca a 1 enemigo. Aplica un bufo de [Reducir DEF] durante 2 turnos. También aplica un bufo de [Velo perfecto] a este campeón durante 1 turno."
+        },
+        {
+          "name": "Aguijones Umbrales (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "aumentar-atk-2"
+          ],
+          "multiplier": "3.2xATK",
+          "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo del 50% [Aumentar ATK] a todos los aliados durante 2 turnos. Ignora el 25% de DEF del objetivo si no tiene un debufo de [Quemar HP]. Ignora el 50% de DEF si el objetivo si tiene un debufo de [Quemar HP]. \n\nLuego, aumenta la duración de todos los debufos enemigos en 1 turno."
+        },
+        {
+          "name": "Horda de Chinches (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "quemar-hp"
+          ],
+          "multiplier": "3.5xATK",
+          "description": "Ataca a todos los enemigos. El daño aumenta un 25% contra objetivos que tienen algún debufo. Activa inmediatamente todos los debufos de [Quemar HP] de todos los enemigos. Si un enemigo no tiene ningun debufo de [Quemar HP], le aplica un [Quemar HP] durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Quemacarne (Pasiva)",
+          "levels": [],
+          "description": "Cada vez que este Campeón aplica un debufo de [Quemar HP] , reduce la DEF del objetivo en un 3% (se acumula hasta un 30%). Por cada debufo de [Quemar HP] en el equipo enemigo, aumenta el D.Crit de este campeón en un 10 % (se acumula hasta un 100 %). Cada vez que se activa un debufo de [Quemar HP] de un enemigo , aumenta el ATK de este Campeón en un 5 % (se acumula hasta un 50 %). Se reinicia cada ronda."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 18165,
+        "speed": 100,
+        "attack": 1145,
+        "defense": 1498,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Guadaña (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "multiplier": "4xATK",
+          "description": "Ataca a 1 enemigo. Después de atacar, traspasa todos los debufos de este campeón al objetivo. Si el objetivo tiene un debufo de [Maleficio] antes del ataque, los debufos se traspasan antes del ataque en lugar de después."
+        },
+        {
+          "name": "Testamento Final (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "4.2xATK x (1+0.1x Debufos del objetivo)",
+          "description": "Ataca a todos los enemigos. Antes de atacar, elimina todos los debufos de este campeón. Hace un 10% más de daño por cada debufo que tiene cada objetivo. Ignora el 20 de DEF del objetivo si tiene un debufo de [Maleficio]."
+        },
+        {
+          "name": "Rescición (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "maleficio",
+            "red-def-2"
+          ],
+          "multiplier": "4.4xATK",
+          "description": "Ataca a todos los enemigos. Antes de atacar, aplica un debufo de [Maleficio] y un debufo de 60% de [Reducir DEF] durante 2 turnos. Ignora bufos de [Barrera de Vida], [Nube de veneno] y [Protección de Aliado]."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Banquete de la Muerte (Pasiva)",
+          "levels": [],
+          "description": "Cura completamente a este campeón siempre que mata a un enemigo con un debufo de [Maleficio]. +10% de ATK por cada enemigo que tiene un debufo de [Maleficio]."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/aphidus-el-hivelord.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "krixia-reina-de-la-noche",
+  "name": "Krixia, Reina de la Noche",
+  "faction": "Aparecidos",
+  "rarity": "Mítico",
+  "role": "Mitico de los tops para todo el contenido manipulando tiempos de reutilización",
+  "type": "Apoyo / Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=IeGGBaIhI8w",
+  "blessings": [
+    "polimorfar"
+  ],
+  "relics": [
+    "cronocubo",
+    "mano_de_descrear",
+    "impasse_temporal",
+    "orbe_de_transfixion"
+  ],
+  "gear": [
+    "resistencia",
+    "cronofago",
+    "justiciero"
+  ],
+  "uses": "Mitico de los tops para casi todo: arenas, mazmorras, jefes, oleadas...",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de Aliados en todas las batallas en 80"
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 20970,
+        "speed": 110,
+        "attack": 1189,
+        "defense": 1266,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Corte de Espadalanza (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "multiplier": "2xATK",
+          "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 50% de probablidad de aumentar 1 turno la duración de todos los debufos del objetivo"
+        },
+        {
+          "name": "Lanterna de la Perdición",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "red-res-2",
+            "bloquear-bufos"
+          ],
+          "description": "Aplica un debufo del 50% de [Reducir RES] y un debufo de [Bloquear Bufos] a todos los enemigos durante 2 turnos. También reduce un 20% la Barra de Turno de cada objetivo."
+        },
+        {
+          "name": "Aparición Mortal (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "multiplier": "4xATK",
+          "description": "Ataca a todos los enemigos. Elimina todos los bufos de todos los enemigos. También aumenta 3 turnos los tiempos de reutilización de todas las habilidades enemigas"
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Vigilia de Sombra (Pasiva)",
+          "levels": [],
+          "description": "Inmune de debufos de [Aturdir]. Este campeón obtiene +1 de PUNT por cada 2 de RES que tiene."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 20970,
+        "speed": 110,
+        "attack": 1189,
+        "defense": 1266,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Filo del Ala (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Prob. Bufo/Debufo +10%"
+          ],
+          "multiplier": "2xATK",
+          "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 50% de probablidad de reducir 1 turno la duración de todos los bufos de un aliado aleatorio."
+        },
+        {
+          "name": "Lluvia de la Condenación (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-debufos",
+            "aumentar-res-2"
+          ],
+          "multiplier": "4xATK",
+          "description": "Ataca a todos los enemigos. Aplica un bufo de [Bloquear Debufos] y un bufo de [Aumentar RES] a todos los aliados durante 2 turnos. Luego llena un 20% las barras de turno de todos los aliados"
+        },
+        {
+          "name": "Purga Nocturna",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 6,
+          "description": "Elimina todos los debufos de todos los aliados y luego reduce 3 turnos el tiempo de reutilización de todas las habilidades de todos los aliados, excepto de este campeón."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Reina de la Noche (Pasiva)",
+          "levels": [],
+          "description": "Inmune de debufos de [Dormir]. Este campeón obtiene +1 de Vel por cada 10 de RES que tiene."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/krixia-reina-de-la-noche.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

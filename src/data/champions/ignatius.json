@@ -1,0 +1,137 @@
+{
+  "slug": "ignatius",
+  "name": "Ignatius",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Tanque-nuker de defensa con debufos de control y quemar HP",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "campana_fundida",
+    "garra_malefica",
+    "sombra_encaramada",
+    "martillo_del_fin",
+    "rocadragon_dorada",
+    "lente_intangible"
+  ],
+  "gear": [
+    "redirigir",
+    "punteria",
+    "percepcion",
+    "salvaje",
+    "ferreo",
+    "defensa",
+    "letal",
+    "resiliencia"
+  ],
+  "uses": "Puntual. Quemador en arañas y Facciones dificil para completar las pruebas de 3*. Viable en Hydra en etapas bajas",
+  "stats": {
+    "hp": 18825,
+    "speed": 93,
+    "attack": 1057,
+    "defense": 1266,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Sonajero de calavera (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Grito de batalla (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "4.9xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de posibilidades de aplicar unadebuff de [Provocar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Convertir en Ceniza (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "5.6xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de aplicar un debufo de [Quemar HP] durante 2 turnos. Este debufo no puede ser resistido. ",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en un 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ignatius.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "aeila-lifebraid",
+  "name": "Aeila Lifebraid",
+  "faction": "Vigías Silvanos",
+  "rarity": "Épico",
+  "role": "Healer capaz de dar turnos adicionales a campeones aliados",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": "Facciones y PvE early y midgame",
+  "stats": {
+    "hp": 18000,
+    "speed": 108,
+    "attack": 1123,
+    "defense": 980,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Restaurador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Restaura el MAX HP destruido de este Campeón o del aliado con el HP más destruido en un 25 % de su MAX HP destruido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe Fuerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de beneficio/desventaja +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de beneficio/desventaja +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo del 50 % [Aumentar PUNT] en todos los aliados durante 2 turnos. Tiene un 75 % de probabilidad de aplicar un debufo de [Dormir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Refugio Curativo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos] a todos los aliados durante 2 turnos. Luego, cura a todos los aliados en un 30% de su MAX HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Flujo Rítmico (Pasiva)",
+      "levels": [],
+      "description": "Tiene un 12 % de probabilidad de activar un efecto [Dar turno adicional] en este Campeón o en un aliado después de usar cualquier habilidad activa. Si hay varios campeones en el equipo con esta habilidad, solo se activará uno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/aeila-lifebraid.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

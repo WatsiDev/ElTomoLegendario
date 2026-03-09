@@ -1,0 +1,133 @@
+{
+  "slug": "tayrel",
+  "name": "Tayrel",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Sólido debufer en early-mid game para PvE",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "rompe-cadenas",
+    "presencia-dominante"
+  ],
+  "relics": [
+    "rocadragon_dorada",
+    "dedo_real"
+  ],
+  "gear": [
+    "ferreo",
+    "resiliencia",
+    "defensa",
+    "redirigir",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Mazmorras en early game así como debufer de Red.Def en área. Señor Demoníaco en las primeras dificultades.",
+  "stats": {
+    "hp": 16185,
+    "speed": 95,
+    "attack": 881,
+    "defense": 1343,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Humilde (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño + 15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "1.7xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene una probabilidad del 40% de aplicar una debufo del 50% [reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Acero cantante (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / Debufo +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 75% de aplicar una debufo del 60% [Reducir DEF] durante 2 turnos Si el objetivo está bajo un debufo de [Reducir ATK], aplicará una debufo [Dormir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe preventivo  (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "5.3xDEF",
+      "description": "Ataca a 1 enemigo. Reduce la barra de turno del objetivo en un 50%. Si el ataque agota por completo la barra de turno, aplicará una debufo [Aturdir] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta el DEF de aliado en todas las batallas en un 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/tayrel.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

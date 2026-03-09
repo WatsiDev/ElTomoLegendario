@@ -1,0 +1,140 @@
+{
+  "slug": "hilvi-de-la-escarcha",
+  "name": "Hilvi de la Escarcha",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Revividora, debufer, controladora y 'activadora' de Tormin",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=9PMUe-Dglx4",
+  "blessings": [
+    "polimorfar",
+    "presencia-amenazante"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "servidumbre_de_xibia",
+    "la_carcajada_final",
+    "cascaron_gelido",
+    "crisalida_de_renacer",
+    "sombra_encaramada",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "revivir",
+    "percepcion",
+    "mercurial",
+    "bestial",
+    "punteria",
+    "incansable"
+  ],
+  "uses": "Facciones, oleadas y cualquier sitio donde vaya Tormin (aunque Tormin contra Jefes no es muy bueno)",
+  "stats": {
+    "hp": 20475,
+    "speed": 110,
+    "attack": 826,
+    "defense": 1387,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Antorcha de Llama Helada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca 2 veces a 1 enemigo. Cada ataque tiene un 50% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.\n\n Si Tormin el frío está en el mismo grupo, tiene un 25% de probabilidad de activar inmediatamente su habilidad de activar inmediatamente su habilidad Fuego y Escarcha..",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Frío Intenso (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Elimina todos los bufos de todos los enemigos y aplica un debufo de [Congelar] a todos los enemigos durante 1 turno.\n\n Si Tormin el Frío está en el mismo grupo, activa inmediatamente su habilidad Ventisca de Furia.\n\n No se puede reducir ni reiniciar el tiempo de reutilización de esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guarda del Glaciar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Revive a todos los aliados muertos con el 50% de HP y el 30% de barra de turno.\n\n Aplica un bufo de [Bloquear Daño] a todos los aliados durante 1 turno y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos. Estos bufos se aplican aunque no se haya reanimado ningún aliado.\n\n Si esta habilidad no ha reanimado a ningún aliado, también llena un 25% las barras de turno de todos los aliados.\n\n No se puede reducir ni reiniciar el tiempo de reutilización de esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Misión Divina (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "description": "Siempre que un enemigo recibe un debufo de [Congelar], este campeón le roba 1 bufo al azar, le aplica un debufo de [Quemar HP] durante 2 turnos y reduce un 10% su barra de turno.\n\n Si Tormin el Frío está en el mismo grupo, llena su barra de turno en la misma medida en que esa habilidad ha reducido la barra de turno del enemigo. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en las batallas en un 19%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/hilvi-de-la-escarcha.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

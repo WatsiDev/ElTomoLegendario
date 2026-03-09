@@ -1,0 +1,126 @@
+{
+  "slug": "arquera-del-alma",
+  "name": "Arquera del Alma",
+  "faction": "Bárbaros",
+  "rarity": "Raro",
+  "role": "Nuker que con el set adecuado puede servirnos en salas secretas y facciones",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "brebaje_de_colera",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Salas secretas y Ciudad Maldita",
+  "stats": {
+    "hp": 13545,
+    "speed": 96,
+    "attack": 1255,
+    "defense": 870,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Guía ancestral (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "2.1xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 25% adicional de probabilidad de infligir un golpe crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Flecha infundida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25% adicional de probabilidad de infligir un golpe crítico. Ignorará el 75% de la DEF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Disparo ligado al alma (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 8: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 9: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25% adicional de probabilidad de infligir un golpe crítico. También tiene un 75% de probabilidad de agotar completamente el barra de turno del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit aliado en todas las Batallas en un 12%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/arquera-del-alma.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

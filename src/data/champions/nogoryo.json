@@ -1,0 +1,133 @@
+{
+  "slug": "nogoryo",
+  "name": "Nogoryo",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Nuker con algo de debufos a 1 objetivo para algún sitio puntual",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "colmillo_malefico",
+    "corona_de_ireth",
+    "luna_de_sangre"
+  ],
+  "gear": [
+    "salvaje",
+    "cruel",
+    "punteria",
+    "percepcion",
+    "velocidad",
+    "letal"
+  ],
+  "uses": "Facciones como mucho. No es muy bueno",
+  "stats": {
+    "hp": 16680,
+    "speed": 98,
+    "attack": 1376,
+    "defense": 815,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Kamas Dobles (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "1.2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Ataca 1 vez más este Campeón tiene un bufo de [Aumentar ATK]. Cada ataque tiene un 20% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Abducción Nocturna (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "5.2xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Bloquear Bufos] durante 2 turnos.\n\n Si este campeón tiene un bufo de [Aumentar ATK], roba todos los bufos del objetivo antes de atacar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Más Rápido que el Ojo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Reduce en 1 turno el tiempo de reutilización de esta habilidad al atacar con el bufo de [Aumentar ATK].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lujuria de Asesino (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos cuando los HP de un enemigo bajan del 30%. Este bufo no se puede eliminar.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/nogoryo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

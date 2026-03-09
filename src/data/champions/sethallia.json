@@ -1,0 +1,121 @@
+{
+  "slug": "sethallia",
+  "name": "Sethallia",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Potente healer a 1 aliado y eliminador de bufos enemigos",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "cadenas-temporales"
+  ],
+  "relics": [
+    "arpa_de_kasbiel",
+    "el_triturador",
+    "empunadura_sacra",
+    "tiara_de_andromeda"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Decente en casi todos los jefes pero sobresaliente en ninguno.",
+  "stats": {
+    "hp": 18000,
+    "speed": 108,
+    "attack": 1024,
+    "defense": 1354,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Poner en llamas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "5.2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de aplicar un debufo [Quemar HP] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Abrazo señorial",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curacion +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curacion +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Elimina todos los debuffs de un aliado objetivo, luego aplica un bufo de [Bloquear Debufos] durante 2 turnos y cura a ese aliado en un 75% de su HP MÁXIMO. Cura a todos los demás aliados en un 20% de su HP MÁX y llena sus barras de turno en un 15% si el objetivo está completamente curado por esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agresión ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Tiene un 75% de posibilidades de eliminar todos los bufos de todos los enemigos, luego reduce las barras de turno de todos los enemigos en un 10% y llena las barras de turno de todos los aliados en un 10%. Reduce las barras de turno de todos los enemigos en un 20% y llena las barras de turno de todos los aliados en un 20% si se eliminaron 5 o más bufos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los liados de magia en todas las batallas en 50."
+    }
+  ],
+  "lore": "Lady Sethallia proviene de la costa de Land of Rebirth, al sur del castillo de Kaerok. Su feudo ancestral otorga el control de gran parte de la provincia, lo que convierte a Sethallia en un rostro conocido en la corte y en uno de los vasallos importantes del rey Tayba. De temperamento ardiente y carismática, se ha ganado tantos enemigos entre los estandartes del Rey como sus amigos. Su naturaleza descarada es bien conocida incluso entre la gente de Sethallia, aunque parece que sus soldados han llegado a adorarla y respetarla. Una historia ampliamente citada cuenta su valentía cuando una pequeña fuerza de caballeros Kaerok cayó en una emboscada de orcos. Al ver a un corpulento o jefe caído una docena de sus hombres en esa batalla, Sethallia se abrió paso hasta la bestia y se burló descaradamente de él. El orco, de quien se dice que ha empequeñecido incluso al más alto de los caballeros del rey Tayba, abandonó a los soldados heridos a favor de pisotear al tonto noble en la tierra. Sin embargo, a pesar de su salvajismo, no podía igualar la habilidad de Sethallia. Finalmente provocado a cometer un error, el jefe de los orcos pronto encontró su garganta perforada por una lanza, y sus parientes se rompieron y huyeron del campo al presenciar la derrota de su líder. No hace falta decir que la reputación de Lady Sethallia como guerrera y su popularidad en el ejército del Rey florecieron después de esa hazaña. A pesar de su imprudencia, Sethallia es una líder capaz que puede guiar su furia para incendiar las filas enemigas con magia o dirigir a sus aliados a debilitar su fuerza en un asalto implacable. Pero donde los enemigos se enfrentan a nada más que fuego e ira, se sabe que el cuidado de Sethallia cura milagrosamente incluso las heridas más graves. Sin embargo, a pesar de su salvajismo, no podía igualar la habilidad de Sethallia. Finalmente provocado a cometer un error, el jefe de los orcos pronto encontró su garganta perforada por una lanza, y sus parientes se rompieron y huyeron del campo al presenciar la derrota de su líder. No hace falta decir que la reputación de Lady Sethallia como guerrera y su popularidad en el ejército del Rey florecieron después de esa hazaña. A pesar de su imprudencia, Sethallia es una líder capaz que puede guiar su furia para incendiar las filas enemigas con magia o dirigir a sus aliados a debilitar su fuerza en un asalto implacable.",
+  "forms": null,
+  "image": "/src/assets/champions/sethallia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "karnage-el-anarquista",
+  "name": "Karnage el Anarquista",
+  "faction": "Engendros",
+  "rarity": "Mítico",
+  "role": "Potente debufer y nuker, aunque demandante de equipo",
+  "type": "Ataque / Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=0XvxmZYBbRc",
+  "blessings": [
+    "llegado-del-cielo",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "corona_corrompida",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "colmillo_asesino",
+    "orbe_de_transfixion",
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "bestial",
+    "fervor",
+    "letal"
+  ],
+  "uses": "Muy versátil, pero necesitará un equipo en torno a él. Nuker top en Hydra, debufer top en arenas, e incluso opciones en mazmorras y Quimera.",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en arena en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 19155,
+        "speed": 100,
+        "attack": 1476,
+        "defense": 1101,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Latigazo de Sufrimiento (ATK)(PUNT)",
+          "levels": [
+            "Nivel 2: Daño +15%",
+            "Nivel 3: Ignorar RES +15%"
+          ],
+          "multiplier": "2.3xATK+PUNT",
+          "description": "Ataca a 1 enemigo 2 veces. Tiene un 50 % de probabilidad de eliminar 1 bufo aleatorio del objetivo. \n\n[Efecto pasivo] Siempre que un enemigo golpea a este campeón o a un aliado, tiene un 50 % de probabilidad de contraatacar con esta habilidad. Esta probabilidad aumenta un 10 % por cada debufo que tenga el enemigo."
+        },
+        {
+          "name": "Acuerdo Diabólico (ATK)(PUNT)",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "sello"
+          ],
+          "multiplier": "3.5xATK+PUNT",
+          "description": "Ataca a 1 enemigo 2 veces. Antes de atacar, intercambia HP con un enemigo y luego le roba todos los bufos. También transfiere todos los bufos de este campeón al objetivo y le aplica un bufo de [Sello] durante 2 turnos. Este debufo no se puede eliminar. No se puede resistir ni bloquear si el objetivo tiene 50 % de HP o menos."
+        },
+        {
+          "name": "Trinidad del Dolor(ATK)(PUNT)",
+          "levels": [
+            "Nivel 2: Ignorar RES +15%",
+            "Nivel 3: Ignorar RES +15%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "bloquear-habilidades-activas",
+            "bloquear-habilidades-pasivas"
+          ],
+          "multiplier": "2.7xATK+PUNT",
+          "description": "Ataca a 1 enemigo 3 veces. El primer golpe aplica un debufo de [Bloquear habilidades pasivas] durante 2 turnos. Este debufo no se puede eliminar. El segundo golpe aplica un debufo de [Bloquear habilidades activas] durante 2 turnos. Este debufo no se puede eliminar. El tercer golpe roba el 100 % de la barra de turno del objetivo."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Avatar de Anarquía (Pasiva)",
+          "levels": [],
+          "description": "Cada golpe que este campeón inflige con sus habilidades tiene un 50 % de probabilidad de aplicar un efecto [Contagiar debufos] , que coge 1 debufo aleatorio del objetivo y lo aplicasobre todos los enemigos. Siempre que este campeón mata a un enemigo, tiene un 100 % de probabilidad de aplicar un efecto [Contagiar debufos] , que coge todios los debufos del objetivo y los aplicasobre todos los enemigos. Este efecto no se puede resistir."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 14370,
+        "speed": 100,
+        "attack": 1960,
+        "defense": 936,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Aguijón Demoníaco (ATK)(PUNT)",
+          "levels": [
+            "Nivel 1: Daño +15%",
+            "Nivel 2: Daño +15%"
+          ],
+          "multiplier": "1.8*(ATK+PUNT)",
+          "description": "Ataca a 1 enemigo 2 veces. Cura a este campeón un 20 % del daño infligido. \n\n[Efecto pasivo] Siempre que un enemigo golpea a este campeón o a un aliado, tiene un 50 % de probabilidad de contraatacar con esta habilidad. Esta probabilidad aumenta un 10 % por cada debufo del enemigo."
+        },
+        {
+          "name": "Singularidad del dolor (ATK)(PUNT)",
+          "levels": [
+            "Nivel 1: Daño +20%",
+            "Nivel 2: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "4x(ATK+PUNT) ",
+          "description": "Ataca a todos los enemigos. Ignorará los bufos de [Escudo] . También ignorará los bufos de [Protección de aliado] cuando ataque a enemigos con 1 o más debufos, y los bufos de [Inmortal] cuando ataque a enemigos con 2 o más debufos."
+        },
+        {
+          "name": "Estrellas Infernales (ATK)(PUNT)",
+          "levels": [
+            "Nivel 1: Daño +20%",
+            "Nivel 2: Tiempo de reutilización -1"
+          ],
+          "cooldown": 5,
+          "multiplier": "2.5*(ATK+PUNT) ",
+          "description": "Ataca a todos los enemigos 2 veces. Si un objetivo muere con esta habilidad mientras está bajo 3 o más debufos diferentes, le aplica un debufo de [Bloquear revivir] . También cura a este campeón un 30 % del daño infligido."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Matanza Inacabable (Pasiva)",
+          "levels": [],
+          "description": "El daño de ataque de este campeón aumenta un 1 % por cada 3 puntos de PUNT que tenga. Ignora el 10 % de la DEF del objetivo por cada debufo que tenga."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/karnage-el-anarquista.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

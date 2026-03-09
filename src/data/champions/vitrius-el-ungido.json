@@ -1,0 +1,139 @@
+{
+  "slug": "vitrius-el-ungido",
+  "name": "Vitrius el Ungido",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker capaz de atacar rápido, limpiar bufos enemigos y tener muchas sinergias con los tiempos de reutilización.",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=nUmGwsr-0oc",
+  "blessings": [
+    "segar-almas",
+    "crueldad"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "despiadado",
+    "cruel",
+    "instinto"
+  ],
+  "uses": "Arena principalmente aunque off meta. Facciones, pero no hace nada único",
+  "stats": {
+    "hp": 15855,
+    "speed": 100,
+    "attack": 1707,
+    "defense": 815,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Terror Sagrado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca a 1 enemigo 2 veces.\n\n El primer golpe cura a este Campeón en un 30% del daño infligido. El segundo golpe tiene un 65% de posibilidades de aplicar un debufo de [Miedo de Verdad] durante 1 turno. Este debufo no se puede resistir si el primer golpe ha curado completamente a este campeón.\n\n Si el objetivo es un jefe, el segundo golpe tiene un 65 % de probabilidad de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tormenta de Justicia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "multiplier": "3.1xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, elimina todos los bufos de [Aumentar DEF], [Protección de aliados] y [Fortalecer] de todos los enemigos. Este efecto no se puede resistir. Si al menos uno de estos bufos es eliminado, aplica un bufo de [Aumentar Ataque] y un bufo de [Aumentar D.Crit] a este campeón durante 2 turnos. \n\nTambién ignorará el 30% de la DEF de cada objetivo. Aumenta la barra de turno de este campeón en un 30% por cada enemigo vivo después del ataque.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Por mi Autoridad! (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "2.5xATK",
+      "description": "Ataca a 1 enemigo 2 veces. \n\nCada golpe ignorará el 30% de la DEF del objetivo y destruye el MAX HP del enemigo en un 25% del daño infligido. No se puede destruir el HP MAX de un solo enemigo en más del 75%. Si el objetivo es un jefe, destruye MAX HP equivalente al 35% del daño infligido. \n\nEl segundo golpe ignorará el 30% de la DEF del objetivo si no tiene habilidades activas en el tiempo de reutilización. Si el objetivo tiene alguna habilidad activa en tiempo de reutilización, ambos golpes ignorarán el 50% de DEF. \n\nIgnora los bufos de [Escudo], [Inmortal] y [Bloquear daño].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Inexorable (Pasiva)",
+      "levels": [],
+      "description": "Restablece instantáneamente el tiempo de reutilización de una de las habilidades activas aleatorias de este Campeón, cada vez que un enemigo aumenta el tiempo de reutilización de cualquiera de sus habilidades. Otorga un turno adicional si se restableció el tiempo de reutilización de una habilidad. Después de otorgar un turno adicional, esta habilidad entra en tiempo de reutilización. \n\nTambién otorgará un turno adicional si un aliado, maestría, conjunto de artefactos o accesorio reduce el tiempo de reutilización de cualquiera de las habilidades de este campeón. Después de otorgar un turno adicional, esta habilidad entra en tiempo de reutilización.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la P.Crit de los aliados en todas las batallas en un 24 %"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/vitrius-el-ungido.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

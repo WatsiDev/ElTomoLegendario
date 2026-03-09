@@ -1,0 +1,136 @@
+{
+  "slug": "espadachina-zinogre",
+  "name": "Espadachina Zinogre",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Muchos golpes con posibilidad de reducir barra de turno.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=abQEdCl7U9s",
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "percepcion"
+  ],
+  "uses": "Caballero de fuego normal. Limitada en casi todo lo demás",
+  "stats": {
+    "hp": 17340,
+    "speed": 104,
+    "attack": 1465,
+    "defense": 958,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Combo de Cuchillas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "1.2xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Tiene un 30% de posibilidades de aplicar un debufo de [Debilitar] del 25% durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ataque de Cuchillas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "multiplier": "1.4xATK",
+      "description": "Ataca a 1 enemigo 4 veces. Cada golpe aumenta la barra de turno de este campeón en un 5%. También aplica un bufo del 30% [Aumentar VEL] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Giro de Cuchillas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "1.5xATK",
+      "description": "Ataca a 1 enemigo 4 veces. Antes de atacar, aplica un bufo del 50% [Aumentar ATK] a este Campeón durante 2 turnos. El primer y segundo golpe tienen cada uno un 75% de probabilidad de aplicar un debufo de Chupar Sangre] durante 2 turnos. El tercer y cuarto golpe tienen cada uno un 75% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Esencia Zinogre (Pasiva)",
+      "levels": [],
+      "description": "[Efecto pasivo] Aumenta el daño que inflige este Campeón en un 1% por cada 1% de HP perdido (se acumula hasta un 50%). Este aumento de daño se duplica si un objetivo tiene un debufo de [Reducir DEF] .\n\n [Efecto activo] Previene la muerte de este Campeón y lo mantiene vivo con 1 HP cuando recibe un golpe fatal. Si esta habilidad evita la muerte de este Campeón, lo cura en un 50% de su MAX HP. No evitará la muerte de este Campeón si tiene un debufo de [Reducción de curación] .",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": {
+    "type": "vel",
+    "description": "Aumenta la VEL de aliados en mazmorras en un 30%"
+  },
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/espadachina-zinogre.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

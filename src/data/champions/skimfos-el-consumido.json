@@ -1,0 +1,143 @@
+{
+  "slug": "skimfos-el-consumido",
+  "name": "Skimfos el Consumido",
+  "faction": "Engendros",
+  "rarity": "Épico",
+  "role": "Épico con usos limitados como nuker en facciones",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "tiempo_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "En mid y late casi ninguno. Muy de nicho",
+  "stats": {
+    "hp": 13050,
+    "speed": 102,
+    "attack": 1432,
+    "defense": 1002,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Hambre Creciente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.85xATK",
+      "description": "Ataca a 1 enemigo 2 veces. El primer ataque tiene un 35% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] durante 2 turnos. El segundo ataque tiene un 35% de probabilidad de reducir un 10% de la barra de turno del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Come Maldiciones (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Reducir tiempo de reutilización"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.75xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos. Después de atacar, traspasa todos los debufos excepto [Aturdir], [Congelar], [Dormir], [Miedo], [Miedo de Verdad], [Incitar] y [Petrificación] de todos los aliados a este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Garras de Aflicción (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob.Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob.Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob.Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.6xATK",
+      "description": "Traspasa todos los debufos de este campeón al enemigo objetivo y luego le ataca. Roba un 100% de la Barra de Turno del objetivo si este ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Retorcido (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Cura a este campeón un 5% de su MAX HP al comienzo de cada turno por cada debufo que tenga. Si este campeón tiene al menos 4 debufos al comienzo del turno, aplica un bufo de [Aumentar ATK] y un bufo del 30% de [Aumentar D.Crit] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en la Torre del Destino en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/skimfos-el-consumido.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

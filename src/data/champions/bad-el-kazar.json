@@ -1,0 +1,115 @@
+{
+  "slug": "bad-el-kazar",
+  "name": "Bad-el-Kazar",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Buen healer y limpiador, con poderosa pasiva muy útil en early y mid-game",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=GVFLtOq5cvY",
+  "blessings": [
+    "nutrir",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "elixir_dorado",
+    "elixir_aracnido",
+    "antorcha_esclava",
+    "aberracion_antigua",
+    "impasse_temporal",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "varita_de_sumision"
+  ],
+  "gear": [
+    "proteccion",
+    "incansable",
+    "percepcion",
+    "punteria",
+    "velocidad"
+  ],
+  "uses": "Dragon, oleadas, facciones. En late game se queda corto",
+  "stats": {
+    "hp": 20145,
+    "speed": 102,
+    "attack": 1079,
+    "defense": 1156,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Esfera Oscura (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Curación +10%"
+        }
+      ],
+      "multiplier": "2.8xATK",
+      "description": "Ataca a todos los enemigos. Cura a este campeón y a todos sus aliados en un 20% del daño infligido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maldad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "description": "Elimina todos los debuffs de todos los aliados. Aplica dos bufos de 15% [Curación Continua] en todos los aliados durante 2 turnos. Aplica dos debufos de 5% [Veneno] en todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Depredar (Pasiva)",
+      "levels": [],
+      "description": "Todos los aliados infligen un 15% más de daño contra objetivos bajo debufos de [Veneno].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la P.Crit de aliados en todas las batallas en un 25%"
+    }
+  ],
+  "lore": "Las historias de un poderoso nigromante conocido como Bad-el-Kazar se han susurrado durante mucho tiempo en Teleria. Es una figura sombría, una mente maestra que prefiere actuar a través de peones y sirvientes involuntarios en lugar de enfrentarse a sus enemigos en persona. Incluso cuando se ve obligado a salir directamente al campo, se queda detrás de las líneas de sus «aliados» y ejerce el poder de la magia terrible. Los orígenes de Bad-el-Kazar están envueltos en misterio y mucho se había perdido debido a sus propios esfuerzos. El nigromante lo prefiere así, porque cuanto menos sepan sus enemigos, más fácil será desconcertarlos y engañarlos. Pero hay razones suficientes para creer que él había sido un Mago Blanco, sirviendo a Lumaya y la Orden Sagrada. Con los años, el atractivo del conocimiento prohibido había llevado a Kazar más y más por un camino oscuro, y su sed de poder resultó ser su ruina. Seguramente cuando Kazar buscó desentrañar los misterios de la vida y la muerte, recurrió al vil arte de la nigromancia. Recolectó una gran cantidad de artefactos oscuros en secreto, aprendiendo de ellos hasta que su alma estaba tan retorcida y marchita como las páginas de sus libros de hechizos. Por desgracia, su intelecto y poder seguían siendo tan agudos como siempre, y el Señor Oscuro Siroth no desperdició la oportunidad de ganar un seguidor tan poderoso. Sus secuaces susurraron los sueños de Kazar, guiándolo hacia profundidades de condenación cada vez mayores. Al final, Bad-el-Kazar desapareció, borrando tantos rastros de su vida pasada como pudo. Guiado por visiones, viajó al Sendero Brimstone, donde un gran portal había permanecido olvidado durante siglos. Sería parte del gran papel de Kazar asegurar que el portal se vuelva a abrir para permitir que los temibles ejércitos de engendros entren en Teleria. A cambio, se le otorgaría vida eterna y poder más allá de sus sueños. Kazar aceptó los términos del trato y se dirigió a los reinos mortales, un heraldo del mal de Siroth. Pero, ¿quién puede saber si el nigromante es realmente un títere de poderes mucho más allá de sus cálculos, o si su astucia y ambición están dirigidas a hacer realidad sus propios planes nefastos.",
+  "forms": null,
+  "image": "/src/assets/champions/bad-el-kazar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

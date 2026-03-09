@@ -1,0 +1,127 @@
+{
+  "slug": "hordin",
+  "name": "Hordin",
+  "faction": "Hidalgos",
+  "rarity": "Épico",
+  "role": "Nuker de 1 solo objetivo",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "despiadado",
+    "salvaje",
+    "letal",
+    "instinto",
+    "dano-critico",
+    "ataque-divino",
+    "golpe-mortal"
+  ],
+  "uses": "Nuker de 1 solo objetivo para early. No es muy bueno en mid-late.",
+  "stats": {
+    "hp": 16845,
+    "speed": 95,
+    "attack": 1321,
+    "defense": 859,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Implacable (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca a 1 enemigo dos veces. Obtén un turno adicional si el enemigo muere.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangrador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 60% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos. Cura a este campeón el 10% del daño hecho.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Odio Ardiente",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar ATK], un bufo de 30% de [Aumentar P.Crit] y un bufo de 30% de [Aumentar VEL] a este campeón durante 2 turnos. Obtén un turno adicional.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en Criptas de Facción 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/hordin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

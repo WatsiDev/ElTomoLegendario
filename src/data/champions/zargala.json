@@ -1,0 +1,145 @@
+{
+  "slug": "zargala",
+  "name": "Zargala",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Debufer / Nuker épico de orcos con reducir defensa en área y buenos multiplicadores",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=v8d3bC4LOls",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "invocatormentas",
+    "luna_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "ataque",
+    "ataque-divino",
+    "salvaje",
+    "letal",
+    "despiadado",
+    "dano-critico",
+    "golpe-mortal"
+  ],
+  "uses": "En early y mid en cualquier oleada de mazmorras, en facciones e incluso en earenas hasta plata. Pega duro pero es muy blandita",
+  "stats": {
+    "hp": 16680,
+    "speed": 103,
+    "attack": 1398,
+    "defense": 793,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Partir por la mitad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 50% de aplicar un debufo del 25% de [Debilitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Devastar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.3xATK",
+      "description": "Ataca a 1 enemigo. Activa instantáneamente la Habilidad de Romper Armadura si esta habilidad mata al enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Romper Armadura (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "1.2xATK x 3 golpes",
+      "description": "Ataca a todos los enemigos 3 veces. Después del primer golpe, tiene un 50% de posibilidades de aplicar un debuf de 60% [Reducir DEF] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 40."
+    }
+  ],
+  "lore": "Zargala creció acostumbrada a la sangre y a la batalla, hija de un jefe mercenario que lideraba la banda conocida como los Usurpadores. Con un ingenio agudo y divertido y una vena de rebeldía, se hizo amiga de la infancia del hijo de otro Usurpador, Grengar. Los dos eran casi como hermanos y secretamente esperaban algún día dejar la banda de guerra y fundar su propio grupo de guerreros.\n\n Los Usurpadores trabajaron durante un tiempo para sofocar un levantamiento campesino en el este de Kaerok, y sus servicios fueron pagados por un Señor del Estandarte llamado Sir Marston. Lo hicieron sin darse cuenta de que se habían metido en medio de una peligrosa disputa. Muchos de los campesinos trabajaban en tierras que estaban en disputa entre Sir Marston y el señor vecino, Sir Kentz. La presencia de mercenarios orcos le dio a Kentz la oportunidad de atacar. Declaró que intervendría para proteger a su pueblo de los rapaces ataques orcos.\n\n Grengar y Zargala se preparaban para partir la misma noche en que Kentz atacó. Abandonaron sus planes cuando el campamento de los Usurpadores fue asaltado por caballeros y hombres de armas Kaerok. La matanza fue feroz y Zargala presenció cómo su padre era asesinado en la refriega. Ella misma quedó inconsciente y no despertó hasta que todo terminó.\n\n Cuando Zargala recuperó el conocimiento, se encontró entre sus amigos y familiares muertos. Grengar estaba entre ellos; parecía haber caído mientras intentaba proteger su cuerpo inconsciente. Llena de dolor y rabia, Zargala tomó el gran hacha de su padre y partió tras las fuerzas de Kentz.\n\n Los siguió hasta que los encontró en un estrecho cruce de río en batalla con un grupo de orcos que Zargala no reconoció; Kentz, al parecer, estaba aprovechando la oportunidad para librar la tierra de todos los guerreros orcos.\n\n Zargala no perdió el tiempo. Primero, mató a los guardias que protegían los caballos de los humanos (que los caballeros habían dejado en la orilla cercana mientras atacaban a través del vado) y luego los soltó. En el caos que siguió, armó un escándalo en el bosque cercano, golpeando su hacha contra los troncos de los árboles, haciendo sonar las ramas y rugiendo. Luego se acercó al borde de los árboles y fingió animar a los guerreros orcos inexistentes que estaban detrás. Mientras estaban desorientados por la estampida de caballos y la amenaza de un asalto por su retaguardia, los humanos fueron contraatacados por los orcos con los que luchaban, liderados por uno con una melena de pelo rojo que blandía hachas gemelas. Los caballeros se desbandaron y Sir Kentz escapó.\n\n Después de los acontecimientos, Zargala se reunió con el líder orco. Lo reconoció de un encuentro casual años antes, cuando lo había encontrado en su extraña misión de llevar a un huérfano humano a la Ciudadela Eterna, la sede de la Orden Sagrada. Su nombre era Galek y le ofreció a Zargala un lugar en su banda. Ella lo rechazó, pero aceptó viajar con él hasta que abandonaran las fronteras de Kaerok. Los dos reavivaron rápidamente las brasas de una amistad nacida de ese extraño encuentro muchas lunas atrás, avivada por el humor de Zargala y la sincera bondad de Galek. Como el verano sigue a la primavera, el amor floreció entre ellos.\n\n Sin embargo, los dos orcos se vieron obligados a separarse físicamente, aunque no en su afecto. Zargala nunca perdió su deseo de ver la cabeza de Sir Kentz clavada en una pica, y estaba devota de que se cumpliera la hazaña. Cuando Galek dejó su banda para responder a un llamado que no podía explicar, ella quedó devastada. Ambos sabían que sus propósitos, por el momento, se debían a causas distintas a su amor mutuo. Juraron que algún día volverían a encontrarse.",
+  "forms": null,
+  "image": "/src/assets/champions/zargala.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

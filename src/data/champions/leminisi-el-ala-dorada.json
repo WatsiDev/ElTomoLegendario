@@ -1,0 +1,140 @@
+{
+  "slug": "leminisi-el-ala-dorada",
+  "name": "Leminisi el Ala Dorada",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Nuker con algunos debufos de nicho y potencial de daño",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=i2h43aTpCDQ",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "invocatormentas",
+    "pasion_codiciosa",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "despiadado",
+    "impulso",
+    "letal",
+    "cruel",
+    "percepcion",
+    "punteria",
+    "ataque"
+  ],
+  "uses": "Oleadas, y algún sitio donde los debufos de Bloquear Curación y Bloquear Bufos sean útiles",
+  "stats": {
+    "hp": 16515,
+    "speed": 99,
+    "attack": 1520,
+    "defense": 958,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Garras Áuricas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "multiplier": "2.1xATK",
+      "description": "Ataca a 1 enemigo 2 veces.\n\n Si el objetivo está bajo un bufo de [Escudo[, cada golpe tiene un 25% de reducir el tamaño del escudo en un 10%. También ignorará el 50% de la RES del objetivo si éste es de la Alianza de los Corrompidos. Si el objetivo no está bajo un bufo de [Escudo], cada golpe ignorará el 10% de la DEF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Interceptar la Amenaza (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo 2 veces.\n\n Cada golpe tiene un 100% de probabilidad de eliminar 2 bufos aleatorios del objetivo. También ignorará el 50% de la RES del objetivo si éste es de la facción de la Alianza de los Corrompidos. Esta habilidad hace más daño igual al valor de la barra de turno actual del objetivo (se acumula hasta el 100%).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guerrero Venerado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a todos los enemigos 2 veces.\n\n El primer golpe tiene un 75% de aplicar un debufo de 100% de [Curación Reducida] durante 2 turnos. El segundo golpe tiene un 50% de probabilidad de [Bloquear Bufos] durante 2 turnos. También ignorará el 50% de la RES del objetivo si éste es del a Alianza de los Corrompidos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Azote del Mal (Pasiva)",
+      "levels": [],
+      "description": "Recibe un 15% menos de daño de los enemigos que tengan un debufo de [Curación Reducida].\n\n Llena la barra de turno de este campeón en 5% cada vez que un enemigo recibe un bufo de [Escudo] o se cura.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/leminisi-el-ala-dorada.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

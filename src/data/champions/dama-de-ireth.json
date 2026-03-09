@@ -1,0 +1,133 @@
+{
+  "slug": "dama-de-ireth",
+  "name": "Dama de Ireth",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Buen campeón de apoyo con reseteo de habilidades, curas y muchos bufos",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=nAr8bTi35iA",
+  "blessings": [
+    "curacion-milagrosa",
+    "nutrir"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "proteccion",
+    "piel-de-piedra",
+    "incansable",
+    "inmortal",
+    "mercurial"
+  ],
+  "uses": "Facciones, y versátil en casi todo el PvE. No molesta, tampoco es super top",
+  "stats": {
+    "hp": 20475,
+    "speed": 106,
+    "attack": 1035,
+    "defense": 1178,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Rayo Faérico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Activa inmediatamente un bufo de [Curación continua] a todos los aliados con menos del 85% de HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cura Brumosa",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "description": "Elimina todos los debufos de un aliado objetivo y luego cura a ese aliado en el 50% del MAX HP de este campeón. Esta curación puede ser crítica. Si el aliado objetivo no se cura completamente, le aplica un bufo de [Bloquear daño] durante 2 turnos. Si el aliado se cura por completo, llena su barra de turno en un 50 % y cura a todos los aliados el 50% del exceso de curación.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza Rítmica",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Fortalecer] del 25 % y un bufo de [Curación continua] del 15 % en todos los aliados durante 2 turnos. También reduce 1 turno el tiempo de reutilización de todas las habilidades de todos los aliados, excepto este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aegis del Bosque (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] equivalente al 15% del HP MÁXIMO de este campeón en el aliado con el HP más bajo durante 2 turnos al comienzo del turno de este Campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta los HP de los aliados en todas las batallas en un 30 %."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/dama-de-ireth.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "carcelero-ogrete",
+  "name": "Carcelero Ogrete",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Nuker de 1 solo objetivo",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [
+    "cruel",
+    "salvaje"
+  ],
+  "uses": "Circunstancial,  facciones",
+  "stats": {
+    "hp": 11235,
+    "speed": 99,
+    "attack": 1299,
+    "defense": 980,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cierre de Emergencia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de eliminar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Confiscar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de Bufo / Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de robar 2 bufos al azar del objetivo. Ataca 1 vez más si roba algún bufo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Represalia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. El daño aumenta un 20% si el objetivo no tiene ningún bufo activo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en mazmorras en 20"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/carcelero-ogrete.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

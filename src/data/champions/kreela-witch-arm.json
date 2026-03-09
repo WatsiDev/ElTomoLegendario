@@ -1,0 +1,125 @@
+{
+  "slug": "kreela-witch-arm",
+  "name": "Kreela Witch-Arm",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Campeón polivalente de apoyo con cargas y bufos",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "campana_fundida",
+    "colmillo_asesino",
+    "lente_intangible"
+  ],
+  "gear": [
+    "impulso",
+    "reflejo",
+    "percepcion"
+  ],
+  "uses": "Versátil pero poco específica. Buena pero no top.",
+  "stats": {
+    "hp": 16680,
+    "speed": 99,
+    "attack": 1244,
+    "defense": 1222,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Barrera de luz de bruja (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Escudo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "4.6xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de [Escudo] equivalente al 10% de los PS MÁXIMOS de este Campeón en el aliado con los PS más bajos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resplandor cegador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "5.1xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo [Aturdir] durante 1 turno. Tiene un 80% de posibilidades de formar equipo con 3 aliados aleatorios para atacar a un enemigo aleatorio. Los aliados que se unen al ataque usan sus habilidades predeterminadas.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guerra Extraña (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Aplica una debufo del 50% [Aumentar ATK] y una debufo del 30% [Aumentar P.Crit] en todos los aliados durante 3 turnos, luego ataca a todos los enemigos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/kreela-witch-arm.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

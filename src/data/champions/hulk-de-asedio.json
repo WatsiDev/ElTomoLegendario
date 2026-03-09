@@ -1,0 +1,138 @@
+{
+  "slug": "hulk-de-asedio",
+  "name": "Hulk de Asedio",
+  "faction": "Ogretes",
+  "rarity": "Épico",
+  "role": "Daño con debufos útiles para potenciar ese daño",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [
+    "salvaje",
+    "percepcion",
+    "punteria",
+    "cruel",
+    "letal",
+    "dano-critico"
+  ],
+  "uses": "Principalmente facciones normal y oleadas en early-mid game",
+  "stats": {
+    "hp": 15030,
+    "speed": 95,
+    "attack": 1542,
+    "defense": 760,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ariete (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.1xATK",
+      "description": "Ataca a 1 enemigo. Reduce la barra de turno del objetivo en un 15% si el objetivo tiene un debufo de [Reducir DEF] o [Reducir VEL].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Paliza de Muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Aplica un bufo  del 50% [Aumentar ATK] en este Campeón durante 2 turnos, luego ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompeasedios (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "5.7xATK",
+      "description": "Aplica un bufo del 30% [Aumentar P.Crit] y un bufo del 30% [Aumentar D.Crit] en este Campeón durante 2 turnos, luego ataca a 1 enemigo. Tiene un 75% de probabilidad de aplicar un debufo del 30% [Reducir VEL] en el objetivo durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la Probabilidad de Crítico en las batallas de la Torre del Destino en un 24%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/hulk-de-asedio.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

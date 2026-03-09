@@ -1,0 +1,138 @@
+{
+  "slug": "nari-el-suertudo",
+  "name": "Nari el Suertudo",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Bufer / Debufer para aumentar/reducir PUNTS y RES",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "mano_de_descrear",
+    "campana_fundida"
+  ],
+  "gear": [
+    "punteria",
+    "percepcion",
+    "incansable",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Pocos, ni siquiera aporta gran cosa en facciones.",
+  "stats": {
+    "hp": 19320,
+    "speed": 104,
+    "attack": 804,
+    "defense": 1487,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ladronzuelo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        }
+      ],
+      "multiplier": "2.1xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de robar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arcoíris de Aflicción (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño 5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "red-res-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un 50 % [Reducir PUNT] y un 50 % [Reducir RES] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Riqueza Irresistible (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de debufo/desventaja +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de debufo/desventaja +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un debufo de [Provocar] durante 1 turno. También aplica un [Contraataque] en este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Canción Alegre (Pasiva)",
+      "levels": [],
+      "description": "Al comienzo del turno de este campeón, transfiere 1 bufo aleatorio de un enemigo aleatorio a un aliado aleatorio. La PUNT de este campeón aumenta en 5 por cada bufo en cada aliado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/nari-el-suertudo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

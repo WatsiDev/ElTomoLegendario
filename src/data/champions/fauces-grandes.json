@@ -1,0 +1,125 @@
+{
+  "slug": "fauces-grandes",
+  "name": "Fauces Grandes",
+  "faction": "Hombres Lagarto",
+  "rarity": "Épico",
+  "role": "Revividor con curación y debufos",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "rompe-cadenas"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "dedo_real",
+    "corona_lugubre"
+  ],
+  "gear": [],
+  "uses": "Útil en facciones si no tenemos otro revividor",
+  "stats": {
+    "hp": 18660,
+    "speed": 104,
+    "attack": 1101,
+    "defense": 958,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rayo de Hielo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de aplicar una debufo [Congelar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Obsequio",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Aumentar P.Crit] y un bufo del 15% [Aumentar VEL] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resucitar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "description": "Revive a 2 aliados muertos aleatorios con un 25% de HP. Aplica un bufo de [Bloquear daño] a los aliados revividos durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en la arena en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/fauces-grandes.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

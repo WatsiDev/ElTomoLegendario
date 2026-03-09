@@ -1,0 +1,138 @@
+{
+  "slug": "selinia-capanoche",
+  "name": "Selinia Capanoche",
+  "faction": "Altos Elfos",
+  "rarity": "Raro",
+  "role": "Nuker con Quemar HP y extensión de debufos",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "punteria",
+    "percepcion",
+    "velocidad",
+    "reflejo"
+  ],
+  "uses": "Limitada para arañas, pero decente en Hydra como quemadora y extensora.",
+  "stats": {
+    "hp": 13380,
+    "speed": 100,
+    "attack": 1266,
+    "defense": 870,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Flecha Mataalmas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        }
+      ],
+      "multiplier": "3.25xATK",
+      "description": "Ataca a 1 enemigo. Cura a este campeón un 10% de su MAX HP. Cura a este campeón un 20% de su MAX HP si ataca a un enemigo bajo un debufo de [Quemar HP].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Disparo Lunar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3.4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aumentar la duración de cualquier debufo de [Quemar HP] en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Balista Lunar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca a 3 veces al azar. Antes de atacar, aplica un bufo de 25% de [Aumentar PUNT] a este campeón durante 2 turnos. Cada golpe tiene un 50% de aplicar un debufo de [Quemar HP] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Impulso Solar (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Llena la barra de turno de este campeón en 5% cada vez que un debufo de [Quemar HP] se activa en un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/selinia-capanoche.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

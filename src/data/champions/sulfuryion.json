@@ -1,0 +1,135 @@
+{
+  "slug": "sulfuryion",
+  "name": "Sulfuryion",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Poderoso debufer, capaz de revivir, quemar hp, activarlos y aplicar escudos",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=gEDzP5C-POo",
+  "blessings": [
+    "fuego-y-azufre",
+    "crueldad"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "corona_de_ireth",
+    "corazon_volcardiaco",
+    "craneo_de_traicion",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "renacer"
+  ],
+  "uses": "Especialista en Hydra. Top en facción y golem dificil y bueno en oleadas de todo tipo.",
+  "stats": {
+    "hp": 18825,
+    "speed": 109,
+    "attack": 1112,
+    "defense": 1211,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Desgarro Volcánico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a un enemigo. Llena un 15% la barra de turno de este campeón. También lena un 10% la Barra de Turno de todos los aliados, excepto este campeón, al atacar a un objetivo que tiene un debufo de [Quemar HP]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Barrera Llameante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un debufo de [Quemar HP] a todos los enemigos durante 3 turnos y activa inmediatamente todos los debufos de [Quemar HP] de todos los enemigos. Luego aplica a todos los aliados un bufo de [Escudo] durante 2 turnos del daño hecho por la activación de [Quemar HP]. La Magnitud del bufo de [Escudo] no puede superar los 25.000 de HP",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Surgir de las Cenizas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [],
+      "description": "Revive a todos los aliados muertos con el 50% de HP y el 40% de Barra de Turno. Obtén un turno adicional",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ayuda Piroclástica (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Llena un 5% la Barra de turno de todos los alidos por cada debufo de [Quemar HP] aplicado. Siempre que se activa un debufo de [Quemar HP], cura a todos los aliados el 5% de su Max. HP. Siempre que se activa un debufo de [Quemar HP] en Skavag, Skavag Infecta, una arañita o una arañita infecta, cura a todos los aliados el 1% de su Max.HP \n\nSiempre que se elimina un debufo de [Quemar HP] de un enemigo, aplica un debufo de 50% [Reducir RES] durante 1 turno a dicho enemigo. Siempre que un aliado es matado por un enemigo que tiene un debufo de [Quemar HP], llena un 20% la barra de turno de este campeón. \n\n+7 de VEL por cada debufo de [Quemar HP] activo",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de los aliados en todas las batallas en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sulfuryion.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

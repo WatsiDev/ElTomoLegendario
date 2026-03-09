@@ -1,0 +1,124 @@
+{
+  "slug": "skatorsis",
+  "name": "Skatorsis",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Buen campeón para progreso en mazmorras, pero limitado en late game",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "orbe_de_transfixion",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "diario_de_necrotos",
+    "impasse_temporal"
+  ],
+  "gear": [
+    "incitar",
+    "aturdir",
+    "percepcion",
+    "punteria",
+    "maldito"
+  ],
+  "uses": "Facciones y oleadas en early. Bastante mediocre",
+  "stats": {
+    "hp": 20145,
+    "speed": 109,
+    "attack": 859,
+    "defense": 1376,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Mano de Perdición (ATK)",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Daños +5%."
+        },
+        {
+          "level_desc": "Niv. 3 Probabilidad de bufo/debufo +5%."
+        },
+        {
+          "level_desc": "Niv. 4 Probabilidad de bufo/debufo +5%."
+        },
+        {
+          "level_desc": "Niv. 5 Daños +10%."
+        },
+        {
+          "level_desc": "Niv. 6 Probabilidad de bufo/debufo +10%."
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 30% de probabilidad de robar 1 bufo aleatorio de cada enemigo. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Comando",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Aumentar ATK] y un bufo de 30% [Aumentar P.Crit] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Renacer",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 de curación +5%"
+        },
+        {
+          "level_desc": "Niv. 3 de curación +5%"
+        },
+        {
+          "level_desc": "Niv. 4 Curación +5%"
+        },
+        {
+          "level_desc": "Niv. 5 Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Niv. 6 Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "Elimina todos los debufos de todos los aliados, luego cura a todos los aliados y llena sus barras de turno. La cantidad por la que se cura cada aliado y el aumento de barra de turno aumenta de acuerdo con el número de debufos eliminados. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la velocidad de aliado en mazmorras en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/skatorsis.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

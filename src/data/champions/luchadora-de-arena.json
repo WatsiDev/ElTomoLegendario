@@ -1,0 +1,125 @@
+{
+  "slug": "luchadora-de-arena",
+  "name": "Luchadora de Arena",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Tanque con extensión de bufos aliados",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "crueldad"
+  ],
+  "relics": [
+    "mascara_de_ira",
+    "dedo_real",
+    "diadema_no_muerta",
+    "abanico_negro"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Se pueden montar setups de bufos infinitos con Brogni/Wixwell y ella extendiendo duración",
+  "stats": {
+    "hp": 15030,
+    "speed": 94,
+    "attack": 936,
+    "defense": 1365,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Oler debilidad (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "1.6xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 30% de probabilidad de aplicar una debufo de [Incitar] al objetivo durante 1 turno si este Campeón no tiene debufos. Cura un 15% del daño infligido si este Campeón tiene algún debufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arenas Infinitas (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a todos los enemigos. Reduce la duración de todos los bufos enemigos en 1 turno. Aumenta la duración de todos los bufos de los aliados en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sobreviviré (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "description": "Aplica un bufo del 50% de [Protección de aliados] en todos los aliados durante 2 turnos cuando el HP de cualquier aliado cae por debajo del 50%. También aplica un bufo de [Bloquear daño] a este Campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/luchadora-de-arena.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

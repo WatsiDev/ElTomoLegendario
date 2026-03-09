@@ -1,0 +1,143 @@
+{
+  "slug": "fenax",
+  "name": "Fenax",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Nuker con debufos, que brilla principalmente por un poderoso A1 capaz de aplicar bloquear revivir.",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "invocatormentas",
+    "colmillo_asesino",
+    "luna_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "instinto",
+    "percepcion",
+    "punteria",
+    "ataque-divino"
+  ],
+  "uses": "Arenas, oleadas, facciones e incluso Hydra. Fácil de maxear y pega duro",
+  "stats": {
+    "hp": 13875,
+    "speed": 96,
+    "attack": 1454,
+    "defense": 925,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Sacrificar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "4.1xATK",
+      "description": "Ataca a 1 enemigo. Da un golpe extra si el objetivo tiene debufos. Los enemigos asesinados por esta habilidad no pueden revivir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pareja Severa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar una debufo [Bloquear buffos] durante 2 turnos. Aplica un debufo de [Bloquear habilidades con Tiempo de Reutilización] durante 1 turno si esta habilidad no aplica un debufo de [Bloquear buffos]. Reduce la cuenta atrás de detonación de [Bomba] en 1 turno cuando Tallia está en el mismo equipo]",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sembrar debilidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "description": "Ataca a 1 enemigo. Tiene un 60% de probabilidad de aplicar un debufo del 60% [Reducir DEF] y un debufo del 30% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Fenax nació como el hijo menor de una familia noble desposeída de Kaerok. Fue colocado en la casa del señor de su padre como escudero a una edad temprana, para ser alimentado tanto como para aprender a ser un caballero. Pero la caballería tenía poco interés para el joven Fenax; en cambio, se sintió más inclinado a buscar la compañía de la hija de su nuevo señor, Tallia. Los dos niños pronto se hicieron buenos amigos, y rara vez pasaba un día sin que Fenax eludiera las responsabilidades de su escudero para pasar tiempo con Tallia.\n\n Sin embargo, el padre de Tallia vio en Fenax el potencial para ser no solo un caballero, sino un gran caballero. A pesar de su desinterés en ello, Fenax sobresalió en su entrenamiento, mostrando una gran habilidad con la espada y en la silla de montar. Y aunque Fenax nunca fue el más sabio de los escuderos, y su estupidez a menudo le trajo problemas, no obstante mostró cierta dosis de ingenio, como cuando se las arregló para salir de un duelo con un caballero al que había insultado sin darse cuenta o cuando fue capturado por bandidos y los convenció de que le perdonaran la vida dándoles la ubicación de un 'gran tesoro' lejano.\n\n Pero a medida que pasó el tiempo y Fenax y Tallia se acercaron a la edad adulta, su amistad evolucionó hacia algo más íntimo. Demasiado tarde, el padre de Tallia se dio cuenta de que su relación se había profundizado en el amor, y aunque Fenax pronto sería un caballero, no era un partido digno para la hija de un señor de Kaerok. Los rumores sobre los dos ya circulaban y podrían poner en peligro las posibilidades de Tallia de encontrar un compañero de rango adecuado.\n\n El padre de Tallia buscó el consejo de uno de sus consejeros, un sacerdote de la Orden Sagrada. El sacerdote, viendo la oportunidad de añadir otra alma a las filas de la Orden, aconsejó a su señor que enviara a Fenax a la Ciudadela Eterna, aparentemente como mensajero. Una vez allí, Fenax sería introducido a la fuerza en la Orden como Armigero. Si bien la Orden Sagrada prefería voluntarios, no tenía reparos en aceptar conversos renuentes cuando se presentaba la oportunidad. El sacerdote le aseguró al padre de Tallia que una vez que Fenax viera que sus opciones eran limitadas, seguramente se acostumbraría a su nuevo papel.\n\n Fenax fue enviado a cumplir su misión al día siguiente, en lo que a él respectaba, para entregar un mensaje a la Orden en nombre de su señor. Cuando se dio cuenta de la duplicidad de su señor, ya era demasiado tarde. Sus días pronto se convirtieron en un régimen de castigo de entrenamiento y catecismo, mientras sus nuevos amos buscaban acabar con cualquier esperanza de regresar a Kaerok o a Tallia.\n\n Fenax nunca había sido de los que aceptaban la derrota; encantó a sus nuevos superiores con su ingenio y habilidad, se ganó su confianza y elaboró ​​un plan de escape. Pero el día que había elegido para su intento, un nuevo recluta llegó a la Ciudadela. Uno que le resultaba familiar, por cierto.\n\n Era Tallia. Cuando Fenax la saludó con asombro y alegría, Tallia sonrió y dijo que tenía la intención de compartir su vida, adonde fuera que los llevara. Cuando él le preguntó cómo había sabido su paradero, ella respondió que la propia Lumaya le había mostrado el camino. Fenax, que no era tan tonto como para mirarle los dientes a un caballo regalado, dijo que si Lumaya los había reunido, entonces era mejor que ellos le devolvieran el favor.\n\n Los dos han servido bien a la Orden Sagrada en los años transcurridos desde entonces y juntos han luchado contra las fuerzas de la Oscuridad en docenas de campos de batalla. Su servicio los ha llevado por todo Anhelt y, más recientemente, a Peltas, y rara vez se han separado.",
+  "forms": null,
+  "image": "/src/assets/champions/fenax.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "balar-el-perdido",
+  "name": "Balar el Perdido",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Nuker capaz de aplicar y explotar venenos. Se usa bastante como solo/duo farmer",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=DarP04FHUeQ",
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "elixir_aracnido",
+    "aberracion_antigua",
+    "corona_de_ireth",
+    "mirada_del_gato"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "bestial",
+    "exactitud",
+    "salvaje",
+    "letal",
+    "regeneracion"
+  ],
+  "uses": "Dragón, Golem normal, Oleadasm, Quimera y Facciones. Arena incluso con la reliquia correcta tipo Kalvalax",
+  "stats": {
+    "hp": 15360,
+    "speed": 99,
+    "attack": 1586,
+    "defense": 969,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espinas Malignas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "sensibilidad-al-veneno"
+        }
+      ],
+      "multiplier": "3.8xATK - Escudo 4xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de [Escudo] a este campeópn durante 2 turnos. La magnitud del [Escudo] es proporcional al ATK de este campeón.\n\n Tiene un 50% de probabilidad de aplicar un debufo de 25% de [Sensibilidad al Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Torbellino de Vida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-sangre"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Chupar Sangre] a todos los enemigos durante 2 turnos.\n\n Activa inmediatamente todos los debufos de [Veneno] de todos los enemigos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Crecimiento Monstruoso (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "red-res-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "multiplier": "5.8xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir RES] a todos los enemigos durante 2 turnos.\n\n Aplica tres debufos de 5% de [Veneno] al objetivo inicial durante 2 turnos. Si este ataque es crítico, en lugar de lo anterior, aplica los tres debufo de 5% de [Veneno] durante 2 turnos a todos los enemigos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Perdido en el Caos (Pasiva) ",
+      "levels": [],
+      "description": "Este campeón ignora un 1% más de DEF por cada debufo de [Veneno] activado inmediatamente por este campeón (se acumula hasta el 20%).\n\n Llena un 5% la barra de turno de este cada vez que se aplica un debufo de [Veneno] a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta PUNT de Aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/balar-el-perdido.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "presbitero-brogni",
+  "name": "Presbítero Brogni",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Gran campeón de apoyo defensivo",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=nTgk8Now64I",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "infernosfera",
+    "dedo_real",
+    "rocadragon_dorada",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "inmortal",
+    "vida",
+    "resiliencia",
+    "escudo",
+    "apoyo",
+    "cruel",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Nicho. Bueno en jefes de la Torre del Destino, Facciones, Golem y algunas setups de Señor Demoníaco",
+  "stats": {
+    "hp": 22965,
+    "speed": 100,
+    "attack": 782,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 90
+  },
+  "skills": [
+    {
+      "name": "Azote de cristal profundo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 45% de probabilidad de aplicar un debufo [Quemar HP] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agarre de la caverna (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6.6xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de eliminar 1 bufo aleatorio de todos los enemigos. Tiene un 75% de probabilidad de eliminar 1 debufo aleatorio de todos los aliados. Aumenta el valor de los buffos de [Escudo] de todos los aliados en un 30% del daño infligido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resplandor resistente",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo [Bloquear Debufos] y un 50% [Aumentar ATK] en todos los aliados durante 2 turnos. También otorga un bufo de [Escudo] a todos los aliados durante 2 turnos equivalente al 30% de los PS MÁXIMOS de este Campeón. El bufo de [Escudo] no se puede eliminar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reducto (Pasiva)",
+      "levels": [],
+      "description": "Siempre que un aliado bajo un bufo de [Escudo] es atacado, se refleja el 25% del daño infligido en el [Escudo] al atacante. También cura a ese aliado en un 25% del daño infligido al [Escudo]. Si hay varios campeones en el equipo con esta habilidad, solo uno se activará.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESISTENCIA de los aliados en las batallas de la Torre del Destino en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/presbitero-brogni.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

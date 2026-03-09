@@ -1,0 +1,126 @@
+{
+  "slug": "diente-de-roca",
+  "name": "Diente de Roca",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Campeón de apoyo con algún debufo medio útil",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    {
+      "set_name": ""
+    }
+  ],
+  "uses": "Parte de la fusión de Rhazin y potencialmente útil en Cripta de pociones verdes",
+  "stats": {
+    "hp": 15525,
+    "speed": 101,
+    "attack": 1211,
+    "defense": 782,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Agarrar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a 1 enemigo. Ataca 1 vez más si este ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pisotear (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-1"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a todos los enemigos. Aplica un bufo de 15% de [Aumentar P.Crit] a todos los aliados durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tumulto (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "5.2xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de 100% de [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/diente-de-roca.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

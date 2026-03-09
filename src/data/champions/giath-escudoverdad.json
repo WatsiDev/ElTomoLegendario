@@ -1,0 +1,140 @@
+{
+  "slug": "giath-escudoverdad",
+  "name": "Giath Escudoverdad",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Gran campeón de Apoyo con bufos defensivos del montón",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "elixir_dorado",
+    "tiempo_de_sangre",
+    "abanico_negro"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 18495,
+    "speed": 104,
+    "attack": 925,
+    "defense": 1421,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Lanza de Revelación (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "multiplier": "3.4xATK",
+      "description": "Ataca a 1 enemigo. Ataca 1 vez más a los objetivos que tienen un debufo de [Reducir P.Crit] o [Reducir D.Crit] aplicados por este campeón. El ataque adicional es siempre un ataque normal e ignora el 50% de DEF de cada objetivo. \n\nTambién aplica un bufo de 60% de [Aumentar DEF] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Contemplar la Verdad (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aumenta 1 turno la duración de todos los bufos aliados. Esta habilidad hace un 5% más de daño por cada bufo al que le haya aumentado la duración.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Barrera de Incensario",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "reflejar-dano-2"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "aumentar-res-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% de [Reflejar Daño] durante 2 turnos a todos los aliados y un bufo de 50% de [Protección de Aliado] durante 2 turnos a todos los aliados excepto a este campeón. También aplica un bufo de 25% de [Fortalecer] y un bufo de 50% de [Aumentar RES] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fauces de Disuación (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "red-p-crit-2"
+        },
+        {
+          "key_name": "red-d-crit-2"
+        }
+      ],
+      "description": "Cada vez que un aliado con un bufo de [Reflejar Daño] es atacado, aplica un debufo de 30% de [Reducir P.Crit] y un debufo de 30% de [Reducir D.Crit] al atacante durante 2 turnos. Este efecto no se puede resistir",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/giath-escudoverdad.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

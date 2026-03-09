@@ -1,0 +1,131 @@
+{
+  "slug": "athel-oscura",
+  "name": "Athel Oscura",
+  "faction": "No Muertos",
+  "rarity": "Épico",
+  "role": "Nuker gratuito aunque bastante malo",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Se hizo para araña, pero no es muy buena",
+  "stats": {
+    "hp": 13710,
+    "speed": 100,
+    "attack": 1465,
+    "defense": 925,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Alabarda Profana (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 40 % de probabilidad de aplicar un debufo del 60 % [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espadas de Sangre (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 50 % de posibilidades de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cosechar Desesperanza (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "multiplier": "3.65xATK",
+      "description": "Ataca a todos los enemigos. Aplica un bufo del 30% [Aumentar VEL] en este Campeón durante 3 turnos si este ataque mata a 4 o más enemigos. Cura a este Campeón en un 50% de su HP MÁXIMO si este ataque mata a 6 o más enemigos. Da un turno extra si este ataque mata a 10 o más enemigos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": "No todas las historias tienen un final feliz y, a veces, incluso las más esperanzadoras pueden volverse oscuras. Así podría haber sido con Athel, un héroe de la Luz.\n\n Sin duda, los primeros años de Athel en la Orden Sagrada sugerían que una vida de fe incuestionable podría no ser su destino. Como iniciada, su naturaleza honesta se combinaba con una vena testaruda. Mostraba especial desdén cuando se trataba de ahondar en asuntos que sus superiores consideraban fuera de su alcance. El Árbitro la visitó para alentarla a realizar más descubrimientos, pero ¿y si una aparición más oscura había reclamado la atención de Athel?\n\n ¿Y si, incitada por un espíritu de sombra disfrazado de luz, hubiera descubierto algo repugnante en las cavernas bajo la Ciudadela Eterna, algo que la hubiera apartado del camino recto que había seguido? Si hubiera entrado en la cámara sellada equivocada, habría encontrado una escena de horror: cuerpos esparcidos por un espacio mohoso, cáscaras de aspecto antiguo retorcidas en agonías de muerte. Un lugar tan impregnado de maldad que Athel debería haber huido...\n\n …Pero antes de que pudiera hacerlo, una luz brillante brilló y se fusionó en la figura de una mujer. Estaba vestida con las vestimentas blancas de una sacerdotisa de la Orden Sagrada y llevaba una máscara de aspecto sereno. Se presentó como Elegaius y afirmó ser un espíritu trascendido que buscaba una conexión directa con Lumaya. Como parte de su búsqueda, una vez había organizado un gran servicio sagrado en esta misma cámara, pero las fuerzas de la Oscuridad habían interrumpido sus esfuerzos. Sin embargo, con la ayuda de Athel, Elegaius esperaba que el servicio pudiera repetirse, esta vez con éxito.\n\n Athel, cautivada ingenuamente por la sacerdotisa, aceptó. Durante los meses siguientes, habló con muchos otros iniciados y los convenció de que se reunieran a una hora determinada en la antigua cámara. Mientras Athel dirigía el servicio, Elegaius se materializó y se formó una profunda conexión mágica entre ellos, pero pronto se hizo evidente que algo andaba mal. La luz que la rodeaba estaba podrida y su máscara ahora era un rostro negro y terrible.\n\n Athel se dio cuenta de que la habían engañado. Mientras los gritos de los otros iniciados llenaban sus oídos, intentó romper su vínculo con Elegaius, pero no pudo. Las almas de sus amigos fueron arrancadas de sus cuerpos, alimentando al espíritu corrupto mientras Athel, abrumada por la reacción mágica de la conexión, colapsaba.\n\n Cuando Athel despertó entre los cadáveres, se encontró con que su piel estaba pálida y fría, su cuerpo insensible. Para su horror, se dio cuenta de que su corazón ya no latía.\n\n Athel no tuvo tiempo de aceptar su muerte viviente. Los caballeros de la Orden irrumpieron en la cámara e intentaron capturarla. Athel, actuando por instinto de conservación, levantó las manos y desató la magia oscura que ahora inundaba su cuerpo. Se sorprendió por las energías nigrománticas que respondieron a su llamado, pero tampoco pudo evitar sentir asombro por su poder. Hicieron que la carne de los caballeros se pudriera desde sus huesos. Mientras se descomponían ante ella, Athel huyó, perseguida por más de sus antiguos camaradas.\n\n En el desierto, Athel recibió otra visita de Elegaius. Mientras Athel despotricaba contra ella, la sacerdotisa corrupta le mostró que solo había una manera de deshacer lo que ya se había hecho. Solo a través de su inmortalidad cualquiera de ellos podría encontrar el tiempo necesario para romper el velo y establecer un verdadero contacto con Lumaya; según Elegaius, la Diosa de la Luz podría entonces poner fin a la plaga más amplia de los No Muertos. Este razonamiento retorcido, junto con la naturaleza adictiva de la magia oscura que se había arraigado en ella, hizo que Athel aceptara su nuevo destino como caballero de los No Muertos. Afortunadamente para Teleria, esta posibilidad es una mera fábula.",
+  "forms": null,
+  "image": "/src/assets/champions/athel-oscura.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

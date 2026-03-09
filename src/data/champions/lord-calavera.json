@@ -1,0 +1,150 @@
+{
+  "slug": "lord-calavera",
+  "name": "Lord Calavera",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Poderoso tanque / debufer, funciona muy bien con otros lagartos",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "rocadragon_dorada",
+    "infernosfera"
+  ],
+  "gear": [
+    "resistencia",
+    "percepcion",
+    "punteria",
+    "guardian",
+    "apoyo",
+    "escudo",
+    "vida-divina"
+  ],
+  "uses": "Amius, top en facción y buen tanque en general. Usos en Hydra también con algún otro lagarto.",
+  "stats": {
+    "hp": 27420,
+    "speed": 107,
+    "attack": 1112,
+    "defense": 1310,
+    "accuracy": 70,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 90
+  },
+  "skills": [
+    {
+      "name": "Desgarro alegre (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "1.35xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque llena la barra de turno de este campeón en un 5%. Tiene un 30% de posibilidades de repetir esta habilidad. Cada ataque aplica un debufo de 100% de [Curación Reducida] al objetivo durante 2 turnos. Este debufo no se puede resistir si hay al menos 1 campeón de la Facción de los Hombres Lagarto en tu grupo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reclamación de calavera (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Cooldown -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Tiene un 75% de probabilidad de aplicar un debufo de [Incitar] a un objetivo enemigo durante 1 turno. Este debufo no se puede resistir si hay al menos 1 campeón aliado de la facción de los Hombres Lagarto en tu grupo. \n\nAplica un bufo de [Fortalecer] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agarre abisal (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.85xDEF",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 75% de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos. Este debufo no se puede resistir si hay al menos 1 campeón aliado en tu grupo de la facción de los Hombres Lagarto en tu grupo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Enemigo horrendo (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "description": "Al ser atacado, destruye un 5% de MAX HP del atacante. Si es un Jefe, destrute un 2.5% de MAX HP (excepto el Escarabajo Rey, al que solo le destruye un 5% de MAX HP). No puede destruir MAX HP de un enemigo más del 50%. Ocurre una vez por ataque. \n\nTiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] a todos los objetivos que tienen cualquier cantidad de MAX HP destruido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Calaveras (Pasiva)",
+      "levels": [],
+      "cooldown": 3,
+      "description": "Si hay al menos 1 campeón aliado de la facción de los Hombres Lagarto en tu grupo, revive un aliado al azar con el 50% de HP y el 50% de barra de turno al comienzo del turno de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "En las profundidades de las bulliciosas calles de la Ciudad Libre de Arnoc se encuentra un sistema de alcantarillado laberíntico, hogar del mayor enclave de Hombres Lagarto fuera de los Lagos de la Pena. Entre estos túneles desesperados y caóticos prospera el Culto de los Juramentados de Calavera, una secta fanática que venera los espíritus de los antepasados ​​a través de sus cráneos. Los creyentes afirman que estas reliquias les confieren una velocidad y una ferocidad extraordinarias, aunque sigue siendo un misterio si esto es cierto o si se trata de mero fervor. En el duro entorno de las alcantarillas, los Juramentados de Calavera se aferran a estas creencias mientras luchan por sobrevivir contra bandas rivales, monstruos y cruzados por igual.\n\n El culto no tiene una jerarquía rígida, pero los cráneos ancestrales dictan el estatus. Cuanto más antiguo y más historia tenga el cráneo, mayor será el poder que se cree que posee. Ninguno supera al antiguo cráneo de Dragonkin que lleva su líder, el Señor de la Calavera Var-Gall. Esta reliquia se remonta a más de mil años, a la Edad Gris, cuando perteneció a un señor mago de Dragonkin que una vez gobernó Arnoc. Grabado con runas de fuerza y ​​magia, el cráneo se transmite a través de generaciones de Señores de la Calavera, confiado solo a aquellos que demuestran una devoción, conocimiento y habilidad inigualables. Var-Gall se ganó este honor a través de años de lealtad inquebrantable, elegido por su predecesora en su lecho de muerte.\n\n Var-Gall no reside en Arnoc, sino en una cueva aislada junto al lago Durham, como todos los Señores de la Calavera durante siglos. Atado por juramentos sagrados que solo él conoce, Var-Gall mantiene una distancia mesurada de la política mezquina de las alcantarillas e incluso de las actividades diarias del culto. Pasa sus días en una reflexión tranquila, ofreciendo orientación, arbitraje y entrenamiento a quienes lo buscan. Para él, incluso el simple acto de pescar conlleva lecciones profundas, que simbolizan la paciencia, la estrategia y el equilibrio de la vida. Sin embargo, a pesar de su existencia reservada, Var-Gall siempre está listo para defender el culto cuando surge el peligro.\n\n Cuando surgen amenazas, ya sean monstruos de las cloacas o los cruzados de la Orden Sagrada, Var-Gall se transforma en una fuerza de destrucción. Acechando los túneles con precisión letal, destroza armaduras y bestias por igual, y las púas de su piel envenenan y paralizan a sus enemigos. Su magia oscura fortalece a sus seguidores, les devuelve la fuerza y ​​los atrae hacia su lado, lo que garantiza una oleada constante de refuerzos. Pocos de los que se enfrentan a él sobreviven, y aún menos se atreven a regresar. La fe del culto en su líder es inquebrantable, y su poder mantiene a raya a sus enemigos.\n\n La Orden Sagrada considera a los Juramentados de Calavera como nigromantes heréticos, cuyos rituales son similares a los de los cultos antiguos y prohibidos. Para ellos, el cráneo de los Dragones es una prueba de la magia oscura que debe ser erradicada. Sin embargo, capturar a Var-Gall y desmantelar el culto ha demostrado ser una tarea imposible. Mientras él se mantenga firme e imparable, el inframundo de Arnoc seguirá siendo su dominio.",
+  "forms": null,
+  "image": "/src/assets/champions/lord-calavera.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

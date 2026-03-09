@@ -1,0 +1,132 @@
+{
+  "slug": "raglin",
+  "name": "Raglin",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Buen revividor y limpiador. Mejoró bastante tras el rework",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=4kng3Wp1hBU",
+  "blessings": [
+    "guarda-de-los-caidos",
+    "presencia-amenazante"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "politopo_infernal",
+    "efigie_demoniaca",
+    "diario_de_necrotos",
+    "crisalida_de_renacer",
+    "arpa_de_kasbiel",
+    "cronocubo",
+    "dedo_real",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "resistencia",
+    "justiciero",
+    "renacer",
+    "piel-de-piedra",
+    "velocidad",
+    "velocidad-divina",
+    "mercurial"
+  ],
+  "uses": "PvE principalmente en cualquier sitio. PvP quizá con algún set y setup específica",
+  "stats": {
+    "hp": 20310,
+    "speed": 104,
+    "attack": 1156,
+    "defense": 1068,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Arrepiéntete (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Llena las barras de turno de 3 aliados aleatorios en un 15%. Los Aliados solo pueden llenar su barra de turno una vez por turno con esta Habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Misericordia",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Elimina todos las debufos de todos los aliados y les aplica un bufo de 50% [Aumentar PUNT] y uno de 50% de [Aumentar ATK] en todos los aliados durante 2 turnos.\n\n Luego cura a todos los aliados. El valor de la cura será proporcional al ATK y al HP de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Milagro",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "description": "Revive a un aliado con 75% de HP y un 100% de barra de turno. También reduce los tiempos de reutilización del aliado revivido en 3 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Invocación Bendita (Pasiva)",
+      "description": "Este campeón es inmune de debufos de [Bloquear Habilidades activas] y a efectos de aumento de tiempo de reutilización.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/raglin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

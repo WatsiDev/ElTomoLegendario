@@ -1,0 +1,139 @@
+{
+  "slug": "lady-noelle",
+  "name": "Lady Noelle",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Revividor y control. Combina muy bien con Sir Nicolas",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=pesimtM7mXg",
+  "blessings": [
+    "curacion-milagrosa",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "el_triturador",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "efigie_demoniaca",
+    "arpa_de_kasbiel",
+    "mascara_de_zozobra",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "percepcion",
+    "piel-de-piedra",
+    "supersonico",
+    "punteria",
+    "velocidad",
+    "renacer",
+    "mercurial"
+  ],
+  "uses": "Útil en arenas, facciones, o mazmorras haciendo setups inmortales con sir Nicolas.",
+  "stats": {
+    "hp": 20805,
+    "speed": 105,
+    "attack": 892,
+    "defense": 1299,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bastón Quebrantahielo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 80 % de probabilidad de aplicar un debufo de [Bloquear bufos] durante 2 turnos. También reduce la barra de turno del objetivo en un 20 % si está bajo un debufo de [Congelar]. Estos debufos no se pueden resistir si Sir Nicolas está en el mismo equipo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Frío Vigorizante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Selecciona a un aliado. Si el aliado objetivo tiene un debufo de [Oveja], la elimina. Si el aliado objetivo no tiene un debufo de [Oveja], elimina todos los debufos. Si el aliado objetivo no tiene un debufo de [Oveja], lo cura en un 50% de los PV MÁXIMOS de este campeón. También cura a todos los aliados en una cantidad equivalente al 50% de cualquier curación sobrante. \n\nSi el aliado objetivo es Sir Nicolas, activa instantáneamente su habilidad Buena voluntad. Luego aplica un bufo de [Aumentar  VEL] del 30 % a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardiana del Hogar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con 50% de HP y 50% de barra de turno. Luego tiene un 75% de probabilidad de aplicar un debufo de [Congelar] a todos los enemigos durante 1 turno. Aplicará el debufo de [Congelar] incluso si no hay aliados muertos. Este debufo no se puede resistir ni bloquear si Sir Nicholas está en el mismo equipo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reina Criomántica (Pasiva)",
+      "levels": [],
+      "description": "Reduce la VEL de los enemigos bajo debufos [Congelar] en un 10 %. Cuando un debufo de [Oveja] expira en un aliado, llena su barra de turno en un 10 %. Cuando una debufo [Oveja] expira en un aliado, llena su barra de turno en un 50 %. Si hay varios campeones en el equipo con la habilidad, estos efectos solo se activarán una vez.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en arenas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lady-noelle.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

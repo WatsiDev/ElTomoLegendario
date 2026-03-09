@@ -1,0 +1,106 @@
+{
+  "slug": "aplastacraneos",
+  "name": "Aplastacráneos",
+  "faction": "Ogretes",
+  "rarity": "Épico",
+  "role": "Tanque capaz de absorber daño y de aplicar Contraataque en área",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=JeZFUMVDhxs",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": null,
+  "gear": [
+    "robar-vida",
+    "resiliencia",
+    "inmortal",
+    "redirigir",
+    "guardian",
+    "defensa"
+  ],
+  "uses": "Se usaba mucho antes en Jefe de clan en setups de contraataque. También sirve en Caballero de Fuego y Facciones",
+  "stats": {
+    "hp": 19320,
+    "speed": 98,
+    "attack": 826,
+    "defense": 1189,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Destrozar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de 50% [Curación Reducida] si la DEF del objetivo es menor que la de este Campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Muro de piedra",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Protección de aliado] en todos los aliados excepto este Campeón durante 2 turnos. Aplica un bufo de [Contraataque] a todos los aliados, excepto este Campeón, durante 2 turnos. Aplica un bufo de [Inmortal] en este Campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Inquebrantable (Pasiva)",
+      "levels": [],
+      "description": "Reduce la duración de todos los debufos en este Campeón en 1 turno al principio del turno de este campeón. Se produce una vez por turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en criptas de facción en 45."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/aplastacraneos.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

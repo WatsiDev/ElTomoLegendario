@@ -1,0 +1,110 @@
+{
+  "slug": "moledor",
+  "name": "Moledor",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Muy malo, no perdáis el tiempo",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    {
+      "set_name": ""
+    }
+  ],
+  "uses": "Ninguno",
+  "stats": {
+    "hp": 14535,
+    "speed": 95,
+    "attack": 859,
+    "defense": 1200,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rompehuesos (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-1"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de aplicar un debufo de 25% de [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Esparcir Hielo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "6xDEF",
+      "description": "Ataca 1 enemigo. Tiene un 75% de probabilidad de aplicar un debufo de [Congelar] durante 1 turno. Si el objetivo tiene un debufo de [Congelar], tiene un 25% de probabilidad de aplicarlo a otro enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Torre de Poder (Pasiva)",
+      "levels": [],
+      "description": "Aumenta en 15 la RES de todos los aliados por cada bufo activo que tenga este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/moledor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

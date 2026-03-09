@@ -1,0 +1,132 @@
+{
+  "slug": "esme-la-bailarina",
+  "name": "Esme la Bailarina",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Bufer / Debufer que sirve para PvE y para PvP si va junto con su pareja Modo",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=9w1EY7pZIqE",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "impasse_temporal",
+    "elixir_dorado",
+    "caldero_acaparador"
+  ],
+  "gear": [],
+  "uses": "Bastante buena en Hydra",
+  "stats": {
+    "hp": 18165,
+    "speed": 113,
+    "attack": 1090,
+    "defense": 1277,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Malabarista de Espadas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo del 50% de [Aumentar ATK] a todos los aliados durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bailarina de la Tierra (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidades de aplicar un debufo de 25% de [Debilitar] y un debufo de [Bloquear Bufos] durante 2 turnos. \n\nTambién reduce las barras de turno de los enemigos en 20%. Si Modo del Tono está en el mismo equipo, roba el 20% de barra de turno en lugar de reducirlo. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición de las arenas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Aumentar PUNT] y un bufo del 30% de [Aumentar VEL] a todos los aliados durante 2 turnos.\n\n Tiene un 75% de probabilidad de eliminar todos los bufos de todos los enemigos. Si Modo del Tono está en el mismo equipo, roba los bufos en lugar de eliminarlos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Movimientos Seductores (Pasiva)",
+      "levels": [],
+      "description": "[Efecto Pasivo] Cuando es golpeada, tiene un 15% de probabilidad de aleatoriamente cambiar el golpe crítico de un enemigo por un golpe débil, normal o fuerte. Si Modo del Repique está en el mismo equipo, la probabilidad aumenta al 30%.\n\n [Efecto Activo] Siempre que este campeón es golpeado, aumentar la barra de turno del aliado con mayor ATK en 50%",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/esme-la-bailarina.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

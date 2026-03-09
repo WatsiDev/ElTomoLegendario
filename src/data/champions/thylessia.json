@@ -1,0 +1,126 @@
+{
+  "slug": "thylessia",
+  "name": "Thylessia",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Nuker / debufer capaz de aplicar buenos debufos en área",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Debufer de oleadas y facciones. Útil en Hydra en early.",
+  "stats": {
+    "hp": 12720,
+    "speed": 97,
+    "attack": 1454,
+    "defense": 1002,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Trama de locura (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un efecto de [Contagiar Debufos], que contagia un debufo aleatorio del objetivo a todos los enemigos bajo el debufo de [Maleficio].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Voces Chillonas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "3.7xATK",
+      "description": "Ataca a todos los enemigos. Aumenta la duración de todas los debuffos de todos los enemigos en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Melancolía (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a todos los enemigos. Aplica un bufo del 60% [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fiesta de aflicción (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "description": "Al atacar enemigos que tengan un debufo de [Reducir DEF], tiene un 50% de probabilidad de aplicar un debufo de [Maleficio] sobre ellos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/thylessia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

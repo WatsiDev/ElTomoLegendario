@@ -1,0 +1,130 @@
+{
+  "slug": "demytha",
+  "name": "Demytha",
+  "faction": "Enanos",
+  "rarity": "Épico",
+  "role": "Campeón con Bloquear daño versátil para setups inmortales",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "agarre_de_valkanen"
+  ],
+  "gear": [],
+  "uses": "Específico para setups inmortales",
+  "stats": {
+    "hp": 18990,
+    "speed": 102,
+    "attack": 749,
+    "defense": 1288,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Fuegos ancestrales (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 9: Escudo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Coloca un [Escudo] durante 2 turnos, equivalente al 10% del Máximo HP de este Campeón, en el aliado con el menos HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Luz de la Profundidad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Aumenta la duración de los buffos aliados en 1 turno, luego disminuye la duración de todos los debuffos de los aliados en 1 turno. También cura a todos los aliados en un 2.5% de su MAX HP. Cura un 2.5% de HP MÁXIMO adicional por cada turno añadido o eliminado de la duración de los buffos y debuffos de esta habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Canalizar la sangre",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Coloca un [Bloquear daño] a todos los aliados durante 1 turno y un bufo del 15% [Curación continua] a los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 20%"
+    }
+  ],
+  "lore": "En las profundidades de la metrópolis subterránea de Gloomdeep Hold, más profundo incluso que los túneles más lejanos que se extienden a las afueras de la ciudad, en las profundidades abisales debajo de las Montañas de la Desesperación, se encuentran los restos del legendario imperio subterráneo de los enanos. Los enanos prácticamente han perdido el conocimiento de este lugar, pero hay algunos que están decididos a devolver al pueblo enano su antigua gloria, como el guardián del saber, Demytha.\n\n De hecho, es la insistencia de Demytha en desenterrar el pasado lo que le ha ganado la ira tanto de su rey como de sus compañeros guardianes del saber. Si bien los Enanos no son un pueblo con visión de futuro ni mucho menos, tampoco se revuelcan en el pasado. Los guardianes del saber mantienen el registro histórico, para que otros Enanos puedan vivir sin el estorbo de lo que ha sucedido antes, o el conocimiento de lo bajo que han caído desde que la invasión de los engendros demoníacos de Siroth destruyó el subimperio. Es mejor que recuerden solo lo que los guardianes del saber les dicen que recuerden y olviden lo que es mejor olvidar.\n\n Pero para Demytha, el pasado profundo es un país que está decidida a explorar; pero no por simple curiosidad. Más bien, busca aprender más sobre los emperadores enanos de antaño y los antiguos derechos de sangre que aún unen a su pueblo, para sanar la grieta que cree que se está desarrollando entre ellos. Porque no es ningún secreto, al menos entre los enanos, que las relaciones entre el Dominio de Skyiron y el Fuerte de Gloomdeep se han vuelto tensas en las últimas décadas, aunque siguen siendo fuertes. Demytha espera encontrar algo que unifique a su pueblo de una vez por todas.\n\n Esto significa descender a esas profundidades impías y buscar las salas de registros perdidas del subimperio. Entonces, como ahora, los Enanos eran meticulosos guardianes de registros, rastreando el linaje, la propiedad y similares de generación en generación hasta la antigüedad. Demytha espera encontrar estos registros perdidos para identificar al verdadero heredero de los Emperadores Enanos de antaño. Con ese fin, ha financiado una serie de expediciones a las profundidades, utilizando la riqueza y las conexiones de su propia familia para reunir grupos de cazadores de tesoros, cartógrafos, exploradores e historiadores para mapear los restos del subimperio y localizar las salas de registros perdidas. Estos intentos casi todos han terminado en desastre. Por cada fragmento de conocimiento o artefacto imperial recuperado de las profundidades, se han perdido docenas de vidas y los horrores ctónicos han sido despertados por los intrusos. Más de una vez, alguna abominación ha sido liberada accidentalmente de una caverna sin luz y ha perseguido al pueblo de Demytha hasta las afueras del Fuerte Gloomdeep, donde los administradores del túnel enano se han visto obligados a enfrentar la amenaza.\n\n Estos incidentes dañaron la reputación de Demytha, tanto entre sus compañeros guardianes del saber como con el Rey en el Corazón de la Oscuridad. Después del último incidente de este tipo, durante el cual un titánico escorpión de las cavernas fue atraído a los distritos exteriores de la fortaleza, se le ordenó que dejara de financiar sus expediciones a la oscuridad o se enfrentaría al exilio.\n\n Aunque Demytha aparentemente ha aceptado dejar el pasado enterrado, en realidad está más decidida que nunca a encontrar el conocimiento que busca. Por ello, mantiene sus investigaciones en secreto, a pesar del riesgo. Para ello, ha reunido a su alrededor solo a los exploradores más fiables y ahora dirige las expediciones ella misma, con la esperanza de que esta vez tenga éxito con cada partida desde la seguridad del Fuerte de las Tinieblas.",
+  "forms": null,
+  "image": "/src/assets/champions/demytha.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

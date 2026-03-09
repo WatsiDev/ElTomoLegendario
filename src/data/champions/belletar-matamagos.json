@@ -1,0 +1,132 @@
+{
+  "slug": "belletar-matamagos",
+  "name": "Belletar Matamagos",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Revividor de la facción que además da barra de turno y protege a los aliados revividos",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=Z32_bSFAF8Q",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [],
+  "uses": "PvE y facciones. Decente a falta de otro revividor, pero no es tan bueno como otros revividores",
+  "stats": {
+    "hp": 21975,
+    "speed": 103,
+    "attack": 848,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Hacha de Humo (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de reducir en 1 turno el tiempo de reutilización de una habilidad aleatoria del aliado con el barra de turno más alto, excepto este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pantano Rechinante (HP) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a todos los enemigos. Aplica un bufo del 50% [Aumentar ATK] y un bufo del 60% [Aumentar DEF] en todos los aliados durante 2 turnos. También cura a todos los aliados en un 20% del HP MÁXIMO de este Campeón y llena sus barras de turno un 20%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Misericordia del Oasis",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con 50 % de HP y 50 % de barra de turno, luego aplica un bufo de [Escudo] en todos los aliados revividos durante 2 turnos, equivalente al 20 % del HP MÁXIMO de este Campeón. También aplica un bufo de [Bloquear Debufos] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Coyuntura Crítica (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "description": "Tiene un 75% de probabilidad de reducir todos los tiempos de reutilización de las habilidades de un aliado en 1 turno cada vez que se revive.\n\n Una vez por turno, si un aliado mere, reduce los tiempos de reutilización de todas las habilidades de este campeón en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de Aliados en todas las batallas en 33%."
+    }
+  ],
+  "lore": "Belletar, un formidable ogrete, nació en los brutales mercados de esclavos de Velyzar, con una vida destinada a ser corta y salvaje. Belletar, que en un principio estaba destinado a las sangrientas arenas, creció sabiendo solo luchar. Su destino cambió cuando su desesperado dueño lo vendió a un conocido comerciante que necesitaba un guardia para la caravana, y le asignó la tarea de proteger un cargamento con destino a Ireth. Sin embargo, antes de llegar a su destino, la caravana fue emboscada por asaltantes nómadas, liderados por el infame guerrero ogrete, Gruzl Steelbelly, el Rompejaulas. Gruzl liberó a Belletar de sus cadenas, lo alejó de sus antiguos captores y lo llevó al implacable desierto. Bajo el estricto entrenamiento de Gruzl, Belletar pasó de ser un esclavo común y corriente a un hábil Rompedor de Jaulas. Con el paso de los meses, se volvió casi tan fuerte y capaz como su mentor, y demostró su valía durante un asalto a una caravana que se dirigía a Ireth. En un momento de poder puro, Belletar mató a un capataz mago y consumió la sangre vital que misteriosamente le otorgaría habilidades mágicas. La sangre despertó algo dentro de él y le otorgó un don inusual para la curación. A medida que el control de Belletar sobre estos poderes crecía, también lo hacía su anhelo por un propósito más allá de las batallas interminables, y finalmente decidió separarse de Gruzl y buscar un camino diferente. En busca de la soledad para comprender sus nuevos poderes, Belletar viajó a las profundidades del desierto, lejos de las miradas indiscretas y del alcance de los nómadas. En un oasis desolado, se comunicó con los espíritus del desierto, quienes compartieron con él su antiguo conocimiento. Con el paso de los años, Belletar dominó una poderosa magia, aprendió a fortalecer o debilitar el cuerpo de un guerrero y a canalizar la energía del viento y la arena. Forjó su propia armadura única a partir de restos abandonados, cada pieza simbolizaba a los espíritus que lo guiaban. Esta existencia aislada, aunque solitaria, le permitió refinar sus habilidades, atrayendo visitantes ocasionales de tierras lejanas que venían a buscar su sabiduría o desafiar su poder. A medida que se difundía la noticia de su presencia, tanto sabios como vagabundos visitaban Belletar. Muchos buscaban orientación, mientras que otros acudían con la intención de matar. Los espíritus le insinuaron que le aguardaba un destino enredado, que involucraba a un poderoso guerrero llamado Gharol Machacasangre, perseguido por una horda mortal. Decidido a cumplir su destino, Belletar partió hacia el desierto, guiado por los susurros de los espíritus y un sentido de propósito para encontrar y ayudar a Gharol, su aliado desconocido. Tras varios días de viaje, Belletar se encontró al borde de una feroz batalla. Al observar a la imponente Gharol liderando a sus guerreros orcos contra la horda de no muertos de un nigromante, se unió a la lucha. Con su poderosa magia, curó y fortaleció a los orcos, ayudándolos a vencer a sus enemigos. Cuando el polvo se asentó y los orcos vitorearon, Belletar y Gharol se miraron a los ojos, sus destinos entrelazados. En ese momento, Belletar supo que este era solo el comienzo de su viaje, con nuevas batallas y pruebas esperándolos.",
+  "forms": null,
+  "image": "/src/assets/champions/belletar-matamagos.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

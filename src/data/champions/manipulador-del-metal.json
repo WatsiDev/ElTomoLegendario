@@ -1,0 +1,121 @@
+{
+  "slug": "manipulador-del-metal",
+  "name": "Manipulador del Metal",
+  "faction": "Hombres Lagarto",
+  "rarity": "Raro",
+  "role": "Apoyo con potencial de escudos permanentes",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "curacion-milagrosa"
+  ],
+  "relics": [
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": "Rey Escarabajo en la ciudad maldita, ya que pone escudos de 2 turnos cada 2 turnos.",
+  "stats": {
+    "hp": 16350,
+    "speed": 90,
+    "attack": 859,
+    "defense": 1079,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rayo de Transferencia (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +5 %"
+        }
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de robar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Acero Fortificado",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] en todos los aliados durante 2 turnos. El valor del Escudo es proporcional al Nivel de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rescatar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Elimina todas las debufos de un aliado con el HP más bajo, luego cura a este aliado en un 20% del HP MÁXIMO de este campeón. Aplica un bufo de [Aumentar Defensa] del 25% en el objetivo durante 3 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en las criptas de facción en un 15 %"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/manipulador-del-metal.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,163 @@
+{
+  "slug": "pyxniel",
+  "name": "Pyxniel",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Campeón defensivo con control basado en congelar",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=mLUsflqGg0k",
+  "blessings": [
+    "fuego-y-azufre",
+    "crueldad"
+  ],
+  "relics": [
+    "campana_fundida"
+  ],
+  "gear": [
+    "proteccion",
+    "inmortal",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "No es top ni especialista en ningún sitio, pero tampoco estorba",
+  "stats": {
+    "hp": 18825,
+    "speed": 103,
+    "attack": 1090,
+    "defense": 1233,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Dama de Glamoures (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de [Velo Perfecto] en el aliado con menos HP durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agarre de Invierno (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "debilitar-1"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Aplica un bufo del 60% [Aumentar DEF] y un bufo del 15% [Curación continua] a todos los aliados durante 2 turnos, luego ataca a todos los enemigos que tengan un debufo de [Congelar]. Aplica un debufo del 25% [Debilitar] durante 2 turnos en todos los enemigos bajo la debufo [Congelar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aluvión de Carámbanos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "4.6xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 80% de probabilidad de aplicar un debufo de [Congelar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tejedora de Hielo (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "[Efecto Pasivo] Inmune a debufos de [Congelar]. Llena un 25% la Barra de Turno de este campeón siempre que se aplica un debufo de [Congelar] a un aliado.\n\n [Efecto Activo] Al final de cada turno de un enemigo o un aliado, elimina todos los debufos de [Congelar] de todos los alidos. Si hay varios campeones en el grupo con esta habilidad, solo uno eliminará los debufos de [Congelar] de todos los aliados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en arenas en 80."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pyxniel.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

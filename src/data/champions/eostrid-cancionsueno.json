@@ -1,0 +1,140 @@
+{
+  "slug": "eostrid-cancionsueno",
+  "name": "Eostrid Canciónsueño",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Iniciador y debufer con algo de curas",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "presencia-amenazante"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "tiempo_de_sangre",
+    "impasse_temporal"
+  ],
+  "gear": [
+    "velocidad",
+    "percepcion",
+    "punteria",
+    "maldito"
+  ],
+  "uses": "Bastante versátil como iniciadora en arenas, control de oleadas y sobretodo en Hydra",
+  "stats": {
+    "hp": 21135,
+    "speed": 115,
+    "attack": 1035,
+    "defense": 1134,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Voluta de Sueño (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob.Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob.Bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "5.4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de [Dormir] durante 1 turno. Si el objetivo tiene un debufo de [Reducir VEL] o de [Debilitar] aplicados por este campeón, en lugar de lo anterior tiene un 75% de probabilidad de aplicar un debufo de [Dormir] durante 1 turno",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estallido de Primavera (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob.Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob.Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] y un debufo de 25% de [Debilitar] durante 2 turnos. También reduce un 15% las barras de turno de todos los enemigos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Canciónsueño Bendita",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% de [Aumentar VEL] un bufo de 50% de [Aumentar ATK] a todos los aliados durante 3 turnos. También llena un 15% la barra de turno de todos los aliados. Luego, obtén un turno adicional",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Flor de Vida (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que se llena la barra de turno de este campeón o un aliado. Cura a todos los aliados segun el Max.HP. La magnitud porcentual de la cura es la mitad del aumento de la Barra de Turno",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en un 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/eostrid-cancionsueno.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "maton-ocultista",
+  "name": "Matón Ocultista",
+  "faction": "Ogretes",
+  "rarity": "Épico",
+  "role": "Envenenador capaz de aplicar venenos de larga duración",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=zh9L0pNYrVw",
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [
+    "robar-vida",
+    "punteria",
+    "percepcion",
+    "velocidad",
+    "inmortal"
+  ],
+  "uses": "Se usaba mucho hace años en Jefe de Clan como envenenador. Puede servir en Dragón / Golem en early game, pero no se usa para nada en mid-late",
+  "stats": {
+    "hp": 20640,
+    "speed": 98,
+    "attack": 1101,
+    "defense": 826,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Navaja hechicera (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de aplicar un debufo de 5% [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Comer Maldiciones (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6.2xATK",
+      "description": "Ataca a 1 enemigo. Si este campeón tiene menos de 1 debufo, este ataque ignora el 30% de la DEF enemiga. Si este campeón tiene menos de 2 debuffs, los enemigos asesinados por esta habilidad no pueden revivirse. Si este campeón tiene menos de 3 debuffs, estos ataques siempre son críticos. Si este Campeón tiene menos de 4 debuffs, este Campeón cura un 30% del daño infligido. Si este campeón tiene menos de 5 debuffs, otorga un turno adicional. Elimina todos los debuffs de este campeón después del ataque.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ritual de ruina (Pasiva)",
+      "levels": [],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "description": "Aplica un debufo de 2.5% [Veneno] en este Campeón durante 4 turnos al comienzo de cada turno. Tiene un 70% de posibilidades de aplicar un debufo de 5% [Veneno] en un enemigo aleatorio durante 4 turnos al comienzo de cada turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/maton-ocultista.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

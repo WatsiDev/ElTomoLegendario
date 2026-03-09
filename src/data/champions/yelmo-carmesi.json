@@ -1,0 +1,137 @@
+{
+  "slug": "yelmo-carmesi",
+  "name": "Yelmo Carmesí",
+  "faction": "Elfos Oscuros",
+  "rarity": "Épico",
+  "role": "Tanque con control y bufos útiles",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=qwCbSEiRw3M",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "brebaje_de_colera",
+    "dedo_real",
+    "mascara_de_ira",
+    "agarre_de_valkanen"
+  ],
+  "gear": [
+    "regeneracion",
+    "percepcion",
+    "defensa",
+    "ferreo",
+    "punteria",
+    "inmortal",
+    "resiliencia"
+  ],
+  "uses": "Carry en early game. Facciones en mid como control. En late puede solear Bommal en manual",
+  "stats": {
+    "hp": 15690,
+    "speed": 85,
+    "attack": 727,
+    "defense": 1531,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe a Traición (ATK)(DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel: 2 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 3 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 4 Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel: 5 Probabilidad Buff / Debuff +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "2.7xATK + 2xDEF",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 30% de aplicar un debufo del 50% [Reducir ATK] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lengua vil (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel: 2 Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel: 3 Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel: 4 Probabilidad Buff / Debuff+5%"
+        },
+        {
+          "level_desc": "Nivel: 5 Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel: 6 Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "multiplier": "1.4xATK",
+      "description": "Ataca 4 veces al azar. Cada golpe tiene un 75% de posibilidades de aplicar un debufo [Provocar] durante 1 turno. Aplica una debufo [Bloquear Daño] en este Campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "En Guardia! (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel: 2 Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel: 3 Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Revivir al Morir] y un bufo de 60% [Aumentar DEF] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP aliado en mazmorras en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/yelmo-carmesi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

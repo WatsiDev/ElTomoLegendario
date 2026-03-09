@@ -1,0 +1,127 @@
+{
+  "slug": "wyrennon-la-sedosa",
+  "name": "Wyrennon la Sedosa",
+  "faction": "Vigías Silvanos",
+  "rarity": "Épico",
+  "role": "Revividor de la facción con algún bufo de apoyo",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=6l01xI2G3F4",
+  "blessings": [
+    "sobrevivir",
+    "presencia-dominante"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "inmortal",
+    "proteccion",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Revividor para facciones y PvE. Se acaba quedando corta en late game",
+  "stats": {
+    "hp": 17835,
+    "speed": 104,
+    "attack": 848,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cucharón de Seda (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-ataque-2"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de posibilidades de aplicar un debufo de 50% de [Reducir Ataque] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Deslizar Pasos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Llena un 15% las barras de turno de los aliados y les aplica un bufo del 30% [Aumentar Velocidad] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Gracia de Inmortales",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Revive a un aliado con el 50% de HP y el 30% de barra de turno. También aplica un bufo de 15% de [Curación Continua] a ese aliado durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en un 20% en criptas de facción."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/wyrennon-la-sedosa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "presencia-amenazante",
+  "name": "Presencia Amenazante",
+  "group": "",
+  "rarity": "Legendario",
+  "description": "Descripción pendiente.",
+  "image": "/src/assets/icons/blessings/presencia-amenazante.webp",
+  "levels": [
+    {
+      "stars": 1,
+      "description": "Mejora nivel 1",
+      "stat": "HP +500",
+      "extra_stat": ""
+    },
+    {
+      "stars": 2,
+      "description": "Mejora nivel 2",
+      "stat": "ATK +200",
+      "extra_stat": ""
+    },
+    {
+      "stars": 3,
+      "description": "Mejora nivel 3",
+      "stat": "DEF +100",
+      "extra_stat": ""
+    },
+    {
+      "stars": 4,
+      "description": "Mejora nivel 4",
+      "stat": "HP +1000",
+      "extra_stat": ""
+    },
+    {
+      "stars": 5,
+      "description": "Mejora nivel 5",
+      "stat": "SPD +5",
+      "extra_stat": ""
+    },
+    {
+      "stars": 6,
+      "description": "Mejora nivel 6 (Awakening)",
+      "stat": "C.DMG +20%",
+      "extra_stat": "Resist +50"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "juliana",
+  "name": "Juliana",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Nuker / Debufer blandito pero útil sobretodo en early y mid game en jefe de clan, ya que es capaz de aportar bastantes debufos útiles.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=V0p962KRK-0",
+  "blessings": [
+    "toque-fantasmal",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "punteria",
+    "incansable",
+    "percepcion",
+    "salvaje",
+    "letal",
+    "fatal",
+    "robar-vida",
+    "sed-de-sangre"
+  ],
+  "uses": "Jefes en early-mid, incluído el señor demoníaco",
+  "stats": {
+    "hp": 15360,
+    "speed": 103,
+    "attack": 1398,
+    "defense": 881,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Baile de batalla (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "multiplier": "2.4xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe crítico llena el barra de turno de este campeón en un 10%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Compañero Letal (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Aplica un bufo de 30% [Aumentar P.Crit] en este Campeón, luego ataca a 1 enemigo 2 veces. Aplica un debufo de 5% [Veneno] en el objetivo durante 3 turnos si este ataque es crítico. [Ignorará el 50% de la DEF del objetivo cuando Romero esté en el mismo equipo]",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuego de purga (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 7: bufo / debufo Chance +5%"
+        },
+        {
+          "level_desc": "Nivel 8: bufo / debufo Chance +5%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Elimina todos los bufos del objetivo. Tiene un 75% de posibilidades de aplicar un debufo de [Quemar HP] durante 3 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de aliados en la arena en un 20%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/juliana.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

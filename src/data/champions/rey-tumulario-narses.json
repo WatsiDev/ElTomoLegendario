@@ -1,0 +1,122 @@
+{
+  "slug": "rey-tumulario-narses",
+  "name": "Rey Tumulario Narses",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Potente nuker de HP anti Taras-Marichka",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=p0SgLNFSKqE",
+  "blessings": [
+    "desgarro-aplastante",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "invocatormentas",
+    "apagador_de_esencia"
+  ],
+  "gear": [
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Se ve mucho en Arena junto a Ankora. Sin Ankora es un nuker más, pero con ella pueden ir a facciones, oleadas, Torre, etc...",
+  "stats": {
+    "hp": 23995,
+    "speed": 101,
+    "attack": 705,
+    "defense": 1277,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Cetro de Corrupción (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "0.24xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aumentar 2 turnos el tiempo de reutilización de una de las habilidades del objetivo. Este efecto no se puede resistir si la Reina Tumularia Ankora está en el mismo grupo",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Explosión de Profanación (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.28xHP",
+      "description": "Ataca a todos los enemigos. Ignora el 25% de la DEF. Ataca una vez más a los enemigos que tienen un bufo de [Escudo] o [Fortalecer].\n\n Las habilidades Pasivas (excepto las de los Jefes) y las maestrías enemigas no pueden reducir el daño hecho por esta habilidad. Las Maestrías de este campeón y las habilidades pasivas de aliados no pueden aumentar el daño hecho por esta habilidad, excepto al atacar a jefes",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Que te reclamen los espíritus (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Ataca a 1 enemigo 2 veces. Aumenta un 10% el daño que hace esta habilidad por cada bufo que tiene el objetivo (se acumula hasta el 50%) y un 10% adicional por cada bufo que tiene este campeón (se acumula hasta el 50%).\n\n Si este ataque mata a un objetivo con más de 2 bufos, le aplica un debufo de [Bloquear Revivir]. Obtén un turno adicional si este ataque mata a un enemigo y la Reina Tumularia Ankora está en el mismo grupo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Manto de la No Muerte (Pasiva)",
+      "levels": [],
+      "description": "Este campeón recibe un 50% menos de daño al ser atacado por enemigos, incluyendo jefes, fuera de su turno activo. Si la Reina Tumularia Ankora está en el mismo grupo, este campeón no recibe ningún daño al ser atacado por enemigos fuera de su turno activo. \n\n [Este efecto no funciona contra Jefes y sus esbirros][Las habilidades de este campeón también ignoran bufos de [Escudo] y [Fortalecer]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60"
+    }
+  ],
+  "lore": "Hace mucho tiempo, en el lejano oriente de Anhelt, había un reino humano conocido como el Reino de Vald. Sus monarcas habían gobernado bien durante muchas generaciones, y habían logrado la prosperidad de sus tierras gracias al comercio que recibían de Peltas a través de las agitadas aguas de lo que entonces era el estrecho de Antas.\n\n El último rey de Vald, Narsés, heredó el trono siendo joven, pero demostró una sabiduría y un liderazgo que no correspondían a su edad. Resolvió una serie de disputas fronterizas que habían estado presentes durante mucho tiempo en el reino y renegoció varios acuerdos con consorcios de comerciantes extranjeros, lo que llevó a un auge comercial. También obtuvo una gran victoria en la batalla de Greenfield, al repeler una invasión orca que amenazaba no solo a Vald sino también a los territorios vecinos.\n\n Parecía que el reinado de Narsés sería largo y próspero, pero todo terminó con la llegada del Imperio Dragonkin. Los emisarios entregaron un ultimátum severo al monarca humano: renunciar al trono y aceptar la anexión, o enfrentarse a la aniquilación. La respuesta que dio Narsés fue inequívoca: hizo ejecutar a los mensajeros del Imperio y convocó a las huestes de Vald para la guerra.\n\n Lo que siguió fueron tres años de conflicto en los que los ejércitos de Vald hicieron retroceder a los invasores dragonantes a cada paso. Narsés dirigió todo, desde el centro de la refriega hasta la organización continua de nuevos suministros y el entrenamiento de nuevos soldados.\n\n Al no tener éxito, los líderes del Imperio Dragonkin cambiaron de táctica: en lugar de intentar tomar Vald por la fuerza, enviaron a un nuevo emisario, una mujer humana llamada Ankora, cuya familia había gobernado Emaria. Era una tierra en el oeste de Peltas, en la costa del estrecho de Antas, y había sido un estado cliente de los Dragonkin durante varias generaciones.\n\n Narsés esperaba rechazar cualquier propuesta que Ankora trajera de los Dragones, consciente de que estaban tratando de usar a la noble para manipularlo. Pero los pensamientos de presentar una defensa voluntaria de la diplomacia hábil y las negociaciones difíciles se esfumaron cuando la conoció por primera vez. Ankora era inteligente y hermosa, y compartía muchos de sus propios valores, a saber, la creencia en tratar a los súbditos en función de su mérito en lugar de su posición social, la devoción al imperio de la ley y la creencia en la autonomía y la independencia. Las preocupaciones de que lo estuvieran engañando se desvanecieron cuando la pareja planeó un resultado que no solo permitiría que el reino de Vald perdurara de alguna forma, sino que también allanaría el camino para su matrimonio.\n\n Los términos que Ankora finalmente adoptó con los Dragones aparentemente satisfacían tanto las necesidades del Imperio como las de la nueva pareja. Aunque Vald reconoció la autoridad de los Dragones, Narses seguiría siendo su gobernante y Ankora recuperaría el poder en Emaria. Gobernarían con cierta autonomía, pero en nombre del Imperio de los Dragones.\n\n Los Dragones aceptaron, instalando a Narsés y Ankora como los primeros soberanos humanos en el Imperio. El estrecho de Antas pasó a llamarse estrecho de Valdemar, y la capital de la soberanía se estableció en la isla de Zetra, en el centro del estrecho. Se avecinaba una nueva era de paz y unión. Narsés y Ankora gobernaron sus reinos conjuntos durante décadas, sin que su feroz amor mutuo se quebrara. Juraron que ni siquiera la muerte los separaría, y derramaron su sangre juntos en un amuleto mágico que, una vez que hubiera sido completamente encantado, creían que uniría sus almas en el más allá. Cuando se acercaban al final de sus vidas, tomaron veneno y perecieron en los brazos del otro.\n\n Pasaron muchos siglos. El Imperio Dragonkin se derrumbó entre fuego y sangre, y Zetra cayó lentamente en ruinas. La gran tumba de Narsés y Ankora quedó sepultada en un desprendimiento de tierra, y el recuerdo de la poderosa soberanía conjunta de Valdemar se desvaneció. Sin embargo, las historias de los amantes reales audaces y desafiantes persistieron, lo suficiente como para provocar una oscura expedición a Zetra.\n\n Fue la Madre Cibeles quien desenterró los restos de la antigua tumba y encendió la magia del amuleto que Ankora aún agarraba con su mano huesuda. Narsés y su esposa se despertaron, sus cuerpos parcialmente momificados estaban llenos de polvo, sus atavíos funerarios y armaduras estaban empañados. La confusión que envolvía sus pensamientos perezosos fue apaciguada por el Caballero Renacido. Cibeles les explicó la naturaleza de la No-muerte y los llevó ante su maestro, K'Leth.\n\n El gobernante de los Caballeros Aparecidos dio la bienvenida a la pareja, festejándolos no solo como grandes monarcas, sino como los amantes más devotos de toda Teleria. Prometió ayudarlos a recuperar su antiguo reino y reconstruir Zetra. A cambio, todo lo que buscaba eran historias de su pasado, especialmente relatos del Imperio Dragonkin. Esperaba obtener de ellos conocimientos arcanos perdidos hace mucho tiempo, armas que podrían darle una ventaja en sus interminables conspiraciones e intrigas. Cuando lo hiciera, si todo salía según lo planeado, las huestes de los Caballeros Aparecidos incluirían entre sus filas a la gran unión de Valdemar renacido, Narses, y su amante eterna, Ankora.",
+  "forms": null,
+  "image": "/src/assets/champions/rey-tumulario-narses.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

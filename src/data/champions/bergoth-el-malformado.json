@@ -1,0 +1,107 @@
+{
+  "slug": "bergoth-el-malformado",
+  "name": "Bergoth el Malformado",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Campeón defensivo que puede usarse de nuker o controlador",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "mascara_de_ira"
+  ],
+  "gear": [],
+  "uses": "Control de oleadas en early y facciones como mucho",
+  "stats": {
+    "hp": 21810,
+    "speed": 95,
+    "attack": 716,
+    "defense": 1134,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Juggernaut de Pesadilla (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un 15% de bufo [Curación continua] en este Campeón durante 1 turno si este ataque es Crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hedor químico (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 30% de probabilidad de aplicar un debufp de [Incitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Recipiente (Pasiva)",
+      "levels": [],
+      "description": "Siempre que este Campeón es atacado, cura a todos los aliados excepto este Campeón se curan un 20% del daño recibido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bergoth-el-malformado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "oella",
+  "name": "Oella",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Healer/iniciador/debufer, útil en PvE",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=zLYes2zlBmQ",
+  "blessings": [
+    "fuego-y-azufre",
+    "nutrir"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "infernosfera"
+  ],
+  "gear": [
+    "proteccion",
+    "inmortal",
+    "punteria`",
+    "percepcion",
+    "velocidad"
+  ],
+  "uses": "Bastante versátil, sobretodo en PvE: Muy buena en Gemelos, Golem e incluso Quimera",
+  "stats": {
+    "hp": 21135,
+    "speed": 110,
+    "attack": 980,
+    "defense": 1189,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Aleteo Alborotado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 80 % de probabilidad de aplicar un debufo de [Reducir Vel] durante 2 turnos. Este debufo no se puede resistir si Ultan del Caparazón está en el mismo equipo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mano de Privamera",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Cura a todos los aliados en un 30% de su MAX HP. Aumenta la duración de todos los bufos de los aliados en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Metamorfosis",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-res-2"
+        }
+      ],
+      "description": "Rellena los medidores de turno de todos los aliados en un 30%. También aplica un bufo de 50% [Aumentar RES] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sin Trabas (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Cada vez que un aliado pierde el 15 % o más de su MAX HP con un solo golpe, aplica un bufo de [Curación continua] del 15 % a ese aliado durante 1 turno. Aplica un bufo del 15% [Curación continua] durante 2 turnos en ese aliado y luego lo activa instantáneamente si Ultan del Caparazón está en el mismo equipo. Solo puede ocurrirle una vez a un aliado por turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta el RES de los aliados en las mazmorras en 75."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/oella.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

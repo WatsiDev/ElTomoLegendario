@@ -1,0 +1,139 @@
+{
+  "slug": "alicia-la-viajera",
+  "name": "Alicia la Viajera",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker / Controlador basado en aumentar los tiempos de reutilización enemigos",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=tqnqLoI16nc",
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "malleos_de_fuego",
+    "la_carcajada_final",
+    "martillo_del_fin",
+    "sombra_encaramada",
+    "invocatormentas",
+    "luna_de_sangre",
+    "corona_corrompida",
+    "pasion_codiciosa",
+    "mirada_del_gato",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "velocidad",
+    "punteria",
+    "dano-critico",
+    "percepcion",
+    "despiadado",
+    "instinto"
+  ],
+  "uses": "Para una cuenta de early-mid game, probablemente en cualquier sitio ayuda. Su mejor sitio será la arena y las oleadas por el control que aporta",
+  "stats": {
+    "hp": 16020,
+    "speed": 99,
+    "attack": 1443,
+    "defense": 1068,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada Vorpal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Ataca 1 vez más si el objetivo tiene alguna habilidad activa en tiempo de reutilización. Cada ataque tiene un 80% de probabilidad de reducir 1 turno la duración de un bufo al azar del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ciclón Mecánico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4.2xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aumentar 2 turnos los tiempos de reutilización de todas las habilidades enemigas.\n\n También tiene un 75% de probabilidad de reducir un 15% la barra de turno de cada objetivo. Si se aumenta al máximo el tiempo de reutilización de alguna de las habilidades del objetivo, la reducción de Barra de Turno es del 30% en vez del 15%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Matarreinas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 20% de DEF. Si el objetivo inicial muere, también ataca al enemigo con menos HP. También ignora un 20% de la DERF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tick Tock (Pasiva)",
+      "levels": [],
+      "description": "[Efecto Pasivo] Cada vez que este campeón ataca, hace un 3% de daño adicional a cada objetivo por cada turno de tiempo de reutilización que tengan en sus habilidades. El daño adicional se contabiliza individualmente para cada objetivo.\n\n [Efecto Activo] Reinicia el tiempo de reutilización de una de las habilidad de este campeón cada vez que mata a un enemigo. Ocurre una vez por habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/alicia-la-viajera.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

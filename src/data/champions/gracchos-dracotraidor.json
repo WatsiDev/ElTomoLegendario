@@ -1,0 +1,137 @@
+{
+  "slug": "gracchos-dracotraidor",
+  "name": "Gracchos Dracotraidor",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo deHP con bufos y debufos útiles",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=DarP04FHUeQ",
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "corona_de_ireth",
+    "varita_de_sumision",
+    "agarre_de_valkanen"
+  ],
+  "gear": [
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Oleadas e Hydra principalmente. Debufer con mucho aguante.",
+  "stats": {
+    "hp": 22635,
+    "speed": 99,
+    "attack": 826,
+    "defense": 1244,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Segadora de Despojos (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "0.2xHP - Curación 0.1xHP",
+      "description": "Ataca a 1 enemigo. Ignora el 25% de DEF.\n\n Cura a todos los aliados con menos del 50% de HP el 10% del MAX HP de este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Eliminar a los Débiles (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "0.15xHP",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque ignora el 25% de DEF de objetivos con menos del 50% del HP. El primer ataque tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] a todos los enemigos durante 2 turnos. El segundo ataque tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] a todos los enemigos durante 2 turnos. Cada ataque ignora el 25% de RES de objetivos con menos del 50% de HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Grito de Guerra Dracónido (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "multiplier": "?xHP",
+      "description": "Aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos. También aplica un bufo de [Bloquear Daño] a todos los aliados durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ambición Feroz (Pasiva) ",
+      "levels": [],
+      "description": "Los aliados con más del 50% de HP y con algún bufo aplicado por este campeón hacen un 10% más de daño. Los aliados con menos del 50% de HP reciben un 10% menos de daño al ser atacados por un enemigo con algún debufo aplicado por este campeón. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gracchos-dracotraidor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

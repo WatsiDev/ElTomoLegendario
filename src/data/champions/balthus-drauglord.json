@@ -1,0 +1,142 @@
+{
+  "slug": "balthus-drauglord",
+  "name": "Balthus Drauglord",
+  "faction": "No Muertos",
+  "rarity": "Épico",
+  "role": "Campeón de apoyo con potencial de daño para progreso",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "rocadragon_dorada",
+    "campana_fundida",
+    "el_triturador",
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "percepcion",
+    "resiliencia",
+    "vida-divina"
+  ],
+  "uses": "Debufer para oleadas en early y mid. Facciones fácil",
+  "stats": {
+    "hp": 18000,
+    "speed": 97,
+    "attack": 848,
+    "defense": 1255,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Golpe de escudos (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "4.15xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ruedas infernales (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-p-crit-2"
+        }
+      ],
+      "multiplier": "4.2xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 30% [Reducir P.Crit] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Conducido a la matanza (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "6.4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de aplicar un debufo de [Incitar] durante 2 turnos. También cura a este Campeón en un 20% de su MAX HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escudos encantados (Pasiva)",
+      "levels": [],
+      "buffDebuff": [],
+      "description": "Refleja el 30% del daño que este campeón recibe al atacante.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/balthus-drauglord.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

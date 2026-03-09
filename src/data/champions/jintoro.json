@@ -1,0 +1,138 @@
+{
+  "slug": "jintoro",
+  "name": "Jintoro",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Buen nuker útil contra jefes en batallas largas",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=Vn7ZbFoAcQI",
+  "blessings": [
+    "toque-fantasmal",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "colmillo_asesino",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "cruel",
+    "instinto",
+    "despiadado"
+  ],
+  "uses": "Va bien en setups inmortales en Señor Demoníaco. Puntual para el resto de sitios",
+  "stats": {
+    "hp": 15360,
+    "speed": 102,
+    "attack": 1487,
+    "defense": 1068,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bebedor de almas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Otorga un turno extra si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Congelar la Sangre (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5.8xATK",
+      "description": "Ataca a 1 enemigo. Roba el 100% del medidor de turno del objetivo. Reduce el tiempo de reutilización de la habilidad Rabia de Oni en 1 turno si el objetivo es inmune a los efectos de reducción del medidor de turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rabia de Oni (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "5.7xATK",
+      "description": "Ataca a 1 enemigo. Coloca un debufo del 60% [Reducir DEF] y del 25% [Debilitar] durante 2 turnos. Atacará 5 veces en lugar de 1 cada cuarto uso de esta habilidad contra el mismo objetivo en una ronda.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vigoroso (Pasiva)",
+      "levels": [],
+      "description": "Todos los efectos de llenado del medidor de turno aumentan en un 50% en este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en todas las batallas en un 29%"
+    }
+  ],
+  "lore": "Aunque la Oscuridad de Siroth tiene sus raíces en el alma de cada engendro demoníaco, no todos se rinden a ella. Uno de ellos es Jintoro. Su padre, Hintoro, fue un comandante mortal en los ejércitos de la Autocracia Mikage, hasta el día en que aceptó a Siroth como su señor y amo y fue elevado a la categoría de demonio. Más tarde, engendró a Jintoro, quien creció aprendiendo el arte de la espada al lado de su padre.\n\n En comparación con muchos líderes Demonspawn Mikage, Hintoro era comedido, pero reprimir la rebelión que se extendía por Yakai requería de medidas brutales. Jintoro fue testigo de ejecuciones masivas y torturas, y aunque su padre afirmaba que los rebeldes no se comportaban de manera diferente y que permitirles ganar sería el presagio del caos en Yakai, Jintoro no pudo disipar las dudas sobre el régimen Mikage, que crecieron a medida que él se hacía mayor.\n\n Más tarde, Jintoro se unió a los ejércitos de Mikage, sirvió en el séquito de su padre y fue testigo de más brutalidades. A medida que infligían atrocidades cada vez mayores, Hintoro expresó en privado los inicios de su arrepentimiento a Jintoro. Sus incertidumbres siguieron creciendo, hasta la Batalla del Camino Occidental, un enfrentamiento que cambió el rumbo vacilante de ambos hombres. Mientras la columna de Hintoro avanzaba a lo largo de las fronteras del Bosque Brumoso, una fuerza Sylvan les tendió una emboscada. Jintoro luchó duro junto a su padre, pero no pudo salvarlo de la ráfaga de flechas Sylvan que golpearon su cuerpo. Con su último aliento, Hintoro imploró a su hijo que no desperdiciara su existencia como él lo había hecho, sino que devolviera algo de bien al mundo. Sin embargo, inicialmente, Jintoro solo quería venganza.\n\n Después de que el Sylvan se fundiera de nuevo con los árboles, el superviviente Mikage se retiró de la frontera del Bosque Brumoso lo más rápido posible, pero no Jintoro. Avanzó más profundamente en el bosque, en busca de aquellos que mataron a su padre. Lo que exactamente ocurrió bajo el dosel oscuro es algo que solo saben Jintoro y los pocos Sylvan que escaparon de su espada dentada y cristalina, una espada criomántica llamada Blood Freeze. Lo único que es seguro es que los soldados de la Autocracia que se retiraban oyeron aullidos sobrenaturales que resonaban desde los árboles. Semanas después, mucho después de que lo hubieran dado por muerto, Jintoro reapareció llevando las astas y los cráneos de bestia del Sylvan que había matado.\n\n Su rabia se disipó y, meditando sobre las últimas palabras de su padre, Jintoro descubrió que no tenía deseos de volver a unirse a los Mikage. Desertó, evitando tanto a la Autocracia como a los rebeldes. Tratado con miedo y sospecha por la gente común debido a su asociación con los Mikage y la forma demoníaca, vivió como un paria, hasta que un día se encontró con una aldea que estaba siendo saqueada por los escoltas de la Autocracia. Siguiendo un impulso similar al que lo había enviado al Bosque de la Niebla, Jintoro atacó y mató a los soldados, salvando a los aldeanos.\n\n Al principio, los campesinos trataron a Jintoro con temor, pues reconocieron que el guerrero de piel cian con armadura Mikage era un engendro de demonios. Demostró que no tenía malas intenciones al entregarles su espada, un acto sin precedentes. Aunque no fue aceptado por completo, la gente lo dejó vivir en una choza en las afueras de su aldea.\n\n Días después, cuando vieron a otra banda de asaltantes Mikage acercándose, Jintoro les pidió que le devolvieran su arma. Los aldeanos decidieron que valía la pena correr el riesgo y así lo hicieron, y él eliminó a los atacantes en poco tiempo. Convencidos ahora de sus buenas intenciones, le permitieron quedarse con la espada.\n\n Pronto, las historias del 'Caballero Demonio' que luchaba para proteger a la gente común se extendieron. Los campesinos de otras aldeas en el área devastada por la guerra viajaron al lugar donde se alojaba, con la esperanza de encontrar seguridad frente a las bandas de guerra de Mikage. Jintoro no tenía la intención de convertirse en un salvador del pueblo, pero parecía una forma adecuada de devolver el legado de oscuridad de su familia. Formó a aquellos que estaban dispuestos a unirse a él en una banda de guerreros que lucharon con firmeza para defender a la gente común mientras Yakai se hundía aún más en el caos.\n\n Era solo cuestión de tiempo antes de que este elemento no alineado llamara la atención de la rebelión. Buscaron a Jintoro, recelosos de su naturaleza demoníaca. Algunos líderes entre los rebeldes recomendaron que lo mataran, especialmente aquellos que notaron los trofeos tomados de sus aliados silvanos. Otros intentaron reclutarlo, pero Jintoro declaró sin rodeos que no tomaría partido en la guerra en curso, sino que lucharía solo para proteger a los plebeyos. Incapaces de aceptar y no dispuestos a convertir en enemigos a las aldeas bajo la protección de Jintoro, los líderes de la rebelión decidieron dejarlo en paz.\n\n Después de la destrucción de los Mikage, una paz incómoda se instaló en Yakai, pero para Jintoro fue fugaz. Una mañana, varios aldeanos de los asentamientos que había jurado proteger fueron encontrados acribillados por flechas Sylvan. Pronto, otras personas desaparecieron. Para Jintoro estaba claro que los Sylvan no habían olvidado el legado de la Batalla de Western Track. Al darse cuenta de que su presencia estaba convirtiendo a los aldeanos en un objetivo, el Caballero Demonio de Yakai tomó su espada y partió hacia el Bosque de la Niebla, para un ajuste de cuentas final con los asesinos de sus padres.",
+  "forms": null,
+  "image": "/src/assets/champions/jintoro.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

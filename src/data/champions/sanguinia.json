@@ -1,0 +1,122 @@
+{
+  "slug": "sanguinia",
+  "name": "Sanguinia",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Limpiador de debufos así como algún otro debufo, pero limitada en general.",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "sobrevivir"
+  ],
+  "relics": null,
+  "gear": [
+    "percepcion",
+    "punteria",
+    "resiliencia",
+    "inmortal"
+  ],
+  "uses": "Early game, no es muy buena",
+  "stats": {
+    "hp": 20475,
+    "speed": 105,
+    "attack": 760,
+    "defense": 1178,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Castigo Rojo (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 20% de probabilidad de reducir la duración de 2 bufos aleatorios en el objetivo en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre Sagrada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un [Bloquear Debufos] en todos los aliados durante 1 turno y un bufo de [Curación Continua] del 15% en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cordero de Sacrificio",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "7.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75 % de posibilidades de transferir todos los debufos de este campeón al objetivo. Elimina todos los debufos de todos los aliados excepto de este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en las batallas de la Torre del Destino en 55."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sanguinia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

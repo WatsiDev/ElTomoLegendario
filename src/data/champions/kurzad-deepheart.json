@@ -1,0 +1,141 @@
+{
+  "slug": "kurzad-deepheart",
+  "name": "Kurzad Deepheart",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Campeón capaz de aplicar aumentar PUNT para early",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": "Aumentar nuestras PUNT en early",
+  "stats": {
+    "hp": 12225,
+    "speed": 97,
+    "attack": 1343,
+    "defense": 870,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Abrirse paso (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo. Da un golpe extra si este ataque es crítico. El golpe adicional aplica un debufo del 30% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Blandir el pico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "3.3xATK",
+      "description": "Ataca a todos los enemigos. Cada golpe crítico llena la barra de turno de este campeón en un 7.5%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Emboscada profunda (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 9: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "red-def-1"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Aplica un bufo del 50% [Aumentar PUNT] en todos los aliados durante 2 turnos, luego ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 30% [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/kurzad-deepheart.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

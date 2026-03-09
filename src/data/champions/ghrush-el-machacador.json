@@ -1,0 +1,141 @@
+{
+  "slug": "ghrush-el-machacador",
+  "name": "Ghrush el Machacador",
+  "faction": "Ogretes",
+  "rarity": "Épico",
+  "role": "Nuker de DEF con debufos así como curaciones a aliados",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": null,
+  "gear": [
+    "percepcion",
+    "punteria",
+    "defensa",
+    "resiliencia",
+    "letal",
+    "salvaje",
+    "ferreo"
+  ],
+  "uses": "Oleadas y bastante bueno en facciones normales. Hace un poco de todo.",
+  "stats": {
+    "hp": 19320,
+    "speed": 94,
+    "attack": 694,
+    "defense": 1321,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Mazazo degollador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de aplicar un debufo [Chupar Vida| en el objetivo durante 2 turnos antes de atacar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pisotón Rompehuesos (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad Bufo / debufo + 20%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-d-crit-2"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 60% de aplicar un debufo del 50% [Reducir ATK] o un debufo del 30% [Reducir D.Crit] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Franja sofocante (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Aplica un bufo de 15% [Curación continua] en todos los aliados durante 2 turnos. Aplica un bufo adicional de 7.5% [Curación continua] en todos los aliados durante 1 turno si al menos un enemigo recibe un golpe crítico.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en criptas de facción en un 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ghrush-el-machacador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

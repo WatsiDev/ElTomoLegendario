@@ -1,0 +1,125 @@
+{
+  "slug": "avir-el-alquimago",
+  "name": "Avir el Alquimago",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Debufer, Healer e iniciador",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "punteria",
+    "percepcion",
+    "supersonico"
+  ],
+  "uses": "Early game, oleadas y facciones",
+  "stats": {
+    "hp": 16680,
+    "speed": 102,
+    "attack": 881,
+    "defense": 1035,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Matraz de Vitriolo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "4.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de 5% de [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Catalizador Corrosivo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo + 20%"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-1"
+        },
+        {
+          "key_name": "red-vel-1"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo de 25% de [Reducir ATK] durante 2 turnos. También aplica un debufo de [Reducir VEL] durante 1 turno a los objetivos que tengan un debufo de [Veneno].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pociones de Vigor",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "description": "Llena un 15% las Barras de Turno de todos los aliados y luego cura a todos los aliados el 15% de MAX HP de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/avir-el-alquimago.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

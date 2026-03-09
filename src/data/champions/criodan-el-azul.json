@@ -1,0 +1,118 @@
+{
+  "slug": "criodan-el-azul",
+  "name": "Criodan el Azul",
+  "faction": "Vigías Silvanos",
+  "rarity": "Épico",
+  "role": "Especialista en caballero de fuego dificil, con mulithits y congelar",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=KaMynqy90O4",
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [
+    "incondicional",
+    "ferreo",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Diseñado para Caballero de Fuego Dificil. No vale para mucho más",
+  "stats": {
+    "hp": 17835,
+    "speed": 99,
+    "attack": 1090,
+    "defense": 1024,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada Cortezafría (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "1.2xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 25 % de probabilidad de aplicar un debufo de [Congelar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Granizo de Navajas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca a todos los enemigos 2 veces. Cada golpe tiene un 45 % de probabilidad de aplicar un debufo [Congelar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición del azul",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Ataca a todos los enemigos. El daño aumenta en un 5% por cada debufo en el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bailarín de hielo (Pasiva)",
+      "levels": [],
+      "description": "Llena la barra de turno del Campeón en un 5% por cada debufo de [Congelar] aplicado por este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Nadie comprende en profundidad la magia onírica que impregna y da poder a los Fae y sus procedimientos. La certeza es fundamentalmente incompatible con el estudio de ellos. Seguramente la magia es el núcleo de todas sus formas de vida, así razonan los eruditos. ¿De qué otra manera podrían los Fae reclamar el dominio sobre dominios extraños y eclécticos como las nubes de tormenta o los líquenes, y extraer el poder para cambiar de forma y causar estragos de fuentes absurdas? Nada en su mundo sobrenatural parece verdaderamente imposible, y para los Fae ambiciosos como Criodan, eso representaba una oportunidad.\n\n Hace mucho tiempo, cuando la Corte Fae era joven, un noble menor advenedizo se autoproclamó Criodan el Azul, Señor de Azul, Maestro de Todas las Fuerzas con Alma de Zafiro. Incluso dentro de una Corte que vibra con energía ilógica, todavía no parece haber patrones, e incluso en una forma temprana, su política tenía normas; pero Criodan buscó romperlas y establecer un nuevo estándar. Mientras que otros Fae afirmaban representar cosas como Juncos, Luz de Luna, Cimas de Montaña y Cenizas, Criodan audazmente supuso que una franja mucho más vasta de la creación era su dominio. ¿Era algo así posible? ¿Su poder sería vasto o se diluiría hasta el punto de la inutilidad? Nadie lo sabía, y Criodan estaba decidido a averiguarlo.\n\n Otros nobles Fae reaccionaron con risitas, chismes, susurros y gritos ocasionales. Muchos de ellos temían genuinamente a Criodan, o al menos deseaban preservar las normas existentes, por lo que se enfrentó a una oposición inmediata que creció junto con su notoriedad. Para los Fae, defenderse de ataques asesinos puede ser solo otra parte de la existencia, y Criodan fue atacado con frecuencia por otros señores, así como por sus agentes y creaciones. Los cuentos dicen que mientras se movía de azul a azul no conocía la paz: junto a charcas cerúleas de agua prístina fue atacado por torpes golems de roca, volando en forma de pájaro fue blanco de rayos antinaturales del cielo azul claro, y cuando se retiró al corazón de un antiguo glaciar, sus enemigos lo atacaron con un calor de otro mundo.\n\n Criodan y un pequeño grupo de amigos y aliados contraatacaron. Para combatir a sus enemigos, Criodan conjuró tormentas de granizo helado de color zafiro, cada trozo duro como el hierro y con bordes afilados como navajas, y en su mano conjuró una espada formada de hielo místico y corteza crujiente. A sus órdenes, sus aliados lucharon ferozmente, con increíble velocidad y gracia. Las bendiciones del Azul eran misteriosas y múltiples, y aquellos que dudaban de que Criodan pudiera dominar un concepto tan amplio se aterrorizaron al ver que su dominio crecía con cada ataque que frustraba.\n\n Insistieron en que se redujera el alcance de Criodan, que se contentara con llamarse a sí mismo el Marqués de Hail o el Exarca de los Cielos Helados. Criodan se negó y continuó atrayendo poder y atención hacia sí mismo. Las luchas entre su camarilla de hadas y los demás vieron selvas cubiertas de escarcha mientras la escarcha luchaba con la vid, y arroyos represados ​​con hielo para frustrar las maquinaciones de la Duquesa de Aguas Rápidas, que luchó contra Criodan por el dominio acuático.\n\n Su rivalidad resultó ser el mayor desafío para Criodan. La Duquesa también poseía un amplio dominio, pero no tan expansivo como el concepto mismo de 'el Azul'. Su autoridad sobre todo lo que fluía era suficiente para derrotar a Criodan y hacer que regresara a lagos y estanques estancados y a algún que otro trozo de cielo azul. Luego, los relatos sobre Criodan se acabaron, aparentemente junto con el propio Criodan, probablemente porque los muchos dominios espirituales que él reclamaba fueron absorbidos por otros Fae que estaban más dispuestos a especializarse. O tal vez Criodan se escondió o se inclinó ante un nuevo amo y ahora viste un nuevo manto.",
+  "forms": null,
+  "image": "/src/assets/champions/criodan-el-azul.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

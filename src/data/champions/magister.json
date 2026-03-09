@@ -1,0 +1,129 @@
+{
+  "slug": "magister",
+  "name": "Magister",
+  "faction": "Altos Elfos",
+  "rarity": "Raro",
+  "role": "Malillo, comida.",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [],
+  "uses": "Ninguno, muy malo. Puedes usarlo para subir otros campeones",
+  "stats": {
+    "hp": 18000,
+    "speed": 101,
+    "attack": 892,
+    "defense": 936,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bastón Majestuoso (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-1"
+        }
+      ],
+      "multiplier": "4.1xATK",
+      "description": "Ataca a 1 enemigo. Si es crítico, aplica un bufo de 25% de [Aumentar ATK] a un aliado al azar durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Untar",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "reflejar-dano-2"
+        },
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Aplica un bufo de [Revivir al Morir] y un bufo de 30% de [Reflejar Daño] al aliado objetivo durante 2 turnos. Cura a todos los demás aliados el 10% de HP del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Censura (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-1"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo de 50% de [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en Criptas de facción en 22%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/magister.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

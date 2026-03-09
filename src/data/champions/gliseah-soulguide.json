@@ -1,0 +1,148 @@
+{
+  "slug": "gliseah-soulguide",
+  "name": "Gliseah Soulguide",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Tanque anti bloquear habilidades, capaz de control y debufos.",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "cadenas-temporales"
+  ],
+  "relics": [
+    "orquidea_mortilunar",
+    "dedo_real",
+    "tiara_atronadora",
+    "plumaje_dorado",
+    "rocadragon_dorada",
+    "elixir_dorado",
+    "filos_de_akumori",
+    "corazon_gelido",
+    "campana_fundida"
+  ],
+  "gear": [
+    "resiliencia",
+    "redirigir",
+    "inmortal",
+    "percepcion",
+    "defensa",
+    "ferreo",
+    "fortaleza"
+  ],
+  "uses": "A pesar de que no es mala, tampoco hace nada especialmente poderoso para ningún sitio en particular.",
+  "stats": {
+    "hp": 18660,
+    "speed": 100,
+    "attack": 826,
+    "defense": 1509,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Cuchillada Reluciente (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "3.2xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar una debufo [Congelar] durante 1 turno. También aplica un efecto de [Contagiar Debufos] que contagia todos los debufos del objetivo a todos los enemigos que tienen un debufo de [Congelar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aliento de Escarcha (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a todos los enemigos. Roba todos los bufos que todos los enemigos.\n\n Aplica un debufo de 25% de [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Invierno Eterno",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos] a todos los aliados durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Congelar] en todos los enemigos durante 1 turno.\n\n Llena un 15% las barras de turno de todos los aliados. Llena un 5% adicional las barras de turno de todos los aliados por cada debufo de [Congelar] aplicado por esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Atemporal (Pasiva)",
+      "levels": [],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "description": "Las habilidades de este campeón no se pueden poner en tiempo de reutilización.\n\n Cuando un enemigo intenta poner en tiempo de reutilización alguna de las habilidades de este campeón o de un aliado, aplica un debufo de [Congelar] a dicho enemigo. El debufo de [Congelar] no se puede resistir ni bloquear.\n\n También tiene un 50% de probabilidad de evitar el aumento del tiempo de reutilización. Esta probabilidad aumenta un 25% por cada enemigo con un debufo de [Congelar]. No evita los efectos de aumento de tiempo de reutilización de Jefes.\n\n Cuando un enemigo intenta poner en tiempo de reutilización alguna de las habilidades de este campeón o de un aliado, activa un efecto de [Turno Instantáneo] en este campeón. Una vez por turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en todas las batallas en 60"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gliseah-soulguide.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

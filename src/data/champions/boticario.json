@@ -1,0 +1,109 @@
+{
+  "slug": "boticario",
+  "name": "Boticario",
+  "faction": "Altos Elfos",
+  "rarity": "Raro",
+  "role": "Iniciador para early game",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=PVasBnMBIso",
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "tiempo_de_sangre"
+  ],
+  "gear": [],
+  "uses": "Muy bueno en early. En Caballero de Fuego normal hará buen trabajo",
+  "stats": {
+    "hp": 17175,
+    "speed": 106,
+    "attack": 881,
+    "defense": 1002,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rayo de dispersión [ATK]",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "1.4xATK",
+      "description": "Ataca 3 veces al azar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Canto Calmante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "description": "Cura a un objetivo aliado en un 35% de HP. Esta curación puede ser crítica.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición de Velocidad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% [Aumentar velocidad] en todos los aliados durante 2 turnos. Llena la barra de turno de todos los aliados en un 15%.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta el DEF de aliados en mazmorras en un 21%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/boticario.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

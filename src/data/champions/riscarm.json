@@ -1,0 +1,116 @@
+{
+  "slug": "riscarm",
+  "name": "Riscarm",
+  "faction": "Hidalgos",
+  "rarity": "Raro",
+  "role": "Nuker con algo de control",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [],
+  "relics": null,
+  "gear": [],
+  "uses": "Facciones en early.",
+  "stats": {
+    "hp": 16680,
+    "speed": 95,
+    "attack": 705,
+    "defense": 1211,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Impacto Atronador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.45xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 20% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alzarte por Encima (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a todos los enemigos. Obtén un bufo de [Escudo] de 20% de su MAX HP durante 2 turnos",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Álzate Orgulloso",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "aumentar-def-1"
+        }
+      ],
+      "description": "Aplica un bufo de [Contraataque] a un aliado objetivo durante 2 turnos. \n\n También aplica un bufo de 30% de [Aumentar DEF] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en Criptas de Facción en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/riscarm.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

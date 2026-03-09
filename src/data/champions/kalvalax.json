@@ -1,0 +1,141 @@
+{
+  "slug": "kalvalax",
+  "name": "Kalvalax",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Debufer de venenos que habilita a otros campeones",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=XkVvF99AaCQ",
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "aberracion_antigua",
+    "elixir_aracnido",
+    "vara_de_esporas"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "bestial",
+    "velocidad",
+    "impulso",
+    "cruel"
+  ],
+  "uses": "Bueno arenas con la reliquia correcta. Dragón quizá, aunque muy blandito",
+  "stats": {
+    "hp": 12720,
+    "speed": 99,
+    "attack": 1663,
+    "defense": 1068,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espadón rezumante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aumentar la duración de todas los debuffos de [Veneno] en el objetivo en 1 turno. Cura a este Campeón en un 2.5% de su MAX HP por cada debuff de [Veneno] en el objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Locus de corrupción (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo. Hace un golpe adicional por cada debufo de [Veneno] en el objetivo (hasta 3 golpes adicionales).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tormenta de vitriolo (ATK)(MAX HP Enemigo)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.5xATK + nº de venenos x MAX HP enemigo",
+      "description": "Ataca a todos los enemigos. El daño aumenta según el número de debuffs de [Veneno] en cada objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pestilencia  (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica cuatro debufos de 5% [Veneno] durante 2 turnos a todos los enemigos al comienzo de cada ronda. Tiene una probabilidad del 50% de aplicar un debufo de [Veneno] del 5% en todos los enemigos durante 1 turno al comienzo de cada turno. [Efecto activo] Siempre que un enemigo aplica un debufo de [Veneno] en este Campeón, lo elimina instantáneamente y lo reemplaza con un buff del 15% de [Curación continua] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/kalvalax.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

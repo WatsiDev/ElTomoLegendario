@@ -1,0 +1,125 @@
+{
+  "slug": "basileus-roanas",
+  "name": "Basileus Roanas",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Nuker algo mediocre con control en área",
+  "type": "ATK",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "segar-almas"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "salvaje",
+    "letal",
+    "cruel",
+    "percepcion",
+    "punteria",
+    "instinto"
+  ],
+  "uses": "Arenas y oleadas, pero hay muchas otras opciones",
+  "stats": {
+    "hp": 15525,
+    "speed": 101,
+    "attack": 1542,
+    "defense": 1002,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Descarga de desprecio  (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 80% de probabilidad de robar 1 bufo aleatorio del objetivo. Tiene un 80% de posibilidades de aplicar un debufo [Bloquear Bufos] durante 1 turno si el objetivo no tiene buffs activos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Triple perforación (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "1.8xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Ignora los bufos de [Escudo] y [Bloquear Daño], así como el 50% de la DEF del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Majestad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo + 15%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de posibilidades de aplicar una debufo [Aturdir] durante 1 turno. Reduce la barra de turno de cada objetivo en un 50% si no se aplica la debufo [Aturdir].",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": "No es ningún secreto que las verdaderas leyendas a menudo surgen como un faro de esperanza cuando la hora es más oscura. Y así fue ahora. Cuando los Orcos invadieron el Reino de Aravia, dispersaron su ejército y quemaron muchas de sus fortalezas, fue el gobernante de los Altos Elfos, Basileus Roanas, quien se levantó para unir a su pueblo contra los salvajes que buscaban destruir todo lo que querían. Un tirador sin igual durante su vida, lideró a los ejércitos élficos en una audaz contraofensiva que rompió la espalda de la horda y llevó a los invasores de vuelta a las fronteras del Reino. A Roanas se le atribuyó haber matado personalmente a una veintena de caudillos y caudillos orcos en el curso de esa campaña, ya que sus flechas nunca fallaron. Ya sea un corazón negro, una grieta en la armadura o la garganta expuesta de un imponente Ogryn. El ejército de Roanas estaba preparado para enfrentarse a las fuerzas orcas recién reunidas bajo Grohak the Bloodied en una batalla que se habría convertido en leyendas para las generaciones venideras, pero el destino tenía planes diferentes. El gran águila blanca, el propio mensajero de la Mediadora, llegó en la víspera de ese fatídico enfrentamiento, con terribles noticias del este. Los demonios de Siroth, decía la misiva, estaban invadiendo Teleria y sus números eran legión. La Mediadora imploró a los ejércitos mortales que mantuvieran su mano y alcanzaran una tregua temporal. Aunque le dolía hacerlo, Basileus de los Altos Elfos sabía el valor de las palabras de la Mediadora y ordenó a sus fuerzas que se retiraran de la batalla. Poco después, la Mediadora llegó en persona. Ella ya había hablado con el señor de la guerra Orco y lo había atado a su voluntad. Pero, a diferencia de Grohak, Roanas no requirió amenazas o fuerza para tomar su decisión. Bajó la cabeza en señal de aceptación y extendió la mano para tomar el fragmento que uniría su alma para siempre. A partir de ahí, luchó por la Luz de Lumaya a través de los siglos, primero uniéndose a su rival, Grohak, para frustrar la invasión demoníaca que amenazaba a Teleria, luego respondiendo a la convocatoria de la Mediadora y los designados por ella para enfrentar una miríada de enemigos y peligros. Como siempre, las flechas de Basileus son rápidas y verdaderas, y ¡ay de quienes se oponen a él!",
+  "forms": null,
+  "image": "/src/assets/champions/basileus-roanas.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

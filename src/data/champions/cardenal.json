@@ -1,0 +1,112 @@
+{
+  "slug": "cardenal",
+  "name": "Cardenal",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Revividora que se lleva en Piel de Piedra, capaz de darle la vuelta a una batalla con un poderoso revivir",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=oEfh0mjLV2A",
+  "blessings": [
+    "rompe-cadenas"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "politopo_infernal",
+    "crisalida_de_renacer",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Arena y facciones principalmente",
+  "stats": {
+    "hp": 17340,
+    "speed": 104,
+    "attack": 1002,
+    "defense": 1145,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Evaporación (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 10% de probabilidad de aplicar un debufo de [Veneno] del 5% durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Toque reparador",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Cura a un aliado objetivo en un 30% de su MAX HP. Aplica un bufo del 60% [Aumentar DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Redención",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "Revive a todos los aliados muertos, los cura en un 25% de su MAX HP y con la barra de turno llena.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/cardenal.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

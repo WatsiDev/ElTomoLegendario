@@ -1,0 +1,121 @@
+{
+  "slug": "flagelante",
+  "name": "Flagelante",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Incitador de un objetivo. Limitado",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "defensa-impecable"
+  ],
+  "relics": [
+    "campana_fundida"
+  ],
+  "gear": [
+    "velocidad",
+    "punteria",
+    "percepcion",
+    "inmortal"
+  ],
+  "uses": "Kuldath y algún control de oleada a 1 objetivo",
+  "stats": {
+    "hp": 15525,
+    "speed": 93,
+    "attack": 958,
+    "defense": 1035,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Golpe Enredador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "4.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de reducir un 10% la barra de turno del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Postura Noble (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-1"
+        }
+      ],
+      "description": "Aplica un bufo de 30% de [Aumentar DEF] a este campeón y al aliado con menos HP durante 2 turnos. También llena un 25% la barra de turno de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Flagelo de Furia (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "6.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de apliocar un debufo de [Incitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en Criptas de Facción en 17%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/flagelante.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

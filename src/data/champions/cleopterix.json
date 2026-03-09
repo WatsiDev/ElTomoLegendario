@@ -1,0 +1,150 @@
+{
+  "slug": "cleopterix",
+  "name": "Cleopterix",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Nuker con algún debufo interesante, pero falto de utilidad en late y daño",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "dano-critico",
+    "golpe-mortal",
+    "percepcion"
+  ],
+  "uses": "Es early hace bulto. En late no se usa",
+  "stats": {
+    "hp": 14535,
+    "speed": 102,
+    "attack": 1531,
+    "defense": 1079,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Picado de muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo del 25% de [Debilitar] durante 2 turnos. La probabilidad aumenta al 50% si el objetivo está bajo un debufo de [Maleficio]. Aplica un bufo de [Velo perfecto] en este campeón durante 1 turno si este ataque mata a un enemigo que tenga un debufo de Maleficio.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Andanada de plumas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Aplica un bufo del 30% [Aumentar P.Crit] en este campeón durante 2 turnos, luego ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 2 turnos en objetivos bajo debuffs [Maleficio].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Castigo del Cielo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "miedo"
+        },
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Aplica un bufo del 50% [Aumentar PUNT] en este campeón durante 2 turnos, luego ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Maleficio] durante 3 turnos. Tiene un 100% de probabilidad de aplicar un debufo de [Miedo] durante 1 turno en lugar de los enemigos con debufo de [Maleficio].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Contraorden (Pasiva)",
+      "levels": [],
+      "description": "Contraataca con el ataque básico cada vez que este Campeón pierde 30% de HP o más en un solo turno. Siempre contraataca cuando es atacado si 2 o más aliados están muertos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/cleopterix.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

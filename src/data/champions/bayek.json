@@ -1,0 +1,149 @@
+{
+  "slug": "bayek",
+  "name": "Bayek",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Apoyo, muy bueno junto con otros asesinos. Aplica muchos bufos y debufos útiles para pruebas de Quimera",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=UeIvHQdLXww",
+  "blessings": [
+    "jaula-de-rayos",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "varita_de_sumision",
+    "corona_de_ireth",
+    "sombra_encaramada"
+  ],
+  "gear": [
+    "proteccion",
+    "salvaje",
+    "letal",
+    "piel-de-piedra",
+    "bestial",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Quimera, arenas, oleadas...muy bueno y versátil",
+  "stats": {
+    "hp": 18330,
+    "speed": 103,
+    "attack": 683,
+    "defense": 1674,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Estocada de Khopesh (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Aplica un debufo de [Chupar Sangre] durante 2 turnos.\n\n Llena un 20% la barra de turno de este campeón",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Céfiro del Desierto (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "red-res-2"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de 50% de [Reducir PUNT] y un debufo de 50% de [Reducir RES] durante 2 turnos. También aplica un debufo de [Incitar] a todos los enemigos durante 1 turno. Si el objetivo tiene al menos 3 debufos, el debufo de [Incitar] es de 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Oración de Medjay",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos. También aplica un bufo de [Velo Perfecto] y un bufo de 60% de [Aumentar DEF] a todos los aliados, excepto este campeón, durante 2 turnos. Aplica un bufo de 60% de [Aumentar DEF] en este campeón durante 3 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Orgullo de Siwa (Pasiva)",
+      "levels": [],
+      "multiplier": "2xDEF",
+      "description": "Este campeón y sus aliados no pueden recibir críticos de enemigos que no tengan más PUNT que ellos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Todo está permitido (Pasiva)",
+      "levels": [],
+      "description": "Si los HP de un enemigo bajan del 25% después de recibir daño de un Asesino, dicho enemigo recibe daño adicional proporcional a DEF de este campeón. Este daño adicional ignora 100% de DEF y no puede ser crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 70."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bayek.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

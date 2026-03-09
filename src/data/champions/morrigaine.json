@@ -1,0 +1,143 @@
+{
+  "slug": "morrigaine",
+  "name": "Morrigaine",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Iniciador capaz de aplicar Bloquear Curación",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=cPsg5Uov3rU",
+  "blessings": [
+    "presencia-amenazante",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "arpa_de_kasbiel",
+    "sombra_encaramada",
+    "cronocubo",
+    "impasse_temporal",
+    "diario_de_necrotos",
+    "campana_fundida",
+    "codice_luminis",
+    "tiempo_de_sangre"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Es top en Amius, jefe de la Ciudad Maldita. Usable como iniciador en arenas también y en Gemelos.",
+  "stats": {
+    "hp": 19815,
+    "speed": 112,
+    "attack": 1068,
+    "defense": 1189,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Acosar con Vacilación (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "4.9xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Grito de la Banshee",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "description": "Tiene un 75% de probabilidad de robar todos los bufos de un enemigo objetivo. También tiene un 75 % de probabilidad de aplicar un debufo [Miedo de verdad] a todos los enemigos durante 1 turno. Aplicará un debufo del 50% [Reducir PUNT] durante 2 turnos si el objetivo es un jefe.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Velocidad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Tiene un 75 % de probabilidad de reducir las barras de turno de todos los enemigos en un 20 %. Llena las barras de turno de todos los aliados en un 20 % y aplica un bufo de [Aumentar VEL] del 30 % en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ella, la Muerte (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Al comienzo de cada turno, aplica un debufo del 100% [Curación Reducida] durante 2 turnos en el enemigo con el HP más bajo. Este debufo no puede ser eliminado, transferido, propagado o aumentado por enemigos o aliados.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en 19% en todas las batallas."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/morrigaine.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

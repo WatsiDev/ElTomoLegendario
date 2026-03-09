@@ -1,0 +1,134 @@
+{
+  "slug": "matriarca-zarguna",
+  "name": "Matriarca Zarguna",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Tanque con algo de control y buenos bufos para aliados",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "crueldad"
+  ],
+  "relics": [
+    "el_triturador",
+    "campana_fundida",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "inmortal",
+    "percepcion",
+    "supersonico",
+    "punteria",
+    "escudo",
+    "apoyo",
+    "vida"
+  ],
+  "uses": "Buen campeón pero poco específico. Buena en facciones, oleadas y quizá Shogun por el Burlón",
+  "stats": {
+    "hp": 22800,
+    "speed": 105,
+    "attack": 969,
+    "defense": 1090,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Zumbido de Batalla (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "0.13xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cura a este campeón el 5% de su MAX HP después de cada ataque.\n\n Cada ataque también tiene un 25% de probabilidad de aplicar un debufo de [Incitar] al objetivo durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Madre del Clan",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "burlon"
+        },
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Reduce 1 turno la duración de todos los debufos aliados.\n\n Aplica un bufo de 15% de [Curación Continua] a todos los aliados durante 2 turnos. También aplica un bufo de [Burlón] y un bufo de [Inmortal] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza Maternal (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Ataca a todos los enemigos.\n\n Aplica un bufo de [Escudo] a todos los aliados del 25% de MAX HP de este campeón durante 2 turnos.\n\n Siempre que un bufo de [Escudo] aplica por este Campeón vence o es eliminado con daño, cura a dicho aliado el 15% de su MAX HP y le aplica un bufo de 2% de [Fortalecer] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Refugio del Dolor (Pasiva)",
+      "levels": [],
+      "buffDebuff": [],
+      "description": "Los aliados que tienen un bufo de [Escudo] reciben un 10% menos de daño.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/matriarca-zarguna.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

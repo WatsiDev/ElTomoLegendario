@@ -1,0 +1,151 @@
+{
+  "slug": "madre-superiora-maud",
+  "name": "Madre Superiora Maud",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Gran healer y revividor con limpieza de debufos a aliados.",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=dNY-Bwq3Ru8",
+  "blessings": [
+    "presencia-amenazante",
+    "cosechar-vida"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "crisalida_de_renacer",
+    "cascaron_gelido",
+    "eternizalmas",
+    "efigie_demoniaca",
+    "plumaje_dorado",
+    "tributo_de_san_zavier",
+    "servidumbre_de_xibia",
+    "arpa_de_kasbiel",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "inscansable",
+    "inmortal",
+    "velocidad",
+    "percepcion",
+    "proteccion"
+  ],
+  "uses": "No molesta en ningún sitio: jefes, mazmorras, arenas...muy sólida",
+  "stats": {
+    "hp": 20805,
+    "speed": 105,
+    "attack": 925,
+    "defense": 1266,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lanza Bendita (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos. También tiene un 80% de probabilidad de aplicar un bufo de [Aumentar ATK] del 50% al aliado con el ATK más alto durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Falange Ungida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de reducir la duración de todos los bufos enemigos en 2 turnos. Luego aumenta la duración de todos los bufos de los aliados en 1 turno. También cura a todos los aliados en un 20% del HP MÁXIMO de este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Salmo de Reanimación",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con 50% HP y el 50% de la barra de turno.\n\n Si la DEF de un aliado es igual o mayor que su ATK, le aplica un bufo del 60 % [Aumentar DEF] durante 2 turnos. \n\n Si el ATK de un aliado es mayor que su DEF, le aplica un bufo del 50% [Aumentar ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Víspera Brillante (Pasiva)",
+      "levels": [],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Elimina 1 debufo aleatorio de todos los aliados al comienzo del turno de este Campeón. Aplica un bufo de [Curación continua] del 15% en el aliado con el HP más bajo durante 1 turno al final del turno de este Campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60"
+    }
+  ],
+  "lore": "En la Orden Sagrada, alabar a Lumaya va más allá de la simple devoción; requiere un profundo conocimiento de los antiguos himnos escritos en la Lengua Antigua, un idioma casi olvidado que se cree que hablaban los primeros humanos de Teleria e incluso la propia Lumaya. La Alta Madre Maud, una sabia y directora de los himnos, es la única persona con la suficiente fluidez como para dar vida a estos himnos. Su talento innato para traducir la Lengua Antigua le valió el reconocimiento, lo que la llevó a recopilar el himnario lumaya más preciso jamás creado. Después de una década de trabajo, sus traducciones se convirtieron en la piedra angular de los himnarios de la Orden Sagrada, pero solo Maud podía cantar estos himnos en su forma más pura.\n\n La capacidad de Maud para traducir e interpretar los textos antiguos la distinguió de sus pares, y la abadesa Eufemia reconoció sus habilidades únicas. Como resultado, Maud fue elevada al título de Alta Madre, un papel prestigioso y que había permanecido inactivo durante mucho tiempo en la Orden Sagrada. Aceptó esta responsabilidad con entusiasmo, continuó su trabajo en los himnos sagrados y se aseguró de que se usaran correctamente en los rituales de la Orden. La dedicación de Maud a las canciones antiguas la convirtió en una figura esencial, y los himnarios de la Orden Sagrada se expandieron bajo su administración para incluir muchas obras que no habían sido traducidas anteriormente.\n\n Aunque Maud se centra en la Ciudadela Eterna, no es ajena a la batalla. Como Alta Madre, dirige un coro de talentosas Maestras de Himnos en tiempos de guerra, y sus voces sirven como poderosas herramientas en el campo de batalla. Sus himnos inspiran a los guerreros de la Orden Sagrada, curan sus heridas y les levantan el ánimo cuando pierden la esperanza. Sin embargo, su voz infunde miedo en sus corazones y los obliga a huir. Cuando cesa su canto, Maud empuña una enorme lanza, un regalo de la Abadesa Eufemia, con una precisión letal que perfora incluso la armadura más pesada de sus enemigos.\n\n Aunque Maud sigue dedicada a sus deberes en la Ciudadela Eterna, recientemente ha buscado más oportunidades para salir de sus confines y probar sus nuevas traducciones de himnos en el campo. También desea reunirse con sabios fuera de la Orden para discutir sus descubrimientos menos convencionales. La abadesa Eufemia, a pesar de valorar las contribuciones de Maud, ha dudado en concederle estas solicitudes. Aun así, la influencia de Maud entre las filas de la Orden, especialmente las Maestras de Himnos y las Hermanas Militantes, hace que sea cada vez más difícil para la abadesa rechazarla.\n\n A medida que aumentan los rumores dentro de la Sagrada Orden sobre la influencia de Maud, algunos se preguntan si la abadesa Eufemia se arrepiente de haberla ascendido. Otros sugieren que pronto podría ser necesario un cambio de liderazgo, lo que sugiere un posible conflicto dentro de los rangos más altos de la Orden.",
+  "forms": null,
+  "image": "/src/assets/champions/madre-superiora-maud.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

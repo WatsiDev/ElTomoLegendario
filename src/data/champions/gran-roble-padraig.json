@@ -1,0 +1,133 @@
+{
+  "slug": "gran-roble-padraig",
+  "name": "Gran Roble Padraig",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Gran campeón de apoyo con cargas y curas, versátil en casi todo el contenido PvE",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "sombra_encaramada"
+  ],
+  "gear": [
+    "proteccion",
+    "reflejo",
+    "impulso",
+    "incansable"
+  ],
+  "uses": "Se defiende bastante bien en PvE, sobretodo Hydra y Quimera",
+  "stats": {
+    "hp": 17670,
+    "speed": 112,
+    "attack": 1200,
+    "defense": 1200,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Raíz Serpentina (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de reducir 2 turnos el tiempo de reutilización de una habilidad activa de un aliado al azar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Esporas de Wyrd",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Ataca a un solo enemigo junto con todos los aliados. Los aliados que se unan al ataque usarán su Habilidad base. También restaura todo el MAX HP destruido de todos los aliados y aplica un bufo de 15% de [Curación Continua] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ritmo Inspirador",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Llena un 20% las Barras de Turno de todos los aliados. Luego elimina todos los debufos de todos los aliados y les aplica un bufo de [Aumentar VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Magia del Gran Roble (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Al comienzo del turno de este campeón, aplica un bufo a cada aliado en función de su tipo:\n\n ATK- un bufo de 50% de [Aumentar ATK]\n\n DEF- un bufo de 60% de [Aumentar DEF]\n\n Apoyo – un bufo de 50% de [Aumentar PUNT]\n\n HP – un bufo de [Escudo] del 30% de MAX HP de aliado.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en mazmorras en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gran-roble-padraig.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "weregren-suncursed",
+  "name": "Weregren Suncursed",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Nuker mediocre, con cierta sinergia con Miedo y control",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "campana_fundida",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Facciones como mucho, mediocre en general",
+  "stats": {
+    "hp": 15690,
+    "speed": 98,
+    "attack": 1421,
+    "defense": 837,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Salto bestial (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30 % de probabilidad de robar un bufo aleatorio.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asalto Aterrador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe ignorará los bufos de [Escudo]. Aplica un debufo de [Miedo de verdad] a todos los enemigos durante 1 turno si este ataque mata a un enemigo. También aplica un bufo de [Inmortal] a este campeón durante 1 turno si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fiesta de la Vitalidad",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "Intercambia HP con un enemigo y luego otorga un turno extra.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cazar a los débiles (Pasiva)",
+      "levels": [],
+      "description": "Inflige un 30% más de daño contra objetivos cuyos HP actuales sean inferiores a los HP actuales de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/weregren-suncursed.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

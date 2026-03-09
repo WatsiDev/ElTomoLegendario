@@ -1,0 +1,137 @@
+{
+  "slug": "mago-venenoso",
+  "name": "Mago Venenoso",
+  "faction": "Hombres Lagarto",
+  "rarity": "Épico",
+  "role": "Debufer y envenenador, brilla principalmente en Amius, jefe de la Ciudad Maldita",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=buz0NCy7Hqs",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "garra_malefica",
+    "orquidea_mortilunar",
+    "rocadragon_dorada",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Muy bueno contra distintos bosses: en early en golem y dragon. En late, contra Amius en Ciudad Maldita",
+  "stats": {
+    "hp": 17175,
+    "speed": 96,
+    "attack": 1002,
+    "defense": 1156,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Toxicidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "2.4xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Reduce el Máximo HP del objetivo en un 75% del daño infligido si están bajo el debufo de [Curación Reducida]. Cada golpe tiene un 35% de probabilidad de activar hasta dos debufos de Veneno en el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Neurotoxina (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo/debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. También tiene un 75% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos si el objetivo está bajo un debufo de [Veneno].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Veneno Comecarne (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        },
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 100% [Curación Reducida] durante 3 turnos. También tiene un 75% de probabilidad de aplicar dos debufos de [Veneno] al 5% durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Retorcer de Dolor (Pasiva)",
+      "levels": [],
+      "description": "Los enemigos bajo [Curación Reducida] infligen un 15% menos de daño.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en todas las batallas en 45"
+    }
+  ],
+  "lore": "El arte de producir y destilar toxinas es parte de la cultura de los Hombres Lagarto, que se remonta a los días medio olvidados del Imperio Dragonkin. Muchos Hombres Lagarto son capaces de producir secreciones que pueden curar y mejorar a los de su especie y envenenar a otras especies. Estas se pueden combinar en una mezcla casi infinita de pociones y tinturas que forman la base de la magia del veneno, una clase de hechicería que es en parte biológica y en parte chamánica.\n\n Los practicantes de estas magias son los Venomages. Aunque no son una secta organizada, los Venomages individuales transmiten sus habilidades como parte de una antigua tradición oral, y su red de ancianos y aprendices se extiende por todos los estratos de la vida del clan de los Hombres Lagarto, en particular entre las comunidades más tradicionalistas de los Lagos del Dolor. Aunque no todos los clanes de los Hombres Lagarto tienen un Venomage, la mayoría sabe dónde encontrar uno y busca su ayuda en tiempos de enfermedad, hambruna, guerra o cuando se requiere sabiduría y conocimiento.\n\n En qué medida el trabajo de los Venomage es realmente mágico y en qué medida se debe a su conocimiento y manipulación de la fisiología de los Hombres Lagarto es un tema de debate, pero solo aquellos que no han visto a los Venomage más antiguos o poderosos en acción, especialmente durante el combate, dudarían de sus habilidades. Estas figuras son capaces de convertir la sangre de un enemigo en tóxica con un encantamiento silbado, o encender cada terminación nerviosa de su cuerpo con un dolor enloquecedor con un movimiento de sus lenguas bífidas.\n\n Algunos Venomages afirman que descienden de un venerable sacerdocio de los Dragones. Según estas antiguas fábulas, sirvieron al Emperador Dragones inicialmente como humildes probadores de alimentos, pero más tarde trabajaron como sanadores y asesinos al servicio del imperio. Si bien cualquier Hombre Lagarto con afinidad por las toxinas puede aprender el arte de los Venomages, el hecho de que la mayoría provenga de una especie serpentina en particular implica que hay algo de verdad en las afirmaciones de una antigua casta hereditaria.\n\n Aunque los Venomages ya no sirven a un emperador como su único gobernante, entre los Hombres Lagarto persisten historias de un miembro particularmente antiguo y poderoso de su especie al que todos los demás deben deferencia. Conocido más comúnmente como Sy'lath, se dice que vive en las profundidades de los Lagos de la Pena, entre pantanos casi impenetrables cuya vida silvestre, flora y fauna son hostiles a la mayoría de los Hombres Lagarto. Su conocimiento y dominio de la biología de los Hombres Lagarto, así como su comprensión de los usos de la corteza, las raíces, las hojas y la savia de muchas de las plantas de las marismas, lo han convertido en un sanador incomparable y le han otorgado una esperanza de vida antinaturalmente prolongada; incluso puede haber servido a las fuerzas del Pacto durante la Guerra Gaellen, hace siglos, según susurran algunos.\n\n Incluso más que su poder para curar, el poder de destrucción de Sy'lath es formidable. La más pequeña gota de veneno de sus malvados colmillos es suficiente para acabar de forma permanente con varios ogretes, mientras que su conocimiento de la magia de las toxinas le permite estrangular, envenenar y torturar a cualquiera que provoque su ira. Muchos otros Venomages menores lo han buscado, con la esperanza de encontrar un camino hacia su sencilla morada y tal vez demostrar que son lo suficientemente fuertes y sabios como para convertirse en sus aprendices, pero si Sy'lath alguna vez ha contratado a un suplente en el arte del envenenamiento, no ha sido durante muchos años. Quizás ahora esté muerto, con su cuerpo reducido a una cáscara seca y disecada, o quizás todavía esparce sus venenos en secreto, esperando hasta que alguien verdaderamente digno de su conocimiento sea capaz de rastrearlo.",
+  "forms": null,
+  "image": "/src/assets/champions/mago-venenoso.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

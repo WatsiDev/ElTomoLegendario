@@ -1,0 +1,118 @@
+{
+  "slug": "merouka",
+  "name": "Merouka",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "De nicho en lugares donde revivir al morir es útil",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir",
+    "crueldad"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": "Se pueden montar setups con ella para Necrópolis de Arena con el revivir al morir",
+  "stats": {
+    "hp": 18660,
+    "speed": 98,
+    "attack": 771,
+    "defense": 1288,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Aflicción Alquitranada (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de Bufo / Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.9xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 15 % de probabilidad de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Brujería Yerma (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Elimina todos los debufos de un aliado objetivo y luego lo cura en un 50% de su HP MÁXIMO.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Regreso del cieno",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Aplica un bufo de [Revivir al morir] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mullido (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que golpean a este Campeón, aumenta su DEF en un 2,5 % (se acumula hasta un 20 %). Restablece cada ronda.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta los HP de los aliados en todas las batallas en un 25 %"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/merouka.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

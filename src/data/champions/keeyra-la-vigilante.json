@@ -1,0 +1,133 @@
+{
+  "slug": "keeyra-la-vigilante",
+  "name": "Keeyra la Vigilante",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Nuker de HP con una interesante pasiva",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "abanico_negro",
+    "dedo_real",
+    "diadema_no_muerta"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "inmortal",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Ninguno. Solo para fusionar a Mikage.",
+  "stats": {
+    "hp": 19485,
+    "speed": 104,
+    "attack": 870,
+    "defense": 1409,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Lucero Aplastador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo +10 %"
+        }
+      ],
+      "multiplier": "3.6xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ola de Destrozos (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de reducir la duración de todos los bufos enemigos en 1 turno. También tiene un 75 % de posibilidades de aplicar un debufo del 50 % [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Defensa Coordinada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Protección de aliado] del 50 % a todos los aliados, excepto a este campeón, durante 2 turnos. También aplica un bufo del 60% [Aumentar DEF] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ruina del Sitiador (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "description": "Cada vez que un aliado es atacado mientras está bajo un bufo de [Protección de aliado], aplica un debufo del 50% [Reducir ATK] en el atacante durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/keeyra-la-vigilante.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

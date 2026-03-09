@@ -1,0 +1,146 @@
+{
+  "slug": "esqueleto-definitivo",
+  "name": "Esqueleto Definitivo",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Tanque top para PvE y PvP. Ponerlo siempre en Piel de Piedra y extremadamente lento",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "polimorfar",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "dedo_real",
+    "codice_luminis",
+    "eternizalmas",
+    "campana_fundida",
+    "aspecto_de_siroth",
+    "elixir_dorado",
+    "infernosfera"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Muy molesto en cualquier tipo de arenas. Buen protector en oleadas, Torre, facciones o Ciudad Maldita",
+  "stats": {
+    "hp": 20640,
+    "speed": 97,
+    "attack": 782,
+    "defense": 1421,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Saboteador de Leyendas (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5:Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. La probabilidad aumenta al 55 % contra campeones legendarios.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ratas para ti (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "multiplier": "5xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 80 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos. También tiene un 80 % de probabilidad de aplicar un debufo de [Miedo] durante 1 turno en cada Campeón legendario.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ponéos cómodos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo  de [Escudo] y uno de 15% [Curación continua] en todos los aliados durante 2 turnos. El tamaño del [Escudo] es proporcional a la DEF de este Campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "No moriré (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que un aliado es atacado, tiene un 100 % de posibilidades de bloquear por completo 1 golpe, lo que reduce el daño entrante a cero. Este campeón recibirá ese daño en su lugar. También redirigirá cualquier debufo del golpe a este campeón. La posibilidad de bloquear un golpe y redirigir las debufos se reduce al 50 % si el atacante es un jefe. No funciona si el ataque al aliado fue un ataque en área. Cada vez que se cura a un enemigo, cura a este campeón en un 20% de esa curación.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "No los necesitaba (Pasiva)",
+      "levels": [],
+      "description": "Aumenta el HP, DEF y VEL de este Campeón en un 10% por cada aliado muerto.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/esqueleto-definitivo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

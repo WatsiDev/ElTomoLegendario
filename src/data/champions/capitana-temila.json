@@ -1,0 +1,118 @@
+{
+  "slug": "capitana-temila",
+  "name": "Capitana Temila",
+  "faction": "Elfos Oscuros",
+  "rarity": "Épico",
+  "role": "Campeón de apoyo para early game",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "defensa-impecable"
+  ],
+  "relics": [
+    "abanico_negro",
+    "diadema_no_muerta",
+    "diario_de_necrotos"
+  ],
+  "gear": [],
+  "uses": "Ninguno, épico del montón",
+  "stats": {
+    "hp": 18825,
+    "speed": 96,
+    "attack": 936,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Obliga por el Deber (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "4.9xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicarle a este campeón un bufo de [Curación continua] del 15 % durante 1 turno si el golpe es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Muerte o Gloria",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Aumentar DEF] del 60 % a todos los aliados durante 2 turnos. Cura a todos los aliados en un 15 % del MAXIMO HP de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardiana Exaltada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Protección de aliado] del 50 % en todos los aliados excepto este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en Criptas de Facción en 45"
+    }
+  ],
+  "lore": "Para aquellos elfos oscuros que tienen la mala suerte de nacer fuera de los enclaves nobles, la vida suele ser desagradable, brutal y corta si no cuentan con la protección de un patrón noble o un gremio poderoso. El deseo de sobrevivir y acumular poder impulsa incluso a los sirvientes más humildes, y los actos de violencia, crueldad y traición son la forma más rápida de lograrlo. \n\n Sin embargo, esto no quiere decir que no exista la ley y el orden entre los Elfos Oscuros. Más bien, la ley se aplica con más fuerza a los pobres, y a menudo sólo a instancias de la élite. Huelga decir que cada asentamiento tiene su propia forma de hacer cumplir sus reglas, pero la mayoría emplea los servicios de varios mercenarios y asesinos como fuerzas policiales ad hoc. \n\n La capitana Temila es una de esas fuerzas. Ella y su tripulación son la ley en el asentamiento de Blackthorn, en los bosques de sombras del sur del bosque de Durham. Como uno de los asentamientos más grandes en una de las partes más seguras del bosque, Blackthorn tiene una población que duplica a la de su vecino más cercano, lo que significa que tiene el doble de disturbios. \n\n Temila comenzó su carrera como un simple soldado en las fuerzas expedicionarias de Blackthorn. Ella y sus compañeros tenían la tarea de proteger a los grupos de leñadores enviados a despejar caminos a través del bosque y recolectar madera para la construcción. Estas expediciones eran y son muy peligrosas, pero lucrativas, ya que los insectos gigantes que acechan en las profundidades del bosque son implacables en su hostilidad hacia los invasores elfos. Más de una vez, Temila luchó contra estos monstruos de pesadilla, pero hay que reconocer que no se perdió ni una sola cosecha de madera... aunque muchos de los leñadores no tuvieron tanta suerte. Fue este ritmo de éxito lo que la hizo ascender de rango, hasta que le dieron el mando de un puesto de avanzada en el extremo más alejado del territorio de Blackthorn. \n\n Las nuevas responsabilidades de Temila incluían la inspección de mercancías y viajeros que utilizaban los pocos caminos relativamente seguros que atravesaban el bosque. Fue en esa función que conoció por primera vez al maestro del gremio de recolectores de quitina de Blackthorn. Los recolectores de quitina se adentraban en el bosque en busca de las cáscaras desechadas de los grandes insectos que allí habitaban. Estos valiosos exoesqueletos tienen una variedad de usos, incluso como componentes para armaduras. \n\n Cuando una caravana de recolectores de quitina fue atacada por uno de los monstruos más grandes del bosque, una bestia enorme parecida a un escarabajo, Temila y sus guerreros respondieron rápidamente. Aunque muchos de los caravaneros perecieron, Temila se aseguró de que el cargamento de cáscaras se conservara. Su rapidez de reacción le valió el favor del maestro del gremio, que vio en ella a la persona perfecta para supervisar la ley y el orden en Blackthorn. Su recomendación a los nobles que financiaban sus expediciones la llevó a ser promovida una vez más para garantizar la seguridad de todo el asentamiento. \n\n Temila es despiadada cuando se trata de la preservación de Blackthorn y sus élites, y prefiere la mano dura cuando se trata de asuntos de seguridad pública y la preservación de la propiedad de sus amos, así como de su propia reputación. Para Temila, eso se ha convertido en un motivo de orgullo personal. Ella aplasta rápidamente cualquier cosa que la ponga en peligro, con extremo prejuicio. Los asesinos endurecidos bajo su mando son expertos en las artes del control de multitudes y la intimidación. Pero, aunque está más que feliz de enviar a otros a la batalla, no es ajena a la violencia y rara vez pierde la oportunidad de usar su alabarda con púas y su escudo pesado para atacar a sediciosos, bandidos y otros indeseables.",
+  "forms": null,
+  "image": "/src/assets/champions/capitana-temila.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

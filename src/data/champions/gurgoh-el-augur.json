@@ -1,0 +1,139 @@
+{
+  "slug": "gurgoh-el-augur",
+  "name": "Gurgoh el Augur",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Nuker y controlador",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=gX032NonQjI",
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "campana_fundida",
+    "malleos_de_fuego",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "despiadado",
+    "cruel",
+    "letal",
+    "percepcion"
+  ],
+  "uses": "Principalmente Arena. Bueno en facciones también",
+  "stats": {
+    "hp": 16020,
+    "speed": 98,
+    "attack": 1465,
+    "defense": 1046,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rompehielos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Ataca un vez más si el objetivo tiene un debufo de [Congelar].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escalofríos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. de Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. de Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "2.2xATK",
+      "description": "Elimina todos los bufos de todos los enemigos. Tiene un 80% de probabilidad de aplicar un debufo de [Congelar] a todos los enemigos durante 1 turno. Otorga un turno extra.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Avalancha (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "6xATK",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de 60% de [Reducir DEF] a todos los enemigos durante 2 turnos. Ataca 1 vez más si el objetivo tiene un debufo de [Congelar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Abrazo de escarcha (Pasiva)",
+      "levels": [],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "description": "Al ser atacado por un enemigo, tiene un 30% de probabilidad de aplicar un debufo de [Congelar] al atacante durante 1 turno. Los aliados que atacan a enemigos con un debufo de [Congelar] hacen un 25% más de daño.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en arena en un 30%"
+    }
+  ],
+  "lore": "En las heladas montañas de Frostheim circulan historias sobre un temible ogrete llamado Gurgoh el Augur, que a menudo se confunde con el antiguo gólem de hielo que una vez destruyó el Salón de Invierno. Gurgoh, hijo único de un padre guerrero y una madre hechicera de hielo, heredó una fuerza inmensa y magia elemental. Desde muy joven, su madre lo entrenó para aprovechar el poder de las montañas, controlando los vientos y la nieve. Estas fuerzas, incrustadas en los picos de Frostheim, se convirtieron en una parte natural de él. Su madre también grabó runas protectoras en fragmentos de montaña que Gurgoh ahora usa, símbolos de su guía y protección.\n\n A medida que Gurgoh se hacía mayor, empezó a tener sueños vívidos de tierras desconocidas y símbolos misteriosos. Su madre creía que estos sueños eran visiones, pero antes de que pudieran ser comprendidos por completo, ella y el padre de Gurgoh fallecieron en un trágico desprendimiento de rocas. Con el corazón roto, Gurgoh abandonó Frostheim y vagó por el mundo, trabajando como guerrero. Sus viajes lo llevaron a muchos lugares, incluida Aravia, donde se ganó la reputación de ser un feroz combatiente contra los Elfos Oscuros. Con los años, construyó una pesada armadura con chatarra y ganó riqueza, pero sus visiones solo se intensificaron, lo que lo obligó a regresar a su tierra natal.\n\n De vuelta en Frostheim, Gurgoh buscó la paz viviendo en soledad, pero las visiones persistieron, en particular la de un orbe de metal que había visto a menudo en sus sueños. Siguiendo sus instintos, se aventuró a las ruinas del Salón de Invierno, una antigua fortaleza de los reyes de Frostheim, donde descubrió un gran orbe entre el tesoro real. Este orbe alguna vez fue parte del cetro de un rey, y Gurgoh, guiado por sus visiones, lo transformó en una poderosa maza a la que llamó Portador de Escarcha. Durante un tiempo, sus sueños cesaron y vivió tranquilamente en su cabaña de la montaña.\n\n Sin embargo, el aislamiento de Gurgoh pronto fue interrumpido por otros ogretes que afirmaron haberlo visto en sus sueños. Creían que estaba destinado a unirlos en una nueva y poderosa tribu para gobernar las Montañas Redspike. Aunque Gurgoh inicialmente desestimó estas afirmaciones, no podía ignorar la veracidad de sus propias visiones y el antiguo símbolo de la realeza que ahora ostentaba. A medida que se reunían más ogretes, Gurgoh comenzó a tener visiones de sí mismo como gobernante de un reino de hielo y piedra.\n\n La creciente presencia de ogretes en las montañas Redspike no ha pasado desapercibida para los reinos humanos cercanos, que ahora ven con sospecha el ascenso de Gurgoh. No está claro si es el amo de su destino o simplemente un peón del destino, ya que su futuro parece estar intrínsecamente ligado a las montañas y su magia ancestral.",
+  "forms": null,
+  "image": "/src/assets/champions/gurgoh-el-augur.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

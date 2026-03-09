@@ -1,0 +1,151 @@
+{
+  "slug": "genbo-el-deshonrado",
+  "name": "Genbo el Deshonrado",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Nuker capaz de bufearse a sí mismo",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=ccuFMutWws0",
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "instinto",
+    "cruel",
+    "salvaje",
+    "letal",
+    "despiadado"
+  ],
+  "uses": "Arenas, facciones y limpiezas de oleadas en early-mid game",
+  "stats": {
+    "hp": 14040,
+    "speed": 99,
+    "attack": 1409,
+    "defense": 958,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espadas Gemelas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 9: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe roba cualquier bufo de [Aumentar ATK]. Cada golpe también tiene un 30% de posibilidades de robar 1 bufo aleatorio. El robo de bufo de [Aumentar ATK] no se puede resistir.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Blitz Desalmado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 80% de probabilidad de reducir la duración de todos los bufos enemigos en 1 turno. Estos efectos no se pueden resistir en golpes críticos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Trance de espadas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Aumentar P.Crit] y un 30% [Aumentar D.Crit] de este Campeón durante 3 turnos, luego obtiene un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Duro como piedra (Pasiva)",
+      "levels": [],
+      "description": "Inmune a debufos de [Reducir ATK]. Ignorará los bufos de [Inmortal] al atacar bajo un bufo de [Aumentar ATK].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en las batallas de arena en un 20%."
+    }
+  ],
+  "lore": "Cuando los Fae huyeron al este de Peltas durante los lejanos días del Despertar, no todos se asentaron en el bosque primordial que se conocería como el Bosque de la Niebla. Algunos construyeron nuevos hogares para sí mismos en el borde de las vecinas Montañas de las Nubes, entre picos nevados y barrancos oscuros y escarpados. Entre ellos estaba el Fae que se conocería como Genbo el Deshonrado. Considerado por sus compañeros Fae como pétreo y serio, Genbo encontró que su personalidad se adaptaba bien a las cimas de las montañas inflexibles y solitarias. Construyó una casa allí, asumiendo a menudo la forma de un gran cóndor para barrer la tierra. Aunque ennoblecido dentro de la Corte Fae como el Príncipe de las Nubes, pasó poco tiempo entre los de su propia especie, en lugar de eso enseñó a los polluelos de águila a volar, enseñó a los vientos de la montaña a cantar y forjó dos espadas del mineral más profundo, afirmando que el alma de las Nubes imbuía las espadas de un peso aplastante cada vez que golpeaba con ellas. Genbo probablemente se hubiera contentado con pasar muchas eras en soledad, pero no fue así. Yakai, aunque no estaba tan lleno de inquietud como lo había estado durante el gobierno de los Mikage, en la Era de la Ruina todavía era propenso a ataques de anarquía localizada, mientras que los Enanos de los picos vecinos habían abandonado su aislamiento y ahora estaban expandiendo sus posesiones. Lo peor de todo para él era que los Fae del Bosque Brumoso buscaban cada vez más expandir los límites de su bosque. El ritmo del gran bosque se estaba volviendo inquietante. Genbo tenía un agudo sentido de la justicia, y parecía que su especie se estaba desviando por un camino oscuro.\n\n Al darse cuenta de que permanecer aislado sólo haría que los acontecimientos lo superaran, Genbo emprendió la huida e hizo una rara aparición en la corte de las hadas en Nyresa. Trató de convencer a los ministros de que adoptaran una postura menos militarista, pero sus súplicas cayeron en oídos sordos. Peor aún, cuando regresó a las montañas encontró a sus parientes hadas allí preparándose para una guerra abierta. Tenían la intención de atacar una operación minera enana que había desplazado a un gran número de su especie.\n\n Genbo se negó a ser un agresor, alegando que no había nobleza en elegir la guerra en lugar de la diplomacia. El ataque de los Fae fue un desastre y, como consecuencia, buscaron un chivo expiatorio. Genbo fue capturado y acusado de cobardía y traición. Se negó a legitimar la corte montando una defensa, siendo tan silencioso e inflexible como su hogar en la montaña. Fue sentenciado a un castigo no menos cruel que la muerte. Le cortaron sus grandes alas y fue exiliado, con prohibición de regresar a las cimas de las montañas que había llegado a amar.\n\n Genbo aceptó su sentencia sin comentarios ni quejas. A pesar de su resistencia, esto afectó profundamente su psique. Conocido ahora por los Fae como Genbo el Deshonrado, viajó a Yakai, donde viajó sin rumbo por un tiempo, convirtiéndose en una fábula sombría y triste en las historias de los humanos de allí.\n\n Aunque el dolor de sus alas cortadas nunca lo abandonó, con el tiempo Genbo redescubrió un propósito. Sabía que el aislamiento ya no era viable: lo habían expulsado de su hogar y no tenía otra opción que salir al mundo. Desdeñando su supuesta deshonra, comenzó a viajar por Yakai, buscando proteger a quienes sufrían la depredación de los bandidos o las crueldades de señores injustos. Todavía busca un propósito fuera de la soledad, algo que lo convenza de que la vergüenza y el dolor que ha enterrado en lo más profundo de sí mismo aún pueden florecer en algo significativo.",
+  "forms": null,
+  "image": "/src/assets/champions/genbo-el-deshonrado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

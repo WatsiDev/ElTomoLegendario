@@ -1,0 +1,321 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "/src/assets/uploads"
+public_folder: "/src/assets/uploads"
+
+collections:
+  - name: "champions"
+    label: "Campeones"
+    folder: "/src/data/champions"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    media_folder: "/src/assets/champions"
+    public_folder: "/src/assets/champions"
+    view_groups:
+      - label: Rareza
+        field: rarity
+      - label: Afinidad
+        field: affinity
+      - label: Facción
+        field: faction
+      - label: Tipo
+        field: type
+    fields:
+      - {label: "Nombre example - ezio", name: "name", widget: "string"}
+      - {label: "Slug (URL) example - ezio", name: "slug", widget: "string", pattern: ["^[a-z0-9-]+$", "Solo minúsculas y guiones"]}
+      - {label: "Rareza", name: "rarity", widget: "select", options: ["Mítico", "Legendario", "Épico", "Raro", "Poco Común", "Común"]}
+      - {label: "Afinidad", name: "affinity", widget: "select", options: ["Fuerza", "Magia", "Espíritu", "Vacío"]}
+      - {
+          label: "Facción", 
+          name: "faction", 
+          widget: "relation", 
+          collection: "factions", 
+          file: "factions", 
+          search_fields: ["factions.*.name"], 
+          value_field: "factions.*.name", 
+          display_fields: ["factions.*.name"]
+        }
+      - {label: "Tipo", name: "type", widget: "select", options: ["Ataque", "Defensa", "Apoyo", "HP"]}
+      - {label: "Imagen", name: "image", widget: "image"}
+      - {
+          label: "Galería de Arte", 
+          name: "artworks", 
+          widget: "list", 
+          required: false, 
+          field: {label: "Artwork", name: "url", widget: "image", media_folder: "/src/assets/artworks/{{name}}", public_folder: "/src/assets/artworks/{{name}}"}
+        }
+      - {label: "Usos / Estrategia", name: "uses", widget: "text", required: false}
+      - {label: "Video Youtube", name: "youtube_link", widget: "string", required: false}
+      - {label: "Rol", name: "role", widget: "text", required: false}
+      - {
+          label: "Bendiciones",
+          name: "blessings",
+          widget: "relation",
+          collection: "blessings",
+          search_fields: ["name"],
+          value_field: "slug",
+          display_fields: ["name"],
+          multiple: true,
+          required: false
+        }
+      - {
+          label: "Reliquias",
+          name: "relics",
+          widget: "relation",
+          collection: "relics",
+          search_fields: ["name"],
+          value_field: "slug",
+          display_fields: ["name"],
+          multiple: true,
+          required: false
+        }
+      - {
+          label: "Aura", 
+          name: "aura", 
+          widget: "list", 
+          required: false,
+          fields: [
+            {
+              label: "Tipo", 
+              name: "type", 
+              widget: "relation", 
+              collection: "auras", 
+              search_fields: ["slug"], 
+              value_field: "slug", 
+              display_fields: ["slug"]
+            }, 
+            {
+              label: "Descripción", 
+              name: "description", 
+              widget: "text"
+            }
+          ]
+        }
+      - {label: "Lore / Historia", name: "lore", widget: "markdown", required: false}
+      - {label: "Pros", name: "pros", widget: "list", required: false}
+      - {label: "Contras", name: "contras", widget: "list", required: false}
+      - {label: "Stats PvE Recomendados", name: "pve_stats", widget: "select", multiple: true, options: ["HP%", "Ataque%", "Defensa%", "Velocidad", "Prob. Crítico", "Daño Crítico", "Resistencia", "Puntería", "HP Plano", "Ataque Plano", "Defensa Plano"], required: false}
+      - {label: "Stats PvP Recomendados", name: "pvp_stats", widget: "select", multiple: true, options: ["HP%", "Ataque%", "Defensa%", "Velocidad", "Prob. Crítico", "Daño Crítico", "Resistencia", "Puntería", "HP Plano", "Ataque Plano", "Defensa Plano"], required: false}
+      - {
+          label: "Modos de Juego", 
+          name: "game_modes", 
+          widget: "list", 
+          required: false, 
+          fields: [
+            {label: "Área", name: "area", widget: "select", options: ["Arena", "Dragón", "Boss de Clan", "Caballero de Fuego", "Gólem de Hielo", "Araña", "Hidra", "Minotauro", "Guerras de Facciones", "Ciudad de Sintranos", "Necrópolis de Arena", "Fortaleza de los Gemelos", "Shogun", "Campaña"]},
+            {label: "Dificultad", name: "dificultad", widget: "select", options: ["Normal", "Difícil", "Pesadilla", "Ultra Pesadilla"], required: false},
+            {label: "Calificación", name: "calificacion", widget: "select", options: ["0", "0.5", "1", "1.5", "2", "2.5", "3", "3.5", "4", "4.5", "5"]}
+          ]
+        }
+      - {
+          label: "Sinergias",
+          name: "sinergias",
+          widget: "relation",
+          collection: "champions",
+          search_fields: ["name"],
+          value_field: "slug",
+          display_fields: ["name"],
+          multiple: true,
+          required: false
+        }
+      
+      - {label: "Estadísticas Base", name: "stats", widget: "object", fields: [
+          {label: "HP", name: "hp", widget: "number"},
+          {label: "Ataque", name: "attack", widget: "number"},
+          {label: "Defensa", name: "defense", widget: "number"},
+          {label: "Velocidad", name: "speed", widget: "number"},
+          {label: "Prob. Crítico (%)", name: "critRate", widget: "number", default: 15},
+          {label: "Daño Crítico (%)", name: "critDamage", widget: "number", default: 50},
+          {label: "Resistencia", name: "resistance", widget: "number", default: 30},
+          {label: "Puntería", name: "accuracy", widget: "number", default: 0}
+      ]}
+
+      - {label: "Habilidades", name: "skills", widget: "list", fields: [
+          {label: "Nombre", name: "name", widget: "string"},
+          {label: "Descripción", name: "description", widget: "text"},
+          {label: "Multiplicador", name: "multiplier", widget: "string", required: false},
+          {label: "Cooldown", name: "cooldown", widget: "number", required: false},
+          {label: "Mejoras de Nivel", name: "levels", widget: "list", fields: [{label: "Mejora", name: "level_desc", widget: "string"}], required: false},
+          {label: "Buffs/Debuffs Keys", name: "buffDebuff", widget: "list", fields: [{label: "Key", name: "key_name", widget: "string"}], required: false},
+          {label: "Prioridad de Libros", name: "book_priority", widget: "select", options: ["Alta", "Media", "Baja", "Ninguna"], default: "Ninguna", required: false}
+      ]}
+
+      - {
+          label: "Sets Recomendados", 
+          name: "gear", 
+          widget: "relation", 
+          collection: "sets", 
+          search_fields: ["name"], 
+          value_field: "slug", 
+          display_fields: ["name"], 
+          multiple: true, 
+          required: false
+        }
+      - {
+          label: "Maestrías", 
+          name: "masteries", 
+          widget: "list", 
+          max: 2,
+          required: false,
+          fields: [
+            {label: "Rama", name: "branch", widget: "select", options: ["Ataque", "Defensa", "Apoyo"]},
+            {
+              label: "Maestrías Seleccionadas",
+              name: "selected_masteries",
+              widget: "list",
+              max: 22,
+              fields: [
+                {
+                  label: "Maestría (Imagen)", 
+                  name: "mastery_image", 
+                  widget: "image", 
+                  media_folder: "/src/assets/masteries/{{name}}", 
+                  public_folder: "/src/assets/masteries/{{name}}"
+                }
+              ]
+            }
+          ]
+        }
+      - {label: "Formas Alternativas (Míticos/Dobles)", name: "forms", widget: "list", collapsed: true, required: false, fields: [
+          {label: "ID Forma (ej: base, alternativa)", name: "id", widget: "string"},
+          {label: "Nombre Forma", name: "name", widget: "string"},
+          {label: "Estadísticas", name: "stats", widget: "object", fields: [
+              {label: "HP", name: "hp", widget: "number"},
+              {label: "Ataque", name: "attack", widget: "number"},
+              {label: "Defensa", name: "defense", widget: "number"},
+              {label: "Velocidad", name: "speed", widget: "number"},
+              {label: "Prob. Crítico (%)", name: "critRate", widget: "number", default: 15},
+              {label: "Daño Crítico (%)", name: "critDamage", widget: "number", default: 50},
+              {label: "Resistencia", name: "resistance", widget: "number", default: 30},
+              {label: "Puntería", name: "accuracy", widget: "number", default: 0}
+          ]},
+          {label: "Habilidades", name: "skills", widget: "list", fields: [
+              {label: "Nombre", name: "name", widget: "string"},
+              {label: "Descripción", name: "description", widget: "text"},
+              {label: "Multiplicador", name: "multiplier", widget: "string", required: false},
+              {label: "Cooldown", name: "cooldown", widget: "number", required: false},
+              {label: "Mejoras de Nivel", name: "levels", widget: "list", fields: [{label: "Mejora", name: "level_desc", widget: "string"}], required: false},
+              {label: "Buffs/Debuffs Keys", name: "buffDebuff", widget: "list", fields: [{label: "Key", name: "key_name", widget: "string"}], required: false},
+              {label: "Prioridad de Libros", name: "book_priority", widget: "select", options: ["Alta", "Media", "Baja", "Ninguna"], default: "Ninguna", required: false}
+          ]}
+      ]}
+
+  - name: "factions"
+    label: "Facciones"
+    files:
+      - file: "/src/data/factions.json"
+        label: "Lista de Facciones"
+        name: "factions"
+        format: "json"
+        media_folder: "/src/assets/icons/factions"
+        public_folder: "/src/assets/icons/factions"
+        fields:
+          - {label: "Facciones", name: "factions", widget: "list", fields: [
+              {label: "Nombre", name: "name", widget: "string"},
+              {label: "Slug", name: "slug", widget: "string"},
+              {label: "Imagen", name: "image", widget: "image"},
+              {label: "Descripción", name: "description", widget: "text", required: false}
+            ]}
+
+  - name: "blessings"
+    label: "Bendiciones"
+    folder: "/src/data/blessings"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    media_folder: "/src/assets/icons/blessings"
+    public_folder: "/src/assets/icons/blessings"
+    fields:
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Imagen", name: "image", widget: "image"}
+      - {label: "Grupo", name: "group", widget: "select", options: ["Guerra", "Caos", "Luz", "Oscuridad"], required: false}
+      - {label: "Rareza", name: "rarity", widget: "select", options: ["Legendario", "Épico", "Raro"], required: false}
+      - {label: "Descripción", name: "description", widget: "text"}
+      - {label: "Mejoras por Nivel (Estrellas)", name: "levels", widget: "list", fields: [
+          {label: "Nivel / Estrellas", name: "stars", widget: "number", default: 1},
+          {label: "Descripción Mejora", name: "description", widget: "string"},
+          {label: "Stat Principal e.g ATK +200", name: "stat", widget: "string"},
+          {label: "Stat Extra (Opcional)", name: "extra_stat", widget: "string", required: false}
+        ]}
+
+  - name: "sets"
+    label: "Sets de Equipo"
+    folder: "/src/data/sets"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    media_folder: "/src/assets/icons/sets"
+    public_folder: "/src/assets/icons/sets"
+    fields:
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Imagen", name: "image", widget: "image"}
+      - {label: "Descripción", name: "description", widget: "text", required: false}
+      - {label: "Bonus de Set (9 Piezas / Variable)", name: "bonuses", widget: "list", required: false, fields: [
+          {label: "Piezas", name: "pieces", widget: "number", default: 9},
+          {label: "Descripción Bonus", name: "description", widget: "string"}
+        ]}
+
+  - name: "relics"
+    label: "Reliquias"
+    folder: "/src/data/relics"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    media_folder: "/src/assets/icons/relics"
+    public_folder: "/src/assets/icons/relics"
+    fields:
+      - {label: "Slug", name: "slug", widget: "string", pattern: ["^[a-z0-9_]+$", "Solo minúsculas y guiones bajos"]}
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Grupo", name: "group", widget: "string", required: false}
+      - {label: "Rareza", name: "rarity", widget: "string", required: false}
+      - {label: "Descripción", name: "description", widget: "text", required: false}
+      - {label: "Imagen", name: "image", widget: "image"}
+      - {
+          label: "Stats", 
+          name: "stats", 
+          widget: "list", 
+          required: false,
+          fields: [
+            {label: "Stat", name: "stat", widget: "string"}
+          ]
+        }
+      - {
+          label: "Alhajas", 
+          name: "alhajas", 
+          widget: "list", 
+          required: false,
+          fields: [
+            {label: "Alhaja", name: "alhaja", widget: "string"}
+          ]
+        }
+      - {
+          label: "Niveles", 
+          name: "levels", 
+          widget: "list", 
+          required: false,
+          fields: [
+            {label: "Nivel", name: "level", widget: "number"},
+            {label: "Descripción", name: "description", widget: "text"}
+          ]
+        }
+
+  - name: "auras"
+    label: "Auras"
+    folder: "/src/data/auras"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    media_folder: "/src/assets/icons/auras"
+    public_folder: "/src/assets/icons/auras"
+    fields:
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Icono", name: "icon", widget: "image", media_folder: "/src/assets/icons/auras", public_folder: "/src/assets/icons/auras"}
+      - {label: "Imagen Grande", name: "image", widget: "image", media_folder: "/src/assets/icons/auras/large", public_folder: "/src/assets/icons/auras/large"}

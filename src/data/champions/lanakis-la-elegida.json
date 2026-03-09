@@ -1,0 +1,111 @@
+{
+  "slug": "lanakis-la-elegida",
+  "name": "Lanakis la Elegida",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Buen campeón de apoyo, pero sin uso específico",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "cronocubo"
+  ],
+  "gear": [],
+  "uses": "Buen campeón de apoyo, pero sin uso específico mas que cargas para quitar el escudo a Caballero de Fuego",
+  "stats": {
+    "hp": 20145,
+    "speed": 108,
+    "attack": 1255,
+    "defense": 980,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Toque elegido (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de 15% [Curación continua] en este Campeón durante 1 turno si el ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Compañeros de Destino",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Forma equipo con 3 aliados aleatorios para atacar a un solo enemigo. Los aliados que se unan al ataque usarán sus habilidades base. Llena las barras de turno de todos los aliados en un 30%. Aumenta la duración de todas los buffs de los aliados 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estandarte de la leyenda",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. Bufo/ debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/ debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/ debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/ debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Aumentar P.Crit] y un bufo del 50% [Aumentar ATK] en todos los aliados durante 2 turnos. Tiene un 25% de posibilidades de otorgar un turno adicional.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Las madejas del destino tejen, tuercen y se entrelazan de una manera que ninguna mente mortal puede esperar comprender por completo. A veces, los individuos más improbables pueden aparecer en primer plano y presentar una opción. Y la decisión que toman puede traer salvación o condenación no solo para ellos, sino para incontables miles de almas. Lanakis había sido muchas cosas en su vida: un mago, un rebelde, un héroe y un villano, ambos. Nacida en la extensa capital de Aravia, el reino de los Altos Elfos, algunas de las mejores mentes que Teleria tenía para enseñar le enseñaron y guiaron en las artes de la magia. Sin embargo, las limitaciones y las estrictas reglas de los Covens de Aravia siempre fueron demasiado rígidas para Lanakis, cuyo corazón deseaba conocer todos los misterios que el mundo ocultaba. Ella incursionó y profundizó en la tradición prohibida, desechando sus lealtades anteriores y poniéndose sola. La búsqueda del conocimiento vio a Lanakis entrar en las tierras de los Elfos Oscuros, donde fue capturada y casi ejecutada. Aunque su ingenio rápido, o suerte excepcional, se aseguró de que la matrona de la casa reconociera el potencial de la joven y optó por dejarla vivir a cambio de servicio. Durante años, Lanakis aprovechó la escuela completamente nueva de enseñanzas arcanas que le habían abierto y pensó poco en las terribles acciones que cometieron sus patrocinadores. Eventualmente, su servicio llegó a un final repentino y violento cuando la Matrona intentó usar Lanakis como un sacrificio de sangre para un aliado suyo: un Nigromante de alguna infamia. La escaramuza resultante vio a Lanakis victoriosa y su antiguo benefactor asesinado, aunque esto fue solo el comienzo de esa terrible experiencia en particular. Porque el Nigromante no era más que un solo mago de una poderosa logia oscura, y los planes que sus compañeros habían tejido abarcaban mucho más de lo que podría parecer a simple vista. Llegaron noticias de una horda de muertos vivientes: gritos de pánico por ayuda e informes de un asalto organizado masivo que abrumaba muchas propiedades y fortalezas periféricas. Los nobles elfos oscuros y los soldados se convirtieron en demonios sin sentido a raíz de esa aplastante derrota. Lanakis tenía una opción entonces, huir y vagar por Teleria una vez más, con la esperanza de que alguien más se adelantara para derrotar a los invasores o para ponerse de pie y luchar. Ella había elegido lo último. Sin que nadie se atreviera a desafiar su poder directamente, Lanakis tomó el control de la casa que alguna vez sirvió como simple aprendiz. Ella reunió lo que el poder militar podría ofrecer y lo dirigió contra las furiosas hordas de No Muertos. Una por una, las otras Casas fueron liberadas y se unieron al anfitrión de Lanakis para luchar contra un enemigo común. Uno por uno, los Nigromantes cayeron ante ella, incapaces de igualar el poder de la Hechicera Élfica. En el punto álgido del conflicto, la Mediadora se unió a la refriega. Con ella y sus campeones al lado de los ejércitos de Lanakis, no había duda de la victoria. Y cuando el último de los No Muertos fue purgado, la Mediadora pidió a Lanakis que vincule su alma a Lumaya en el servicio eterno. Aunque lejos de ser una heroína pura e inocente, ella había sido elegida por el destino y, sin ayuda de nadie, había frustrado un complot que habría hundido a Teleria en la locura de la guerra. Durante un tiempo se comprometió por una causa mayor de lo que ella jamas hubiera imaginado que lucharía. Así que a regañadientes aceptó unirse a las filas de las tropas de la Mediadora.",
+  "forms": null,
+  "image": "/src/assets/champions/lanakis-la-elegida.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

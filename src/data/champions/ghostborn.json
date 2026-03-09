@@ -1,0 +1,123 @@
+{
+  "slug": "ghostborn",
+  "name": "Ghostborn",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Debufer de nicho con un irresistible Reducir Defensa",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Debufer en early. No se usa en mid o late game",
+  "stats": {
+    "hp": 18825,
+    "speed": 101,
+    "attack": 1211,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Descarga de energía (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo + 20%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 50% de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Petrificar (ATK)(VEL)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "2xATK + 2xVEL/100",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de aplicar un debufo del 100% [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espíritus ancestrales (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 75% de aplicar un debufo del 60% de [Reducir DEF] durante 2 turnos. Este debufo no se puede resistir. Aplica un bufo de 50% [Aumentar ATK] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliado en criptas de facción en 65."
+    }
+  ],
+  "lore": "Aunque nació como hijo de adoradores de Lumaya, el elfo que sería conocido como Ghostborn supo desde muy joven que estaba destinado a seguir un camino diferente y más oscuro. Creció hasta la edad adulta en las fronteras de Aravia, como un niño extraño y enfermizo en medio de un clan de aristócratas altivos que supervisaban una comunidad de granjeros humanos. Carecía de la naturaleza enérgica de sus parientes y prefería su propia compañía a la de sus iguales. Se escondía, contento de pasar sus días rondando la biblioteca familiar o bien pidiendo libros de otros archivos, a un coste no pequeño. El tema de estos volúmenes era invariablemente el mismo: la historia de Aravia, sus pueblos, sus guerras... y sus religiones.\n\n Aunque su familia adoraba a Lumaya, Ghostborn no tenía ningún interés en una deidad tan poco comunicativa. Había otros seres que eran menos remotos y, lo que era más importante, estaban dispuestos a hablar con sus adoradores. Le fascinaban espíritus como el Caminante de los Sueños y el Señor de los Colmillos. Pero uno en particular atraía su interés... la entidad maligna conocida como el Desgarrador de Corazones.\n\n El Desgarrador de Corazones es uno de los espíritus más enigmáticos de la cosmología araviana; al igual que el Señor de los Colmillos, no es un dios, sino algo más... un espíritu ancestral totémico, reverenciado solo por ciertas familias élficas. A cambio de su devoción, el Desgarrador de Corazones supuestamente les proporcionaba poder místico y protección. La investigación de Ghostborn reveló que su familia era una de las que tenían un vínculo con el Desgarrador de Corazones, aunque hacía mucho que lo habían olvidado. Se obsesionó con establecer contacto con el espíritu.\n\n Pero para poder comunicarse con el Desgarrador de Corazones, Ghostborn necesitaba ser capaz de realizar los ritos correctos. Para ello, a medida que fue creciendo, estudió las artes místicas. Su familia, que hacía tiempo que había perdido la esperanza de que hiciera algo útil, se alegró de este repentino cambio de actitud. Pero sus estudios pronto dieron un giro preocupante cuando experimentó con antiguos rituales de sangre prohibidos durante mucho tiempo por la sociedad aravia.\n\n Comenzó con algo pequeño: unas gotas para aumentar la potencia de un envío. Luego, el sacrificio de un animal pequeño para comunicarse con un espíritu antiguo atado a una piedra fronteriza. Finalmente, Ghostborn tomó sangre de uno de los sirvientes humanos de su familia en un intento de atar al fantasma de un antepasado, para poder interrogar al elfo muerto sobre ciertos asuntos relacionados con el culto al Desgarrador de Corazones. Esta fue la gota que colmó el vaso para su familia, que había hecho la vista gorda ante sus experimentos anteriores. La nigromancia era un paso demasiado lejos.\n\n Cuando lo confrontaron, Ghostborn juró que esas indiscreciones eran simplemente indagaciones inofensivas en un campo de estudio que había sido descuidado durante mucho tiempo. Accedió de inmediato a la exigencia de que dejara de hacerlo y se concentrara en hechizos más prácticos. O eso parecía hacer. En realidad, Ghostborn continuó con sus experimentos y, a medida que su habilidad en la magia de sangre aumentaba, el ex recluso se convirtió, a todos los efectos, en un encantador y atractivo ejemplo de la nobleza élfica.\n\n Fue en ese momento cuando Ghostborn logró hacer contacto con el objeto de su búsqueda, aunque no de la manera que pretendía. En cambio, el Heartrender, o algo que decía serlo, se le apareció durante sus meditaciones diarias. Le dijo que necesitaba un sacrificio mucho mayor para manifestarse por completo... uno con significado. Los animales no servirían, ni tampoco la sangre de los sirvientes. En cambio, debía darle la sangre de las personas más cercanas a él.\n\n Ghostborn lo entendió y, al despertar, se dispuso de inmediato a darle al Desgarrador de Corazones lo que quería... las vidas de su familia. La habilidad de Ghostborn con la magia excedía con creces la de sus parientes y pronto se bautizó con su sangre, como le había ordenado el Desgarrador de Corazones. Mientras lo inundaba, el Desgarrador de Corazones le susurró que ese era solo el primer paso, porque había otros como él y era su deber verlos a todos bautizados en sangre como lo había sido él y entregados al servicio del Desgarrador de Corazones.\n\n Ghostborn abandonó Aravia poco después. Siguiendo sus investigaciones anteriores, viajó al bosque de Durham, donde pronto localizó a más descendientes de los adoradores originales de Heartrender y los reunió con él, utilizando promesas de poder y su propio encanto espeluznante. Pronto, había recreado el antiguo culto, con todos sus sacrificios de sangre.\n\n Pero si el Desgarrador de Corazones está contento con esto, Ghostborn no puede decirlo, ya que el espíritu no le ha hablado desde que mató a su familia; un hecho que no ha revelado a sus ardientes seguidores. Sin embargo, Ghostborn mantiene la esperanza de que su amo lo visite nuevamente, si tan solo ofrece el sacrificio correcto.\n\n Como tal, Ghostborn y sus nuevos seguidores ahora acechan los asentamientos de sotobosque del bosque de Durham, difundiendo su oscuro evangelio a cualquiera que escuche... y reclamando la sangre de aquellos que no lo hacen.",
+  "forms": null,
+  "image": "/src/assets/champions/ghostborn.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

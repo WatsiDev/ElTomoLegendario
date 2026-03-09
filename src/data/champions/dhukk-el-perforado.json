@@ -1,0 +1,143 @@
+{
+  "slug": "dhukk-el-perforado",
+  "name": "Dhukk el Perforado",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Debufer",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "mascara_de_ira",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "velocidad",
+    "bestial",
+    "maldito",
+    "aturdir"
+  ],
+  "uses": "Oleadas y facciones así como en jefes hasta el mid-game",
+  "stats": {
+    "hp": 15855,
+    "speed": 97,
+    "attack": 870,
+    "defense": 1376,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Cortador loco (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "1.9xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30% de probabilidad de aplicar un debufo del 50% [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arrebato lunático (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos. También tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos en cada golpe crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pantalla de chillidos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "reflejar-dano-2"
+        },
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Aplica un debufo de [Incitar] durante 1 turno en el enemigo objetivo. También tiene un 75% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno en 2 enemigos aleatorios. Aplica un bufo del 30% [Reflejar daño] en este campeón durante 2 turnos y un bufo de [Inmortal] en este campeón durante 1 turno..",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en las criptas de facción en un 31%"
+    }
+  ],
+  "lore": "Dhukk nació durante la Era del Fuego Infernal, hijo del poderoso orco Skargar, jefe del clan de los Portadores del Trueno. Adoptó las costumbres bélicas, pero no hizo caso de las lecciones de su padre sobre la importancia de la astucia y la previsión. Supuso que todos se someterían a él cuando llegara su momento de gobernar, confiado en que nadie podría vencerlo en combate.\n\n Cuando Skargar falleció, los enemigos que habían estado extendiendo su influencia dentro de los Portadores del Trueno atacaron. El tío de Dhukk, Grimgar, codiciaba el puesto de jefe. Después de la gran fiesta celebrada para conmemorar el ascenso de Dhukk, mientras gran parte del clan yacía en un estupor ebrio, Grimgar hizo su jugada. Prendió fuego al salón del clan y luego hizo sonar la alarma. Durante el caos, sus seguidores arrastraron al ebrio Dhukk al bosque de Durham circundante. Lo habrían matado, pero incluso en su estado de ebriedad, Dhukk era un guerrero feroz. Mató a dos de sus captores y le sonsacaron la verdad sobre la traición al último antes de matarlo también. Intentó regresar al clan, pero se desmayó en la oscuridad del bosque.\n\n Cuando Dhukk despertó, se encontró atado en la parte trasera de un carro. Una ogreta se acercó y se presentó como 8022, un nombre que Dhukk reconoció: era una infame esclavista. Le dijo a Dhukk en términos inequívocos que ahora él era de su propiedad.\n\n Dhukk luchó contra sus ataduras y exigió que Bozz lo liberara; era un jefe y se vengaría terriblemente si ella no obedecía. Bozz no le hizo caso. En los meses siguientes, Dhukk se enfrentó a otros esclavos en una serie de combates de gladiadores. Mató sin dudarlo, llevado a terribles ataques de ira por el conocimiento de la traición de Grimgar. El brutal orco pronto encabezó los duelos de gladiadores.\n\n Dhukk intentó escapar una y otra vez. Mató a numerosos guardias, pero fracasó cada vez. Bozz parecía disfrutar de los problemas que Dhukk causaba. Después de cada intento de escape, le clavaba un trozo de hierro en el torso, dejándolo atravesado con malvados fragmentos de metal que también servían como armadura rudimentaria. Bozz se burló sin piedad de Dhukk, diciendo que la protección sería necesaria, ya que su continuo fracaso en escapar aseguraba que vería más acción en los pozos. El dolor de sus perforaciones, combinado con su ira y frustración, erosionaron lentamente la cordura del ex jefe. Dhukk se perdió en lo que siempre había amado más: luchar. El estado mental del orco se quebró de manera constante. Gritó a figuras imaginarias y estalló al azar en una risa abrupta y áspera. Atacó a otros esclavos y tuvo que ser aislado en una jaula con púas entre combates, mientras se burlaba ferozmente de cualquiera que estuviera cerca, real o imaginario, y exigía que se enfrentaran a él en combate. Su estilo de lucha también degeneró, reducido a frenesíes salvajes.\n\n Para divertirse aún más y comprobar hasta qué punto era una locura Dhukk, Bozz afirmó que un prisionero humano que tenía era en realidad Grimgar y lo arrojó al ring con el orco. Dhukk montó en un frenesí y cortó al hombre en pedazos, afirmando después que finalmente se había ganado su venganza y que una vez más era el amo de su clan. Bozz, como parte de la broma en curso, hizo que los restos del humano se montaran en el rudimentario escudo de Dhukk. Dhukk ahora parecía nada más que un arma viviente, acero frío tallado y afilado, despojado de todo excepto de su filo cruel. Puede que eso fuera simplemente lo que Dhukk quería que Bozz creyera. Tal vez, detrás de su sonrisa demente, se escondía la astucia que se olvidó de adquirir antes de su esclavitud, cuidadosamente oculta, hasta que llegó el momento adecuado.",
+  "forms": null,
+  "image": "/src/assets/champions/dhukk-el-perforado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

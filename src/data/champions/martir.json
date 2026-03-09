@@ -1,0 +1,138 @@
+{
+  "slug": "martir",
+  "name": "Mártir",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "En su momento uno de los mejores campeones del juego, hoy en día tanque relativamente versátil con control y contraataque pero algo venida a menos. Puede hacer algo de daño también aunque no será un nuker",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=kIikBQl1GME",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "filos_de_akumori",
+    "cascaron_gelido",
+    "plumaje_dorado",
+    "rocadragon_dorada",
+    "elixir_dorado",
+    "corona_de_ireth",
+    "mascara_de_ira"
+  ],
+  "gear": [
+    "percepcion",
+    "ferreo",
+    "bestial",
+    "intocable",
+    "fortaleza",
+    "justiciero",
+    "reflejo"
+  ],
+  "uses": "Sigue siendo sólida en casi todo en general: es capaz de controlar oleadas, dar contraataque para caballero de fuego, así como otros bufos y debufos útiles para casi todo el contenido PvE",
+  "stats": {
+    "hp": 20145,
+    "speed": 93,
+    "attack": 826,
+    "defense": 1409,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Apresurar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad bufo / debufo +15 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 45% de posibilidades de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bastión de la fe",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Aplica un bufo de 60% [Aumentar DEF] y un bufo de [Contraataque] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Supresión (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Aplica una debufo de 50% [Reducir ATK] durante 2 turnos. Aplica un debufo de [Provocar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/martir.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

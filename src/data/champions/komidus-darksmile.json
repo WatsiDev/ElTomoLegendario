@@ -1,0 +1,174 @@
+{
+  "slug": "komidus-darksmile",
+  "name": "Komidus Darksmile",
+  "faction": "Engendros",
+  "rarity": "Mítico",
+  "role": "Nuker de bombas especialista en arenas",
+  "type": "Apoyo / HP",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=uDceLZHfLBM",
+  "blessings": [
+    "polimorfar",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "vial_del_sombrerero",
+    "lente_intangible"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "bestial",
+    "exactitud",
+    "percepcion",
+    "mercurial"
+  ],
+  "uses": "Nuker de bombas top en arenas",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 80."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 21975,
+        "speed": 110,
+        "attack": 1035,
+        "defense": 1354,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Avivar la Angustia (HP)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "multiplier": "0.11xHP",
+          "description": "Ataca a 1 enemigo 2 veces. Tiene un 50 % de probabilidad de eliminar 1 bufo aleatorio del objetivo. \n\n[Efecto pasivo] Siempre que un enemigo golpea a este campeón o a un aliado, tiene un 50 % de probabilidad de contraatacar con esta habilidad. Esta probabilidad aumenta un 10 % por cada debufo que tenga el enemigo."
+        },
+        {
+          "name": "Agonía Abrumadora (HP) ",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "bloquear-habilidades-activas"
+          ],
+          "multiplier": "0.22xHP",
+          "description": "Ataca a todos los enemigos. Elimina todos los bufos de todos los enemigos y les aplica un debufo de [Bloquer Habilidades Activas] durante 2 turnos. También roba el 20% de la Barra de turno de cada enemigo con un debufo de [Bloquear Habilidades Activas]"
+        },
+        {
+          "name": "Ladrón de Alegría (HP)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%",
+            "Nivel 4: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 3,
+          "multiplier": "0.3xHP",
+          "description": "Ataca a 1 enemigo. Roba el 100% de la Barra de turno del objetivo y pone sus habilidades en tiempo de reutilización.."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Dramatis Miserae (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "escudo-habilidad"
+          ],
+          "description": "Siempre que este campeón pierde al menos un 30% de HP en un solo turno, hace el 30% de MAX HP de este campeón de daño a un atacante. Ataca una vez por turno. \n\nAdemás, siempre que este campeón pierde al menos un 30% de HP en un solo turno, aplica un bufo de [Escudo] a este campeón del 30% de MAX HP de este campeón durante 2 turnos."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 23625,
+        "speed": 110,
+        "attack": 958,
+        "defense": 1321,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Artista Volátil (HP)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "buffDebuff": [
+            "bomba"
+          ],
+          "multiplier": "0.12xHP (daño de bomba 0.15xHP)",
+          "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 50% de probabilidad de aplicar un debufo de [Bomba] que explotará en 2 turnos. Cura a este campeón el 10% de su MAX HP por cada debufo de [Bomba] aplicado"
+        },
+        {
+          "name": "Espectáculo Explosivo (HP) ",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "bomba",
+            "aturdir"
+          ],
+          "multiplier": "0.25xHP (daño de bomba 0.33xHP)",
+          "description": "Ataca a todos los enemigos. Aplica 2 debufos de [Bomba] a todos los enemigos durante 2 turnos. Detona al instante todos los debufos de [Bomba] de enemigos con bufos de [Piel de Piedra] o con menos HP que este campeón. \n\nLuego aplica un debufo de [Aturdir] durante 1 turno a todos los enemigos cuyos debufos de [Bomba] ha hecho explotar esta habilidad."
+        },
+        {
+          "name": "EBis Asesino (HP)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "debilitar-2"
+          ],
+          "description": "Cura a este campeón el 50% de su MAX HP. También aplica un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "La Ultima Risa (Pasiva)",
+          "levels": [],
+          "description": "Tiene un 100% de probabilidad de reflejar todos los debufos de [Bomba] aplicados a este campeón de vuelta al atacante. También tiene un 30% de reflejar todos los demás debufos aplicados a este campeón de vuelta al atacante. \n\nCura a este campeón el 20% de su MAX HP siempre que un enemigo muere por un debufo de [Bomba]"
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/komidus-darksmile.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

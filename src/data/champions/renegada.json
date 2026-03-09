@@ -1,0 +1,114 @@
+{
+  "slug": "renegada",
+  "name": "Renegada",
+  "faction": "Aparecidos",
+  "rarity": "Raro",
+  "role": "Campeones que se usa en setups determinadas para resetear habilidad de aliados",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 18495,
+    "speed": 95,
+    "attack": 1046,
+    "defense": 749,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Dolor Persistente (ATK)(VEL)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "1.2xATK+VEL",
+      "description": "Ataca a 1 enemigo. Tiene un 25 % de probabilidad de aplicar un debufo del 100 % [Curación Reducida] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arremeter (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-1"
+        },
+        {
+          "key_name": "red-punt-1"
+        }
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca al azar 3 veces. Tiene un 50 % de probabilidad de aplicar un debufo del 15 % [Reducir VEL] durante 2 turnos. Aplica un debufo de 25% de [Reducir PUNT] durante 2 turnos si el objetivo tiene algun bufo activo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ritual de Sacrificio",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "Reduce el tiempo de reutilización de todas las habilidades de los aliados en 2 turnos. Esta habilidad no afecta a este campeón ni a otros campeones con esta habilidad. Este campeón recibirá un daño equivalente al 30% de su MAX HP. Esto sucederá incluso si mata al campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en todas las batallas en 40"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/renegada.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "bushi",
+  "name": "Bushi",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Campeón muy malo en general, pero con un uso muy específico (mostrado en el video)",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=2-qp8a7ACk0",
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Solear Soulcross piso 9 en Ciudad Maldita. Revisar el video al respecto",
+  "stats": {
+    "hp": 15690,
+    "speed": 90,
+    "attack": 1476,
+    "defense": 782,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Tormenta Creciente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "(2.9+0,4 x numero de habilidades)xATK",
+      "description": "Ataca a 1 enemigo. El daño infligido aumenta cada vez que se usa esta habilidad. Se acumula hasta 4 veces.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Filo Letal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "7xATK",
+      "description": "Ataca a 1 enemigo. Este ataque siempre es crítico. Aplica un bufo del 30 % [Aumentar P.Crit] y bufo del 15 % [Aumentar VEL] en este Campeón durante 3 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aguantar (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Revive a este campeón con un 30% de HP. Aplica un bufo de [Inmortal] en este Campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en Batallas de Arena en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bushi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

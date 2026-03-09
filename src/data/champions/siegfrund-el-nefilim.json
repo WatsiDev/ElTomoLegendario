@@ -1,0 +1,165 @@
+{
+  "slug": "siegfrund-el-nefilim",
+  "name": "Siegfrund el Nefilim",
+  "faction": "Orden Sagrada",
+  "rarity": "Mítico",
+  "role": "Poderoso nuker en su forma base, y healer/revividor en su segunda",
+  "type": "Ataque / Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "invocatormentas",
+    "garra_malefica",
+    "luna_de_sangre",
+    "pasion_codiciosa",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "instinto",
+    "cruel",
+    "salvaje"
+  ],
+  "uses": "Nuker top en arena, pero muy potente contra oleadas también.",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "atk",
+      "description": " Aumenta el ATK de los aliados en todas las batallas en 35%"
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 16350,
+        "speed": 110,
+        "attack": 1663,
+        "defense": 1101,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Filo Excoriante (ATK) ",
+          "levels": [
+            "Nivel 2: Daño +10%"
+          ],
+          "multiplier": "1.9xATK",
+          "description": "Ataca a un enemigo 2 veces. El primer ataque traspasa todos los debufos de este campeón al objetivo. El segundo ataque aumenta 1 turno la duración de todos los debufos del enemigo. "
+        },
+        {
+          "name": "Ola Seráfica (ATK)",
+          "levels": [
+            "Nivel 2: Curación +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "4xATK",
+          "description": "Ataca a todos los enemigos. Cada crítico llena un 25% la barra de turno de este campeón. Reinicia el tiempo de Reutilización de Ira de los Nefilim si este ataque mata a un enemigo. Reinicia el tiempo de reutilización de todas las habilidades de este campeón si este ataque mata a 2 o más enemigos."
+        },
+        {
+          "name": "Ira de los Nefilim (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [],
+          "multiplier": "5.4xATK",
+          "description": "Ataca a 1 enemigo. Ignora el 50% de su DEF. Ataca al resto de enemigos con cualquier daño sobrante si el objetivo inicial muere. Cura completamente a este campeón si el ataque inicial mata a un enemigo."
+        },
+        {
+          "name": "Metamorfosis (Pasiva)",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Guardar la Espada (Pasiva)",
+          "levels": [],
+          "description": "Si este campeón está a punto de morir por un ataque letal, bloquea el daño y le aplica un bufo de [Bloquear Daño] durante 2 turnos. Luego, cura a este campeón el 50% de su MAX HP y llena un 100% su barra de turno"
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 20640,
+        "speed": 110,
+        "attack": 1112,
+        "defense": 1365,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Quémalo (ATK) ",
+          "levels": [
+            "Nivel 2: Daño +10%"
+          ],
+          "multiplier": "3xATK",
+          "description": "Ataca a todos los enemigos. Cura a todos los aliados el 20% del daño hecho"
+        },
+        {
+          "name": "Guarda de Nefilim",
+          "levels": [
+            "Nivel 2: Daño +10%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-debufos"
+          ],
+          "description": "Elimina todos los debufos de todos los aliados. Luego cura a todos los aliados el 30% de su MAX HP y les aplica un bufo de [Bloquear Debufos] durante 2 turnos."
+        },
+        {
+          "name": "Luz del más alla",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 6,
+          "buffDebuff": [
+            "bloquear-dano"
+          ],
+          "description": "Revive a todos los aliados muertos con el 50% de HP y el 50% de la barra de turno, y luego aplica un bufo de [Bloquear Daño] a todos los aliados excepto a este campeón,m durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Escudo de Desafío (Pasiva)",
+          "levels": [],
+          "description": "Reduce un 20% el daño recibido por habilidades"
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/siegfrund-el-nefilim.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

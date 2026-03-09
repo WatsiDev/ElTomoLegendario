@@ -1,0 +1,127 @@
+{
+  "slug": "siendra-guardaluz",
+  "name": "Siendra Guardaluz",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Nuker con algún bufo de apoyo a aliados y robo de barra de turno",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=NEZEm68vgsQ",
+  "blessings": [
+    "desgarro-aplastante",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Poco o ninguno, no es muy buena",
+  "stats": {
+    "hp": 15690,
+    "speed": 95,
+    "attack": 1509,
+    "defense": 749,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Luminoso (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +10%"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de robar 1 bufo al azar del objetivo. Si este ataque es crítico, la probabilidad es del 100%",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estocada Cegadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo 2 veces. \n\nCada ataque tiene un 75% de probabilidad de robar un 15% de la barra de turno del objetivo. Si este ataque es crítico, tiene un 75% de probabilidad de robar un 30% de la Barra de turno del objetivo (en lugar del 15%).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Explosión Resplandeciente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 50% de [Aumentar PUNT] y un bufo de 30% de [Aumentar P.Crit] a este campeón durante 2 turnos.\n\n Si este ataque es crítico, aumenta 1 turno la duración de los bufos de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición de Guardaluz (Pasiva)",
+      "levels": [],
+      "description": "+2% ATK por cada bufo que recibe (se acumula hasta el 30%)",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de alaidos en todas las batallas en 15%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/siendra-guardaluz.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "condesa-lix",
+  "name": "Condesa Lix",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Controlador y debufer que hace pareja con Astralon. Poderosa aunque off-meta",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=DeAotGShKT8",
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "campana_fundida",
+    "pergamino_invisible",
+    "invocatormentas",
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "letal",
+    "salvaje",
+    "cruel",
+    "punteria",
+    "bestial"
+  ],
+  "uses": "Un poco de nicho, puede servir en oleadas como debufer y control y hace un trabajo decente en hydra",
+  "stats": {
+    "hp": 17175,
+    "speed": 100,
+    "attack": 1498,
+    "defense": 936,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Caricia purulenta (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10%"
+        }
+      ],
+      "buffDebuff": [],
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 30% de probabilidad de aplicar un debufo del 25% [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Atrapar en la Miseria (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.15xATK",
+      "description": "Ataca a todos los enemigos 3 veces. Cada golpe tiene un 75% de probabilidad de aplicar un debufo del 30% [Reducir VEL] durante 2 turnos. Cada golpe también tiene un 75% de probabilidad de reducir la barra de turno del enemigo en un 10%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Dilatación Temporal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Posibilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Bloquear habilidades Activas] durante 2 turnos. También reduce los tiempos de reutilización de todas las habilidades de los aliados, excepto la de este campeón, en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "No Redimida (Pasiva)",
+      "levels": [],
+      "description": "Elimina un debufo aleatorio de Astralon y de este campeón al comienzo de cada turno. Solo disponible si Astralon está en el mismo equipo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Enfocar Infortunio (Pasiva)",
+      "levels": [],
+      "description": "Llena la barra de turno de este campeón en un 5% cada vez que un aliado recibe un debufo",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP aliado en todas las batallas en un 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/condesa-lix.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

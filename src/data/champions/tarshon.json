@@ -1,0 +1,132 @@
+{
+  "slug": "tarshon",
+  "name": "Tarshon",
+  "faction": "Engendros",
+  "rarity": "Épico",
+  "role": "Tanque con buenos bufos y debufos",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "campana_fundida",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "inmortal",
+    "percepcion",
+    "resiliencia",
+    "punteria",
+    "ferreo",
+    "incondicional"
+  ],
+  "uses": "Decente hasta mid game como tanque para oleadas y facciones",
+  "stats": {
+    "hp": 17175,
+    "speed": 100,
+    "attack": 760,
+    "defense": 1398,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Gancho diabólico (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "3.6xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marchitar Alma (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3.2xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 25% [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Posesión demoníaca",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo del 60% [Aumentar DEF] en todos los aliados durante 2 turnos. Llena las barras de turno de todos los aliados en un 20%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Volver por más (Pasiva)",
+      "levels": [],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Aplica un bufo del 25% [Fortalecer] en este campeón durante 2 turnos siempre que su HP caiga por debajo del 50%",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/tarshon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

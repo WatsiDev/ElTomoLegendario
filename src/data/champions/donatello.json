@@ -1,0 +1,135 @@
+{
+  "slug": "donatello",
+  "name": "Donatello",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Healer, bufer y limpiador",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=6DD5qHwHYPM",
+  "blessings": [
+    "nutrir",
+    "crueldad"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "diario_de_necrotos",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "sombra_encaramada",
+    "codice_luminis"
+  ],
+  "gear": [
+    "proteccion"
+  ],
+  "uses": "Polivalente en casi cualquier sitio junto con otras tortugas. Decente solo",
+  "stats": {
+    "hp": 21810,
+    "speed": 108,
+    "attack": 1013,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Golpe Bestial (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        }
+      ],
+      "multiplier": "0.24xHP, la curación es 0.05xHP",
+      "description": "Ataca a 1 enemigo.\n\n Cura a todos los aliados el 5% de MAX HP de este campeón.\n\n Activa inmediatamente un bufo aleatorio de [Curación Continua] de todos los aliados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Choque de Caparazón (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "multiplier": "0.24xHP",
+      "description": "Ataca a todos los enemigos.\n\n Reduce 2 turnos el tiempo de reutilización de todas las habilidades de todos los aliados, excepto este campeón. El tiempo de reutilización de esta habilidad no se puede reducir con otros efectos que reducen el tiempo de reutilización.\n\n Aplica un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "El Secreto de las Babas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados.\n\n Aplica un bufo de 15% de [Curación Continua] y un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos.\n\n También llena un 20% la barra de turno de todos los aliados.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "¡Te cubro, hermano! (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "description": "[Efecto Pasivo]\n\n Este campeón se une al ataque siempre que ataca Leonardo, Donatello, Mikey o Raphael.\n\n [Efecto Activo]\n\n Siempre que un aliado está a punto de recibir un ataque letal, este campeón evita su muerte y lo mantiene vivo con 1HP. Luego equilibra los HP de ese aliado. El nivel de HP de ese aliado se establece al nivel medio de HP del grupo. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de Aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/donatello.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

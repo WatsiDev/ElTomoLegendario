@@ -1,0 +1,156 @@
+{
+  "slug": "chaagur",
+  "name": "Chaagur",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Nuker que gira en torno a debufos de veneno. Poderoso en oleadas aunque sin gran daño.",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=ch5ToLCKhJk",
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "campana_fundida",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "varita_de_sumision",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "toxico",
+    "salvaje",
+    "letal",
+    "despiadado",
+    "percepcion",
+    "cruel",
+    "instinto"
+  ],
+  "uses": "Control de oleadas. Arenas, aunque sufre con la polimorfia.",
+  "stats": {
+    "hp": 13545,
+    "speed": 100,
+    "attack": 1542,
+    "defense": 1134,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Estupor (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo + 15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar una debufo de [Dormir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tormenta de Veneno (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de Bufo/Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca a todos los enemigos 2 veces. El primer golpe tiene un 75% de probabilidad de aplicar un debufo de [Veneno] del 5% durante 4 turnos. El segundo golpe tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 3 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Para Corazones (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "bloquear-habilidades-pasivas"
+        }
+      ],
+      "multiplier": "2.9xATK",
+      "description": "Ataca a 1 enemigo y luego ataca 1 vez al azar. Si el objetivo está bajo un debufo de [Veneno], ignorará los bufos de [Escudo], [Bloquear daño] e [Inmortal]. \n\nOtorga un turno extra si este ataque mata a un enemigo. También reinicia el tiempo de reutilización de la habilidad [Tormenta de veneno] si este ataque mata a 2 enemigos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agonía constante (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Ataca instantáneamente a los enemigos con la habilidad predeterminada cada vez que reciben daño de los debufos de [Veneno] colocados por este campeón. Cuando golpeas a enemigos con debufos de [Veneno], cura a este Campeón en un 10% del daño infligido.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en todas las batallas en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/chaagur.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

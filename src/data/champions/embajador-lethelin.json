@@ -1,0 +1,120 @@
+{
+  "slug": "embajador-lethelin",
+  "name": "Embajador Lethelin",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Campeón de nicho con un Burlón de nicho",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    "dedo_real",
+    "grial_impio"
+  ],
+  "gear": [],
+  "uses": "Nicho. Quizá se puede montar algo para Shogun con él",
+  "stats": {
+    "hp": 17175,
+    "speed": 106,
+    "attack": 969,
+    "defense": 1189,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lluvia de Lanzas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-p-crit-2"
+        }
+      ],
+      "multiplier": "2.9xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 15 % de probabilidad de aplicar un debufo del 30 % [Reducir P.Crit] durante 2 turnos. Si el HP de este Campeón está lleno, la probabilidad aumenta al 30%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estandarte Unificador",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "burlon"
+        },
+        {
+          "key_name": "reflejar-dano-1"
+        }
+      ],
+      "description": "Aplica un bufo [Burlon] en un aliado objetivo durante 2 turnos. También aplica un bufo de 30% [Reflejar daño] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Médico de campo ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Reduce la duración de 2 debufos aleatorias en todos los aliados. Luego, cura a todos los aliados en un 5% de su MAX HP. Cura en un 2.5% adicional de MAX HP por cada debufo cuya duración se reduce.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Hoy en día, algunos piensan que el embajador Lethelin es sólo un personaje cuasi histórico, o una invención de los propagandistas élficos. Pero sí era real, aunque la gran antigüedad de su historia ha visto cómo el tiempo mezclaba verdades con leyendas. Su viaje a través de Teleria fue un hecho notable, aunque muchos detalles a lo largo de los siglos se han vuelto realmente fabulosos.\n\n En la Edad Gris de Teleria, los mortales eran libres como nunca antes lo habían sido, y no solo por la presencia física de maestros inmortales. Había un sello en cada uno de sus corazones, una última mota de voluntad divina que intentaba dirigir y controlar sus destinos, y ese sello se había roto. Para cada especie de Teleria, la voluntad de sus creadores resonaba como un recordatorio para siempre, pero sería solo eso: un recordatorio, no una compulsión. Y así fue como en toda Teleria hubo un Despertar monumental, una época de autodescubrimiento y posibilidades ilimitadas.\n\n Los elfos, aunque todavía estaban bajo la influencia divina, habían sido insulares e introspectivos hasta el extremo, obsesionados con la autoperfección y la armonía ideal con la naturaleza. El Despertar les dio pragmatismo, solidaridad y perspectiva. Algunos se asentaron en lo profundo de Peltas junto a los enigmáticos Fae y se convirtieron en Sylvan. Otros se congregaron en los valles nutritivos del noreste de Anhelt y allí fundaron el reino de Aravia. Todavía veneraban las viejas costumbres, cambiaban poco, miraban hacia dentro y buscaban la perfección. Pero ahora, habían despertado al mundo que los rodeaba y sabían que no podían prosperar en un aislamiento total. Un noble llamado Lethelin propuso un gran viaje diplomático a través de Teleria, para presenciar su esplendor y catalogar a todos sus pueblos. Confiado en espejos de adivinación para contactar con el consejo noble del rey en cualquier momento, partió con una camarilla cuidadosamente seleccionada. El embajador Lethelin partió hacia el oeste y el sur. Exploró el crisol de culturas del centro de Anhelt, que luego se llamaría Kaerok, donde humanos, orcos y ogretes vivían vidas pastorales. Inspeccionó las Montañas Redspike y luego se dirigió al sur, cartografiando la costa. Cuando casi había circunnavegado las costas de Anhelt y había llegado al estrecho de Valdemar, estaba cerca de Aravia una vez más y sentía una gran nostalgia, pero continuó hacia Peltas.\n\n El embajador Lethelin partió rumbo al oeste y al sur. Exploró el crisol de culturas del centro de Anhelt, que luego se llamaría Kaerok, donde humanos, orcos y ogretes vivían una vida pastoral. Inspeccionó las Montañas Redspike y luego se dirigió al sur, cartografiando la costa. Cuando casi había circunnavegado las costas de Anhelt y había llegado al estrecho de Valdemar, estaba cerca de Aravia una vez más y sentía una gran nostalgia, pero siguió adelante hacia Peltas.\n\n Allá donde iba, Lethelin y sus compañeros ondeaban el estandarte de Aravia y contaban sus glorias, intercambiando relatos. Los escribas aravianos registraban la tradición y los testimonios a través de los espejos de adivinación del grupo. Ciertas culturas e historias oscuras se habrían perdido para siempre si la expedición de Lethelin no las hubiera registrado para la posteridad élfica.\n\n El viaje, que duró décadas, no estuvo exento de peligros. Monstruos primigenios acechaban las vastas tierras salvajes que separaban a las jóvenes civilizaciones del mundo y, de vez en cuando, pueblos hostiles se mostraban mal ante la presencia de los elfos en su territorio. Lethelin dirigió a su tripulación en la batalla con coraje y carisma, con su estandarte araviano siempre en alto para animarlos y sus palabras transmitían sutiles magias curativas que revitalizaban la carne y el espíritu de quienes lo escuchaban.\n\n Los valientes exploradores siempre supieron que estaban arriesgando sus vidas, especialmente cuando se embarcaban hacia los archipiélagos que se encontraban al sur de los dos mayores continentes telerianos. Los largos viajes por mar eran un nuevo desafío, uno que resultó ser la perdición de Lethelin: el rey y su corte presenciaron en tiempo real una terrible tormenta que envió a Lethelin y los espejos encantados que llevaba al fondo del mar. Sin que nadie lo supiera, se había cometido el Pecado de los Dragones, y el barco del Embajador quedó atrapado en la devastación volcánica que hizo que Allreach fuera borrado de la faz de Teleria.",
+  "forms": null,
+  "image": "/src/assets/champions/embajador-lethelin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

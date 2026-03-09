@@ -1,0 +1,141 @@
+{
+  "slug": "sigmund-el-granescudo",
+  "name": "Sigmund el Granescudo",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo con escudos mediocre",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=7WLA0_Do76g",
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "mascara_de_ira",
+    "campana_fundida",
+    "escudo_de_escudero"
+  ],
+  "gear": [
+    "inmortal",
+    "resiliencia",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Pocos, facciones fáciles y algo de control",
+  "stats": {
+    "hp": 20640,
+    "speed": 97,
+    "attack": 848,
+    "defense": 1354,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Lucha más justa (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "multiplier": "3.75xDEF",
+      "description": "Ataca a 1 enemigo. Elimina cualquier bufo de [Escudo]. También tiene un 50% de posibilidades de eliminar un bufo aleatorio. Tiene un 75% de probabilidad al atacar a los jefes.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Faro de batalla (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "2xDEF",
+      "description": "Ataca a todos los enemigos 2 veces. Cada golpe tiene una probabilidad del 50% de aplicar un debufo de [Provocar] durante 1 turno, y un 75% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escudo del Reino  ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] sobre todos los aliados durante 2 turnos equivalente al 30% del MAX HP de este Campeón. También aplica un bufo de [Fortalecer] del 25% a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Equitativo  (Pasiva) ",
+      "levels": [],
+      "description": "Al ser atacado, tiene un 20% de probabilidad de reducir 1 turno la duración de todos los bufos del atacante. Al ser atacado por un jefe, la probabilidades es del 40%",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": " Aumenta la DEF de aliados en batallas de la Torre del Destino en 40."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sigmund-el-granescudo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

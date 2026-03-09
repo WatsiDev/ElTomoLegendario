@@ -1,0 +1,174 @@
+{
+  "slug": "toshiro-el-sangriento",
+  "name": "Toshiro el Sangriento",
+  "faction": "Sombrios",
+  "rarity": "Mítico",
+  "role": "Nuker espectacular en hydra con sinergias con Chupar Vida",
+  "type": "Ataque / HP",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=84MTpPu9Nvc",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "colmillo_asesino",
+    "sombra_encaramada",
+    "apagador_de_esencia",
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "percepcion",
+    "instinto",
+    "fervor"
+  ],
+  "uses": "Muy viable en casi cualquier jefe o mazmorra larga como la Hydra o la Quimera, sobretodo junto con Mikage",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en un 35%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 18660,
+        "speed": 103,
+        "attack": 1520,
+        "defense": 1090,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Desenfundar Rápido (ATK)(HP)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "buffDebuff": [
+            "velo-perfecto"
+          ],
+          "multiplier": "2.8xATK + 0.1xHP",
+          "description": "Ataca a 1 enemigo. Si el enemigo tiene un debufo de [Chupar Sangre], tiene un 50% de probabilidad de atacar a otro enemigo. \n\n También aplica un bufo de [Velo Perfecto] a este campeón durante 1 turno."
+        },
+        {
+          "name": "Dardos Sanguíneos (ATK)(HP)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +10%"
+          ],
+          "cooldown": 3,
+          "multiplier": "1.5xATK + 0.1xHP",
+          "description": "Ataca 4 veces al azar. Cada ataque da a este campeón +5% ATK y HP mientras está en su Forma Base (se acumula hasta el 100%). Si el objetivo tiene un debufo de [Chupar Sangre], cada ataque da +10% ATK y HP en lugar de +5%.\n\n El daño de esta habilidad aumenta un 15% por cada debufo de [Maleficio] que tiene el grupo enemigo."
+        },
+        {
+          "name": "Tifón Sangriento (ATK)(HP)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "red-def-2",
+            "chupar-vida"
+          ],
+          "multiplier": "3.5xATK + 0.1xHP",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de 60% de [Reducir Def] y un debufo de [Chupar Vida] durante 2 turnos.\n\n Ataca 1 vez más a los enemigos que tienen al menos 2 debufos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "El Hambre de Vornspore (Pasiva)",
+          "levels": [],
+          "description": "Llena un 5% la barra de turno de este  campeón siempre que ataca a un objetivo que tiene un debufo de [Chupar Vida]. Hace un 25% más de daño a enemigos que notnen un debufo de [Chupar Vida]"
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 25110,
+        "speed": 100,
+        "attack": 1134,
+        "defense": 1046,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Corte Lai (HP)(ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "0.16xHP + 0.7xATK",
+          "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aumentar 1 turno la duración de los debufos de todos los enemigos."
+        },
+        {
+          "name": "Dibujado en Sangre (HP)(ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "0.25xHP + 0.7xATK",
+          "description": "Ataca a todos los enemigos. Cura a todos los aliados excepto a este campeón el 10% del daño hecho. La magnitud de la curación aumenta un 5% por cada debufo de [Chupar Vida] que tiene el grupo enemigo."
+        },
+        {
+          "name": "Embestida Fulminante (HP)(ATK) ",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "red-vel-2",
+            "chupar-vida"
+          ],
+          "multiplier": "0.27xHP + 0.7xATK",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de 30% de [Reducir VEL] y un debufo de [Chupar Vida] durante 2 turnos. Luego, obtén un turno adicional."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Envuelto en Vísceras (Pasiva)",
+          "levels": [],
+          "description": "Doble la magnitud de las curaciones que recibe este campeón al atacar a enemigos que tienen un debufo de [Chupar Vida]. También reduce un 50% el daño recibido de enemigos que tienen un debufo de [Chupar Sangre]."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/toshiro-el-sangriento.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "catafracto",
+  "name": "Catafracto",
+  "faction": "Hidalgos",
+  "rarity": "Raro",
+  "role": "Nuker de HP",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [],
+  "relics": null,
+  "gear": [],
+  "uses": "Nuker de facciones.",
+  "stats": {
+    "hp": 18330,
+    "speed": 97,
+    "attack": 991,
+    "defense": 815,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Golpe Seguro (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 20% de probabilidad de aplicar un debufo de 50% de [Reducir PUNT] al objetivo durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fortificar",
+      "levels": [
+        {
+          "level_desc": "Nivel 5:Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos] y un bufo de 60% de [Aumentar DEF] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompeyelmos (ATK)(HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "3.9xATK+0.1xHP",
+      "description": "Ataca a 1 enemigo. Ignorará DEF si el objetivo tiene menos del 50% de HP. El daño aumenta según MAX HP de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en batallas de arenas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/catafracto.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

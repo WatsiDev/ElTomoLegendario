@@ -1,0 +1,107 @@
+{
+  "slug": "vrask",
+  "name": "Vrask",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Healer",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=c5j5el27SgM",
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "el_triturador",
+    "empunadura_sacra",
+    "tiara_de_andromeda"
+  ],
+  "gear": [
+    "vida",
+    "vida-divina",
+    "prob-critico",
+    "p-crit-divino",
+    "resiliencia",
+    "inmortal"
+  ],
+  "uses": "Healer para early game y facciones. Mediocre",
+  "stats": {
+    "hp": 23460,
+    "speed": 97,
+    "attack": 870,
+    "defense": 870,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Trancazo (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "0.1xHP",
+      "description": "Ataca a 1 enemigo. Llena el barra de turno de este campeón en un 20% si este ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe de Rayo (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.15xHP",
+      "description": "Ataca a 1 enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Canibalismo (Pasiva)",
+      "levels": [],
+      "description": "Cura a todos los aliados en un 10% de su MAX HP cuando inflige un golpe crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en mazmorras en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/vrask.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

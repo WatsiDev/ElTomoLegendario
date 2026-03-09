@@ -1,0 +1,120 @@
+{
+  "slug": "mago-del-mausoleo",
+  "name": "Mago del Mausoleo",
+  "faction": "No Muertos",
+  "rarity": "Épico",
+  "role": "Buen campeón de apoyo con curas, bufos y limpieza",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "defensa-impecable",
+    "sobrevivir"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "rocadragon_dorada"
+  ],
+  "gear": [
+    "escudo",
+    "vida",
+    "inmortal",
+    "resiliencia",
+    "velocidad",
+    "vida-divina",
+    "velocidad-divina"
+  ],
+  "uses": "Oleadas, facciones. Es decente pero poco específico",
+  "stats": {
+    "hp": 19485,
+    "speed": 104,
+    "attack": 1057,
+    "defense": 947,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Esposas de alma (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "4.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo del 30% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Poder de No Muertos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Aplica un bufo de 30% de [Aumentar P.Crit] y un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos. También aplica un bufo de [Bloquear Debufos] en todos los aliados durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vientos de Purga",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Elimina todos los debufos de todos los aliados y luego los cura en un 10% del MAX HP de este campeón. Cura a cada aliado en un 10% más si se eliminan 1 o más debufos de ese aliado. Llena un 15% la barra de turno de cada aliado si elimina al menos 2 debufos de dicho aliado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "La tentación del poder y la inmortalidad siempre ha sido fuerte, y a muchos magos les resulta demasiado difícil resistirse. Muchos habían caído durante milenios. Algunos encontraron su perdición, consumidos por su arrogancia o asesinados por los Campeones que derribaron sus oscuros planes. Otros, sin embargo, han resistido a través de una mezcla de astucia, suerte y puro talento. Estos seres ancestrales engañan a la muerte de diversas formas, aunque ninguna de ellas puede ofrecer la verdadera salvación. Lo mejor que pueden esperar es la miserable existencia de los No Muertos. Aunque para algunos de ellos, incluso eso es suficiente. Lejos en el corazón oscuro de Stormwind Plains, un gran mausoleo aún se encuentra entre los escarpados acantilados, aunque muchas de sus torres y muros se han convertido en polvo durante mucho tiempo. Una vez que fue un gran palacio construido por una civilización desaparecida, ahora tiene un propósito mucho más siniestro. Un aquelarre de magos oscuros, revividos por el Nigromante Bad-el-Kazar, ha convertido el Mausoleo en su fortaleza. Encabezados por uno conocido como Gorgorab, estos hechiceros buscan profundizar en la tradición prohibida y realizar viles rituales que promoverán los diseños de sus Maestros en Teleria. A pesar de la aparente fragilidad de sus cuerpos en descomposición, los Mausoleo no deben ser subestimados. Aunque no les gusta enfrentarse a sus adversarios en una batalla justa, los nigromantes son magos poderosos, capaces de paralizar a sus enemigos y potenciar a sus esbirros.",
+  "forms": null,
+  "image": "/src/assets/champions/mago-del-mausoleo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "jack-el-cosechador",
+  "name": "Jack el Cosechador",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Controlador y debufers de oleadas",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=L2nmlkrKmVk",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "campana_fundida",
+    "varita_de_sumision",
+    "orbe_de_transfixion",
+    "impasse_temporal",
+    "orquidea_mortilunar",
+    "codice_luminis"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "bestial",
+    "escudo",
+    "apoyo",
+    "exactitud",
+    "velocidad"
+  ],
+  "uses": "Oleadas y facciones. Controlador de oleadas en PvE",
+  "stats": {
+    "hp": 26925,
+    "speed": 102,
+    "attack": 859,
+    "defense": 925,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Cosecha de Miedo (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "multiplier": "0.06xHP",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 25% de probabilidad de robar 1 bufo aleatorio del objetivo. Cada golpe también tiene un 25% de posibilidades de aplicar un debufo de [Miedo] durante 1 turno si el objetivo no tiene beneficios activos. Esta posibilidad aumenta al 100% si todos los beneficios fueron robados del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sueños a Ceniza (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.16xHP",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de [Bloquear buffos] durante 2 turnos en objetivos bajo debufos de [Miedo]. Elimina cualquier bufo [Aumentar ATK] del objetivo y lo reemplaza con una debufo de 50% [Reducir ATK] durante 2 turnos. Elimina cualquier bufo de [Curación continua] del objetivo y lo reemplaza con un debufo de 5% [Veneno] durante 2 turnos. El número de debufos [Veneno] es igual al número de bufos de [Curación continua] eliminados.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Señor del Terror (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel5: Probabilidad Buff / Debuff + 15%"
+        },
+        {
+          "level_desc": "Nivel6: Cooldown -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "0.21xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de aplicar un debufo [Miedo de Verdad] durante 1 turno. También aplicaun debufo del 30% [Reducir VEL] durante 2 turnos y disminuye el barra de turno de cada objetivo en un 15% si se aplicael debufo de [Miedo de Verdad]. Tiene un 75% de posibilidades de aplicar un debufo de [Dormir] durante 1 turno si no se aplicar el debufo [Miedo de Verdad].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sonrisa Maliciosa (Pasiva)",
+      "levels": [],
+      "description": "Cuando es atacado, reduce la duración de todos los bufos del atacante en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Teleria siempre ha sido rica en pesadillas y cosas por las que estar aterrorizado. Asaltantes y bandidos, Siroth y sus secuaces, siempre tramando la caída y la subyugación de los Reinos Mortales, no muertos que acechan la tierra en la noche más oscura en busca de víctimas para alimentarse o cautivar. Pero hay un ser que el verdadero horror primario, hecho manifiesto. Los campesinos supersticiosos de Kaerok, donde apareció por primera vez, lo llaman ‘Harvest Jack’. En verdad, las referencias a un espíritu maligno de poder y apariencia casi idénticos se pueden encontrar en culturas mucho más antiguas. Pero, por alguna razón, desapareció de la historia y permaneció inactivo hasta hace unos tres siglos. El nombre no es una coincidencia, porque Jack el Cosechador había sido visto por primera vez durante Lozrayn, un festival de cosecha que se originó en Kaerok. Sus motivos y objetivos no están claros, pero siempre son maliciosos de una forma u otra. Se sabe que Jack hace bromas a los incautos, tratando de asustarlos, algunos dicen que todas sus víctimas mueren de miedo y Jack devora su alma, lo que no es exactamente correcto, o se manifiestan en medio de la fiesta para enviar a los campesinos. dispersión y estampado en todas las direcciones. En ocasiones, sin embargo, esto puede convertirse en una matanza sin ninguna rima o razón. Los estudiosos teorizan que Jack el Cosechador se alimenta del miedo a los mortales y hará lo que sea necesario para provocar pesadillas que lo sostendrán. El espíritu siempre se une como un torbellino de energías arcanas o, tal vez, animae retorcidos unidos en una sola conciencia oscura. Su nacimiento se describe como un destello de luz cegadora, seguido de la forma horrible que se materializa lentamente. Su cabeza de calabaza se retuerce y se esculpe en una burlona burla de dientes dentados, su guadaña arde con la fría llama de la muerte, y su poder retuerce la magia benevolente hasta que se marchita y daña a aquellos a los que se supone que debe potenciar. La última aparición de Jack el Cosechador había sido ampliamente informada, aunque los detalles son escasos. Los testigos dicen que la entidad maliciosa salió de un huerto de calabazas en medio de una feria de la ciudad y se desató. Si cuatro valientes guerreros no hubieran intervenido, habría causado una masacre de proporciones terroríficas. Sin embargo, incluso estas almas nobles no eran rival para el espíritu oscuro, cuya fuerza se había vuelto ilimitada a medida que Shadow reinaba en Teleria. Tomó la apariencia personal del Árbitro que había resucitado a sus Campeones y cruzó su espada sagrada con la guadaña malvada de Jack el Cosechador para hacer retroceder al renacido. Desde entonces, Jack el Cosechador a menudo aparecía bajo la luna llena de frías noches de otoño, siempre hambriento, siempre buscando mortales desventurados para sostenerlo. No está claro si este tipo de poder puede quedar atrapado en un Fragmento, aunque si puede ser así, los poderes oscuros del reverenciado ciertamente serán útiles en la lucha contra Siroth.",
+  "forms": null,
+  "image": "/src/assets/champions/jack-el-cosechador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

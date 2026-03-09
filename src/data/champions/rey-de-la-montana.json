@@ -1,0 +1,129 @@
+{
+  "slug": "rey-de-la-montana",
+  "name": "Rey de la Montaña",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Campeón con mayor HP del juego y mucha RES base, capaz de daño daño y mucho aguante, aunque muy lento",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=VKYP1C5sqxc",
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "colmillo_asesino",
+    "vial_del_sombrerero",
+    "luna_de_sangre",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "apoyo",
+    "cruel",
+    "despiadado",
+    "escudo",
+    "salvaje",
+    "letal",
+    "inmortal"
+  ],
+  "uses": "Arenas, facciones... Se suele poner en set de escudo o con daño para que sea una verdadera montaña",
+  "stats": {
+    "hp": 31050,
+    "speed": 85,
+    "attack": 1432,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 90
+  },
+  "skills": [
+    {
+      "name": "Hendedura de Trueno (HP)(ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "0.27xHP + 1xATK",
+      "description": "Ataca a 1 enemigo.\n\n Llena la barra de turno de este campeón en 10%. Llena la barra de turno en un 2% adicional por cada bufo en el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hacha encantada (HP)(ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "0.27xHP + 1xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 50% de la DEF del objetivo.\n\n Otorga un turno adicional si esta habilidad mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza Real (HP)(ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "0.35xHP + 1.8xATK",
+      "description": "Ataca a 1 enemigo. Ignora los bufos de [Escudo], [Fortalecer], [Inmortal], [Protección de Aliado] y [Bloquear Daño].\n\n Reduce el tiempo de reutilización de la habilidad Hacha Encantada en 2 turnos si esta habilidad mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Habilidad legendaria (Pasiva)",
+      "levels": [],
+      "description": "Aumenta el ATK de este Campeón en un 50% cada vez que este Campeón mata a un enemigo. Se acumula hasta el 100%. Restablece cada ronda.\n\n Este campeón es inmune a debufos de [Reducir ATK] y [Bloquear Habilidad Activas]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "ATK",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": "Hay pocos lugares tan magníficos y terroríficos como el Rey de la montaña a la cabeza de un ejército enano. Por derecho de nacimiento y por derecho de poder, es el soberano de todos los Enanos, el gobernante indiscutible de todo lo que se encuentra debajo de las Montañas de la Desesperación. Su bramido guerrero lleva a sus parientes a hazañas de valor cada vez mayores, y Ogryn y Demon temen con razón su habilidad. Siendo todavía un joven príncipe, había luchado y asesinado a un posible rey de los sanguinarios Ogryns que buscaban esculpir su dominio de las tierras periféricas, e indefensas, como imaginaban en su arrogancia, de los Enanos. Más tarde, reunió a su familia contra las fuerzas de Siroth y derrotó personalmente a innumerables enemigos y al asqueroso demonio que lideró la invasión. Ahora, él marcha con la vanguardia de los Enanos porque es el deber del Rey asegurar que su pueblo permanezca a salvo y que todos los que se atrevan a amenazarlos se vean frustrados. Armado con un hacha que se dice que perteneció al progenitor de todos los Enanos, el Rey de la Montaña dispersa a sus enemigos de izquierda a derecha con la furia de un volcán despierto. Ninguna armadura puede ser suficiente para detener su temible arma, ni siquiera la poderosa magia protectora puede desviarla. Ganar el respeto y la asistencia del Rey es difícil, como siempre es el caso con los Enanos, pero su fuerza sería un activo innegable para los Campeones de Lumaya. ",
+  "forms": null,
+  "image": "/src/assets/champions/rey-de-la-montana.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

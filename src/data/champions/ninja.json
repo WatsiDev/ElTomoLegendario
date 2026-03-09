@@ -1,0 +1,142 @@
+{
+  "slug": "ninja",
+  "name": "Ninja",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Campeón versátil en PvE, especialmente contra jefes",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=WLpgpSLYkiA",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "colmillo_asesino",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "cruel",
+    "instinto",
+    "percepcion",
+    "punteria",
+    "despiadado",
+    "rompe-afinidad"
+  ],
+  "uses": "Muy bueno en casi todos los jefes: Gemelos, Hydra, Quimera, Shogun, Necropolis, Golem, Dragon...",
+  "stats": {
+    "hp": 16845,
+    "speed": 100,
+    "attack": 1509,
+    "defense": 947,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rayo Rompedor (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 45% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. También llena la barra de turno de este campeón en un 15% cuando se usa contra jefes.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lluvia Abrasadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca 3 veces al azar. Cada golpe tiene un 75% de probabilidad de aplicar un debufo de [Quemar HP] durante 3 turnos. También aplica un bufo de [Velo perfecto] en este campeón durante 2 turnos.\n\n Cuando se usa contra jefes, se activará instantáneamente cualquier debufo de [Quemar HP], incluidos las debufos de Quemar HP aplicados por esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe Cian (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "3xATK (si en área) y 3.95xATK (a bosses)",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de colocar una debufoo [Congelar] durante 1 turno.\n\n Al apuntar a un jefe, solo atacará al jefe (no a todos los enemigos) e ignorará el 50% de la DEF del objetivo. También Reducirá 1 turno el tiempo de reutilización de la habilidad Lluvia Abrasadora.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escalada  (Pasiva)",
+      "levels": [],
+      "description": "Aumenta el ATK de Ninja en un 10% (hasta un 100%) y el Daño Crítico  (hasta un 25%) cada vez que un solo enemigo es golpeado por las tres Habilidades activas de Ninja en una sola ronda. Este efecto puede ocurrir varias veces contra el mismo enemigo.\n\n Al luchar contra los jefes, aumentará el ATK de Ninja en un 20% (hasta un 100%) y D.Crit en un 10% (hasta un 25%) en su lugar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ninja.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

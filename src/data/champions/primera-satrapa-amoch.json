@@ -1,0 +1,144 @@
+{
+  "slug": "primera-satrapa-amoch",
+  "name": "Primera Sátrapa Amoch",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Apoyo completo con buenos debufos y curas",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "polimorfar",
+    "cadenas-temporales"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "diario_de_necrotos",
+    "elixir_dorado",
+    "infernosfera",
+    "el_triturador"
+  ],
+  "gear": [
+    "proteccion",
+    "inmortal",
+    "percepcion",
+    "punteria",
+    "vida",
+    "vida-divina",
+    "resiliencia"
+  ],
+  "uses": "Facciones y jefes, aunque no destaca en ningun jefe en especial",
+  "stats": {
+    "hp": 21645,
+    "speed": 100,
+    "attack": 870,
+    "defense": 1266,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Secretos de Sátrapa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 100% de probabilidad de robar un 1 bufo aleatorio del objetivo. También tiene un 50% de probabilidad de aplicar un debufo de [Chupar Sangre] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Conocimiento Dracónido (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-res-2"
+        },
+        {
+          "key_name": "vinculo-de-dolor"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Reducir RES], un debufo de [Vínculo de Dolor] y un debufo de 30% de [Reducir VEL] durante 2 turnos. Estos debufos estarán protegidos contra Jefes.\n\n Cura a todos los aliados un 5% de del MAX HP de éste campeón por cada debufo aplicado.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guarda de la Herencia",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos] durante 2 turnos a todos los aliados.\n\n Cura a todos los aliados el 15% del MAX HP de éste campeón. Cura a cada aliado un 3% por cada debufo en ellos.\n\n Elimina cualquier debufo que afecta negativamente a atributos, y los reemplaza con su bufo equivalente, como [Reducir ATK] por [Aumentar ATK]. Debufos como [Bloquear Bufos], [Curación Reducida] y [Debilitar] serán reemplazados con [Bloquear Debufos], [Curación Continua] y [Fortalecer] respectivamente.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Castillo Resiliente (Pasiva)",
+      "description": "+10% MAX HP cada vez que éste campeón se cura usando una habilidad (se acumula hasta el 50%).",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de Aliados en todas las batallas en 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/primera-satrapa-amoch.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

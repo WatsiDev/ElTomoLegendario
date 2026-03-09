@@ -1,0 +1,140 @@
+{
+  "slug": "geomante",
+  "name": "Geomante",
+  "faction": "Enanos",
+  "rarity": "Épico",
+  "role": "Épico top que hace mucho daño a jefes gracias a su pasiva.",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "orquidea_mortilunar",
+    "elixir_dorado"
+  ],
+  "gear": [],
+  "uses": "Especialista en jefes como Gemelos, Hydra, Señor Demoníaco, etc, por su pasiva única.",
+  "stats": {
+    "hp": 15525,
+    "speed": 94,
+    "attack": 1343,
+    "defense": 925,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bastón de temblores (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "2.4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 30% de probabilidad de aplicar un debufo del 50% [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Petrificar Lentamente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6xATK",
+      "description": "Elimina todas las ventajas de un enemigo objetivo y luego lo ataca. Roba todos los bufos si el objetivo está bajo un debufo de [Quemar HP] colocada por este campeón. Reduce el tiempo de reutilización de Agarre de arenas movedizas en 2 turnos si el objetivo muere con esta habilidad mientras está bajo un debufo de [Quemar HP] colocada por este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Agarre de las Arenas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "description": "Vacía completamente la barra de turno del objetivo. Llena la barra de turno de este campeón por la cantidad que pierde el objetivo. Tiene un 75% de probabilidad de aplicar un debufo de [Quemar HP] y un 25% [Debilitar] en el objetivo durante 3 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guarda de Piedra (Pasiva)",
+      "levels": [],
+      "description": "Reduce el daño que reciben todos los aliados en un 15% y desvía ese daño a cada enemigo bajo un debufo de [Quemar HP] colocada por este Campeón. Siempre que este Campeón es atacado, redirige el 30% del daño.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en un 25%."
+    }
+  ],
+  "lore": "Los enanos sienten una gran afinidad por las rocas y las piedras. Pasan la mayor parte del tiempo bajo la superficie de Teleria, cavando nuevos túneles o descubriendo los antiguos. Buscan vetas de mineral de difícil acceso con las que crear maravillas tecnológicas y abren caminos que descienden hasta las raíces de las montañas para expandir sus reinos. Aunque gran parte de esto se logra con el humilde trabajo de pico y pala de los gremios de tuneladores de Gloomdeep Hold y Skyiron Dominion, algunos túneles requieren una forma de excavación más especializada: el arte mágico conocido como geomancia.\n\n La geomancia implica la manipulación de rocas mediante la fuerza de la mente; solo las almas más obstinadas pueden volverse expertas en su práctica, ya que, para ser un geomántico, un enano debe enfrentar su voluntad con la de las propias montañas. Por ello, los geománticos son raros. Aquellos que muestran alguna aptitud para esta forma de arte son inmediatamente reclutados por los gremios de túneles y entrenados para usar sus habilidades en beneficio de su pueblo, lo deseen o no.\n\n Un geomántico aprende a comunicarse con la piedra y a manipular las fisuras que permean las montañas. Guía a los equipos de zapadores del Gremio a los puntos débiles de la pared rocosa, detecta vetas de mineral valioso y puede oír las advertencias de una montaña sobre la proximidad de monstruos subterráneos como arañas de roca o simios de las cavernas. También son expertos en dar forma a la piedra, lo que les permite abrir nuevos túneles. Por estas razones, los geománticos suelen estar a la vanguardia de todas las expediciones de exploración de Skyiron.\n\n Pero no todos los geománticos siguen trabajando para los gremios de túneles. Algunos rompen sus contratos y se dedican a su propio negocio. Uno de ellos es Durok Sunblight.\n\n Durok fue en el pasado un humilde zapador, destinado a dedicarse a tallar runas de tiempo para explosivos mágicos con el fin de abrir nuevas rutas a través de la tierra. Pero un día, una runa extraviada provocó un derrumbe, del que Durok fue el único superviviente. Enterrado allí, en las entrañas de la tierra, Durok oyó que la montaña le hablaba, aunque no con palabras. Más bien, una fuerza surgió en su interior y le permitió mover místicamente las toneladas de roca que lo habían atrapado y forjar un camino hacia la libertad. A medida que esta fuerza fluía a través de él, se sintió más fuerte que nunca y, cuando emergió a la luz de las antorchas de sus posibles rescatadores, Durok deseó poder seguir cavando... y cavando... y cavando.\n\n Cuando se difundió la noticia de la hazaña de Durok, un gremio de túneles no tardó en llamarlo. Al principio, Durok se mostró reacio a ir con ellos, temiendo que pudieran castigarlo por su uso no autorizado de la magia. Pero cuando se dio cuenta de que tenían la intención de entrenarlo para que usara mejor el poder que había sentido en su interior, estaba más que ansioso por ir.\n\n Pero el entrenamiento era lento, meticuloso y cauteloso. Demasiado cauteloso, en opinión de Durok. El poder que había en su interior exigía que se utilizara de maneras cada vez más inventivas, y él estaba encantado de complacerlo. Podía convertir la piedra sólida en polvo y viceversa, provocar temblores e incluso petrificar seres vivos. Pero sus tutores de geomancia se negaron a permitirle continuar con sus experimentos, obligándolo a cada paso a seguir el rígido camino que le habían marcado.\n\n La negativa de Durok a abandonar su experimentación le valió la expulsión del Gremio de Tuneladores y la prohibición de utilizar su magia bajo pena de prisión o algo peor. Pero Durok había decidido que esas reglas ya no se aplicaban a él. Utilizando sus poderes como le parece oportuno, viaja de un lugar a otro un paso por delante de las autoridades y ofrece sus servicios a cualquiera que le ofrezca la oportunidad de explorar los límites de sus habilidades.",
+  "forms": null,
+  "image": "/src/assets/champions/geomante.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

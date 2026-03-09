@@ -1,0 +1,132 @@
+{
+  "slug": "tomoe",
+  "name": "Tomoe",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Campeón de apoyo útil junto con otros sombríos",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "rompe-cadenas"
+  ],
+  "relics": null,
+  "gear": [
+    "percepcion",
+    "punteria",
+    "velocidad"
+  ],
+  "uses": "Facciones principalmente",
+  "stats": {
+    "hp": 16185,
+    "speed": 99,
+    "attack": 1024,
+    "defense": 1200,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Apuñalar y Robar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de posibilidades de robar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Embaucar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de posibilidades de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Uña y Carne",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Contraataque] en un aliado objetivo durante 2 turnos. En su lugar, aplica un bufo de [Contraataque] durante 3 turnos si el aliado es de la Facción de Sombríos.\n\n Luego llena las barras de turno de todos los aliados en un 15% y aplica un bufo de [Aumentar D.Crit.] del 30% en todos los aliados durante 2 turnos.\n\n También aplica un bufo del 30 % de [Aumentar P.Crit.] durante 2 turnos a todos los aliados de la Facción de Sombríos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hermandad (Pasiva)",
+      "levels": [],
+      "description": "Aumenta todas las curaciones y los efectos de llenado del barra de turno en un 20 % cuando se usa en aliados de la facción de Sombríos. Si hay varios campeones en el equipo con esta habilidad, solo se activará uno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en criptas de facciones en un 24%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/tomoe.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "canciller-yasmin",
+  "name": "Canciller Yasmin",
+  "faction": "Hidalgos",
+  "rarity": "Épico",
+  "role": "Healer mediocre con algo de control para facciones",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "rompe-cadenas",
+    "presencia-dominante"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "campana_fundida"
+  ],
+  "gear": [],
+  "uses": "Control y curaciones. Facciones y early.",
+  "stats": {
+    "hp": 16680,
+    "speed": 109,
+    "attack": 1101,
+    "defense": 1090,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Resonante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo. Ataca 1 vez más si el objetivo no tiene ningún bufo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Toque de Vigor",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "description": "Cura a un aliado en un 40% de su MAX HP. En cambio, cura un 60 % si el aliado tiene un 50 % de HP o menos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ofensiva Entregada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "description": "Tiene un 50% de probabilidad de eliminar todos los bufos de todos los enemigos. Luego aplica un debufo de [Dormir] durante 1 turno a todos los enemigos no tengan ningún debufo.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/canciller-yasmin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

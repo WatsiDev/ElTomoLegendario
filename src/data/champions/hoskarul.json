@@ -1,0 +1,128 @@
+{
+  "slug": "hoskarul",
+  "name": "Hoskarul",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Nuker defensivo con control",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "rocadragon_dorada",
+    "campana_fundida",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 17670,
+    "speed": 98,
+    "attack": 804,
+    "defense": 1321,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Garrote de Ermitaño (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3,85xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Paliza Sostenida (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +25 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "4.1xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50 % de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Reduce las barras de turno de los enemigos afectados por un [Aturdir] en un 15%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Como si nada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-res-2"
+        }
+      ],
+      "description": "Elimina todos los debufos de aturdir de todos los aliados y aplica un bufo del 60% [Aumentar DEF] y uno del 25% [Aumentar RES] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Acabar con Rival (Pasiva)",
+      "levels": [],
+      "description": "Inmune a los debufos de [Aturdir]. Aumenta el daño infligido por todos los aliados en un 15 % al atacar a enemigos bajo [Aturdir] .",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la Defensa de los aliados en Criptas de Facción en 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/hoskarul.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "vasal-del-sello",
+  "name": "Vasal del Sello",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Aplica Quemar HP, cura y aplica debufos.",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "sombra_encaramada",
+    "campana_fundida",
+    "orbe_de_transfixion"
+  ],
+  "gear": [
+    "regeneracion",
+    "percepcion",
+    "punteria",
+    "bestial",
+    "inmortal"
+  ],
+  "uses": "Guerra de facciones ya que funciona muy bien junto a otros engendros. Fuera de ahí, Golem y Golem Dificil, es decente en oleadas y versátil en mucho contenido, pero top en ninguno",
+  "stats": {
+    "hp": 21315,
+    "speed": 98,
+    "attack": 870,
+    "defense": 1288,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Sello Abisal (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Quemar HP] al objetivo durante 2 turnos si están bajo un debufo de [Miedo de Verdad] o un debufo de [Reducir ATK]. También aplica un bufo de [Escudo] a este campeón durante 2 turnos igual al 10% de su MAX HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Oscuridad Infernal",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.27xHP",
+      "description": "Ataca a todos los enemigos. TIene un 75% de probabilidad de aplicar un debufo de [Miedo de Verdad] y un 50% de [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Posesión Demoníaca",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Equilibra los HP de todos los aliados. Los niveles de HP de todos los aliados se igualarán al del aliado con más HPl Después de equilibrar los HP, obtén un turno adicional.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Legión de Perdición (Pasiva) ",
+      "description": "Sufre un 20% menos de daño de campeones de las facciones de Hidalgos, Altos Elfos y Orden Sagrada. \n\nSi hay al menos 2 Engendros junto a él en el grupo, todos los Engendros del grupo obtienen +20% de D.Crit. [El aumento de D.Crit solo se aplica mientras este campeón está vivo]",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/vasal-del-sello.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

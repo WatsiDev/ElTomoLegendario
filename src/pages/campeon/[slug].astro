@@ -1,22 +1,32 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import champions from "../../data/champions.json";
-
-// Importamos tus diccionarios de imágenes
-// Asegúrate de que las rutas coincidan con tu estructura de carpetas
-import setIconsData from "../../data/assets/sets.json";
+import { getRarityStyle } from "../../utils/rarity";
+import { getAffinityStyle } from "../../utils/affinity";
 import affinityIconsData from "../../data/assets/affinities.json";
-//import auraIcons from '../../data/assets/auras.json';
-import artworksDataSource from "../../data/assets/artworks.json";
 
-// Type assertions for JSON data to allow string indexing
-const setIcons = setIconsData as Record<string, string>;
+// 1. Cargar Sets dinámicamente
+const setFiles = import.meta.glob("../../data/sets/*.json", { eager: true });
+const setsData: Record<string, any> = {};
+
+Object.values(setFiles).forEach((file: any) => {
+  const data = file.default || file;
+  if (data.slug) {
+    setsData[data.slug] = data;
+  }
+});
+
 const affinityIcons = affinityIconsData as Record<string, string>;
-const artworksData = artworksDataSource as Record<string, string[]>;
 
 // 1. Generar rutas
 export async function getStaticPaths() {
-  return champions.map((champ) => ({
+  const championFiles = import.meta.glob("../../data/champions/*.json", {
+    eager: true,
+  });
+  const champions = Object.values(championFiles).map(
+    (file: any) => file.default || file,
+  );
+
+  return champions.map((champ: any) => ({
     params: { slug: champ.slug },
     props: { champ },
   }));
@@ -31,19 +41,29 @@ const { champ } = Astro.props;
 const affinityIcon = affinityIcons[champ.affinity] || null;
 
 // 2. Iconos de Sets Recomendados
-// Mapeamos el array de strings ["letal", "velocidad"] a objetos con ruta de imagen
-const recommendedSets = (champ.gear || []).map((setName: string) => {
-  // Normalizamos a minúsculas para buscar en el JSON
-  const key = setName.toLowerCase();
+// champ.gear ahora es un array de strings ["letal", "velocidad"] gracias a la migración
+// Ojo: Si alguno quedó como objeto {set_name: "x"}, lo manejamos por seguridad
+const recommendedSets = (champ.gear || []).map((item: any) => {
+  // Manejo híbrido por si acaso (string vs objeto antiguo)
+  const setSlug = (
+    typeof item === "string" ? item : item.set_name || ""
+  ).toLowerCase();
+
+  // Buscamos en el mapa de datos completo
+  const setData = setsData[setSlug] || null;
+
   return {
-    name: setName,
-    icon: setIcons[key] || null, // Si no hay icono, devuelve null
+    name: setData
+      ? setData.name
+      : setSlug.charAt(0).toUpperCase() + setSlug.slice(1),
+    icon: setData ? setData.image : null,
+    description: setData ? setData.description : "Sin descripción",
   };
 });
 
 // 3. Artworks adicionales
-// Buscamos en el JSON de artworks por el slug del campeón
-const extraArtworks = artworksData[champ.slug] || [];
+// Ahora vienen directamente del JSON del campeón
+const extraArtworks = champ.artworks || [];
 
 // 4. Icono de Aura (si tienes la key en el json del champ)
 // Asumimos que champ.aura_type o similar coincide con tu json de auras
@@ -51,9 +71,6 @@ const extraArtworks = artworksData[champ.slug] || [];
 //const auraIcon = champ.aura_key ? auraIcons[champ.aura_key] : null;
 
 // --- TU LÓGICA DE ESTILOS ORIGINAL ---
-
-import { getRarityStyle } from "../../utils/rarity";
-import { getAffinityStyle } from "../../utils/affinity";
 
 // ... existing code ...
 
@@ -68,30 +85,17 @@ const rarityTextClass = rarityStyle.text;
 <Layout title={`${champ.name} - El Tomo Legendario`}>
   <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 animate-fade-in">
-      <div class="md:col-span-1 flex justify-center md:justify-start">
-        <div class="relative group">
+      <div class="md:col-span-1 flex justify-center md:justify-end text-center">
+        <div class="relative group w-fit h-fit mx-auto md:mx-0">
           <img
-            src={champ.image}
+            src={`${champ.image}`}
             alt={champ.name}
-            class="w-full max-w-[280px] rounded-lg border-4 shadow-2xl transition-transform group-hover:scale-105 relative z-10"
-            style={`border-color: ${rarityColorVar}`}
+            class={`w-full max-w-[280px] rounded-lg border-4 transition-all duration-300 group-hover:scale-105 relative z-10 shadow-2xl ${rarityStyle.border} hover:${rarityStyle.glow}`}
           />
-
-          <div
-            class="absolute inset-0 rounded-lg pointer-events-none z-0"
-            style={`background: linear-gradient(180deg, ${rarityColorVar} 0%, rgba(10,14,20,0) 55%); opacity: 0.32;`}
-          >
-          </div>
-
-          <div
-            class="absolute left-1/2 -translate-x-1/2 -bottom-3 w-36 h-6 rounded-full pointer-events-none z-0"
-            style={`background: radial-gradient(ellipse at center, ${rarityColorVar} 0%, rgba(10,14,20,0) 60%); filter: blur(8px); opacity: 0.6;`}
-          >
-          </div>
         </div>
       </div>
 
-      <div class="md:col-span-2 flex flex-col justify-start">
+      <div class="md:col-span-2 flex flex-col justify-start pl-0 md:pl-8">
         <h1
           class="text-5xl font-black text-raid-gold mb-4 uppercase tracking-tight flex items-center gap-4"
         >
@@ -110,7 +114,7 @@ const rarityTextClass = rarityStyle.text;
             {
               affinityIcon && (
                 <img
-                  src={`/${affinityIcon}`}
+                  src={`${affinityIcon}`}
                   class="w-4 h-4"
                   alt={champ.affinity}
                 />
@@ -266,7 +270,7 @@ const rarityTextClass = rarityStyle.text;
         <div class="space-y-6">
           {
             champ.skills &&
-              champ.skills.map((skill, index) => (
+              champ.skills.map((skill: any, index: number) => (
                 <div class="bg-raid-card p-6 rounded-lg border border-gray-700 hover:border-raid-gold transition-colors group">
                   <div class="flex justify-between items-start mb-3">
                     <div>
@@ -302,10 +306,10 @@ const rarityTextClass = rarityStyle.text;
                         Mejoras de libro:
                       </p>
                       <ul class="text-sm text-gray-400 space-y-1 grid grid-cols-1 md:grid-cols-2">
-                        {skill.levels.map((level) => (
+                        {skill.levels.map((level: any) => (
                           <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-raid-gold" />
-                            {level}
+                            {level.level_desc || level}
                           </li>
                         ))}
                       </ul>
@@ -331,12 +335,12 @@ const rarityTextClass = rarityStyle.text;
           <div class="flex flex-wrap gap-6">
             {
               recommendedSets.length > 0 ? (
-                recommendedSets.map((set) => (
+                recommendedSets.map((set: any) => (
                   <div class="flex flex-col items-center gap-2">
                     <div class="w-16 h-16 bg-gray-900 rounded-lg p-2 border border-gray-600 flex items-center justify-center relative group cursor-help">
                       {set.icon ? (
                         <img
-                          src={`/${set.icon}`}
+                          src={`${set.icon}`}
                           alt={set.name}
                           class="w-full h-full object-contain drop-shadow-md"
                         />
@@ -346,7 +350,7 @@ const rarityTextClass = rarityStyle.text;
                         </span>
                       )}
                       <div class="absolute bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-                        Set {set.name}
+                        {set.description}
                       </div>
                     </div>
                     <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">
@@ -422,7 +426,7 @@ const rarityTextClass = rarityStyle.text;
             class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300 lg:col-span-1 lg:row-span-2 shadow-xl"
           >
             <img
-              src={champ.image}
+              src={`${champ.image}`}
               alt={champ.name}
               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
@@ -437,10 +441,10 @@ const rarityTextClass = rarityStyle.text;
 
           {
             extraArtworks.length > 0 ? (
-              extraArtworks.map((art, i) => (
+              extraArtworks.map((art: string, i: number) => (
                 <div class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 aspect-[3/4] cursor-pointer">
                   <img
-                    src={`/${art}`}
+                    src={`${art}`}
                     alt={`Arte ${i}`}
                     class="w-full h-full object-cover"
                     loading="lazy"
@@ -485,7 +489,7 @@ const rarityTextClass = rarityStyle.text;
         <div class="space-y-4">
           {
             champ.skills &&
-              champ.skills.map((skill, index) => (
+              champ.skills.map((skill: any, index: number) => (
                 <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
                   <div
                     class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${index === 0 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}

@@ -1,0 +1,170 @@
+{
+  "slug": "ashnar-almadragon",
+  "name": "Ashnar Almadragón",
+  "faction": "Orcos",
+  "rarity": "Mítico",
+  "role": "Quemador, activador de Quemar, debufer y nuker. Bastante versátil",
+  "type": "HP / Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "rocadragon_dorada",
+    "corona_de_ireth",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "colmillo_asesino"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "resiliencia",
+    "ferreo",
+    "percepcion",
+    "punteria",
+    "bestial",
+    "defensa"
+  ],
+  "uses": "En la forma base, Golem Dificil, arañas, hydra...cualquier oleada. En la forma alternativa, nuker. Principalmente para Hydra",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 35%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 23130,
+        "speed": 115,
+        "attack": 1013,
+        "defense": 1299,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Arco de Ignición (HP) ",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "0.09xHP",
+          "description": "Ataca a un enemigo 3 veces. \n\nCada ataque tiene un 50% de probabilidad de aumentar 1 turno la duración de todos los debufos del objetivo. \n\nSi la probabilidad inicial no se activa, cada ataque tiene un 100% de probabilidad de aumentar 1 turno la duración de un debufo de [Quemar HP] del objetivo."
+        },
+        {
+          "name": "Tormenta de Piroclastos (HP)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "multiplier": "0.26xHP",
+          "description": "Ataca a todos los enemigos. Activa inmediatamente todos los debufos de [Quemar HP] de todos los enemigos y aliados. Siempre que esta habilidad activa un debufo de [Quemar HP] de un enemigo, reduce en 10 su RES (se acumula hasta 100). Siempre que esta habilidad activa un debufo de [Quemar HP] de un aliado, aumenta en 10 su RES (se acumula hasta 100). \n\nTambién llena un 5% de Barra de turno de todos los aliados por cada debufo de [Quemar HP] que se activa en un enemigo."
+        },
+        {
+          "name": "Envuelto en llamas",
+          "levels": [],
+          "cooldown": 3,
+          "buffDebuff": [
+            "quemar-hp"
+          ],
+          "description": "Aplica un debufo de 25% de [Debilitar] y un debufo de [Quemar HP] a todos los enemigos durante 2 turnos. También aplica un debufo de [Quemar HP] a todos los aliados durante 2 turnos. Este debufo no se puede resistir ni bloquear."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Curado por el Fuego (Pasiva)",
+          "levels": [],
+          "description": "Cada debufo activo de [Quemar HP] aplicado por este campeón en su Forma Base le da +5% MAX HP y +5% de DEF (se acumula hasta el 25% en ambas formas y no se reinicia).\n\n Los debufos de [Quemar HP] aplicados a aliados curan en lugar de hacer daño.\n\n Los aliados hacen un 3% más de daño por cada debufo activo de [Quemar HP]. Si hay varios campeones en el grupo con esta habilidad, solo se activa una."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 19650,
+        "speed": 105,
+        "attack": 947,
+        "defense": 1597,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Estrella de Trueno (DEF)",
+          "levels": [
+            "Nivel 2: Probabilidad de bufo/debufo +15%",
+            "Nivel 3: Daño +20%"
+          ],
+          "buffDebuff": [
+            "red-def-2"
+          ],
+          "multiplier": "1.7xDEF",
+          "description": "Ataca a 1 enemigo 2 veces. Tiene un 25% de probabilidad de repetir cada ataque. Cada ataque también aplica un debufo de [Reducir DEF] durante 2 turnos.."
+        },
+        {
+          "name": "Géiser de Magma (DEF)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +20%"
+          ],
+          "cooldown": 3,
+          "multiplier": "4.9xDEF primer golpe, 2.95xDEF en área",
+          "description": "Ataca a 1 enemigo.\n\nAplica un efecto de [Contagiar Debufos] que contagia todos los debufos del objetivo a todos los enemigos.\n\n Luego repite el ataque contra todos los enemigos. Aumenta 1 turno la duración de todos los debufos de todos los enemigos.\n\n Ambos ataques ignoran el 20% de DEF de cada objetivo. "
+        },
+        {
+          "name": "Machacón Cataclismico (DEF)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +20%",
+            "Nivel 4: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aumentar-def-2",
+            "aumentar-d-crit-2",
+            "incitar"
+          ],
+          "multiplier": "3.35xDEF",
+          "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 60% de [Aumentar DEF] y un bufo de 30% de [Aumentar D.Crit] a todos los aliados durante 2 turnos. \n\nAplica un debufo de [Incitar] durante 1 turno. Si el objetivo de esta habilidad es un Jefe, el debufo de [Incitar] es de 2 turnos. Este ataque no puede sre débil contra objetivos que tiene un debufo de [Quemar HP]"
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "La Ultima Risa (Pasiva)",
+          "levels": [],
+          "description": "Cada debufo de [Quemar HP] aplicado por este campeón en su Forma Base le da +5% MAX HP y +5% de DEF (se acumula hasta el 25% en ambas formas y no se reinicia).\n\n Todas las habilidades de este campeón ignoran el 20% de DEF de los enemigos que tienen un debufo de [Quemar HP].\n\n Los debufos de [Quemar HP] aplicados a aliados curan en lugar de hacer daño."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/ashnar-almadragon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

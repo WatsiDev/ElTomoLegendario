@@ -1,0 +1,141 @@
+{
+  "slug": "varl-el-destructor",
+  "name": "Varl el Destructor",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Nuker con debufos y pasivas para potenciar su daño",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "cruel",
+    "despiadado",
+    "instinto",
+    "incansable",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Buen nuker para Hydra y facciones",
+  "stats": {
+    "hp": 15030,
+    "speed": 98,
+    "attack": 1476,
+    "defense": 1101,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Sangría Devastadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Cura a este Campeón en un 30% del daño infligido",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asolar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un 25 % de [Debilitar] durante 2 turnos. También aplicaun debufo del 50% [Reducir ATK] durante 2 turnos en aquellos enemigos que reciben un debufo [Debilitar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Torrente de Calamidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "multiplier": "5.6xATK",
+      "description": "Ataca a 1 enemigo. Ignorará el 30% de la DEF del objetivo. Reduce el MAX HP del objetivo en un 50% del daño infligido. Aplica un bufo de [Bloquear Daño] en este Campeón por 1 turno si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asesinato en Masa (Pasiva)",
+      "levels": [],
+      "description": "Aumenta el ATK de este Campeón en un 10% cada vez que usa una Habilidad Activa. Esto se acumula hasta el 100% y se reinicia cada ronda.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/varl-el-destructor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

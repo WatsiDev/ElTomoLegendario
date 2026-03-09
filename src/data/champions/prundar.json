@@ -1,0 +1,180 @@
+{
+  "slug": "prundar",
+  "name": "Prundar",
+  "faction": "Ogretes",
+  "rarity": "Épico",
+  "role": "Tanque de DEF con bastante control y algún bufo de apoyo",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "dedo_real",
+    "campana_fundida",
+    "corona_de_ireth",
+    "elixir_dorado",
+    "rocadragon_dorada",
+    "eternizalmas"
+  ],
+  "gear": [
+    "aturdir",
+    "resiliencia",
+    "ferreo",
+    "percepcion",
+    "punteria",
+    "incitar"
+  ],
+  "uses": "Facciones y control oleadas",
+  "stats": {
+    "hp": 18165,
+    "speed": 95,
+    "attack": 683,
+    "defense": 1409,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Degollador Ardiente (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "2.65xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo del 30% [Reducir VEL] durante 2 turnos. Tiene un 30% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno al contraatacar con esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rabieta descomunal (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "multiplier": "3xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo de [Provocar] durante 1 turno. Aplica un bufo del 60% [Aumentar DEF] en este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza de gigante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo del 25% [Fortalecer] y uno del 15% [Curación continua] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maestro de provocar (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de Bufo / Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Recibe un 20% menos de daño de los enemigos bajo debufos de [Provocar]. Tiene un 25% de probabilidad de contraatacar siempre que un enemigo bajo un debufo de [Provocar] ataque a este campeón o a un aliado.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en la Torre del Destino en un 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/prundar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

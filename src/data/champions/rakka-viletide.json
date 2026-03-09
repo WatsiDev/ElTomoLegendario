@@ -1,0 +1,142 @@
+{
+  "slug": "rakka-viletide",
+  "name": "Rakka Viletide",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo poderoso con revivir y limpieza",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "el_triturador",
+    "elixir_dorado",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "servidumbre_de_xibia",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "resiliencia",
+    "inmortal",
+    "proteccion",
+    "renacer"
+  ],
+  "uses": "Bastante todoterreno en general, buen papel en hydra",
+  "stats": {
+    "hp": 19650,
+    "speed": 109,
+    "attack": 1134,
+    "defense": 1134,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Icor de Vida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Cura al aliado con el HP más bajo en un 10% del HP MÁXIMO de este campeón. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición Rezumante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Elimina todas las debufos de todos los aliados, luego aplica un bufo del 50 % [Aumentar ATK] y un bufo de [Escudo] equivalente al 25 % del HP MÁXIMO de este Campeón en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Plasmar Renacimiento",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con un 50 % de HP y un 50 % de barra de turnos, luego aplica un bufo de [Bloquear Debufos] a todos los aliados durante 2 turnos. Aplicará el bufo de [Bloquear Debufos] incluso si no hay aliados muertos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Icor de Vida (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "[Efecto activo] Al comienzo de cada turno, llena las barras de turno de todos los aliados en un 10 %. \n\n[Efecto pasivo] Al comienzo de cada turno, aplica un bufo de 15% [Curación continua] en el aliado con el HP más bajo durante 2 turnos. No aplicará la [Curación continua] en este campeón",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP aliado en criptas de facción en un 44%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/rakka-viletide.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

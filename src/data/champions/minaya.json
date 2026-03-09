@@ -1,0 +1,159 @@
+{
+  "slug": "minaya",
+  "name": "Minaya",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Gran campeón de apoyo con potentes curas y debufos",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=uGcaS0Rhsdc",
+  "blessings": [
+    "guarda-de-los-caidos",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "dedo_real",
+    "elixir_dorado",
+    "empunadura_sacra",
+    "tiara_de_andromeda"
+  ],
+  "gear": [
+    "proteccion",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Bastante buena en general pero poco especializada. En Ciudad Maldita contra Amius va bien cuando está su rotación por sus bufos y debufos",
+  "stats": {
+    "hp": 21645,
+    "speed": 111,
+    "attack": 1002,
+    "defense": 1134,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Guía elegante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. aplica un bufo de 15% [Curación Continua] en el aliado con el HP más bajo durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Formas de reparación (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. Cura a este campeón y al aliado con el HP más bajo en el 30% de MAX HP de este campeón. Tiene un 75% de posibilidades de aplicar un debufo del 100% [Curación Reducida] y un debufo de [Chupar Sangre] a todos los enemigos durante 2 turnos. Estos debufos no se pueden resisitir si Khoronar está en el mismo grupo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Encanto de Belleza",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Cura a todos los aliados en un 40% de su MAX HP. Aplica un bufo de [Bloquear Debufos] durante 2 turnos. Si esta Habilidad cura completamente a un campeón, también le aplica un bufo de [Escudo] durante 2 turnos, del 25% del HP del Campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sacrificio del amante (Pasiva) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Cuando este campeón muere, llena un 20% las barras de Turno de todos los aliados y luego los cura un 20% de MAX HP de este campeón. Revive a este campeón con 75% de HP al morir si Khoronar está en el mismo equipo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en un 19%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/minaya.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

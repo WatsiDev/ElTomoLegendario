@@ -1,0 +1,125 @@
+{
+  "slug": "elder-skarg",
+  "name": "Elder Skarg",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Nuker / Debufer de usos limitados y algo desactualizado",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "campana_fundida",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Arañas en early, pero no es meta",
+  "stats": {
+    "hp": 16185,
+    "speed": 105,
+    "attack": 1630,
+    "defense": 870,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Marea de acero (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño + 15%"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo del 30% [Aumentar VEL] en este Campeón durante 2 turnos si este ataque es crítico. Aplica un 30% de bufo [Aumentar C.RATE] en este Campeón si este ataque no es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caza al marcado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Hace un golpe adicional por cada bufo o debufo en el objetivo. Puede aplicar hasta 3 golpes extra. Aplica un debufo de [Quemar HP] durante 2 turnos y una debufo de [Miedo de Verdad] durante 1 turno si este ataque aplica los 3 golpes adicionales. Roba todos los bufos del objetivo después del ataque.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Clarión del anciano (ATK)",
+      "levels": [],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "miedo"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Aplica un bufo del 60% [Aumentar DEF] en este Campeón durante 3 turnos. Aplica un debufo de [Miedo] a todos los enemigos durante 1 turno. Aplica una debufo de [Miedo de Verdad] durante 1 turno en los objetivos bajo los buffos de [Bloquear Daño]. Aplica un debufo del 30% [Reducir VEL] durante 2 turnos en los objetivos bajo los buffs de [Escudo]. Estas debufos no se pueden resistir. También aplica un debufo de [Provocar] en campeones legendarios durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Matareyes (Pasiva)",
+      "levels": [],
+      "description": "Recibe un 15% menos de daño de campeones legendarios. Inflige daño igual al ATK de este campeón cuando es atacado por campeones legendarios.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de aliados en la Arena en un 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/elder-skarg.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

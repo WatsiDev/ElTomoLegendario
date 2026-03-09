@@ -1,0 +1,139 @@
+{
+  "slug": "lugan-el-inalterable",
+  "name": "Lugan el Inalterable",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Extraño healer-nuker con control y bufos defensivos",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "guarda-de-los-caidos"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "elixir_dorado",
+    "abanico_negro",
+    "diadema_no_muerta"
+  ],
+  "gear": [
+    "inmortal",
+    "sanacion",
+    "vida",
+    "percepcion",
+    "punteria",
+    "prob-critico",
+    "p-crit-divino",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Arenas? Realmente no se usa mucho ni es meta en ningún sitio. Quizá Escarabajo de la Torre",
+  "stats": {
+    "hp": 22140,
+    "speed": 103,
+    "attack": 1013,
+    "defense": 1090,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Golpe Aplastante (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca a 1 enemigo. Cura a todos los aliados en un 25% del daño infligido. Aplica un bufo de [Escudo] en este Campeón durante 2 turnos igual al 10% de su HP MÁXIMO.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardaespaldas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Aplica un bufo de 60% [Aumentar DEF] en este Campeón durante 3 turnos. También aplica un bufo de 50% [Protección de aliado] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marca de silencio (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Daño +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 80% de posibilidades de aplicar un debufo [Bloquear habilidades activas] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP aliado en criptas de facción en un 38%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lugan-el-inalterable.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

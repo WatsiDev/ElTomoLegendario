@@ -1,0 +1,142 @@
+{
+  "slug": "ursala-la-doliente",
+  "name": "Ursala La Doliente",
+  "faction": "Hidalgos",
+  "rarity": "Épico",
+  "role": "Revividor de facción muy útil en Guerra de Facciones con algún debufo útil en otro contenido",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "defensa-impecable"
+  ],
+  "relics": [
+    "efigie_demoniaca",
+    "plumaje_dorado",
+    "diario_de_necrotos",
+    "crisalida_de_renacer",
+    "dedo_real",
+    "politopo_infernal",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "renacer",
+    "velocidad",
+    "resiliencia"
+  ],
+  "uses": "Bastante completa para todo en early-mid. Facciones principalmente en late.",
+  "stats": {
+    "hp": 18000,
+    "speed": 102,
+    "attack": 1167,
+    "defense": 936,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lanza de penitencia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "3.4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de reducir la barra de turno del objetivo en un 10%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Olas de Dolor (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 8: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 9: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos. También aplica un bufo del 50% [Aumentar ATK] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Requiem",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "multiplier": "1.4xATK",
+      "description": "Revive a todos los aliados muertos con un 75% de HP, luego llena sus Medidores de turno en un 50%. También aplica un bufo del 60% [Aumentar DEF] y un bufo del 25% [Fortalecer] a todos los aliados durante 3 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en las batallas de la Torre del Destino en un 24%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ursala-la-doliente.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

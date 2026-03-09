@@ -1,0 +1,126 @@
+{
+  "slug": "comehombres",
+  "name": "Comehombres",
+  "faction": "Ogretes",
+  "rarity": "Épico",
+  "role": "Apoyo capaz de aplicar inmortal a los aliados",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "orquidea_mortilunar",
+    "agarre_de_valkanen",
+    "lente_intangible"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "toxico"
+  ],
+  "uses": "Principalmente para setups inmortales en Señor Demoníaco y facciones normal",
+  "stats": {
+    "hp": 20310,
+    "speed": 98,
+    "attack": 837,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Aporrear (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo del 50% [Reducir ATK] en todos los enemigos si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sifón (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "8.2xATK",
+      "description": "Ataca a 1 enemigo. Agota completamente el barra de turno del objetivo. Llena el la barra de turno de este campeón igual a la cantidad que pierde el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre ancestral ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Este campeón recibe daño, luego aplica un bufo [Inmortal] y un bufo [Bloquear Debufos] a todos los aliados durante 2 turnos. El daño recibido es igual al 5% MAX HP por cada aliado vivo.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta la vida de los aliados en las mazmorras en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/comehombres.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

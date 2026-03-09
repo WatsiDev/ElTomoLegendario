@@ -1,0 +1,127 @@
+{
+  "slug": "krokmar-el-devorador",
+  "name": "Krokmar el Devorador",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Nuker de HP viable en mid-game y facciones",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "segar-almas"
+  ],
+  "relics": [
+    "garra_malefica",
+    "invocatormentas",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "inmortal",
+    "instinto"
+  ],
+  "uses": "No muy usado, no hace nada especial.",
+  "stats": {
+    "hp": 22140,
+    "speed": 102,
+    "attack": 991,
+    "defense": 1112,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Rompecarne (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "0.18xHP",
+      "description": "Ataca a 1 enemigo. Ataca a todos los enemigos 1 vez si el primer ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pantano Rechinante (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.3xHP",
+      "description": "Ataca a todos los enemigos. Aplica un bufo de [Escudo] en este Campeón durante 2 turnos, equivalente al 20% del daño infligido. También cura a este Campeón en un 10% de su HP MÁXIMO por cada golpe crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Depredador Alfa",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Aumentar P.Crit] y un bufo del 30% [Aumentar D.Crit] en todos los aliados durante 3 turnos, luego otorga un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hambre Voraz (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que este Campeón ataca, disminuye el ATK o DEF del objetivo en un 5%, así como la PUNT o RES en un 5%, dependiendo de qué estadística sea la más alta (se acumula hasta un 30%).",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "No todos los Hombres Lagarto de los Lagos de los Dolores ven su herencia con cariño u orgullo. Los siglos transcurridos desde la derrota del Pacto Gaellen por la Liga Teleriana han visto a muchos clanes de Hombres Lagarto hundirse cada vez más en la indigencia y las disputas internas, acosados ​​por la pobreza y una sensación de desesperanza. No es raro que se culpe al Pacto por el malestar actual que aflige a muchos de los clanes, ya sea porque no logró derrotar a la Liga o porque incluso intentó luchar en primer lugar. De manera similar, muchos clanes de los Lagos de los Dolores desprecian y desdeñan el legado aún más antiguo del Imperio de los Dragones. Aunque todavía se sabe poco sobre el Imperio, a menudo se lo describe como si hubiera caído debido a su propia arrogancia y su estupidez miope. Los pecados de los Dragones aún nacen y pagan por ellos sus descendientes, así se afirma, y ​​por eso muchos desprecian la memoria del Imperio.\n\n El odio hacia sí mismos y la amargura que sienten muchos Hombres Lagarto en los Lagos de la Pena están provocando un lento deterioro de las estructuras de clan que han sido la base de la sociedad de los Hombres Lagarto durante docenas de generaciones, pero algunos han comenzado a aprovecharlas como un poder por derecho propio. El guerrero conocido como Krok'mar el Devorador es uno de esos individuos.\n\n Krok'mar es un descendiente del general del Pacto Gaellen Kron'mor el Grande y es físicamente fuerte y poderoso, un excelente ejemplo de su especie. Su cuello y hombros gruesos, su estómago ancho y su piel nudosa y escamosa se acentúan aún más por la antigua armadura de su antepasado, pesadas piezas de hierro fundido grueso y una cresta de espinas de metal perversas que corren a lo largo de su espalda desde su placa de cabeza. En sus pesados ​​puños lleva a Meatsplitter, una enorme cuña de acero dentado que, cuando se maneja con la fuerza de Krok'mar, puede atravesar la armadura, el cuerpo y el caballo de un caballero Kaerok con un gran golpe. Es aún más letal por las Garras de Kron'mor, un par de garras de metal que una vez nacieron de su antepasado y que usa sobre su mano izquierda. Las habilidades físicas de Krok'mar son obvias, pero a ellas les suma un carisma del que a menudo carecen los guerreros de sangre fría de los Hombres Lagarto. Es rudo y franco, y honesto y justo en su trato con los demás. Su ira es aterradora de contemplar, pero no se aviva fácilmente. Si bien sus cicatrices y las placas de metal que sujetan sus escamas cortadas hablan de un bruto y un guerrero de toda la vida, Krok'mar no tiene miedo de negociar y sabe que ser un líder implica mucho más que la mera fuerza y ​​la destreza en la batalla.\n\n Todo esto implicaría que Krok'mar tiene el potencial de unir a los clanes de los Hombres Lagarto, invocar el legado de su poderoso antepasado y recrear las breves glorias del Pacto Gaellen. Cualquiera que haga tal suposición está cometiendo un grave error.\n\n Krok'mar desprecia su legado. Odia el Pacto Gaellen, pues cree que condenó a su pueblo y lo dejó en su actual estado deplorable. Pero Krok'mar no se conforma con hundirse en la desesperación. A diferencia de muchos otros líderes de clanes y Hombres Lagarto prominentes, no permitirá que las rivalidades mezquinas o la inevitable maldición de su ascendencia lo definan. Busca unir a los clanes y liberarlos de las ataduras del pasado.\n\n En esta búsqueda, es inflexible. Se ha convertido en el enemigo jurado de aquellos Hombres Lagarto que aún se adhieren a la creencia en las viejas costumbres, que aún recuerdan el Pacto o los Dragones como legados a los que aspirar. Esto es especialmente cierto en el caso de la reciente afluencia de refugiados Hombres Lagarto que huyen de Anhelt debido a la Guerra del Rey Tayba, muchos de los cuales a menudo se aferran a la esperanza de que todavía existe una posibilidad de renovar el Imperio caído. Krok'mar considera a estos Hombres Lagarto enemigos de los Lagos del Dolor, cuya estupidez condenará a los clanes a más guerras y, por lo tanto, a más derrotas. Incita a otros Hombres Lagarto contra ellos y a aquellos que captura y se niegan a retractarse, los ejecuta antes de comerse sus restos, para horror de sus enemigos.\n\n Para Krok'mar y su creciente grupo de seguidores, esta devoración tiene un significado importante. Gracias a ella, se alivia el peso del pasado y se deshacen el fracaso del Pacto y los pecados del Imperio Dragonkin. Devorar es destruir por completo, y Krok'mar pretende destruir no solo los cuerpos físicos de sus enemigos, sino también sus ideas y creencias. Una vez que haya hecho esto por completo, y no quede nadie que vea el pasado como algo que recrear, cree que los Sorrowlakes finalmente podrán avanzar y construir algo nuevo, algo positivo que anunciará un nuevo comienzo para su pueblo.",
+  "forms": null,
+  "image": "/src/assets/champions/krokmar-el-devorador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

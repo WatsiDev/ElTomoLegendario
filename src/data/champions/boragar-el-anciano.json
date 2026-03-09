@@ -1,0 +1,136 @@
+{
+  "slug": "boragar-el-anciano",
+  "name": "Boragar el Anciano",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo que gira en torno a la RES",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "infernosfera"
+  ],
+  "gear": [
+    "resistencia",
+    "fortaleza",
+    "justiciero",
+    "redirigir",
+    "resiliencia"
+  ],
+  "uses": "Pocos o ninguno, salvo facciones.",
+  "stats": {
+    "hp": 21135,
+    "speed": 97,
+    "attack": 925,
+    "defense": 1244,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Bastón Antiguo (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de debufo/desventaja +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de debufo/desventaja +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "multiplier": "0.3xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de aplica un bufo de [Aumentar DEF] del 60% durante 1 turno en el aliado con el HP más bajo. No se colocará en este Campeón. En cambio, tiene un 100% de probabilidad si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alma de Piedra Vieja",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +10 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Elimina 1 debufo aleatorio de todos los aliados, luego aplica un [Escudo] en todos los aliados durante 2 turnos equivalente al 20% del HP MÁXIMO de este Campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Runa de Energia",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-res-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Aumentar RES] y un bufo de 30% [Aumentar VEL] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Blasón de Boragar (Pasiva)",
+      "levels": [],
+      "description": "Los aliados reciben un 10 % menos de daño de los campeones cuya RES es inferior o igual al suyo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESISTENCIA de los aliados en todas las batallas en 50"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/boragar-el-anciano.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

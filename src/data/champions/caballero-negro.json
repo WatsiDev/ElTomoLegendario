@@ -1,0 +1,129 @@
+{
+  "slug": "caballero-negro",
+  "name": "Caballero Negro",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Buen incitador y bufer a aliados",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=V0p962KRK-0",
+  "blessings": [
+    "fuego-y-azufre",
+    "rompe-cadenas"
+  ],
+  "relics": [
+    "mascara_de_ira",
+    "corona_de_ireth",
+    "campana_fundida",
+    "dedo_real"
+  ],
+  "gear": [
+    "percepcion",
+    "inmortal",
+    "resiliencia",
+    "punteria"
+  ],
+  "uses": "Decente en facciones como control y healer/tanque",
+  "stats": {
+    "hp": 22470,
+    "speed": 100,
+    "attack": 914,
+    "defense": 1167,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Golpe pesado (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "0.28xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 75 % de probabilidad de aplicar un debufo de [Incitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bajar Visera",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Curación Continua] del 15 % y un bufo de [Aumentar DEF] del 60 % en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Último Aliento (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos. El daño aumenta según la cantidad de HP que haya perdido este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Valeroso (Pasiva) ",
+      "levels": [],
+      "cooldown": 2,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Aplica un bufo de [Inmortal] en este Campeón durante 1 turno si el daño recibido supera el 15% de HP MÁX en un ataque.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "El Caballero Negro es una figura legendaria en Kaerok, con un legado que se extiende a lo largo de generaciones. Algunos creen que el Caballero es más un título que se transmite de un individuo a otro en lugar de una sola persona. Otros especulan que el Caballero Negro es algo más que un ser humano, tal vez con una vida anormalmente larga. Oculto tras una armadura y un gran yelmo, la verdadera identidad del Caballero sigue siendo desconocida. Libre de cualquier lealtad, ni siquiera a la Diosa, el Caballero Negro es visto como un vagabundo inquieto, condenado a vagar por Teleria sin paz. \n\n Famoso en todo el país, el Caballero Negro es celebrado como un protector implacable, conocido por enfrentarse a los horrores sobrenaturales que plagan Teleria. Desde mutantes y no muertos hasta los temibles Caballeros Revenant, el Caballero Negro lucha sin miedo contra las fuerzas de la oscuridad. Cuando ningún otro guerrero puede enfrentarse a las crecientes amenazas, el Caballero Negro emerge, protegiendo a los débiles y purgando la tierra del mal. Mientras los nobles Señores del Estandarte están ocupados con la política y las guerras, el Caballero Negro continúa su vigilia solitaria, luchando contra la corrupción y el peligro dondequiera que acechen. \n\n Las especulaciones sobre los orígenes del Caballero Negro están muy extendidas. Algunos creen que el Caballero es un Portador de Luz, uno de los Primogénitos de la creación que aún vaga por el mundo. Otros sostienen que el Caballero Negro es un personaje secreto que desempeñan los Señores de Kaerok según sus necesidades, seleccionando a sus mejores luchadores para asumir el manto. Sin embargo, a muchos les resulta difícil creer que cualquier Señor renuncie a su guerrero más fuerte por un héroe que permanece anónimo, desprecia las riquezas y rechaza la fama. Estas preguntas solo se suman al misterio que rodea la verdadera naturaleza del Caballero Negro. \n\n Una teoría sugiere que el poder del Caballero proviene de su armadura. Quienes apoyan esta idea creen que la armadura en sí misma otorga al portador una inmensa fuerza y ​​habilidad en el combate, pero a costa de su libre albedrío. El portador se convierte en un recipiente, controlado por la voluntad de la armadura, lo que permite al Caballero Negro persistir más allá de la muerte. Algunos especulan que los Señores ofrecen a un campesino para que use la armadura como sacrificio, asegurando que el legado del Caballero continúe. Otros afirman que el Caballero Negro opera de forma independiente, guiado por fuerzas desconocidas incluso para los Señores de Kaerok. \n\n A pesar del misterio, incluso los críticos más cínicos del Caballero Negro reconocen su valor. Algunos sostienen que el Caballero es una mera fantasía, un símbolo de lo que los nobles caballeros dicen ser pero no logran encarnar. Sin embargo, cuando se enfrentan a los monstruosos horrores del abismo, incluso estos escépticos aceptarían con gusto la ayuda del Caballero Negro. Independientemente de su origen, la presencia del Caballero Negro en Kaerok sirve como un faro de esperanza en un mundo ensombrecido por la oscuridad.",
+  "forms": null,
+  "image": "/src/assets/champions/caballero-negro.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

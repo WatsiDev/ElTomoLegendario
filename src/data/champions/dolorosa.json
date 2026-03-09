@@ -1,0 +1,109 @@
+{
+  "slug": "dolorosa",
+  "name": "Dolorosa",
+  "faction": "Engendros",
+  "rarity": "Épico",
+  "role": "Nuker de 1 solo objetivo. Demasiado limitada y no aporta gran cosa para ningún contenido, así que no se usa",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "despiadado",
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Ninguno, muy mala",
+  "stats": {
+    "hp": 12720,
+    "speed": 96,
+    "attack": 1597,
+    "defense": 859,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Obturador (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. El daño aumenta en un 20 % al atacar bajo un bufo de [Velo]. Cura a este campeón en un 25% del daño infligido si ataca sin un bufo de velo [Velo].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompe Cuellos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. 35% más de daño al atacar con un bufo de [Velo]. Los aliados que mate no podrán ser revividor si ataca con un bufo de [Velo].\n\n Si ataca sin un bufo de [Velo] vacía completamente la barra de turno del objetivo y llena la barra de turno de este campeón en la medida que se ha reducido la del objetivo. Solo puede reducir la barra de turno hasta el 50% contra jefes. Esta reducción de la barra de turno no se puede resistir..",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Depredador Oculto (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "velo"
+        }
+      ],
+      "description": "Aplica un bufo de [Velo] en este campeón durante 1 turno al comienzo de cada ronda. Aplica un bufo de [Velo] en este campeón durante 1 turno cada vez que mata a un enemigo.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/dolorosa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

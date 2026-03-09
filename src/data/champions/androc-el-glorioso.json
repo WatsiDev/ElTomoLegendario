@@ -1,0 +1,176 @@
+{
+  "slug": "androc-el-glorioso",
+  "name": "Androc el Glorioso",
+  "faction": "Hidalgos",
+  "rarity": "Mítico",
+  "role": "Bufer y Debufer de apoyo poderoso para PvE",
+  "type": "Defensa / Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "defensa-impecable"
+  ],
+  "relics": [
+    "aspecto_de_siroth",
+    "rocadragon_dorada",
+    "corazon_volcardiaco",
+    "infernosfera",
+    "elixir_dorado"
+  ],
+  "gear": [
+    "proteccion"
+  ],
+  "uses": "Bastantes, gran tanque: Golem, Hydra, Quimera, etc...",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en un 35%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 20640,
+        "speed": 110,
+        "attack": 859,
+        "defense": 1619,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Mordida del Orgullo (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "buffDebuff": [
+            "aumentar-def-2"
+          ],
+          "multiplier": "3xDEF",
+          "description": "Ataca a 1 enemigo. Aplica un bufo del 60 % [Aumentar de DEF] a todos los aliados durante 1 turno."
+        },
+        {
+          "name": "Garra Radiante (DEF)",
+          "levels": [
+            "Nivel 2: Curación +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-debufos"
+          ],
+          "multiplier": "3.5xDEF",
+          "description": "Ataca a todos los enemigos. Aumenta la duración de todos los bufos de los aliados en 1 turno. También cura a todos los aliados en un 4% de su HP MÁXIMO por cada bufo cuya duración haya aumentado."
+        },
+        {
+          "name": "Roca de Werinbur",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "aumentar-res-2",
+            "fortalecer-2",
+            "curacion-continua-2"
+          ],
+          "description": "Aplica un bufo del 50% [Aumentar RES] , un bufo del 25% [Fortalecer] y un bufo del 15% [Curación continua] a todos los aliados durante 2 turnos.\n\n Aplica un bufo adicional del 15 % de [Curación continua] a todos los aliados con menos del 50 % de HP durante 2 turnos.\n\n También llena las barras de turno de todos los aliados en un 15%."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Caballeros de lo Salvaje (Pasiva)",
+          "levels": [],
+          "description": "Aumenta la RES de todos los aliados en 10 por cada bufo en todos los aliados. Cada golpe crítico infligido por los aliados llena las barras de turno de todos los aliados en un 5%.\n\n Si hay varios campeones en el equipo con esta habilidad, solo se activa una."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 23955,
+        "speed": 115,
+        "attack": 859,
+        "defense": 1398,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Asalto de Gildthorn (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "buffDebuff": [
+            "red-def-2"
+          ],
+          "multiplier": "3.3xDEF",
+          "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un debufo del 60 % de [Reducir DEF] a todos los enemigos durante 1 turno."
+        },
+        {
+          "name": "Rompe Empalizadas (DEF)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "red-res-2",
+            "debilitar-2",
+            "desfallecer"
+          ],
+          "multiplier": "3.3xDEF",
+          "description": "Ataca a todos los enemigos. Aplica un debufo del 50% [Reducir RES], un debufo del 25% [Debilitar] y un debufo de [Desfallecer] a todos los enemigos durante 2 turnos. Si los enemigos tienen 50% de HP o menos, el debufo de [Desfallecer] no se puede eliminar.\n\n También reduce las barras de turno de todos los enemigos en un 15%."
+        },
+        {
+          "name": "Rugido de Kitherus",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-bufos"
+          ],
+          "multiplier": " 0.0x*MAX HP x debufos",
+          "description": "Elimina todos los bufos de todos los enemigos. Luego ataca a todos los enemigos. Si el objetivo es un jefe, el daño inflingido es igual al 10% de su MAX HP.\n\n También aplica un bufo de [Bloquear Bufos] durante 2 turnos a todos los enemigos que no tienen ningún bufo."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Corazón de León (Pasiva)",
+          "levels": [],
+          "description": "Aumenta la PUNT de todos los aliados en 10 por cada bufo en cada enemigo. Cada golpe crítico infligido por los aliados reduce las barras de turno de todos los enemigos en un 5%.\n\n Si hay varios campeones en el equipo con esta habilidad, solo se activa una."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/androc-el-glorioso.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

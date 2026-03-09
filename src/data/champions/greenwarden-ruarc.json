@@ -1,0 +1,142 @@
+{
+  "slug": "greenwarden-ruarc",
+  "name": "Greenwarden Ruarc",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Tanque que refleja debufos, útil para dragón y PvE",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=gcdN07LeTx4",
+  "blessings": [
+    "defensa-impecable",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "corazon_volcardiaco",
+    "eternizalmas",
+    "plumaje_dorado",
+    "rocadragon_dorada",
+    "dedo_real"
+  ],
+  "gear": [
+    "proteccion",
+    "inmortal",
+    "resiliencia",
+    "percepcion",
+    "defensa",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Capaz de Solear Dragon. Decente en facciones y Golem.",
+  "stats": {
+    "hp": 19650,
+    "speed": 102,
+    "attack": 771,
+    "defense": 1498,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Espada de los Claros (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "2.5xDEF",
+      "description": "Ataca a 1 enemigo. Transfiere todos los debuffos de este Campeón al objetivo. Cura a este Campeón en un 5% de su MAX HP por cada debufo traspasado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "El oxido te consumirá",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 80 % de probabilidad de aplicar una debufo del 50 % [Reducir ATK] durante 2 turnos. También roba todos los bufos de [Curación continua] de cada enemigo. Este efecto no se puede resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llamada de lo salvaje",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Burlón], un bufo de 60% [Aumentar DEF] y un bufo de 25% [Fortalecer] en este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caballero de Vides (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Cada vez que un aliado pierde el 10% o más de su MAX HP de un solo golpe, aplica un bufo de [Escudo] en ese aliado durante 2 turnos equivalente al 10% de su MAX HP.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en 30% en todas las batallas."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/greenwarden-ruarc.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

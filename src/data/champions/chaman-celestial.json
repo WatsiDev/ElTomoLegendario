@@ -1,0 +1,121 @@
+{
+  "slug": "chaman-celestial",
+  "name": "Chamán Celestial",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Curador y pseudo-revividor útil en alguna setup de Necrópolis",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "rompe-cadenas"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 18330,
+    "speed": 102,
+    "attack": 958,
+    "defense": 1123,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cuchillos Talon (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "multiplier": "2.2xATK",
+      "description": "Ataca a todos los enemigos. Cura un 15% del daño infligido si este campeón tiene menos del 50% de HP. En su lugar, aumenta el barra de turno de este campeón en un 20% si este campeón tiene un 50% de HP o más.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cielos inmortales ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados, luego aplica un bufo de [Revivir al morir] y un bufo de [Bloquear debufos] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ritual de Sangre (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "description": "Daña a este Campeón en un 10% de su MAX HP al comienzo de cada turno. Cura a todos los aliados excepto a este Campeón igual a la mitad del HP perdido. Aplica un debufo del 30% [Reducir VEL] en este Campeón durante 1 turno al comienzo de cada turno. También tiene un 50% de probabilidad de aplicar un debufo de [Miedo] en este Campeón durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de los aliados en todas las batallas en un 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/chaman-celestial.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

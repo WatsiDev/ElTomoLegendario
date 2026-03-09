@@ -1,0 +1,95 @@
+{
+  "slug": "avivafuria",
+  "name": "Avivafuria",
+  "faction": "Ogretes",
+  "rarity": "Raro",
+  "role": "Healer malillo",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [
+    {
+      "set_name": ""
+    }
+  ],
+  "uses": "Facciones en early para las 3 estrellas, poco más.",
+  "stats": {
+    "hp": 14865,
+    "speed": 100,
+    "attack": 1024,
+    "defense": 1013,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Aplastar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "3.3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de probabilidad de atacar una vez más.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Remediar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +5%"
+        }
+      ],
+      "cooldown": 3,
+      "description": "Elimina todos los debufos de un aliado objetivo. Cura un 20% al objetivo. Esta curación aumenta según el número de debufos eliminados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Morador del Bosque",
+      "levels": [],
+      "description": "Cada turno cura el 7.5% al aliado con menos HP. Esta curación puede ser crítica. No puede curar a este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/avivafuria.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

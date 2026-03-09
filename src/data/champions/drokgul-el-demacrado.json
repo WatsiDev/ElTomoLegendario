@@ -1,0 +1,128 @@
+{
+  "slug": "drokgul-el-demacrado",
+  "name": "Drokgul el Demacrado",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo capaz de aplicar muchos bufos a los aliados",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": null,
+  "gear": [
+    "inmortal",
+    "resistencia",
+    "proteccion",
+    "redirigir"
+  ],
+  "uses": "Facciones y early mid. No es demasiado bueno",
+  "stats": {
+    "hp": 22965,
+    "speed": 107,
+    "attack": 991,
+    "defense": 1057,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Roca Rompehuesos (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Posibilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 20% de probabilidad de aplicar un debufo [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Terreno éldrico",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "description": "Aplica un bufo del 50% [Aumentar ATK] y un bufo del 60% [Aumentar DEF] en todos los aliados durante 2 turnos. También aplica un bufo de [Bloquear Daño] durante 1 turno en aliados con menos del 30% de HP.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición rúnica",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "[Efecto activo] Aplica un bufo de [Escudo] equivalente al 15% del MAX HP de este Campeón en todos los aliados durante 3 turnos. \n\n[Efecto pasivo] Cura a cada aliado en un 15% del MAX HP de este campeón cada vez que un bufo de [Escudo] aplicado por esta habilidad expira, es eliminado o destruido por un ataque enemigo. Los aliados cuyos bufos de [Escudo] estén rotos también contraatacarán al enemigo que rompa el [Escudo]. Cuando se rompe un [Escudo], la curación ocurre instantáneamente antes de que se reciba cualquier daño restante del ataque Rompiendo Escudo.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumentael HP de aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/drokgul-el-demacrado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

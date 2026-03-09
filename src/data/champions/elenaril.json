@@ -1,0 +1,119 @@
+{
+  "slug": "elenaril",
+  "name": "Elenaril",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Debufer con Quemar y venenos, útil en algunas mazmorras",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "regeneracion",
+    "percepcion",
+    "punteria",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Nicho. Puede servir en Arañas con algún contagiador, en setups de explotar venenos y decente contra jefes.",
+  "stats": {
+    "hp": 14535,
+    "speed": 96,
+    "attack": 1387,
+    "defense": 1222,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Reprimenda Abrasadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Quemar HP] durante 2 turnos. Este debufo no puede ser resistido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arder (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "4.7xATK",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de 5% [Veneno] durante 2 turnos. Aplica un segundo debufo de 5% [Veneno] durante 2 turnos si el ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Combustion",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Hace instantáneamente el daño de todos los debufos de [Veneno] que tengan todos los enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de todos los aliados en un 24% en Criptas de Facción."
+    }
+  ],
+  "lore": "Los Altos Elfos se enorgullecen de su sistema judicial avanzado e intrincado, sus principios, en papel, exhortan al Rey o la Reina a garantizar una justicia justa e imparcial para todos sus súbditos. Por supuesto, la realidad es mucho más difícil que eso. Los nobles y otros en el poder a menudo operan en su propio conjunto de leyes, evadiendo el castigo donde alguien más humilde pagaría el precio total de su transgresión. Aún así, los nobles no son completamente inmunes. Pocas vistas causan tanta preocupación y miedo en la corte de la Reina Eva como lo hace el juez real Elenaril. Ella misma, es llamada para resolver disputas entre sus compañeros o juzgarlos por sus crímenes. La intriga y los asesinatos son un delito particularmente común, y, por lo tanto, la propia Elenaril ha sido objetivo de los posibles asesinos tontos más de una vez. Ella es tan hábil con el arco como lo es con los modales cortesanos y su conocimiento de la Ley de Aravia. Más de una vez, un atentado contra su vida llevó a Elenaril a actuar como juez y verdugo, a veces con una flecha al corazón, y a veces por medios más sutiles. No es casualidad que conozca bien los venenos más potentes conocidos por los alquimistas élficos y que siempre lleve consigo una gran cantidad de tales.",
+  "forms": null,
+  "image": "/src/assets/champions/elenaril.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

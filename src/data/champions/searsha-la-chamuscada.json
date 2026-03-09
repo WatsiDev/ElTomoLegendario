@@ -1,0 +1,123 @@
+{
+  "slug": "searsha-la-chamuscada",
+  "name": "Searsha la Chamuscada",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Campeón P2W experto en Quemar HP y buenos debufos en hydra",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Principalmente Hydra. El tema es que como se tarda mucho en conseguir y es P2W, no es un campeón que se vea mucho y que seguramente tengamos ya mejores opciones",
+  "stats": {
+    "hp": 19155,
+    "speed": 100,
+    "attack": 1002,
+    "defense": 1299,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Conflagar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "multiplier": "1.4xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 30 % de probabilidad de aumentar la duración de cualquier debufo de [Quemar HP] en ​​el objetivo en 1 turno.\n\n Cada golpe también tiene un 50% de probabilidad de reducir la duración de un bufo aleatorio en el objetivo en 1 turno. La probabilidad aumenta al 100% si el objetivo tiene un debufo de [Quemar HP].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Incendio Forestal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "description": "Tiene un 80 % de probabilidad de aplicar un debufo de [Quemar HP] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pánico Ardiente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +25 %"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Reducir VEL] durante 2 turnos. Si un objetivo tiene un debufo de [Quemar HP], también tiene un 75% de probabilidad de aplicar un debufo de [Maleficio] durante 2 turnos. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Atizar (Pasiva)",
+      "levels": [],
+      "description": "Siempre que este Campeón es atacado por un enemigo bajo un debufo de [Quemar HP], cura a este Campeón por un 25% de todo el daño recibido y cura a todos los aliados el 10% del daño recibido.\n\n También tiene un 35 % de probabilidad de activar instantáneamente cualquier debufo de [Quemar HP] en ​​el atacante.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/searsha-la-chamuscada.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

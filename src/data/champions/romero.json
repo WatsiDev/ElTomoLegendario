@@ -1,0 +1,126 @@
+{
+  "slug": "romero",
+  "name": "Romero",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Buen protector de aliados con curas y escudos así como sinergias con Juliana",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia",
+    "sobrevivir"
+  ],
+  "relics": [
+    "dedo_real",
+    "arpa_de_kasbiel",
+    "corazon_volcardiaco"
+  ],
+  "gear": [
+    "escudo",
+    "apoyo",
+    "inmortal",
+    "resiliencia",
+    "proteccion"
+  ],
+  "uses": "Facciones, Golem y decente hasta mid-game",
+  "stats": {
+    "hp": 18000,
+    "speed": 99,
+    "attack": 804,
+    "defense": 1299,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Traer Esperanza (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-1"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de [Curación continua] del 7,5 % al aliado con menos HP durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Socorrer",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Curación Continua] del 15 % a todos los aliados durante 2 turnos. Roba 1 bufo a cada enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Benefacción Divina",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +25%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +25%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Otorga a todos los aliados un bufo de [Escudo] equivalente al 25 % de su MÁXIMO HP durante 2 turnos. Aplica un bufo a este campeón de [Aumentar DEF] del 60 % durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pareja Leal (DEF)",
+      "levels": [],
+      "cooldown": 5,
+      "multiplier": "1.4xDEF",
+      "description": "Ataca a todos los enemigos 3 veces. [Solo disponible cuando Juliana está en el mismo equipo.]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/romero.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

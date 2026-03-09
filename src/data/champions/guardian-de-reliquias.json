@@ -1,0 +1,116 @@
+{
+  "slug": "guardian-de-reliquias",
+  "name": "Guardian de Reliquias",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Nuker de un solo objetivo capaz de aumentar su propio daño bufeandose a sí mismo. Queda obsoleto a las pocas semanas de juego.",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "repartemuerte",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "salvaje",
+    "letal",
+    "ataque-divino"
+  ],
+  "uses": "Ninguno, hace mucho se usaba en arenas en early",
+  "stats": {
+    "hp": 14370,
+    "speed": 90,
+    "attack": 1365,
+    "defense": 980,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cruzada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "3.75xATK",
+      "description": "Ataca a 1 enemigo. Obtén un turno adicional si el objetivo muere.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza Emergente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Aumentar ATK] del 50 % a este campeón durante 4 turnos. Otorga un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resistencia Eterna (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Cuando un enemigo lo golpea, aplica un bufo de [Curación continua] del 15 % a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en campaña en 40%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/guardian-de-reliquias.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

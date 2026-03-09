@@ -1,0 +1,141 @@
+{
+  "slug": "rey-de-la-cripta-graal",
+  "name": "Rey de la Cripta Graal",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Buen quemador de HP en área, pero se queda corto en late game",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "eternizalmas",
+    "rocadragon_dorada",
+    "elixir_dorado",
+    "corona_de_ireth",
+    "impasse_temporal",
+    "infernosfera",
+    "orquidea_mortilunar",
+    "codice_luminis",
+    "dedo_real"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "resiliencia",
+    "inmortal",
+    "velocidad"
+  ],
+  "uses": "Principalmente en mazmorras, sobretodo Araña. Tiene potencial en Hydra en early y mid",
+  "stats": {
+    "hp": 19320,
+    "speed": 107,
+    "attack": 1145,
+    "defense": 1145,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Perdición de la fragilidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 60% de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos. En cambio, tiene un 100% de probabilidad si el objetivo está bajo un debufo de [Quemar HP] o una debufo de [Congelar].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuegos de Muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "3.9xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo [Quemar HP] durante 2 turnos",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Unidad elemental (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a todos los enemigos. Aplica un debufo [Congelar] durante 1 turno y un debufo de [Quemar HP] durante 3 turnos a objetivos que ya tienen un debufo de [Quemar HP]. El debufo de [Quemar HP] no se puede resistir.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de los aliados en todas las batallas en un 33%"
+    }
+  ],
+  "lore": "«Escucha, muchacho. No me importa la cantidad de plata que ofreces, no voy a volver allí. Diablos, podrías arrojarme una bolsa de gemas en la cara y todavía me negaría. Si, si, lo se. Criptas antiguas, tesoros incalculables, yadda-yadda. Terribles guardianes y secretos que es mejor dejar olvidados: viejos cuentos de esposas de peces, ¿verdad? Pensado así también. Mis amigos y yo, diez de ellos, decidimos hurgar en la tumba del viejo bastardo Graal. Solía ​​ser un gran rey mago, murió hace siglos, los lugareños dicen que era un horrible adorador de Siroth y convirtió a sus abuelas en ranas. Ya sabes cómo van estas historias. De todos modos, el lugar ha estado en silencio, excepto por algunos cuentos borrachos de esqueletos caminando en las noches más oscuras. Pero pensamos que con la gente muerta que se alzaba por todo Teleria, esto no es nada nuevo. Así que vamos, cada hombre es un veterano del oficio. Viajamos por todas partes escogió carretillas limpias de cosas con las que nunca soñaría, bandidos enfrentados, bestias, competencia, ¡lo que sea! Y claro, hay un demonio aquí, un esqueleto reanimado allí. Problemas habituales en nuestro negocio, los solucionamos fácilmente. Solo cuando llegamos al sarcófago … Bueno, ÉL se despertó. ¿Te imaginas, muchacho? ¡Flechas, puntas de lanza, espadas, todo inútil! El mío era buen acero araviano, forjado por los elfos. No, no me preguntes cómo lo conseguí. Pero en el momento en que golpeé el cuerpo de esa cosa, la hoja se oxidó y se desmoronó. ¡Así! Así que hicimos lo único que pudimos: correr. No recuerdo mucho de lo que sucedió entonces, solo los gritos de mis compañeros cuando estallaron en llamas o se convirtieron en hielo. Fui el único en salir al final, nunca corrí tan rápido en mi vida. Entonces no, no voy a meter mi cuello debajo del hacha otra vez. De hecho, Me estoy alejando lo más que puedo. Y si eres inteligente, harás lo mismo «. – Desconocido ladrón de tumbas",
+  "forms": null,
+  "image": "/src/assets/champions/rey-de-la-cripta-graal.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

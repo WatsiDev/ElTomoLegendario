@@ -1,0 +1,170 @@
+{
+  "slug": "cillian-el-suertudo",
+  "name": "Cillian el Suertudo",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Más controlador que nuker, aunque poco fiable",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "segar-almas",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "campana_fundida",
+    "corona_de_ireth",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "despiadado",
+    "letal",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Relativamente pocos, quizá control y oleadas con algo de daño, pero nada en específico.",
+  "stats": {
+    "hp": 13215,
+    "speed": 98,
+    "attack": 1432,
+    "defense": 1266,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Tropezar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "1.6xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 35 % de probabilidad de generar un debufo del 30 % [Reducir VEL] durante 2 turnos. Cada golpe también tiene un 35 % de probabilidad de robar el 30 % de la barra de turno actual del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Infligir desgracia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Reducir tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "4.3xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 85 % de probabilidad de aplicar un debufo de [Bloquear habilidades activas] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe a la Cabeza (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +20 %"
+        },
+        {
+          "level_desc": "Nivel 5: Reducir tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Reducir tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75 % de probabilidad de aplicar una debufo [Aturdir] durante 2 turnos y robar el 50 % de la barra de turno actual del objetivo. Restablece el tiempo de reutilización de esta habilidad si el objetivo muere.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vida encantada (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Aplica dos de los siguientes bufos en este campeón durante 2 turnos al comienzo de cada turno: un bufo del 50 % [Aumentar ATK], un bufo del 30 % [Aumentar D.Crit], un bufo del 30 % [Aumentar P.Crit], un bufo de [Fortalecer] del 25 %, un bufo de [Bloquear daño] o un bufo de [Aumentar PUNT] del 50 %.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": " Aumenta el ATK de aliado en todas las batallas en un 25%."
+    }
+  ],
+  "lore": "Las tierras de Teleria nunca carecen de campeones, aunque no todos encajan en las historias idealizadas de héroes incondicionales o villanos temidos. Al igual que algunos guerreros forjan sus leyendas en la batalla con un talento sin igual, también algunos tropiezan en el centro de atención con pura suerte. Este es uno de esos cuentos. Sir Cillian nunca fue bendecido con una estatura impresionante o una gracia particular. Siempre estuvo, como ahora, corpulento y alegre, mucho más interesado en asistir a la próxima fiesta que en ganar la gloria en el campo de batalla. Como una página al servicio de Sir Fadrique, un caballero exaltado de Kaerok, Cillian fue el estudiante menos talentoso de todas las artes marciales. Era incómodo y torpe con la espada, no podía golpear a un objetivo con un arco si estaba a más de diez pasos de distancia de él, y apenas podía montar a caballo sin caer sobre su cabeza. Fue ridiculizado por sus compañeros y reprendido sin piedad por sus tutores, aunque ninguna cantidad de golpes podría despertar los talentos que simplemente no estaban allí. Un día fatídico, la impresionante muestra de ineptitud de Cillian lo convirtió en el blanco de la ira del Señor y se vio obligado a huir del castillo. Intentó esconderse en el bosque que rodeaba el estado ancestral de Fadrique y, fiel a su naturaleza, se perdió unos minutos después de entrar en la espesura del bosque. Inofensivo, recorrió los senderos cubiertos de vegetación durante horas y horas hasta que finalmente se encontró con un claro escondido. Había voces provenientes del claro, puras y claras, eufóricas mientras cantaban las canciones de alegría. Hipnotizado por la hermosa música, Cillian se dirigió al claro, y lo que vio allí cambiaría su vida para siempre. Bailando alrededor de un poderoso roble que crecía en el medio del claro y vestidos con ropas de colores brillantes estaban las tarifas del bosque, sus voces se unieron para alabar el renacimiento de la naturaleza que trajo la primavera. Cillian se quedó estupefacta y se congeló en el acto, observando a los espíritus jubilosos por lo que pareció una eternidad antes de que un sueño lo alcanzara y cayera en un sueño profundo. Cuando despertó, las tarifas se habían ido como si nunca hubieran existido y, al principio, Cillian asumió que lo había soñado todo. Pero, cuando se puso de pie, algo se deslizó de su pecho y cayó al suelo. La página joven se inclinó para encontrar un trébol de cuatro hojas de un verde tan vibrante que se destacó inmediatamente en la hierba fresca que cubría el suelo del bosque. Sin perder un poco de suerte, recogió la hoja y se alejó rápidamente del claro. Desde ese día en adelante, cada empresa de Cillian fue bendecida con una fortuna asombrosa. Encontró el camino de regreso a casa sin tropezar en el camino correcto ni una sola vez, y en los días que siguieron de alguna manera logró pasar todas las pruebas que había fallado antes. Sus oponentes tropezarían y caerían, sus flechas encontrarían su marca sin importar lo ridícula que fuera su técnica, y finalmente tuvo suerte de llegar a caballero. Como Caballero de Kaerok, Sir Cillian ganó muchas justas cuando los caballos de sus rivales se desviaron del curso o se levantaron inexplicablemente un segundo antes de que su lanza desalojara a su jinete ante los alegres aplausos de las multitudes observadoras. Así también muchos enemigos encontraron su fin de la manera más indigna como Xensor the Grim, un infame nigromante, tropezando con su propia capa y tropezando con el borde de su torre momentos antes de desatar un hechizo mortal sobre Sir Cillian. O el jefe de los orcos Arzhak el sanguinario, cuya banda de asaltantes aterrorizó a un Ducado entero durante años, siendo víctima de un enjambre de avispones enojados cuando Sir Cillian desalojó accidentalmente su nido sobre la cabeza de Arzhak. Por supuesto, a los plebeyos les importa poco qué fuerza asegura el éxito de su héroe, y con los años la historia de Cillian creció y se extendió por todas partes. Hasta el día de hoy, sigue siendo un amado y famoso caballero, cuyas obras solo se ven eclipsadas por su amor por la cerveza y la canción.",
+  "forms": null,
+  "image": "/src/assets/champions/cillian-el-suertudo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

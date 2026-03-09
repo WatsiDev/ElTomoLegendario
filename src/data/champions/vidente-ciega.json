@@ -1,0 +1,142 @@
+{
+  "slug": "vidente-ciega",
+  "name": "Vidente Ciega",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Bufer, healer y revividor",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "politopo_infernal",
+    "arpa_de_kasbiel",
+    "crisalida_de_renacer",
+    "mano_de_descrear",
+    "efigie_demoniaca",
+    "tiempo_de_sangre",
+    "cristal_de_examina",
+    "corazon_volcardiaco",
+    "servidumbre_de_xibia",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "velocidad",
+    "percepcion",
+    "parada-rapida",
+    "renacer",
+    "inmortal",
+    "apoyo",
+    "escudo",
+    "velocidad-divina",
+    "resistencia",
+    "justiciero"
+  ],
+  "uses": "Un poco para casi todo ya que su rol de revividor, healer y bufer es versátil para arenas, facciones y mazmorras.",
+  "stats": {
+    "hp": 18165,
+    "speed": 115,
+    "attack": 1332,
+    "defense": 1035,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Visiones de Muerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "1.3xATK",
+      "description": "Ataca 3 veces al azar. Cada golpe tiene un 80% de probabilidad de reducir la barra de turno en un 10%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sudario oscuro",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Cura a todos los aliados en 20% del MAX HP de éste campeón. También aplica un bufo de [Escudo] y un bufo de [Bloquear Debufos] en todos los aliados durante 2 turnos. El escudo es proporcional al 30% del HP MAX de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Auto sacrificio",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos al 50% de HP y el 30% de la Barra de Turno. También aplica un bufo de [Bloquear Daño] en todos los aliados, excepto este Campeón, durante 1 turno. ",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliado todas las batallas en 34%."
+    }
+  ],
+  "lore": "Los videntes ciegos son profetas ciegos que han forjado una vida nómada en el bosque de Durham, adorados por camarillas de sirvientes que aún poseen su vista natural y que siguen las rutas migratorias de los arknells, pequeñas aves de presa asociadas con poderes de previsión y consideradas heraldos de presagios. Cazar a estas aves es una hazaña de gran habilidad, que solo pueden lograr aquellos cuya previsión está tan afinada que se ha convertido en algo similar a la visión misma. Los adivinos utilizan cada parte del arknell en sus rituales, luciendo sus plumas púrpuras en elaborados tocados y comiendo sus entrañas para inducir visiones intensas. La secta cree que estas visiones son otorgadas por los espíritus de sus antepasados ​​cuyas almas habitan en los arknells. Al matar al arknell, los videntes ciegos creen que liberan el espíritu y luego pueden comunicarse con ellos para recibir visiones. Cuando un Vidente Ciego muere, cada parte de él es venerada y compartida con los arknells, su sangre es bebida, su carne consumida y sus huesos son transformados en espadas rituales, de modo que se mantienen en el ciclo de la memoria y la tradición para siempre.\n\n Muchos acuden a buscar la sabiduría de los videntes ciegos, pero muchos son rechazados. La mayoría de los adivinos no codician el oro ni la plata, las sedas ni las pieles, sino la mejora de la situación de los elfos oscuros. Ven la codicia y el ansia de poder en muchos de sus parientes y se desesperan, deseando señalarles el camino de la compasión. Por eso, solo son bienvenidos aquellos que se consideran dignos.\n\n Fahari de los Videntes Ciegos fue abandonada cuando era niña porque era ciega, y algunos sirvientes de la secta la encontraron y le enseñaron los caminos y los ritos. Su habilidad para comunicarse con los antepasados ​​era asombrosa y pronto ascendió a una posición de influencia, aconsejando al anciano sobre el liderazgo de la secta y dirigiendo a los sirvientes de los adivinos.\n\n Un ritual en el que participó Fahari comenzó como todos los demás. Encontró y mató a un arknell, y el peticionario se acercó y le hizo preguntas. Cuando Fahari mordió la carne del arknell, supo de inmediato que algo iba mal. El hedor de las pieles quemadas la golpeó primero. Los gritos de los heridos y moribundos fueron los siguientes. Cuando abrió los ojos, estaba allí. Las tiendas de los Videntes Ciegos estaban en llamas, los gritos eran los de su secta. Reconoció al anciano por su voz. Estaba suplicando. Se arrodilló ante un fuego mientras la sombra de un elfo revoloteaba detrás de él. Fahari se esforzó por ver quién le había cortado la garganta, pero solo vio una silueta que llevaba un tocado de plumas de arknell. Cuando despertó de la visión, sintió como si le hubieran dado un puñetazo en el estómago. Sabía que tenía que evitar la destrucción de su grupo, la única familia que había conocido.\n\n La visión se repitió en los sueños de Fahari. Uno de los suyos traicionaría a su secta. Todos se convirtieron en sospechosos. Con el paso de los años, Fahari se dio cuenta de que las hojas de hueso esenciales para los ritos de los Videntes Ciegos estaban desapareciendo, y que quienes acudían a pedir profecías cada vez tenían menos pureza de corazón y de mente. El gusano de la avaricia estaba devorando a uno de sus compañeros adivinos, estaba segura, pero no podía confiar en nadie excepto en los sirvientes, aquellos que no estaban al tanto de los rituales. Se deslizaban entre las tiendas de los Videntes Ciegos, oyendo y viendo mucho. Fue gracias a estos espías que Fahari supo el secreto del anciano.\n\n Cada semana, unos desconocidos se abrían paso por el campamento, pasaban junto a los guardias y entraban en la tienda del anciano. Una noche, Fahari se escondió en las sombras del exterior y escuchó su conversación. El anciano y el desconocido hablaban de los arknells y de quién en la secta estaba dispuesto a vender secretos. Habló abiertamente de las ceremonias de los Videntes Ciegos, de cómo se mataba al arknell y de cuánta carne induciría visiones. Cuando el anciano habló de los cuchillos de hueso, el desconocido preguntó cuánto costaría comprarlos. El precio que mencionó era alto, pero el desconocido no regateó. Escuchó el tintineo del oro y su rabia era una lanza al rojo vivo.\n\n Los sirvientes de Fahari actuaron según sus órdenes después de un mes de cuidadosa planificación. Prendieron fuego a las tiendas de los traidores nombrados y mataron a cualquiera que se moviera contra ellos. Fahari olió el humo de su visión y las lágrimas corrieron por sus mejillas. Buscó al anciano y lo encontró. Frente a toda la secta restante, le puso un cuchillo en la garganta. Sus negaciones cayeron en oídos sordos. Ella le abrió el cuello con un rugido desafiante y la profecía se cumplió.\n\n Ahora, Fahari trabaja para reconstruir lo que tuvo que ser destruido. Busca los secretos robados de su secta y busca recuperar sus espadas ceremoniales, reconstruir sus secretos y castigar la avaricia de quienes robaron a los Videntes Ciegos.",
+  "forms": null,
+  "image": "/src/assets/champions/vidente-ciega.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

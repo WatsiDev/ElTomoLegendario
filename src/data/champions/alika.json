@@ -1,0 +1,139 @@
+{
+  "slug": "alika",
+  "name": "Alika",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Nuker con buen daño y capaz de bloquear enemigos",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 15855,
+    "speed": 101,
+    "attack": 1354,
+    "defense": 892,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Disparo Saltador (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 8 : Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de hacer un golpe extra. Este golpe es siempre crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Objetivo de Alto Valor (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6.3xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 50% de la DEF del objetivo si su MAX HP es mayor que el MAX HP de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desorientar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10% "
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 8: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aumentar los tiempos de reutilización de todas las habilidades enemigas en 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hermana Devota (Pasiva)",
+      "levels": [],
+      "description": "Revive a este campeón con un 75% de HP cuando lo matan. Solo disponible cuando Sikara está viva y en el mismo equipo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/alika.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

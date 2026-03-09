@@ -1,0 +1,124 @@
+{
+  "slug": "diamant-coppercoin",
+  "name": "Diamant Coppercoin",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Healer, da barra de turno, extiende bufos...buen apoyo para PvE en general",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "sombra_encaramada"
+  ],
+  "gear": [],
+  "uses": "PvE. Decente pero no top. Facciones también puede ayudar mucho",
+  "stats": {
+    "hp": 19650,
+    "speed": 112,
+    "attack": 1145,
+    "defense": 1123,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "La Mano de Diamant (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a todos los enemigos. Cura a todos los aliados el 5% de MAX HP de este campeón. Cura un 2% adicional de MAX HP de este campeón por cada bufo en este campeón. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Donación Caritativa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Aumenta 1 turno la duración de todos los bufos aliados. Llena un 20% la Barra de Turno de todos los aliados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Medidas de Protección",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "interceptar"
+        },
+        {
+          "key_name": "aumentar-res-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Aplica 3 acumulaciones de [Interceptar] al aliado objetivo. Aplica un bufo de 50% de [Aumentar RES] y un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Eje Central (Pasiva)",
+      "levels": [],
+      "description": "Tiene un 50% de probabilidad de convertir un debufo en un bufo antes de que se aplique a un aliado. Funciona con los siguientes debufos: \n\nConvierte los debufos de 25% y 50% de [Reducir ATK] en bufos de 50% de [Aumentar ATK] \n\nConvierte los debufos de 30% y 60% de [Reducir DEF] en bufos de 50% de [Aumentar DEF] \n\nConvierte los debufos de 15% y 30% de [Reducir VEL] en bufos de 50% de [Aumentar VEL] \n\nConvierte los debufos de 15% y 25% de [Reducir P.Crit] en bufos de 50% de [Aumentar P.Crit] \n\nConvierte los debufos de 15% y 25% de [Reducir D.Crit] en bufos de 50% de [Aumentar D.Crit]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/diamant-coppercoin.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

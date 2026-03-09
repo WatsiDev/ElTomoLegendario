@@ -1,0 +1,154 @@
+{
+  "slug": "khoronar",
+  "name": "Khoronar",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Tanque de HP con mucho control",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=1213AJs2lO0",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "campana_fundida",
+    "vial_del_sombrerero",
+    "corona_de_ireth",
+    "orbe_de_transfixion",
+    "mascara_de_ira"
+  ],
+  "gear": [
+    "inmortal",
+    "incitar",
+    "percepcion",
+    "punteria",
+    "aturdir"
+  ],
+  "uses": "Control de oleadas e hydra en early.",
+  "stats": {
+    "hp": 27090,
+    "speed": 99,
+    "attack": 815,
+    "defense": 958,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Florecer la Masacre (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "0.14xHP (sin Minaya), 0.07xHP (con Minaya)",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 50% de reducir el barra de turno de cada objetivo en un 10%.\n\n Si Minaya está en el mismo grupo, ataca a todos los enemigos 2 veces y la probabilidad de reducir la barra de turno de cada objetivo pasa a ser del 100%. Reduce un 50% el daño de cada ataque.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aullido Bestial (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Tiene un 75% de probabilidad de aplicar un debufo de [Incitar] a todos los enemigos durante 1 turno. También aplica un bufo de [Bloquear Debufos] y un bufo de 60% de [Aumentar DEF] a este campeón durante 2 turnos.\n\n Si Minaya está en el mismo grupo, el debufo de [Incitar] aplicado por este campeón no se puede resistir. \n\n Si Minaya está en el mismo grupo, también elimina todos los debufos de todos los aliados y luego aplica un bufo de [Bloquear Debufos] y un bufo de [Aumentar DEF] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vals de Batalla (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de 50% de [Reducir ATK] y un debufo de 60% de [Reducir DEF] a todos los enemigos durante 2 turnos.\n\n Si Minaya está en el mismo grupo, estos debufos no se pueden resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardia feroz (Pasiva) ",
+      "levels": [],
+      "description": "Contraataca al ser atacado por un enemigo que tenga un debufo de [Reducir ATK], [Reducir DEF] o [Reducir VEL]. Siempre contraataca cuando se golpea si Minaya está en el mismo equipo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espectáculo (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos si este campeón mata a un enemigo.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 80"
+    }
+  ],
+  "lore": "Érase una vez, el desastre golpeó el Reino de Kaerok. Año tras año, reinaba una sequía antinatural, los cultivos se marchitaban y el ganado caía por falta de pasto. Miles murieron, decenas de miles más sufrieron mucho. Señores y campesinos por igual conocían el hambre y se desesperaron. En todo Kaerok, pocas tierras quedaron intactas por la hambruna, y el dominio del marqués Khoronar era uno de esos refugios. Pero el marqués era arrogante, egoísta y cruel. Una noche, una anciana desnutrida vino al castillo y le ofreció a Khoronar una hermosa rosa a cambio de comida que la mantendría viva. Disgustado por su aspecto patético e indigente, el marqués se burló y ordenó que echaran a la anciana por la puerta. Pero antes de que los guardias pudieran ponerle una mano encima, fueron alcanzados por un rayo y su carne se convirtió en mármol. La apariencia de la anciana cambió y se arremolinó para revelar su verdadera forma, la de la belleza angelical, las facciones nobles y el cabello del color de la llama ardiente. \n\nAl reconocer la Mediadora por lo que era, Khoronar trató de suplicar perdón, pero ya era demasiado tarde porque ella había visto su naturaleza fea y egoísta escondida bajo una apariencia de nobleza. Como castigo, la Mediadora lo transformó en una horrible bestia y ató su alma a un Fragmento para que nunca pudiera morir de verdad. Con un poderoso hechizo colocado en el castillo, Khoronar fue condenado a la vida eterna como prisionero. Solo si aprendiera a amar, alguna vez sería liberado por su maldición. \n\nPero a medida que pasaron los siglos, el marqués y su castillo habían sido olvidados, perdidos en el tiempo en las profundidades de los bosques encantados. Parecía que Khoronar estaba condenado a un ciclo interminable de miseria, no redimido y no amado. Fue solo cuando un joven Caballero de Kaerok conocido como Minaya que la esperanza finalmente se reavivó. Reconocida por su amabilidad y belleza en igual medida, Minaya era muy querida por sus súbditos y sus compañeros. Pero había quienes se ponían celosos de ella y aquellos que estaban amargados por su rechazo al cortejo. Un orgulloso barón cuyo avanzado Minaya había rechazado lo vio como un insulto que solo podía ser lavado con sangre. Buscó aliados entre aquellos que no podían soportar ver la virtud del joven Caballero, y pronto la flecha de un asesino se preparó para perforar el corazón de Minaya. Por la gracia de la Diosa, el asesino erró su marca, y Minaya escapó al bosque. \n\nDurante horas se preguntó, y cuando los lobos se reunieron a su espalda con la esperanza de ser presa fácil, finalmente se encontró con el castillo encantado donde vivía el condenado marqués. Primero, Khoronar tenía la intención de castigar al intruso. Pero al ver la belleza de Minaya y el coraje que mostraba incluso cuando se enfrentaba a la horrible bestia en la que se había convertido, mantuvo su ira. \n\nÉl todavía encarceló a Minaya, porque ahora sabía el camino hacia el castillo, pero la trataba con justicia. Sus sirvientes, condenados a la existencia de estatuas vivientes, atendían todos los caprichos de Minaya, y cada noche Khoronar, desesperado por compañía después de siglos de soledad, cenaba con ella. Poco a poco, se dio cuenta, se estaba enamorando. Aterrorizado por la idea, se enfrentó a un ataque de furia bestial y persiguió a Minaya desde el castillo, ordenándole que nunca regresara. Esto casi le había costado la vida al joven Caballero, ya que los asesinos enviados después de ella no se habían rendido. Por un golpe de desgracia, cayeron en el rastro de Minaya una vez más y seguramente habrían sido el final de ella, si no fuera por Khoronar, arrepentido de su exhibición, siguiendo a Minaya con la esperanza de ganarse su perdón. Se encontró con los asesinos justo cuando surgió la emboscada y logró matarlos a todos en la batalla que siguió. \n\nPero Khoronar no escapó ileso de la refriega, y una flecha envenenada le golpeó el hombro. Minaya se apresuró a su lado y usó toda su habilidad para tratar la herida y purgar el veneno de la sangre de su salvador. Debilitado pero vivo, Khoronar y su compañero regresaron al castillo. Fue entonces cuando sus sentimientos finalmente se hicieron realidad, y Minaya también miró más allá de la espeluznante fachada para ver a un hombre arrepentido y verdaderamente dispuesto a mejorar. Ella hizo todo lo posible para guiarlo, para enseñarle que solo en el amor por los demás se podían difundir las bendiciones de Lumaya. Y todavía, Los pensamientos sobre su gente no abandonaron a Minaya incluso cuando su propia felicidad estaba a su alcance. Aunque reacia, Khoronar le permitió visitar su propio dominio y asegurarse de que se pudiera designar a un castellano adecuado para que gobernara de manera justa en su lugar mientras Minaya estaba ausente. \n\nPrometió regresar dentro de una semana y salió del castillo una vez más. A su llegada, Minaya descubrió que sus tierras habían sido invadidas por el celoso Barón, cuya propuesta rechazó, y su gente fue desangrada y oprimida por las nuevas leyes draconianas. Furiosa por estos abusos, Minaya recurrió a todos los aliados que pudo para ayudarla, y la gente de la tierra se levantó para ponerse al lado de su Dama con las armas que podían permitirse. Sería un asedio sangriento de hecho. Mientras tanto, Khoronar se encontró angustiado: la semana había pasado, pero de Minaya no había señales. \n\nSe creyó traicionado una vez más y casi cayó en la desesperación, si no fuera por un milagro. Aunque todos los espejos en su castillo habían estado rotos por mucho tiempo, los fragmentos de vidrio aún permanecían dispersos en su cámara. Uno de esos fragmentos cobró vida, brillando con energía arcana, y le mostró al Khoronar desconcertado una terrible visión de su amor muriendo en la batalla. Abandonando todo, Khoronar se apresuró a las tierras de Minaya. Llegó cuando el asalto al castillo ya estaba en marcha y se lanzó a la refriega. Asombrados por la llegada de un aliado tan poderoso y extraño, los hombres de armas de Minaya podían hacer poco más que ceder ante la furiosa bestia. Pero, por desgracia, tal vez fue esta prisa la que llevó a que se cumpliera la profecía del espejo. Tras abrirse paso hasta el gran salón del castillo, Khoronar se encontró con Minaya luchando a través de la guardia personal del barón. \n\nAl ver la reacción de Minaya, el usurpador levantó su ballesta y soltó un rayo encantado que estaba destinado a matar a Khoronar. Pero Minaya se arrojó hacia adelante y atacó en lugar de su amado. Cuando su cuerpo cayó al suelo, Khoronar se enfureció a diferencia de todo lo que había experimentado. Ignorando las heridas y el dolor, se enfrentó a sus enemigos y no se detuvo hasta que todos cayeron ante él, y la traidora espada del barón yacía rota por fin. Solo entonces Khoronar cayó de rodillas y lloró sobre el cuerpo de Minaya. Su dolor era tan fuerte que no se dio cuenta de que ya no estaba solo hasta que una mano descansó sobre su hombro y sus ojos fueron recibidos por una luz cegadora cuando se dio la vuelta. la Mediadora había descendido personalmente al campo de batalla y había buscado a Khoronar. Ella reveló que lo había estado observando de cerca, y sus acciones desinteresadas fueron suficientes para ganar el perdón. \n\nLo que sucedió después está sujeto a interpretación y especulación en varias versiones del cuento … Se sabe que la Mediadora usó su poder para devolverle la vida a Minaya, permitiéndole a ella y a Khoronar compartir, abrazar y confesar su amor. Luego, según algunos, la forma bestial de Khoronar se desvaneció y se convirtió en humano una vez más. Él y Minaya se casaron y vivieron felices para siempre. Pero hay narradores que insisten en que hay más en la historia. Que la Mediadora deshizo la maldición, pero advirtió a Khoronar que el sufrimiento que le había causado su insensibilidad solo podía pagarse con servicio. Incapaz de soportar separarse de su amor, Minaya también prometió su vida a la Mediadora y ató su alma a un Fragmento de Campeones voluntariamente. \n\nY así fue,  Khoronar y Minaya pasarían juntos el resto de la eternidad, juntos, aunque serían llamados a pelear en el nombre de Lumaya cuando se les necesitara – un precio que ambos estaban más que dispuestos a pagar.",
+  "forms": null,
+  "image": "/src/assets/champions/khoronar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "yncensa-la-portagrial",
+  "name": "Yncensa la Portagrial",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Tremendo debufer y bufer, capaz de hacer cargas con nuestro nuker",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "arpa_de_kasbiel",
+    "caldero_acaparador",
+    "retoño_repugnante",
+    "servidumbre_de_xibia",
+    "estrellas_jinang",
+    "mascara_de_zozobra",
+    "plumaje_dorado",
+    "varita_de_sumision",
+    "sombra_encaramada",
+    "cronocubo",
+    "tiempo_de_sangre"
+  ],
+  "gear": [
+    "proteccion",
+    "percepcion",
+    "bestial",
+    "maldito"
+  ],
+  "uses": "No brilla en PvP pero es usable. En PvE es muy buena: Hydra, Cualquier Mazmorra, Facciones, etc...",
+  "stats": {
+    "hp": 18660,
+    "speed": 110,
+    "attack": 1200,
+    "defense": 1134,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Catalizador de Batalla (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos. El aliado con más D.Crit también se une al ataque para atacar al enemigo con menos HP. El aliado que se una al ataque usará su habilidad base.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Humos del Grial",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "nube-de-veneno"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Nube de Veneno], un bufo de 30% de [Aumentar VEL] y dos bufos de 15% de [Curación Continua] al aliado objetivo durante 2 turnos.\n\n También llena un 50% la barra de turno del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tumor Maligno (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] y un debufo de 25% de [Debilitar] durante 2 turnos. Ignora bufos de [Bloquear Debufos]",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Incensada (Pasiva)",
+      "levels": [],
+      "description": "Este campeón tiene +10 PUNT por cada bufo de cada enemigo. Siempre que un enemigo recibe un bufo, reduce un 10% su Barra de Turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 70"
+    }
+  ],
+  "lore": "Los herbolarios y naturalistas de los Silvanos son la envidia del mundo, y, en su tiempo, Yncensa, Portadora del Grial, fue la más grande de todos. Sus investigaciones en botánica, toxicología y medicina dejaron un legado que perdura hasta el día de hoy. Pero no era simplemente una académica; también era una guerrera que luchó para proteger la santidad natural del Bosque de la Niebla contra fuerzas que buscaban subvertir y explotar su flora. En la Era de la Traición, los Engendros infiltraron el Árbol Corazón y despertaron una semilla del mal plantada allí mil años antes por Siroth, cuando este se rebeló por primera vez contra el mundo mortal. Así comenzó la Corrupción Silvana: una oscura mutación que se extendió a través del Árbol Corazón hacia el bosque circundante. La contaminación también penetró en el Ritmo, enloqueciendo a los Silvanos y enfrentando a hermanos contra hermanos, patrones feéricos contra clientes elfos, y aldeas contra aldeas. \n\nLas plantas y animales afectados por la Corrupción se transformaron en mutantes violentos, exagerando sus características para convertirlas en letales. El Árbol también absorbía a muchas de estas criaturas, aprendiendo sus características, y luego las usaba para crear híbridos monstruosos de colmillos, garras, espinas y venenos. Los arboristas y vigilantes comenzaron a encontrar estos siniestros especímenes con creciente frecuencia, y Yncensa, ya una experta en plantas y hierbas, fue una de las primeras en darse cuenta de que ninguna enfermedad natural conocida podía ser responsable. Era nada menos que la Oscuridad de Siroth, y cuando se hizo evidente que el Árbol Corazón había caído ante este antiguo enemigo, los Silvanos actuaron desesperadamente. \n\nYncensa asumió un rol de liderazgo mientras la lucha contra la Corrupción ganaba impulso y urgencia. Era sabia en los caminos de la naturaleza y elocuente para persuadir a los escépticos y reunir a los creyentes. Décadas de guerra se desataron mientras la burbuja de Corrupción crecía y nuevos horrores mágicos surgían de las ramas corruptas del Árbol Corazón. Cuando no lanzaba hechizos de purificación y erradicación en el campo de batalla, Yncensa trabajaba obsesivamente con muestras de tejidos de plantas y animales Corrompidos, buscando comprender mejor al enemigo de los Silvanos. Fue durante este tiempo agotador cuando usó por primera vez su famoso grial: un recipiente alquímico mágico tallado con precisión en madera rara de fresno de hierro, recubierto con encantamientos y diseñado con la mayor exactitud. Su superficie era resbaladiza y limpia, bendecida para no absorber ni una gota de los icor y toxinas colocados en él, permitiendo contenerlos y separarlos para mezclas y destilación. Gracias a este instrumento, Yncensa logró numerosos avances sin propagar contaminantes. \n\nYncensa aprendió mucho sobre la Corrupción y documentó cientos de criaturas que esta engendró. Buscó una forma de combinar su magia y alquimia para aumentar el poder y alcance de ambas, ayudando a su gente a superar el avance de la Corrupción. En ese punto, los Silvanos, desde su nueva capital Nyresa, habían recibido a los rebeldes Shadowkin como aliados y enviado emisarios a los Enanos del Dominio de Hierrocielo, suplicando su ayuda. Yncensa viajó a un famoso taller enano y les mostró su grial encantado, pidiéndoles que mejoraran su diseño. Intrigados, los enanos aceptaron: al finalizar su trabajo, el grial ardía con una llama mágica que eliminaba la necesidad de calentar el recipiente externamente, y podía acoplarse al bastón de batalla de Yncensa, alineándose perfectamente con el grano de la madera para una plena sintonización. A través de la experimentación y dolorosos ensayos y errores, Yncensa creó compuestos herbales que debilitaban o eliminaban la Corrupción, y con su bastón-grial podía canalizar estos limpiadores naturales en ráfagas mágicas de vapor. Yncensa, Portadora del Grial, purgó a miles de engendros del Árbol Corrompido: escarabajos pantera que escupían fuego, arañas de corteza tentaculadas con mandíbulas de ácido, osos-aguja de múltiples cabezas con garras en forma de pinzas gigantes, y muchos más. Gracias a la limpieza eterna del grial, Yncensa podía fácilmente extraer los compuestos asesinos de la Corrupción y reemplazarlos con hierbas curativas de sus numerosos frascos y bolsas cuando fuera necesario. Podía convertir una sola dosis en un flujo de energía rejuvenecedora capaz de restaurar a múltiples guerreros Silvanos a su máxima efectividad de combate. \n\nTambién usó sus poderes para curarse a sí misma, ya que la exposición continua a la Corrupción, las heridas sufridas y los efectos de experimentos fallidos pasaron factura. Con fuego y acero, la coalición de Nyresa —Silvanos, Enanos de Hierrocielo y rebeldes Sombríos repelió la Corrupción y finalmente quemó el Árbol de la Oscuridad, terminando con la pesadilla. Pero Yncensa no pudo estar presente para ese momento de júbilo, ya que los años de incansable trabajo finalmente le pasaron factura. Los vapores nocivos dañaron sus pulmones y envenenaron su sangre, y ni siquiera su propio genio en taumaherborología pudo revertir el deterioro. Sin embargo, antes de que Yncensa pudiera marchitarse y morir, el Árbitro la rescató de su lecho de enferma y la encerró dentro de un Fragmento. Ahora, la más grande herbolaria de Teleria vive para ofrecer ayuda y consejo al antiguo guardián de Teleria.",
+  "forms": null,
+  "image": "/src/assets/champions/yncensa-la-portagrial.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

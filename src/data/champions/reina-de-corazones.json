@@ -1,0 +1,132 @@
+{
+  "slug": "reina-de-corazones",
+  "name": "Reina de Corazones",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Controladora y limpiadora enemiga multifunción",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=CcjBuq8PJvw",
+  "blessings": [
+    "crueldad",
+    "polimorfar"
+  ],
+  "relics": [
+    "campana_fundida",
+    "diario_de_necrotos",
+    "cronocubo"
+  ],
+  "gear": [
+    "percepcion",
+    "velocidad",
+    "impulso",
+    "supersonico",
+    "velocidad-divina"
+  ],
+  "uses": "Bastante polivalente, pero poco específica: Arenas, Oleadas, Jefes que se bufeen...\n",
+  "stats": {
+    "hp": 17835,
+    "speed": 110,
+    "attack": 1189,
+    "defense": 1200,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Explosión de Corazón (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "2.77xATK",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de 60% de [Reducir DEF] durante 2 turnos. También llena un 5% las barras de turno de todos los aliados.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Que le corten la cabeza!",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        {
+          "key_name": "marca-de-la-muerte"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "description": "Elimina todos los bufos de todos los enemigos. Luego aplica un debufo de [Marca de la Muerte] al objetivo inicial durante 2 turnos. También aplica un debufo de [Miedo de verdad] a todos los enemigos durante 1 turno.\n\n Llena un 5% la barra de turno de este campeón por cada bufo eliminado por esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Orden de la Reina",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Ataca a un solo enemigo junto a todos los aliados. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] a todos los aliados durante 2 turnos. \n\n Reduce 2 turnos el Tiempo de Reutilización de la habilidad [Que le corten la cabeza] de este campeón si el objetivo muere.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Salve a la Reina (Pasiva) ",
+      "levels": [],
+      "description": "Da un turno adicional a este campeón por cada 10 bufos aplicados al grupo enemigo.\n\n Si hay varios campeones en el grupo con esta habilidad, solo se activa una. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 70."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/reina-de-corazones.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

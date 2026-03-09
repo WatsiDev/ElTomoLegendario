@@ -1,0 +1,136 @@
+{
+  "slug": "teodor-el-sabio",
+  "name": "Teodor el Sabio",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Gran campeón con venenos para limpiar oleadas y solear jefes",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=UHbBdi_CsgE",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "impasse_temporal",
+    "infernosfera",
+    "aberracion_antigua",
+    "dedo_real"
+  ],
+  "gear": [
+    "regeneracion",
+    "resistencia",
+    "justiciero",
+    "punteria",
+    "percepcion",
+    "bestial"
+  ],
+  "uses": "Bueno para solear Golem o Dragón normales. Siempre que se puedan meter venenos al enemigo en PvE, es buena opción.",
+  "stats": {
+    "hp": 20805,
+    "speed": 105,
+    "attack": 980,
+    "defense": 1211,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Medicina (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3.1xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 30 % de probabilidad de aplicar un debufo del 30 % [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Astucia de Sabio",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "sensibilidad-al-veneno"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Ataca a 1 enemigo. Si el golpe es crítico, tiene un 70% de posibilidades de aplicar cuatro debufos [Veneno] del 5% en todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Química",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "description": "Aumenta la duración de todos los debufos de [Veneno] y [Quemar HP] en ​​todos los enemigos en 1 turno. Luego, activa instantáneamente cualquier [Veneno] y un tick de [Quemar HP] en ​​cada enemigo.\n\n Aplica un debufo del 25% [Debilitar] durante 2 turnos en enemigos que no están bajo debufos de [Veneno] o [Quemar HP].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fumigador (Pasiva)",
+      "levels": [],
+      "description": "La RES de este campeón aumenta en 5 por cada debuff de [Veneno] en el equipo enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 50"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/teodor-el-sabio.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "losan-kleth",
+  "name": "Losan K'Leth",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Extraño, ya que cuenta con habilidades de apoyo y control así como curas y 'reducción de vida enemiga'",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=PuZKYagLdQw",
+  "blessings": [
+    "crueldad",
+    "cosechar-vida"
+  ],
+  "relics": [
+    "agarre_de_valkanen",
+    "el_triturador",
+    "antorcha_esclava"
+  ],
+  "gear": [],
+  "uses": "Aremas, oleadas, facciones...es poco específico pero completo al mismo tiempo si va con Aparecidos",
+  "stats": {
+    "hp": 18825,
+    "speed": 97,
+    "attack": 727,
+    "defense": 1597,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Hacha Atrófica (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 80% de probabilidad de aplicar un debufo de [Debilitar] durante 2 turnos. Este debufo no se puede resistir si el objetivo ha atacado a este campeón antes de este turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cálculo Espiritual (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 7,
+      "description": "Los niveles de HP de todos los aliados se igualarán al del aliado con más HP. Los niveles de Barra de Turno de todos los aliados se igualarán al del aliado con más Barra de Turno.\n\n Los niveles de HP de todos los enemigos se igualarán al del enemigo con menos HP. Los niveles de Barra de Turno de todos los enemigos se igualarán al del enemigos con menos Barra de Turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Disco de la Finalidad (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Ataca a 1 enemigo. Antes de atacar, traspasa todos los debufos de este campeón al objetivo y cura a este campeón el 10% de su MAX HP. Cura un 10% adicional de su MAX HP por cada debufo traspasado.\n\n Siempre usa esta habilidad en lugar de la habilidad base al contraatacar.",
+      "factionUnity": "Unidad de Aparecidos",
+      "unityEffects": {
+        "1-ally": "Antes de atacar, también elimina todos los bufos del objetivo. Este efecto no se puede resistir si el objetivo ha atacado a este campeón antes de este turno.",
+        "2-ally": "Ataca a todos los enemigos restantes que tienen menos del 30% de HP. Este ataque ignora 100% de DEF y no puede ser crítico.",
+        "3-ally": "Esta habilidad hace un 100% más de daño a los enemigos que han atacado a este campeón antes de este turno."
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "La Representación (Pasiva) ",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "description": "Cada vez que este campeón pierde al menos el 25% de HP de un solo ataque, aplica un bufo de [Bloquear Daño] a este campeón durante 1 turno.",
+      "factionUnity": "Unidad de Aparecidos",
+      "unityEffects": {
+        "1-ally": "Al ser atacado, tiene un 15% de probabilidad de aplicar un debufo de [Miedo de Verdad] al atacante durante 1 turno. Este debufo no se puede resistir.",
+        "2-ally": "Los efectos de ignorar DEF se reducen un 100% al usarse contra este campeón.",
+        "3-ally": "Al ser atacado, tiene un 20% de probabilidad de activar un efecto de [Turno Instantáneo] en este campeón. Ocurre una vez por habilidad."
+      },
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en todas las Batallas en 25%"
+    },
+    {
+      "type": "res",
+      "description": "Aumenta la RES de Aliados en todas las Batallas en 60 (solo se aplica a Aparecidos)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/losan-kleth.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

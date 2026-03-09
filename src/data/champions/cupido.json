@@ -1,0 +1,131 @@
+{
+  "slug": "cupido",
+  "name": "Cupido",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker pareja de Venus, con Quemar HP",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "cruel",
+    "matador",
+    "percepcion",
+    "piel-de-piedra",
+    "despiadado",
+    "mercurial"
+  ],
+  "uses": "Arena con piel de piedra, arañas o limpiar oleadas. Sólo no es tan top, con Venus hacen una pareja de ",
+  "stats": {
+    "hp": 18825,
+    "speed": 107,
+    "attack": 1520,
+    "defense": 804,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Rompecorazones (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "2.5xATK",
+      "description": "Ataca a todos los enemigos. El daño aumenta en un 15% si el objetivo tiene algún debufo",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llamas de pasión (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad Bufo / Debufo +10%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Cada golpe tiene un 75% de posibilidades de aplicar un debufo de [Quemar HP] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llamarada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "6.6xATK",
+      "description": "Aplica un bufo de 50% [Aumentar ATK] en este Campeón, luego ataca a 1 enemigo. Tiene un 50% de posibilidades de aplicar un [Quemar HP] en todos los enemigos durante 2 turnos si este ataque mata a un enemigo. Este debufo no puede ser resistido.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": " Aumenta el ATK de aliados en todas las batallas en un 33%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/cupido.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

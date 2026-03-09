@@ -1,0 +1,107 @@
+{
+  "slug": "barbalarga",
+  "name": "Barbalarga",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Campeón de apoyo con cargas.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "reflejo",
+    "incansable",
+    "impulso"
+  ],
+  "uses": "Caballero de Fuego principalmente para romper el escudo",
+  "stats": {
+    "hp": 17835,
+    "speed": 97,
+    "attack": 1409,
+    "defense": 980,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Fuerza imparable (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Ignorará los bufos de [Escudo] y [Bloquear daño].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Maldición de fragilidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "6.3xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de 25% [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia de la Horda",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "description": "Ataca a 1 enemigo con 4 aliados. Aumenta el daño infligido por los aliados en un 20%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de aliados en mazmorras en un 23%."
+    }
+  ],
+  "lore": "Como chamán de los Cambiapieles, en el nacimiento de Ghaar Khan, los signos divinos indicaban que consolidaría a los clanes de los Cambiapieles dispersos en una horda. A medida que Ghaar creció, se reveló la verdad de la profecía. Al derrotar a sus enemigos, formar alianzas y ganar la lealtad de los demás, logró unir o someter a las varias grandes tribus nómadas bajo su gobierno. En el Consejo de Ancianos, fue reconocido como 'Khan' y dotado con una maza hecha de la cabeza de la Sagrada Oveja, el símbolo de poder y poder de los Cambiapieles.",
+  "forms": null,
+  "image": "/src/assets/champions/barbalarga.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

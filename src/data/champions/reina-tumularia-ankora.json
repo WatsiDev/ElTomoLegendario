@@ -1,0 +1,131 @@
+{
+  "slug": "reina-tumularia-ankora",
+  "name": "Reina Tumularia Ankora",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Gran campeón de Apoyo con limpiezas y revivir",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=lVS5939VO8E",
+  "blessings": [
+    "polimorfar"
+  ],
+  "relics": [
+    "crisalida_de_renacer",
+    "corazon_volcardiaco",
+    "arpa_de_kasbiel",
+    "elixir_dorado",
+    "efigie_demoniaca",
+    "infernosfera",
+    "dedo_real",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "impulso",
+    "apoyo",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Muy buena en casi todo. No es el mejor revividor pero hace el trabajo en oleadas, jefes o arenas con Narses",
+  "stats": {
+    "hp": 20805,
+    "speed": 111,
+    "attack": 980,
+    "defense": 1211,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Necrodisparo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/Debufo +10%"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de reducir 2 turnos el tiempo de reutilización de una de las habilidades de un aliado aleatorio (excepto este campeón). \n\nSi el Rey Tumulario Narses está en el mismo grupo y tiene alguan habilidad en tiempo de reutilización, reduce 2 turnos el tiempo de reutilización de una de sus habilidades. \n\nSi el Rey Tumulario Narses está en el mismo grupo y no tiene ninguna habilidad en tiempo de reutilización, reduce 2 turnos el tiempo de reutilización de una habilidad de un aliado aleatorio (excepto este campeón) \n\nSi el tiempo de reutilización de una habilidad se reinicia completamente, cura a dicho aliado el 10% del MAX HP de este campeón",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escudo de Emaria",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados y les aplica un bufo de [Escudo] del 25% de MAX HP de este campeón durante 2 turnos. \n\nSi el Rey Tumulario Narses está en el mismo grupo, también aplica un bufo del 25% de [Fortalecer] a todos los aliados durante 2 turnos. Luego llena un 10% las Barras de Turno de todos los aliados",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Levántate, amor mío",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Revive a un aliado con el 50% de HP y el 75% de barra de turno. Reinicia los tiempo de reutilización de las habilidades del aliado revivido. Si el objetivo es el Rey Tumulario Narses, lo revive con el 75% de HP y el 100% de Barra de Turno en vez de lo anterior. Después de revivirlo, reduce un 10% las barras de turno de todos los enemigos. \n\nSi el Rey Tumulario Narses es revivido, la reducción de barras de turno es del 20% en lugar del 10%. Este efecto no se puede resistir.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Reina Consorte (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "description": "Siempre que un enemigo intenta aplicar un debufo de [Miedo], [Miedo de Verdad], [Congelar], [Incitar], [Dormir], [Aturdir] o [Petrificación], al aliado con más D.Crit, traspasa dichos debufos a este campeón. Llena el 50% de barra de turno de este campeón si este campeón pierde su turno debido a uno de dichos debufos. \n\nAl comienzo del turno de este campeón, elimina todos los debufos de [Miedo], [Miedo de Verdad], [Congelar], [Incitar], [Dormir], [Aturdir] o [Petrificación] de este campeón si el Rey Tumulario Narses está en el mismo grupo. \n\nSi hay varios campeones en el grupo con esta habilidad, solo se activa una",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%"
+    }
+  ],
+  "lore": "En épocas pasadas, el Imperio Dragonkin expandió sus territorios en parte al absorber incontables reinos y territorios más pequeños. Uno de ellos fue el reino humano de Emaria. Situado a lo largo de las escarpadas costas de Peltas, al oeste del Monte del Trueno, Emaria era un estado pequeño pero orgulloso. No estaba en absoluto preparado para resistir el poder del Imperio Dragonkin y accedió a su propia anexión. Tres generaciones después, la antigua línea real de Emaria todavía existía, aunque como familia noble se le permitió seguir viviendo a placer del Imperio Dragonkin. Su descendiente, Ankora, no estaba nada contenta de que sus antepasados ​​hubieran sido depuestos, y también era lo suficientemente sabia como para saber que no había esperanza en desafiar abiertamente a los Dragonkin.\n\n Las cosas cambiaron cuando el Imperio intentó conquistar otro reino humano, llamado Vald, que estaba gobernado por un joven rey llamado Narsés. Lleno de orgullo y vigor, Narsés rechazó a los diplomáticos de los Dragones y declaró la guerra. Durante tres años, los Dragones intentaron invadir Vald, sin éxito. Narsés demostró ser un astuto estratega y, a medida que la guerra se prolongaba, el Imperio buscó medios alternativos para someterlo. Recurrieron a Ankora.\n\n Ankora debía actuar como mediadora entre Vald y los dragones y convencer a Narsés de que su incorporación al seno del Imperio no sería el fin de su legado ni de sus privilegios. Ankora estaba entusiasmada por cruzar el estrecho y conocer al rey que era una espina clavada en el costado del Imperio.\n\n Lo que ocurrió en Vald no fue lo que ella esperaba, aunque el resultado fue en líneas generales lo que los Dragones habían esperado. Desde su primer encuentro, Ankora y Narsés se enamoraron el uno del otro; la belleza, la inteligencia y el aplomo de la heredera emariana tocaron la fibra sensible del gobernante de Vald, mientras que la confianza y el humor de Narsés sorprendieron a Ankora, que esperaba solo formalidades reales en sus reuniones con él. Por su parte, Narsés estaba verdaderamente enamorado. Podía enumerar las virtudes y talentos de su contraparte durante horas y horas, maravillándose de su curación de la fiebre mental cada vez peor de su prima favorita con magia emariana y la forma en que deshizo los planes de sus consejeros 'menos solidarios' y frustró a aquellos que entregarían el reino a los Dragones. Ankora admiraba profundamente la determinación y el compromiso de Narsés, y pronto comenzó a apoyarlo en todo, incluso si eso significaba decirle palabras dolorosamente sinceras. Esto solo aumentó el respeto del rey por ella.\n\n Los dos pronto estaban tramando una forma de sellar su unión y ganar algo contra los Dragonkin. Ankora era más tranquila y reflexiva que Narsés y, lo más importante, conocía el Imperio Dragonkin y cómo funcionaba. Ella lo convenció de que, a pesar de todas sus habilidades, Narsés no podría ganar una guerra prolongada contra él. En cambio, le mostró una forma de lograr sus propios objetivos mientras convencía al Imperio de que había ganado.\n\n La propuesta que presentaron a los Dragones era audaz pero clara. Narsés entregaría para siempre el reinado de Vald y este pasaría a formar parte del Imperio. Sin embargo, él sería nombrado gobernador del nuevo territorio. Además, Ankora asumiría las mismas obligaciones para Emaria. Se casarían y la pareja gobernaría los dos feudos como uno solo, Valdemar, en nombre del Imperio.\n\n Los dragones aceptaron. Narsés y Ankora fueron designados como los primeros soberanos humanos de su imperio.\n\n La pareja gobernó durante muchas décadas desde la capital que establecieron en la isla de Zetra, en medio de lo que se conocería como el estrecho de Valdemar. Cuando se acercaban al final de sus vidas, decidieron morir juntos e hicieron un juramento sobre un frasco mágico lleno de su sangre mezclada de que pasarían la eternidad como compañeros.\n\n La afirmación era más que una fantasía romántica: tomaron veneno y perecieron juntos. Con el paso de los años, la soberanía de Valdemar fue barrida con la caída del Imperio Dragonkin y Zetra quedó en ruinas. Sin embargo, las leyendas de los amantes muertos persistieron, lo suficiente como para provocar una discreta expedición a las estériles costas de Zetra muchos siglos después.\n\n La mayor de las Caballeros Aparecidos, la Madre Cibeles, desenterró la gran tumba de la pareja. Con invocaciones que solo conocen los Pastores de Almas, activó el hechizo que encantó el frasco que Ankora aún agarraba en su mano arrugada y parcialmente momificada. Tanto Ankora como Narsés despertaron, y los dos antiguos gobernantes se levantaron lentamente ante el Caballero Aparecidos.\n\n La Madre Cibeles les explicó la naturaleza de la inmortalidad de los no-muertos. Estaban asombrados por el poder que ejercía, la capacidad de engañar a la muerte misma, y ​​estaban más que encantados de haber resucitado juntos. Deseando aprender más, aceptaron conocer al propio Losan K'Leth.\n\n El señor de los Caballeros Aparecidos les mostró una falsa deferencia, afirmando que tenía la intención de ayudar a restablecer Valdemar como un gran estado. Al mismo tiempo, los sondeó para que supieran algo sobre los antiguos dragonantes, ya que había enviado a Cybele a buscarlos con la esperanza de que compartieran el conocimiento arcano que se había perdido desde la caída del Imperio.\n\n Mientras K'Leth aprende de ellos, Ankora y su marido seguirán siendo sus aliados de honor. Por su parte, los antiguos gobernantes de Valdemar están felices de esperar el momento oportuno con su nuevo anfitrión, descubriendo todo lo que puedan de la Teleria moderna. Sobre todo, esperan dominar las artes nigrománticas, y Ankora en particular pretende resucitar a sus descendientes, forjando una dinastía de no muertos que reinará sobre algo más que Valdemar por la eternidad.",
+  "forms": null,
+  "image": "/src/assets/champions/reina-tumularia-ankora.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

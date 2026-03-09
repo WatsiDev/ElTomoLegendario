@@ -1,0 +1,109 @@
+{
+  "slug": "renobestia",
+  "name": "Renobestia",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Tanque defensivo útil para aguante",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "infernosfera",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Facciones como revividor a falta de algo mejor. En early nada",
+  "stats": {
+    "hp": 18660,
+    "speed": 94,
+    "attack": 826,
+    "defense": 1233,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Azotar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de 15% [Curación continua] en el aliado con el HP más bajo durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Abrir en Canal (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3.1xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Revive un aliado aleatorio con HP completo si este ataque mata al enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Brilla (Pasiva) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Cuando un aliado es atacado, aplica un bufo de [Escudo] igual al 35% del HP MÁXIMO de este Campeón en ese aliado durante 2 turnos. Se produce una vez por turno. No colocará un bufo [Escudo] en este Campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Un paria entre los parias, la supervivencia de Renobestia es tanto un milagro como un testimonio de su fuerza y ​​determinación. Nacido en las profundidades más oscuras del bosque de Durkham en una fría mañana de invierno, fue inmediatamente marcado por el extraño color de su abrigo y una nariz roja brillante. Durante toda su infancia, tuvo que luchar contra todos aquellos que lo verían expulsado. Sin embargo, las palizas y la crueldad solo endurecieron a la pobre criatura y le enseñaron a mantenerse erguido y orgulloso sin importar las dificultades. Pero en una noche de tormenta, cuando el viento aullaba como un dragón herido entre los retorcidos y retorcidos árboles de Durkham, y una terrible tormenta de nieve barría la tierra, su destino cambió para siempre. Obligado a la noche por el jefe de su tribu en una misión de tontos que sin duda tenía la intención de verlo muerto, Renobestia se encontró con una visión muy confusa. Un trineo lleno de objetos extraños estaba allí, envuelto en hielo, y un hombre vestido con una armadura de plata y rojo trabajó incansablemente para reparar el daño. Una pequeña manada de renos se estremeció a su lado, fría y cansada, incapaz de tirar del pesado carro. Aunque sospechoso al principio, fue movido por la luz pura que parecía emanar de ese misterioso humano, y el cuidado que mostró al tratar de ayudar a sus corceles agotados. Se acercó con cautela y ofreció ayuda en una lengua común quebrada. Para su sorpresa, las propias palabras del hombre retumbaron en su mente fuerte y clara, como si fueran pronunciadas por una de sus propias personas. Sir Nicholas, como se presentó el extraño, estaba muy agradecido por la ayuda. Y Renobestia ahora colocada al frente, sus propios renos finalmente lograron liberar el trineo y seguir su camino. Con magia más allá de lo imaginable, cruzaron Teleria en una sola noche para recompensar a los justos y castigar a los malvados, con la nariz brillante de Renobestia liderando su camino. No fue una sorpresa que cuando se le ofreció un solo deseo de su ayuda desinteresada, pidió permanecer al servicio de Sir Nicholas, y por lo tanto ha permanecido durante siglos, arrastrando el poderoso trineo a través de ventiscas y tormentas, y luchando al lado de Sir Nicholas cuando surgió tal necesidad.",
+  "forms": null,
+  "image": "/src/assets/champions/renobestia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

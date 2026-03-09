@@ -1,0 +1,139 @@
+{
+  "slug": "ailil",
+  "name": "Ailil",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Nuker con mecánicas interesantes",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=_SHj9WRx7sA",
+  "blessings": [
+    "segar-almas",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "colmillo_asesino",
+    "invocatormentas",
+    "pasion_codiciosa",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "luna_de_sangre"
+  ],
+  "gear": [
+    "salvaje",
+    "despiadado",
+    "letal",
+    "cruel"
+  ],
+  "uses": "Principalmente arenas, aunquue no es meta",
+  "stats": {
+    "hp": 15690,
+    "speed": 105,
+    "attack": 1630,
+    "defense": 903,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Guadaña Retorcida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "2.9xATK",
+      "description": "Ataca a 1 enemigo. Roba todos los bufos del objetivo la primera vez que este Campeón lo golpea con esta habilidad. Este efecto no se puede resistir.\n\n En ataques futuros a un mismo enemigo con esta habilidad, no se robarán bufos. En vez de eso, el daño aumentará un 10 % por cada bufo en el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Perforar el Caparazón (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "piel-de-piedra"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Ignora los bufos de [Fortalecer], [Piel de piedra], [Aumentar DEF] y [Protección de aliados].\n\n Si este ataque mata a un enemigo, cura por completo a este Campeón y le aplica un bufo de [Piel de piedra] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Viento Helado de Otoño (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "3.4xATK",
+      "description": "Ataca a todos los enemigos.\n\n Antes de atacar, elimina cualquier bufo de [Aumentar DEF] en cada objetivo y la reemplaza con una desventaja del 60 % [Reducir DEF] durante 2 turnos. También elimina las ventajas de [Fortalecer] en cada objetivo y las reemplaza con una desventaja del 25 % [Debilitar] durante 2 turnos.\n\n Aplica un debufo de [Bloquear bufos] durante 1 turno en los enemigos que no tienen un bufo de [Aumentar DEF] o [Fortalecer] antes de atacar.\n\n La eliminación de bufos y la aplicación de debufos no se pueden resistir.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza Natural (Pasiva) ",
+      "levels": [],
+      "description": "Aumenta el HP de este Campeón en 2000 y la DEF en 100 por cada 1000 ATK que tenga.\n\n Llena la barra de turno de este campeón en un 10% cada vez que recibe un bufo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la P.Crit. de los aliados en todas las batallas en un 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ailil.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

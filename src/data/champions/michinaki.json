@@ -1,0 +1,137 @@
+{
+  "slug": "michinaki",
+  "name": "Michinaki",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Nuker de DEF con útiles debufos",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=SDxBh_FLTQs",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "bestial"
+  ],
+  "uses": "Principalmente muy bueno en Hydra, aunque bastante versátil en PvE en general",
+  "stats": {
+    "hp": 19650,
+    "speed": 101,
+    "attack": 804,
+    "defense": 1465,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ataduras Ardientes (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aplicar un debufo de [Quemar HP] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espiral Funesta (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.9xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de probabilidad de aplicar un debufo del 60 % [Reducir DEF] durante 2 turnos. También tiene un 75 % de probabilidad de aplicar un debufo del 50 % [Reducir ATK] durante 2 turnos a los enemigos bajo debufos de [Maleficio].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Degeneración Doble (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        }
+      ],
+      "multiplier": "2.1xDEF",
+      "description": "Ataca a todos los enemigos 2 veces. El primer golpe elimina todos los bufos de cada objetivo. El segundo golpe aplica un debufo [Maleficio] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caza Maldiciones (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que un aliado ataca a un enemigo bajo un debufo de [Maleficio], este campeón tiene un 50% de probabilidad de formar equipo y unirse al ataque del aliado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": {
+    "type": "def",
+    "description": "Aumenta la DEF de los aliados en 30% en todas las batallas."
+  },
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/michinaki.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

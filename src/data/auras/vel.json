@@ -1,0 +1,6 @@
+{
+  "name": "Velocidad",
+  "slug": "vel",
+  "icon": "/src/assets/icons/auras/Speed.png",
+  "image": "/src/assets/icons/auras/large/Speed.png"
+}

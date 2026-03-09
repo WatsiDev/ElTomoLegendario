@@ -1,0 +1,118 @@
+{
+  "slug": "centinela-sepulcral",
+  "name": "Centinela Sepulcral",
+  "faction": "Aparecidos",
+  "rarity": "Épico",
+  "role": "Campeón de Apoyo con buenos bufos y debufos para jefes",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "rocadragon_dorada",
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": "Facciones y se usaba en Señor Demoníaco",
+  "stats": {
+    "hp": 16185,
+    "speed": 98,
+    "attack": 903,
+    "defense": 1321,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Espada de marchitar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufos +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufos +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufos +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escudo de sepulcro",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Aplica un bufo del 60% [Aumentar DEF] y una bufo [Bloquear debufos] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sin tocar por la muerte (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufos +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufos +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufos +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufos +10%"
+        }
+      ],
+      "description": "Tiene un 25% de probabilidad de bloquear completamente el daño recibido cuando este Campeón o sus aliados son atacados. Ocurre una vez por turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 25%."
+    }
+  ],
+  "lore": "Innumerables criptas y mausoleos malditos yacen ocultos en las Tierras Baldías de Ventormenta. Atraen a los necios mortales con la promesa de poder, riqueza o incluso la vida eterna, y aquellos que caen en esta trampa a menudo terminan pagando con su vida o, consciente o inconscientemente, desatando cualquier mal que haya en el mundo. Pero mientras que el hechicero o renegado ocasional solo presenta un peligro marginal, los temidos Caballeros Aparecidos  tienen tanto mano de obra como conocimiento esotérico en abundancia: las pérdidas sufridas al explorar tumbas antiguas son insignificantes para ellos. Muchos secretos terribles cayeron en manos de los Caballeros Aparecidos  a lo largo de los siglos de su existencia, pero pocos igualarían al Sepulcro de Gorak-Kha la Serpiente, un Señor Demonio que lideró la primera invasión de Teleria. Aunque la Mediadora, en la cima de su poder en aquellos tiempos antiguos, había matado a Gorak-Kha en combate personal y destruido su espíritu impío, los sectarios mortales que sentarían las bases para los Caballeros Aparecidos de hoy lograron recuperar lo que quedaba de la cuerpo de gran demonio. Jurando guardar el secreto, lo enterraron en un sarcófago de obsidiana encantada en las profundidades de la tierra. Y aunque pasaron milenios desde esa fatídica batalla, el poder de Gorak-Kha aún reside en el plano mortal. Los Caballeros Aparecidos guardan celosamente la cripta, y los Centinelas Sepulcrales de élite están a cargo de su defensa. Estos guerreros de corazón oscuro han repelido innumerables asaltos iniciados por cultos rivales, Señores No Muertos, mercenarios e incluso bandas de Campeones de Lumaya. El poder de Gorak-Kha les otorga dones impíos, algunos endurecen la armadura de los Centinelas para que pueda rechazar incluso el golpe o hechizo más cruel, otros les permiten debilitar al enemigo con solo un toque. No solo eso, los Centinelas Sepulcrales a menudo llevan pequeñas fichas tomadas de las ofrendas dejadas en la tumba de su Overlord, que extienden las «bendiciones» de Gorak-Kha a aquellos que luchan codo a codo con su elegido.",
+  "forms": null,
+  "image": "/src/assets/champions/centinela-sepulcral.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "shredder",
+  "name": "Shredder",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Poderoso nuker con habilidades para cada caso",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=eAJfuICeANw",
+  "blessings": [
+    "desgarro-aplastante",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "luna_de_sangre",
+    "varita_de_sumision",
+    "pasion_codiciosa",
+    "colmillo_asesino",
+    "sombra_encaramada",
+    "vial_del_sombrerero",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "despiadado",
+    "inmortal",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Facciones, oleadas, arenas.",
+  "stats": {
+    "hp": 23130,
+    "speed": 103,
+    "attack": 914,
+    "defense": 1123,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Furi de Saki (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
+      ],
+      "multiplier": "0.1xHP",
+      "description": "Ataca a 1 enemigo 3 veces.\n\n El segundo y tercer ataque de esta habilidad ignoran un 5% y un 10% de DEF respectivamente. El segundo y tercer ataque de esta habilidad hacen un 10% y un 20% más de D.Crit respectivamente.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Shinobi de Sombra (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "0.16xHP",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n Cada crítico destruye un 5% de DEF del enemigo (se acumula hasta el 30%). Cada ataque también aumenta un 5% MAX HP de este campeón (se acumula hasta el 30%).\n\n Cada ataque tiene un 75% de probabilidad de aplicar un debufo de [Chupar Sangre] durante 2 turnos. Este debufo no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto]",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Esto si es Ninjutsu (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "0.27xHP",
+      "description": "Ataca a todos los enemigos. Antes de atacar, roba todos los bufos de un solo objetivo. Este efecto no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto]. Llena un 15% la barra de turno de este campeón por cada bufo robado.\n\n Ignora el 15% de DEF y bufo de [Escudo] y [Bloquear Daño]. Si este campeón tiene un bufo de [Velo] o [Velo Perfecto], ignora el 30% de DEF en lugar del 15%",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tirano Dimensional (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "description": "[Efecto Activo]\n\n Reduce un 30% todo el daño recibido. Este daño se reparte a partes iguales entre todos los aliados, excepto este campeón.\n\n Este campeón hace un 15% más de daño por cada aliado muerto.\n\n[Efecto Activo]\n\n Siempre que este campeón pierde un 20% de MAX HP en un ataque, tiene un 100% de probabilidad de Evitar el siguiente ataque. Cuando se activa este efecto garantizado de Evitar, aplica un bufo de [Velo Perfecto] a este campeón durante 2 turnos y tiene un 50% de aplicar un debufo de [Miedo de Verdad] a todos los enemigos durante 1 turno. El debufo de [Miedo de Verdad] no se puede resistir.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/shredder.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

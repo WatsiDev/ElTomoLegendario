@@ -1,0 +1,100 @@
+{
+  "slug": "castigador",
+  "name": "Castigador",
+  "faction": "Orden Sagrada",
+  "rarity": "Raro",
+  "role": "Healer con algo de control.",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "sobrevivir"
+  ],
+  "relics": [],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "velocidad",
+    "resiliencia",
+    "inmortal"
+  ],
+  "uses": "Early y mid. Es decente, pero en late game no sé yo hasta qué punto se usaría.",
+  "stats": {
+    "hp": 18990,
+    "speed": 95,
+    "attack": 859,
+    "defense": 903,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Castigar (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 25% de probabilidad de aplicar un debufo de [Incitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Equidad Sagrada",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.2xHP",
+      "description": "Cura un 20% de MAX HP de este campeón al aliado con menos HP, equilibra los niveles de HP de todosl os aliados y obtén un turno adicional.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rebufear (Pasiva)",
+      "levels": [],
+      "description": "Sufre un 15% menos de daño de enemigos que tienen un debufo de [Incitar]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/castigador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

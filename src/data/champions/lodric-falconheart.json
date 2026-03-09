@@ -1,0 +1,134 @@
+{
+  "slug": "lodric-falconheart",
+  "name": "Lodric Falconheart",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Campeón de apoyo defensivo capaz de poner escudos de 2 turnos durante 2 turnos",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "abanico_negro",
+    "impasse_temporal"
+  ],
+  "gear": [
+    "apoyo",
+    "escudo",
+    "vida",
+    "vida-divina",
+    "inmortal",
+    "resiliencia"
+  ],
+  "uses": "Early-mid game, y contra el Escabajo de la Torre del Destino",
+  "stats": {
+    "hp": 18825,
+    "speed": 96,
+    "attack": 947,
+    "defense": 1101,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Consternar (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aplicar un debufo del 50% [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resistir",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Elimina todos los debufos de un aliado y le aplica un bufo de 50% de [Protección de Aliado] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alas de Halcón",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] en todos los aliados durante 2 turnos equivalente al 20% del HP MÁXIMO de este campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta los HP de los aliados en la Torre del Destino en un 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lodric-falconheart.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

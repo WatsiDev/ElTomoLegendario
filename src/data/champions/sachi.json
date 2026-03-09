@@ -1,0 +1,152 @@
+{
+  "slug": "sachi",
+  "name": "Sachi",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Nuker de apoyo con revivir y debufos, pero que necesita daño",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "elixir_dorado",
+    "lente_intangible"
+  ],
+  "gear": [
+    "aturdir",
+    "salvaje",
+    "letal",
+    "percepcion",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Facciones, y en general en mazmorras",
+  "stats": {
+    "hp": 14865,
+    "speed": 102,
+    "attack": 1222,
+    "defense": 1090,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Barrido de hoz (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "2.65xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 40% de probabilidad de aplicar un debufo del 50% [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Perforar corazones (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "red-p-crit-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "4.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de colocar un debuff de [Reducir P.Crit] y un debuff de [Chupar Vida] del 30% durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Emboscada en las sombras (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "4.9xATK",
+      "description": "Aplica un bufo del 50% [Aumentar ATK] en todos los aliados durante 2 turnos, luego ataca a 1 enemigo. Llena las barras de turno de todos los aliados en un 20% si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Falsa Muerte (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "description": "Revive a un aliado aleatorio con un 30% de HP cada vez que este Campeón mata a un enemigo. Tiene un 50% de probabilidad de colocar un debuff de [Miedo] en todos los enemigos durante 1 turno cada vez que un aliado revive.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sachi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

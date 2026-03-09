@@ -1,0 +1,154 @@
+{
+  "slug": "oboro",
+  "name": "Oboro",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Nuker y debufer, con usos en Hydra",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=lqHiWN12seU",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "garra_malefica",
+    "malleos_de_fuego",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "cruel",
+    "ataque",
+    "despiadado",
+    "letal"
+  ],
+  "uses": "Antes en Hydra. A día de hoy ha quedado antigua. Quizá facciones pero no hace nada destacable",
+  "stats": {
+    "hp": 15360,
+    "speed": 101,
+    "attack": 1454,
+    "defense": 826,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Esparcir el Caos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4.2xATK (Objetivo Único) y 2.6xATK (AoE)",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. Atacará a todos los enemigos en su lugar si el objetivo tiene menos de 4 o más debuffs.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Humo Místico",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "3.15xATK",
+      "description": "Ataca a 1 enemigo 2 veces. El segundo golpe tiene un 75% de posibilidades de transferir todos los debuffos de este campeón al objetivo. El primer golpe tiene un 75% de probabilidad de robar todos los buffos del objetivo cuando ataca bajo [Velo] o [Velo perfecto].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Artes de Ninja",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "5.6xATK",
+      "description": "Aplica un bufo del 30% [Aumentar P.Crit] y un bufo del 30% [Aumentar D.Crit] en este campeón durante 2 turnos, luego ataca a 1 enemigo. Coloca un bufo de [Velo perfecto] en este campeón durante 2 turnos si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desvanecer (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Aplica un bufo de [Revivir al morir] en este campeón durante 3 turnos cada vez que recibe un bufo de [Velo] o [Velo perfecto].",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en las mazmorras en un 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/oboro.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "ilysinya",
+  "name": "Ilysinya",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Campeón de apoyo con escudos y Bloquear Bufos a enemigos",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [
+    "escudo",
+    "inmortal",
+    "apoyo",
+    "velocidad",
+    "percepcion",
+    "proteccion"
+  ],
+  "uses": "Hydra y mitigación de daño en general. Parte de la fusión de Mikage",
+  "stats": {
+    "hp": 21480,
+    "speed": 98,
+    "attack": 749,
+    "defense": 1123,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lancera (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de robar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Luz Excoriante (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "0.24xHP",
+      "description": "Ataca a todos los enemigos.\n\n Antes de atacar, tiene un 50% de probabilidad de eliminar todos los bufos de [Bloquar Debufos] de todos los enemigos.\n\n Después de atacar, tiene un 50% de probabilidad de aplicar un debufo de [Bloquear Bufos] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escudo de Aravia",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "fortalecer-1"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] a todos los aliados del 20% de MAX HP de este campeón durante 2 turnos.\n\n También aplica un bufo de 15% de [Fortalecer] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Nobleza Inviolable (Pasiva)",
+      "levels": [],
+      "description": "Cura a este campeón el 30% de su MAX HP siempre que un bufo de [Escudo] aplicado por la habilidad Escudo de Aravia a este campeón vence, es eliminado o se rompa con un ataque enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ilysinya.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

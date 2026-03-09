@@ -1,0 +1,150 @@
+{
+  "slug": "chani",
+  "name": "Chani",
+  "faction": "Sombrios",
+  "rarity": "Épico",
+  "role": "Bufer y debufer de nicho.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "cruel",
+    "punteria",
+    "percepcion",
+    "velocidad"
+  ],
+  "uses": "Dragon, Torre del Destino, oleadas o facciones",
+  "stats": {
+    "hp": 13875,
+    "speed": 96,
+    "attack": 1432,
+    "defense": 947,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Flecha Insidioso (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10% "
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "sensibilidad-al-veneno-1"
+        }
+      ],
+      "multiplier": "3.4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aplicar un debufo de 25% de [Sensibilidad al Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuego del Alma (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "multiplier": "5.5xDEF",
+      "description": "Aplica un bufo de 50% de [Aumentar PUNT] y un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos y luego ataca a 1 enemigo. Aplica un dbeufo de [Quemar HP] durante 2 turnos si este ataque es crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lluvia de Miseria",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aumentar 1 turno la duración de todos sus debufos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Disparo Infalible (Pasiva)",
+      "levels": [],
+      "description": "Inmune a debufos de [Reducir PUNT].\n\n Aumenta P.Crit de este campeón un 0.05% por cada punto de PUNT que tenga.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en todas las batallas en 40."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/chani.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

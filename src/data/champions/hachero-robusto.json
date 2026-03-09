@@ -1,0 +1,105 @@
+{
+  "slug": "hachero-robusto",
+  "name": "Hachero Robusto",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Campeón de apoyo con algún bufo defensivo",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    ""
+  ],
+  "gear": [],
+  "uses": "Campeón bastante de nicho e inútil",
+  "stats": {
+    "hp": 19155,
+    "speed": 94,
+    "attack": 859,
+    "defense": 892,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 55
+  },
+  "skills": [
+    {
+      "name": "No Pasarán (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rechazar la Horda",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "reflejar-dano-2"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Aplica un bufo de 15% de [Reflejar Daño] a este campeón durante 2 turnos. Tiene un 85% de probabilidad de aplicar un bufo de 15% de [Reflejar Daño] a un aliado al azar durante 2 turnos. \n\nTambién tiene un 35% de probabilidad de aplicar un debufo de [Incitar] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vivir del Peligro (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "description": "Cura a este campeón el 50% del daño sufrido si tiene un bufo de [Reflejar Daño]. También tiene un 25% de probabilidad de aumentar 1 turno la duración de todos los debufos del atacante al ser atacado si tiene un bufo de [Reflejar Daño].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/hachero-robusto.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

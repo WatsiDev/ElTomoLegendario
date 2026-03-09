@@ -1,0 +1,142 @@
+{
+  "slug": "madre-cybele",
+  "name": "Madre Cybele",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Apoyo con curaciónes y curas así como algo de debufos",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=f-dceIKOwP4",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "efigie_demoniaca",
+    "impasse_temporal",
+    "dedo_real",
+    "corona_lugubre"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 18990,
+    "speed": 115,
+    "attack": 969,
+    "defense": 1343,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Máscara de Pavor (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 25% de probabilidad de aplicar un debufo del 30% [Reducir VEL] durante 2 turnos. También llena el barra de turno de este campeón en un 15%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pastora de almas",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Revivir al morir] y un buff del 60% [Aumentar DEF] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Traspaso Insólito",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "curacion-continua"
+        }
+      ],
+      "description": "Intercambia HP con un aliado. Si el HP de este Campeón es igual o mayor que el HP del objetivo después del intercambio, llena el Medidor de Turno de este Campeón en un 40%, aplica un bufo del 30% [Aumentar VEL] a este Campeón durante 2 turnos y aplica un bufo de [Bloquear Daño] sobre el aliado objetivo durante 1 turno. Si el HP de este Campeón es menor que el HP del objetivo después del intercambio, llena la barra de turno del objetivo en un 40%, aplica un bufo de [Aumentar VEL] del 30% en el objetivo durante 2 turnos y aplica un bufo de [Bloquear de Daño] en este Campeón por 1 turno. También aplica un bufo del 15% de [Curación continua] en este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caminante Tumularia (Pasiva)",
+      "levels": [],
+      "description": "Cura completamente al aliado con el menor HP cada vez que este Campeón muere. Cura a todos los aliados en un 20% de su MAX HP y llena sus barras de turno en un 15% cada vez que este Campeón revive.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de todos los aliados en todas las batallas en 24%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/madre-cybele.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

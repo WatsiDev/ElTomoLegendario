@@ -1,0 +1,130 @@
+{
+  "slug": "athel",
+  "name": "Athel",
+  "faction": "Orden Sagrada",
+  "rarity": "Raro",
+  "role": "Nuker capaz de autobufos",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "lente_intangible"
+  ],
+  "gear": [
+    "punteria",
+    "percepcion",
+    "salvaje",
+    "cruel",
+    "robar-vida"
+  ],
+  "uses": "Campeón inicial que te ayudará en las primeras semanas de juego, pero no vale para gran cosa en el mid o late game.",
+  "stats": {
+    "hp": 13545,
+    "speed": 104,
+    "attack": 1189,
+    "defense": 936,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Abolir (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 8: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "1.3xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 75% de aplicar un debufo de 25% de [Debilitar] durante 2 turnos",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Espadas Divinas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "4.1xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 15% adicional de hacer golpe crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendicion Superior",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-1"
+        },
+        {
+          "key_name": "aumentar-def-1"
+        }
+      ],
+      "description": "Aplica un bufo de 25% de [Aumentar ATK] a este campeón. También aplica un bufo de 30% de [Aumentar DEF] a este campeón si el HP actual de este campeón es menor del 50%. Obtén un turno adicional.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP aliado en todas las batallas en un 15%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/athel.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

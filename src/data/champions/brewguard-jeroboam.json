@@ -1,0 +1,136 @@
+{
+  "slug": "brewguard-jeroboam",
+  "name": "Brewguard Jeroboam",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Tanque protector de aliados con curas y debufos",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=KzSx2arrkA0",
+  "blessings": [
+    "sobrevivir",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "inmortal",
+    "resiliencia",
+    "punteria",
+    "percepcion",
+    "redirigir",
+    "supersonico"
+  ],
+  "uses": "Facciones y early-mid game. No es muy bueno",
+  "stats": {
+    "hp": 18165,
+    "speed": 108,
+    "attack": 870,
+    "defense": 1498,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Choque Vigoroso (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. de Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. de Bufo/Debufo +10%"
+        }
+      ],
+      "multiplier": "1.6xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 35% de probabilidad de reducir 1 turno el tiempo de reutilización de una habilidad de un aliado al azar. Si reduce el tiempo de reutilización de la habilidad de un aliado, también llena un 10% la Barra de Turno de dicho aliado",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Esta ronda va a mi cuenta",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.24xHP",
+      "description": "Elimina todos los debufos de todos los aliados. Cura a todos los aliados el 15%d e MAX HP de este campeón. También cura a cada aliado un 2% adicional por cada debufo que elimine esta habilidad. Aplica un bufo de [Escudo] a todos los aliados del 15% de MAX HP de este campeón durante 2 turnos. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Últimas órdenes",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Tiene un 75% de probabilidad de aumentar 1 turno la duración de los debufos de todos los enemigos. También tiene un 75% de aumentar la duración de todos los bufos de todos los aliados. Llena un 20% las barras de turno de todos los aliados",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Leyenda Absoluta (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "description": "[Efecto Pasivo] \n\nLos efectos de reducción de Barra de Turno se reducen un 50% al usarse contra este campeón. También llena un 20% la barra de turno de este campeón siempre que se aplica un debufo de [Aturdir], [Congelar], [Dormir], [Incitar], [Miedo], [Miedo de verdad], [Petrificación] u [Oveja] a un aliado. Si hay varios campeones en el grupo con esta habilidad, este efecto solo se activa una vez. \n\n[Efecto Activo] \n\nSiempre que se elimina o vence un debufo de [Aturdir], [Congelar], [Dormir], [Incitar], [Miedo], [Miedo de verdad], [Petrificación] u [Oveja] de un aliado, llena un 20% la barra de turno de dicho aliado. Si hay varios campeones en el grupo con esta habilidad, este efecto se activa solo una vez.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/brewguard-jeroboam.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

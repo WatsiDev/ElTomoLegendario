@@ -1,0 +1,171 @@
+{
+  "slug": "nais-ladron-sombra",
+  "name": "Nais Ladron Sombra",
+  "faction": "Vigías Silvanos",
+  "rarity": "Mítico",
+  "role": "Nuker de HP capaz de cambiar de forma al morir y revivir a aliados. Versátil y con buen daño",
+  "type": "Ataque / HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "llegado-del-cielo"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "garra_malefica",
+    "vial_del_sombrerero",
+    "campana_fundida",
+    "corona_de_ireth",
+    "varita_de_sumision",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "instinto",
+    "despiadado"
+  ],
+  "uses": "Principalmente arenas, pero muy útil en oleadas para limpiar/revivir",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 35%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 19980,
+        "speed": 105,
+        "attack": 1663,
+        "defense": 859,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Rompetodo (HP)(ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "buffDebuff": [
+            "escudo-habilidad"
+          ],
+          "multiplier": "0.26xHP+1.2xATK",
+          "description": "Ataca a 1 enemigo. Ignora bufos de [Escudo], [Inmortal] y [Bloquear Daño]."
+        },
+        {
+          "name": "Andanada Plumanegra (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "multiplier": "3.8xATK",
+          "description": "Ataca a todos los enemigos. Este ataque no activa contraataques e ignora bufos de [Escudo]. También roba el 20% de la Barra de Turno no pueden resisitir este efecto."
+        },
+        {
+          "name": "Presagio de Ladrón (HP)(ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "bloquear-revivir"
+          ],
+          "description": "Ataca a 1 enemigo. Hace el doble de daño a Jefes.\n\n Destruye un 10% de MAX HP del objetivo y reduce un 10% su ATK, DEF, VEL, RES y PUNT la primera vez que este campeón usa esta habilidad contra dicho objetivo. Este efecto no funciona contra jefes.\n\n Este campeón obtiene +10% de HP, ATK, DEF, RES, VEL y PUNT cada vez que reduce los atributos de un enemigo con esta habilidad.\n\n Por último, aplica un debufo de [Bloquear Revivir] si esta habilidad mata al objetivo."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Salvador Reluciente (Pasiva)",
+          "levels": [],
+          "description": "También evita que este campeón muera y le mantiene con vida con 1 HP al sufrir daño letal y luego lo transforma en su forma alternativa."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 21645,
+        "speed": 115,
+        "attack": 1200,
+        "defense": 1211,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Garra Faéricas (HP)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "0.13xHP",
+          "description": "Ataca a 1 enemigo 2 veces. Cada ataque cura a este campeón un 7.5% de su MAX HP. \n\nSi este campeón está al máximo de HP, en lugar de lo anterior cada ataque llena un 15% su barra de turno."
+        },
+        {
+          "name": "Bandada de Cuervos (HP)",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "incitar",
+            "aturdir"
+          ],
+          "multiplier": "0.45xHP",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de [Incitar] durante 1 turno si este campeón tiene más del 50% de HP. Este debufo no se puede ni resistir si el campeón tiene más del 75% del HP.\n\n Si este campeón no tiene más del 50% de HP, en lugar de lo anterior aplica un debufo de [Aturdir] durante 1 turno. Este debufo no se puede resistir."
+        },
+        {
+          "name": "Escudo de Plumas",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 6,
+          "buffDebuff": [
+            "curacion-continua-2",
+            "contraataque",
+            "bloquear-dano"
+          ],
+          "description": "Elimina todos los debufos de este campeón. Aplica un bufo de 15% de [Curación Continua] a este campeón por cada debufo eliminado por esta habilidad.\n\n También aplica un bufo de [Contraataque] y un bufo de [Bloquear Daño] a este campeón durante 2 turnos. Estos bufos no se puden eliminar, robar ni traspasar."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Intervención Faérica (Pasiva)",
+          "description": "Este campeón obtiene un +15% de MAX HP, DEF, VEL, RES y PUNT por cada enemigo y aliado muerto en combate, incluidos los jefes y sus secuaces (se acumula hasta el 100%).\n\n También revive a un aliado al azar con el 50% de HP y el 50% de la barra de turno siempre que este campeón mata a un enemigo."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/nais-ladron-sombra.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

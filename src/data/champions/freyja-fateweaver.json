@@ -1,0 +1,134 @@
+{
+  "slug": "freyja-fateweaver",
+  "name": "Freyja Fateweaver",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Tanque defensivo con control",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "crueldad"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "infernosfera",
+    "rocadragon_dorada",
+    "campana_fundida",
+    "dedo_real",
+    "mascara_de_ira",
+    "aspecto_de_siroth"
+  ],
+  "gear": [
+    "incansable",
+    "exactitud",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Arenas y tanque de oleadas",
+  "stats": {
+    "hp": 20310,
+    "speed": 110,
+    "attack": 815,
+    "defense": 1409,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Lanza Ardiente (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "2.7xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 25 % de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. Contraataca con esta habilidad cuando un bufo de [Escudo] aplicado por este campeón es eliminado con daño. Una vez por turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Aegis Prismático (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "Multiplicador del escudo: 2.5xDEF + 0.1xMAX HP",
+      "description": "Aplica un bufo de [Aumentar DEF] del 60 % a todos los aliados durante 2 turnos. También aplica un bufo de [Escudo] a todos los aliados durante 2 turnos. El valor del [Escudo] es proporcional a la DEF de este campeón y al MAX HP de cada campeón objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tejido de Oro",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "multiplier": "4.1xATK",
+      "description": "Elimina todos los debufos de todos los aliados y les aplica un bufo de [Bloquear debufos] durante 2 turnos. También llena las barras de turno de todos los aliados en un 20 %.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Presencia Divina (Pasiva)",
+      "levels": [],
+      "description": "[Efecto pasivo] \n\nAumenta la DEF de este campeón en un 5 % cada vez que un aliado inflige un golpe crítico [se acumula hasta un 50 %]. \n\n[Efecto activo] \n\nPreviene la muerte del aliado con más D.Crit, excepto este campeón, y lo mantiene con vida con 1 HP cuando recibe un golpe letal. Si hay varios campeones en el equipo con esta habilidad, este efecto solo se activará una vez. Luego, cura a ese aliado en un 20 % de su MAX HP y activa un efecto [Turno instantáneo] sobre él.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/freyja-fateweaver.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

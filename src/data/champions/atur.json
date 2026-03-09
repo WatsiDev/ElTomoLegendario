@@ -1,0 +1,119 @@
+{
+  "slug": "atur",
+  "name": "Atur",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Controlador con incitar",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "mascara_de_ira"
+  ],
+  "gear": [],
+  "uses": "Facciones o Dragón de Magma en Torre del Destino",
+  "stats": {
+    "hp": 19980,
+    "speed": 96,
+    "attack": 826,
+    "defense": 1145,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Salto Rugiente (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "4.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Toro Furioso (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "multiplier": "3.1xDEF",
+      "description": "Ataca 2 veces al azar. Cada ataque tiene un 50% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Más Adrenalina (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 2,
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Cura a este campeón el 15% de su MAX HP y le aplica un bufo de [Contraataque] durante 2 turnos al sufrir un crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pareja Vigilante (Pasiva)",
+      "levels": [],
+      "description": "Inmune a debufos de [Aturdir], [Congelar] y [Dormir]. (Disponible solo si Kallia en está en el mismo grupo)",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/atur.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

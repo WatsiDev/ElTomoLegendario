@@ -1,0 +1,122 @@
+{
+  "slug": "lua",
+  "name": "Lua",
+  "faction": "Elfos Oscuros",
+  "rarity": "Épico",
+  "role": "Nuker capaz de molestar bastante así como daño en área",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "crueldad"
+  ],
+  "relics": [
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "apagador_de_esencia",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "percepcion",
+    "cruel",
+    "salvaje",
+    "despiadado",
+    "letal",
+    "punteria"
+  ],
+  "uses": "Nuker, facciones y oleadas",
+  "stats": {
+    "hp": 14535,
+    "attack": 1564,
+    "defense": 97,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Flecha Fragmentante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "2.7xATK",
+      "description": "Ataca a 1 enemigo. Inflige el 50% del daño infligido a todos los enemigos si este ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Granizo de flechas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel: 2 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 3 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 4 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 5 Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "1.4xATK",
+      "description": "Ataca a todos los enemigos 3 veces. Cada golpe crítico cura a este Campeón en un 2,5% de HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tiro con Suerte (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel: 2 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 3 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 4 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 5 Daño +5%"
+        },
+        {
+          "level_desc": "Nivel: 6 Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "6xATK",
+      "description": "Ataca a 1 enemigo. Este ataque reduce completamente la barra de turno del objetivo. Ignorará los bufos de [Escudo] y [Bloquear Daño].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lua.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

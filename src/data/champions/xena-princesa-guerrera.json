@@ -1,0 +1,117 @@
+{
+  "slug": "xena-princesa-guerrera",
+  "name": "Princesa Guerrera Xena",
+  "faction": "Bárbaros",
+  "rarity": "Legendario",
+  "role": "Nuker de ATK, que fue parte de una campaña promocional",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "segar-almas"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Principalmente arenas, pero no es meta",
+  "stats": {
+    "hp": 15690,
+    "speed": 100,
+    "attack": 1542,
+    "defense": 1046,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Espada de Redención (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Ignorará el 3% de la DEF del objetivo por cada bufo que tiene el objetivo. También ignorará los bufos de [Escudo] si el objetivo tiene menos de 2 o más bufos o debufos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ciclón Chakram (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Ignorará el 5% de la DEF del objetivo por cada bufo en el objetivo. Roba el 20% del barra de turno de cada enemigo. Este efecto no se puede resistir si el objetivo tiene menos de 2 o más bufos o debufos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Látigo del Destino (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "4.1xATK",
+      "description": "Ataca a todos los enemigos. Ignorará el 10% de la DEF del objetivo por cada bufo en el objetivo. Reinicia el tiempo de reutilización de esta habilidad si mata a 2 o más enemigos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Por el bien común! (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "[Efecto pasivo] Aumenta el ATK de este campeón en un 10 % cada vez que usa una habilidad activa (se acumula hasta un 100 %). Se reinicia cada ronda. También tiene un 50% de posibilidades de cambiar aleatoriamente los golpes débiles de este Campeón a golpes normales, fuertes o críticos. La probabilidad aumenta al 100% al atacar enemigos con 2 o más bufos o debufos. \n\n[Efecto activo] Llena la barra de turno de este campeón en un 100 % y aplica un bufo [Aumentar ATK] del 50 % en este campeón durante 1 turno cada vez que se aplican 8 o más bufos en el equipo enemigo en un solo turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Xena, que en su día fue una mercenaria temida y despiadada, aterrorizó las tierras de Peltas, dejando destrucción a su paso por las Estepas Áridas, las Tierras Quemadas y la Cuenca del Infierno. Su violento pasado le dio reputación de ser una de las guerreras más poderosas del continente. Pero todo cambió después de un sueño en el que un misterioso extraño la instó a buscar el perdón por sus acciones pasadas y a defender a los débiles. Atormentada por estas palabras, Xena decidió cambiar su camino, al darse cuenta de que matar no era la única forma de demostrar su fuerza.\n\n Al día siguiente, Xena se propuso proteger a los clanes nómadas de numerosas amenazas, como los engendros demoníacos, los bandidos orcos y los esclavistas. Su feroz dedicación a la defensa de quienes no podían defenderse por sí mismos comenzó a ganarse su respeto. Sorpresivamente, Xena hizo amigos entre los nómadas y su historia se difundió por todas partes. Una joven incluso se unió a ella y Xena pasó de ser una mercenaria temida a una heroína que inspiraba esperanza. La leyenda de Xena, la princesa guerrera, comenzó a arraigarse en Peltas.\n\n Una noche, el misterioso extraño visitó a Xena nuevamente, esta vez instándola a regresar a su tierra natal, Hell's Basin. En el camino, escuchó rumores inquietantes sobre un señor de la guerra salvaje que estaba aterrorizando la zona. Cuando se acercaba a su destino, presenció los horrores de primera mano: una aldea en llamas, con asaltantes atacando brutalmente a sus habitantes. Xena no pudo quedarse de brazos cruzados y se lanzó a la lucha, salvando a un grupo de niños de la ejecución y derrotando a las fuerzas del líder.\n\n Pero el pasado de Xena la alcanzó en la forma del señor de la guerra, alguien a quien reconoció. El señor de la guerra era un niño cuando Xena había asesinado a sus padres años atrás, y ahora, llena de odio, buscaba venganza. Aunque Xena intentó disculparse y evitar más derramamiento de sangre, el señor de la guerra no se dejó convencer. Después de una intensa batalla, Xena se vio obligada a terminar la pelea arrojando su chakram, hiriendo fatalmente al señor de la guerra. La victoria fue hueca, ya que Xena se dio cuenta de que los males contra los que ahora luchaba eran las consecuencias directas de su vida anterior.\n\n Esa noche, el extraño apareció una vez más, calmando el corazón de Xena, pero sin ofrecerle perdón. En cambio, le dejó un sentido del deber, un llamado a seguir enmendando el daño, protegiendo a los inocentes y luchando contra la injusticia. Con este nuevo sentido de propósito, Xena decidió responder a este llamado por el resto de su vida.",
+  "forms": null,
+  "image": "/src/assets/champions/xena-princesa-guerrera.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

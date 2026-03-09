@@ -1,0 +1,136 @@
+{
+  "slug": "kassandra",
+  "name": "Kassandra",
+  "faction": "Argonitas",
+  "rarity": "Legendario",
+  "role": "Su rol es el de nuker, capaz de bufearse y aplicar debufos así como de daño decente.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=QSGinIYQOZg",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "garra_malefica",
+    "mirada_del_gato",
+    "corona_de_ireth",
+    "varita_de_sumision",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "cruel",
+    "salvaje"
+  ],
+  "uses": "Todo y ninguno. Es rara, no es top en ninguna mazmorra en concreto pero su daño no es malo y tiene supervivencia",
+  "stats": {
+    "hp": 16350,
+    "speed": 101,
+    "attack": 1343,
+    "defense": 1145,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Viento del Oeste (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "multiplier": "1.35xATK",
+      "description": "Ataca a 1 enemigos 3 veces. Si este campeón no tiene más del 50% de HP, ataca a 1 enemigo 6 veces en lugar de 3.\n\n Cada ataque reduce un 7.5% la barra de turno del objetivo y aumenta un 7.5% la barra de turno de este campeón. Este efecto no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lanza de Leónidas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un debufo de 60% de [Reducir DEF] y un debufo de [Quemar HP] al objetivo durante 3 turnos. Estos debufos no se pueden resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].\n\n Aplica un debufo de [Aturdir] a todos los enemigos durante 1 turno si esta habilidad hace más daño que el 50% de MAX HP del objetivo. Este debufo no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición de Isu",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Elimina todos los debufos de este campeón, cura el 50% de su MAX HP y llena un 50% su barra de turno.\n\n Aplica un bufo de 50% de [Aumentar ATK], un bufo de 15% de [Romper] y un bufo de 30% de [Aumentar VEL] a este campeón durante 2 turnos.\n\n [Efecto Pasivo]\n\n Si este campeón tiene un bufo de [Aumentar ATK], un bufo de [Aumentar VEL] y un bufo de [Romper], evita que este campeón muera y le mantiene con vida con 1 de HP",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Todo está permitido (Pasiva) ",
+      "levels": [],
+      "multiplier": "2xATK",
+      "description": "Si los HP de un enemigo bajan del 25% después de recibir daño de un Asesino, dicho enemigo recibe daño adicional proporcional a ATK de este campeón. Este daño adicional ignora 100% de DEF y no puede ser crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sangre de Esparta (Pasiva) ",
+      "levels": [],
+      "description": "Cuando este campeón ataca a un enemigo, aumenta ATK de este campeón en el 50% de DEF del objetivo. Cuando un enemigo ataca a este campeón, aumenta la DEF de este campeón en el 50% de ATK del atacante.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/kassandra.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

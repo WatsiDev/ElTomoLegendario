@@ -1,0 +1,134 @@
+{
+  "slug": "shu-zhen-la-valerosa",
+  "name": "Shu-Zhen la Valerosa",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Iniciadora capaz de potenciar mucho a un nuker dandole bufos y turno adicional",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=XhPncwgAnkU",
+  "blessings": [
+    "presencia-amenazante"
+  ],
+  "relics": [
+    "estrellas_jinang",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "impulso",
+    "velocidad",
+    "velocidad-divina"
+  ],
+  "uses": "Arena, Hydra, Quimera...va muy bien en muchos sitios, sobretodo acompañada de un nuker potente",
+  "stats": {
+    "hp": 21645,
+    "speed": 110,
+    "attack": 826,
+    "defense": 1310,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lanza de Providencia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5% "
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aplicar un debufo de [Bloquear habilidades activas] durante 2 turnos.\n\n También tiene un 80 % de probabilidad de robar el 20 % de la barra de turno del objetivo si el objetivo ya tiene un debufo de [Bloquear habilidades activas].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pétalos de Purga",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Si el aliado objetivo no tiene un debufo de [Oveja], aplica un bufo de 50% [Aumentar ATK], un bufo de 30% [Aumentar P.Crit] y un bufo de 30% [Aumentar D.Crit] al aliado objetivo durante 2 turnos .\n\n Luego activa un efecto [Dar Turno Adicional] en el aliado objetivo.\n\n Si el objetivo está bajo un debufo de [Oveja], elimina dicho debufo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Carga de los Valerosos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "description": "Llena las barras de turno de todos los aliados en un 20 % y les otorga un bufo de [Aumentar VEL] del 30 % durante 2 turnos.\n\n También tiene un 100 % de probabilidad de reducir la barra de turno de todos los enemigos en un 20 % y les aplica un debufo de [Reducir VEL] del 30 % durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Visión Soberana (Pasiva)",
+      "levels": [],
+      "description": "Aumenta la PUNT de este campeón igual a la cantidad de VEL que tiene.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la velocidad de aliados en batallas de arena en un 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/shu-zhen-la-valerosa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

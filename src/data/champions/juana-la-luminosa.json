@@ -1,0 +1,176 @@
+{
+  "slug": "juana-la-luminosa",
+  "name": "Juana la Luminosa",
+  "faction": "Hidalgos",
+  "rarity": "Mítico",
+  "role": "Healer - Revividor en su forma base, nuker en su forma secundaria",
+  "type": "Apoyo / Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=G-5u1rwZ9zE",
+  "blessings": [
+    "cosechar-vida",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "servidumbre_de_xibia",
+    "crisalida_de_renacer",
+    "efigie_demoniaca",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "proteccion",
+    "renacer",
+    "despiadado",
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Súper versátil: PvP, PvE, Jefes, oleadas...Hace de todo: cura, revive y pega, dependiendo en la forma en la que la llevemos",
+  "stats": {
+    "hp": 22635,
+    "speed": 109,
+    "attack": 958,
+    "defense": 1387,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de Aliados en todas las batallas en 80."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 22635,
+        "speed": 109,
+        "attack": 958,
+        "defense": 1387,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Luz Sagrada (ATK)(RES)",
+          "levels": [
+            "Nivel 2: Curación +20%",
+            "Nivel 3: Prob. Bufo/Debufo +15%"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca a 1 enemigo.\n\n Cura a todos los aliados. La magnitud de la cura es proporcional a su RES y al 5% de su MAX HP.\n\n Tiene un 35% de probabilidad de aplicar un efecto de [Contagiar Bufos] que contagia 1 bufo aleatorio de cada aliado y lo aplica a todos los aliados."
+        },
+        {
+          "name": "Símbolo de Esperanza",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aumentar-atk-2",
+            "aumentar-res-2"
+          ],
+          "description": "Elimina todos los debufos de todos los aliados. Luego aplica un bufo de 50% de [Aumentar ATK] y un bufo de 50% de [Aumentar RES] a todos los aliados durante 3 turnos.\n\n También llena un 15% la barra de turno de todos los aliados."
+        },
+        {
+          "name": "Fe Restaurada",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "inmortal"
+          ],
+          "description": "Revive a un aliado con el 75% de HP y le aplica un bufo de [Inmortal] durante 2 turnos. Luego activa un efecto de [Turno Instantáneo] en el aliado revivido."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Adorada Eternamente (Pasiva)",
+          "levels": [],
+          "description": "[Efecto pasivo] Aumenta un 15% el daño de todos los aliados contra enemigos con menos RES. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. \n\n[Efecto activo] Siempre que se revive un enemigo, activa inmediatamente la habilidad de [Fe Restaurada] en un aliado muerto aleatorio. SI no hay ningún aliado muerto, en lugar de lo anterior, activa la habilidad [Símbolo de Esperanza]. Si hay varios campeones en el grupo con esta habilidad, solo se activa una."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 19320,
+        "speed": 99,
+        "attack": 1520,
+        "defense": 1046,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Espadas Radiantes (ATK)(RES)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca a todos los enemigos. Este ataque hace daño individual a cada objetivo en lugar de daño extra.\n\n Siempre que este campeón contraataca, aumenta un 5% el efecto de Ignorar DEF de esta habilidad (se acumula hasta el 25%). \n\n[Efecto Pasivo]\n\n Hace el doble de daño al contraatacar."
+        },
+        {
+          "name": "Atravesado por la Luz (ATK)(RES)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-dano"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca a todos los enemigos. Antes de atacar, roba el 25% de la barra de turno de cada enemigo. Este efecto no se puede resistir. \n\nEsta habilidad hace un 35% más de daño contra enemigos con menos RES que este campeón.\n\n Luego aplica un bufo de [Bloquear Daño] a este campeón durante 2 turnos."
+        },
+        {
+          "name": "Picado Seráfico (ATK)(RES)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "bloquear-revivir"
+          ],
+          "description": "Ataca a 1 enemigo 3 veces.\n\n Ignora bufos de [Escudo], [Bloquear Daño] e [Inmortal]. También ignora un 35% de DEF de objetivos con menos RES que este campeón.\n\n Si el objetivo muere y tiene menos RES que este campeón, le aplica un debufo de [Bloquear Revivir]. Si el objetivo no muere, en lugar de lo anterior obtén un turno adicional."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Gloria de Lumaya (Pasiva)",
+          "levels": [],
+          "description": "Reduce un 15% el daño que recibe este campeón de enemigos con menos RES.\n\n Aplica un bufo protegido de [Contraataque] durante 1 turno a este campeón hasta el final de su turno"
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/juana-la-luminosa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

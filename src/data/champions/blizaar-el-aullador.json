@@ -1,0 +1,126 @@
+{
+  "slug": "blizaar-el-aullador",
+  "name": "Blizaar el Aullador",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Capaz de revivir y congelar, fuera de sitios nicho muy malo",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=DwtWYuaY8-E",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "elixir_dorado"
+  ],
+  "gear": [
+    "inmortal",
+    "regeneracion"
+  ],
+  "uses": "Con 5-6 estrellas de ascensión se usa para solear la Necrópolis de arena a base de revivir en su pasiva y meteoritos",
+  "stats": {
+    "hp": 20145,
+    "speed": 102,
+    "attack": 804,
+    "defense": 1432,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Abrojos Congelados (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "1.5xDEF",
+      "description": "Ataca 3 veces al azar. Cada golpe tiene un 40% de probabilidad de aplicar un debufo de [Congelar] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cryoterapia (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Elimina cualquier debufo de [Aturdir], [Dormir], [Miedo], [Congelar], [Provocar] y [Petrificación] de todos los aliados. Luego, aplica un bufo del 60 % [Aumentar de DEF] a todos los aliados durante 2 turnos. También aplica un bufo del 50 % de [Protección de aliados] a todos los aliados excepto a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ventisca de Pinchos (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        }
+      ],
+      "multiplier": "4.3xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de aplicar un debufo de [Congelar] durante 1 turno. También tiene un 75% de posibilidades de reducir la barra de turno de todos los enemigos en un 30%.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Abominble Hombre de nieve (Pasiva)",
+      "levels": [],
+      "cooldown": 4,
+      "description": "[Efecto pasivo] Cada vez que un enemigo intenta aplicar un debufo de [Congelar] a este Campeón, la transfiere de vuelta a ese enemigo. \n\n[Efecto activo] Cada vez que este campeón muere, revive con un 30 % de HP y un 30 % de barra de turno, y le aplica un bufo de [Revivir al morir] durante 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": "Blizaar el Aullador nació de una oscura mezcla de magia y malicia, creada por una vengativa hechicera elfa oscura llamada Lyrax. La historia comienza con los Rompehielos, una tribu de ogretes que se encuentra en lo alto de las Montañas Redspike, y que celebran un festival de invierno cada año con fuego, banquetes y entrega de regalos. Grunch, un ogrete joven y amargado, no sentía ninguna alegría en estas festividades y, finalmente, arruinó la gran fiesta, lo que llevó a su destierro.\n\n Grunch aceptó su exilio y se convirtió en un ladrón en todo el reino de Frostheim. Su camino se cruzó con el de Lyrax, una elfa oscura que también había sido expulsada de su especie debido a su peligrosa magia invernal. Lyrax tomó a Grunch como su sirviente, asumiendo que era un simple bruto. Sin embargo, Grunch la engañó, esperando el momento adecuado para robar sus valiosos pergaminos arcanos, lo que despertó la sed de venganza de Lyrax.\n\n Impulsada por la ira, Lyrax invocó toda su magia oscura y creó a Blizaar el Aullador, una criatura monstruosa hecha de hielo, nieve y los aulladores vientos del invierno. Este snogryn, como lo llamó, recibió un corazón de piedra negra y un piolet, junto con una misión singular: cazar a Grunch. Sin embargo, la inteligencia de Blizaar se vio limitada por la creación impulsiva de Lyrax, y se confundió con su objetivo. En lugar de perseguir a Grunch, Blizaar se concentró en los Icecrushers en su conjunto, creyendo que eran su objetivo. Desatando su furia elemental, asaltó su aldea, destruyendo hogares, suministros y a cualquier Icecrusher que se atreviera a interponerse en su camino. Su forma helada se regeneró en el gélido paisaje, dejando sin poder a las defensas de la tribu.\n\n La tribu Icecrusher quedó en ruinas después del ataque de Blizaar. El monstruo regresó a Lyrax, envuelto en los restos caóticos de su destrucción: campanas, astas, coronas, huesos e incluso una puerta que usaba como escudo. Lyrax confundió esta carnicería con un éxito y trató de disolver su creación, exponiéndolo a la luz del sol. Pero para su horror, Blizaar, animada por su propia amargura, no se derritió. Al darse cuenta de que Lyrax tenía la intención de destruirlo, Blizaar se volvió contra su creador. La dominó, hundiendo sus fauces con colmillos de hielo en ella, finalmente consumiéndola y obteniendo la libertad total.\n\n Ahora, Blizaar, que ya no tenía ataduras, vagaba por Frostheim y causaba estragos en todos los asentamientos que encontraba. Sin una mano que lo guiara y lo detuviera, arrasó ciudades y aldeas, encarnando la naturaleza despiadada del invierno. La historia de Blizaar el Aullador es un escalofriante recordatorio de la peligrosa combinación de magia e ira, una creación que se volvió más allá de la intención de su creador y dejó a Frostheim sumido en un terror tan implacable como el frío profundo que lo vio nacer.",
+  "forms": null,
+  "image": "/src/assets/champions/blizaar-el-aullador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "arana",
+  "name": "Araña",
+  "faction": "Elfos Oscuros",
+  "rarity": "Épico",
+  "role": "Debufer con red.def y debilitar",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "velocidad",
+    "velocidad-divina",
+    "punteria"
+  ],
+  "uses": "Debufer para aumentar daño, a falta de alguien mejor",
+  "stats": {
+    "hp": 18330,
+    "speed": 91,
+    "attack": 1211,
+    "defense": 870,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Posesión (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5 %"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de eliminar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Calamidad (HP y ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "1.8x*ATK + 0.1xHP",
+      "description": "Ataca a todos los enemigos. Reduce la duración de todos los bufos en 1 turno. Tiene un 50 % de probabilidad de aplicar un debufo de [Reducir ATK] del 50 % durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marca Brillante",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "description": "Tiene un 60 % de probabilidad de aplicar un debufo de [Reducir DEF] del 60 % a todos los enemigos durante 2 turnos. Tiene un 30 % de probabilidad de aplicar un debufo de [Debilitar] del 15 % a todos los enemigos durante 1 turno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en mazmorras en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/arana.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

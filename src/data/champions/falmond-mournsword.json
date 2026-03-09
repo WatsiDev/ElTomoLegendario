@@ -1,0 +1,151 @@
+{
+  "slug": "falmond-mournsword",
+  "name": "Falmond Mournsword",
+  "faction": "Orden Sagrada",
+  "rarity": "Legendario",
+  "role": "Nuker Unidad de facción, que pega más fuerte cuanto más tarde actúe",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "segar-almas",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "invocatormentas",
+    "luna_de_sangre",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "antorcha_esclava",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "cruel",
+    "despiadado",
+    "instinto",
+    "dano-critico",
+    "golpe-mortal"
+  ],
+  "uses": "Puede funcionar en cualquier sitio junto con más campeones de su facción: arenas, oleadas, facciones...",
+  "stats": {
+    "hp": 14535,
+    "speed": 95,
+    "attack": 1564,
+    "defense": 1046,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Espada Atemporal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a un enemigo. Cura a este campeón el 50% del daño hecho. Si sobra algo de curación, aplica un bufo de [Escudo] a este campeón durante 2 turnos de la curación sobrante. Ataca usando la habilidad Coraje Ardiente si el objetivo es de la Alianza Corrompida.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "En nombre de Lumaya (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "multiplier": "3.7xATK",
+      "description": "Ataca a todos los enemigos. El daño que hace esta habilidad aumenta un 5% por cada bufo y debufo que tiene el objetivo. Ignora el 25% de DEF de los objetivos que no tienen ningún bufo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Coraje Ardiente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "6xATK + (0.2xATK x bufos eliminados)",
+      "description": "Ataca a 1 enemigo. Antes de atacar, elimina todos los bufos del objetivo. El daño aumenta un 20% por cada bufo eliminado.",
+      "factionUnity": "Unidad de Orden Sagrada",
+      "unityEffects": {
+        "1-ally": "Antes de atacar, roba todos los bufos del objetivo en vez de eliminarlos. Este efecto no se puede resistir. El daño aumenta un 20% por cada bufo robado.",
+        "2-ally": "El daño que hace esta habilidad aumenta un 20% por cada turno que actúa un aliado o enemigo antes del siguiente turno de este campeón. Se reinicia al final del turno de este campeón.",
+        "3-ally": "Ataca al resto de enemigos con cualquier daño sobrante si el objetivo inicial muere. Este ataque no puede ser crítico. Si el objetivo inicial sobrevive, aplica un debufo garantizado de [Miedo de Verdad] a todos los enemigos durante 1 turno."
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hasta mi último aliento (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Reduce un 10% el daño que recibe este campeón por cada turno que actúa un aliado o enemigo antes del siguiente turno de este campeón. Se reinicia al final del turno de este campeón.",
+      "factionUnity": "Unidad de Orden Sagrada",
+      "unityEffects": {
+        "1-ally": "Llena un 2% la barra de turno de un aliado, siempre que dicho aliado aplica un bufo o debufo.",
+        "2-ally": "Aplica un bufo de [Revivir al Morir] durante 1 turno a un aliado siempre que los HP de dicho aliado bajan del 50%",
+        "3-ally": "Todos los aliados son inmunes a los efectos que aumenta el tiempo que reutilización."
+      },
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
+    },
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de Aliados en todas las batallas en 15% (solo se aplica a Orden Sagrada)."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/falmond-mournsword.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

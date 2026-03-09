@@ -1,0 +1,131 @@
+{
+  "slug": "diacono-brazofuerte",
+  "name": "Diacono Brazofuerte",
+  "faction": "Orden Sagrada",
+  "rarity": "Épico",
+  "role": "Uno de los mejores épicos, capaz de roles de iniciador y debufer.",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "orbe_de_transfixion",
+    "tiempo_de_sangre",
+    "diario_de_necrotos",
+    "impasse_temporal",
+    "orquidea_mortilunar"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Arenas, oleadas, facciones y la mayoría de mazmorras y jefes. Muy versátil",
+  "stats": {
+    "hp": 17835,
+    "speed": 100,
+    "attack": 947,
+    "defense": 1167,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Maza de desdén (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30% de probabilidad de aplicar un debufo de [Chupar Vida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Retribución total (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Compresión temporal",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Llena las barras de turno de todos los aliados en un 15% y reduce las barras de turno de todos los enemigos en un 15%. Obtén un turno adicional",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en un 19%"
+    }
+  ],
+  "lore": "Willem Armstrong nació en una familia Kaerokiana de noble reputación, pero aunque sus padres asumieron que seguiría sus pasos como caballero del reino, él mostró una inclinación diferente. De niño, Willem encontraba el mayor placer en escuchar las historias que le contaba el sacerdote Lumaya de la familia, Halmar. Halmar le contaba a Willem historias de la Diosa de la Luz, deleitándolo con historias fantásticas sobre las Danzas de la Creación y las justas guerras contra el traidor pretendiente de la diosa, Siroth, el Dios de las Sombras.\n\n Cuando era un joven estudiante, Willem disfrutaba escribiendo pensamientos inspirados por las historias de Halmar y daba sermones improvisados ​​a sus desconcertados compañeros de clase en el patio de su escuela. Halmar se alegraba de que su protegido pareciera haber encontrado una vocación y, aunque los padres de Willem no se alegraron al darse cuenta de que su hijo no seguiría los pasos de su padre, eran personas devotas y con el tiempo se alegraron de que su hijo abrazara la adoración de Lumaya con tanto entusiasmo. Halmar presentó a Willem a la Orden Sagrada, que lo aceptó en sus filas. Willem se sintió inmediatamente como en casa entre los agitadores de la sagrada organización y se convirtió en aprendiz del infame diácono Mailen, un viejo y feroz predicador que albergaba un profundo odio hacia los no humanos, incluso hacia un miembro de alto rango de la Orden. Según sus principios, Lumaya había elegido a la humanidad como su instrumento divino y su destino era gobernar algún día toda Teleria. Aunque Armstrong nunca llegó tan lejos como Mailen públicamente, como acólito favorito del fanático era difícil imaginar que sus opiniones difirieran sustancialmente.\n\n Aunque la predicación fue la primera vocación de Armstrong, también descubrió que la batalla era una salida natural para el fanatismo que se había convertido en parte de cada faceta de su vida. Siempre fue el primero en ofrecerse como voluntario cuando la Orden Sagrada envió a sus dedicados caballeros y guerreros a cazar a las fuerzas de la Oscuridad y cuando regresó, su maza estaba cubierta de sangre. Willem despreciaba con orgullo cada herida y lesión que sufría a manos de los injustos, viéndolas como evidencia de la fuerza de su fe y afirmando que sobrevivir a sus heridas solo lo hacía más seguro de su propia causa, así como de la protección de Lumaya.\n\n Con el paso de los años, Mailen se volvió demasiado decrépito para predicar en público. Armstrong actuó como su portavoz, y sus resonantes discursos enorgullecieron al anciano diácono. Cuando Mailen falleció, fue Armstrong quien pronunció el último discurso ante la multitud de fieles dolientes en el funeral del hombre. Poco después, Willem fue ascendido al antiguo cargo de Mailen.\n\n El diácono Armstrong sigue siendo una fuerza poderosa dentro de la Orden Sagrada. Sus sermones son famosos y atraen a grandes multitudes de todo Anhelt y más allá. Los discursos siguen el mismo patrón: recuerdan a los oyentes su pecado, los azuzan hasta el frenesí y luego afirman que sus demostraciones de devoción son una prueba de que la Luz de Lumaya todavía arde en su interior y que con oraciones y donaciones puede arder de nuevo. Algunos afirman que Armstrong es un radical peligroso que intenta alterar el delicado equilibrio político de Anhelt, aunque pocos dentro de la Orden Sagrada soñarían jamás con reprender a un defensor tan acérrimo de sus creencias. Otros lo consideran un hipócrita que no cree verdaderamente en lo que predica. Pero no habrá clemencia para nadie que haga tal afirmación en presencia del diácono. Incluso con sus años, es poco probable que cualquier no creyente que reciba un golpe de Armstrong sobreviva lo suficiente para recibir un segundo.",
+  "forms": null,
+  "image": "/src/assets/champions/diacono-brazofuerte.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

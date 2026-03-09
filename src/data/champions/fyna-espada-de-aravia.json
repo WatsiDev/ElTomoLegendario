@@ -1,0 +1,149 @@
+{
+  "slug": "fyna-espada-de-aravia",
+  "name": "Fyna, Espada de Aravia",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Gran campeón para potenciar el daño de nuestro nuker así como dar velocidad al equipo.",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-amenazante",
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "arpa_de_kasbiel",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "proteccion",
+    "velocidad",
+    "velocidad-divina",
+    "reflejo",
+    "impulso"
+  ],
+  "uses": "Hydra en late game, con setup de Altos Elfos y en general en cualquier equipo con Altos Elfos si tenemos buenos.",
+  "stats": {
+    "hp": 18660,
+    "speed": 113,
+    "attack": 1123,
+    "defense": 1211,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Espada Atemporal (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a un enemigo. Tiene un 50% de probabilidad de aumentar 2 turnos el Tiempo de Reutilización de una habilidad aleatoria del objetivo. Al contraatacar con esta habilidad, ataca junto a un aliado aleatorio. El aliado que se una al ataque usará su habilidad base.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "No Flaquearás",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos], un bufo de [Bloquear Daño] y un bufo de [Contraataque] al aliado objetivo durante 2 turnos. Si el objetivo de esta habilidad no es este campeón, reinicia el tiempo de reutilización de todas las habilidades del objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Linaje Exaltado",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar ATK], un bufo de 30% de [Aumentar P.Crit] y un bufo de [Aumentar D.Crit] a todos los aliados durante 2 turnos.",
+      "factionUnity": "Unidad de Altos Elfos",
+      "unityEffects": {
+        "1-ally": "Obtén un Turno Adicional",
+        "2-ally": "Antes de aplicar los bufos, elimina todos los debufos de todos los aliados.",
+        "3-ally": "Los bufos aplicados por esta habilidad no se pueden eliminar"
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Liderar desde el Frente (Pasiva)",
+      "levels": [],
+      "description": "Siempre que se aplica un bufo a un aliado, llena un 3% su barra de turno.",
+      "factionUnity": "Unidad de Altos Elfos",
+      "unityEffects": {
+        "1-ally": "Los aliados hacen un 25% más de daño al atacar fuera de su turno activo",
+        "2-ally": "Siempre que se elimina o roba un bufo a un aliado, o cuando vence, llena un 10% la barra de turno de dicho aliado.",
+        "3-ally": "Los aliados ignoran un 5% de DEF del objetivo por cada bufo que tienen"
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en 20%."
+    },
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de Aliados en todas las batallas en 15% (Solo se aplica a Altos Elfos)."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/fyna-espada-de-aravia.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

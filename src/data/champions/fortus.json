@@ -1,0 +1,131 @@
+{
+  "slug": "fortus",
+  "name": "Fortus",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Nuker defensivo que juega con los debufos de miedo y aumenta su daño",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=tpz7QlTaDfw",
+  "blessings": [
+    "desgarro-aplastante",
+    "crueldad"
+  ],
+  "relics": [
+    "cronocubo",
+    "luna_de_sangre",
+    "rocadragon_dorada",
+    "campana_fundida",
+    "garra_malefica",
+    "mirada_condenadora",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Como funciona basado en meter muchos [Miedos], no es meta en ningún sitio",
+  "stats": {
+    "hp": 19980,
+    "speed": 97,
+    "attack": 859,
+    "defense": 1387,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Sabor del Olvido (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "multiplier": "3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 35 % de probabilidad de aplicar una debufo de [Miedo] durante 1 turno. Este ataque siempre será crítico si el objetivo está bajo un debufo de [Miedo] o [Miedo de verdad].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Horrores del Más Allá (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 80 % de probabilidad de aplicar un debufo de [Miedo de verdad] durante 1 turno. Este debufo no puede ser resistido por objetivos que tengan un debufo de [Miedo].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Terrores Astrales (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "0.1x cantidad de miedos x 3.05xDEF",
+      "description": "Ataca a todos los enemigos. Ignorará el 30 % de la DEF de cada objetivo contra objetivos que estén bajo debufo de [Miedo] o [Miedo de verdad]. Este ataque siempre es crítico contra los objetivos afectados por [Miedo] o [Miedo de verdad]. \n\n El daño de esta habilidad aumenta en un 10 % cada vez que se aplica una debufo [Miedo] o [Miedo de verdad] a un enemigo. \n\n Habilidad secreta: esta habilidad tiene un 40 % de probabilidad de desbloquearse durante 1 turno cada vez que se aplica una debufo [Miedo] o [Miedo de verdad] a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estrellas Alineadas (Pasiva)",
+      "levels": [],
+      "description": "[Efecto pasivo] Aumenta la posibilidad de que las habilidades del enemigo fallen en un 15 % cuando esos enemigos están bajo debufos de [Miedo] o [Miedo de verdad]. \n\n [Efecto activo]Previene la muerte de este Campeón y lo mantiene vivo con 1 HP cuando recibe un golpe fatal, luego elimina todas las bufos y desventajas de este Campeón. Después de evitar la muerte de este campeón, lo cura por completo y agota por completo su barra de turno \n\n Luego, tiene un 80 % de probabilidad de aplicar una debufo de [Miedo] en todos los enemigos durante 1 turno. \n\n Finalmente, aplica una debufo de [Dormir] en este Campeón por 1 turno. Este debuff no se puede resistir ni bloquear.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta la P.Crit de los aliados en las batallas de arena en un 25 %"
+    }
+  ],
+  "lore": "Incluso entre sus compañeros Aparecidos, Fortus es un enigma. Se cree que es un miembro fundador del Culto de K'Leth, o al menos uno de sus primeros seguidores, es una presencia antigua y siniestra que parece ocupar un espacio nebuloso, a la vez en los márgenes del culto y dentro de su círculo interno. Fortus rara vez habla, y cuando lo hace parece como si sus palabras resonaran directamente en la cabeza del oyente, en lugar de llegar primero a sus oídos. Sus declaraciones son atendidas y sus órdenes obedecidas por todos, excepto los más tontos o poderosos de los otros Caballeros Revenant.\n\n Fortus lleva mucho tiempo cultivando sus propios adeptos dentro del Culto de K'Leth. Los acólitos que caen bajo su influencia lo aclaman como el Caballero del Olvido y lo consideran casi un semidiós (el inquietante rostro con tentáculos de su casco se recrea en santuarios, escudos, símbolos y collares). Dentro de este grupo, él decide quién será bendecido con la transposición del alma, y ​​su aparente superioridad entre los Caballeros Revenant lo convierte en una figura digna de especial reverencia para muchos cultistas de otros lugares. Este bloque dentro del Culto de K'Leth ciertamente mejora su posición, hasta tal punto que algunos otros Caballeros Revenant temen que algún día pueda encabezar un cisma.\n\n Nadie conoce los orígenes de Fortus, ni siquiera han visto lo que se esconde bajo su extraño y perturbador yelmo. Probablemente sea lo mejor, según sostienen quienes lo conocen, ya que su verdadera identidad sería demasiado para la cordura tanto de los mortales como de los inmortales. Tal vez debido a la confección de su equipo de guerra, de estilo cefalópodo, algunos afirman que proviene de las Islas Perdidas. Tal vez fuera el capitán de un barco que naufragó hace mucho tiempo, o el líder de una banda de mercenarios marítimos. Una creencia particularmente intratable entre sus sirvientes y acólitos es que era el rey de una de las Islas Perdidas que quedó sumergida para siempre bajo un enorme maremoto hace mucho tiempo. En esta teoría, solo Fortus sobrevivió, perdonado por el destino para un propósito superior. Fortus no confirma ni niega tales afirmaciones, pero sus acciones son sin duda las de alguien acostumbrado a ser el portador de la autoridad.\n\n En batalla, Fortus maneja una enorme espada ancha conocida como Voidreaper. El arma parece poseer una naturaleza incierta, su hoja parpadea constantemente, como si no estuviera completamente presente en la realidad que ocupa Teleria. Puede atravesar la pesada armadura de un caballero de la Orden Sagrada, los músculos de un Ogrete y las escamas de la garganta de un guerrero Hombre Lagarto con la misma facilidad, y hacer que las almas de sus víctimas caigan al olvido. Sin embargo, en verdad, la espada maldita es el armamento menos letal de Fortus.\n\n Cualquiera que esté en presencia de Fortus no puede evitar sufrir una sensación profundamente desagradable e inquietante. Algunos la describen como una incomodidad física, como un resfriado cortante o un dolor de cabeza terrible, mientras que otros encuentran que su mente divaga hacia cosas terribles, enfrentándose a su propia mortalidad o reflexionando sobre los horrores del olvido. Por su parte, Fortus parece no hacer nada para inspirar estas experiencias, pero cuando se despierta su ira, o dirige específicamente su voluntad mientras está en combate, el efecto es aún más pronunciado. Los oponentes se derrumban, gritando o arañándose en ataques de locura cuando sus mayores temores se hacen realidad y sus defensas mentales se desmoronan al encontrar sus mentes acosadas por pesadillas generadas por un reino al que ningún ser de Teleria debería estar expuesto jamás. Incluso otros Caballeros Revenant parecen sentirse incómodos por la presencia del Caballero del Olvido, y nadie puede eliminar por completo la sensación de tentáculos húmedos y succionados deslizándose sobre sus gargantas y hombros o enganchándose alrededor de sus muñecas y tobillos cada vez que fija su atención en ellos.\n\n Lo que Fortus es exactamente o cuáles son sus objetivos finales siguen siendo tan enigmáticos como el propio Aparecido. La única certeza es que los simples mortales no resistirán mucho tiempo el futuro que él ha planeado con sus cuerpos o sus almas intactas.",
+  "forms": null,
+  "image": "/src/assets/champions/fortus.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

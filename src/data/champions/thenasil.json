@@ -1,0 +1,129 @@
+{
+  "slug": "thenasil",
+  "name": "Thenasil",
+  "faction": "Altos Elfos",
+  "rarity": "Épico",
+  "role": "Curador y debufer",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "presencia-dominante",
+    "rompe-cadenas"
+  ],
+  "relics": [
+    "el_triturador",
+    "dedo_real"
+  ],
+  "gear": [
+    "inmortal",
+    "percepcion",
+    "punteria",
+    "vida"
+  ],
+  "uses": "En early game, muy poco. En mid y late game se queda muy atrás",
+  "stats": {
+    "hp": 17835,
+    "speed": 105,
+    "attack": 991,
+    "defense": 1123,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Nana de Primavera (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "5.2xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de posibilidades de aplicar una debufo [Dormir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Desarme Elegante (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de 60% [Aumentar DEF] en todos los aliados durante 2 turnos. Cura a todos los aliados en un 25% de los HP máximos de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Marchitar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Reduce la duración de todos los bufos enemigos en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en mazmorras en 70."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/thenasil.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

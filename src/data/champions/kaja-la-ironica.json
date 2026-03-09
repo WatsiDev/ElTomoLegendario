@@ -1,0 +1,137 @@
+{
+  "slug": "kaja-la-ironica",
+  "name": "Kaja la Ironica",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Buen campeón de apoyo/revividor, pareja de Timit el Tonto",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=JQTiEA0hKHU",
+  "blessings": [
+    "fuego-y-azufre",
+    "polimorfar"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "efigie_demoniaca",
+    "diario_de_necrotos",
+    "crisalida_de_renacer",
+    "arpa_de_kasbiel",
+    "dedo_real",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "resiliencia",
+    "inmortal",
+    "velocidad",
+    "reflejo",
+    "velocidad-divina",
+    "mercurial"
+  ],
+  "uses": "Arenas junto con Timit. Bastante buena en general como revividora/apoyo para casi todo el PvE",
+  "stats": {
+    "hp": 19650,
+    "speed": 112,
+    "attack": 947,
+    "defense": 1321,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Petardo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        }
+      ],
+      "multiplier": "4.7xATK",
+      "description": "Ataca a 1 enemigo. Cura a este campeón un 10% de su Max. HP. Si hay algún Timit en el mismo grupo, los cura a todos esa misma cantidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Volver a lo Grande",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con el 50% de HP y el 50% de barra de turno y luego les aplica un bufo de 30% de [Aumentar P.Crit] y un bufo de 30% de [Aumentar D.Crit] durante 2 turnos.\n\nSi Timit el Tonto está en el mismo grupo y está muerto, lo revive con 100% de HP y la Barra de Turno llena. Si Timit está en el mismo grupo y está vivo, reinicia el tiempo de reutilización y activa inmediatamente su habilidad de Barriles de Pavor.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escalera Real",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Llena un 20% las barras de turno de todos los aliados. También elimina 2 debufos al azar de cada aliado. Si Timit el Tonto está en el mismo grupo, elimina todos los debufos de todos los aliados. Luego aplica un bufo de [Bloquear Debufos] a todos los aliados durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Duo Dinámico (Pasiva)",
+      "levels": [],
+      "description": "Todos los efectos de reducción de barra de turno se reducen un 50% al usarse este campeón. Si Timit el Tonto está en el mismo grupo, este campeón es inmune a efectos de reducción de barra de turno. Si un enemigo intenta reducir la barra de turno de este campeón cuando Timit el Tonto está en el mismo grupo, llena la barra de turno de este campeón en la misma medida.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%"
+    }
+  ],
+  "lore": "Kaja, heredera de la baronía Doeurtine en Kaerok, fue criada con todos los privilegios, pero rechazó la vida que le había sido asignada. Desde muy joven, se rebeló contra sus padres y sus expectativas, burlándose de las tradiciones de su familia y despreciando a los caballeros y eruditos que la rodeaban. Su desdén por la autoridad y su personalidad sombría y sarcástica le valieron el apodo de 'Kaja la Irónica'. A pesar de la presión constante de su familia para que se adaptara, el espíritu rebelde de Kaja solo se hizo más fuerte, lo que llevó a sus padres a darle un ultimátum: cambiar su forma de ser o convertirse en bufón de la corte.\n\n En lugar de ceder a las exigencias de sus padres, Kaja aceptó el papel con un entusiasmo retorcido. En secreto, diseñó un atuendo extraño que combinaba una armadura de caballero, un atuendo de bufón y una máscara macabra. Un día, irrumpió en la corte de sus padres e interrumpió los asuntos oficiales con una actuación desenfrenada de acrobacias, discursos burlones y humor brutal. Su exhibición audaz y sin complejos dejó atónitos a los nobles allí reunidos y, aunque sus payasadas fueron impactantes, algunos se divirtieron. Cuando Kaja terminó con una burla mordaz de sus propios padres, la sala estalló en risas y Kaja sintió, por primera vez, que había logrado algo significativo.\n\n Furioso, el padre de Kaja amenazó con exiliarla si no se disculpaba. En lugar de dar marcha atrás, Kaja atacó violentamente a un cortesano que se encontraba cerca. Los guardias se la llevaron a rastras, pero aun así, se deleitó con el caos que había causado. Prisionera en la mazmorra, fingió locura, atrajo a su único guardia a su celda y lo estranguló hasta matarlo. Con su cetro manchado de sangre en la mano, huyó de la propiedad de su familia, abandonando su vida como mujer noble para abrazar una vida de anarquía y caprichos, impulsada por el deseo de desafiar al mundo.\n\n Mientras vagaba, Kaja se cruzó con Timit el Loco, un inadaptado gigante con un desdén similar por la sociedad. Los dos formaron rápidamente una sociedad caótica, alimentada por su amor compartido por la destrucción y la rebelión. Juntos, comenzaron a aterrorizar a la clase alta con actos aleatorios de vandalismo y violencia, burlándose de la autoridad y riéndose todo el tiempo. Uno de sus primeros actos fue destruir una costosa estatua encargada por Lord Jurius Vasquon, humillando a sus guardias y escapando con facilidad.\n\n A medida que las payasadas de Kaja se volvían más violentas, su ira se tornó letal. Ella y Timit comenzaron a atacar a los nobles menores, matándolos de formas espantosas y creativas. El odio de Kaja por su educación privilegiada no tenía límites y sus métodos se volvieron más salvajes. Sus padres, especialmente su padre, solo podían observar con terror, temiendo que el próximo objetivo de Kaja pudiera ser su propia familia.",
+  "forms": null,
+  "image": "/src/assets/champions/kaja-la-ironica.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

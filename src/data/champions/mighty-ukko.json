@@ -1,0 +1,146 @@
+{
+  "slug": "mighty-ukko",
+  "name": "Mighty Ukko",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Debufer, eliminador de bufos enemigos y revividor",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=9tR6_USPHoE",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "crisalida_de_renacer",
+    "politopo_infernal",
+    "efigie_demoniaca",
+    "varita_de_sumision",
+    "impasse_temporal",
+    "dedo_real",
+    "orbe_de_transfixion",
+    "cristal_de_exanima",
+    "caldero_acaparador",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "percepcion",
+    "exactitud",
+    "incitar",
+    "maldito",
+    "punteria",
+    "reflejo"
+  ],
+  "uses": "Hydra y arenas",
+  "stats": {
+    "hp": 18495,
+    "speed": 109,
+    "attack": 1233,
+    "defense": 1112,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Machacón de Ukko (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "2.5xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de posibilidades de aplicar [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia de Ukko (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        },
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a todos los enemigos 2 veces. Cada golpe tiene un 75% de probabilidad de eliminar 2 buffos aleatorios del objetivo. \n\nColoca un debufo de [Bloquear Bufos] y otro del 50% [Reducir PUNT] durante 2 turnos en objetivos que no tienen buffos después del ataque.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Piedad de Ukko",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con un 40% de HP, luego les otorga un bufo de [Bloquear daño] durante 1 turno. \n\nTambién aplica un bufo de 30% [Aumentar VEL] en todos los aliados durante 2 turnos. Aplicará el bufo de [Aumentar VEL] incluso si no hay aliados muertos..",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guardián del Totem  (Pasiva)",
+      "levels": [],
+      "description": "Tiene un 50% de probabilidad de robar 1 bufo aleatorio de un enemigo cada vez que recibe un bufo. Todos los bufos robados quedan protegidos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en un 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/mighty-ukko.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

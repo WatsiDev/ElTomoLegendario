@@ -1,0 +1,141 @@
+{
+  "slug": "gurptuk-barbamusgo",
+  "name": "Gurptuk Barbamusgo",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Aumenta el daño de aliados aplicándoles venenos",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "orquidea_mortilunar",
+    "vara_de_la_blasfemia",
+    "infernosfera",
+    "arpa_de_kasbiel"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "velocidad",
+    "punteria"
+  ],
+  "uses": "Muy puntual en setups específicas, como de Hydra con Trunda, para potenciar el daño de otro campeón.",
+  "stats": {
+    "hp": 18825,
+    "speed": 100,
+    "attack": 1079,
+    "defense": 1244,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Bastón biótico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua"
+        }
+      ],
+      "multiplier": "2.2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Aplica un bufo de 15% de [Curación continua] durante 1 turno en todos los aliados bajo debufos de [Veneno].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición Druídica",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "del escudo, 0.2xMAX HP del objetivo",
+      "description": "Elimina todos los debufos de un aliado EXCEPTO LOS VENENOS, luego los cura en un 30% de su HP MÁXIMO y aplica un bufo de [Escudo] en el objetivo igual al 20% de su MÁX HP durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Nube de esporas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "description": "Aplica tres debufos de 2.5% de [Veneno] en todos los aliados durante 3 turnos. Estos debufos no pueden ser resistidos o bloqueados. También tiene un 80% de posibilidades de aplicar un debufo de [Bloquear Bufos] en todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Simbiontes (Pasiva)",
+      "levels": [],
+      "description": "Los aliados bajo debufos de [Veneno] infligen 7.5% más de daño por cada debufo de [Veneno] en ellos, acumulando hasta un máximo de 30%. Este aumento de daño se aplica a todas sus habilidades. También aumenta el RES de cada aliado en 15 por cada debufo de [Veneno] sobre ellos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 50."
+    }
+  ],
+  "lore": "El bosque de Durham es un bosque siniestro y extenso lleno de amenazas mortales. Elfos oscuros, lobos feroces y murciélagos chupadores de sangre acechan en sus sombras, mientras que la propia vegetación, como flores con hojas afiladas y enredaderas estranguladoras, puede suponer la perdición para cualquier alma desafortunada. La atmósfera de peligro constante lo convierte en un lugar al que pocos se atreven a entrar. Sin embargo, escondida en lo profundo de este traicionero desierto se encuentra una anomalía sorprendente: un pequeño claro bañado por la luz del sol, donde se encuentra una humilde cabaña. Este lugar tranquilo parece completamente fuera de lugar en un bosque tan hostil, y es el hogar de una figura misteriosa: Gurptuk Barbamusgo.\n\n Gurptuk es un druida ogrete profundamente conectado con los bosques que lo rodean. Con una larga barba tejida con musgo y un bastón mágico de helechos vivos, ha creado este tranquilo espacio en las amenazantes profundidades de Durham. Hay leyendas sobre el origen de Gurptuk, desde relatos sobre su abandono cuando era niño hasta historias sobre su huida de la esclavitud de los elfos oscuros. Lo que es seguro es que Gurptuk ha dominado esta parte del bosque sin ayuda de nadie, incluso convirtiendo a un hechicero elfo oscuro en madera y llevando el rostro de su enemigo caído como trofeo. Su poder sobre el bosque es incomparable y somete la naturaleza letal de Durham a su voluntad.\n\n El temperamento de Gurptuk es tan impredecible como el bosque mismo. Algunos viajeros cuentan historias de Gurptuk convirtiendo a sus compañeros en ingredientes para sus brebajes mágicos, mientras que otros afirman que ha curado sus dolencias con sus brebajes. Los visitantes de su claro pueden encontrarse compartiendo bebidas e historias con el druida, o pueden ser encarcelados en sus jaulas de raíces, a la espera de un destino sombrío. Gurptuk parece operar fuera de las nociones tradicionales del bien y el mal, actuando de acuerdo con los caprichos del momento. Su ira es feroz, y aquellos que lo contrarían pueden enfrentar consecuencias brutales, a menudo convirtiéndose en parte de su última poción o hechizo.\n\n Recientemente, el bosque ha comenzado a cambiar, y no para mejor. Algunas partes de Durham se están marchitando, volviéndose desnudas y sin vida. Los rumores sugieren que una fuerza oscura está trabajando, tal vez relacionada con Siroth o sus agentes. Gurptuk, percibiendo el peligro, se aventura más allá de su dominio habitual en busca de ingredientes raros para un elixir especial que podría devolverle al bosque su vitalidad anterior. Su búsqueda puede llevarlo a forjar alianzas, pero estos nuevos amigos deben ser cautelosos: la receta de Gurptuk podría requerir más que solo plantas o hierbas.\n\n Mientras Gurptuk busca una solución, el destino del bosque de Durham pende de un hilo. El druida ogrete, con su profundo conocimiento de los bosques y su naturaleza impredecible, puede ser el único que pueda detener la decadencia progresiva. Pero sigue siendo un misterio si se puede confiar en él o no, ya que sus motivos, como el bosque mismo, suelen estar envueltos en sombras.",
+  "forms": null,
+  "image": "/src/assets/champions/gurptuk-barbamusgo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

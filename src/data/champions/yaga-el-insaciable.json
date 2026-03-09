@@ -1,0 +1,128 @@
+{
+  "slug": "yaga-el-insaciable",
+  "name": "Yaga el Insaciable",
+  "faction": "Cambiapieles",
+  "rarity": "Épico",
+  "role": "Envenandor mediocre para early game",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=I0JC-K5HhbQ",
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "caldero_acaparador"
+  ],
+  "gear": [],
+  "uses": "Terrible. No lo uses",
+  "stats": {
+    "hp": 15195,
+    "speed": 95,
+    "attack": 1365,
+    "defense": 925,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cuchilla virulenta (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "3.65xATK",
+      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 40% de aplicar un debufo del 5% [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Peste hambrienta (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad bufo / debufo +10 %"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 50% de posibilidades de aplicar un debufo de 5% [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pudrición desde dentro (ATK) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "multiplier": "5.9xATK",
+      "description": "Ataca a 1 enemigo. El daño aumenta en un 25% contra objetivos bajo debuffs de  [Veneno].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT aliados en todas las batallas en 40"
+    }
+  ],
+  "lore": "Yaga el Insaciable es tan implacable como la plaga que rezuma de su cuerpo marchito. Su hambre es de podredumbre y ruina y nunca puede saciarse, desde que un engendro demoníaco conspirador explotó la naturaleza amable y desinteresada de Yaga durante algunos de los días más oscuros del pueblo Skinwalker.\n\n En la Era de la Traición, la Orden Sagrada avivó el fuego del odio contra los Cambiapieles y la Cruzada Roja estalló y se extendió como un virus por todo el mundo. Por todo Anhelt. Los Cambiapieles fueron asesinados o exiliados en masa, junto con extranjeros, simpatizantes y muchos otros tipos de no humanos en general. Yaga y su familia encontrada de parias Cambiapieles escaparon gracias a los contrabandistas marítimos de las Islas Perdidas, quienes los depositaron en las costas de los inhóspitos y embrujados Yermos de Ventormenta. Sin medicinas y suministros esenciales, la desnutrición y las enfermedades asolaron al grupo mientras intentaban abrirse camino hacia el norte, hacia los Lagos de los Dolores, donde habían oído que se estaban reuniendo otros refugiados. Yaga, un herbolario de profesión, hizo todo lo que pudo para aliviar su sufrimiento y tratar sus síntomas, pero tenía poco con lo que trabajar en medio de las desoladas tierras baldías de los Yermos. En sus momentos de mayor desesperación, Yaga maldijo al mundo por su cruel indiferencia, jurando que a nadie en todo el universo le importaba su difícil situación, ni siquiera a un demonio. Pero estaba en la maldita tierra de Ventormenta, y si deseaba, aunque fuera irónicamente, que un demonio viniera a ayudarlo, no debería haberlo hecho a la ligera.\n\n Una noche oscura, Yaga estaba débil por el esfuerzo excesivo y la mayoría de sus camaradas yacían enfermos en sus lechos. Sintió que la muerte se acercaba a todos ellos. Fue entonces cuando un enjambre nocivo de moscas carroñeras descendió ante Yaga y se reunió en una forma humanoide de insecto, con una voz ronca y supurante. Era Vildrax, el archienemigo demoníaco llamado el Duque de las Moscas. Vildrax le dijo a Yaga que, así como el gusano se come la carne gangrenosa y deja atrás el tejido sano, él podía proporcionar un remedio igualmente aparentemente repugnante, pero efectivo. Si Yaga le juraba lealtad, le otorgaría a la tribu sus simbiontes restauradores, pero cada uno de los que se curaran a su vez le debería lealtad al Duque. Para darle a su gente una oportunidad, cualquiera que fuera, Yaga estuvo de acuerdo. Vildrax esparció una baba maloliente sobre la frente de Yaga, le untó los dedos con ella y le ordenó que hiciera lo mismo con sus pacientes febriles y delirantes. Yaga lo hizo y luego él también se desplomó, atormentado por los efectos de la retorcida cura del engendro demoníaco.\n\n Después de largas y estresantes horas de lucha, todos los Skinwalkers despertaron al amanecer, uno por uno, con la fiebre aliviada y Vildrax desaparecido. En menos de un día se sintieron sanos, incluso fuertes. Yaga lo consideró un milagro. El segundo día, Yaga y su tribu se sintieron maníacos, invencibles. Algo se ondulaba y se retorcía bajo la piel de cada uno de los Skinwalkers, pero no le hicieron caso. El tercer día, los cuerpos de Yaga y de sus antiguos amigos habían madurado por completo gracias a la horrible cría de Vildrax, convirtiéndose en zonas de cría para su prole de insectos impíos. Con las mentes y los sentidos embotados por el horror de su nueva aflicción debido a la maldición del Duque, recordaron vagamente su objetivo de encontrar un nuevo hogar.\n\n Como un insecto zumbador atraído por las feromonas de su especie, Yaga y su tribu marcharon hacia un portal que conducía a Anathraad. Desde entonces, han surgido en Teleria a instancias de Vildrax, anunciados por nubes de moscas y dejando a su paso podredumbre e infestación. Yaga y sus compañeros Skinwalkers nunca han olvidado su deseo inicial de llegar a los Sorrowlakes, y aún pueden desatarse en esa desafortunada región...",
+  "forms": null,
+  "image": "/src/assets/champions/yaga-el-insaciable.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

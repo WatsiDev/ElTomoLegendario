@@ -1,0 +1,131 @@
+{
+  "slug": "armina",
+  "name": "Armina",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Debufer sólido para facciones con control",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "rompe-cadenas"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 18990,
+    "speed": 97,
+    "attack": 1354,
+    "defense": 683,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Bastón de disciplina (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño 5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño 5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 35% de posibilidades de aplicar una debufo [Aturdir] durante 1 turno",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pisotear a lo Bestia (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño 5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño 10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4.05xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. Roba el 7.5% de las barras de turno de los Objetivos bajo [Reducir DEF] debufos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bramido ensordecedor",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "Reduce las barras de turno de todos los enemigos en un 20%. Tiene un 75% de probabilidad de aplicar una debufo de [Aturdir] durante 1 turno en enemigos que tengan sus Medidores de turno completamente agotados.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cabeza de vapor (Pasiva)",
+      "levels": [],
+      "description": "Llena el barra de turno de este campeón en un 10% cada vez que un enemigo recibe un debufo de [Aturdir].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/armina.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

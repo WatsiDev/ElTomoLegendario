@@ -1,0 +1,124 @@
+{
+  "slug": "gerhard-el-penon",
+  "name": "Gerhard el Peñon",
+  "faction": "Hidalgos",
+  "rarity": "Épico",
+  "role": "Nuker mediocre anti control",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "campana_fundida",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Pocos. Facciones como mucho.",
+  "stats": {
+    "hp": 12555,
+    "speed": 101,
+    "attack": 1387,
+    "defense": 1079,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe sonado (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Daño +5%"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de posibilidades de aplicar una debufo [Aturdir] durante 1 turno. Tiene un 40% de probabilidad de aplicar una debufo de [Aturdir] durante 1 turno si el objetivo tiene más del 75% de barra de turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Demostración de valor (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Aplica un bufo del 30% [Aumentar P.Crit] y un bufo del 30% [Aumentar D.Crit] en este Campeón durante 2 turnos, luego ataca a 1 enemigo. Ignorará el 25% de la DEF del objetivo. En su lugar, ignorará el 50% de la DEF del objetivo si el objetivo está bajo un bufo de [Aumentar DEF].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Parangón (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Inmune a debufos de [Miedo], [Miedo de verdad], [Congelar], [Provocar], [Dormir] y [Aturdir].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": " Aumenta la RES de los aliados en las batallas de la Torre del Destino en 50."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/gerhard-el-penon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "tetsuya-el-repartidor",
+  "name": "Tetsuya el Repartidor",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Nuker unidad de facción con buen daño, control de barra de turno y capacidad de control ",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=NEZEm68vgsQ",
+  "blessings": [
+    "desgarro-aplastante",
+    "segar-almas"
+  ],
+  "relics": [
+    "garra_malefica",
+    "invocatormentas",
+    "luna_de_sangre",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "antorcha_esclava",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "cruel",
+    "fervor"
+  ],
+  "uses": "Facciones normales y dificiles. Brilla más en PvP pero junto con sombrios pega duro en todas partes",
+  "stats": {
+    "hp": 15525,
+    "speed": 106,
+    "attack": 1696,
+    "defense": 848,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Laceración Rápida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
+      ],
+      "multiplier": "3.2xATK",
+      "description": "Ataca a 1 enemigo. Llena un 10% las barras de turno de todos los aliados si este ataque es crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estratega Sobrenatural (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Ataca 2 veces más si la barra de turno del objetivo es inferior al 50%.\n\n Ignora un % de DEF del objetivo equivalente a su barra de turno. \n\nReinicia el tiempo de reutilización de esta habilidad si el objetivo muere.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Presencia Decisiva (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Roba un 100% de la Barra de turno actual del objetivo y le aplica un debufo de [Miedo de Verdad] durante 2 turnos.",
+      "factionUnity": "Unidad de Sombríos",
+      "unityEffects": {
+        "1-ally": "El efecto de robo de barra de turno y el debufo de [Miedo de Verdad] no se pueden ni resistir ni bloquear.",
+        "2-ally": "Aumenta el daño que hace esta habilidad en función de la diferencia de VEL de este campeón y el objetivo.",
+        "3-ally": "También ataca al resto de enemigos que tienen más del 50% de barra de turno. Roba un 100% de la barra de turno actual de cada objetivo y les aplica un debufo de [Miedo de Verdad] durante 2 turnos."
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Azote de Mikage (Pasiva) ",
+      "levels": [],
+      "description": "Llena un 15% la barra de turno de este campeón cada vez que actúa un enemigo. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "factionUnity": "Unidad de Sombríos",
+      "unityEffects": {
+        "1-ally": "Aumenta un 20% la efectividad de los efectos de llenar barras de turno usados en aliados. Reduce un 20% la efectividad de los efectos de llenar barras de turno usados en enemigos. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+        "2-ally": "Siempre que se llena la barra de turno de este campeón, aumenta un 5% el daño de su siguiente ataque. Se reinicia después de usar una habilidad. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+        "3-ally": "Todos los aliados son inmunes a efectos de reducir barra de turno de enemigos."
+      },
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta VEL de aliados en todas las batallas en 19%"
+    },
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de aliados en todas las batallas en 15% (solo se aplica a Sombríos)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/tetsuya-el-repartidor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

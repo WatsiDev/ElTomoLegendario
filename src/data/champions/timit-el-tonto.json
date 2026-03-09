@@ -1,0 +1,128 @@
+{
+  "slug": "timit-el-tonto",
+  "name": "Timit el Tonto",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Mediocre nuker de HP con control",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=JQTiEA0hKHU",
+  "blessings": [
+    "polimorfar",
+    "cosechar-vida",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "vial_del_sombrerero",
+    "campana_fundida",
+    "corona_de_ireth",
+    "vara_de_sumision",
+    "mirada_condenadora",
+    "apagador_de_esencia"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "percepcion",
+    "punteria",
+    "inmortal",
+    "exactitud"
+  ],
+  "uses": "Principalmente nuker en arenas y facciones junto con Kaja así como control con miedos en oleadas.",
+  "stats": {
+    "hp": 22635,
+    "speed": 99,
+    "attack": 859,
+    "defense": 1211,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Martillo de Carnaval (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        }
+      ],
+      "multiplier": "0.1xHP",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe cura a este Campeón en un 10% de su HP MÁXIMO. Si el objetivo no tiene bufos activos, cada golpe también llena la barra de turno de este campeón en un 10%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pon a prueba tu fuerza (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos. Reduce la duración de todos los bufos enemigas en 3 turnos. Si no hay enemigos con bufos activos, otorga un turno adicional. Siempre otorga un turno adicional si Kaja la Irónica está en el mismo equipo, incluso si hay enemigos con bufos activos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Barriles de Pavor (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "0.27xHP",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo del 50% [Aumentar PUNT] a todos los aliados durante 2 turnos. Aplica un debufo [Miedo de verdad] en todos los enemigos durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asistente Horrible (Pasiva) ",
+      "levels": [],
+      "description": "Siempre que una habilidad enemiga se activa con éxito mientras está bajo una debufo de [Miedo] o [Miedo de verdad], llena la barra de turno de Timit en un 10%. Siempre que una habilidad enemiga no se activa porque está bajo una debufo [Miedo] o [Miedo de verdad], aplica un debufo de [Provocar] en ese enemigo durante 1 turno. Este efecto particular solo se aplica cuando Kaja la Irónica está en el mismo equipo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la Punt de aliados en todas las batallas en  50"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/timit-el-tonto.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "anaxia-la-renacida",
+  "name": "Anaxia la Renacida",
+  "faction": "Hombres Lagarto",
+  "rarity": "Mítico",
+  "role": "En su forma base, es un buen healer tanque. En su segunda forma, un nuker de HP algo mediocre",
+  "type": "Defensa / HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=rm0lHo5GGZs",
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "vial_del_sombrerero",
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "inmortal",
+    "mercurial",
+    "piel-de-piedra"
+  ],
+  "uses": "Oleadas, hydra y prácticamente en cualquier sitio como healer. Como nuker en su segunda forma depende de sus multiplicadores, pero a priori hay mejores opciones ",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en todas las batallas en 35%"
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 20145,
+        "speed": 100,
+        "attack": 936,
+        "defense": 1575,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Espada Sedienta (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "?xDEF",
+          "description": "Ataca a 1 enemigo.\n\n Cura a todos los aliados el 5% de su MAX HP. Cura a todos los aliados un 5% adicional de su MAX HP si este campeón ataca a un objetivo que tenga un debufo de [Chupar Vida]"
+        },
+        {
+          "name": "Salto de Muerte (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Curación +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "escudo-habilidad"
+          ],
+          "multiplier": "?xDEF",
+          "description": "Ataca a todos los enemigos.\n\n Cura a todos los aliados el 15% del MAX HP de este campeón. El valor de la curación aumenta un 5% por cada [Chupar Vida] en el equipo enemigo.\n\n Si un campeón recibe curación y ya está a tope de HP, aplica un bufo de [Escudo] en ese campeón durante 2 turnos. El valor del [Escudo] es igual a la cantidad de curación sobrante recibida, hasta el 30% del MAX HP del campeón."
+        },
+        {
+          "name": "Ira que todo lo consume (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "chupar-vida",
+            "contraataque",
+            "incitar"
+          ],
+          "multiplier": "?xDEF",
+          "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de [Chupar Vida] durante 2 turnos y un debufo de [Provocar] durante 1 turno a todos los enemigos.\n\n También aplica un bufo de [Contraataque] a este campeón durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Jolgorio de Batalla (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "red-atk-2",
+            "red-def-2",
+            "incitar"
+          ],
+          "description": "Siempre que este campeón ataca a un enemigo que tenga un debufo de [Chupar Vida], aumenta la DEF y el HP de éste campeón en 5% (se acumula hasta el 50%).\n\n Cuando este campeón es atacado por un enemigo cuyo ATK sea mayor o igual a su DEF, tiene un 100% de probabilidad de aplicarle un debufo de 50% de [Reducir ATK] durante 2 turnos. Cuando éste campeón es atacado por un enemigo cuya DEF sea mayor que su ATK, tiene un 100% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos en su lugar.\n\n Cuando éste campeón es atacado por enemigos bajo un debufo de [Chupar Vida], tiene un 50% de aplicarles un debufo de [Provocar] durante 1 turno"
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 26430,
+        "speed": 100,
+        "attack": 793,
+        "defense": 1299,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Espada del Destructor (HP)(PUNT)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +20%"
+          ],
+          "buffDebuff": [
+            "bloquear-revivir"
+          ],
+          "multiplier": "HPx(0.25+PUNT/1000",
+          "description": "Ataca a 1 enemigo. Hace un golpe adicional si el objetivo tiene acumulaciones de [Necrosis]. También aplica un debufo de [Bloquear Revivir] si este ataque mata a un enemigo."
+        },
+        {
+          "name": "Atomizar (HP)(PUNT)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "HPx(0.28+PUNT/1000",
+          "description": "Ataca a todos los enemigos. Inflige el doble de daño a los enemigos cuya PUNT sea inferior al de este campeón. Ignora el 50 % de la DEF de cada enemigo cuya PUNT sea igual o superior al de este campeón."
+        },
+        {
+          "name": "Tu vida está perdida!",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "description": "Intercambia HP con un enemigo. Si el objetivo es un jefe, restaura por completo eñ MAX HP destruido de este campeón y lo cura por completo en su lugar. Cada vez que se usa esta habilidad, aumenta el efecto Ignorar DEF de este campeón en un 10 % mientras está en su forma alternativa (se acumula hasta un 50 %). Luego, obtén un turno adicional."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Degenerador (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "necrosis",
+            "revivir-al-morir"
+          ],
+          "description": "[Efecto pasivo] Al morir este campeón, refleja el 50% del daño del ataque letal de vuelta al atacante, incluido todo el daño sobrante. Cada vez que un enemigo muere, aplica una acumulación de [Necrosis] sobre todos los demás enemigos. Las acumulaciones de [Necrosis] no se pueden resistir ni bloquear. Las acumulaciones de [Necrosis] solo se pueden eliminar reviviendo a los aliados muertos. Este efecto no se aplica contra jefes y sus esbirros. Si hay varios campeones en el equipo con esta habilidad, solo se activará uno.\n\n [Efecto activo] Si este campeón está a punto de morir por un ataque letal, se anticipa a ese golpe y aplica instantáneamente un bufo de [Revivir al morir] sobre él durante 1 turno antes de que reciba el daño."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/anaxia-la-renacida.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

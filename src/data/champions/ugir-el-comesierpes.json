@@ -1,0 +1,145 @@
+{
+  "slug": "ugir-el-comesierpes",
+  "name": "Ugir el Comesierpes",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Campeón de nicho, antirevivir y con potencial del limpiar así como aplicar debufos",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=RKNrJQEdbPo",
+  "blessings": [
+    "cosechar-vida"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "rocadragon_dorada",
+    "orquidea_mortilunar",
+    "dedo_real"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "rompe-afinidad"
+  ],
+  "uses": "De nicho, no se usa mucho",
+  "stats": {
+    "hp": 22800,
+    "speed": 105,
+    "attack": 771,
+    "defense": 1288,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Ira de la Sierpe (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 80% de posibilidades de robar un bufo aleatorio del enemigo. También tiene un 80 % de posibilidades de aplicar un debufo de [Bloquear bufos] en el enemigo durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Incisión en la Tierra (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de posibilidades de eliminar todos los bufos de todos los enemigos. Luego, tiene un 75% de posibilidades de aplicar un debufo de [Debilitar] del 25% durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fortaleza de Ogrete (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo del 50% [Aumentar PUNT] a todos los aliados durante 2 turnos. También aplica un bufo del 60% [Aumentar DEF] a todos los aliados cuya DEF sea mayor o igual a su ATK durante 2 turnos. Si el ATK de un aliado es mayor que su DEF, le aplica un bufo del 50% [Aumentar ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Azote de Dragones (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 2,
+      "description": "Cada vez que un enemigo revive, activa instantáneamente [Incisión en la Tierra]. Si un enemigo es revivido por un Campeón de la Facción Hombres Lagarto, no se podrán resistir los efectos de [Incisión en la Tierra]. \n\nActivar instantáneamente [Incisión en la Tierra] no pondrá la habilidad en tiempo de reutilización. Si hay varios campeones en el equipo con esta habilidad, solo uno activará se activará",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en batallas de arena en 70"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ugir-el-comesierpes.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

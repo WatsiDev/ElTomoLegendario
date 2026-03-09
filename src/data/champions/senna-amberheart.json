@@ -1,0 +1,123 @@
+{
+  "slug": "senna-amberheart",
+  "name": "Senna Amberheart",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Espectacular healer y revividor con muchas curaciones continuas y aumento de barra de turno",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "nutrir"
+  ],
+  "relics": [
+    "politopo_infernal",
+    "crisalida_de_renacer",
+    "arpa_de_kasbiel",
+    "diario_de_necrotos",
+    "cristal_de_exanima"
+  ],
+  "gear": [
+    "proteccion",
+    "incansable"
+  ],
+  "uses": "Top revividor, especialmente bueno en Quimera. Va muy bien también en Hydra, oleadas, facciones y contenido PvE",
+  "stats": {
+    "hp": 18990,
+    "speed": 113,
+    "attack": 1112,
+    "defense": 1200,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Estoque de Ámbar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +5%"
+        }
+      ],
+      "multiplier": "4,3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de activar inmediatamente cualquier bufo de [Curación Continua] de cada aliado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Toque de Oro",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% de [Aumentar VEL] y dos bufos de [Curación Continua] a todos los aliados durante 2 turnos. También llena un 20% la barra de turno de todos los aliados.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Al Borde de la Muerte",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Revive a todos los aliados muertos con el 50% y el 50% de Barra de Turno. Luego ataca al enemigo con menos HP junto a todos los aliados revividos por esta habilidad. Los aliados que se unan al ataque usarán su habilidad base.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Resplandor Curativo (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Cada vez que se activa un bufo de [Curación Continua] de cualquier aliado, llena un 5% las barras de turno de todos los aliados. Al final del turno de este campeón aumenta 1 turno la duración de un bufo de [Curación Continua] de un aliado aleatorio, excepto este campeón.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de los aliados en todas las batallas en 19%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/senna-amberheart.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

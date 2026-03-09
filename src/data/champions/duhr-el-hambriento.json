@@ -1,0 +1,114 @@
+{
+  "slug": "duhr-el-hambriento",
+  "name": "Duhr el Hambriento",
+  "faction": "Engendros",
+  "rarity": "Épico",
+  "role": "Revividor y healer con algo de control",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "crisalida_del_renacer",
+    "arpa_de_kasbiel",
+    "dedo_real",
+    "efigie_demoniaca",
+    "elixir_dorado",
+    "corona_lugubre"
+  ],
+  "gear": [],
+  "uses": "Revividor para facciones a falta de alto mejor",
+  "stats": {
+    "hp": 17505,
+    "speed": 102,
+    "attack": 1068,
+    "defense": 1068,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Mole Odiosa (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "4.4xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Letanía Canibal",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "reflejar-dano-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo del 30% [Reflejar daño] en todos los aliados durante 2 turnos, un bufo del 15% [Curación continua] en todos los aliados durante 1 turno, luego cura a todos los aliados en un 15% de su HP MAX.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Con hambre de más",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Revive a 2 aliados aleatorios con un 50% de HP, luego llena sus barras de turno en un 50%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en las criptas de facción en un 30%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/duhr-el-hambriento.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

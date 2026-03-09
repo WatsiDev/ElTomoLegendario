@@ -1,0 +1,183 @@
+{
+  "slug": "vlad-el-nocturno",
+  "name": "Vlad el Nocturno",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Nuker que habilita más daño y control a otros campeones",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=5BTJKk7PMCI",
+  "blessings": [
+    "crueldad",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "martillo_del_fin",
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "corona_de_ireth",
+    "invocatormentas",
+    "sombra_encaramada",
+    "colmillo_asesino",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "destruir",
+    "salvaje",
+    "cruel",
+    "impulso",
+    "punteria",
+    "punteria",
+    "exactitud"
+  ],
+  "uses": "Solo, puede ser útil en oleadas, pero no se usa mucho. Junto con Konstantin funciona mejor pero no son meta.",
+  "stats": {
+    "hp": 15030,
+    "speed": 105,
+    "attack": 1443,
+    "defense": 1134,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Espada Sedienta (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo. Reduce el MAX HP del objetivo en un 30% del daño infligido. También cura a este campeón en un 30% del daño infligido.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Exsanguinate (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "4.7xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Chupar Vida] durante 2 turnos. También tiene un 75% de probabilidad de robar el 50% del barra de turno de los campeones de las facciones de Hidalgos, Orden Sagrada o Altos Elfos. Tiene un 75% de probabilidad de reducir la barra de turno en un 50% en cambio contra objetivos que no sean de esas Facciones.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cubrir la Mente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos y un 75% de probabilidad de aplicar un debufo de [Bloquear habilidades activas] durante 2 turnos.  Aplica un bufo de [Velo perfecto] en este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Notorio (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "revivir-al-morir"
+        }
+      ],
+      "description": "Aplica un bufo de [Revivir al morir] en este Campeón durante 2 turnos cada vez que este Campeón mata a un enemigo. También cura completamente a este Campeón y llena su Medidor de Turno en un 50% cada vez que mata a un enemigo. \n\n[Solo curará y llenará el barra de turno de este campeón cuando [Konstantin el Diurno] esté en el mismo equipo]",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": "Aumenta el P.Crit de los aliados en batallas de Arena en un 30%"
+    }
+  ],
+  "lore": "Hace muchos años comenzó esta historia. Dos hijos huérfanos de un linaje noble orgulloso pero empobrecido fueron acogidos por la Orden Sagrada para ser educados y entrenados en los caminos de Lumaya. El mayor, Konstantin, era un alma justa que aceptaba los sermones de la Orden con celosa pasión. Sin embargo, el más joven, Vlad, estaba irritado por las innumerables reglas y regulaciones. Sintió su espíritu encadenado dentro del monasterio, y sus muchas escapadas vieron al joven caballero expulsado en desgracia cuando solo tenía veinte años. Durante años, Vlad sobrevivió como mercenario y alimentó su reputación de guerrero consumado y despiadado hasta que, por fin, llamó la atención de un mecenas adinerado. El anciano duque Ecsed era el último de su línea, aunque sus esperanzas de reavivar las llamas de la gloria de su familia aún ardían hasta su último día. Para bien o para mal, esas esperanzas estaban condenadas al fracaso, y el duque se hundió en la melancolía mientras el tiempo continuaba su despiadada marcha. Pero vio en Vlad a un sirviente digno, y cuando la enfermedad amenazó con apoderarse de él, convocó al joven caballero y le pidió que recuperara una reliquia, una espada que había estado encerrada en la cripta familiar hacía siglos. El Duque creía que tenía el poder de detener la mano de la Muerte de alguna manera. Vlad se mostró escéptico pero aceptó honrar el último deseo de su Señor. Con un puñado de hombres de armas a su lado, Vlad se aventuró en el mausoleo que se encontraba en medio de las duras montañas del norte. Encontrar la cripta no fue una tarea fácil, pero las catacumbas debajo estaban desprovistas de trampas u otros peligros de un vistazo. Satisfecho de que el recado hubiera terminado, Vlad llevó a sus hombres a la bóveda funeraria más profunda. Sin embargo, en el momento en que abrieron el sepulcro, un grito escalofriante atravesó el silencio. Los necrófagos apresuraron a la pequeña tropa por todos lados y los abrumaron con el gran peso del número Vlad luchó ferozmente, pero los enemigos eran demasiados. Maltratado y herido, con la espada rota, estuvo a punto de sucumbir a la horda de no muertos. Entonces algo se despertó en su corazón y, siguiendo un impulso primordial, Vlad arrebató la espada de Ecseds de los dedos muertos de su anterior dueño y cargó contra los ghouls con desesperado abandono. Al final prevaleció, pero sus heridas fueron fatales. Sin embargo, mientras yacía allí muriendo, ese mismo impulso llevó a Vlad a arrancarle la garganta a un escudero moribundo y a atiborrarse de sangre. En ese momento, un poder bestial y primordial fluyó por sus venas. Curó las heridas de Vlad y le dio fuerza, aunque el precio fue realmente terrible Solo regresó al castillo del Duque para encontrarlo en llamas, incendiado por los Templarios de la Sagrada Orden. Ya sabía que la familia Ecsed había albergado un oscuro secreto: la sangre de vampiros corría por sus venas y el duque deseaba abrazarla para salvarse de la muerte. Ahora esa maldición residía dentro de Vlad. Disgustado e intrigado a partes iguales, se desvió y desapareció entre las sombras. Sin embargo, su reinado de terror acababa de comenzar y le aguardaban muchos hechos sangrientos, incluidos muchos enfrentamientos con su justo hermano Konstantin. Pero esa es una historia para otra noche.",
+  "forms": null,
+  "image": "/src/assets/champions/vlad-el-nocturno.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

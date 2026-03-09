@@ -1,0 +1,144 @@
+{
+  "slug": "bolint-caminalibre",
+  "name": "Bolint Caminalibre",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Controlador y debufer",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=WzK_Wfye-t4",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "campana_fundida",
+    "antorcha_esclava"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Facciones, oleadas e incluso algún equipo de arenas poderoso he visto en torno a  él",
+  "stats": {
+    "hp": 22140,
+    "speed": 104,
+    "attack": 980,
+    "defense": 1123,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Destructor de Bloques (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +5%"
+        }
+      ],
+      "multiplier": "0.15xHP",
+      "description": "Ataca a 1 enemigo 2 veces.\n\n Después del segundo ataque, cura a todos los aliados el 5% de MAX HP de este campeón. También tiene un 10% de probabilidad de obtener un turno adicional.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza Fracturadora (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "0.3xHP - 0.30xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 80% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos. \n\nDespués de atacar al objetivo inicial, ataca al resto de enemigos. Tiene un 80% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Martillo de Onungburg (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.15xHP",
+      "description": "Ataca a todos los enemigos 2 veces. Cada ataque tiene un 100% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "factionUnity": "Unidad de Cambiapieles",
+      "unityEffects": {
+        "1-ally": "Antes de atacar tiene un 100% de probabilidad de eliminar todos los bufos de todos los enemigos.",
+        "2-ally": "Llena un 15% la barra de turno de este campeón por cada debufo de [Aturdir] que aplca esta habilidad",
+        "3-ally": "Esta habilidad ignora el 50% de RES."
+      },
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Icono de Rebelión (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "Cuando un aliado usa una habilidad que ataca varias veces, cada ataque después del primero hace un 15% más de daño.",
+      "factionUnity": "Unidad de Cambiapieles",
+      "unityEffects": {
+        "1-ally": "Cuando un aliado ataca a un enemigo, tiene un 10% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+        "2-ally": "Cuando un aliado hace un crítico, llena un 5% la barra de turno.",
+        "3-ally": "Los aliados ignoran el 30% de DEF de enemigos que tienen un debufo de [Aturdir]."
+      },
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en batallas de Arena en 24%"
+    },
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de Aliados en todas las batallas en 60 (solo se aplica a Cambiapieles)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bolint-caminalibre.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

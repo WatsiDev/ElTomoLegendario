@@ -1,0 +1,116 @@
+{
+  "relics": [
+    "dedo_real"
+  ],
+  "skills": [
+    {
+      "name": "Abalanzarse (ATK+HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 7: Probabilidad de bufo / debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "1.5xATK + 0.12xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 30 % de probabilidad de aplicar una debufo [Bloquear Bufos] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estrangular (ATK+HP) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "2.5xATK + 0.2xHP",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Dormir] durante 2 turnos si el objetivo no tiene bufos activos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bálsamo Herbal (Pasiva",
+      "levels": [],
+      "cooldown": 2,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Curación continua] del 15 % en este campeón durante 2 turnos si el daño entrante supera el 20 % de su HP en un ataque.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "game_modes": [],
+  "aura": [],
+  "pros": [],
+  "affinity": "Magia",
+  "pvp_stats": [],
+  "rarity": "Raro",
+  "name": "Acechador del Fango",
+  "slug": "acechador-del-fango",
+  "blessings": [
+    "curacion-milagrosa"
+  ],
+  "uses": "Necropolis de Arena en early para dormir al boss.",
+  "forms": null,
+  "gear": [],
+  "contras": [],
+  "masteries": [],
+  "role": "Cuenta con un poderoso debufo de dormir que puede hacernos un parche en Necropolis de arena",
+  "lore": null,
+  "youtube_link": null,
+  "sinergias": [],
+  "type": "HP",
+  "image": "/src/assets/champions/acechador-del-fango.webp",
+  "faction": "Hombres Lagarto",
+  "stats": {
+    "hp": 20475,
+    "speed": 101,
+    "attack": 903,
+    "defense": 760,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "artworks": [
+    "/src/assets/artworks/acechador-del-fango/imagen_2026-03-09_034316166.png"
+  ],
+  "pve_stats": []
+}

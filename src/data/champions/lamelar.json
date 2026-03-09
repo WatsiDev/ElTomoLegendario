@@ -1,0 +1,107 @@
+{
+  "slug": "lamelar",
+  "name": "Lamelar",
+  "faction": "Orden Sagrada",
+  "rarity": "Raro",
+  "role": "Nada, muy malo.",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [],
+  "gear": [
+    {
+      "set_name": ""
+    }
+  ],
+  "uses": "Muy malo, se puede usar como pollo.",
+  "stats": {
+    "hp": 19650,
+    "speed": 93,
+    "attack": 837,
+    "defense": 881,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Llama Sagrada (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-1"
+        }
+      ],
+      "multiplier": "0.14xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 10% de probabilidad de aplicar un debufo de 30% de [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estallido de Cristal (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-1"
+        }
+      ],
+      "multiplier": "0.1xHP",
+      "description": "Ataca a todos los enemigos. Aplica un debufo de 25% de [Reducir ATK] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Duro de Pelar (Pasiva)",
+      "levels": [],
+      "description": "Reduce un 30% el daño recibido por este campeón cuando tiene menos del 30% de HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en Criptas de facción en 22%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/lamelar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

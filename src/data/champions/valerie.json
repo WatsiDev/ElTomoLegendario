@@ -1,0 +1,110 @@
+{
+  "slug": "valerie",
+  "name": "Valerie",
+  "faction": "Hidalgos",
+  "rarity": "Raro",
+  "role": "Extensora de bufos/healer/escudos",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia"
+  ],
+  "relics": null,
+  "gear": [
+    "reflejo",
+    "impulso"
+  ],
+  "uses": "Un poco de nicho, no es terrible pero tampoco es top.",
+  "stats": {
+    "hp": 15855,
+    "speed": 98,
+    "attack": 969,
+    "defense": 1002,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Lateral (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Presencia Energizante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-1"
+        }
+      ],
+      "description": "Prolonga 1 turno la duración de todos los bufos de todos los aliados. También reduce 1 turno la duración de todos los debufos de todos los aliados. Aplica un bufo de 25% de [Aumentar ATK] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Proteger",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +5%"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Aplica un bufo de [Escudo] a todos los aliados durante 2 turnos. El valor del [Escudo] depende del nivel de este campeón. Cura a todos los aliados según los bufos que tenga cada uno.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en Criptas de Facción 22%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/valerie.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

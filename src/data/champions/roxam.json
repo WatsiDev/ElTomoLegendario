@@ -1,0 +1,172 @@
+{
+  "slug": "roxam",
+  "name": "Roxam",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Nuker con buen daño, así como potencial de debufer para hacer aún más daño. Se oculta tras un Velo cual camaleón y pega fuerte.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=L3ySF8u9W7o",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "pergamino_invisible",
+    "invocatormentas",
+    "tributo_de_san_zavier",
+    "lente_intangible"
+  ],
+  "gear": [
+    "bestial",
+    "despiadado",
+    "percepcion",
+    "letal",
+    "salvaje",
+    "cruel"
+  ],
+  "uses": "Oleadas, Facciones y casi cualquier Jefe. Aunque sea blandito su pasiva y el Velo le dan cierta supervivencia y es versátil.",
+  "stats": {
+    "hp": 16020,
+    "speed": 103,
+    "attack": 1553,
+    "defense": 958,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cambio Cromático (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo.\n\n Llena la barra de turno de este campeón en un 10%. También aplica un bufo de [Velo perfecto] en este Campeón durante 1 turno si este ataque es crítico.\n\n Si este campeón está bajo un bufo de [Velo] o [Velo Perfecto], llena la barra de turno de este campeón en un 20% en su lugar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Emboscada en la jungla (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "aturdir"
+        },
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "6.4xATK",
+      "description": "Ataca a 1 enemigo. Llena la barra de turno de este campeón en un 50%.\n\n Tiene un 75% de probabilidad de aplicar una debufo de [Aturdir] en el objetivo durante 1 turno cuando ataca mientras está bajo la debufo de [Velo] o [Velo perfecto].\n\n Tiene un 75% de probabilidad de aplicar una debufo de [Dormir] en el objetivo durante 1 turno cuando ataca sin una debufo de [Velo] o [Velo perfecto].\n\n Aplica un bufo de [Velo perfecto] en este campeón durante 2 turnos después de atacar sin un bufo de [Velo] o [Velo perfecto].\n\n Ignorará bufos de [Escudo], [Fortalecer] e [Inmortal].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Paso de parpadeo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "6.1xATK",
+      "description": "Mientras está bajo un bufo [Velo] o [Velo perfecto]:\n\n Ataca a todos los enemigos. Antes de atacar, tiene un 75% de probabilidad de aplicar una debufo del 60% [Reducir DEF] y una debufo del 25% [Debilitar]. Reduce el tiempo de reutilización de Emboscada en la jungla en 2 turnos. Ignorará bufos de [Bloquear Debufos], [Fortalecer] e [Inmortal].\n\n Sin estar bajo un bufo de [Velo] o [Velo perfecto]:\n\n Ataca a 1 enemigo. Tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] y un debufo del 25% [Debilitar] antes de atacar. Aplica un bufo de [Velo perfecto] en este campeón durante 2 turnos después de atacar.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Camaleón (Pasiva)",
+      "levels": [],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumenta-atk-2"
+        },
+        {
+          "key_name": "curacion-continua-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos] y uno de 50%[Aumentar ATK] a este campeón durante 1 turno, y un bufo de [Curación continua] del 15% durante 2 turnos cada vez que reciben un bufo de [Velo] o [Velo perfecto].\n\n Aplica un bufo de [Velo Perfecto] protegido durante 1 turno siempre que un enemigo recibe un bufo de sus habilidades.\n\n Si el MAX HP del objetivo es mayor que el de este campeón, ignorará el 15% de la DEF del enemigo. Si el MAX HP del objetivo es de más del doble que el de este campeón, ignorará el 30% de la DEF en su lugar.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": " Aumenta la P.Crit en todas las batallas en un 23%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/roxam.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

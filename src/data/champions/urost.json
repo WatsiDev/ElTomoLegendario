@@ -1,0 +1,164 @@
+{
+  "slug": "urost",
+  "name": "Urost",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Tanque de HP que aplica venenos y aumenta su propio HP",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "abanico_negro",
+    "aberracion_antigua",
+    "diadema_no_muerta",
+    "elixir_dorado",
+    "impasse_temporal"
+  ],
+  "gear": [
+    "toxico",
+    "escudo",
+    "inmortal",
+    "resiliencia",
+    "percepcion",
+    "regeneracion"
+  ],
+  "uses": "Puede solear el Escarabajo de la Torre y es buen tanque para oleadas",
+  "stats": {
+    "hp": 24450,
+    "speed": 95,
+    "attack": 782,
+    "defense": 1167,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Nudillos dentados (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de [Escudo] en este Campeón equivalente al 10% del máximo HP de este Campeón durante 2 turnos. El valor del [Escudo] aumenta un 1% por cada debufo de [Veneno] en el objetivo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Legion de condenados",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Posibilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "0.24xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de reducir las barras de turno de los enemigos en un 15% con 1 o más debuffs de [Veneno]. También tiene un 75% de probabilidad de aplicar un debufo del 30% [Reducir VEL] durante 2 turnos en enemigos con al menos de 2 o más perjuicios [Veneno]. Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno en enemigos con al menos 3 debuffos de [Veneno]. Activa instantáneamente esta habilidad cuando este Campeón es revivido por Rian la Conjuradora.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alma Pródiga ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Aplica un bufo del 25% [Fortalecer] en todos los aliados durante 2 turnos y un bufo del 50% [Protección de aliados] en todos los aliados excepto este Campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llamar a la Jaula (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "incitar"
+        }
+      ],
+      "description": "Cuando es atacado, tiene un 50% de probabilidad de aplicar un debufo del 5% [Veneno] en el atacante durante 2 turnos. Siempre que un aliado sea atacado mientras está bajo un bufo de [Fortalecer], tiene un 50% de probabilidad de aplicar un debufo de [Incitar] en el atacante durante 1 turno. Aumenta los PS MÁXIMOS de este Campeón en un 5% cada vez que un enemigo recibe daño de un debufo de [Veneno] colocado por este Campeón. Siempre que un enemigo recibe daño de un debufo de [Veneno] colocado por este Campeón, también disminuye su MAX HP en un 5%. [No se puede reducir el HP MAX de un campeón en más de un 25% en una batalla. No disminuirá el HP MAX de los jefes. No se puede aumentar el HP MÁXIMO de este Campeón en más del 50%.] ",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RESISTENCIA de los aliados en todas las batallas en 80."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/urost.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

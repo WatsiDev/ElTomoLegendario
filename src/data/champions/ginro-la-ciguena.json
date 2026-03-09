@@ -1,0 +1,125 @@
+{
+  "slug": "ginro-la-ciguena",
+  "name": "Ginro la Cigüeña",
+  "faction": "Sombrios",
+  "rarity": "Legendario",
+  "role": "Nuker defensivo con capacidad de daño o control",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "polimorfar",
+    "desgarro-aplastante"
+  ],
+  "relics": null,
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 18825,
+    "speed": 98,
+    "attack": 936,
+    "defense": 1387,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Pico Hundido (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5 %"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 50 % de probabilidad de aumentar el tiempo de reutilización de una de las habilidades al azar del objetivo en 2 turnos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Confundir (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "4.9xDEF",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Aturdir] durante 2 turnos. Ignorará los bufos de [Bloquear Debufos] y [Bloquear daño].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Postura de Guardia",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "description": "Aplica un bufo del 60 % [Aumentar DEF] en este Campeón durante 3 turnos y un bufo de [Contraataque] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Gaviota Risueña (Pasiva)",
+      "levels": [],
+      "description": "[Efecto pasivo] Aumenta la DEF de este Campeón cada vez que contraataca (10% de la Defensa Total por Ataque). La DEF se reinicia cada vez que este Campeón tiene un turno. Al atacar, convierte el RES de este campeón en PUNT adicional.\n\n [Efecto activo] Al final del turno de este Campeón, aplica un debufo de [Incitar] durante 1 turno en todos los enemigos que tengan un debufo de [Aumentar ATK].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la Resistencia de aliados en todas las batallas en 80."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/ginro-la-ciguena.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

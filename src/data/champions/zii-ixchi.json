@@ -1,0 +1,120 @@
+{
+  "slug": "zii-ixchi",
+  "name": "Zii Ixchi",
+  "faction": "Hombres Lagarto",
+  "rarity": "Épico",
+  "role": "Nuker de un solo objetivo capaz de autobufearse, pero poco útil",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "aspecto_de_siroth",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Facciones como mucho, y reemplazable",
+  "stats": {
+    "hp": 14535,
+    "speed": 99,
+    "attack": 1421,
+    "defense": 914,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Picadora Industrial (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
+      ],
+      "multiplier": "2.7xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 15% de posibilidades de dar un golpe extra.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rompe Coronas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Ignorará bufos de [Escudo] y [Bloquear daño] . Aplica un bufo de [Bloquear daño] a este campeón durante 1 turno si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Furia Ancestral",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% de [Aumentar D.Crit] y un bufo de 50% de [Aumentar ATK] a este campeón durante 3 turnos y luego obtén un Turno Adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Asesina de Reyes (Pasiva)",
+      "levels": [],
+      "description": "Cada vez que este Campeón mata a un enemigo, reduce el tiempo de reutilización de la habilidad Rompe Coronas en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/zii-ixchi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

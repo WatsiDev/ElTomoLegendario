@@ -1,0 +1,125 @@
+{
+  "slug": "dracomorfo",
+  "name": "Dracomorfo",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Poderoso debufer y envenenador.",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=OsLAh7wKHLw",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "tiempo_de_sangre",
+    "aberracion_antigua",
+    "colmillo_asesino",
+    "lente_intangible"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "En early y mid game para casi todo: oleadas, dragon, golem, señor demoníaco... En late game se queda un poco atrás",
+  "stats": {
+    "hp": 15195,
+    "speed": 98,
+    "attack": 1520,
+    "defense": 1046,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Dolor penetrante (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. El daño aumenta en un 10% por cada debufo en el objetivo. Atacará a 1 enemigo aleatorio con cualquier daño adicional si el objetivo es asesinado. El daño infligido es igual al triple del daño excedente. El daño sobrante no puede ser critico. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Colmillos Venenosos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "1.3xATK",
+      "description": "Ataca 4 veces al azar. Cada golpe aplica un debufo de 5% [Veneno] durante 3 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Mirada funesta",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "description": "Aplica un debufo del 25% [Debilitar] y un debufo del 60% [Reducir DEF] en todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en criptas de facción en 50."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/dracomorfo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "maeve",
+  "name": "Maeve",
+  "faction": "Bárbaros",
+  "rarity": "Épico",
+  "role": "Nuker mediocre",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": null,
+  "stats": {
+    "hp": 15195,
+    "speed": 100,
+    "attack": 1354,
+    "defense": 936,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Dejar Estupefacto (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "3.8xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 60 % de probabilidad de aplicar un debufo de [Dormir] durante 1 turno. Tiene un 50 % de probabilidad de dar un turno adicional si se aplica el debufo de [Dormir] .",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Violencia Extrema (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "6.3xATK",
+      "description": "Ataca a 1 enemigo. Aplica un debufo de [Aturdir] durante 1 turno. Aplica un debufo de [Aturdir] durante 2 turnos si el objetivo está bajo un debufo de [Dormir] .",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Y no te levantes (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "7.15xATK",
+      "description": "Ataca a 1 enemigo. Los enemigos muertos por esta habilidad no pueden ser revividos.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/maeve.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "sicia-flametongue",
+  "name": "Sicia Flametongue",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Poderoso debufer y quemador de HP, además de activar. Muy buena en arañas e hydra y tiene potencial de daño",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "fuego-y-azufre",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "malleos_de_fuego",
+    "invocatormentas",
+    "corona_de_ireth",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [],
+  "uses": "Muy buen debufer, quemador y activador de HP en oleadas, arañas e hydra",
+  "stats": {
+    "hp": 13050,
+    "speed": 97,
+    "attack": 1586,
+    "defense": 1123,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Coloso en llamas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de Bufo/ Debufo+5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de Bufo/ Debufo +10%"
+        }
+      ],
+      "multiplier": "1.05xATK",
+      "description": "Ataca a 1 enemigo 3 veces. Cada golpe tiene un 15% de probabilidad de aumentar la duración de los debufos de [Quemar HP] en el objetivo en 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Erupción de llamas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de Bufo/ Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de Bufo/ Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 80% de aplicar un debufo del 25% [Debilitar] durante 2 turnos. También tiene un 80% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos si hay al menos 2 enemigos bajo un debufo de [Quemar HP]. Luego activa instantáneamente cualquier debufo de [Quemar HP] en cada objetivo y reduce la duración de esos debufos de [Quemar HP] en 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tormenta Ignea (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Posibilidad de Bufo/ Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Posibilidad de Bufo/ Debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "quemar-hp"
+        }
+      ],
+      "description": "Aplica un debufo de [Quemar HP] en este campeón durante 3 turnos, luego ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Quemar HP] en todos los enemigos durante 3 turnos. Otorga un turno extra si se aplicaun debufo de [Quemar HP] atodos los enemigos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Metafísica (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo/ Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/ Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/ Debufo +5%"
+        }
+      ],
+      "description": "Aumenta la VEL de este campeón en 3 y el daño infligido en un 3% por cada aliado y enemigo bajo un debufo de [Quemar HP]. Si Cardiel está en el equipo, todos los aliados se curarán en un 3% de su MAX HP de los debuffs [Quemar HP] en lugar de recibir daño.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de los aliados en todas las batallas en 60"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sicia-flametongue.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

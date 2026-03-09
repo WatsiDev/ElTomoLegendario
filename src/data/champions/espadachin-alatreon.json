@@ -1,0 +1,125 @@
+{
+  "slug": "espadachin-alatreon",
+  "name": "Espadachín Alatreon",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Gran bufer con bufos protegidos",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "impasse_temporal",
+    "infernosfera",
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": "Quimera, Hydra, Facciones...No molesta",
+  "stats": {
+    "hp": 20805,
+    "speed": 110,
+    "attack": 914,
+    "defense": 1277,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Corte de Previsión (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "multiplier": "0.2xHP",
+      "description": "Ataca a 1 enemigo. Tiene un 40 % de probabilidad 1 turno la duración de 2 bufos al azar de cada aliado.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Corte Cosechador (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.22xHP",
+      "description": "Ataca a todos los enemigos. Aplica un bufo del 60 % [Aumentar DEF] y una debufo [Escudo] en todos los aliados durante 2 turnos. El [Escudo] equivale al 30% del HP MÁXIMO de este Campeón. Si el objetivo es un jefe, estos bufos están protegidos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Impulso Limpiador (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        }
+      ],
+      "description": "Elimina todos los debufos de todos los aliados y aplica un bufo de [Bloquear Debufos] a todos los aliados durante 2 turnos. Si el objetivo es un Jefe, este bufo está protegido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Divinidad de Alatreon (Pasiva)",
+      "levels": [],
+      "description": "Llena la barra de turno de este campeón en un 5% cada vez que se le aplica un debufo. También cura a este Campeón en un 5% de su HP MÁXIMO cada vez que un debufo que se le aplica caduca o se elimina.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en mazmorras en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/espadachin-alatreon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

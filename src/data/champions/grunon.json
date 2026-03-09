@@ -1,0 +1,123 @@
+{
+  "slug": "grunon",
+  "name": "Gruñón",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Campeón de apoyo de HP con bufos y bloquear curación",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "cura-de-urgencia"
+  ],
+  "relics": [
+    "dedo_real"
+  ],
+  "gear": [],
+  "uses": "Ninguno, muy malo. Como mucho en early contra el torreón de pociones verde",
+  "stats": {
+    "hp": 19485,
+    "speed": 95,
+    "attack": 804,
+    "defense": 925,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 55
+  },
+  "skills": [
+    {
+      "name": "Mazo Furioso (HP)(DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "0.1xHP+0.1xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Aplica un bufo de [Escudo] del 10% de su MAX HP a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "No hay vuelta atrás (HP)(DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-1"
+        }
+      ],
+      "multiplier": "0.2xHP+1.5xDEF",
+      "description": "Ataca a 1 enemigo. \n\n Aplica un debufo de 50% de [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Soportar el peso",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "proteccion-de-aliado-1"
+        },
+        {
+          "key_name": "aumentar-def-1"
+        }
+      ],
+      "description": "Aplica un bufo del 25% de [Protección de Aliado] a todos los aliados durante 2 turnos. \n\nAplica un bufo de de 30% de [Aumentar DEF] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de Aliados en Mazmorras en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/grunon.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

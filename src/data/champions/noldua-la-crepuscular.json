@@ -1,0 +1,126 @@
+{
+  "slug": "noldua-la-crepuscular",
+  "name": "Noldua la Crepuscular",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Revividor y debufer de apoyo. Cuenta con muchas sinergias con Solanar el Resplandeciente para hacer counter al meta de velocidad en arenas",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=GQxGXbwzYlY",
+  "blessings": null,
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer",
+    "varita_de_sumision"
+  ],
+  "gear": [],
+  "uses": "Versátil para facciones por el revivir y como campeón de apoyo en oleadas y jefes. Diseñada principalmente para ir junto con Solanar en arenas",
+  "stats": {
+    "hp": 20640,
+    "speed": 108,
+    "attack": 914,
+    "defense": 1288,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpesombra (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "desfallecer"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Desfallecer] durante 2 turnos. Si el objetivo es un Jefe, aplica un debufo de 25% de [Debilitar] durante 2 turnos en su lugar. Este debufo no puede ser resistido si Solanar el Respplandeciente está en el mismo equipo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Purga de Sombra",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Tiene un 75% de probabilidad de eliminar todos los bufos de los enemigos. Este efecto no se puede resistir si Solanar el Resplandeciente está en el mismo equipo.\n\n Luego tiene un 75% de probabilidad de aplicar un debufo de 60& de [Reducir DEF] a todos los enemigos durante 2 turnos. Este debufo no se puede resistir i SOlanar el Resplandeciente está en el mismo grupo.\n\n Si Solanar el Resplandeciente está en el mismo grupo, también aplica un bufo de 50% de [Aumentar ATK] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Bendición de Luz de Luna",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con el 50% de HP y el 50% de la Barra de Turno. Si Solanar el Resplandeciente está en el mismo equipo y está muerto, lo revive a él con 100% de barra de turno en su lugar.\n\n Aplica un bufo de [Escudo] a todos los aliados del 30% del MAX HP de este campeón durante 2 turnos",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Estudiante de las Sombras (Pasiva)",
+      "levels": [],
+      "description": "Todos los efectos de llenar barra de turno usados por los enemigos son un 30% menos efectivos. Si Solanar el Resplandeciente está en el mismo grupo, llena la barra de turno de este campeón un 30% del efecto de llenado de barra de turno del enemigo. Si hay multiples campeones en el grupo con esta habilidad, solo se activará una. Esta habilidad no se activará en copias duplicadas de este campeón si este campeón en partiuclar está muerto. Solo cuenta los efectos de llenado de barra de turno de habilidades.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 70"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/noldua-la-crepuscular.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

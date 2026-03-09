@@ -1,0 +1,131 @@
+{
+  "slug": "cronista-adelyn",
+  "name": "Cronista Adelyn",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Healer mediocre capaz de dormir",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=ilsOFJ_ku_E",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "diario_de_necrotos",
+    "dedo_real"
+  ],
+  "gear": [
+    "regeneracion",
+    "inmortal",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "Con 5* de ascensión puede hacer Necrópolis. Mediocre hasta mid-game en general.",
+  "stats": {
+    "hp": 19650,
+    "speed": 105,
+    "attack": 1013,
+    "defense": 1255,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Intercambio Equivalente (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "multiplier": "5.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de transferir 1 debufo aleatorio de este Campeón al objetivo. También tiene un 50% de posibilidades de robar 1 bufo aleatorio del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Guión Curativo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "description": "Restaura el 25% del HP MAX destruido de cada aliado, luego cura a todos los aliados en un 25% del HP MAX de este Campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Escrito de Sueño",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        },
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "description": "Tiene un 75 % de probabilidad de aplicar un debufo de [Sueño] al objetivo durante 1 turno. También tiene un 75 % de probabilidad de aplicar un debufo del 30 % [Reducir VEL] y un debufo del 50 % [Reducir ATK] en el objetivo durante 2 turnos. Los debufos aplicados por esta habilidad ignorarán cualquier bufo de [Bloquear debufos] .",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Percibir debilidad (Pasiva)",
+      "levels": [],
+      "description": "Los aliados infligen un 3% más de daño a los objetivos por cada debufo que les aplica este Campeón",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": " Aumenta PUNT de aliados en todas las batallas 60"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/cronista-adelyn.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

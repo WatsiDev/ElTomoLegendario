@@ -1,0 +1,123 @@
+{
+  "slug": "tatura-rimehide",
+  "name": "Tatura Rimehide",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Campeón defensivo con bloquear debufos que puede ser útil en casos concretos",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=Elkv0ZYQHBY",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": null,
+  "gear": [
+    "inmortal",
+    "velocidad",
+    "velocidad-divina",
+    "resiliencia"
+  ],
+  "uses": "Situacional. Señor demoníaco en setups inmortales como bloqueador de debufos",
+  "stats": {
+    "hp": 20145,
+    "speed": 102,
+    "attack": 804,
+    "defense": 1432,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Rayo Solar (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 80% de probabilidad de aplicar un debufo del 50% [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Alas de Refugio",
+      "levels": [
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos] y un [Aumentar DEF] del 60% a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rotura Sobrenatural (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "4.2xATK",
+      "description": "Ataca a todos los enemigos. aplica un bufo de [Velo perfecto] a todos los aliados excepto a este Campeón durante 2 turnos. También aplica un bufo de [Escudo] en este Campeón durante 2 turnos equivalente al 20% del daño infligido.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en las batallas de la Torre del Destino en un 35%"
+    }
+  ],
+  "lore": "Innumerables bestias mágicas habitan en el reino de Teleria. Muchos son verdaderos monstruos, depredadores para quienes los hombres y los elfos no son más que ganado listo para ser sacrificado. Pero entre la miríada de criaturas que las madres usan para asustar a sus rebeldes hijos y hacerlos obedientes en la oscuridad de la noche, existen entidades benevolentes, cuya sabiduría rivaliza incluso con los magos más eruditos. Por desgracia, esa misma sabiduría los aleja de las tierras donde habitan los mortales, no sea que el miedo, o la codicia, abran el camino al derramamiento de sangre. Tatura Rimehide vivió durante muchos milenios y había visto mucho: desde las primeras guerras entre Lumaya y Siroth hasta el surgimiento de reinos mortales en el Sur. Había elegido no interferir en la vida de los demás a menos que los justos se enfrentaran a una terrible marea de Oscuridad. Incluso entonces, siempre se había retirado a su hogar barrido por la nieve en el extremo norte cuando terminaba su tarea. Por lo tanto, pocas menciones de las apariciones de Tatura permanecen en la historia escrita y en el mito, aunque las bárbaras tribus Norr todavía recuerdan una extraña quimera que se decía que apareció en la más letal de las ventiscas para guiar a los viajeros a un lugar seguro. \n\n Pero a medida que pasaron los siglos, la maldad de Siroth se hizo más fuerte en toda la tierra. Innumerables soberanos, magos y guerreros cayeron bajo el dominio del Señor Oscuro, y su sombra envolvió a Teleria. No había forma de escapar de ella, ni siquiera en los confines más lejanos de los páramos del norte. Los cazadores de engendros de demonios vinieron tras Tatura, persiguiéndolo a través del desierto nevado con perversa determinación. Muchos de ellos cayeron, destrozados por las garras de la antigua quimera, o congelados hasta morir cuando las tormentas de nieve los atraparon al aire libre. Pero siempre había más de ellos. Día y noche, la persecución continuó hasta que Tatura fue finalmente acorralado y preparado para enfrentar lo que parecía ser su última batalla. Pero al igual que Tatura ayudó a los mortales en su hora de necesidad, también su difícil situación no pasó desapercibida; un pilar de luz brillante estalló en medio de las formaciones de Engendros, y un magnífico Iluminado cayó sobre ellos con la gracia de un halcón. Gliseah Soulguide descendió de los cielos, ¡y nadie pudo resistir su ira! Atrapados entre la fuerza indomable de Tatura y la espada de Gliseah, los sirvientes de Siroth perecieron en masa o se dispersaron en pánico. Cuando terminó la batalla, los dos guerreros de la Luz se agradecieron mutuamente y hablaron largamente sobre las malas noticias del Sur. Aunque Tatura siempre se mostró reacio a entrometerse en asuntos más allá de su alcance, ahora estaba claro que la Mediadora, el heraldo elegido por Lumaya, encargado de defender a Teleria, necesitaría toda la ayuda que pudiera obtener en las batallas que se avecinaban. Y así se comprometió con su salvadora, Gliseah, cuya rectitud y el odio frío de todo mal la distinguen incluso de sus compañeros de la Orden Sagrada. Juntos, viajaron hacia lo desconocido, convencidos de que encontrarían un alma digna que necesitara su ayuda contra los viles planes de Siroth.",
+  "forms": null,
+  "image": "/src/assets/champions/tatura-rimehide.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

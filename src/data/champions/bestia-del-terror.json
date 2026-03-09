@@ -1,0 +1,131 @@
+{
+  "slug": "bestia-del-terror",
+  "name": "Bestia del Terror",
+  "faction": "Orcos",
+  "rarity": "Épico",
+  "role": "Compaañero del Jefe de Manada Shy'ek, pero bastante malo en general",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=Gj1ifd880Hg",
+  "blessings": [
+    "toque-fantasmal",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "ataque",
+    "prob-critico",
+    "p-crit-divino",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": "No muy bueno, no se usa",
+  "stats": {
+    "hp": 20970,
+    "speed": 93,
+    "attack": 1057,
+    "defense": 848,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Mordisco Doloroso (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 1: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +5 %"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 20 % de probabilidad de aumentar el tiempo de recuperación de una de las habilidades del objetivo en 1 turno al azar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Chillido (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "reflejar-dano-2"
+        }
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca 2 veces al azar. Aplica un bufo de [Reflejar Daño] del 30 % a todos los aliados durante 3 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Festin de Carne (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "3.7xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cura por completo a este campeón si el objetivo muere a causa de este ataque. Aplica un debufo de [Aturdir] durante 2 turnos si el objetivo sobrevive.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/bestia-del-terror.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

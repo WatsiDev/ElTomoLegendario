@@ -1,0 +1,144 @@
+{
+  "slug": "edward-kenway",
+  "name": "Edward Kenway",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Poderoso nuker con control, ignorar piel de piedra, bloquear revivir y control de barra de turno",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=qfaOF5VFwrs",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "tiempo_de_sangre",
+    "garra_malefica",
+    "mirada_del_gato",
+    "corona_de_ireth",
+    "varita_de_sumision",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "letal",
+    "salvaje",
+    "piel-de-piedra"
+  ],
+  "uses": "Arenas y oleadas principalmente. Los jefes son inmunes a sus debufos y a reducir barra de turno.",
+  "stats": {
+    "hp": 15195,
+    "speed": 101,
+    "attack": 1575,
+    "defense": 991,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Arremetida Corsaria (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "multiplier": "1.35xATK",
+      "description": "Ataca a 1 enemigo 3 veces.\n\n Cada ataque tiene un 75% de probabilidad de reducir un 15% la Barra de Turno del objetivo. Si el objetivo es crítico, en lugar de lo anterior cada ataque reduce un 25% la barra de turno del objetivo. Este efecto no se puede resistir si este campeón tien un bufo de [Velo] o [Velo Perfecto].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Martillar el Gatillo (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "2.15xATK",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n El primer ataque roba todos los bufos de todos los enemigos y reduce un 20% la barra de turno de cada enemigo. Este efecto no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].\n\n El segundo ataque tiene un 75% de probabilidad de aplicar un debufo de [Dormir] a todos los enemigos durante 1 turno. Si este ataque es crítico, este debufo ignora bufos de [Bloquear Debufos]. Este efecto no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Entre Ceja y Ceja (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "bloquear-revivir"
+        }
+      ],
+      "multiplier": "6.5xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de [Velo Perfecto] a este campeón y al resto de Asesinos del grupo durante 2 turnos.\n\n Ignora bufos de [Escudo], [Piel de Piedra] y [Bloquear Daño].\n\n Aplica un debufo de [Bloquear Revivir] si el objetivo muere.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Todo está permitido (Pasiva)",
+      "levels": [],
+      "multiplier": "2xATK",
+      "description": "Si los HP de un enemigo bajan del 25% después de recibir daño de un Asesino, dicho enemigo recibe daño adicional proporcional a ATK de este campeón. Este daño adicional ignora 100% de DEF y no puede ser crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Pasar por la Quilla (Pasiva)",
+      "buffDebuff": [
+        {
+          "key_name": "enredar-2"
+        }
+      ],
+      "description": "Todos los ataques de este campeón tienen un 50% de probabilidad de aplicar un debufo de 100% de [Enredar] al objetivo durante 2 turnos. Cuando este campeón mata a un enemigo, aplica undebufo de 100% de [Enredar] al resto de enemigos durante 2 turnos y reduce un 20% su barra de turno. Estos efectos no se pueden resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].\n\n Este campeón hace 20% más de daño contra objetivos que tienen un debufo de [Enredar].",
+      "levels": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/edward-kenway.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

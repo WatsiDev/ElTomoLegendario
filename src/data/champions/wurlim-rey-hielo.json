@@ -1,0 +1,148 @@
+{
+  "slug": "wurlim-rey-hielo",
+  "name": "Wurlim Rey Hielo",
+  "faction": "Aparecidos",
+  "rarity": "Legendario",
+  "role": "Nuker defensivo bufos y debufos, pero poco usado",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "desgarro-aplastante",
+    "crueldad"
+  ],
+  "relics": [
+    "apagador_de_esencia",
+    "luna_de_sangre",
+    "rocadragon_dorada",
+    "campana_fundida",
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "proteccion",
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Ninguno en específico. Tras su rework se considera más un bufer que un nuker, así que cualquier sitio donde necesitemos esos bufos y debufos",
+  "stats": {
+    "hp": 19650,
+    "speed": 100,
+    "attack": 1035,
+    "defense": 1233,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Vientos de invierno (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "congelar"
+        },
+        {
+          "key_name": "velo-perfecto"
+        },
+        {
+          "key_name": "velo"
+        }
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de posibilidades de aplicar un debufo [Congelar] durante 1 turno. Este debufo no se puede resistir.\n\n Aplica un bufo de [Velo perfecto] en el aliado con menos HP durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Explosión de congelación (DEF) ",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5% "
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad Buff / Debuff +10%"
+        },
+        {
+          "level_desc": "Nivel 7: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 70% de posibilidades de aplicar un debufo de 50% [Reducir ATK] y un debufo de 50% de [Reducir PUNT] durante 2 turnos.\n\n Estos debufos no se pueden resistir. \n\nAplica un bufo del 30% [Aumentar D.Crit] en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Armadura Tumularia",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo del 25% [Fortalecer] y un bufo del 60% [Aumentar DEF] en todos los aliados durante 2 turnos.\n\n Tiene un 60% de probabilidad de aplicar un debufo de [Congelar] a todos los enemigos durante 1 turno. Este debufo no se puede resistir.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF del aliado en la arena en un 30%."
+    }
+  ],
+  "lore": "Según la Leyenda del Génesis, después de que Lumaya creara la tierra y los cielos de Teleria, deseaba ver sus vastos reinos antes de retirarse del plano mortal. Fue a lo largo y ancho, a través del bosque sombrío de Durham y a través de los páramos azotados por el viento de Krokhan, sobre los océanos tormentosos y hacia las islas del Este Misterioso. En el último tramo de su viaje, la Diosa se dirigió a la cima helada del mundo: las Tierras de Invierno. Fue allí donde se volvió para contemplar su creación y lloró lágrimas de dolor, porque ni siquiera ella pudo salvar a sus hijos de los males y los dolores que se producirían sobre ellos. Sus lágrimas derritieron el hielo del glaciar y formaron un lago mágico, la Fuente de Lumaya, cuyas aguas podían curar cualquier dolencia o herida. Algunos se atrevieron a sugerir que incluso los muertos podrían volver a la vida, porque fue el amor de la propia Diosa dado forma. En los milenios que siguieron, muchos villanos intentaron apoderarse de Font. Los viles engendros de Siroth, nigromantes y tiranos, todos con la esperanza de convertir el poder de Lumaya en sus fines egoístas. La Mediadora había intervenido para frustrar estos planes, pero ella sola no podía proteger la totalidad de Teleria. Por lo tanto, buscó ayuda y reclutó a un clan de poderosos gigantes de hielo que poblaban las Tierras de Invierno, los Jotuns, para su causa. Su líder, Wurlim Rey Hielo, solo, para ser un gigante al menos, incondicional, y había prometido la fuerza de su gente a Lumaya. A su vez, el Árbitro le otorgó poderes más allá de los cálculos mortales, proclamándolo como uno de los Elegidos de Lumaya en esta desolada parte del mundo. Durante siglos, Wurlim y sus parientes lucharon contra los asquerosos esbirros de Siroth. Más campeones se le unieron, los feroces hermanos Ursine y el noble Caballero Cerval, y juntos mantuvieron a raya la oscuridad. Por desgracia, a pesar de todos sus esfuerzos, el poder de Siroth no sería negado. A medida que la Sombra y la corrupción se extendieron por Teleria, los Jotun se vieron superados en número y gradualmente abrumados. El Enemigo fue insidioso, pues sus sirvientes utilizaron los cadáveres reanimados de los gigantes para sembrar el miedo entre los defensores. Algunos renunciaron a sus votos y huyeron al sur para unirse a otros de su especie o forjar su propio camino como mercenarios en lugar de enfrentarse al eterno tormento de los no-muertos. La discordia incluso se había sembrado entre los propios Campeones de la Mediadora; El Caballero Cerval propuso que la Fuente fuera encerrada en hielo a través de un complejo ritual arcano y abandonada, por un tiempo, mientras que el orgullo del Rey Hielo no le permitiría abandonar las tierras que juró proteger. En lugar de, Wurlim lideró a sus guerreros supervivientes en una última y desafiante resistencia, gritando desafíos al enemigo y pidiendo el favor de Lumaya para ayudarlo en la batalla. Pero no se encontraron milagros en ese campo, solo desesperación. Derrotado y herido de muerte, Wurlim usó lo último de sus fuerzas para renunciar y maldecir a Lumaya por la falsa Diosa que era. Ofreció voluntariamente su alma a Siroth a cambio de venganza, y el Oscuro aceptó. En un destello de fría luz azul, Wurlim renació. Ya no más carne mortal, se convirtió en una criatura de hielo y odio, animado sólo por el amargo deseo de destruir. Como su primer acto al servicio de la Oscuridad, Wurlim derribó al Nigromante que había comandado el ejército de No Muertos y ocupó su lugar además de su cabeza. Con innumerables secuaces ahora a su entera disposición, se apresuró a llegar a la Font. Pero cuando cayó el último de los lumayanos y Wurlim se abrió camino hasta el nexo arcano, lo vio envuelto en hielo que no se rompería sin importar qué hechizos o armas se usaran contra él. Tampoco encontró al Caballero Cerval y los otros campeones con quienes tenía una deuda de retribución. Con un bramido de rabia que destrozó los glaciares, Rey Frost juró que no descansaría hasta que la Font fuera profanada y las Tierras Invernales pertenecieran a Siroth. No importa cuántas vidas se necesiten. el Rey Hielo juró que no descansaría hasta que la Font fuera profanada y las Tierras Invernales pertenecieran a Siroth. ",
+  "forms": null,
+  "image": "/src/assets/champions/wurlim-rey-hielo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

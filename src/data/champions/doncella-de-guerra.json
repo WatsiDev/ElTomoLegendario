@@ -1,0 +1,126 @@
+{
+  "slug": "doncella-de-guerra",
+  "name": "Doncella de Guerra",
+  "faction": "Bárbaros",
+  "rarity": "Raro",
+  "role": "Debufer para early game y facciones",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "orquidea_mortilunar",
+    "garra_malefica",
+    "brebaje_de_colera",
+    "lente_intangible",
+    "caldero_acaparador"
+  ],
+  "gear": [],
+  "uses": "Debufer en early, facciones y salas secretas",
+  "stats": {
+    "hp": 14700,
+    "speed": 97,
+    "attack": 1321,
+    "defense": 727,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ataque feroz (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-1"
+        }
+      ],
+      "multiplier": "2.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de [Veneno] del 2,5% durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe de oportunidad (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
+      ],
+      "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Aplica un bufo del 50% [Aumentar ATK] en este Campeón y hace un golpe adicional si este ataque es crítico. El golpe extra no puede ser crítico.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Explosión desmoronada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo + 15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/doncella-de-guerra.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

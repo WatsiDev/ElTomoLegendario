@@ -1,0 +1,147 @@
+{
+  "slug": "golem-de-puas",
+  "name": "Gólem de Púas",
+  "faction": "Vigías Silvanos",
+  "rarity": "Épico",
+  "role": "Tanque con debufos",
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=2AEUFklyx-w",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "infernosfera",
+    "filos_de_akumori",
+    "cascaron_gelido"
+  ],
+  "gear": [
+    "inmortal",
+    "ferreo",
+    "defensa",
+    "incondicional",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "uses": "Facciones y control de oleadas",
+  "stats": {
+    "hp": 17835,
+    "speed": 98,
+    "attack": 727,
+    "defense": 1387,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Cuchillas de Enredadera (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "chupar-vida"
+        }
+      ],
+      "multiplier": "1.7xDEF",
+      "description": "Ataca 2 veces a 1 enemigo. \n\nCada ataque tiene un 25% de probabilidad de aplicar un debufo de [Chupar Sangre] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Rostro Aterrador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        },
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "1.9xDEF",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n El primer ataque tiene un 75% de probabilidad de aplicar un debufo de [Miedo] durante 1 turno. El segundo ataque tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Unido a la Corrupción",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "aumentar-res-2"
+        }
+      ],
+      "description": "Aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos. \n\nTambién aplica un bufo de [Contraataque] y un bufo de 50% de [Aumentar RES] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sustento Oscuro (Pasiva)",
+      "levels": [],
+      "multiplier": "Multiplicador de la cura: 0.5xDEF",
+      "description": "Cura a este campeón antes de que use una habilidad para hacer daño. La magnitud de la cura es proporcional a DEF de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de los aliados en todas las batallas en un 40."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/golem-de-puas.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

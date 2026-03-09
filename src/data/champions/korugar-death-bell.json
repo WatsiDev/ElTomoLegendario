@@ -1,0 +1,132 @@
+{
+  "slug": "korugar-death-bell",
+  "name": "Korugar Death-Bell",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Tanque protector de aliados con autocura",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=k0dklMMcsyU",
+  "blessings": [
+    "fuego-y-azufre",
+    "polimorfar"
+  ],
+  "relics": [
+    "abanico_negro",
+    "diadema_no_muerta",
+    "el_triturador"
+  ],
+  "gear": [
+    "apoyo",
+    "proteccion",
+    "inmortal",
+    "guardian",
+    "resiliencia",
+    "redirigir"
+  ],
+  "uses": "Bastante polivalente, bueno en facciones, oleadas y arenas defensivas",
+  "stats": {
+    "hp": 21645,
+    "speed": 103,
+    "attack": 881,
+    "defense": 1255,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Ánimo Raro (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        }
+      ],
+      "multiplier": "0.21xHP",
+      "description": "Ataca a 1 enemigo. Cura a este campeón en un 10% de su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Coste de la Campana (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +15 %"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "0.24xHP",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de posibilidades de llenar las barras de turno de todos los aliados en un 30 %. También tiene un 75 % de posibilidades de eliminar todas las debufos de todos los aliados.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Conducto de Agonías (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "proteccion-de-aliado-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Protección de aliado] del 50 % en todos los aliados, excepto en este campeón, durante 2 turnos. También aplica un bufo de [Fortalecer] del 25% en todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lugar de Violencias (Pasiva)",
+      "levels": [],
+      "description": "Aumenta la RES de este campeón en 20 y la DEF en un 10 % por cada bufo de [Protección de aliados] en los aliados. También aumenta la RES de los aliados en 15 y la DEF en un 5 % por cada bufo de [Protección de aliados] en los aliados. Si hay varios campeones en el equipo con esta habilidad, solo se activará uno. \n\nContraataca cada vez que un aliado bajo un bufo de [Protección de aliado] es atacado. Puede ocurrir una vez por turno enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/korugar-death-bell.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,175 @@
+{
+  "slug": "gizmak-el-terrible",
+  "name": "Gizmak el Terrible",
+  "faction": "Ogretes",
+  "rarity": "Mítico",
+  "role": "Mítico top capaz de quemar, activar, bufear y nukear",
+  "type": "Apoyo / HP",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "incinerar",
+    "desgarro-aplastante"
+  ],
+  "relics": [
+    "craneo_de_traicion",
+    "varita_de_sumision",
+    "corona_de_ireth",
+    "apagador_de_esencia",
+    "vial_del_sombrerero"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "exactitud"
+  ],
+  "uses": null,
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "p-crit",
+      "description": " Aumenta la P.Crit de aliados en todas las batallas en un 27%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 22800,
+        "speed": 115,
+        "attack": 991,
+        "defense": 1343,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Lanzamiento de Magma (ATK)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +10%"
+          ],
+          "multiplier": "5.5xATK",
+          "description": "Ataca a todos los enemigos. Antes de atacar, aumenta 1 turno la duración de todos los debufos de [Quemar HP] de todos los enemigos y luego activa inmediatamente todos los debufos de [Quemar HP] de todos los enemigos. Este efecto no se puede resistir si este campeón tiene una P.Crit de 100% o más.\n\n Por último, aumenta 1 turno la duración de todos los debufos de todos los enemigos y aplica un debufo de 30% de [Reducir VEL] a todos los enemigos durante 2 turnos. Estos efectos no se pueden resistir si el ataque es crítico."
+        },
+        {
+          "name": "Llamas de resentimiento (ATK)",
+          "levels": [
+            "Nivel 1: Daño +10%",
+            "Nivel 2: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "red-vel-2"
+          ],
+          "multiplier": "5.8xATK",
+          "description": "Ataca a todos los enemigos. Reduce la duración de todos los bufos de los enemigos y de todos los debufos de los aliados en 1 turno. Luego, aumenta la duración de todos los debufos enemigos y reduce los de todos los aliados en 1 turno."
+        },
+        {
+          "name": "Déjame atacarles!",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "aumentar-p-crit-2",
+            "aumentar-d-crit-2",
+            "aumentar-vel-2"
+          ],
+          "description": "Aplica un bufo del 30% [Aumentar D.Crit] , un bufo del 30% [Aumentar P.Crit] y un bufo del 30% [Aumentar VEL] a todos los aliados durante 3 turnos. Luego obtén un turno adicional."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Chispa de la Ira (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "quemar-hp"
+          ],
+          "description": "Antes del comienzo del turno de este campeón, aplica un debufo de [Quemar HP] a todos los enemigos durante 2 turnos. Una vez por ronda. Este efecto no se puede resistir si este campeón tien P.Crit del 100% o más.\n\n Antes del comienzo del turno de este campeón también tiene un 50% de probabilidad de aplicar un debufo de [Quemar HP] a todos los enemigos durante 1 turno. Este efecto no se puede resistir si este campeón tiene P.Crit del 100% o más."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 24780,
+        "speed": 101,
+        "attack": 738,
+        "defense": 1465,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Venganza Totémica (HP)(DEF)",
+          "levels": [
+            "Nivel 2: Daño +10%",
+            "Nivel 3: Daño +20%"
+          ],
+          "multiplier": "0.14xHP+0.7xDEF",
+          "description": "Ataca a 1 enemigo. Si este campeón o el objetivo inicial tienen el 50% o menos de HP, ataca a todos los enemigos en lugar de a 1.\n\n Aumenta 1 turno la duración de 2 debufos al azar del objetivo. Si ataca a todos los enemigos, en lugar de lo anterior, aumenta 1 turno la duración de 2 debufos al azar de todos los objetivos. Este efecto no se puede resistir si el ataque es crítico."
+        },
+        {
+          "name": "KABOOM (HP)(DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "red-def-2"
+          ],
+          "multiplier": "0.23xHP + 0.7xDEF",
+          "description": "Ataca a todos los enemigos. Antes de atacar, aplica un debufo de 60% de [Reducir DEF] a todos los enemigos durante 2 turnjos. Este debufo no se puede resistir si el objetivo tiene un debufo de [Quemar HP]. Ataca una vez más a los enemigos que tienen un debufo de [Quemar HP]. Obtén un turno adicional si este ataque mata a un enemigo."
+        },
+        {
+          "name": "Furia Impía",
+          "levels": [
+            "Nivel 2: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "vinculo-de-dolor",
+            "burlon",
+            "inmortal",
+            "proteccion-de-aliado-2"
+          ],
+          "description": "Aplica un debufo de [Vínculo de Dolor] al enemigo objetivo durante 2 turnos. Este debufo no se puede eliminar, resisitir ni bloquear. Al calcular el daño que hace el debufo de [Vínculo de Dolor], se refleja el 75% del multiplicador de habilidad del atacante. El daño que hace el debufo de [Vínculo de Dolor] ignora el 100% de DEF del objetivo.\n\n También aplica un bufo de [Burlón] y un bufo de [Inmortal] a este campeón durante 2 turnos. Por último, aplica un bufo de 50% de [Protección de Aliado] a todos los aliados excepto este campeón durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Juggernaut Hirviente (Pasiva)",
+          "levels": [],
+          "description": "Ignora el 15% de DEF si este campeón o el objetivo tienen el 50% o más de HP. Si este campeón o el objetivo tienen menos del 50% de HP, en lugar de los anterior, ignora el 25% de DEF. También ignora bufos de [Bloquear Daño] y [Escudo] al atacar a enemigos qeu tienen un debufo de [Quemar HP].\n\n Hace un 20% más de daño a enemigos que no tienen un debufo de [Quemar HP]."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/gizmak-el-terrible.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

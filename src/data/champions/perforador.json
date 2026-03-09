@@ -1,0 +1,117 @@
+{
+  "slug": "perforador",
+  "name": "Perforador",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Nuker con debufos",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": [
+    "garra_malefica",
+    "lente_intangible"
+  ],
+  "gear": [
+    "cruel",
+    "salvaje",
+    "percepcion",
+    "punteria",
+    "prob-critico",
+    "ataque",
+    "ataque-divino"
+  ],
+  "uses": "Ninguno realmente más alla de las primeras semanas de juego.",
+  "stats": {
+    "hp": 14205,
+    "speed": 86,
+    "attack": 1277,
+    "defense": 804,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Mata Bichos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Probabilidad de bufo / debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "multiplier": "3.6xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de aplicar un debufo de 5% de [Veneno] durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Puntas Endurecidas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "4.1xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 50% de DEF del objetivo. Obtén un turno adicional si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Ahuyentar (Pasiva)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 2,
+      "buffDebuff": [
+        {
+          "key_name": "miedo"
+        }
+      ],
+      "description": "Tiene un 35% de probabilidad de aplicar un debufo de [Miedo] al objetivo durante 1 turno cuando este campeón hace un crítico.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/perforador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

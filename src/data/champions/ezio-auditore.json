@@ -1,0 +1,171 @@
+{
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "garra_malefica",
+    "mirada_del_gato",
+    "corona_de_ireth",
+    "vara_de_esporas",
+    "varita_de_sumision",
+    "lente_intangible"
+  ],
+  "skills": [
+    {
+      "name": "Picado del Águila (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos. Este debufo no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Diseño de Da Vinci (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        },
+        {
+          "key_name": "sensibilidad-al-veneno-2"
+        },
+        {
+          "key_name": "bomba"
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar dos debufos de [Veneno] y un debufo de 25% de [Sensibilidad al Veneno] a todos los enemigos durante 2 turnos. Estos debufos no se pueden resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto]. Activa inmediatamente todos los debufos de [Veneno] de todos los enemigos que tienen al menos 4 debufos.\n\n Si hay algún enemigo con un bufo de [Piel de Piedra], en lugar de lo anterior tiene un 75% de probabilidad de aplicar 2 debufos de [Bomba] que explotarán en 2 turnos. Estos debufos no se pueden resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto]. Si todos los enemigos tienen un bufo de [Piel de Piedra], reduce 1 turno la cuenta atrás de todos los debufos de [Bomba].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Arma Oculta (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, roba todos los bufos del objetivo. Este efecto no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo PErfecto]. \n\nIgnora el 35% de DEF del objetivo y bufos de [Escudo] y [Fortalecer].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Todo está permitido (Pasiva) ",
+      "levels": [],
+      "description": "Si los HP de un enemigo bajan del 25% después de recibir daño de un Asesino, dicho enemigo recibe daño adicional proporcional a ATK de este campeón. Este daño adicional ignora 100% de DEF y no puede ser crítico.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sincronización Completa (Pasiva) ",
+      "levels": [],
+      "description": "Aplica un bufo de [Velo Perfecto] a este campeón durante 2 turnos al inicio de cada ronda.\n\n Si este campeón va a recibir daño superior al 50% de su MAX HP, tiene un 35% de probabilidad de reducir el daño recibido a 0.\n\n Cuando este campeón es atacado, también tiene un 35% de probabilidad de Contraatacar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "game_modes": [],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%."
+    }
+  ],
+  "pros": [],
+  "affinity": "Espíritu",
+  "pvp_stats": [],
+  "rarity": "Legendario",
+  "name": "Ezio Auditore",
+  "slug": "ezio-auditore",
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "uses": null,
+  "forms": null,
+  "gear": [
+    "despiadado",
+    "letal",
+    "cruel",
+    "salvaje",
+    "piel-de-piedra",
+    "mercurial"
+  ],
+  "contras": [],
+  "masteries": [
+    {
+      "branch": "Ataque",
+      "selected_masteries": [
+        {
+          "mastery_image": "/src/assets/masteries/contactbg.png"
+        }
+      ]
+    },
+    {
+      "branch": "Apoyo",
+      "selected_masteries": [
+        {
+          "mastery_image": "/src/assets/masteries/silla.png"
+        }
+      ]
+    }
+  ],
+  "role": "Nuker capaz de aplicar venenos y bombas así como de bastante daño",
+  "lore": null,
+  "youtube_link": "https://www.youtube.com/watch?v=tnSiW9PRAsI",
+  "sinergias": [],
+  "type": "Ataque",
+  "image": "/src/assets/champions/ezio-auditore.webp",
+  "faction": "Orden Sagrada",
+  "stats": {
+    "hp": 16020,
+    "speed": 99,
+    "attack": 1498,
+    "defense": 1013,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "artworks": [],
+  "pve_stats": []
+}

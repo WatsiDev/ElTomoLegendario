@@ -1,0 +1,135 @@
+{
+  "slug": "helicath",
+  "name": "Helicath",
+  "faction": "Engendros",
+  "rarity": "Legendario",
+  "role": "Campeón defensivo capaz de aplicar Bloquear Daño e ignorar escudos",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=tr9TprRRKp4",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "corazon_volcardiaco",
+    "rocadragon_dorada",
+    "agarre_de_valkanen"
+  ],
+  "gear": [
+    "inmortal",
+    "velocidad",
+    "salvaje"
+  ],
+  "uses": "Se puede ver en arenas, pero principalmente en setups inmortales",
+  "stats": {
+    "hp": 19155,
+    "speed": 102,
+    "attack": 859,
+    "defense": 1443,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Garra Piroclástica (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo/debufo +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo/debufo +10 %"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "1.8xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30 % de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos. Ignorará los bufos de [Escudo] y [Bloquear daño].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vientos del foso",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5 %"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10 %"
+        },
+        {
+          "level_desc": "Nivel 5: Escudo +10 %"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a todos los enemigos. Aplica un bufo [Escudo] en todos los aliados durante 2 turnos. El valor de [Escudo] es proporcional a la DEF de este Campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Sirvientes Devotos",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-dano"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de [Bloquear daño] a todos los aliados durante 2 turnos.\n\n [Efecto pasivo] Cada vez que un bufo de [Bloquear daño] colocado en un aliado por este Campeón es eliminado, robado o expira, aplica un bufo de 60% [Aumentar DEF] en ese aliado durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fiesta de la Agonía (Pasiva)",
+      "levels": [],
+      "description": "Aumenta la DEF de este Campeón en un 5% por cada aliado bajo un bufo de [Bloquear Daño]. \n\nContraataca con la habilidad base cada vez que un aliado es golpeado mientras está bajo un bufo de [Bloquear daño]. Puede ocurrir una vez por turno enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de los aliados en todas las batallas en un 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/helicath.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

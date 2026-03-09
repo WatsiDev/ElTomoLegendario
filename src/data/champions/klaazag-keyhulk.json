@@ -1,0 +1,143 @@
+{
+  "slug": "klaazag-keyhulk",
+  "name": "Klaazag Keyhulk",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Hace de todo: daño, debufos, bufos... un todoterreno.",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "relics": null,
+  "gear": [
+    "salvaje",
+    "letal",
+    "instinto"
+  ],
+  "uses": "Vale para casi todos los jefes, pero está diseñado 100% para Quimera",
+  "stats": {
+    "hp": 18165,
+    "speed": 100,
+    "attack": 771,
+    "defense": 1596,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Tono Aterrador (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. de Bufo/Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo. Antes de atacar, traspasa todos los debufos de este campeón al objetivo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 1 turno. Los Jefes no pueden resistir este debufo. ",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Disonancia Sísmica (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. de Bufo/Debufo +15%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "red-punt-2"
+        },
+        {
+          "key_name": "red-res-2"
+        }
+      ],
+      "multiplier": "2xDEF",
+      "description": "Ataca 2 veces a todos los enemigos. \n\n Después del primer ataque, tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] y un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos. Los Jefes no pueden resistir estos debufos.\n\n Después del segundo ataque, tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir PUNT] y un debufo de 50% de [Reducir RES] a todos los enemigos durante 2 turnos. Los jefes no pueden resistir estos debufos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Músculo Descerebrado",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "burlon"
+        }
+      ],
+      "description": "Aplica un bufo de [Contraataque] a todos los aliados durante 2 turnos y un bufo de [Inmortal] a todos los aliados durante 1 turno. También aplica un bufo de [Burlón] a este campeón durante 2 turnos. Si hay un Jefe en la ronda actual, estos bufos están protegidos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Zumbido de Agonía (Pasiva) (MAX HP Enemigo)",
+      "levels": [],
+      "multiplier": "0.01xMAX HP enemigo",
+      "description": "Cuando este campeón aplica un debufo a un enemigo, le hace el 1% de MAX HP de daño por cada debufo que tenga. (Se acumula hasta el 10%). Una vez por habilidad y objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "Def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/klaazag-keyhulk.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
