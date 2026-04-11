@@ -1,16 +1,4 @@
 {
-  "slug": "domina-venalicia",
-  "name": "Domina Venalicia",
-  "faction": "Aparecidos",
-  "rarity": "Legendario",
-  "role": "Poderoso debufer y revividor para PvE y PvP",
-  "type": "Apoyo",
-  "affinity": "Fuerza",
-  "youtube_link": "https://www.youtube.com/watch?v=2AEUFklyx-w",
-  "blessings": [
-    "crueldad",
-    "fuego-y-azufre"
-  ],
   "relics": [
     "rostro_inmortal",
     "servidumbre_de_xibia",
@@ -19,28 +7,6 @@
     "crisalida_de_renacer",
     "corona_lugubre"
   ],
-  "gear": [
-    "punteria",
-    "percepcion",
-    "bestial",
-    "velocidad",
-    "piel-de-piedra",
-    "renacer",
-    "incansable",
-    "regeneracion",
-    "mercurial"
-  ],
-  "uses": "PvE y PvP, pero brillará más en PvE. Es parecida a Ankora pero en ofensiva.",
-  "stats": {
-    "hp": 22140,
-    "speed": 108,
-    "attack": 892,
-    "defense": 1211,
-    "accuracy": 20,
-    "critRate": 15,
-    "critDamage": 50,
-    "resistance": 30
-  },
   "skills": [
     {
       "name": "Pernos de Tortura (ATK)",
@@ -123,21 +89,55 @@
       "book_priority": "Ninguna"
     }
   ],
+  "game_modes": [],
   "aura": [
     {
       "type": "punt",
       "description": "Aumenta la PUNT de aliados en todas las batallas en 60."
     }
   ],
-  "lore": null,
-  "forms": null,
-  "image": "/src/assets/champions/domina-venalicia.webp",
-  "masteries": [],
-  "artworks": [],
   "pros": [],
-  "contras": [],
-  "pve_stats": [],
+  "affinity": "Fuerza",
   "pvp_stats": [],
-  "game_modes": [],
-  "sinergias": []
+  "rarity": "Legendario",
+  "name": "Domina Venalicia",
+  "slug": "domina-venalicia",
+  "blessings": [
+    "crueldad",
+    "fuego-y-azufre"
+  ],
+  "uses": "PvE y PvP, pero brillará más en PvE. Es parecida a Ankora pero en ofensiva.",
+  "forms": null,
+  "gear": [
+    "punteria",
+    "percepcion",
+    "bestial",
+    "velocidad",
+    "piel-de-piedra",
+    "renacer",
+    "incansable",
+    "regeneracion",
+    "mercurial"
+  ],
+  "contras": [],
+  "masteries": [],
+  "role": "Poderoso debufer y revividor para PvE y PvP",
+  "lore": null,
+  "youtube_link": "https://www.youtube.com/watch?v=2AEUFklyx-w",
+  "sinergias": [],
+  "type": "Apoyo",
+  "image": "/src/assets/champions/domina-venalicia.jpg",
+  "faction": "Aparecidos",
+  "stats": {
+    "hp": 22140,
+    "speed": 108,
+    "attack": 892,
+    "defense": 1211,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "artworks": [],
+  "pve_stats": []
 }

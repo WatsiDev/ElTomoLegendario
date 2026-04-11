@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import factionsData from "../../data/factions.json";
+import { Image } from "astro:assets";
 
 // Access the array from the object wrapper
 const factions = factionsData.factions;
@@ -40,9 +41,12 @@ const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
           >
             <div class="absolute inset-0 bg-linear-to-t from-raid-gold/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-            <img
-              src={faction.image || "/assets/favicon.png"}
+            <Image
+              src={faction.image || "/favicon.png"}
               alt={faction.name}
+              width={80}
+              height={80}
+              loading="lazy"
               class="w-20 h-20 object-contain mb-4 transform group-hover:scale-110 transition-transform duration-300 drop-shadow-lg"
             />
 

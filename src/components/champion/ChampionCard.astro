@@ -1,8 +1,42 @@
 ---
+import { Image } from "astro:assets";
 import { getRarityStyle } from "../../utils/rarity";
 
-const { champion } = Astro.props;
-const { name, rarity, slug, faction } = champion;
+// Soportamos tanto pasar `slug` directamente como el objeto `champion` por retrocompatibilidad
+const slug = Astro.props.slug || Astro.props.champion?.slug;
+
+if (!slug) {
+  throw new Error("ChampionCard requiere la prop 'slug' o 'champion.slug'");
+}
+
+// Obtener la información del campeón desde el archivo JSON
+const championPath = `/src/data/champions/${slug}.json`;
+const championsGlob = import.meta.glob<{
+  default: {
+    name: string;
+    rarity: string;
+    slug: string;
+    faction: string;
+    image: string;
+  };
+}>('/src/data/champions/*.json');
+
+if (!championsGlob[championPath]) {
+  throw new Error(`Datos no encontrados para el campeón: ${slug}`);
+}
+
+const championData = await championsGlob[championPath]();
+const { name, rarity, faction, image } = championData.default;
+
+// Obtener la imagen con import.meta.glob para que Astro Image la optimice dinámicamente
+const imagePath = image;
+const imagesGlob = import.meta.glob<{ default: ImageMetadata }>('/src/assets/champions/*.{jpeg,jpg,png,gif,webp}');
+
+if (!imagesGlob[imagePath]) {
+  throw new Error(`Imagen no encontrada para el campeón: ${slug}`);
+}
+
+const imageSrc = (await imagesGlob[imagePath]()).default;
 
 const style = getRarityStyle(rarity);
 const borderClass = `${style.border} ${style.glow}`;
@@ -17,11 +51,13 @@ const borderClass = `${style.border} ${style.glow}`;
     >
     </div>
 
-    <img
-      src={`/src/assets/champions/${slug}.webp`}
+    <Image
+      src={imageSrc}
       alt={name}
       class="w-32 h-auto object-cover transition-transform duration-700 group-hover:scale-105 z-0 display-block"
       loading="lazy"
+      width={128}
+      height={128}
     />
 
     <div class="absolute bottom-0 left-0 right-0 p-2 z-20 text-center">
