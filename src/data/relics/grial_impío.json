@@ -1,11 +1,11 @@
 {
-  "slug": "grial_impío",
+  "rarity": "Raro",
   "name": "Grial Impío",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/grial_impío.png",
-  "stats": [],
+  "slug": "grial_impio",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/grial_impío.png",
+  "description": "x",
+  "stats": [],
+  "group": "Estándar"
 }

@@ -68,7 +68,7 @@
       ],
       "multiplier": "4xATK",
       "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar dos debufos de [Veneno] y un debufo de 25% de [Sensibilidad al Veneno] a todos los enemigos durante 2 turnos. Estos debufos no se pueden resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto]. Activa inmediatamente todos los debufos de [Veneno] de todos los enemigos que tienen al menos 4 debufos.\n\n Si hay algún enemigo con un bufo de [Piel de Piedra], en lugar de lo anterior tiene un 75% de probabilidad de aplicar 2 debufos de [Bomba] que explotarán en 2 turnos. Estos debufos no se pueden resistir si este campeón tiene un bufo de [Velo] o [Velo Perfecto]. Si todos los enemigos tienen un bufo de [Piel de Piedra], reduce 1 turno la cuenta atrás de todos los debufos de [Bomba].",
-      "book_priority": "Ninguna"
+      "book_priority": "Alta"
     },
     {
       "name": "Arma Oculta (ATK)",
@@ -87,7 +87,7 @@
       "multiplier": "5xATK",
       "description": "Ataca a 1 enemigo. Antes de atacar, roba todos los bufos del objetivo. Este efecto no se puede resistir si este campeón tiene un bufo de [Velo] o [Velo PErfecto]. \n\nIgnora el 35% de DEF del objetivo y bufos de [Escudo] y [Fortalecer].",
       "buffDebuff": [],
-      "book_priority": "Ninguna"
+      "book_priority": "Alta"
     },
     {
       "name": "Todo está permitido (Pasiva) ",
@@ -104,16 +104,37 @@
       "book_priority": "Ninguna"
     }
   ],
-  "game_modes": [],
+  "game_modes": [
+    {
+      "area": "Dragón",
+      "dificultad": "Normal",
+      "calificacion": "4.5"
+    },
+    {
+      "area": "Boss de Clan",
+      "dificultad": null,
+      "calificacion": "4.5"
+    }
+  ],
   "aura": [
     {
       "type": "vel",
       "description": "Aumenta la VEL de aliados en todas las batallas en 19%."
     }
   ],
-  "pros": [],
+  "pros": [
+    "Activador de venenos",
+    "Roba bufos",
+    "Coloca bomba contra piel de piedra",
+    "Ignora 35% de defensa, bufos de fortalecer y escudo del objetivo."
+  ],
   "affinity": "Espíritu",
-  "pvp_stats": [],
+  "pvp_stats": [
+    "Velocidad",
+    "Prob. Crítico",
+    "Daño Crítico",
+    "Puntería"
+  ],
   "rarity": "Legendario",
   "name": "Ezio Auditore",
   "slug": "ezio-auditore",
@@ -130,13 +151,16 @@
     "piel-de-piedra",
     "mercurial"
   ],
-  "contras": [],
+  "contras": [
+    "Necesita punteria o un apoyo que coloque velo",
+    "Baja velocidad y punteria base"
+  ],
   "masteries": [
     {
       "branch": "Ataque",
       "selected_masteries": [
         {
-          "mastery_image": "/src/assets/masteries/contactbg.png"
+          "mastery_image": "/src/assets/masteries/ezio-auditore/imagen_2026-04-11_004447731.png"
         }
       ]
     },
@@ -144,7 +168,7 @@
       "branch": "Apoyo",
       "selected_masteries": [
         {
-          "mastery_image": "/src/assets/masteries/silla.png"
+          "mastery_image": "/src/assets/masteries/ezio-auditore/imagen_2026-04-11_004522386.png"
         }
       ]
     }
@@ -152,7 +176,11 @@
   "role": "Nuker capaz de aplicar venenos y bombas así como de bastante daño",
   "lore": null,
   "youtube_link": "https://www.youtube.com/watch?v=tnSiW9PRAsI",
-  "sinergias": [],
+  "sinergias": [
+    "mikey",
+    "xenomorfo",
+    "corvis-el-corruptor"
+  ],
   "type": "Ataque",
   "image": "/src/assets/champions/ezio-auditore.webp",
   "faction": "Orden Sagrada",
@@ -166,6 +194,12 @@
     "critDamage": 63,
     "resistance": 30
   },
-  "artworks": [],
-  "pve_stats": []
+  "artworks": [
+    "/src/assets/artworks/ezio-auditore/ezioartwork.jpg"
+  ],
+  "pve_stats": [
+    "Velocidad",
+    "Prob. Crítico",
+    "Daño Crítico"
+  ]
 }

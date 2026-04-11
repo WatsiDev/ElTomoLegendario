@@ -1,11 +1,11 @@
 {
-  "slug": "orbe_de_transfixión",
+  "rarity": "Épico",
   "name": "Orbe De Transfixión",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/orbe_de_transfixión.png",
-  "stats": [],
+  "slug": "orbe_de_transfixion",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/orbe_de_transfixión.png",
+  "description": "x",
+  "stats": [],
+  "group": "Quimera"
 }

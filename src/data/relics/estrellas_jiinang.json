@@ -1,11 +1,11 @@
 {
-  "slug": "estrellas_jiinang",
+  "rarity": "Mítico",
   "name": "Estrellas Jiinang",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/estrellas_jiinang.png",
-  "stats": [],
+  "slug": "estrellas_jiinang",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/estrellas_jiinang.png",
+  "description": "x",
+  "stats": [],
+  "group": "Descubrimiento"
 }

@@ -1,11 +1,11 @@
 {
-  "slug": "brebaje_de_cólera",
+  "rarity": "Raro",
   "name": "Brebaje De Cólera",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/brebaje_de_cólera.png",
-  "stats": [],
+  "slug": "brebaje_de_colera",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/brebaje_de_cólera.png",
+  "description": "x",
+  "stats": [],
+  "group": "Arena en Directo"
 }

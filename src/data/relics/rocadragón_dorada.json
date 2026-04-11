@@ -1,11 +1,11 @@
 {
-  "slug": "rocadragón_dorada",
+  "rarity": "Épico",
   "name": "Rocadragón Dorada",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/rocadragón_dorada.png",
-  "stats": [],
+  "slug": "rocadragon_dorada",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/rocadragón_dorada.png",
+  "description": "x",
+  "stats": [],
+  "group": "Estándar"
 }

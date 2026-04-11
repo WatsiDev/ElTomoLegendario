@@ -1,44 +1,13 @@
 {
-  "slug": "lord-entretenedor-fabian",
-  "name": "Lord Entretenedor Fabian",
-  "faction": "No Muertos",
-  "rarity": "Legendario",
-  "role": "Gran controlador de arenas y oleadas basado en miedos",
-  "type": "Apoyo",
-  "affinity": "Espíritu",
-  "youtube_link": "https://www.youtube.com/watch?v=7xbWFP0xVGo",
-  "blessings": [
-    "polimorfar",
-    "cosechar-vida"
-  ],
   "relics": [
     "campana_fundida",
+    "repartemuerte",
+    "mente_de_marquat",
+    "estrellas_jiinang",
     "varita_de_sumision",
     "orbe_de_transfixion",
-    "estrellas_jinang",
-    "mascara_de_zozobra",
-    "repartemuerte",
-    "mente_de_marquat"
+    "mascara_de_zozobra"
   ],
-  "gear": [
-    "exactitud",
-    "bestial",
-    "percepcion",
-    "velocidad",
-    "velocidad-divina",
-    "cronofago"
-  ],
-  "uses": "Controlador top en arenas y oleadas.",
-  "stats": {
-    "hp": 18990,
-    "speed": 109,
-    "attack": 1211,
-    "defense": 1101,
-    "accuracy": 20,
-    "critRate": 15,
-    "critDamage": 50,
-    "resistance": 30
-  },
   "skills": [
     {
       "name": "Servir en la Muerte (ATK)",
@@ -52,8 +21,12 @@
       ],
       "multiplier": "?xATK",
       "description": "Ataca a 1 enemigo 2 veces. Cada golpe roba un 10% de la barra de turno del enemigo. Aplica un debufo de [Miedo de Verdad] durante 2 turnos si la bara de turno del enemigo se reduce completamente. ",
-      "buffDebuff": [],
-      "book_priority": "Ninguna"
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "book_priority": "Baja"
     },
     {
       "name": "Invitado Indeseado (ATK)",
@@ -82,7 +55,7 @@
       ],
       "multiplier": "?xATK",
       "description": "Ataca 1 enemigo. Aplica un bufo de [Petrificación] durante 1 turno. Tiene un 75% de aplicar un debufo de [Miedo de Verdad] durante 2 turnos en todos los otros enemigos que no estén bajo un debufo de [Miedo] y [Miedo de Verdad]. \n\nEfecto Pasivo:\n\n Activa esta habilidad siempre que un enemigo bajo un debufo de [Miedo] o [Miedo de Verdad] utiliza una habilidad. Si hay multiples campeones con esta habilidad, solo una se activa.",
-      "book_priority": "Ninguna"
+      "book_priority": "Alta"
     },
     {
       "name": "Florecimiento Espectral (ATK)",
@@ -104,25 +77,12 @@
       "multiplier": "?xATK",
       "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 75% de reducir la duración de todos los bufos de los enemigos en 3 turnos.\n\n Tiene un 75% de probabilidad de aumentar el tiempo de reutilización de todas las habilidades de los enemigos en 3 turnos. Otorga un turno adicional si no hay bufos en el equipo enemigo tras este ataque.",
       "buffDebuff": [],
-      "book_priority": "Ninguna"
+      "book_priority": "Alta"
     },
     {
       "name": "El Fantasma Numero 1 (Pasiva) ",
-      "levels": [
-        {
-          "level_desc": "Nivel 2: Daño +10%"
-        },
-        {
-          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
-        },
-        {
-          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
-        },
-        {
-          "level_desc": "Nivel 5: Tiempo de reutilización -1"
-        }
-      ],
-      "cooldown": 5,
+      "levels": [],
+      "cooldown": 0,
       "buffDebuff": [
         {
           "key_name": "miedo-de-verdad"
@@ -133,21 +93,87 @@
       "book_priority": "Ninguna"
     }
   ],
+  "game_modes": [
+    {
+      "area": "Arena",
+      "calificacion": "5"
+    }
+  ],
   "aura": [
     {
       "type": "vel",
       "description": "Aumenta la VEL de aliados en todas las batallas en 19%"
     }
   ],
-  "lore": "Por toda su existencia, el Señor del Entretenimiento Fabian ha residido en Aravia.\n\nSu padre, Patrice, fue un diplomático kaerokeano ante los Altos Elfos. En su juventud, Fabian recibió instrucción en equitación, esgrima y magia, como cualquier hijo noble de Aravia. Sus maestros élficos lo apreciaban por sus modales impecables y su gracia y estilo en todas las cosas. Decían que era ‘excepcional para un humano’. Por su parte, Fabian adoraba los altos estándares de los aravianos, especialmente el glamour de las ocasiones formales. Anhelaba ocupar un lugar en la alta sociedad.\n\nFabian admiraba especialmente las celebraciones del Festival de la Creación de los Altos Elfos. Su padre las organizaba periódicamente, hasta que, al llegar a la mayoría de edad, Fabian solicitó encargarse de ellas. Patrice concedió el permiso con gusto, pues era una tarea ardua. Fabian la disfrutó enormemente. No solo organizaba un evento anual, sino que, en menos de una década, sus festivales fueron considerados los mejores de Aravia.\n\nLos eventos que organizaba Fabian eran vistos como la encarnación de la sofisticación y el buen gusto, un equilibrio perfecto entre opulencia y moderación. Cuidaba meticulosamente cada detalle: desde el tipo de encaje en los trajes de los músicos, el maridaje del vino con el octavo plato, el tono exacto de azul de las servilletas, hasta la cantidad de botones en los chalecos de los camareros. Fabian solo disfrutaba más de una cosa que organizar sus eventos: ver a sus invitados disfrutarlos. Esperaba que los Altos Elfos lo aceptaran plenamente y no lo vieran solo como un humano ‘excepcional’.\n\nPero no lo hicieron. Los aravianos lo apreciaban, incluso lo querían, llamándolo cariñosamente el ‘Señor de la Alegría’, pero nunca fue uno de ellos.\n\nLa muerte de Fabian fue repentina y prematura. Su cuerpo fue encontrado con una terrible herida en la cabeza, y el asesinato nunca se resolvió. Por demanda popular, la reina Eva le otorgó póstumamente la ciudadanía completa y lo declaró ‘Señor Proveedor del Gran Baile del Festival de la Creación’ a perpetuidad. Además, en sus oficinas privadas se encontraron planes para sus festivales de los próximos tres años. Un fondo público aseguró que todos se llevaran a cabo según las especificaciones exactas de Fabian y fueran un éxito, aunque siempre con un velo de tristeza.\n\nFabian había obtenido su aceptación, pero no estaba vivo para experimentarla.\n\nEn su ataúd de filigrana de plata y caoba, Fabian no descansó en paz. Su alma anhelaba regresar a Teleria, pues sabía que aún tenía mucho por vivir y muchas festividades magníficas por organizar. Surgió de su tumba la noche del tercer y último evento que había planeado antes de su muerte y lo contempló a través de una ventana. La alegría era maravillosa de ver.\n\nTambién vio reflejada en el cristal su nueva forma espectral, aún con las marcas de las heridas que lo mataron. Llevaba una hermosa máscara de fiesta, una que él mismo había encargado para el evento que estaba presenciando. Parecía que sus dolientes la habían usado como su máscara funeraria. De haber podido llorar, habría sollozado durante horas. Ni siquiera él sabía qué le había sucedido para terminar de esa manera. Pero sí sabía que no podía unirse a sus invitados en su estado.\n\nFabian decidió continuar su labor de todas formas. Al año siguiente, organizó una fiesta de gran éxito. Para los invitados, un donante anónimo había financiado el evento en honor a Fabian, manteniendo su identidad en secreto para no desviar la atención del propósito de la celebración.\n\nY así ha continuado desde entonces, durante años, con la gente creyendo que cada evento era financiado por un benefactor privado en memoria de Fabian. El ‘Señor del Entretenimiento’, como pasó a ser conocido, habita su mansión, su alma no muerta atada a ella y a su personal ancestral debido a su amor por su hogar y su familia en vida. No puede abandonarla. Pero incluso si pudiera, hacerlo lo dejaría extremadamente vulnerable.\n\nSiendo un No Muerto, los nigromantes y el propio Siroth podrían tomar control de su voluntad. Fabian solo está a salvo gracias a sus amigos cercanos. No solo lo descubrieron y no lo destruyeron, sino que colocaron barreras mágicas sobre su propiedad. Además, realizaron los arreglos legales para proteger su propiedad sobre la mansión.\n\nLo más importante para Fabian es que sus amigos le hacen compañía. Finalmente sabe lo apreciado que es y disfruta viendo a otros gozar de sus festividades, pero le duele que su condición de No Muerto le impida participar en ellas. Las sonrisas de sus amigos y sus palabras de aliento le dan la fuerza para seguir adelante. Con la guerra del Rey Tayba en pleno auge, lo necesita más que nunca, pues planea que su próxima celebración sea la más grandiosa hasta la fecha, para traer alegría a su pueblo ensangrentado y demostrar su dedicación a los Altos Elfos.\n\nEstá terriblemente tentado de presentarse ante sus invitados y quitarse la máscara.",
+  "pros": [
+    "Controlador top en arenas"
+  ],
+  "affinity": "Espíritu",
+  "pvp_stats": [
+    "Velocidad",
+    "Puntería"
+  ],
+  "rarity": "Legendario",
+  "name": "Lord Entretenedor Fabian",
+  "slug": "lord-entretenedor-fabian",
+  "blessings": [
+    "polimorfar",
+    "cosechar-vida",
+    "presencia-amenazante"
+  ],
+  "uses": "Controlador top en arenas y oleadas.",
   "forms": null,
-  "image": "/src/assets/champions/lord-entretenedor-fabian.webp",
-  "masteries": [],
-  "artworks": [],
-  "pros": [],
+  "gear": [
+    "exactitud",
+    "bestial",
+    "percepcion",
+    "velocidad",
+    "velocidad-divina",
+    "cronofago",
+    "mercurial"
+  ],
   "contras": [],
-  "pve_stats": [],
-  "pvp_stats": [],
-  "game_modes": [],
-  "sinergias": []
+  "masteries": [
+    {
+      "branch": "Defensa",
+      "selected_masteries": [
+        {
+          "mastery_image": "/src/assets/masteries/lord-entretenedor-fabian/imagen_2026-04-11_020029438.png"
+        }
+      ]
+    },
+    {
+      "branch": "Apoyo",
+      "selected_masteries": [
+        {
+          "mastery_image": "/src/assets/masteries/lord-entretenedor-fabian/imagen_2026-04-11_020004460.png"
+        }
+      ]
+    }
+  ],
+  "role": "Gran controlador de arenas y oleadas basado en miedos",
+  "lore": "Por toda su existencia, el Señor del Entretenimiento Fabian ha residido en Aravia.\n\nSu padre, Patrice, fue un diplomático kaerokeano ante los Altos Elfos. En su juventud, Fabian recibió instrucción en equitación, esgrima y magia, como cualquier hijo noble de Aravia. Sus maestros élficos lo apreciaban por sus modales impecables y su gracia y estilo en todas las cosas. Decían que era ‘excepcional para un humano’. Por su parte, Fabian adoraba los altos estándares de los aravianos, especialmente el glamour de las ocasiones formales. Anhelaba ocupar un lugar en la alta sociedad.\n\nFabian admiraba especialmente las celebraciones del Festival de la Creación de los Altos Elfos. Su padre las organizaba periódicamente, hasta que, al llegar a la mayoría de edad, Fabian solicitó encargarse de ellas. Patrice concedió el permiso con gusto, pues era una tarea ardua. Fabian la disfrutó enormemente. No solo organizaba un evento anual, sino que, en menos de una década, sus festivales fueron considerados los mejores de Aravia.\n\nLos eventos que organizaba Fabian eran vistos como la encarnación de la sofisticación y el buen gusto, un equilibrio perfecto entre opulencia y moderación. Cuidaba meticulosamente cada detalle: desde el tipo de encaje en los trajes de los músicos, el maridaje del vino con el octavo plato, el tono exacto de azul de las servilletas, hasta la cantidad de botones en los chalecos de los camareros. Fabian solo disfrutaba más de una cosa que organizar sus eventos: ver a sus invitados disfrutarlos. Esperaba que los Altos Elfos lo aceptaran plenamente y no lo vieran solo como un humano ‘excepcional’.\n\nPero no lo hicieron. Los aravianos lo apreciaban, incluso lo querían, llamándolo cariñosamente el ‘Señor de la Alegría’, pero nunca fue uno de ellos.\n\nLa muerte de Fabian fue repentina y prematura. Su cuerpo fue encontrado con una terrible herida en la cabeza, y el asesinato nunca se resolvió. Por demanda popular, la reina Eva le otorgó póstumamente la ciudadanía completa y lo declaró ‘Señor Proveedor del Gran Baile del Festival de la Creación’ a perpetuidad. Además, en sus oficinas privadas se encontraron planes para sus festivales de los próximos tres años. Un fondo público aseguró que todos se llevaran a cabo según las especificaciones exactas de Fabian y fueran un éxito, aunque siempre con un velo de tristeza.\n\nFabian había obtenido su aceptación, pero no estaba vivo para experimentarla.\n\nEn su ataúd de filigrana de plata y caoba, Fabian no descansó en paz. Su alma anhelaba regresar a Teleria, pues sabía que aún tenía mucho por vivir y muchas festividades magníficas por organizar. Surgió de su tumba la noche del tercer y último evento que había planeado antes de su muerte y lo contempló a través de una ventana. La alegría era maravillosa de ver.\n\nTambién vio reflejada en el cristal su nueva forma espectral, aún con las marcas de las heridas que lo mataron. Llevaba una hermosa máscara de fiesta, una que él mismo había encargado para el evento que estaba presenciando. Parecía que sus dolientes la habían usado como su máscara funeraria. De haber podido llorar, habría sollozado durante horas. Ni siquiera él sabía qué le había sucedido para terminar de esa manera. Pero sí sabía que no podía unirse a sus invitados en su estado.\n\nFabian decidió continuar su labor de todas formas. Al año siguiente, organizó una fiesta de gran éxito. Para los invitados, un donante anónimo había financiado el evento en honor a Fabian, manteniendo su identidad en secreto para no desviar la atención del propósito de la celebración.\n\nY así ha continuado desde entonces, durante años, con la gente creyendo que cada evento era financiado por un benefactor privado en memoria de Fabian. El ‘Señor del Entretenimiento’, como pasó a ser conocido, habita su mansión, su alma no muerta atada a ella y a su personal ancestral debido a su amor por su hogar y su familia en vida. No puede abandonarla. Pero incluso si pudiera, hacerlo lo dejaría extremadamente vulnerable.\n\nSiendo un No Muerto, los nigromantes y el propio Siroth podrían tomar control de su voluntad. Fabian solo está a salvo gracias a sus amigos cercanos. No solo lo descubrieron y no lo destruyeron, sino que colocaron barreras mágicas sobre su propiedad. Además, realizaron los arreglos legales para proteger su propiedad sobre la mansión.\n\nLo más importante para Fabian es que sus amigos le hacen compañía. Finalmente sabe lo apreciado que es y disfruta viendo a otros gozar de sus festividades, pero le duele que su condición de No Muerto le impida participar en ellas. Las sonrisas de sus amigos y sus palabras de aliento le dan la fuerza para seguir adelante. Con la guerra del Rey Tayba en pleno auge, lo necesita más que nunca, pues planea que su próxima celebración sea la más grandiosa hasta la fecha, para traer alegría a su pueblo ensangrentado y demostrar su dedicación a los Altos Elfos.\n\nEstá terriblemente tentado de presentarse ante sus invitados y quitarse la máscara.",
+  "youtube_link": "https://www.youtube.com/watch?v=7xbWFP0xVGo",
+  "sinergias": [
+    "mediadora",
+    "yukimasa-demonio-de-hielo"
+  ],
+  "type": "Apoyo",
+  "image": "/src/assets/champions/lord-entretenedor-fabian.webp",
+  "faction": "No Muertos",
+  "stats": {
+    "hp": 18990,
+    "speed": 109,
+    "attack": 1211,
+    "defense": 1101,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "artworks": [],
+  "pve_stats": [
+    "Velocidad",
+    "Puntería"
+  ]
 }

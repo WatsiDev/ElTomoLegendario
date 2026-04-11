@@ -1,11 +1,11 @@
 {
-  "slug": "efigia_demoníaca",
+  "rarity": "Épico",
   "name": "Efigia Demoníaca",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/efigia_demoníaca.png",
-  "stats": [],
+  "slug": "efigia_demoniaca",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/efigia_demoníaca.png",
+  "description": "x",
+  "stats": [],
+  "group": "Estándar"
 }

@@ -1,11 +1,11 @@
 {
-  "slug": "aberración_antigua",
+  "rarity": "Épico",
   "name": "Aberración Antigua",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/aberración_antigua.png",
-  "stats": [],
+  "slug": "aberracion_antigua",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/aberración_antigua.png",
+  "description": "x",
+  "stats": [],
+  "group": "Arena en Directo"
 }

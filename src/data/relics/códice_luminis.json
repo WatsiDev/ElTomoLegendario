@@ -1,11 +1,11 @@
 {
-  "slug": "códice_luminis",
+  "rarity": "Raro",
   "name": "Códice Luminis",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/códice_luminis.png",
-  "stats": [],
+  "slug": "codice_luminis",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/códice_luminis.png",
+  "description": "x",
+  "stats": [],
+  "group": "Guerras de Facciones"
 }

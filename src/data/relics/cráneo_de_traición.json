@@ -1,11 +1,11 @@
 {
-  "slug": "cráneo_de_traición",
+  "rarity": "Legendario",
   "name": "Cráneo De Traición",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/cráneo_de_traición.png",
-  "stats": [],
+  "slug": "craneo_de_traicion",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/cráneo_de_traición.png",
+  "description": "x",
+  "stats": [],
+  "group": "El Caos Despierta"
 }

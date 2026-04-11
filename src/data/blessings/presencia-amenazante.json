@@ -1,15 +1,15 @@
 {
   "slug": "presencia-amenazante",
   "name": "Presencia Amenazante",
-  "group": "",
+  "group": "Luz",
   "rarity": "Legendario",
-  "description": "Descripción pendiente.",
+  "description": "Aumenta el Aura de tu Grupo y reduce el Aura del grupo enemigo.\n\nSi varios Campeones del mismo grupo tienen Presencia Amenazante, solo funcionará una. Si en el mismo Grupo hay Campeones con Bendiciones de Presencia Amenazante y Presencia Dominante, solo funcionará la Bendición de Presencia Amenazante.",
   "image": "/src/assets/icons/blessings/presencia-amenazante.webp",
   "levels": [
     {
       "stars": 1,
-      "description": "Mejora nivel 1",
-      "stat": "HP +500",
+      "description": "Aumenta un 2,5% el Aura de tu grupo. Reduce un 5% el Aura del grupo enemigo.",
+      "stat": "HP +7500",
       "extra_stat": ""
     },
     {

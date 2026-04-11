@@ -1,11 +1,11 @@
 {
-  "slug": "tótem_de_exuzar",
+  "rarity": "Épico",
   "name": "Tótem De Exuzar",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/tótem_de_exuzar.png",
-  "stats": [],
+  "slug": "totem_de_exuzar",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/tótem_de_exuzar.png",
+  "description": "x",
+  "stats": [],
+  "group": "Descubrimiento"
 }

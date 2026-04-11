@@ -137,8 +137,20 @@ collections:
           widget: "markdown",
           required: false,
         }
-      - { label: "Pros", name: "pros", widget: "list", required: false }
-      - { label: "Contras", name: "contras", widget: "list", required: false }
+      - { 
+          label: "Pros", 
+          name: "pros", 
+          widget: "list", 
+          required: false, 
+          field: { label: "Ventaja", name: "pro_item", widget: "string" } 
+        }
+      - { 
+          label: "Contras", 
+          name: "contras", 
+          widget: "list", 
+          required: false, 
+          field: { label: "Desventaja", name: "contra_item", widget: "string" } 
+        }
       - {
           label: "Stats PvE Recomendados",
           name: "pve_stats",

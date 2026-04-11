@@ -1,11 +1,11 @@
 {
-  "slug": "corazón_volcardíaco",
+  "rarity": "Mítico",
   "name": "Corazón Volcardíaco",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/corazón_volcardíaco.png",
-  "stats": [],
+  "slug": "corazon_volcardiaco",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/corazón_volcardíaco.png",
+  "description": "x",
+  "stats": [],
+  "group": "Estándar"
 }

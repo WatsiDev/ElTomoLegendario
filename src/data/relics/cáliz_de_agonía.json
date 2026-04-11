@@ -1,11 +1,11 @@
 {
-  "slug": "cáliz_de_agonía",
+  "rarity": "Épico",
   "name": "Cáliz De Agonía",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/cáliz_de_agonía.png",
-  "stats": [],
+  "slug": "caliz_de_agonia",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/cáliz_de_agonía.png",
+  "description": "x",
+  "stats": [],
+  "group": "El Caos Despierta"
 }

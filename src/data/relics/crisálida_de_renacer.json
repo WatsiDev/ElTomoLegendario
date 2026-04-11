@@ -1,11 +1,11 @@
 {
-  "slug": "crisálida_de_renacer",
+  "rarity": "Mítico",
   "name": "Crisálida De Renacer",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/crisálida_de_renacer.png",
-  "stats": [],
+  "slug": "crisalida_de_renacer",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/crisálida_de_renacer.png",
+  "description": "x",
+  "stats": [],
+  "group": "Clan"
 }

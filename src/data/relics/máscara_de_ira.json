@@ -1,11 +1,11 @@
 {
-  "slug": "máscara_de_ira",
+  "rarity": "Raro",
   "name": "Máscara De Ira",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/máscara_de_ira.png",
-  "stats": [],
+  "slug": "mascara_de_ira",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/máscara_de_ira.png",
+  "description": "x",
+  "stats": [],
+  "group": "Estándar"
 }

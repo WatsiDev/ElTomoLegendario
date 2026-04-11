@@ -1,11 +1,11 @@
 {
-  "slug": "vigías_aulladores",
+  "rarity": "Épico",
   "name": "Vigías Aulladores",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/vigías_aulladores.png",
-  "stats": [],
+  "slug": "vigias_aulladores",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/vigías_aulladores.png",
+  "description": "x",
+  "stats": [],
+  "group": "Alas Invernales"
 }

@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import ChampionCard from "../../components/champion/ChampionCard.astro";
 import { getRarityStyle } from "../../utils/rarity";
 import { getAffinityStyle } from "../../utils/affinity";
 import affinityIconsData from "../../data/assets/affinities.json";
@@ -7,12 +8,25 @@ import affinityIconsData from "../../data/assets/affinities.json";
 // 1. Cargar Sets dinámicamente
 const setFiles = import.meta.glob("../../data/sets/*.json", { eager: true });
 const setsData: Record<string, any> = {};
-
 Object.values(setFiles).forEach((file: any) => {
   const data = file.default || file;
-  if (data.slug) {
-    setsData[data.slug] = data;
-  }
+  if (data.slug) setsData[data.slug] = data;
+});
+
+// Cargar Reliquias
+const relicFiles = import.meta.glob("../../data/relics/*.json", { eager: true });
+const relicsData: Record<string, any> = {};
+Object.values(relicFiles).forEach((file: any) => {
+  const data = file.default || file;
+  if (data.slug) relicsData[data.slug] = data;
+});
+
+// Cargar Bendiciones
+const blessingFiles = import.meta.glob("../../data/blessings/*.json", { eager: true });
+const blessingsData: Record<string, any> = {};
+Object.values(blessingFiles).forEach((file: any) => {
+  const data = file.default || file;
+  if (data.slug) blessingsData[data.slug] = data;
 });
 
 const affinityIcons = affinityIconsData as Record<string, string>;
@@ -60,6 +74,41 @@ const recommendedSets = (champ.gear || []).map((item: any) => {
     description: setData ? setData.description : "Sin descripción",
   };
 });
+
+// 2.a Iconos de Reliquias Recomendadas
+const recommendedRelics = (champ.relics || []).map((item: any) => {
+  const slug = (typeof item === "string" ? item : item.slug || "").toLowerCase();
+  const data = relicsData[slug];
+  return {
+    name: data ? data.name : slug.replace(/_/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase()),
+    icon: data ? data.image : null,
+    description: data ? data.description : "Sin descripción"
+  };
+});
+
+// 2.b Iconos de Bendiciones Recomendadas
+const recommendedBlessings = (champ.blessings || []).map((item: any) => {
+  const slug = (typeof item === "string" ? item : item.slug || "").toLowerCase();
+  const data = blessingsData[slug];
+  return {
+    name: data ? data.name : slug.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase()),
+    icon: data ? data.image : null,
+    description: data ? data.description : "Sin descripción"
+  };
+});
+
+// Helper de ordenamiento de libros
+const getPriorityWeight = (p: string) => {
+  p = p?.toLowerCase() || '';
+  if (p.includes('máxima') || p.includes('max') || p.includes('alta')) return 3;
+  if (p.includes('media') || p.includes('normal')) return 2;
+  if (p.includes('baja') || p.includes('ninguna') || p.includes('no')) return 0;
+  return 1;
+};
+const sortSkillsByPriority = (skills: any[]) => {
+  if (!skills) return [];
+  return [...skills].sort((a, b) => getPriorityWeight(b.book_priority) - getPriorityWeight(a.book_priority));
+};
 
 // 3. Artworks adicionales
 // Ahora vienen directamente del JSON del campeón
@@ -451,7 +500,7 @@ const rarityTextClass = rarityStyle.text;
           class="bg-raid-card p-6 rounded-lg border-l-4 border-raid-gold mb-6 shadow-lg"
         >
           <h3 class="text-xl font-bold text-raid-gold mb-4">
-            Sets Recomendados Globales
+            Sets Recomendados
           </h3>
           <div class="flex flex-wrap gap-6">
             {
@@ -470,11 +519,11 @@ const rarityTextClass = rarityStyle.text;
                           {set.name}
                         </span>
                       )}
-                      <div class="absolute bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+                      <div class="absolute bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
                         {set.description}
                       </div>
                     </div>
-                    <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">
+                    <span class="text-xs text-gray-400 font-bold uppercase tracking-wider text-center max-w-[5rem] truncate">
                       {set.name}
                     </span>
                   </div>
@@ -488,29 +537,105 @@ const rarityTextClass = rarityStyle.text;
           </div>
         </div>
 
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div
+            class="bg-raid-card p-6 rounded-lg border-l-4 border-raid-purple shadow-lg"
+          >
+            <h3 class="text-xl font-bold text-raid-purple mb-4">
+              Reliquias Recomendadas
+            </h3>
+            <div class="flex flex-wrap gap-6">
+              {
+                recommendedRelics.length > 0 ? (
+                  recommendedRelics.map((set: any) => (
+                    <div class="flex flex-col items-center gap-2">
+                      <div class="w-16 h-16 bg-gray-900 rounded-lg p-2 border border-gray-600 flex items-center justify-center relative group cursor-help">
+                        {set.icon ? (
+                          <img
+                            src={`${set.icon}`}
+                            alt={set.name}
+                            class="w-full h-full object-contain drop-shadow-md"
+                          />
+                        ) : (
+                          <span class="text-xs text-gray-500 text-center">
+                            {set.name}
+                          </span>
+                        )}
+                        <div class="absolute bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
+                          {set.name}
+                        </div>
+                      </div>
+                      <span class="text-xs text-gray-400 font-bold uppercase tracking-wider text-center max-w-[5rem] truncate">
+                        {set.name}
+                      </span>
+                    </div>
+                  ))
+                ) : (
+                  <p class="text-gray-400 italic">
+                    Sin recomendaciones de reliquias.
+                  </p>
+                )
+              }
+            </div>
+          </div>
+
+          <div
+            class="bg-raid-card p-6 rounded-lg border-l-4 border-blue-500 shadow-lg"
+          >
+            <h3 class="text-xl font-bold text-blue-500 mb-4">
+              Bendiciones Recomendadas
+            </h3>
+            <div class="flex flex-wrap gap-6">
+              {
+                recommendedBlessings.length > 0 ? (
+                  recommendedBlessings.map((set: any) => (
+                    <div class="flex flex-col items-center gap-2">
+                      <div class="w-16 h-16 bg-gray-900 rounded-lg p-2 border border-gray-600 flex items-center justify-center relative group cursor-help">
+                        {set.icon ? (
+                          <img
+                            src={`${set.icon}`}
+                            alt={set.name}
+                            class="w-full h-full object-contain drop-shadow-md scale-125"
+                          />
+                        ) : (
+                          <span class="text-xs text-gray-500 text-center">
+                            {set.name}
+                          </span>
+                        )}
+                        <div class="absolute bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
+                          {set.name}
+                        </div>
+                      </div>
+                      <span class="text-xs text-gray-400 font-bold uppercase tracking-wider text-center max-w-[5rem] truncate">
+                        {set.name}
+                      </span>
+                    </div>
+                  ))
+                ) : (
+                  <p class="text-gray-400 italic">
+                    Sin recomendaciones de bendiciones.
+                  </p>
+                )
+              }
+            </div>
+          </div>
+        </div>
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div class="bg-raid-card p-6 rounded-lg border border-gray-700">
             <h3 class="text-xl font-bold text-white mb-4">
               Stats Prioritarios (PvE)
             </h3>
             <ul class="space-y-3 text-sm text-gray-300">
-              <li class="flex justify-between border-b border-gray-700 pb-2">
-                <span>Guantes</span>
-                <span class="text-raid-gold font-bold">P.Crit / D.Crit</span>
-              </li>
-              <li class="flex justify-between border-b border-gray-700 pb-2">
-                <span>Pecho</span>
-                <span class="text-raid-gold font-bold">ATK% / HP%</span>
-              </li>
-              <li class="flex justify-between border-b border-gray-700 pb-2">
-                <span>Botas</span>
-                <span class="text-raid-gold font-bold">Velocidad</span>
-              </li>
-              <li class="pt-2">
-                <span class="text-gray-500 text-xs uppercase font-bold"
-                  >Substats:</span
-                > Vel, Puntería, P.Crit
-              </li>
+              {champ.pve_stats && champ.pve_stats.length > 0 ? (
+                champ.pve_stats.map((stat: string) => (
+                  <li class="flex items-center gap-2 border-b border-gray-700 pb-2">
+                    <span class="text-raid-gold font-bold">✓</span> {stat}
+                  </li>
+                ))
+              ) : (
+                <li class="text-gray-500 italic">No hay información de stats PvE</li>
+              )}
             </ul>
           </div>
           <div class="bg-raid-card p-6 rounded-lg border border-gray-700">
@@ -518,23 +643,15 @@ const rarityTextClass = rarityStyle.text;
               Stats Prioritarios (PvP)
             </h3>
             <ul class="space-y-3 text-sm text-gray-300">
-              <li class="flex justify-between border-b border-gray-700 pb-2">
-                <span>Guantes</span>
-                <span class="text-raid-gold font-bold">D.Crit / HP%</span>
-              </li>
-              <li class="flex justify-between border-b border-gray-700 pb-2">
-                <span>Pecho</span>
-                <span class="text-raid-gold font-bold">RES / Puntería</span>
-              </li>
-              <li class="flex justify-between border-b border-gray-700 pb-2">
-                <span>Botas</span>
-                <span class="text-raid-gold font-bold">Velocidad</span>
-              </li>
-              <li class="pt-2">
-                <span class="text-gray-500 text-xs uppercase font-bold"
-                  >Substats:</span
-                > Vel, Resistencia, HP%
-              </li>
+              {champ.pvp_stats && champ.pvp_stats.length > 0 ? (
+                champ.pvp_stats.map((stat: string) => (
+                  <li class="flex items-center gap-2 border-b border-gray-700 pb-2">
+                    <span class="text-raid-gold font-bold">✓</span> {stat}
+                  </li>
+                ))
+              ) : (
+                <li class="text-gray-500 italic">No hay información de stats PvP</li>
+              )}
             </ul>
           </div>
         </div>
@@ -587,20 +704,39 @@ const rarityTextClass = rarityStyle.text;
 
       <section id="maestrias" class="tab-content hidden">
         <h2 class="text-3xl font-bold mb-6 text-white">Maestrías</h2>
-        <div
-          class="bg-raid-bg p-8 rounded-lg border border-gray-700 text-center"
-        >
-          <p class="text-gray-400 mb-6">
-            El árbol de maestrías óptimo está siendo analizado por nuestros
-            expertos.
-          </p>
-          <div
-            class="inline-block bg-gray-800 px-6 py-4 rounded border border-gray-600"
-          >
-            <span class="text-2xl">🚧</span>
-            <span class="font-bold text-white ml-2">Próximamente</span>
+        {champ.masteries && champ.masteries.length > 0 ? (
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 w-full max-w-4xl mx-auto">
+            {champ.masteries.map((mastery: any) => (
+              <div class="bg-raid-card border border-gray-700 rounded-lg p-6 shadow-xl flex flex-col items-center">
+                <div class="w-full flex-grow flex justify-center items-center h-full">
+                  {mastery.selected_masteries && mastery.selected_masteries.map((sm: any) => (
+                     <img 
+                      src={sm.mastery_image} 
+                      alt={`Maestría ${mastery.branch}`} 
+                      class="max-w-[320px] w-full h-[auto] rounded shadow-lg border border-gray-800 object-contain hover:scale-105 transition-transform duration-500" 
+                      loading="lazy"
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-        </div>
+        ) : (
+          <div
+            class="bg-raid-bg p-8 rounded-lg border border-gray-700 text-center"
+          >
+            <p class="text-gray-400 mb-6">
+              El árbol de maestrías óptimo está siendo analizado por nuestros
+              expertos.
+            </p>
+            <div
+              class="inline-block bg-gray-800 px-6 py-4 rounded border border-gray-600"
+            >
+              <span class="text-2xl">🚧</span>
+              <span class="font-bold text-white ml-2">Próximamente</span>
+            </div>
+          </div>
+        )}
       </section>
 
       <section id="libros" class="tab-content hidden">
@@ -611,19 +747,17 @@ const rarityTextClass = rarityStyle.text;
           {champ.rarity === 'Mítico' && champ.forms ? (
             champ.forms.map((form: any, index: number) => (
               <div class={`form-books-container space-y-4 ${index === 0 ? '' : 'hidden'}`} data-form-id={form.id}>
-                {form.skills && form.skills.map((skill: any, sIndex: number) => (
+                {sortSkillsByPriority(form.skills).map((skill: any, sIndex: number) => (
                   <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
                     <div
-                      class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${sIndex === 0 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
+                      class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${getPriorityWeight(skill.book_priority) >= 3 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
                     >
                       {sIndex + 1}
                     </div>
                     <div class="flex-1">
                       <h3 class="font-bold text-white text-lg">{skill.name}</h3>
-                      <p class="text-gray-400 text-sm">
-                        {sIndex === 0
-                          ? "Prioridad Máxima - Fundamental para el cooldown"
-                          : "Mejorar si sobran libros"}
+                      <p class="text-gray-400 text-sm flex items-center gap-2">
+                        Prioridad: <span class="text-raid-gold font-bold">{skill.book_priority || "Ninguna"}</span>
                       </p>
                     </div>
                   </div>
@@ -631,24 +765,21 @@ const rarityTextClass = rarityStyle.text;
               </div>
             ))
           ) : (
-            champ.skills &&
-              champ.skills.map((skill: any, index: number) => (
-                <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
-                  <div
-                    class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${index === 0 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
-                  >
-                    {index + 1}
-                  </div>
-                  <div class="flex-1">
-                    <h3 class="font-bold text-white text-lg">{skill.name}</h3>
-                    <p class="text-gray-400 text-sm">
-                      {index === 0
-                        ? "Prioridad Máxima - Fundamental para el cooldown"
-                        : "Mejorar si sobran libros"}
-                    </p>
-                  </div>
+            sortSkillsByPriority(champ.skills).map((skill: any, index: number) => (
+              <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
+                <div
+                  class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${getPriorityWeight(skill.book_priority) >= 3 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
+                >
+                  {index + 1}
                 </div>
-              ))
+                <div class="flex-1">
+                  <h3 class="font-bold text-white text-lg">{skill.name}</h3>
+                  <p class="text-gray-400 text-sm flex items-center gap-2">
+                    Prioridad: <span class="text-raid-gold font-bold">{skill.book_priority || "Ninguna"}</span>
+                  </p>
+                </div>
+              </div>
+            ))
           )}
         </div>
       </section>
@@ -658,91 +789,75 @@ const rarityTextClass = rarityStyle.text;
           Mejores Modos de Juego
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {
-            /* Ejemplo estático, podrías hacerlo dinámico si tienes ratings en el JSON */
-          }
-          <div
-            class="bg-gradient-to-br from-yellow-900/40 to-transparent p-6 rounded-lg border border-yellow-700/50"
-          >
-            <h3 class="text-yellow-500 font-bold text-lg mb-2">
-              Campaign & Farm
-            </h3>
-            <div class="w-full bg-gray-700 h-2 rounded-full mb-2">
-              <div class="bg-yellow-500 h-2 rounded-full" style="width: 80%">
+          {champ.game_modes && champ.game_modes.length > 0 ? (
+            champ.game_modes.map((mode: any) => (
+              <div class="bg-gradient-to-br from-gray-900/60 to-transparent p-6 rounded-lg border border-gray-700/80">
+                <h3 class="text-raid-gold font-bold text-lg mb-2 flex justify-between items-center">
+                  {mode.area} <span class="text-xs text-gray-400 font-normal">{mode.dificultad || ''}</span>
+                </h3>
+                <div class="w-full bg-gray-800 h-2 rounded-full mb-2 overflow-hidden border border-gray-700">
+                  <div class="bg-linear-to-r from-raid-gold to-raid-purple h-2 rounded-full" style={`width: ${(parseFloat(mode.calificacion)/5)*100}%`}></div>
+                </div>
+                <p class="text-gray-300 font-semibold text-sm">Rating: <span class="text-raid-gold font-bold">{mode.calificacion} / 5</span></p>
               </div>
-            </div>
-            <p class="text-gray-400 text-xs">Rating: 4/5</p>
-          </div>
-          <div
-            class="bg-gradient-to-br from-purple-900/40 to-transparent p-6 rounded-lg border border-purple-700/50"
-          >
-            <h3 class="text-purple-500 font-bold text-lg mb-2">
-              Dungeons (Mazmorras)
-            </h3>
-            <div class="w-full bg-gray-700 h-2 rounded-full mb-2">
-              <div class="bg-purple-500 h-2 rounded-full" style="width: 60%">
-              </div>
-            </div>
-            <p class="text-gray-400 text-xs">Rating: 3/5</p>
-          </div>
-          <div
-            class="bg-gradient-to-br from-blue-900/40 to-transparent p-6 rounded-lg border border-blue-700/50"
-          >
-            <h3 class="text-blue-500 font-bold text-lg mb-2">Arena PvP</h3>
-            <div class="w-full bg-gray-700 h-2 rounded-full mb-2">
-              <div class="bg-blue-500 h-2 rounded-full" style="width: 90%">
-              </div>
-            </div>
-            <p class="text-gray-400 text-xs">Rating: 4.5/5</p>
-          </div>
+            ))
+          ) : (
+            <p class="text-gray-500 italic col-span-3 text-center">Aún no hay calificaciones para Modos de Juego</p>
+          )}
         </div>
       </section>
 
       <section id="sinergias" class="tab-content hidden">
-        <div
-          class="bg-raid-card p-8 rounded-lg border border-gray-700 text-center"
-        >
-          <h2 class="text-2xl font-bold text-white mb-2">
-            🤝 Sinergias de Equipo
-          </h2>
-          <p class="text-gray-400">Contenido en desarrollo.</p>
-        </div>
+        <h2 class="text-3xl font-bold mb-6 text-white">🤝 Sinergias de Equipo</h2>
+        {champ.sinergias && champ.sinergias.length > 0 ? (
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
+             {champ.sinergias.map((sinergia: string) => (
+                <div class="flex flex-col items-center w-full">
+                   <ChampionCard slug={sinergia} />
+                </div>
+             ))}
+          </div>
+        ) : (
+          <div class="bg-raid-card p-8 rounded-lg border border-gray-700 text-center">
+            <p class="text-gray-400">Este campeón no tiene sinergias registradas o trabaja bien de forma independiente.</p>
+          </div>
+        )}
       </section>
 
       <section id="proscontras" class="tab-content hidden">
         <h2 class="text-3xl font-bold mb-6 text-white">Balance del Campeón</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div
-            class="bg-green-900/10 p-6 rounded-xl border border-green-900/50"
-          >
-            <h3
-              class="text-2xl font-bold text-green-400 mb-4 flex items-center gap-2"
-            >
+          <div class="bg-green-900/10 p-6 rounded-xl border border-green-900/50 shadow-lg">
+            <h3 class="text-2xl font-bold text-green-400 mb-4 flex items-center gap-2">
               <span>✅</span> Ventajas
             </h3>
-            <ul class="space-y-3">
-              <li class="flex gap-3 text-gray-300">
-                <span class="text-green-500 font-bold">+</span> Excelente daño base
-              </li>
-              <li class="flex gap-3 text-gray-300">
-                <span class="text-green-500 font-bold">+</span> Utilidad en múltiples
-                áreas
-              </li>
+            <ul class="space-y-3 text-sm text-gray-300">
+              {champ.pros && champ.pros.length > 0 ? (
+                champ.pros.map((pro: any) => (
+                  <li class="flex items-start gap-3">
+                    <span class="text-green-500 font-bold mt-0.5">+</span> {typeof pro === 'string' ? pro : pro.pro_item}
+                  </li>
+                ))
+              ) : (
+                <li class="text-gray-500 italic">Sin ventajas registradas</li>
+              )}
             </ul>
           </div>
-          <div class="bg-red-900/10 p-6 rounded-xl border border-red-900/50">
-            <h3
-              class="text-2xl font-bold text-red-400 mb-4 flex items-center gap-2"
-            >
+
+          <div class="bg-red-900/10 p-6 rounded-xl border border-red-900/50 shadow-lg">
+            <h3 class="text-2xl font-bold text-red-400 mb-4 flex items-center gap-2">
               <span>❌</span> Desventajas
             </h3>
-            <ul class="space-y-3">
-              <li class="flex gap-3 text-gray-300">
-                <span class="text-red-500 font-bold">-</span> Lento sin botas de velocidad
-              </li>
-              <li class="flex gap-3 text-gray-300">
-                <span class="text-red-500 font-bold">-</span> Requiere muchos libros
-              </li>
+            <ul class="space-y-3 text-sm text-gray-300">
+              {champ.contras && champ.contras.length > 0 ? (
+                champ.contras.map((contra: any) => (
+                  <li class="flex items-start gap-3">
+                    <span class="text-red-500 font-bold mt-0.5">-</span> {typeof contra === 'string' ? contra : contra.contra_item}
+                  </li>
+                ))
+              ) : (
+                <li class="text-gray-500 italic">Sin desventajas registradas</li>
+              )}
             </ul>
           </div>
         </div>

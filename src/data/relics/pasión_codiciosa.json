@@ -1,11 +1,11 @@
 {
-  "slug": "pasión_codiciosa",
+  "rarity": "Mítico",
   "name": "Pasión Codiciosa",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/pasión_codiciosa.png",
-  "stats": [],
+  "slug": "pasion_codiciosa",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/pasión_codiciosa.png",
+  "description": "x",
+  "stats": [],
+  "group": "El Caos Despierta"
 }

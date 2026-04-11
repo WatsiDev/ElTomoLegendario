@@ -1,11 +1,11 @@
 {
-  "slug": "orquídea_mortilunar",
+  "rarity": "Épico",
   "name": "Orquídea Mortilunar",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/orquídea_mortilunar.png",
-  "stats": [],
+  "slug": "orquidea_mortilunar",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/orquídea_mortilunar.png",
+  "description": "x",
+  "stats": [],
+  "group": "Arena en Directo"
 }

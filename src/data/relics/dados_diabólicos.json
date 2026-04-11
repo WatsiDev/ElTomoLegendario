@@ -1,11 +1,11 @@
 {
-  "slug": "dados_diabólicos",
+  "rarity": "Mítico",
   "name": "Dados Diabólicos",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/dados_diabólicos.png",
-  "stats": [],
+  "slug": "dados_diabolicos",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/dados_diabólicos.png",
+  "description": "x",
+  "stats": [],
+  "group": "Alas Invernales"
 }

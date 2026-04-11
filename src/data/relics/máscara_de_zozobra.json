@@ -1,11 +1,11 @@
 {
-  "slug": "máscara_de_zozobra",
+  "rarity": "Legendario",
   "name": "Máscara De Zozobra",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/máscara_de_zozobra.png",
-  "stats": [],
+  "slug": "mascara_de_zozobra",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/máscara_de_zozobra.png",
+  "description": "x",
+  "stats": [],
+  "group": "Descubrimiento"
 }

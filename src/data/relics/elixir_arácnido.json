@@ -1,11 +1,11 @@
 {
-  "slug": "elixir_arácnido",
+  "rarity": "Raro",
   "name": "Elixir Arácnido",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/elixir_arácnido.png",
-  "stats": [],
+  "slug": "elixir_aracnido",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/elixir_arácnido.png",
+  "description": "x",
+  "stats": [],
+  "group": "Guerras de Facciones"
 }
