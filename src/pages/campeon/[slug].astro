@@ -4,6 +4,16 @@ import ChampionCard from "../../components/champion/ChampionCard.astro";
 import { getRarityStyle } from "../../utils/rarity";
 import { getAffinityStyle } from "../../utils/affinity";
 import affinityIconsData from "../../data/assets/affinities.json";
+import { Image } from "astro:assets";
+
+// --- NUEVOS IMPORTS DE IMÁGENES VIA GLOB ---
+const championImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/champions/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const affinityImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/icons/affinities/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const setImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/icons/sets/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const relicImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/icons/relics/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const blessingImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/icons/blessings/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const artworksImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/artworks/**/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const masteryImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/masteries/**/*.{png,jpg,jpeg,webp,svg}", { eager: true });
 
 // 1. Cargar Sets dinámicamente
 const setFiles = import.meta.glob("../../data/sets/*.json", { eager: true });
@@ -137,10 +147,12 @@ const rarityTextClass = rarityStyle.text;
       <div class="md:col-span-1 flex justify-center md:justify-end text-center">
         <div class="flex flex-col items-center w-fit mx-auto md:mx-0">
           <div class="relative group w-fit h-fit">
-            <img
-              src={`${champ.image}`}
+            <Image
+              src={(champ.image && championImagesGlob[champ.image] ? championImagesGlob[champ.image].default : (champ.image || "/favicon.png")) as any}
               alt={champ.name}
-              class={`w-full max-w-[280px] rounded-lg border-4 transition-all duration-300 group-hover:scale-105 relative z-10 shadow-2xl ${rarityStyle.border} hover:${rarityStyle.glow}`}
+              width={180}
+              height={280}
+              class={`w-full max-w-[180px] rounded-lg border-4 transition-all duration-300 group-hover:scale-105 relative z-10 shadow-2xl ${rarityStyle.border} hover:${rarityStyle.glow}`}
             />
           </div>
 
@@ -191,8 +203,10 @@ const rarityTextClass = rarityStyle.text;
           >
             {
               affinityIcon && (
-                <img
-                  src={`${affinityIcon}`}
+                <Image
+                  src={(affinityIcon && affinityImagesGlob[affinityIcon] ? affinityImagesGlob[affinityIcon].default : affinityIcon) as any}
+                  width={16}
+                  height={16}
                   class="w-4 h-4"
                   alt={champ.affinity}
                 />
@@ -509,9 +523,11 @@ const rarityTextClass = rarityStyle.text;
                   <div class="flex flex-col items-center gap-2">
                     <div class="w-16 h-16 bg-gray-900 rounded-lg p-2 border border-gray-600 flex items-center justify-center relative group cursor-help">
                       {set.icon ? (
-                        <img
-                          src={`${set.icon}`}
+                        <Image
+                          src={(set.icon && setImagesGlob[set.icon] ? setImagesGlob[set.icon].default : set.icon) as any}
                           alt={set.name}
+                          width={64}
+                          height={64}
                           class="w-full h-full object-contain drop-shadow-md"
                         />
                       ) : (
@@ -551,9 +567,11 @@ const rarityTextClass = rarityStyle.text;
                     <div class="flex flex-col items-center gap-2">
                       <div class="w-16 h-16 bg-gray-900 rounded-lg p-2 border border-gray-600 flex items-center justify-center relative group cursor-help">
                         {set.icon ? (
-                          <img
-                            src={`${set.icon}`}
+                          <Image
+                            src={(set.icon && relicImagesGlob[set.icon] ? relicImagesGlob[set.icon].default : set.icon) as any}
                             alt={set.name}
+                            width={64}
+                            height={64}
                             class="w-full h-full object-contain drop-shadow-md"
                           />
                         ) : (
@@ -592,9 +610,11 @@ const rarityTextClass = rarityStyle.text;
                     <div class="flex flex-col items-center gap-2">
                       <div class="w-16 h-16 bg-gray-900 rounded-lg p-2 border border-gray-600 flex items-center justify-center relative group cursor-help">
                         {set.icon ? (
-                          <img
-                            src={`${set.icon}`}
+                          <Image
+                            src={(set.icon && blessingImagesGlob[set.icon] ? blessingImagesGlob[set.icon].default : set.icon) as any}
                             alt={set.name}
+                            width={64}
+                            height={64}
                             class="w-full h-full object-contain drop-shadow-md scale-125"
                           />
                         ) : (
@@ -663,9 +683,11 @@ const rarityTextClass = rarityStyle.text;
           <div
             class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300 lg:col-span-1 lg:row-span-2 shadow-xl"
           >
-            <img
-              src={`${champ.image}`}
+            <Image
+              src={(champ.image && championImagesGlob[champ.image] ? championImagesGlob[champ.image].default : (champ.image || "/favicon.png")) as any}
               alt={champ.name}
+              width={600}
+              height={800}
               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
             <div
@@ -681,9 +703,11 @@ const rarityTextClass = rarityStyle.text;
             extraArtworks.length > 0 ? (
               extraArtworks.map((art: string, i: number) => (
                 <div class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 aspect-[3/4] cursor-pointer">
-                  <img
-                    src={`${art}`}
+                  <Image
+                    src={(art && artworksImagesGlob[art] ? artworksImagesGlob[art].default : art) as any}
                     alt={`Arte ${i}`}
+                    width={600}
+                    height={800}
                     class="w-full h-full object-cover"
                     loading="lazy"
                   />
@@ -710,9 +734,11 @@ const rarityTextClass = rarityStyle.text;
               <div class="bg-raid-card border border-gray-700 rounded-lg p-6 shadow-xl flex flex-col items-center">
                 <div class="w-full flex-grow flex justify-center items-center h-full">
                   {mastery.selected_masteries && mastery.selected_masteries.map((sm: any) => (
-                     <img 
-                      src={sm.mastery_image} 
+                     <Image 
+                      src={(sm.mastery_image && masteryImagesGlob[sm.mastery_image] ? masteryImagesGlob[sm.mastery_image].default : sm.mastery_image) as any} 
                       alt={`Maestría ${mastery.branch}`} 
+                      width={320}
+                      height={400}
                       class="max-w-[320px] w-full h-[auto] rounded shadow-lg border border-gray-800 object-contain hover:scale-105 transition-transform duration-500" 
                       loading="lazy"
                     />

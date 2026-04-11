@@ -14,6 +14,9 @@ const champions = Object.values(championFiles).map(
   (file: any) => file.default || file,
 );
 
+// Importar imágenes locales para Vite / Astro Assets
+const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/icons/factions/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+
 // Función auxiliar para generar slugs (URLs amigables)
 const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
 ---
@@ -42,7 +45,7 @@ const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
             <div class="absolute inset-0 bg-linear-to-t from-raid-gold/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
             <Image
-              src={faction.image || "/favicon.png"}
+              src={(faction.image && factionImagesGlob[faction.image] ? factionImagesGlob[faction.image].default : faction.image || "/favicon.png") as any}
               alt={faction.name}
               width={80}
               height={80}

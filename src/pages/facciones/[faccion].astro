@@ -3,6 +3,9 @@ import Layout from "../../layouts/Layout.astro";
 import ChampionCard from "../../components/champion/ChampionCard.astro"; // Ajusta si tu componente está en otra ruta
 import factionsData from "../../data/factions.json";
 import { getRarityStyle } from "../../utils/rarity";
+import { Image } from "astro:assets";
+
+const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/icons/factions/*.{png,jpg,jpeg,webp,svg}", { eager: true });
 
 interface Champion {
   slug: string;
@@ -102,9 +105,11 @@ const factionImage = factionData?.image || "/assets/favicon.png";
     <div
       class="flex flex-col md:flex-row items-center gap-8 mb-12 bg-gray-900/80 p-8 rounded-2xl border border-gray-800 shadow-2xl"
     >
-      <img
-        src={factionImage}
+      <Image
+        src={(factionData && factionData.image && factionImagesGlob[factionData.image] ? factionImagesGlob[factionData.image].default : factionImage) as any}
         alt={factionName}
+        width={128}
+        height={128}
         class="w-32 h-32 object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.2)]"
       />
       <div class="text-center md:text-left">
