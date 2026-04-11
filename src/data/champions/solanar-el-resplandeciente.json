@@ -1,16 +1,4 @@
 {
-  "slug": "solanar-el-resplandeciente",
-  "name": "Solanar el Resplandeciente",
-  "faction": "Altos Elfos",
-  "rarity": "Legendario",
-  "role": "Nuker poderoso, pareja de Noldua la Crepuscular, capaz de ignorar piel de piedra, ignorar defensa, robar curaciones y ser inmune a debufos. Mucho más poderoso combinado con Noldua",
-  "type": "Ataque",
-  "affinity": "Vacío",
-  "youtube_link": "https://www.youtube.com/watch?v=GQxGXbwzYlY",
-  "blessings": [
-    "desgarro-aplastante",
-    "ira-de-la-naturaleza"
-  ],
   "relics": [
     "garra_malefica",
     "corona_de_ireth",
@@ -18,25 +6,6 @@
     "mirada_del_gato",
     "invocatormentas"
   ],
-  "gear": [
-    "mercurial",
-    "piel-de-piedra",
-    "letal",
-    "despiadado",
-    "instinto",
-    "salvaje"
-  ],
-  "uses": "Bastante poderoso para lidiar. con oleadas. Enfocado más quizá a Arenas junto con Noldua para intentar hacer counter al meta de velocidad",
-  "stats": {
-    "hp": 14700,
-    "speed": 105,
-    "attack": 1608,
-    "defense": 991,
-    "accuracy": 0,
-    "critRate": 15,
-    "critDamage": 63,
-    "resistance": 30
-  },
   "skills": [
     {
       "name": "Llamarada Solar (ATK)",
@@ -112,21 +81,64 @@
       "book_priority": "Ninguna"
     }
   ],
+  "game_modes": [
+    {
+      "area": "Arena",
+      "calificacion": "5"
+    }
+  ],
   "aura": [
     {
       "type": "atk",
       "description": "Aumenta el ATK de los aliados en todas las batallas en 33%"
     }
   ],
-  "lore": null,
-  "forms": null,
-  "image": "/src/assets/champions/solanar-el-resplandeciente.webp",
-  "masteries": [],
-  "artworks": [],
   "pros": [],
-  "contras": [],
-  "pve_stats": [],
+  "affinity": "Vacío",
   "pvp_stats": [],
-  "game_modes": [],
-  "sinergias": []
+  "rarity": "Legendario",
+  "name": "Solanar el Resplandeciente",
+  "slug": "solanar-el-resplandeciente",
+  "blessings": [
+    "desgarro-aplastante",
+    "ira-de-la-naturaleza"
+  ],
+  "uses": "Bastante poderoso para lidiar. con oleadas. Enfocado más quizá a Arenas junto con Noldua para intentar hacer counter al meta de velocidad",
+  "forms": null,
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "letal",
+    "despiadado",
+    "instinto",
+    "salvaje",
+    "cruel"
+  ],
+  "contras": [],
+  "masteries": [],
+  "role": "Nuker poderoso, pareja de Noldua la Crepuscular, capaz de ignorar piel de piedra, ignorar defensa, robar curaciones y ser inmune a debufos. Mucho más poderoso combinado con Noldua",
+  "lore": null,
+  "youtube_link": "https://www.youtube.com/watch?v=GQxGXbwzYlY",
+  "sinergias": [
+    "noldua-la-crepuscular"
+  ],
+  "type": "Ataque",
+  "image": "/src/assets/champions/solanar-el-resplandeciente.webp",
+  "faction": "Altos Elfos",
+  "stats": {
+    "hp": 14700,
+    "speed": 105,
+    "attack": 1608,
+    "defense": 991,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "artworks": [],
+  "pve_stats": [
+    "Velocidad",
+    "Prob. Crítico",
+    "Daño Crítico"
+  ]
 }

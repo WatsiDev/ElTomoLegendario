@@ -1,46 +1,46 @@
 {
   "slug": "abundancia-natural",
   "name": "Abundancia Natural",
-  "group": "",
-  "rarity": "Legendario",
-  "description": "Descripción pendiente.",
+  "group": "Armonía",
+  "rarity": "Raro",
+  "description": "Siempre que este Campeón aplica un debufo de 2,5% de [Veneno], 25% de [Reducir ATK], 30% de [Reducir DEF], 15% de [Reducir VEL], 25% de [Reducir PUNT], 50% de [Curación Reducida], 15% de [Debilitar], [Miedo], 15% de [Reducir D. CRIT], 15% de [Reducir P. CRIT] o 25% de [Reducir RES], tiene cierta probabilidad de aplicar una versión superior de dicho debufo (por ejemplo, un debufo de 50% de [Reducir RES] en vez de 25% de [Reducir RES].\n\n[No funciona con debufos aplicados por Sets de Equipo].",
   "image": "/src/assets/icons/blessings/abundancia-natural.webp",
   "levels": [
     {
       "stars": 1,
-      "description": "Mejora nivel 1",
-      "stat": "HP +500",
+      "description": "15% de probabilidad de aplicar la versión superior de un debufo",
+      "stat": "HP +2250",
       "extra_stat": ""
     },
     {
       "stars": 2,
-      "description": "Mejora nivel 2",
-      "stat": "ATK +200",
+      "description": "",
+      "stat": "ATK +450",
       "extra_stat": ""
     },
     {
       "stars": 3,
-      "description": "Mejora nivel 3",
-      "stat": "DEF +100",
+      "description": "30% de probabilidad de aplicar la versión superior de un debufo",
+      "stat": "DEF +300",
       "extra_stat": ""
     },
     {
       "stars": 4,
-      "description": "Mejora nivel 4",
+      "description": "",
       "stat": "HP +1000",
-      "extra_stat": ""
+      "extra_stat": "D. CRIT +23%"
     },
     {
       "stars": 5,
-      "description": "Mejora nivel 5",
-      "stat": "SPD +5",
-      "extra_stat": ""
+      "description": "45% de probabilidad de aplicar la versión superior de un debufo",
+      "stat": "RES +40",
+      "extra_stat": "PUNT +40"
     },
     {
       "stars": 6,
-      "description": "Mejora nivel 6 (Awakening)",
-      "stat": "C.DMG +20%",
-      "extra_stat": "Resist +50"
+      "description": "60% de probabilidad de aplicar la versión superior de un debufo",
+      "stat": "VEL +7",
+      "extra_stat": ""
     }
   ]
 }

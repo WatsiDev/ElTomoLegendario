@@ -1,11 +1,21 @@
 {
-  "slug": "corona_de_ireth",
+  "rarity": "Épico",
   "name": "Corona De Ireth",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/corona_de_ireth.png",
-  "stats": [],
+  "slug": "corona_de_ireth",
+  "levels": [],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/corona_de_ireth.png",
+  "description": "+1% de daño cada vez que el portador aplica un debufo (se acumula hasta el 30%).",
+  "stats": [
+    {
+      "stat": "Ataque"
+    },
+    {
+      "stat": "Puntería"
+    },
+    {
+      "stat": "HP"
+    }
+  ],
+  "group": "Quimera"
 }
