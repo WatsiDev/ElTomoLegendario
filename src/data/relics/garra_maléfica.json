@@ -1,11 +1,26 @@
 {
-  "slug": "garra_maléfica",
+  "rarity": "Raro",
   "name": "Garra Maléfica",
-  "group": "",
-  "rarity": "",
-  "description": "",
-  "image": "/src/assets/icons/relics/garra_maléfica.png",
-  "stats": [],
+  "slug": "garra_malefica",
+  "levels": [
+    {
+      "level": 2,
+      "description": "Prob. daño adicional +5%"
+    }
+  ],
   "alhajas": [],
-  "levels": []
+  "image": "/src/assets/icons/relics/garra_maléfica.png",
+  "description": "El portador tiene un 20% de probabilidad de hacer +10% de daño al atacar.",
+  "stats": [
+    {
+      "stat": "Daño Crítico"
+    },
+    {
+      "stat": "HP"
+    },
+    {
+      "stat": "Ataque"
+    }
+  ],
+  "group": "Quimera"
 }
