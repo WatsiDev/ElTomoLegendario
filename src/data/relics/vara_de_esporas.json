@@ -1,0 +1,41 @@
+{
+  "slug": "vara_de_esporas",
+  "name": "Vara de Esporas",
+  "group": "Bosque Lúgubre",
+  "rarity": "Legendario",
+  "description": "Cada vez que el portador aplica un debufo de [Veneno] o [Bomba], tiene un 10% de probabilidad de aplicar un segundo debufo por 2 turnos.\nSolo cuentan los debufos aplicados por habilidades activas.",
+  "image": "/src/assets/icons/relics/vara_de_esporas.png",
+  "stats": [
+    {
+      "stat": "Puntería"
+    },
+    {
+      "stat": "Ataque"
+    },
+    {
+      "stat": "HP"
+    }
+  ],
+  "levels": [
+    {
+      "level": 2,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 3,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 3,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 5,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 6,
+      "description": "Probabilidad del Efecto +5%"
+    }
+  ]
+}

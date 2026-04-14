@@ -1,0 +1,41 @@
+{
+  "slug": "ojos_de_acero",
+  "name": "Ojos de Acero",
+  "group": "Bosque Lúgubre",
+  "rarity": "Raro",
+  "description": "El portador tiene un 20% de probabilidad de ignorar el 5% de DEF al atacar.",
+  "image": "/src/assets/icons/relics/ojos_de_acero.png",
+  "stats": [
+    {
+      "stat": "Ataque"
+    },
+    {
+      "stat": "Daño Crítico"
+    },
+    {
+      "stat": "Puntería"
+    }
+  ],
+  "levels": [
+    {
+      "level": 2,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 3,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 4,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 5,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 6,
+      "description": "Probabilidad del Efecto +10%"
+    }
+  ]
+}

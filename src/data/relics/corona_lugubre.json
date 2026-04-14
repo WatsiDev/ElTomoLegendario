@@ -1,0 +1,8 @@
+{
+  "slug": "corona_lugubre",
+  "name": "Corona Lúgubre",
+  "group": "Bosque Lúgubre",
+  "rarity": "Mítico",
+  "description": "Si todos los aliados del portador están muertos, aplica un bufo de [Bloquear Daño] al portador durante 1 turno. Tiene un 10% de probabilidad de aplicar este bufo al morir un aliado.",
+  "image": "/src/assets/icons/relics/corona_lugubre.png"
+}

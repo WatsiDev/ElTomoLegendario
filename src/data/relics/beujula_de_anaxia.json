@@ -1,0 +1,41 @@
+{
+  "slug": "brujula_de_anaxia",
+  "name": "Brújula de Anaxia",
+  "group": "Bosque Lúgubre",
+  "rarity": "Épico",
+  "description": "Cada vez que el portador tiene un debufo de control de masas, todos los efectos de llenar barra de Turno aumentan un 20% adicional su barra de Turno.",
+  "image": "/src/assets/icons/relics/brujula_de_anaxia.png",
+  "stats": [
+    {
+      "stat": "Resistencia"
+    },
+    {
+      "stat": "HP"
+    },
+    {
+      "stat": "Velocidad"
+    }
+  ],
+  "levels": [
+    {
+      "level": 2,
+      "description": "Aumento de Barra de Turno +10%"
+    },
+    {
+      "level": 3,
+      "description": "Aumento de Barra de Turno +10%"
+    },
+    {
+      "level": 4,
+      "description": "Aumento de Barra de Turno +10%"
+    },
+    {
+      "level": 5,
+      "description": "Aumento de Barra de Turno +25%"
+    },
+    {
+      "level": 6,
+      "description": "Aumento de Barra de Turno +25%"
+    }
+  ]
+}

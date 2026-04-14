@@ -1,0 +1,41 @@
+{
+  "slug": "cristal_de_exanima",
+  "name": "Cristal de Exánima",
+  "group": "Bosque Lúgubre",
+  "rarity": "Legendario",
+  "description": "Una vez por ronda, el portador tiene un 50% de probabilidad de activar un [Turno Instantáneo] al morir algún aliado.",
+  "image": "/src/assets/icons/relics/cristal_de_exanima.png",
+  "stats": [
+    {
+      "stat": "HP"
+    },
+    {
+      "stat": "Velocidad"
+    },
+    {
+      "stat": "Resistencia"
+    }
+  ],
+  "levels": [
+    {
+      "level": 2,
+      "description": "Probabilidad del Efecto +10%"
+    },
+    {
+      "level": 3,
+      "description": "Probabilidad del Efecto +10%"
+    },
+    {
+      "description": "Probabilidad del Efecto +10%",
+      "level": 4
+    },
+    {
+      "level": 5,
+      "description": "Probabilidad del Efecto +10%"
+    },
+    {
+      "level": 6,
+      "description": "Probabilidad del Efecto +10%"
+    }
+  ]
+}

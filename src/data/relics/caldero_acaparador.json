@@ -1,0 +1,41 @@
+{
+  "slug": "caldero_acaparador",
+  "name": "Caldero Acaparador",
+  "group": "Bosque Lúgubre",
+  "rarity": "Raro",
+  "description": "El portador tiene un 20% de probabilidad de ignorar un 10% de RES del objetivo al aplicar debufos.",
+  "image": "/src/assets/icons/relics/caldero_acaparador.png",
+  "stats": [
+    {
+      "stat": "Puntería"
+    },
+    {
+      "stat": "HP"
+    },
+    {
+      "stat": "Defensa"
+    }
+  ],
+  "levels": [
+    {
+      "level": 2,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 3,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 4,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 5,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 6,
+      "description": "Probabilidad del Efecto +10%"
+    }
+  ]
+}

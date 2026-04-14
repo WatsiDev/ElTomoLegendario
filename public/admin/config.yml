@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-#local_backend: true
+local_backend: true
 
 media_folder: "/src/assets/uploads"
 public_folder: "/src/assets/uploads"
@@ -12,7 +12,7 @@ collections:
     label: "Campeones"
     folder: "/src/data/champions"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     format: "json"
     media_folder: "/src/assets/champions"
     public_folder: "/src/assets/champions"
@@ -137,19 +137,19 @@ collections:
           widget: "markdown",
           required: false,
         }
-      - { 
-          label: "Pros", 
-          name: "pros", 
-          widget: "list", 
-          required: false, 
-          field: { label: "Ventaja", name: "pro_item", widget: "string" } 
+      - {
+          label: "Pros",
+          name: "pros",
+          widget: "list",
+          required: false,
+          field: { label: "Ventaja", name: "pro_item", widget: "string" },
         }
-      - { 
-          label: "Contras", 
-          name: "contras", 
-          widget: "list", 
-          required: false, 
-          field: { label: "Desventaja", name: "contra_item", widget: "string" } 
+      - {
+          label: "Contras",
+          name: "contras",
+          widget: "list",
+          required: false,
+          field: { label: "Desventaja", name: "contra_item", widget: "string" },
         }
       - {
           label: "Stats PvE Recomendados",
@@ -529,7 +529,7 @@ collections:
     label: "Bendiciones"
     folder: "/src/data/blessings"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     format: "json"
     media_folder: "/src/assets/icons/blessings"
     public_folder: "/src/assets/icons/blessings"
@@ -594,7 +594,7 @@ collections:
     label: "Sets de Equipo"
     folder: "/src/data/sets"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     format: "json"
     media_folder: "/src/assets/icons/sets"
     public_folder: "/src/assets/icons/sets"
@@ -628,7 +628,7 @@ collections:
     label: "Reliquias"
     folder: "/src/data/relics"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     format: "json"
     media_folder: "/src/assets/icons/relics"
     public_folder: "/src/assets/icons/relics"
@@ -722,7 +722,7 @@ collections:
     label: "Auras"
     folder: "/src/data/auras"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     format: "json"
     media_folder: "/src/assets/icons/auras"
     public_folder: "/src/assets/icons/auras"

@@ -1,0 +1,8 @@
+{
+  "slug": "lente_intangible",
+  "name": "Lente Intangible",
+  "group": "Bosque Lúgubre",
+  "rarity": "Mítico",
+  "description": "El portador ignora el 10% de DEF. Al comienzo de cada ronda, aplica un bufo de [Velo Perfecto] al portador durante 2 turnos. Mientras el portador tiene un bufo de [Velo] o [Velo Perfecto], ignora un 5% más de DEF.",
+  "image": "/src/assets/icons/relics/lente_intangible.png"
+}

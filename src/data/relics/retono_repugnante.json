@@ -1,0 +1,41 @@
+{
+  "slug": "retono_repugnante",
+  "name": "Retoño Repugnante",
+  "group": "Bosque Lúgubre",
+  "rarity": "Épico",
+  "description": "Cada vez que el portador recibe daño, tiene un 20% de probabilidad de curarse el  20% del daño recibido.",
+  "image": "/src/assets/icons/relics/retoño_repugnante.png",
+  "stats": [
+    {
+      "stat": "HP"
+    },
+    {
+      "stat": "Defensa"
+    },
+    {
+      "stat": "Resistencia"
+    }
+  ],
+  "levels": [
+    {
+      "level": 2,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 3,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 4,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 4,
+      "description": "Probabilidad del Efecto +5%"
+    },
+    {
+      "level": 6,
+      "description": "Probabilidad del Efecto +10%"
+    }
+  ]
+}
