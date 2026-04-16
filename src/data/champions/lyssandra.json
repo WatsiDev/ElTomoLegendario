@@ -7,15 +7,12 @@
   "type": "Apoyo",
   "affinity": "Espíritu",
   "youtube_link": "https://www.youtube.com/watch?v=3_GtFUXF-u8",
-  "blessings": [
-    "presencia-amenazante",
-    "cadenas-temporales"
-  ],
+  "blessings": ["presencia-amenazante", "cadenas-temporales"],
   "relics": [
     "diario_de_necrotos",
     "tiempo_de_sangre",
     "arpa_de_kasbiel",
-    "estrellas_jinang"
+    "estrellas_jiinang"
   ],
   "gear": [
     "impulso",

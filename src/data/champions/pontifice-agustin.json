@@ -7,10 +7,7 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": null,
-  "blessings": [
-    "crueldad",
-    "polimorfar"
-  ],
+  "blessings": ["crueldad", "polimorfar"],
   "relics": [
     "varita_de_sumision",
     "diario_de_necrotos",
@@ -19,7 +16,7 @@
     "retono_repugnante",
     "impasse_temporal",
     "servidumbre_de_xibia",
-    "estrellas_jinang",
+    "estrellas_jiinang",
     "mascara_de_zozobra",
     "plumaje_dorado",
     "tempus_morbidia",
@@ -30,13 +27,7 @@
     "orbe_de_transfixion",
     "tiempo_de_sangre"
   ],
-  "gear": [
-    "supersonico",
-    "velocidad",
-    "punteria",
-    "percepcion",
-    "mercurial"
-  ],
+  "gear": ["supersonico", "velocidad", "punteria", "percepcion", "mercurial"],
   "uses": "Muy bueno como controlador en cualquier sitio, PvE y PvP",
   "stats": {
     "hp": 21810,

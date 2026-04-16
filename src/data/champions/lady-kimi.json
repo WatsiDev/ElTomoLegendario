@@ -7,10 +7,7 @@
   "type": "Apoyo",
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=0r94iJfE6eM",
-  "blessings": [
-    "presencia-amenazante",
-    "cadenas-temporales"
-  ],
+  "blessings": ["presencia-amenazante", "cadenas-temporales"],
   "relics": [
     "cronocubo",
     "eternizalmas",
@@ -19,15 +16,10 @@
     "impasse_temporal",
     "orquidea_mortilunar",
     "diario_de_necrotos",
-    "estrellas_jinang",
+    "estrellas_jiinang",
     "tiempo_de_sangre"
   ],
-  "gear": [
-    "impulso",
-    "velocidad",
-    "velocidad-divina",
-    "exactitud"
-  ],
+  "gear": ["impulso", "velocidad", "velocidad-divina", "exactitud"],
   "uses": "Arenas, Asesdios, Facciones. En Hydra puede funcionar en alguna setup. Más enfocada al PvP",
   "stats": {
     "hp": 20475,

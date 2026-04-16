@@ -7,15 +7,12 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=m9eCbiR7NxI",
-  "blessings": [
-    "polimorfar",
-    "cosechar-vida"
-  ],
+  "blessings": ["polimorfar", "cosechar-vida"],
   "relics": [
     "el_triturador",
     "politopo_infernal",
     "cronocubo",
-    "estrellas_jinang",
+    "estrellas_jiinang",
     "mente_de_marquat"
   ],
   "gear": [

@@ -7,15 +7,8 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": null,
-  "blessings": [
-    "cadenas-temporales",
-    "presencia-amenazante"
-  ],
-  "relics": [
-    "vara_de_sumision",
-    "estrellas_jinang",
-    "sombra_encaramada"
-  ],
+  "blessings": ["cadenas-temporales", "presencia-amenazante"],
+  "relics": ["vara_de_sumision", "estrellas_jiinang", "sombra_encaramada"],
   "gear": [
     "cronofago",
     "percepcion",

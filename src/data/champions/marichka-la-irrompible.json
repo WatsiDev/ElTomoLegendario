@@ -7,10 +7,7 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": null,
-  "blessings": [
-    "polimorfar",
-    "cosechar-vida"
-  ],
+  "blessings": ["polimorfar", "cosechar-vida"],
   "relics": [
     "corazon_volcardiaco",
     "politopo_infernal",
@@ -18,7 +15,7 @@
     "diario_de_necrotos",
     "crisalida_de_renacer",
     "arpa_de_kasbiel",
-    "estrellas_jinang",
+    "estrellas_jiinang",
     "dedo_real",
     "eternizalmas",
     "corona_lugubre"
