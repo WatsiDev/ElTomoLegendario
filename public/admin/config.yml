@@ -743,3 +743,38 @@ collections:
           media_folder: "/src/assets/icons/auras/large",
           public_folder: "/src/assets/icons/auras/large",
         }
+
+  - name: "promo_codes"
+    label: "Códigos Promocionales"
+    files:
+      - file: "/src/data/live-ops/promo-codes/promo-codes.json"
+        label: "Lista de Códigos Promocionales"
+        name: "promo_codes"
+        format: "json"
+        fields:
+          - label: "Códigos"
+            name: "promo_codes"
+            widget: "list"
+            fields:
+              - { label: "Código", name: "code", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Fecha de Lanzamiento", name: "release-date", widget: "datetime", date_format: "DD.MM.YYYY" }
+              - { label: "Tipo de Cuenta", name: "account-type", widget: "select", options: ["all", "new"] }
+              - { label: "Activo", name: "active", widget: "boolean", default: true }
+              - label: "Recompensas"
+                name: "rewards"
+                widget: "list"
+                fields:
+                  - { label: "Tipo de Recompensa", name: "type", widget: "select", options: ["xp-brew", "red-xp-brew", "energy", "silver", "champion", "greater-force-potion"] }
+                  - { label: "Cantidad", name: "amount", widget: "number", value_type: "int", required: false }
+                  - {
+                      label: "Campeón",
+                      name: "slug",
+                      widget: "relation",
+                      collection: "champions",
+                      search_fields: ["name"],
+                      value_field: "slug",
+                      display_fields: ["name"],
+                      required: false,
+                    }
+

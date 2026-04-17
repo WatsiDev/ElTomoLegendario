@@ -1,0 +1,63 @@
+{
+  "promo_codes": [
+    {
+      "code": "RAIDTOGETHER",
+      "slug": "raidtogether",
+      "release-date": "16.04.2026",
+      "account-type": "all",
+      "active": true,
+      "rewards": [
+        {
+          "type": "xp-brew",
+          "amount": 15
+        },
+        {
+          "type": "energy",
+          "amount": 200
+        },
+        {
+          "type": "silver",
+          "amount": 500000
+        }
+      ]
+    },
+    {
+      "code": "DESERTQUEEN",
+      "slug": "desertqueen",
+      "release-date": "2026-04-17",
+      "account-type": "new",
+      "active": true,
+      "rewards": [
+        {
+          "type": "champion",
+          "slug": "tuhanarak"
+        }
+      ]
+    },
+    {
+      "code": "DEMONSLAYER",
+      "slug": "demonslayer",
+      "release-date": "30.03.2026",
+      "account-type": "new",
+      "active": true,
+      "rewards": [
+        {
+          "type": "champion",
+          "slug": "tholin-barbasucia"
+        },
+        {
+          "type": "red-xp-brew",
+          "amount": 25
+        },
+        {
+          "type": "greater-force-potion",
+          "amount": 5
+        },
+        {
+          "type": "silver",
+          "amount": 300000
+        }
+      ]
+    }
+  ]
+}
