@@ -1,0 +1,21 @@
+{
+    "tournaments": [
+        {
+            "name": "Caza de campeones",
+            "slug": "champions-chase",
+            "description": "Obtén campeones de cualquier forma: Fragmentos, el Mercado, Campaña... y gana Recompensas.",
+            "image": "src/assets/live-ops/global-events/mavara-la-pitonisa.webp",
+            "start-date": "17.04.2026",
+            "end-date": "21.04.2026",
+            "active": true,
+            "parent-event": "fusion-mavara-la-pitonisa",
+            "rewards": [
+                {
+                    "type": "Silver",
+                    "amount": 75000,
+                    "points": 850
+                }
+            ]
+        }
+    ]
+}
