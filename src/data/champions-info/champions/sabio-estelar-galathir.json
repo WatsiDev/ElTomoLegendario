@@ -7,10 +7,7 @@
   "type": "Apoyo",
   "affinity": "Fuerza",
   "youtube_link": null,
-  "blessings": [
-    "fuego-y-azufre",
-    "segar-almas"
-  ],
+  "blessings": ["fuego-y-azufre", "segar-almas"],
   "relics": [
     "politopo_infernal",
     "orbe_de_transfixion",
@@ -20,13 +17,10 @@
     "crisalida_de_renacer",
     "politopo_infernal",
     "infernosfera",
-    "estrellas_jinang",
+    "estrellas_jiinang",
     "servidumbre_de_xibia"
   ],
-  "gear": [
-    "supersonico",
-    "justiciero"
-  ],
+  "gear": ["supersonico", "justiciero"],
   "uses": "Principalmente se ve en arenas, pero es top en casi cualquier sitio. Hace de todo menos daño",
   "stats": null,
   "skills": [],
@@ -54,9 +48,7 @@
       "skills": [
         {
           "name": "Tormenta Astral (ATK)",
-          "levels": [
-            "Nivel 2: Daño +20%"
-          ],
+          "levels": ["Nivel 2: Daño +20%"],
           "multiplier": "3.5xATK",
           "description": "Ataca a todos los enemigos. Llena las Barras de turno de todos los aliados en un 10%. También llena la barra de turno de cada aliado en un 5% adicional si tienen algún bufo aplicado por este campeón."
         },
@@ -67,9 +59,7 @@
             "Nivel 3: Tiempo de Reutilización -1"
           ],
           "cooldown": 4,
-          "buffDebuff": [
-            "bloquear-debufos"
-          ],
+          "buffDebuff": ["bloquear-debufos"],
           "description": "Elimina todos los debufos de todos los aliados y luego los cura en un 25 % del HP MÁXIMO de este campeón. También llena las barras de turno de todos los aliados en 15 y les aplica un bufo de [Bloquear Debufos] durante 2 turnos."
         },
         {
@@ -79,9 +69,7 @@
             "Nivel 3: Tiempo de Reutilización -1"
           ],
           "cooldown": 6,
-          "buffDebuff": [
-            "velo-perfecto"
-          ],
+          "buffDebuff": ["velo-perfecto"],
           "description": "Revive a todos los aliados muertos con 50% HP y 50% de la barra de turno. También aplica un bufo de [Velo Perfecto] a todos los aliados, excepto a este Campeón, durante 2 turnos."
         },
         {
@@ -113,10 +101,7 @@
       "skills": [
         {
           "name": "Haz de Descreación (ATK)",
-          "levels": [
-            "Nivel 2: Daño +20%",
-            "Nivel 3: Ignorar RES +20%"
-          ],
+          "levels": ["Nivel 2: Daño +20%", "Nivel 3: Ignorar RES +20%"],
           "multiplier": "3.5xATK",
           "description": "Ataca a todos los enemigos. Reduce las barras de turno de todos los enemigos en un 10%. Reduce la Barra de turno de cada enemigo en un 5% adicional si están bajo un debufo [Bloquear habilidades activas], [Reducir RES] o [Aturdir] aplicado por este Campeón."
         },
@@ -127,23 +112,15 @@
             "Nivel 3: Tiempo de Reutilización -1"
           ],
           "cooldown": 4,
-          "buffDebuff": [
-            "bloquear-habilidades-activas"
-          ],
+          "buffDebuff": ["bloquear-habilidades-activas"],
           "multiplier": "5.5xATK",
           "description": "Ataca a todos los enemigos. Antes de atacar, elimina todos los bufos de todos los enemigos. Luego, aplica un debufo de [Bloquear habilidades activas] durante 2 turnos. Este ataque no activará contraataques."
         },
         {
           "name": "Nebulosa Oscura (ATK)",
-          "levels": [
-            "Nivel 2: Ignorar RES +20%"
-          ],
+          "levels": ["Nivel 2: Ignorar RES +20%"],
           "cooldown": 4,
-          "buffDebuff": [
-            "aumentar-punt-2",
-            "red-res-2",
-            "aturdir"
-          ],
+          "buffDebuff": ["aumentar-punt-2", "red-res-2", "aturdir"],
           "description": "Aplica un bufo del 50% [Aumentar PUNT] a todos los aliados durante 2 turnos. Luego, aplica un debufo de [Reducir RES] del 50% en todos los enemigos durante 2 turnos y un debufo de [Aturdir] en todos los enemigos durante 1 turno."
         },
         {

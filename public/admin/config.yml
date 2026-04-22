@@ -743,3 +743,139 @@ collections:
           media_folder: "/src/assets/icons/auras/large",
           public_folder: "/src/assets/icons/auras/large",
         }
+
+  - name: "promo_codes"
+    label: "Códigos Promocionales"
+    files:
+      - file: "/src/data/live-ops/promo-codes/promo-codes.json"
+        label: "Lista de Códigos Promocionales"
+        name: "promo_codes"
+        format: "json"
+        fields:
+          - label: "Códigos"
+            name: "promo_codes"
+            widget: "list"
+            fields:
+              - { label: "Código", name: "code", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Fecha de Lanzamiento", name: "release-date", widget: "datetime", date_format: "DD.MM.YYYY" }
+              - { label: "Tipo de Cuenta", name: "account-type", widget: "select", options: ["all", "new"] }
+              - { label: "Activo", name: "active", widget: "boolean", default: true }
+              - label: "Recompensas"
+                name: "rewards"
+                widget: "list"
+                fields:
+                  - { label: "Tipo de Recompensa", name: "type", widget: "select", options: ["xp-brew", "red-xp-brew", "energy", "silver", "champion", "greater-force-potion"] }
+                  - { label: "Cantidad", name: "amount", widget: "number", value_type: "int", required: false }
+                  - {
+                      label: "Campeón",
+                      name: "slug",
+                      widget: "relation",
+                      collection: "champions",
+                      search_fields: ["name"],
+                      value_field: "slug",
+                      display_fields: ["name"],
+                      required: false,
+                    }
+
+  - name: "global_events"
+    label: "Eventos Globales"
+    folder: "/src/data/live-ops/global-events"
+    create: true
+    slug: "{{name}}"
+    format: "json"
+    media_folder: "/src/assets/live-ops/global-events"
+    public_folder: "/src/assets/live-ops/global-events"
+    fields:
+      - { label: "Nombre", name: "name", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Descripción", name: "description", widget: "text" }
+      - { label: "Imagen", name: "image", widget: "image" }
+      - { label: "Fecha de Inicio", name: "start-date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm" }
+      - { label: "Fecha de Fin", name: "end-date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm" }
+      - { label: "Activo", name: "active", widget: "boolean", default: true }
+      - { label: "Tipo", name: "type", widget: "string", required: false }
+      - { 
+          label: "Recompensas", 
+          name: "rewards", 
+          widget: "relation", 
+          collection: "champions", 
+          search_fields: ["name", "slug"], 
+          value_field: "slug", 
+          display_fields: ["name"], 
+          required: false 
+        }
+
+  - name: "events"
+    label: "Eventos"
+    files:
+      - file: "/src/data/live-ops/calendar/events.json"
+        label: "Lista de Eventos"
+        name: "events"
+        format: "json"
+        fields:
+          - label: "Eventos"
+            name: "events"
+            widget: "list"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Imagen", name: "image", widget: "image" }
+              - { label: "Fecha de Inicio", name: "start-date", widget: "datetime", date_format: "DD.MM.YYYY" }
+              - { label: "Fecha de Fin", name: "end-date", widget: "datetime", date_format: "DD.MM.YYYY" }
+              - { label: "Activo", name: "active", widget: "boolean", default: true }
+              - { 
+                  label: "Evento Global Padre", 
+                  name: "parent-event", 
+                  widget: "relation", 
+                  collection: "global_events", 
+                  search_fields: ["slug"], 
+                  value_field: "slug", 
+                  display_fields: ["name", "slug"], 
+                  required: false 
+                }
+              - label: "Recompensas"
+                name: "rewards"
+                widget: "list"
+                fields:
+                  - { label: "Tipo de Recompensa", name: "type", widget: "string" }
+                  - { label: "Cantidad", name: "amount", widget: "number", value_type: "int", required: false }
+                  - { label: "Puntos", name: "points", widget: "number", value_type: "int", required: false }
+
+  - name: "tournaments"
+    label: "Torneos"
+    files:
+      - file: "/src/data/live-ops/calendar/tournaments.json"
+        label: "Lista de Torneos"
+        name: "tournaments"
+        format: "json"
+        fields:
+          - label: "Torneos"
+            name: "tournaments"
+            widget: "list"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Imagen", name: "image", widget: "image" }
+              - { label: "Fecha de Inicio", name: "start-date", widget: "datetime", date_format: "DD.MM.YYYY" }
+              - { label: "Fecha de Fin", name: "end-date", widget: "datetime", date_format: "DD.MM.YYYY" }
+              - { label: "Activo", name: "active", widget: "boolean", default: true }
+              - { 
+                  label: "Evento Global Padre", 
+                  name: "parent-event", 
+                  widget: "relation", 
+                  collection: "global_events", 
+                  search_fields: ["slug"], 
+                  value_field: "slug", 
+                  display_fields: ["name"], 
+                  required: false 
+                }
+              - label: "Recompensas"
+                name: "rewards"
+                widget: "list"
+                fields:
+                  - { label: "Tipo de Recompensa", name: "type", widget: "string" }
+                  - { label: "Cantidad", name: "amount", widget: "number", value_type: "int", required: false }
+                  - { label: "Puntos", name: "points", widget: "number", value_type: "int", required: false }

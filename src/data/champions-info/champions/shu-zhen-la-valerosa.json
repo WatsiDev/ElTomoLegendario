@@ -7,18 +7,9 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=XhPncwgAnkU",
-  "blessings": [
-    "presencia-amenazante"
-  ],
-  "relics": [
-    "estrellas_jinang",
-    "diario_de_necrotos"
-  ],
-  "gear": [
-    "impulso",
-    "velocidad",
-    "velocidad-divina"
-  ],
+  "blessings": ["presencia-amenazante"],
+  "relics": ["estrellas_jiinang", "diario_de_necrotos"],
+  "gear": ["impulso", "velocidad", "velocidad-divina"],
   "uses": "Arena, Hydra, Quimera...va muy bien en muchos sitios, sobretodo acompañada de un nuker potente",
   "stats": {
     "hp": 21645,

@@ -10,7 +10,7 @@ if (!slug) {
 }
 
 // Obtener la información del campeón desde el archivo JSON
-const championPath = `/src/data/champions/${slug}.json`;
+const championPath = `/src/data/champions-info/champions/${slug}.json`;
 const championsGlob = import.meta.glob<{
   default: {
     name: string;
@@ -19,7 +19,7 @@ const championsGlob = import.meta.glob<{
     faction: string;
     image: string;
   };
-}>('/src/data/champions/*.json');
+}>("/src/data/champions-info/champions/*.json");
 
 if (!championsGlob[championPath]) {
   throw new Error(`Datos no encontrados para el campeón: ${slug}`);
@@ -30,7 +30,9 @@ const { name, rarity, faction, image } = championData.default;
 
 // Obtener la imagen con import.meta.glob para que Astro Image la optimice dinámicamente
 const imagePath = image;
-const imagesGlob = import.meta.glob<{ default: ImageMetadata }>('/src/assets/champions/*.{jpeg,jpg,png,gif,webp}');
+const imagesGlob = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/champions/*.{jpeg,jpg,png,gif,webp}",
+);
 
 if (!imagesGlob[imagePath]) {
   throw new Error(`Imagen no encontrada para el campeón: ${slug}`);

@@ -7,16 +7,13 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": null,
-  "blessings": [
-    "crueldad",
-    "fuego-y-azufre"
-  ],
+  "blessings": ["crueldad", "fuego-y-azufre"],
   "relics": [
     "arpa_de_kasbiel",
     "caldero_acaparador",
     "retoño_repugnante",
     "servidumbre_de_xibia",
-    "estrellas_jinang",
+    "estrellas_jiinang",
     "mascara_de_zozobra",
     "plumaje_dorado",
     "varita_de_sumision",
@@ -24,12 +21,7 @@
     "cronocubo",
     "tiempo_de_sangre"
   ],
-  "gear": [
-    "proteccion",
-    "percepcion",
-    "bestial",
-    "maldito"
-  ],
+  "gear": ["proteccion", "percepcion", "bestial", "maldito"],
   "uses": "No brilla en PvP pero es usable. En PvE es muy buena: Hydra, Cualquier Mazmorra, Facciones, etc...",
   "stats": {
     "hp": 18660,

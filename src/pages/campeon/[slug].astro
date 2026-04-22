@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import ChampionCard from "../../components/champion/ChampionCard.astro";
 import { getRarityStyle } from "../../utils/rarity";
 import { getAffinityStyle } from "../../utils/affinity";
-import affinityIconsData from "../../data/assets/affinities.json";
+import affinityIconsData from "@data/champions-info/assets/affinities.json";
 import { Image } from "astro:assets";
 
 // --- NUEVOS IMPORTS DE IMÁGENES VIA GLOB ---
@@ -16,7 +16,9 @@ const artworksImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/as
 const masteryImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/masteries/**/*.{png,jpg,jpeg,webp,svg}", { eager: true });
 
 // 1. Cargar Sets dinámicamente
-const setFiles = import.meta.glob("../../data/sets/*.json", { eager: true });
+const setFiles = import.meta.glob("/src/data/champions-info/sets/*.json", {
+  eager: true,
+});
 const setsData: Record<string, any> = {};
 Object.values(setFiles).forEach((file: any) => {
   const data = file.default || file;
@@ -24,7 +26,9 @@ Object.values(setFiles).forEach((file: any) => {
 });
 
 // Cargar Reliquias
-const relicFiles = import.meta.glob("../../data/relics/*.json", { eager: true });
+const relicFiles = import.meta.glob("/src/data/champions-info/relics/*.json", {
+  eager: true,
+});
 const relicsData: Record<string, any> = {};
 Object.values(relicFiles).forEach((file: any) => {
   const data = file.default || file;
@@ -32,7 +36,12 @@ Object.values(relicFiles).forEach((file: any) => {
 });
 
 // Cargar Bendiciones
-const blessingFiles = import.meta.glob("../../data/blessings/*.json", { eager: true });
+const blessingFiles = import.meta.glob(
+  "/src/data/champions-info/blessings/*.json",
+  {
+    eager: true,
+  },
+);
 const blessingsData: Record<string, any> = {};
 Object.values(blessingFiles).forEach((file: any) => {
   const data = file.default || file;
@@ -43,9 +52,12 @@ const affinityIcons = affinityIconsData as Record<string, string>;
 
 // 1. Generar rutas
 export async function getStaticPaths() {
-  const championFiles = import.meta.glob("../../data/champions/*.json", {
-    eager: true,
-  });
+  const championFiles = import.meta.glob(
+    "/src/data/champions-info/champions/*.json",
+    {
+      eager: true,
+    },
+  );
   const champions = Object.values(championFiles).map(
     (file: any) => file.default || file,
   );
@@ -87,37 +99,52 @@ const recommendedSets = (champ.gear || []).map((item: any) => {
 
 // 2.a Iconos de Reliquias Recomendadas
 const recommendedRelics = (champ.relics || []).map((item: any) => {
-  const slug = (typeof item === "string" ? item : item.slug || "").toLowerCase();
+  const slug = (
+    typeof item === "string" ? item : item.slug || ""
+  ).toLowerCase();
   const data = relicsData[slug];
   return {
-    name: data ? data.name : slug.replace(/_/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase()),
+    name: data
+      ? data.name
+      : slug
+          .replace(/_/g, " ")
+          .replace(/\b\w/g, (l: string) => l.toUpperCase()),
     icon: data ? data.image : null,
-    description: data ? data.description : "Sin descripción"
+    description: data ? data.description : "Sin descripción",
   };
 });
 
 // 2.b Iconos de Bendiciones Recomendadas
 const recommendedBlessings = (champ.blessings || []).map((item: any) => {
-  const slug = (typeof item === "string" ? item : item.slug || "").toLowerCase();
+  const slug = (
+    typeof item === "string" ? item : item.slug || ""
+  ).toLowerCase();
   const data = blessingsData[slug];
   return {
-    name: data ? data.name : slug.replace(/-/g, " ").replace(/\b\w/g, (l: string) => l.toUpperCase()),
+    name: data
+      ? data.name
+      : slug
+          .replace(/-/g, " ")
+          .replace(/\b\w/g, (l: string) => l.toUpperCase()),
     icon: data ? data.image : null,
-    description: data ? data.description : "Sin descripción"
+    description: data ? data.description : "Sin descripción",
   };
 });
 
 // Helper de ordenamiento de libros
 const getPriorityWeight = (p: string) => {
-  p = p?.toLowerCase() || '';
-  if (p.includes('máxima') || p.includes('max') || p.includes('alta')) return 3;
-  if (p.includes('media') || p.includes('normal')) return 2;
-  if (p.includes('baja') || p.includes('ninguna') || p.includes('no')) return 0;
+  p = p?.toLowerCase() || "";
+  if (p.includes("máxima") || p.includes("max") || p.includes("alta")) return 3;
+  if (p.includes("media") || p.includes("normal")) return 2;
+  if (p.includes("baja") || p.includes("ninguna") || p.includes("no")) return 0;
   return 1;
 };
 const sortSkillsByPriority = (skills: any[]) => {
   if (!skills) return [];
-  return [...skills].sort((a, b) => getPriorityWeight(b.book_priority) - getPriorityWeight(a.book_priority));
+  return [...skills].sort(
+    (a, b) =>
+      getPriorityWeight(b.book_priority) - getPriorityWeight(a.book_priority),
+  );
 };
 
 // 3. Artworks adicionales
@@ -156,32 +183,36 @@ const rarityTextClass = rarityStyle.text;
             />
           </div>
 
-          {champ.rarity === 'Mítico' && champ.forms && champ.forms.length >= 2 && (
-            <div class="flex flex-col items-center mt-6 w-full">
-              <div class="flex gap-6 justify-center w-full px-4 mb-3">
-                <button
-                  class="form-toggle-btn active w-14 h-14 rounded-full font-bold text-2xl border-2 border-raid-gold bg-raid-gold/10 text-raid-gold hover:bg-raid-gold hover:text-black transition-all duration-300 shadow-lg shadow-raid-gold/30 flex items-center justify-center cursor-pointer"
-                  data-target-form={champ.forms[0].id}
-                >
-                  I
-                </button>
-                <button
-                  class="form-toggle-btn w-14 h-14 rounded-full font-bold text-2xl border-2 border-gray-600 bg-transparent text-gray-400 hover:border-raid-gold hover:text-raid-gold transition-all duration-300 flex items-center justify-center cursor-pointer"
-                  data-target-form={champ.forms[1].id}
-                >
-                  II
-                </button>
-              </div>
-              {champ.forms.map((form: any, index: number) => (
-                <div 
-                  class={`form-name-container text-sm font-bold text-raid-gold tracking-widest uppercase transition-opacity duration-300 ${index === 0 ? '' : 'hidden'}`} 
-                  data-form-id={form.id}
-                >
-                  {form.name}
+          {
+            champ.rarity === "Mítico" &&
+              champ.forms &&
+              champ.forms.length >= 2 && (
+                <div class="flex flex-col items-center mt-6 w-full">
+                  <div class="flex gap-6 justify-center w-full px-4 mb-3">
+                    <button
+                      class="form-toggle-btn active w-14 h-14 rounded-full font-bold text-2xl border-2 border-raid-gold bg-raid-gold/10 text-raid-gold hover:bg-raid-gold hover:text-black transition-all duration-300 shadow-lg shadow-raid-gold/30 flex items-center justify-center cursor-pointer"
+                      data-target-form={champ.forms[0].id}
+                    >
+                      I
+                    </button>
+                    <button
+                      class="form-toggle-btn w-14 h-14 rounded-full font-bold text-2xl border-2 border-gray-600 bg-transparent text-gray-400 hover:border-raid-gold hover:text-raid-gold transition-all duration-300 flex items-center justify-center cursor-pointer"
+                      data-target-form={champ.forms[1].id}
+                    >
+                      II
+                    </button>
+                  </div>
+                  {champ.forms.map((form: any, index: number) => (
+                    <div
+                      class={`form-name-container text-sm font-bold text-raid-gold tracking-widest uppercase transition-opacity duration-300 ${index === 0 ? "" : "hidden"}`}
+                      data-form-id={form.id}
+                    >
+                      {form.name}
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          )}
+              )
+          }
         </div>
       </div>
 
@@ -220,26 +251,26 @@ const rarityTextClass = rarityStyle.text;
           >
             {champ.rarity}
           </span>
-          {champ.rarity === 'Mítico' && champ.forms ? (
-            champ.forms.map((form: any, index: number) => {
-              const types = champ.type ? champ.type.split("/") : [];
-              const formType = types[index] || champ.type;
-              return (
-                <span
-                  class={`form-type-container px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-300 border border-gray-700 ${index === 0 ? '' : 'hidden'}`}
-                  data-form-id={form.id}
-                >
-                  {formType?.trim()}
-                </span>
-              );
-            })
-          ) : (
-            <span
-              class="px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-300 border border-gray-700"
-            >
-              {champ.type}
-            </span>
-          )}
+          {
+            champ.rarity === "Mítico" && champ.forms ? (
+              champ.forms.map((form: any, index: number) => {
+                const types = champ.type ? champ.type.split("/") : [];
+                const formType = types[index] || champ.type;
+                return (
+                  <span
+                    class={`form-type-container px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-300 border border-gray-700 ${index === 0 ? "" : "hidden"}`}
+                    data-form-id={form.id}
+                  >
+                    {formType?.trim()}
+                  </span>
+                );
+              })
+            ) : (
+              <span class="px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-300 border border-gray-700">
+                {champ.type}
+              </span>
+            )
+          }
           <span
             class="px-3 py-1 bg-raid-card rounded-full font-bold text-xs text-gray-400 border border-gray-700"
           >
@@ -259,34 +290,75 @@ const rarityTextClass = rarityStyle.text;
         >
           Estadísticas Base
         </h3>
-        
-        {champ.rarity === 'Mítico' && champ.forms ? (
-          champ.forms.map((form: any, index: number) => (
-            <div class={`form-stats-container grid grid-cols-2 md:grid-cols-4 gap-2 text-xs ${index === 0 ? '' : 'hidden'}`} data-form-id={form.id}>
-              {
-                [
-                  { label: "HP", value: form.stats?.hp, color: "text-green-400" },
-                  { label: "ATK", value: form.stats?.attack, color: "text-red-400" },
-                  { label: "DEF", value: form.stats?.defense, color: "text-blue-400" },
-                  { label: "VEL", value: form.stats?.speed, color: "text-yellow-400" },
-                  { label: "P.CRIT", value: form.stats?.critRate + "%", color: "text-white" },
-                  { label: "D.CRIT", value: form.stats?.critDamage + "%", color: "text-white" },
-                  { label: "RES", value: form.stats?.resistance, color: "text-white" },
-                  { label: "PUNT", value: form.stats?.accuracy, color: "text-white" },
+
+        {
+          champ.rarity === "Mítico" && champ.forms ? (
+            champ.forms.map((form: any, index: number) => (
+              <div
+                class={`form-stats-container grid grid-cols-2 md:grid-cols-4 gap-2 text-xs ${index === 0 ? "" : "hidden"}`}
+                data-form-id={form.id}
+              >
+                {[
+                  {
+                    label: "HP",
+                    value: form.stats?.hp,
+                    color: "text-green-400",
+                  },
+                  {
+                    label: "ATK",
+                    value: form.stats?.attack,
+                    color: "text-red-400",
+                  },
+                  {
+                    label: "DEF",
+                    value: form.stats?.defense,
+                    color: "text-blue-400",
+                  },
+                  {
+                    label: "VEL",
+                    value: form.stats?.speed,
+                    color: "text-yellow-400",
+                  },
+                  {
+                    label: "P.CRIT",
+                    value: form.stats?.critRate + "%",
+                    color: "text-white",
+                  },
+                  {
+                    label: "D.CRIT",
+                    value: form.stats?.critDamage + "%",
+                    color: "text-white",
+                  },
+                  {
+                    label: "RES",
+                    value: form.stats?.resistance,
+                    color: "text-white",
+                  },
+                  {
+                    label: "PUNT",
+                    value: form.stats?.accuracy,
+                    color: "text-white",
+                  },
                 ].map((stat) => (
                   <div class="bg-raid-bg p-2 rounded border border-gray-700 hover:border-gray-500 transition-colors">
-                    <p class="text-gray-500 uppercase font-bold text-[10px]">{stat.label}</p>
-                    <p class={`font-mono font-bold text-sm ${stat.color}`}>{stat.value || 0}</p>
+                    <p class="text-gray-500 uppercase font-bold text-[10px]">
+                      {stat.label}
+                    </p>
+                    <p class={`font-mono font-bold text-sm ${stat.color}`}>
+                      {stat.value || 0}
+                    </p>
                   </div>
-                ))
-              }
-            </div>
-          ))
-        ) : (
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
-            {
-              [
-                { label: "HP", value: champ.stats?.hp, color: "text-green-400" },
+                ))}
+              </div>
+            ))
+          ) : (
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+              {[
+                {
+                  label: "HP",
+                  value: champ.stats?.hp,
+                  color: "text-green-400",
+                },
                 {
                   label: "ATK",
                   value: champ.stats?.attack,
@@ -331,10 +403,10 @@ const rarityTextClass = rarityStyle.text;
                     {stat.value || 0}
                   </p>
                 </div>
-              ))
-            }
-          </div>
-        )}
+              ))}
+            </div>
+          )
+        }
       </div>
     </div>
 
@@ -400,10 +472,67 @@ const rarityTextClass = rarityStyle.text;
           ⚔️ Habilidades
         </h2>
         <div class="space-y-6">
-          {champ.rarity === 'Mítico' && champ.forms ? (
-            champ.forms.map((form: any, index: number) => (
-              <div class={`form-skills-container space-y-6 ${index === 0 ? '' : 'hidden'}`} data-form-id={form.id}>
-                {form.skills && form.skills.map((skill: any) => (
+          {
+            champ.rarity === "Mítico" && champ.forms
+              ? champ.forms.map((form: any, index: number) => (
+                  <div
+                    class={`form-skills-container space-y-6 ${index === 0 ? "" : "hidden"}`}
+                    data-form-id={form.id}
+                  >
+                    {form.skills &&
+                      form.skills.map((skill: any) => (
+                        <div class="bg-raid-card p-6 rounded-lg border border-gray-700 hover:border-raid-gold transition-colors group">
+                          <div class="flex justify-between items-start mb-3">
+                            <div>
+                              <h3 class="text-2xl font-bold text-raid-gold group-hover:text-white transition-colors">
+                                {skill.name}
+                              </h3>
+                              <div class="flex gap-2 mt-1">
+                                {skill.name
+                                  ?.toLowerCase()
+                                  .includes("pasiva") && (
+                                  <span class="text-xs bg-blue-900/50 text-blue-300 px-2 py-0.5 rounded border border-blue-800">
+                                    Pasiva
+                                  </span>
+                                )}
+                                {skill.cooldown && (
+                                  <span class="text-xs bg-gray-700 text-gray-300 px-2 py-0.5 rounded border border-gray-600">
+                                    Cooldown: {skill.cooldown} turnos
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                            {skill.multiplier && (
+                              <span class="bg-black/30 text-xs px-3 py-1 rounded text-green-400 font-mono border border-gray-700">
+                                DMG: {skill.multiplier}
+                              </span>
+                            )}
+                          </div>
+                          <p class="text-gray-300 leading-relaxed mb-4 whitespace-pre-line">
+                            {skill.description}
+                          </p>
+
+                          {skill.levels && skill.levels.length > 0 && (
+                            <div class="mt-4 pt-4 border-t border-gray-700/50">
+                              <p class="text-xs text-gray-500 font-bold mb-2 uppercase">
+                                Mejoras de libro:
+                              </p>
+                              <ul class="text-sm text-gray-400 space-y-1 grid grid-cols-1 md:grid-cols-2">
+                                {skill.levels.map((level: any) => (
+                                  <li class="flex items-center gap-2">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-raid-gold" />
+                                    {level.level_desc || level}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                  </div>
+                ))
+              : champ.skills &&
+                champ.skills.map((skill: any) => (
                   <div class="bg-raid-card p-6 rounded-lg border border-gray-700 hover:border-raid-gold transition-colors group">
                     <div class="flex justify-between items-start mb-3">
                       <div>
@@ -449,59 +578,8 @@ const rarityTextClass = rarityStyle.text;
                       </div>
                     )}
                   </div>
-                ))}
-              </div>
-            ))
-          ) : (
-            champ.skills &&
-              champ.skills.map((skill: any) => (
-                <div class="bg-raid-card p-6 rounded-lg border border-gray-700 hover:border-raid-gold transition-colors group">
-                  <div class="flex justify-between items-start mb-3">
-                    <div>
-                      <h3 class="text-2xl font-bold text-raid-gold group-hover:text-white transition-colors">
-                        {skill.name}
-                      </h3>
-                      <div class="flex gap-2 mt-1">
-                        {skill.name?.toLowerCase().includes("pasiva") && (
-                          <span class="text-xs bg-blue-900/50 text-blue-300 px-2 py-0.5 rounded border border-blue-800">
-                            Pasiva
-                          </span>
-                        )}
-                        {skill.cooldown && (
-                          <span class="text-xs bg-gray-700 text-gray-300 px-2 py-0.5 rounded border border-gray-600">
-                            Cooldown: {skill.cooldown} turnos
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                    {skill.multiplier && (
-                      <span class="bg-black/30 text-xs px-3 py-1 rounded text-green-400 font-mono border border-gray-700">
-                        DMG: {skill.multiplier}
-                      </span>
-                    )}
-                  </div>
-                  <p class="text-gray-300 leading-relaxed mb-4 whitespace-pre-line">
-                    {skill.description}
-                  </p>
-
-                  {skill.levels && skill.levels.length > 0 && (
-                    <div class="mt-4 pt-4 border-t border-gray-700/50">
-                      <p class="text-xs text-gray-500 font-bold mb-2 uppercase">
-                        Mejoras de libro:
-                      </p>
-                      <ul class="text-sm text-gray-400 space-y-1 grid grid-cols-1 md:grid-cols-2">
-                        {skill.levels.map((level: any) => (
-                          <li class="flex items-center gap-2">
-                            <span class="w-1.5 h-1.5 rounded-full bg-raid-gold" />
-                            {level.level_desc || level}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              ))
-          )}
+                ))
+          }
         </div>
       </section>
 
@@ -536,7 +614,7 @@ const rarityTextClass = rarityStyle.text;
                         </span>
                       )}
                       <div class="absolute bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
-                        {set.description}
+                        {set.name}
                       </div>
                     </div>
                     <span class="text-xs text-gray-400 font-bold uppercase tracking-wider text-center max-w-[5rem] truncate">
@@ -647,15 +725,19 @@ const rarityTextClass = rarityStyle.text;
               Stats Prioritarios (PvE)
             </h3>
             <ul class="space-y-3 text-sm text-gray-300">
-              {champ.pve_stats && champ.pve_stats.length > 0 ? (
-                champ.pve_stats.map((stat: string) => (
-                  <li class="flex items-center gap-2 border-b border-gray-700 pb-2">
-                    <span class="text-raid-gold font-bold">✓</span> {stat}
+              {
+                champ.pve_stats && champ.pve_stats.length > 0 ? (
+                  champ.pve_stats.map((stat: string) => (
+                    <li class="flex items-center gap-2 border-b border-gray-700 pb-2">
+                      <span class="text-raid-gold font-bold">✓</span> {stat}
+                    </li>
+                  ))
+                ) : (
+                  <li class="text-gray-500 italic">
+                    No hay información de stats PvE
                   </li>
-                ))
-              ) : (
-                <li class="text-gray-500 italic">No hay información de stats PvE</li>
-              )}
+                )
+              }
             </ul>
           </div>
           <div class="bg-raid-card p-6 rounded-lg border border-gray-700">
@@ -663,15 +745,19 @@ const rarityTextClass = rarityStyle.text;
               Stats Prioritarios (PvP)
             </h3>
             <ul class="space-y-3 text-sm text-gray-300">
-              {champ.pvp_stats && champ.pvp_stats.length > 0 ? (
-                champ.pvp_stats.map((stat: string) => (
-                  <li class="flex items-center gap-2 border-b border-gray-700 pb-2">
-                    <span class="text-raid-gold font-bold">✓</span> {stat}
+              {
+                champ.pvp_stats && champ.pvp_stats.length > 0 ? (
+                  champ.pvp_stats.map((stat: string) => (
+                    <li class="flex items-center gap-2 border-b border-gray-700 pb-2">
+                      <span class="text-raid-gold font-bold">✓</span> {stat}
+                    </li>
+                  ))
+                ) : (
+                  <li class="text-gray-500 italic">
+                    No hay información de stats PvP
                   </li>
-                ))
-              ) : (
-                <li class="text-gray-500 italic">No hay información de stats PvP</li>
-              )}
+                )
+              }
             </ul>
           </div>
         </div>
@@ -734,11 +820,9 @@ const rarityTextClass = rarityStyle.text;
               <div class="bg-raid-card border border-gray-700 rounded-lg p-6 shadow-xl flex flex-col items-center">
                 <div class="w-full flex-grow flex justify-center items-center h-full">
                   {mastery.selected_masteries && mastery.selected_masteries.map((sm: any) => (
-                     <Image 
-                      src={(sm.mastery_image && masteryImagesGlob[sm.mastery_image] ? masteryImagesGlob[sm.mastery_image].default : sm.mastery_image) as any} 
+                     <img 
+                      src={sm.mastery_image} 
                       alt={`Maestría ${mastery.branch}`} 
-                      width={320}
-                      height={400}
                       class="max-w-[320px] w-full h-[auto] rounded shadow-lg border border-gray-800 object-contain hover:scale-105 transition-transform duration-500" 
                       loading="lazy"
                     />
@@ -770,43 +854,60 @@ const rarityTextClass = rarityStyle.text;
           📚 Prioridad de Libros
         </h2>
         <div class="space-y-4">
-          {champ.rarity === 'Mítico' && champ.forms ? (
-            champ.forms.map((form: any, index: number) => (
-              <div class={`form-books-container space-y-4 ${index === 0 ? '' : 'hidden'}`} data-form-id={form.id}>
-                {sortSkillsByPriority(form.skills).map((skill: any, sIndex: number) => (
-                  <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
-                    <div
-                      class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${getPriorityWeight(skill.book_priority) >= 3 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
-                    >
-                      {sIndex + 1}
-                    </div>
-                    <div class="flex-1">
-                      <h3 class="font-bold text-white text-lg">{skill.name}</h3>
-                      <p class="text-gray-400 text-sm flex items-center gap-2">
-                        Prioridad: <span class="text-raid-gold font-bold">{skill.book_priority || "Ninguna"}</span>
-                      </p>
-                    </div>
+          {
+            champ.rarity === "Mítico" && champ.forms
+              ? champ.forms.map((form: any, index: number) => (
+                  <div
+                    class={`form-books-container space-y-4 ${index === 0 ? "" : "hidden"}`}
+                    data-form-id={form.id}
+                  >
+                    {sortSkillsByPriority(form.skills).map(
+                      (skill: any, sIndex: number) => (
+                        <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
+                          <div
+                            class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${getPriorityWeight(skill.book_priority) >= 3 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
+                          >
+                            {sIndex + 1}
+                          </div>
+                          <div class="flex-1">
+                            <h3 class="font-bold text-white text-lg">
+                              {skill.name}
+                            </h3>
+                            <p class="text-gray-400 text-sm flex items-center gap-2">
+                              Prioridad:{" "}
+                              <span class="text-raid-gold font-bold">
+                                {skill.book_priority || "Ninguna"}
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      ),
+                    )}
                   </div>
-                ))}
-              </div>
-            ))
-          ) : (
-            sortSkillsByPriority(champ.skills).map((skill: any, index: number) => (
-              <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
-                <div
-                  class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${getPriorityWeight(skill.book_priority) >= 3 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
-                >
-                  {index + 1}
-                </div>
-                <div class="flex-1">
-                  <h3 class="font-bold text-white text-lg">{skill.name}</h3>
-                  <p class="text-gray-400 text-sm flex items-center gap-2">
-                    Prioridad: <span class="text-raid-gold font-bold">{skill.book_priority || "Ninguna"}</span>
-                  </p>
-                </div>
-              </div>
-            ))
-          )}
+                ))
+              : sortSkillsByPriority(champ.skills).map(
+                  (skill: any, index: number) => (
+                    <div class="bg-raid-card p-4 rounded-lg border border-gray-700 flex items-center gap-4">
+                      <div
+                        class={`p-3 rounded-lg font-bold w-12 h-12 flex items-center justify-center text-lg ${getPriorityWeight(skill.book_priority) >= 3 ? "bg-raid-gold text-black" : "bg-gray-800 text-gray-500"}`}
+                      >
+                        {index + 1}
+                      </div>
+                      <div class="flex-1">
+                        <h3 class="font-bold text-white text-lg">
+                          {skill.name}
+                        </h3>
+                        <p class="text-gray-400 text-sm flex items-center gap-2">
+                          Prioridad:{" "}
+                          <span class="text-raid-gold font-bold">
+                            {skill.book_priority || "Ninguna"}
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  ),
+                )
+          }
         </div>
       </section>
 
@@ -815,75 +916,113 @@ const rarityTextClass = rarityStyle.text;
           Mejores Modos de Juego
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {champ.game_modes && champ.game_modes.length > 0 ? (
-            champ.game_modes.map((mode: any) => (
-              <div class="bg-gradient-to-br from-gray-900/60 to-transparent p-6 rounded-lg border border-gray-700/80">
-                <h3 class="text-raid-gold font-bold text-lg mb-2 flex justify-between items-center">
-                  {mode.area} <span class="text-xs text-gray-400 font-normal">{mode.dificultad || ''}</span>
-                </h3>
-                <div class="w-full bg-gray-800 h-2 rounded-full mb-2 overflow-hidden border border-gray-700">
-                  <div class="bg-linear-to-r from-raid-gold to-raid-purple h-2 rounded-full" style={`width: ${(parseFloat(mode.calificacion)/5)*100}%`}></div>
+          {
+            champ.game_modes && champ.game_modes.length > 0 ? (
+              champ.game_modes.map((mode: any) => (
+                <div class="bg-gradient-to-br from-gray-900/60 to-transparent p-6 rounded-lg border border-gray-700/80">
+                  <h3 class="text-raid-gold font-bold text-lg mb-2 flex justify-between items-center">
+                    {mode.area}{" "}
+                    <span class="text-xs text-gray-400 font-normal">
+                      {mode.dificultad || ""}
+                    </span>
+                  </h3>
+                  <div class="w-full bg-gray-800 h-2 rounded-full mb-2 overflow-hidden border border-gray-700">
+                    <div
+                      class="bg-linear-to-r from-raid-gold to-raid-purple h-2 rounded-full"
+                      style={`width: ${(parseFloat(mode.calificacion) / 5) * 100}%`}
+                    />
+                  </div>
+                  <p class="text-gray-300 font-semibold text-sm">
+                    Rating:{" "}
+                    <span class="text-raid-gold font-bold">
+                      {mode.calificacion} / 5
+                    </span>
+                  </p>
                 </div>
-                <p class="text-gray-300 font-semibold text-sm">Rating: <span class="text-raid-gold font-bold">{mode.calificacion} / 5</span></p>
-              </div>
-            ))
-          ) : (
-            <p class="text-gray-500 italic col-span-3 text-center">Aún no hay calificaciones para Modos de Juego</p>
-          )}
+              ))
+            ) : (
+              <p class="text-gray-500 italic col-span-3 text-center">
+                Aún no hay calificaciones para Modos de Juego
+              </p>
+            )
+          }
         </div>
       </section>
 
       <section id="sinergias" class="tab-content hidden">
-        <h2 class="text-3xl font-bold mb-6 text-white">🤝 Sinergias de Equipo</h2>
-        {champ.sinergias && champ.sinergias.length > 0 ? (
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
-             {champ.sinergias.map((sinergia: string) => (
+        <h2 class="text-3xl font-bold mb-6 text-white">
+          🤝 Sinergias de Equipo
+        </h2>
+        {
+          champ.sinergias && champ.sinergias.length > 0 ? (
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
+              {champ.sinergias.map((sinergia: string) => (
                 <div class="flex flex-col items-center w-full">
-                   <ChampionCard slug={sinergia} />
+                  <ChampionCard slug={sinergia} />
                 </div>
-             ))}
-          </div>
-        ) : (
-          <div class="bg-raid-card p-8 rounded-lg border border-gray-700 text-center">
-            <p class="text-gray-400">Este campeón no tiene sinergias registradas o trabaja bien de forma independiente.</p>
-          </div>
-        )}
+              ))}
+            </div>
+          ) : (
+            <div class="bg-raid-card p-8 rounded-lg border border-gray-700 text-center">
+              <p class="text-gray-400">
+                Este campeón no tiene sinergias registradas o trabaja bien de
+                forma independiente.
+              </p>
+            </div>
+          )
+        }
       </section>
 
       <section id="proscontras" class="tab-content hidden">
         <h2 class="text-3xl font-bold mb-6 text-white">Balance del Campeón</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="bg-green-900/10 p-6 rounded-xl border border-green-900/50 shadow-lg">
-            <h3 class="text-2xl font-bold text-green-400 mb-4 flex items-center gap-2">
+          <div
+            class="bg-green-900/10 p-6 rounded-xl border border-green-900/50 shadow-lg"
+          >
+            <h3
+              class="text-2xl font-bold text-green-400 mb-4 flex items-center gap-2"
+            >
               <span>✅</span> Ventajas
             </h3>
             <ul class="space-y-3 text-sm text-gray-300">
-              {champ.pros && champ.pros.length > 0 ? (
-                champ.pros.map((pro: any) => (
-                  <li class="flex items-start gap-3">
-                    <span class="text-green-500 font-bold mt-0.5">+</span> {typeof pro === 'string' ? pro : pro.pro_item}
-                  </li>
-                ))
-              ) : (
-                <li class="text-gray-500 italic">Sin ventajas registradas</li>
-              )}
+              {
+                champ.pros && champ.pros.length > 0 ? (
+                  champ.pros.map((pro: any) => (
+                    <li class="flex items-start gap-3">
+                      <span class="text-green-500 font-bold mt-0.5">+</span>{" "}
+                      {typeof pro === "string" ? pro : pro.pro_item}
+                    </li>
+                  ))
+                ) : (
+                  <li class="text-gray-500 italic">Sin ventajas registradas</li>
+                )
+              }
             </ul>
           </div>
 
-          <div class="bg-red-900/10 p-6 rounded-xl border border-red-900/50 shadow-lg">
-            <h3 class="text-2xl font-bold text-red-400 mb-4 flex items-center gap-2">
+          <div
+            class="bg-red-900/10 p-6 rounded-xl border border-red-900/50 shadow-lg"
+          >
+            <h3
+              class="text-2xl font-bold text-red-400 mb-4 flex items-center gap-2"
+            >
               <span>❌</span> Desventajas
             </h3>
             <ul class="space-y-3 text-sm text-gray-300">
-              {champ.contras && champ.contras.length > 0 ? (
-                champ.contras.map((contra: any) => (
-                  <li class="flex items-start gap-3">
-                    <span class="text-red-500 font-bold mt-0.5">-</span> {typeof contra === 'string' ? contra : contra.contra_item}
+              {
+                champ.contras && champ.contras.length > 0 ? (
+                  champ.contras.map((contra: any) => (
+                    <li class="flex items-start gap-3">
+                      <span class="text-red-500 font-bold mt-0.5">-</span>{" "}
+                      {typeof contra === "string" ? contra : contra.contra_item}
+                    </li>
+                  ))
+                ) : (
+                  <li class="text-gray-500 italic">
+                    Sin desventajas registradas
                   </li>
-                ))
-              ) : (
-                <li class="text-gray-500 italic">Sin desventajas registradas</li>
-              )}
+                )
+              }
             </ul>
           </div>
         </div>
@@ -893,35 +1032,67 @@ const rarityTextClass = rarityStyle.text;
 
   <script>
     // Script para manejar los botones de Forma Mítica
-    document.querySelectorAll<HTMLElement>(".form-toggle-btn").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const targetForm = btn.dataset.targetForm;
-        if (!targetForm) return;
+    document
+      .querySelectorAll<HTMLElement>(".form-toggle-btn")
+      .forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const targetForm = btn.dataset.targetForm;
+          if (!targetForm) return;
 
-        // Actualizar estilos de los botones (indicando cuál está activo)
-        document.querySelectorAll<HTMLElement>(".form-toggle-btn").forEach(b => {
-          if (b === btn) {
-            b.classList.add("active", "border-raid-gold", "text-raid-gold", "shadow-lg", "bg-raid-gold/10");
-            b.classList.remove("border-gray-600", "text-gray-400", "bg-transparent");
-          } else {
-            b.classList.remove("active", "border-raid-gold", "text-raid-gold", "shadow-lg", "bg-raid-gold/10");
-            b.classList.add("border-gray-600", "text-gray-400", "bg-transparent");
-          }
-        });
+          // Actualizar estilos de los botones (indicando cuál está activo)
+          document
+            .querySelectorAll<HTMLElement>(".form-toggle-btn")
+            .forEach((b) => {
+              if (b === btn) {
+                b.classList.add(
+                  "active",
+                  "border-raid-gold",
+                  "text-raid-gold",
+                  "shadow-lg",
+                  "bg-raid-gold/10",
+                );
+                b.classList.remove(
+                  "border-gray-600",
+                  "text-gray-400",
+                  "bg-transparent",
+                );
+              } else {
+                b.classList.remove(
+                  "active",
+                  "border-raid-gold",
+                  "text-raid-gold",
+                  "shadow-lg",
+                  "bg-raid-gold/10",
+                );
+                b.classList.add(
+                  "border-gray-600",
+                  "text-gray-400",
+                  "bg-transparent",
+                );
+              }
+            });
 
-        // Mostrar / Ocultar contenedores de habilidades, stats, libros, nombres, tipos
-        const containers = [".form-type-container", ".form-name-container", ".form-stats-container", ".form-skills-container", ".form-books-container"];
-        containers.forEach(containerSelector => {
-          document.querySelectorAll<HTMLElement>(containerSelector).forEach(c => {
-            if (c.dataset.formId === targetForm) {
-              c.classList.remove("hidden");
-            } else {
-              c.classList.add("hidden");
-            }
+          // Mostrar / Ocultar contenedores de habilidades, stats, libros, nombres, tipos
+          const containers = [
+            ".form-type-container",
+            ".form-name-container",
+            ".form-stats-container",
+            ".form-skills-container",
+            ".form-books-container",
+          ];
+          containers.forEach((containerSelector) => {
+            document
+              .querySelectorAll<HTMLElement>(containerSelector)
+              .forEach((c) => {
+                if (c.dataset.formId === targetForm) {
+                  c.classList.remove("hidden");
+                } else {
+                  c.classList.add("hidden");
+                }
+              });
           });
         });
       });
-    });
 
     // Tu Script Original de Tabs (Funciona Perfecto)
     document.querySelectorAll<HTMLElement>(".tab-button").forEach((button) => {

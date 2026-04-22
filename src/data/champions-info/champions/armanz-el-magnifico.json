@@ -7,15 +7,13 @@
   "type": "Apoyo",
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=xTWtqhSkrqg",
-  "blessings": [
-    "polimorfar"
-  ],
+  "blessings": ["polimorfar"],
   "relics": [
     "varita_de_sumision",
     "orbe_de_transfixion",
     "campana_fundida",
     "cronocubo",
-    "estrellas_jinang",
+    "estrellas_jiinang",
     "mascara_de_zozobra",
     "mente_de_marquat"
   ],
