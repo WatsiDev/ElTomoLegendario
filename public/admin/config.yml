@@ -791,8 +791,8 @@ collections:
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Descripción", name: "description", widget: "text" }
       - { label: "Imagen", name: "image", widget: "image" }
-      - { label: "Fecha de Inicio", name: "start-date", widget: "datetime", date_format: "DD.MM.YYYY" }
-      - { label: "Fecha de Fin", name: "end-date", widget: "datetime", date_format: "DD.MM.YYYY" }
+      - { label: "Fecha de Inicio", name: "start-date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm" }
+      - { label: "Fecha de Fin", name: "end-date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm" }
       - { label: "Activo", name: "active", widget: "boolean", default: true }
       - { label: "Tipo", name: "type", widget: "string", required: false }
       - { 
