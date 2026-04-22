@@ -10,7 +10,7 @@ public_folder: "/src/assets/uploads"
 collections:
   - name: "champions"
     label: "Campeones"
-    folder: "/src/data/champions"
+    folder: "/src/data/champions-info/champions"
     create: true
     slug: "{{name}}"
     format: "json"
@@ -500,7 +500,7 @@ collections:
   - name: "factions"
     label: "Facciones"
     files:
-      - file: "/src/data/factions.json"
+      - file: "/src/data/champions-info/factions/factions.json"
         label: "Lista de Facciones"
         name: "factions"
         format: "json"
@@ -527,7 +527,7 @@ collections:
 
   - name: "blessings"
     label: "Bendiciones"
-    folder: "/src/data/blessings"
+    folder: "/src/data/champions-info/blessings"
     create: true
     slug: "{{name}}"
     format: "json"
@@ -592,7 +592,7 @@ collections:
 
   - name: "sets"
     label: "Sets de Equipo"
-    folder: "/src/data/sets"
+    folder: "/src/data/champions-info/sets"
     create: true
     slug: "{{name}}"
     format: "json"
@@ -626,7 +626,7 @@ collections:
 
   - name: "relics"
     label: "Reliquias"
-    folder: "/src/data/relics"
+    folder: "/src/data/champions-info/relics"
     create: true
     slug: "{{name}}"
     format: "json"
@@ -720,7 +720,7 @@ collections:
 
   - name: "auras"
     label: "Auras"
-    folder: "/src/data/auras"
+    folder: "/src/data/champions-info/auras"
     create: true
     slug: "{{name}}"
     format: "json"
