@@ -1,15 +1,18 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import factionsData from "../../data/factions.json";
+import factionsData from "@data/champions-info/factions/factions.json";
 import { Image } from "astro:assets";
 
 // Access the array from the object wrapper
 const factions = factionsData.factions;
 
 // Cargar todos los campeones desde la carpeta de datos
-const championFiles = import.meta.glob("../../data/champions/*.json", {
-  eager: true,
-});
+const championFiles = import.meta.glob(
+  "/src/data/champions-info/champions/*.json",
+  {
+    eager: true,
+  },
+);
 const champions = Object.values(championFiles).map(
   (file: any) => file.default || file,
 );

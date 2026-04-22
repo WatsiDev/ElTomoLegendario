@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import promoData from '../../data/live-ops/promo-codes/promo-codes.json';
+import promoData from '@data/live-ops/promo-codes/promo-codes.json';
 
 // Utilidad para parsear ambas opciones: DD.MM.YYYY o YYYY-MM-DD
 const parsePromoDate = (dateStr: string) => {
