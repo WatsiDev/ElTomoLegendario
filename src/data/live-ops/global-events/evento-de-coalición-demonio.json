@@ -1,10 +1,9 @@
 {
-  "active": true,
   "name": "Evento de Coalición Demonio",
   "slug": "demon-coalition-event",
   "description": "¡Únete a jugadores de todo el mundo para derrotar al Señor Demoníaco Infecto y ganar grandes recompensas!",
   "image": "/src/assets/live-ops/global-events/demon-coalition-event.jpg",
-  "end-date": "06.05.2026",
-  "start-date": "08.04.2026",
+  "end-date": "2026-05-05T03:00:00.000Z",
+  "start-date": "2026-04-10T09:00:00.000Z",
   "type": "coalition"
 }

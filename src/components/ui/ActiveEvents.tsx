@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 
 interface GlobalEvent {
     name: string;
+    "start-date"?: string;
     "end-date"?: string;
-    active: boolean;
     [key: string]: any;
 }
 
@@ -15,18 +15,19 @@ const parseEventDate = (dateStr?: string) => {
     if (!dateStr) return 0;
     
     // Formato DD.MM.YYYY
-    let match = dateStr.match(/^(\d{2})\.(\d{2})\.(\d{4})/);
+    let match = dateStr.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
     if (match) {
         // Asumiendo que el evento termina al final del día (23:59:59)
         return new Date(parseInt(match[3]), parseInt(match[2]) - 1, parseInt(match[1]), 23, 59, 59).getTime();
     }
     
     // Formato YYYY-MM-DD
-    match = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    match = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
     if (match) {
         return new Date(parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]), 23, 59, 59).getTime();
     }
     
+    // Si tiene otro formato, como ISO, lo parsea directamente
     return new Date(dateStr).getTime();
 };
 
@@ -58,13 +59,28 @@ export default function ActiveEvents({ events = [] }: ActiveEventsProps) {
         return <div className="text-xs sm:text-sm text-gray-400">Cargando eventos...</div>;
     }
 
-    if (events.length === 0) {
+    // Filtrar los eventos activos
+    const filteredEvents = events.filter((event) => {
+        const startTime = parseEventDate(event["start-date"]);
+        const endTime = parseEventDate(event["end-date"]);
+        
+        let status = "EXPIRED";
+        if (now < startTime) {
+            status = "UPCOMING";
+        } else if (now >= startTime && now <= endTime) {
+            status = "ACTIVE";
+        }
+        
+        return status === "ACTIVE";
+    });
+
+    if (filteredEvents.length === 0) {
         return null;
     }
 
     return (
         <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-            {events.map((event, index) => {
+            {filteredEvents.map((event, index) => {
                 const endTime = parseEventDate(event["end-date"]);
                 const timeLeft = getTimeLeft(endTime, now);
 

@@ -1,0 +1,9 @@
+{
+  "name": "Fusión Mavara la Pitonisa",
+  "slug": "fusion-mavara-la-pitonisa",
+  "description": "Fusión de Mavara la Pitonisa",
+  "image": "/src/assets/live-ops/global-events/mavara-la-pitonisa.webp",
+  "start-date": "2026-04-02T15:19:00.000Z",
+  "end-date": "2026-04-23T21:20:00.000Z",
+  "type": "fusion"
+}

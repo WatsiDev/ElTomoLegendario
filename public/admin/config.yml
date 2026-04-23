@@ -758,15 +758,49 @@ collections:
             fields:
               - { label: "Código", name: "code", widget: "string" }
               - { label: "Slug", name: "slug", widget: "string" }
-              - { label: "Fecha de Lanzamiento", name: "release-date", widget: "datetime", date_format: "DD.MM.YYYY" }
-              - { label: "Tipo de Cuenta", name: "account-type", widget: "select", options: ["all", "new"] }
-              - { label: "Activo", name: "active", widget: "boolean", default: true }
+              - {
+                  label: "Fecha de Lanzamiento",
+                  name: "release-date",
+                  widget: "datetime",
+                  date_format: "DD.MM.YYYY",
+                }
+              - {
+                  label: "Tipo de Cuenta",
+                  name: "account-type",
+                  widget: "select",
+                  options: ["all", "new"],
+                }
+              - {
+                  label: "Activo",
+                  name: "active",
+                  widget: "boolean",
+                  default: true,
+                }
               - label: "Recompensas"
                 name: "rewards"
                 widget: "list"
                 fields:
-                  - { label: "Tipo de Recompensa", name: "type", widget: "select", options: ["xp-brew", "red-xp-brew", "energy", "silver", "champion", "greater-force-potion"] }
-                  - { label: "Cantidad", name: "amount", widget: "number", value_type: "int", required: false }
+                  - {
+                      label: "Tipo de Recompensa",
+                      name: "type",
+                      widget: "select",
+                      options:
+                        [
+                          "xp-brew",
+                          "red-xp-brew",
+                          "energy",
+                          "silver",
+                          "champion",
+                          "greater-force-potion",
+                        ],
+                    }
+                  - {
+                      label: "Cantidad",
+                      name: "amount",
+                      widget: "number",
+                      value_type: "int",
+                      required: false,
+                    }
                   - {
                       label: "Campeón",
                       name: "slug",
@@ -791,19 +825,34 @@ collections:
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Descripción", name: "description", widget: "text" }
       - { label: "Imagen", name: "image", widget: "image" }
-      - { label: "Fecha de Inicio", name: "start-date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", picker_utc: true  }
-      - { label: "Fecha de Fin", name: "end-date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", picker_utc: true }
-      - { label: "Activo", name: "active", widget: "boolean", default: true }
+      - {
+          label: "Fecha de Inicio",
+          name: "start-date",
+          widget: "datetime",
+          format: "YYYY-MM-DDTHH:mm:ss.SSSZ",
+          date_format: "DD.MM.YYYY",
+          time_format: "HH:mm",
+          picker_utc: true,
+        }
+      - {
+          label: "Fecha de Fin",
+          name: "end-date",
+          widget: "datetime",
+          format: "YYYY-MM-DDTHH:mm:ss.SSSZ",
+          date_format: "DD.MM.YYYY",
+          time_format: "HH:mm",
+          picker_utc: true,
+        }
       - { label: "Tipo", name: "type", widget: "string", required: false }
-      - { 
-          label: "Recompensas", 
-          name: "rewards", 
-          widget: "relation", 
-          collection: "champions", 
-          search_fields: ["name", "slug"], 
-          value_field: "slug", 
-          display_fields: ["name"], 
-          required: false 
+      - {
+          label: "Recompensas",
+          name: "rewards",
+          widget: "relation",
+          collection: "champions",
+          search_fields: ["name", "slug"],
+          value_field: "slug",
+          display_fields: ["name"],
+          required: false,
         }
 
   - name: "events"
@@ -822,26 +871,57 @@ collections:
               - { label: "Slug", name: "slug", widget: "string" }
               - { label: "Descripción", name: "description", widget: "text" }
               - { label: "Imagen", name: "image", widget: "image" }
-              - { label: "Fecha de Inicio", name: "start-date", widget: "datetime", date_format: "DD.MM.YYYY" }
-              - { label: "Fecha de Fin", name: "end-date", widget: "datetime", date_format: "DD.MM.YYYY" }
-              - { label: "Activo", name: "active", widget: "boolean", default: true }
-              - { 
-                  label: "Evento Global Padre", 
-                  name: "parent-event", 
-                  widget: "relation", 
-                  collection: "global_events", 
-                  search_fields: ["slug"], 
-                  value_field: "slug", 
-                  display_fields: ["name", "slug"], 
-                  required: false 
+              - {
+                  label: "Fecha de Inicio",
+                  name: "start-date",
+                  widget: "datetime",
+                  date_format: "DD.MM.YYYY",
+                }
+              - {
+                  label: "Fecha de Fin",
+                  name: "end-date",
+                  widget: "datetime",
+                  date_format: "DD.MM.YYYY",
+                }
+              - {
+                  label: "Activo",
+                  name: "active",
+                  widget: "boolean",
+                  default: true,
+                }
+              - {
+                  label: "Evento Global Padre",
+                  name: "parent-event",
+                  widget: "relation",
+                  collection: "global_events",
+                  search_fields: ["slug"],
+                  value_field: "slug",
+                  display_fields: ["name", "slug"],
+                  required: false,
                 }
               - label: "Recompensas"
                 name: "rewards"
                 widget: "list"
                 fields:
-                  - { label: "Tipo de Recompensa", name: "type", widget: "string" }
-                  - { label: "Cantidad", name: "amount", widget: "number", value_type: "int", required: false }
-                  - { label: "Puntos", name: "points", widget: "number", value_type: "int", required: false }
+                  - {
+                      label: "Tipo de Recompensa",
+                      name: "type",
+                      widget: "string",
+                    }
+                  - {
+                      label: "Cantidad",
+                      name: "amount",
+                      widget: "number",
+                      value_type: "int",
+                      required: false,
+                    }
+                  - {
+                      label: "Puntos",
+                      name: "points",
+                      widget: "number",
+                      value_type: "int",
+                      required: false,
+                    }
 
   - name: "tournaments"
     label: "Torneos"
@@ -859,23 +939,54 @@ collections:
               - { label: "Slug", name: "slug", widget: "string" }
               - { label: "Descripción", name: "description", widget: "text" }
               - { label: "Imagen", name: "image", widget: "image" }
-              - { label: "Fecha de Inicio", name: "start-date", widget: "datetime", date_format: "DD.MM.YYYY" }
-              - { label: "Fecha de Fin", name: "end-date", widget: "datetime", date_format: "DD.MM.YYYY" }
-              - { label: "Activo", name: "active", widget: "boolean", default: true }
-              - { 
-                  label: "Evento Global Padre", 
-                  name: "parent-event", 
-                  widget: "relation", 
-                  collection: "global_events", 
-                  search_fields: ["slug"], 
-                  value_field: "slug", 
-                  display_fields: ["name"], 
-                  required: false 
+              - {
+                  label: "Fecha de Inicio",
+                  name: "start-date",
+                  widget: "datetime",
+                  date_format: "DD.MM.YYYY",
+                }
+              - {
+                  label: "Fecha de Fin",
+                  name: "end-date",
+                  widget: "datetime",
+                  date_format: "DD.MM.YYYY",
+                }
+              - {
+                  label: "Activo",
+                  name: "active",
+                  widget: "boolean",
+                  default: true,
+                }
+              - {
+                  label: "Evento Global Padre",
+                  name: "parent-event",
+                  widget: "relation",
+                  collection: "global_events",
+                  search_fields: ["slug"],
+                  value_field: "slug",
+                  display_fields: ["name"],
+                  required: false,
                 }
               - label: "Recompensas"
                 name: "rewards"
                 widget: "list"
                 fields:
-                  - { label: "Tipo de Recompensa", name: "type", widget: "string" }
-                  - { label: "Cantidad", name: "amount", widget: "number", value_type: "int", required: false }
-                  - { label: "Puntos", name: "points", widget: "number", value_type: "int", required: false }
+                  - {
+                      label: "Tipo de Recompensa",
+                      name: "type",
+                      widget: "string",
+                    }
+                  - {
+                      label: "Cantidad",
+                      name: "amount",
+                      widget: "number",
+                      value_type: "int",
+                      required: false,
+                    }
+                  - {
+                      label: "Puntos",
+                      name: "points",
+                      widget: "number",
+                      value_type: "int",
+                      required: false,
+                    }
