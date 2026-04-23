@@ -1,0 +1,10 @@
+{
+  "active": false,
+  "name": "Evento Titán Anómalo",
+  "slug": "evento-titan-anomalo",
+  "description": "Obtén puntos Titán en Eventos y Torneos claramente marcados con la etiqueta especial \"Evento Titán Anómalo\". Obtener puntos Titán es similar a obtener otras recompensas como Gemas o Fragmentos en Eventos y Torneos normales. Cuantos más puntos Titán consigas como recompensas de Eventos y Torneos, más recompensas de hito podrás obtener en el Evento Titán Anómalo.",
+  "image": "/src/assets/live-ops/global-events/imagen_2026-04-22_180921928.png",
+  "start-date": "23.04.2026T09:09",
+  "end-date": "07.05.2026T11:00",
+  "type": "Titán"
+}
