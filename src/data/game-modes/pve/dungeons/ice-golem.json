@@ -1,0 +1,16 @@
+{
+  "name": "Golem de Hielo (Normal)",
+  "slug": "ice-golem-peak-normal",
+  "best_champions": [
+    "artak",
+    "embrys-la-anomalia"
+  ],
+  "mechanics": "Cuando el Gólem de Hielo usa Venganza Frígida [P] mientras alguno de sus esbirros está vivo, el ataque hace mucho más daño. En las Etapas finales te conviene que tus Campeones se centren en la supervivencia y no en el daño que hacen.",
+  "strategy": "Aplicar bufos de [Veneno] y [Quemar HP] para evitar activar su pasiva Venganza Frígida [P] y aplicar debufos de [Bloquear Revivir] a sus esbirros para evitar el daño si utiliza su pasiva Venganza Frígida [P].",
+  "image": "/src/assets/game-modes/pve/dungeons/plarium-ukraine-1.jpg",
+  "difficulty": [
+    "Normal"
+  ],
+  "description": "No te dejes engañar por la aparente simplicidad de esta Mazmorra en las Etapas anteriores, puesto que necesitarás una estrategia cuidadosa para superar las Etapas finales del Gólem de Hielo. La clave es matar a sus esbirros, ya que hacen que su habilidad Venganza Frígida [P] sea mucho más peligrosa.",
+  "category": "dungeons"
+}

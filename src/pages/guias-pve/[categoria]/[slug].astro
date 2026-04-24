@@ -1,0 +1,248 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+
+export async function getStaticPaths() {
+  const bossFiles = import.meta.glob('/src/data/game-modes/pve/*/*.json', { eager: true });
+  const allBosses = Object.values(bossFiles).map((file: any) => file.default || file);
+
+  const categoryFiles = import.meta.glob('/src/data/game-modes/pve-categories/*.json', { eager: true });
+  const allCategories = Object.values(categoryFiles).map((file: any) => file.default || file);
+
+  const validBosses = allBosses.filter((boss: any) => boss.category && boss.slug);
+
+  return validBosses.map((boss: any) => {
+    const categoryData = allCategories.find((cat: any) => cat.slug === boss.category);
+    return {
+      params: { 
+        categoria: boss.category,
+        slug: boss.slug
+      },
+      props: { 
+        boss,
+        categoryData: categoryData || { title: boss.category }
+      }
+    };
+  });
+}
+
+const { boss, categoryData } = Astro.props;
+const { categoria } = Astro.params;
+
+const categoryTitle = categoryData.title;
+
+// Cargar data de campeones para resolver imágenes y nombres
+const championFiles = import.meta.glob('/src/data/champions-info/champions/*.json', { eager: true });
+const championsData = Object.values(championFiles).map((file: any) => file.default || file);
+
+function getChampionInfo(slug: string) {
+  const champ = championsData.find((c: any) => c.slug === slug);
+  return champ ? { name: champ.name, image: champ.image } : { name: slug, image: null };
+}
+
+// Resolver best_team si existe
+const resolvedTeams = boss.best_team ? boss.best_team.map((team: any) => {
+  return {
+    ...team,
+    champions: team.champions ? team.champions.map((champ: any) => {
+      return { ...champ, ...getChampionInfo(champ.slug) };
+    }) : []
+  };
+}) : [];
+
+// Resolver best_champions si existe y no hay best_team
+const resolvedChampions = boss.best_champions ? boss.best_champions.map((slug: string) => {
+  return { slug, ...getChampionInfo(slug) };
+}) : [];
+
+---
+
+<Layout title={`${boss.name} - Guía - El Tomo Legendario`}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 animate-fade-in">
+    <!-- Breadcrumbs -->
+    <nav class="mb-6 flex text-sm text-gray-400">
+      <a href="/guias-pve" class="hover:text-raid-gold transition-colors">Guías PvE</a>
+      <span class="mx-2">/</span>
+      <a href={`/guias-pve/${categoria}`} class="hover:text-raid-gold transition-colors">{categoryTitle}</a>
+      <span class="mx-2">/</span>
+      <span class="text-gray-200 truncate">{boss.name}</span>
+    </nav>
+
+    <!-- Header Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
+      <!-- Imagen -->
+      <div class="lg:col-span-5 relative rounded-2xl overflow-hidden border border-gray-700/50 shadow-2xl bg-gray-900 flex items-center justify-center min-h-[300px]">
+        {boss.image ? (
+          <Image 
+            src={boss.image} 
+            alt={boss.name}
+            width={800}
+            height={800}
+            class="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
+          />
+        ) : (
+          <span class="text-gray-600">Sin Imagen</span>
+        )}
+        <div class="absolute inset-0 bg-linear-to-t from-raid-bg via-transparent to-transparent opacity-80"></div>
+      </div>
+
+      <!-- Info Principal -->
+      <div class="lg:col-span-7 flex flex-col justify-center">
+        <div class="flex items-start justify-between flex-wrap gap-4 mb-4">
+          <h1 class="text-4xl sm:text-5xl font-black text-white uppercase tracking-wide">
+            <span class="bg-linear-to-r from-raid-gold to-white bg-clip-text text-transparent">
+              {boss.name}
+            </span>
+          </h1>
+        </div>
+
+        {/* Etiquetas de Dificultad */}
+        {boss.difficulty && boss.difficulty.length > 0 && (
+          <div class="flex flex-wrap gap-2 mb-6">
+            {boss.difficulty.map((diff: string) => {
+              let colorClass = "bg-gray-800 text-gray-300";
+              if (diff.toLowerCase().includes("difícil") || diff.toLowerCase().includes("dificil")) colorClass = "bg-blue-900/40 text-blue-300 border border-blue-700/50";
+              else if (diff.toLowerCase().includes("brutal")) colorClass = "bg-purple-900/40 text-purple-300 border border-purple-700/50";
+              else if (diff.toLowerCase().includes("pesadilla") && !diff.toLowerCase().includes("súper")) colorClass = "bg-red-900/40 text-red-300 border border-red-700/50";
+              else if (diff.toLowerCase().includes("súper")) colorClass = "bg-red-950 text-red-400 border border-red-500 font-bold";
+              else colorClass = "bg-green-900/40 text-green-300 border border-green-700/50";
+              
+              return (
+                <span class={`text-xs uppercase font-semibold tracking-wider px-3 py-1 rounded-full ${colorClass}`}>
+                  {diff}
+                </span>
+              );
+            })}
+          </div>
+        )}
+
+        <div class="prose prose-invert max-w-none text-gray-300 leading-relaxed bg-raid-card/50 p-6 rounded-xl border border-gray-800">
+          <p>{boss.description || "Sin descripción general."}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contenido Detallado -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      
+      <!-- Columna Principal: Mecánicas y Estrategia -->
+      <div class="lg:col-span-2 space-y-8">
+        
+        {boss.mechanics && (
+          <section class="bg-raid-card rounded-2xl p-6 sm:p-8 border border-gray-700 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-1 h-full bg-red-600"></div>
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+              <svg class="w-6 h-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+              Mecánicas del Jefe
+            </h2>
+            <div class="prose prose-invert prose-red max-w-none text-gray-300 whitespace-pre-wrap">
+              {boss.mechanics}
+            </div>
+          </section>
+        )}
+
+        {boss.strategy && (
+          <section class="bg-raid-card rounded-2xl p-6 sm:p-8 border border-gray-700 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-1 h-full bg-raid-gold"></div>
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+              <svg class="w-6 h-6 text-raid-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+              Estrategia Recomendada
+            </h2>
+            <div class="prose prose-invert prose-yellow max-w-none text-gray-300 whitespace-pre-wrap">
+              {boss.strategy}
+            </div>
+          </section>
+        )}
+
+        {!boss.mechanics && !boss.strategy && (
+          <div class="text-center py-12 text-gray-500 border border-dashed border-gray-700 rounded-2xl">
+            No hay información detallada de mecánicas o estrategia aún.
+          </div>
+        )}
+      </div>
+
+      <!-- Columna Secundaria: Equipos y Campeones -->
+      <div class="space-y-8">
+        
+        {/* Renderizado de Equipos Completos (Formato demon-lord.json) */}
+        {resolvedTeams.length > 0 && (
+          <section>
+            <h2 class="text-xl font-bold text-white mb-4 uppercase tracking-wide border-b border-gray-700 pb-2">
+              Equipos Recomendados
+            </h2>
+            <div class="space-y-6">
+              {resolvedTeams.map((team: any, index: number) => (
+                <div class="bg-raid-card rounded-xl border border-gray-700 overflow-hidden">
+                  <div class="bg-gray-800/80 px-4 py-3 border-b border-gray-700">
+                    <h3 class="font-bold text-raid-gold">{team.name || `Equipo ${index + 1}`}</h3>
+                  </div>
+                  {team.description && (
+                    <div class="px-4 py-3 text-sm text-gray-300 border-b border-gray-700/50 bg-gray-900/30">
+                      {team.description}
+                    </div>
+                  )}
+                  <div class="p-4 space-y-3">
+                    {team.champions && team.champions.map((champ: any) => (
+                      <div class="flex items-center gap-3 p-2 rounded bg-gray-800/40 border border-gray-700/30 hover:border-gray-600 transition-colors">
+                        <div class="w-12 h-12 rounded-lg overflow-hidden bg-gray-900 shrink-0 border border-gray-600">
+                          {champ.image ? (
+                            <Image src={champ.image} alt={champ.name} width={64} height={64} class="w-full h-full object-cover" loading="lazy" decoding="async" />
+                          ) : (
+                            <div class="w-full h-full flex items-center justify-center text-xs text-gray-500 text-center leading-none px-1">Sin Img</div>
+                          )}
+                        </div>
+                        <div class="flex-1 min-w-0">
+                          <div class="font-semibold text-gray-200 truncate text-sm">
+                            <a href={`/campeon/${champ.slug}`} class="hover:text-raid-gold transition-colors">{champ.name}</a>
+                          </div>
+                          <div class="text-xs text-gray-400 mt-0.5 flex flex-wrap gap-x-3 gap-y-1">
+                            {champ.role && <span>Rol: <span class="text-gray-300">{champ.role}</span></span>}
+                            {champ.speed && <span>Vel: <span class="text-raid-blue">{champ.speed}</span></span>}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Renderizado de Lista de Campeones (Formato dragon-lair.json) */}
+        {resolvedTeams.length === 0 && resolvedChampions.length > 0 && (
+          <section>
+            <h2 class="text-xl font-bold text-white mb-4 uppercase tracking-wide border-b border-gray-700 pb-2">
+              Mejores Campeones
+            </h2>
+            <div class="bg-raid-card rounded-xl border border-gray-700 p-4">
+              <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-3 gap-3">
+                {resolvedChampions.map((champ: any) => (
+                  <a href={`/campeon/${champ.slug}`} class="group flex flex-col items-center gap-2">
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-gray-600 group-hover:border-raid-gold transition-colors shadow-lg bg-gray-900">
+                      {champ.image ? (
+                        <Image src={champ.image} alt={champ.name} width={128} height={128} class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" decoding="async" />
+                      ) : (
+                        <div class="w-full h-full flex items-center justify-center text-xs text-gray-500">?</div>
+                      )}
+                    </div>
+                    <span class="text-[10px] sm:text-xs text-center text-gray-300 group-hover:text-white line-clamp-2 leading-tight">
+                      {champ.name}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+      </div>
+    </div>
+  </div>
+</Layout>

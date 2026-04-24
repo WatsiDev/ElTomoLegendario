@@ -1,0 +1,8 @@
+{
+  "name": "Quimera",
+  "slug": "chimera",
+  "category": "clan-bosses",
+  "image": "/src/assets/game-modes/pve/clan-bosses/chimera.webp",
+  "description": "La Quimera es una lucha de Jefe de Clan disponible solo para Miembros de un Clan. Puedes encontrar a la Quimera en el Mapa de Jefes de Clan después de seleccionar el modo de juego \"Jefes de Clan\".",
+  "mechanics": "Cada Forma de la Quimera, a excepción de la Forma Definitiva, aporta una mecánica única a la batalla."
+}

@@ -991,6 +991,21 @@ collections:
                       required: false,
                     }
 
+  - name: "pve_categories"
+    label: "Categorías PvE"
+    folder: "/src/data/game-modes/pve-categories"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    media_folder: "/src/assets/game-modes/pve-categories"
+    public_folder: "/src/assets/game-modes/pve-categories"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", pattern: ["^[a-z0-9-]+$", "Solo minúsculas y guiones"] }
+      - { label: "Descripción", name: "description", widget: "text" }
+      - { label: "Imagen", name: "image", widget: "image" }
+      - { label: "Color del Gradiente", name: "color", widget: "string", hint: "Prefijo de Tailwind (ej. red, blue, emerald, raid-gold, raid-purple)" }
+
   - name: "pve_bosses"
     label: "Jefes PvE"
     folder: "/src/data/game-modes/pve"
@@ -1006,17 +1021,12 @@ collections:
       - {
           label: "Categoría",
           name: "category",
-          widget: "select",
-          options:
-            [
-              "clan-bosses",
-              "cursed-city",
-              "doom-tower",
-              "dungeons",
-              "faction-wars",
-              "grim-forest",
-            ],
-      }
+          widget: "relation",
+          collection: "pve_categories",
+          search_fields: ["title", "slug"],
+          value_field: "slug",
+          display_fields: ["title"],
+        }
       - {
           label: "Dificultad",
           name: "difficulty",

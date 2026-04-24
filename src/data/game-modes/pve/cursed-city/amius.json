@@ -1,0 +1,9 @@
+{
+  "name": "Amius el Arconte Lunar",
+  "slug": "amius-the-lunar-archon",
+  "category": "cursed-city",
+  "description": "El Jefe de la Ciudad Maldita es Amius el Arconte Lunar, que vive en la cima de la Torre del Eclipse que hay en el centro de la Ciudad Maldita.",
+  "image": "/src/assets/game-modes/pve/cursed-city/amius.jpg",
+  "mechanics": "Las Etapas de Jefe Doble requieren que luches contra dos Jefes al mismo tiempo. Cada Distrito de la Ciudad Maldita tiene 3 Etapas de Jefe Doble, una de las cuales contendrá una Llave de Eclipse. Cruce de Almas también tiene 3 Etapas de Jefe Doble, pero no tiene ninguna Llave de Eclipse. La ubicación de la Llave de Eclipse en cada Distrito cambia en cada rotación.",
+  "difficulty": null
+}

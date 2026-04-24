@@ -1,0 +1,11 @@
+{
+  "image": "/src/assets/game-modes/pve/hydra.webp",
+  "category": "clan-bosses",
+  "name": "Hidra",
+  "slug": "hydra",
+  "description": "La Hidra es una lucha de Jefe de Clan disponible solo para Miembros de un Clan. Puedes encontrar a la Hidra en el Mapa de Jefes de Clan después de seleccionar el modo de juego \"Jefes de Clan\".",
+  "mechanics": "La Hidra trae seis Cabezas diferentes a la batalla, cada una con sus propias mecánicas y estrategias, pero solo luchas contra 4 de esas 6 Cabezas a la vez.\n\nCada batalla empieza con las 4 \"Cabezas Iniciales\" de esa Rotación, mientras que las otras 2 se quedan al margen esperando salir si logras decapitar alguna Cabeza.\n\nPuedes llevar hasta 6 Campeones para luchar contra la Hidra.",
+  "best_champions": [
+    "krokhad-rajacuellos"
+  ]
+}

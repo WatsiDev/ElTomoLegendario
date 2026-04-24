@@ -113,6 +113,8 @@ const factionImage = factionData?.image || "/assets/favicon.png";
         alt={factionName}
         width={128}
         height={128}
+        loading="lazy"
+        decoding="async"
         class="w-32 h-32 object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.2)]"
       />
       <div class="text-center md:text-left">

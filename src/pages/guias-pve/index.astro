@@ -1,0 +1,77 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const categoryFiles = import.meta.glob('/src/data/game-modes/pve-categories/*.json', { eager: true });
+const categories = Object.values(categoryFiles).map((file: any) => file.default || file);
+
+function getColorClasses(color: string) {
+  const colorMap: Record<string, string> = {
+    "red": "from-red-900 to-red-600",
+    "raid-blue": "from-raid-blue to-blue-600",
+    "emerald": "from-emerald-900 to-emerald-600",
+    "raid-purple": "from-raid-purple to-purple-600",
+    "raid-gold": "from-raid-gold to-yellow-600",
+    "teal": "from-teal-900 to-teal-600"
+  };
+  return colorMap[color] || "from-gray-900 to-gray-600";
+}
+---
+
+<Layout title="Guías PvE - El Tomo Legendario">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 animate-fade-in">
+    <!-- Encabezado -->
+    <div class="text-center mb-16">
+      <h1 class="text-4xl sm:text-5xl font-black mb-6 uppercase tracking-wider">
+        <span class="text-raid-gold drop-shadow-sm">
+          Guías PvE
+        </span>
+      </h1>
+      <p class="text-gray-300 text-lg max-w-2xl mx-auto">
+        Descubre las mejores estrategias, mecánicas y equipos recomendados para dominar todos los jefes de Raid: Shadow Legends.
+      </p>
+    </div>
+
+    <!-- Grid de Categorías -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {categories.map((category: any) => (
+        <a 
+          href={`/guias-pve/${category.slug}`}
+          class="group relative h-80 rounded-2xl overflow-hidden shadow-xl border border-gray-700/50 hover:border-raid-gold/50 transition-all duration-500 hover:shadow-raid-gold/20 hover:-translate-y-2 flex flex-col justify-end"
+        >
+          <!-- Background Gradient (Fallback) -->
+          <div class={`absolute inset-0 bg-linear-to-br ${getColorClasses(category.color)} opacity-20 group-hover:opacity-40 transition-opacity duration-500 z-0`}></div>
+          
+          <!-- Image -->
+          <div class="absolute inset-0 z-0 overflow-hidden">
+            <img 
+              src={category.image} 
+              alt={category.title} 
+              class="w-full h-full object-cover opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-700 blur-[2px] group-hover:blur-none"
+              onerror="this.src='/favicon.png'; this.classList.remove('object-cover'); this.classList.add('object-contain', 'p-8');"
+            />
+          </div>
+
+          <!-- Bottom Gradient Overlay -->
+          <div class="absolute inset-0 bg-linear-to-t from-raid-bg via-raid-bg/80 to-transparent z-10"></div>
+
+          <!-- Content -->
+          <div class="relative z-20 p-6 transform transition-transform duration-500 group-hover:translate-y-0 translate-y-4">
+            <h2 class="text-2xl font-bold text-white mb-2 group-hover:text-raid-gold transition-colors">
+              {category.title}
+            </h2>
+            <p class="text-sm text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+              {category.description}
+            </p>
+            
+            <div class="mt-4 flex items-center text-raid-gold text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200">
+              <span>Explorar guías</span>
+              <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

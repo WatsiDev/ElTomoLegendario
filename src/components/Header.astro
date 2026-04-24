@@ -79,7 +79,7 @@ const globalEvents = Object.values(globalEventFiles)
           Facciones
         </a>
         <a
-          href="/guias"
+          href="/guias-pve"
           class="text-gray-300 hover:text-raid-blue transition-colors text-sm font-semibold"
         >
           Guías
@@ -97,12 +97,6 @@ const globalEvents = Object.values(globalEventFiles)
         <div class="hidden lg:block">
           <SearchBar client:load champs={searchData} />
         </div>
-        <a
-          href="/campeones"
-          class="hidden sm:inline-block px-4 py-2 bg-raid-gold text-raid-bg font-bold text-sm rounded-lg hover:shadow-lg hover:shadow-raid-gold/50 transition-all duration-300 whitespace-nowrap"
-        >
-          Explorar
-        </a>
 
         <!-- Mobile Menu Button -->
         <button
@@ -117,6 +111,7 @@ const globalEvents = Object.values(globalEventFiles)
             viewBox="0 0 24 24"
           >
             <path
+              id="menu-path"
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
@@ -145,7 +140,7 @@ const globalEvents = Object.values(globalEventFiles)
           Facciones
         </a>
         <a
-          href="/guias"
+          href="/guias-pve"
           class="text-gray-300 hover:text-raid-blue transition-colors font-semibold block py-2 border-b border-gray-700/50"
         >
           Guías
@@ -159,12 +154,6 @@ const globalEvents = Object.values(globalEventFiles)
         <div class="pt-2">
           <SearchBar client:load champs={searchData} />
         </div>
-        <a
-          href="/campeones"
-          class="inline-block w-full text-center px-4 py-3 bg-raid-gold text-raid-bg font-bold rounded-lg hover:shadow-lg hover:shadow-raid-gold/50 transition-all duration-300 mt-2"
-        >
-          Explorar Campeones
-        </a>
       </nav>
     </div>
   </div>
@@ -172,10 +161,31 @@ const globalEvents = Object.values(globalEventFiles)
   <script is:inline>
     const btn = document.getElementById("mobile-menu-btn");
     const menu = document.getElementById("mobile-menu");
+    const menuPath = document.getElementById("menu-path");
 
-    if (btn && menu) {
-      btn.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
+    if (btn && menu && menuPath) {
+      const toggleMenu = () => {
+        const isHidden = menu.classList.contains("hidden");
+        if (isHidden) {
+          menu.classList.remove("hidden");
+          menuPath.setAttribute("d", "M6 18L18 6M6 6l12 12"); // X icon
+        } else {
+          menu.classList.add("hidden");
+          menuPath.setAttribute("d", "M4 6h16M4 12h16M4 18h16"); // Hamburger icon
+        }
+      };
+
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleMenu();
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener("click", (event) => {
+        if (!menu.classList.contains("hidden") && !menu.contains(event.target) && !btn.contains(event.target)) {
+          menu.classList.add("hidden");
+          menuPath.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
+        }
       });
     }
   </script>

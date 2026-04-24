@@ -180,6 +180,8 @@ const rarityTextClass = rarityStyle.text;
               width={180}
               height={280}
               class={`w-full max-w-[180px] rounded-lg border-4 transition-all duration-300 group-hover:scale-105 relative z-10 shadow-2xl ${rarityStyle.border} hover:${rarityStyle.glow}`}
+              loading= "lazy"
+              decoding= "async"
             />
           </div>
 
@@ -240,6 +242,8 @@ const rarityTextClass = rarityStyle.text;
                   height={16}
                   class="w-4 h-4"
                   alt={champ.affinity}
+                  loading="lazy"
+                  decoding="async"
                 />
               )
             }
@@ -607,6 +611,8 @@ const rarityTextClass = rarityStyle.text;
                           width={64}
                           height={64}
                           class="w-full h-full object-contain drop-shadow-md"
+                          loading="lazy"
+                          decoding="async"
                         />
                       ) : (
                         <span class="text-xs text-gray-500 text-center">
@@ -651,6 +657,8 @@ const rarityTextClass = rarityStyle.text;
                             width={64}
                             height={64}
                             class="w-full h-full object-contain drop-shadow-md"
+                            loading="lazy"
+                            decoding="async"
                           />
                         ) : (
                           <span class="text-xs text-gray-500 text-center">
@@ -694,6 +702,8 @@ const rarityTextClass = rarityStyle.text;
                             width={64}
                             height={64}
                             class="w-full h-full object-contain drop-shadow-md scale-125"
+                            loading="lazy"
+                            decoding="async"
                           />
                         ) : (
                           <span class="text-xs text-gray-500 text-center">
@@ -775,6 +785,8 @@ const rarityTextClass = rarityStyle.text;
               width={600}
               height={800}
               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              loading="lazy"
+              decoding="async"
             />
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-100"
@@ -796,6 +808,7 @@ const rarityTextClass = rarityStyle.text;
                     height={800}
                     class="w-full h-full object-cover"
                     loading="lazy"
+                    decoding="async"
                   />
                 </div>
               ))
