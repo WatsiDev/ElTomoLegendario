@@ -990,3 +990,119 @@ collections:
                       value_type: "int",
                       required: false,
                     }
+
+  - name: "pve_bosses"
+    label: "Jefes PvE"
+    folder: "/src/data/game-modes/pve"
+    path: "{{category}}/{{slug}}"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    media_folder: "/src/assets/game-modes/pve/{{category}}"
+    public_folder: "/src/assets/game-modes/pve/{{category}}"
+    fields:
+      - { label: "Nombre", name: "name", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - {
+          label: "Categoría",
+          name: "category",
+          widget: "select",
+          options:
+            [
+              "clan-bosses",
+              "cursed-city",
+              "doom-tower",
+              "dungeons",
+              "faction-wars",
+              "grim-forest",
+            ],
+      }
+      - {
+          label: "Dificultad",
+          name: "difficulty",
+          widget: "select",
+          multiple: true,
+          required: false,
+          options:
+            [
+              "Fácil",
+              "Normal",
+              "Dificil",
+              "Brutal",
+              "Pesadilla",
+              "Súper Pesadilla",
+            ],
+        }
+      - { label: "Imagen", name: "image", widget: "image" }
+      - { label: "Descripción", name: "description", widget: "text" }
+      - { label: "Mecánicas", name: "mechanics", widget: "text" }
+      - {
+          label: "Mejores Equipos",
+          name: "best_team",
+          widget: "list",
+          required: false,
+          fields:
+            [
+              { label: "Nombre del Equipo", name: "name", widget: "string" },
+              { label: "Descripción", name: "description", widget: "text" },
+              {
+                label: "Campeones",
+                name: "champions",
+                widget: "list",
+                fields:
+                  [
+                    {
+                      label: "Campeón",
+                      name: "slug",
+                      widget: "relation",
+                      collection: "champions",
+                      search_fields: ["name"],
+                      value_field: "slug",
+                      display_fields: ["name"],
+                    },
+                    { label: "Rol", name: "role", widget: "string" },
+                    {
+                      label: "Sets",
+                      name: "sets",
+                      widget: "relation",
+                      collection: "sets",
+                      search_fields: ["name"],
+                      value_field: "slug",
+                      display_fields: ["name"],
+                      multiple: true,
+                      required: false,
+                    },
+                    {
+                      label: "Bendiciones",
+                      name: "blessings",
+                      widget: "relation",
+                      collection: "blessings",
+                      search_fields: ["name"],
+                      value_field: "slug",
+                      display_fields: ["name"],
+                      multiple: true,
+                      required: false,
+                    },
+                    {
+                      label: "Velocidad",
+                      name: "speed",
+                      widget: "number",
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Mejores Campeones",
+          name: "best_champions",
+          widget: "relation",
+          collection: "champions",
+          search_fields: ["name"],
+          value_field: "slug",
+          display_fields: ["name"],
+          multiple: true,
+          required: false,
+        }
+      - { label: "Estrategia", name: "strategy", widget: "text", required: false }
+

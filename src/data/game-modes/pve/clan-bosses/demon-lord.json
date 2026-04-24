@@ -1,0 +1,63 @@
+{
+    "name": "Señor Demoníaco",
+    "slug": "demon-lord",
+    "category": "clan-bosses",
+    "image": "/src/assets/game-modes/pve/clan-bosses/demon_lord.jpg",
+    "description": "El Señor Demoníaco es un Jefe de Clan especial disponible solo para los Miembros de un Clan. \n\n El Señor Demoníaco funciona de manera diferente a casi todos los demás Jefes, ya que puede ser derrotado a través de los esfuerzos conjuntos de todos los Miembros del Clan.",
+    "mechanics": "El Señor Demoníaco se cura completamente (aunque haya sido derrotado) cada día a las 10:00 - 11:00 UTC. Esto significa que los Miembros del Clan pueden luchar contra el Señor Demoníaco de nuevo y ganar más Cofres de Señor Demoníaco. \n\n El Señor Demoníaco siempre empieza con Afinidad del Vacío. En cuanto los HP del Señor Demoníaco bajen del 50 %, este cambiará su Afinidad a otra Afinidad al azar en la siguiente batalla.",
+    "best_team": [
+        {
+            "name": "Escudos infinitos",
+            "description": "Este equipo se basa en el uso de escudos para proteger al campeón del daño. Este equipo es muy efectivo contra el Señor Demoníaco, ya que sus ataques son muy poderosos.",
+            "champions": [
+                {
+                    "slug": "guardacamara-wixwell",
+                    "role": "Soporte",
+                    "sets": [],
+                    "blessings": [],
+                    "speed": 215
+                },
+                {
+                    "slug": "titus-plumanegra",
+                    "role": "Daño",
+                    "sets": [],
+                    "blessings": [],
+                    "speed": 200
+                },
+                {
+                    "slug": "luchadora-de-arena",
+                    "role": "support",
+                    "sets": [],
+                    "blessings": [],
+                    "speed": 250
+                },
+                {
+                    "slug": "anacoreta",
+                    "role": "Daño",
+                    "sets": [],
+                    "blessings": [],
+                    "speed": 232
+                },
+                {
+                    "slug": "ezio-auditore",
+                    "role": "Daño",
+                    "sets": [
+                        "salvaje",
+                        "letal",
+                        "percepcion"
+                    ],
+                    "blessings": [
+                        "ira-de-la-naturaleza"
+                    ],
+                    "speed": 190
+                }
+            ]
+        }
+    ],
+    "best_champions": [
+        "ezio-auditore",
+        "xenomorfo",
+        "guardacamara-wixwell"
+    ],
+    "strategy": "Como el Señor Demoníaco tiene muchos turnos por ronda, tenemos que ser muy cuidadosos con el timing de los bufos y debufos."
+}

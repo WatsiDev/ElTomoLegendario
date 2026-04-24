@@ -1,0 +1,20 @@
+{
+  "name": "Guarida del Dragón (Normal)",
+  "slug": "dragon-lair-normal",
+  "best_champions": [
+    "ezio-auditore",
+    "xenomorfo",
+    "artak",
+    "teodor-el-sabio",
+    "narma-la-regresada",
+    "corvis-el-corruptor"
+  ],
+  "mechanics": "La habilidad característica de Hellrazor es Inhalar: una pasiva con un tiempo de reutilización de 3 turnos que reinicia las Barras de Turno de tu Grupo y desbloquea la habilidad Abrasar para su próximo ataque. Abrasar hace un montón de daño y también aplica un debufo de [Aturdir] a todo tu Grupo que no se puede bloquear ni resistir. Básicamente, da a Hellrazor dos ataques seguidos y hace trizas a tu Grupo. Aunque, puedes detenerlo: cuando usa Inhalar, una parte de su barra de HP se marca de color violeta. Si le haces esos HP de daño antes de su próximo turno Abrasar se volverá a bloquear.",
+  "strategy": "Para superar esta mazmorra es importante contar con debufos de [Veneno] y [Quemar HP], así como campeones de apoyo para limpiar debufos, curar y revivir.",
+  "image": "/src/assets/game-modes/pve/dungeons/dragon-lair.jpg",
+  "difficulty": [
+    "Normal"
+  ],
+  "description": "En la mazmorra del Dragón puedes conseguir artefactos de los sets: Puntería, Velocidad, Robar Vida, Destruir, Tóxico, Escarcha, Atontar, Vengador, Incondicional, así como otras recompensas.\nEsta mazmorra es ideal para farmear en early-mid game y elevar el poder de tus campeones para avanzar rápido en el juego.",
+  "category": "dungeons"
+}
