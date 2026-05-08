@@ -833,11 +833,14 @@ const rarityTextClass = rarityStyle.text;
               <div class="bg-raid-card border border-gray-700 rounded-lg p-6 shadow-xl flex flex-col items-center">
                 <div class="w-full flex-grow flex justify-center items-center h-full">
                   {mastery.selected_masteries && mastery.selected_masteries.map((sm: any) => (
-                     <img 
-                      src={sm.mastery_image} 
+                     <Image 
+                      src={(sm.mastery_image && masteryImagesGlob[sm.mastery_image] ? masteryImagesGlob[sm.mastery_image].default : sm.mastery_image) as any} 
                       alt={`Maestría ${mastery.branch}`} 
                       class="max-w-[320px] w-full h-[auto] rounded shadow-lg border border-gray-800 object-contain hover:scale-105 transition-transform duration-500" 
                       loading="lazy"
+                      decoding="async"
+                      width={320}
+                      height={400}
                     />
                   ))}
                 </div>

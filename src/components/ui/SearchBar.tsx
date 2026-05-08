@@ -1,4 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
+import type { ImageMetadata } from 'astro';
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/champions/*.{jpeg,jpg,png,gif,webp}',
+  { eager: true }
+);
 
 interface ChampionData {
   slug: string;
@@ -59,7 +65,6 @@ export default function SearchBar({ champs }: SearchBarProps) {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
       </div>
-
       {isOpen && results.length > 0 && (
         <div className="absolute z-50 mt-2 w-full bg-raid-card border border-gray-700 rounded-lg shadow-2xl overflow-hidden max-h-80 overflow-y-auto custom-scrollbar">
           <ul>
@@ -71,10 +76,13 @@ export default function SearchBar({ champs }: SearchBarProps) {
                 >
                   <div className="w-8 h-8 rounded-full overflow-hidden border border-gray-600 shrink-0 group-hover:border-raid-gold transition-colors">
                     <img 
-                      src={champ.image} 
+                      src={images[champ.image]?.default?.src || champ.image} 
                       alt={champ.name} 
                       className="w-full h-full object-cover"
                       loading="lazy"
+                      decoding="async"
+                      width={32}
+                      height={32}
                     />
                   </div>
                   <span className="font-semibold text-gray-300 group-hover:text-raid-gold transition-colors text-sm">
