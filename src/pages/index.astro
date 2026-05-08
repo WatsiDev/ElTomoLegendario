@@ -35,7 +35,7 @@ const featuredChampions = champions.filter((champ: any) =>
 
     <!-- Contenido del Hero -->
     <div class="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-20">
-      <div class="max-w-4xl mx-auto text-center">
+      <div class="max-w-4xl mx-auto text-center animate-fade-in">
         <!-- Badge de confianza -->
         <div class="mb-6 animate-float">
           <span
@@ -107,7 +107,7 @@ const featuredChampions = champions.filter((champ: any) =>
     class="bg-raid-card py-16 px-4 sm:px-6 lg:px-8 border-b border-gray-700"
   >
     <div class="max-w-6xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 timeline-view animate-slide-in-left animate-range-[entry_5%_contain_20%]">
         <!-- Feature 1 -->
         <div
           class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300"
@@ -164,7 +164,7 @@ const featuredChampions = champions.filter((champ: any) =>
         Números que Hablan por Nosotros
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 timeline-view animate-flip-in-x animate-range-[entry_5%_contain_20%]">
         <!-- Stat 1 -->
         <div
           class="text-center p-6 border border-gray-700 rounded-lg hover:border-raid-gold transition-all duration-300"
@@ -251,7 +251,7 @@ const featuredChampions = champions.filter((champ: any) =>
         </div>
 
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center timeline-view animate-zoom-in animate-range-[entry_10%_contain_25%]"
         >
           {
             featuredChampions.map((champion) => (
@@ -322,7 +322,7 @@ const featuredChampions = champions.filter((champ: any) =>
           </span>
         </h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 timeline-view animate-blurred-fade-in animate-range-[entry_10%_contain_30%]">
           <!-- Early Game -->
           <div
             class="group relative bg-linear-to-br from-raid-blue/20 to-transparent p-8 rounded-lg border-2 border-raid-blue overflow-hidden hover:shadow-lg hover:shadow-raid-blue/30 transition-all duration-300"
@@ -430,7 +430,7 @@ const featuredChampions = champions.filter((champ: any) =>
   <section
     class="bg-linear-to-r from-raid-gold/20 via-raid-purple/20 to-raid-blue/20 py-16 px-4 sm:px-6 lg:px-8 border-t border-gray-700"
   >
-    <div class="max-w-4xl mx-auto text-center">
+    <div class="max-w-4xl mx-auto text-center timeline-view animate-slide-in-bottom animate-range-[entry_5%_contain_30%]">
       <h2 class="text-4xl sm:text-5xl font-bold mb-6 text-white">
         Empieza a Mejorar en Raid Hoy
       </h2>
