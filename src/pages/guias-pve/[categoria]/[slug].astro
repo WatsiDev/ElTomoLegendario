@@ -1,6 +1,10 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+const pveImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/game-modes/**/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const championImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/champions/*.{png,jpg,jpeg,webp,svg}", { eager: true });
 
 export async function getStaticPaths() {
   const bossFiles = import.meta.glob('/src/data/game-modes/pve/*/*.json', { eager: true });
@@ -74,7 +78,7 @@ const resolvedChampions = boss.best_champions ? boss.best_champions.map((slug: s
       <div class="lg:col-span-5 relative rounded-2xl overflow-hidden border border-gray-700/50 shadow-2xl bg-gray-900 flex items-center justify-center min-h-[300px]">
         {boss.image ? (
           <Image 
-            src={boss.image} 
+            src={(boss.image && pveImagesGlob[boss.image] ? pveImagesGlob[boss.image].default : boss.image) as any} 
             alt={boss.name}
             width={800}
             height={800}
@@ -192,7 +196,7 @@ const resolvedChampions = boss.best_champions ? boss.best_champions.map((slug: s
                       <div class="flex items-center gap-3 p-2 rounded bg-gray-800/40 border border-gray-700/30 hover:border-gray-600 transition-colors">
                         <div class="w-12 h-12 rounded-lg overflow-hidden bg-gray-900 shrink-0 border border-gray-600">
                           {champ.image ? (
-                            <Image src={champ.image} alt={champ.name} width={64} height={64} class="w-full h-full object-cover" loading="lazy" decoding="async" />
+                            <Image src={(champ.image && championImagesGlob[champ.image] ? championImagesGlob[champ.image].default : champ.image) as any} alt={champ.name} width={64} height={64} class="w-full h-full object-cover" loading="lazy" decoding="async" />
                           ) : (
                             <div class="w-full h-full flex items-center justify-center text-xs text-gray-500 text-center leading-none px-1">Sin Img</div>
                           )}
@@ -227,7 +231,7 @@ const resolvedChampions = boss.best_champions ? boss.best_champions.map((slug: s
                   <a href={`/campeon/${champ.slug}`} class="group flex flex-col items-center gap-2">
                     <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-gray-600 group-hover:border-raid-gold transition-colors shadow-lg bg-gray-900">
                       {champ.image ? (
-                        <Image src={champ.image} alt={champ.name} width={128} height={128} class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" decoding="async" />
+                        <Image src={(champ.image && championImagesGlob[champ.image] ? championImagesGlob[champ.image].default : champ.image) as any} alt={champ.name} width={128} height={128} class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" decoding="async" />
                       ) : (
                         <div class="w-full h-full flex items-center justify-center text-xs text-gray-500">?</div>
                       )}

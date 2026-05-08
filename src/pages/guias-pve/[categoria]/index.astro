@@ -1,6 +1,9 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+const pveImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/game-modes/**/*.{png,jpg,jpeg,webp,svg}", { eager: true });
 
 export async function getStaticPaths() {
   const bossFiles = import.meta.glob('/src/data/game-modes/pve/*/*.json', { eager: true });
@@ -63,7 +66,7 @@ const pageTitle = categoryData.title;
             <div class="aspect-square w-full relative overflow-hidden bg-gray-900">
               {boss.image ? (
                 <Image 
-                  src={boss.image} 
+                  src={(boss.image && pveImagesGlob[boss.image] ? pveImagesGlob[boss.image].default : boss.image) as any} 
                   alt={boss.name}
                   width={600}
                   height={600}

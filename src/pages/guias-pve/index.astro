@@ -1,8 +1,12 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
 
 const categoryFiles = import.meta.glob('/src/data/game-modes/pve-categories/*.json', { eager: true });
 const categories = Object.values(categoryFiles).map((file: any) => file.default || file);
+
+const categoryImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/game-modes/**/*.{png,jpg,jpeg,webp,svg}", { eager: true });
 
 function getColorClasses(color: string) {
   const colorMap: Record<string, string> = {
@@ -43,11 +47,14 @@ function getColorClasses(color: string) {
           
           <!-- Image -->
           <div class="absolute inset-0 z-0 overflow-hidden">
-            <img 
-              src={category.image} 
+            <Image 
+              src={(category.image && categoryImagesGlob[category.image] ? categoryImagesGlob[category.image].default : category.image) as any} 
               alt={category.title} 
+              width={800}
+              height={600}
               class="w-full h-full object-cover opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-700 blur-[2px] group-hover:blur-none"
-              onerror="this.src='/favicon.png'; this.classList.remove('object-cover'); this.classList.add('object-contain', 'p-8');"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 
