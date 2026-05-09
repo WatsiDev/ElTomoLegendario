@@ -1,0 +1,84 @@
+{
+  "slug": "xiloco-el-incrustado",
+  "name": "Xiloco el Incrustado",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": null,
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 17835,
+    "speed": 925,
+    "attack": 925,
+    "defense": 1465,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Garrote Enjoyado (DEF)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Probabilidad de bufo / debufo +10%",
+        "Nivel 5: Probabilidad de bufo / debufo +10%"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de reducir un turno el tiempo de reutilización de una habilidad de un aliado al azar.\n\n También cura a dicho aliado el 10% de MAX HP de este campeón."
+    },
+    {
+      "name": "Secreto Primigenio",
+      "levels": [
+        "Nivel 2: Tiempo de reutilización -1",
+        "Nivel 3: Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "inmortal",
+        "contraataque"
+      ],
+      "description": "Aplica un bufo de [Inmortal] y un bufo de [Contraataque] a un aliado durante 2 turnos. También reduce 2 turnos el tiempo de reutilización de las habilidades de dicho aliado. No se puede reducir ni reiniciar el tiempo de reutilización de esta habilidad"
+    },
+    {
+      "name": "Crisálida de Reanimación",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 3: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "aumentar-atk-2",
+        "aumentar-def-2"
+      ],
+      "description": "Revive a un aliado con el 50% de HP y el 75% de barra de turno.\n\n Aplica un bufo de [Aumentar ATK] y un bufo de 60% de [Aumentar DEF] a dicho aliado durante 2 turnos."
+    },
+    {
+      "name": "Erudito Temporal (Pasiva)",
+      "description": "Llena un 30% la barra de turno de este campeón cada vez que se activa una habilidad pasiva de un campeón enemigo. Una vez por turno."
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/xiloco-el-incrustado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

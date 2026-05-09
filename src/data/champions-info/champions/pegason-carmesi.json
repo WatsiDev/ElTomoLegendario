@@ -1,0 +1,79 @@
+{
+  "slug": "pegason-carmesi",
+  "name": "Pegason Carmesí",
+  "faction": "Argonitas",
+  "rarity": "Raro",
+  "role": "Tanque con algo de control. Limitado a partir de midgame.",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 19320,
+    "speed": 96,
+    "attack": 727,
+    "defense": 1013,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Asalto Demoledor (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Prob.Bufo / Debufo +5%",
+        "Nivel 4: Daño +10%",
+        "Nivel 5: Prob.Bufo / Debufo +10%"
+      ],
+      "multiplier": "0.21xHP",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 15% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno."
+    },
+    {
+      "name": "Postura de Acero",
+      "levels": [
+        "Nivel 2: Escudo +10%",
+        "Nivel 3: Escudo +10%",
+        "Nivel 4: Tiempo de Reutilización -1",
+        "Nivel 5: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "burlon",
+        "escudo-habilidad"
+      ],
+      "multiplier": "0.15xHP",
+      "description": "Aplica un bufo de [Burlón] a este campeón durante 1 turno.\n\n También aplica un bufo de [Escudo] a todos los aliados del 15% de MAX HP de este campeón durante 2 turnos."
+    },
+    {
+      "name": "Disciplina Militar (Pasiva)",
+      "levels": [
+        "Nivel 2: Prob.Bufo / Debufo +10%",
+        "Nivel 2: Prob.Bufo / Debufo +10%"
+      ],
+      "cooldown": 1,
+      "description": "Al ser atacado, tiene un 5% de probabilidad de reducir todo el daño entrante a cero"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 15%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pegason-carmesi.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

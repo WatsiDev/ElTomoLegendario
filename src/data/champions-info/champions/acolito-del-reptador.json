@@ -1,0 +1,86 @@
+{
+  "slug": "acolito-del-reptador",
+  "name": "Acólito del Reptador",
+  "faction": "Argonitas",
+  "rarity": "Raro",
+  "role": "Iniciador con algo de bufos-debufos relacionados con la VEL así como ser capaz de bajar barra de turno.",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": null,
+  "gear": [
+    "velocidad",
+    "punteria",
+    "percepcion"
+  ],
+  "uses": null,
+  "stats": {
+    "hp": 17835,
+    "speed": 107,
+    "attack": 848,
+    "defense": 991,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lanzas de Luz Oscura (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Prob.Bufo / Debufo +10%",
+        "Nivel 5: Prob.Bufo / Debufo +10%"
+      ],
+      "multiplier": "1.55xATK",
+      "description": "Ataca a 1 enemigo 3 veces.\n\n Cada ataque tiene un 35% de probabilidad de reducir un 5% la Barra de turno del objetivo. Si el objetivo tiene un debufo de [Reducir VEL], la reducción de barra de turno es del 10% en lugar del 5%."
+    },
+    {
+      "name": "Reducir a Ceniza (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Prob.Bufo / Debufo +10%",
+        "Nivel 4: Prob.Bufo / Debufo +15%",
+        "Nivel 5: Tiempo de Reutilización -1",
+        "Nivel 6: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "red-vel-2"
+      ],
+      "multiplier": "4.6xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tine un 50% de probabilidad de aplicar un debufo de 15% de [Reducir VEL] durante 2 turnos.\n\n Cura a todos los aliados el 15% de MAX HP."
+    },
+    {
+      "name": "Rito de Llamas",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 2: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "aumentar-vel-2"
+      ],
+      "description": "Aplica un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos.\n\n Llena un 15% las barras de turno de todos los aliados."
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL aliados en mazmorras en 16% ."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/acolito-del-reptador.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

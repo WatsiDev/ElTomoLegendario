@@ -1,0 +1,175 @@
+{
+  "slug": "cinda-corazonforja",
+  "name": "Cinda Corazónforja",
+  "faction": "Enanos",
+  "rarity": "Mítico",
+  "role": "Nuker más enfocada en PvP en la forma base y en PvE / jefes en la forma alternativa",
+  "type": "Ataque / Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=K3xlp31GcLA",
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "varita_de_sumision",
+    "garra_malefica",
+    "mirada_del_gato",
+    "pasion_codiciosa",
+    "corona_corrompida",
+    "bomba_de_terror",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "despiadado",
+    "piel-de-piedra",
+    "mercurial",
+    "instinto"
+  ],
+  "uses": "Hace mucho daño en todas partes, tanto en jefe, arenas y oleadas. Pega muy duro y aplica debufos útiles",
+  "stats": null,
+  "skills": null,
+  "aura": null,
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 17175,
+        "speed": 100,
+        "attack": 1707,
+        "defense": 1002,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 50
+      },
+      "skills": [
+        {
+          "name": "Golpe Eruptivo (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque ignora el 15% de DEF. En lugar del 15%, ignora el 30% del objetivo si este campeón tiene un bufo de [Escudo de Magma].\n\n Ataca al resto de enemigos con cualquier daño sobrante si el objetivo inicial muere."
+        },
+        {
+          "name": "Destructora de Metales (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "escudo-de-magma"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque ignora el 25% de DEF. En lugar del 25%, ignora el 50% de DEF del objetivo si este campeón tiene un bufo de [Escudo de Magma]. Hace el doble de daño si el objetivo tiene un bufo de [Escudo].\n\n Llena un 50% la barra de turno de este campeón y aplica un bufo de [Escudo de Magma] del 200% de ATK de este campeón durante 1 turno."
+        },
+        {
+          "name": "Revestida de Magma (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "escudo-de-magma"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque aumenta 1 turno el tiempo de reutilización de las habilidades de todos los enemigos hasta el máximo. También reduce un 30% las barras de turno de todos los enemigos.\n\n Luego obtén un turno adicional."
+        },
+        {
+          "name": "Metamorfosis (Pasiva)",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa.\n\n Luego obtén un turno adicional"
+        },
+        {
+          "name": "Caparazón de Horno (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "escudo-de-magma"
+          ],
+          "description": "Al comienzo de cada ronda y cuando este campeón es reanimado, aplica un bufo de [Escudo de Magma] del 300% de ATK de este campeón a este campeón durante 1 turno.\n\n Este campeón recibe un 30% menos de daño de enemigos si tiene un bufo de [Escudo de Magma]. Cura a este campeón el 50% de su MAX HP cuando un bufo suyo de [Escudo de Magma] vence o es eliminado con daño."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 17175,
+        "speed": 100,
+        "attack": 1707,
+        "defense": 1002,
+        "accuracy": 30,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Llamamartillo (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "buffDebuff": [
+            "red-atk-2"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca a 1 enemigo. Ignora el 10% de DEF. Ignora un 5% adicional de DEF por cada debufo de [Quemar HP] activo en el grupo enemigo (se acumula hasta el 35% de Ignorar DEF).\n\n Aplica un debufo de 50% de [Reducir ATK] al objetivo durante 2 turnos.\n\n Ataca a todos los enemigos en vez de a uno, si este campeón tiene un bufo de [Escudo de Magma]. Ignora el 10% de DEF de cada objetivo. Ignora un 5% adicional de DEF de cada objetivo por cada debufo de [Quemar HP] activo en el grupo enemigo (se acumula hasta el 35% de Ignorar DEF).\n\n Aplica un debufo de 50% de [Reducir ATK] a todos los enemigos durante 2 turnos."
+        },
+        {
+          "name": "Tempestad Ardiente (ATK)(MAX HP del enemigo)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "cooldown": 3,
+          "multiplier": "?xATK",
+          "description": "Ataca 2 veces a todos los enemigos. \n\nCada ataque reducer un 3% de DEF de cada objetivo (se acumula hasta el 30%). Cada ataque también hace daño puro adicional a cada objetivo equivalente al 2% de MAX HP por cada turno restante en todos los debufos de [Quemar HP] de todos los enemigos (se acumula hasta el 15%). Este daño adicional puro siempre es normal e ignora el 100% de DEF de cada objetivo. No puede superar el 3% de MAX HP de un jefe o esbirro. No cuenta como un ataque"
+        },
+        {
+          "name": "Incineración Total (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "quemar-hp",
+            "red-atk-2"
+          ],
+          "multiplier": "?xATK",
+          "description": "Ataca a todos los enemigos. Antes de atacar, aplica un debufo de [Quemar HP] a todos los enemigos durante 3 turnos y activa inmediatamente una activación de todos los debufos de [Quemar HP] de todos los enemigos. Ignora el 25% de DEF de cada objetivo. Ignora el 25% de DEF de cada objetivo. Ignora un 5% adicional por cada debufo de [Quemar HP] activo en el grupo enemigo ( se acumula hasta el 50% de Ignorar DEF).\n\n Aplica un debufo de 60% de [Reducir DEF] a todos los enemigos durante 2 turnos."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base.\n\n Luego obtén un turno adicional"
+        },
+        {
+          "name": "Encarnación del Fuego (Pasiva)",
+          "buffDebuff": [
+            "escudo-de-magma"
+          ],
+          "description": "[Efecto Activo]\n\n Al ser atacado por un enemigo que tiene un debufo de [Quemar HP]. aplica un bufo de [Escudo de Magma] del 300% de ATK de este campeón a este campeón durante 1 turno.\n\n [Efecto Pasivo]\n\n El daño que reciben los enemigos de los debufos de [Quemar HP] ignora bufos de [Bloquear Daño] e [Inmortal].\n\n Este campeón y sus aliados hacen un 15% más de daño a enemigos que tienen un debufo de [Quemar HP]. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/cinda-corazonforja.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

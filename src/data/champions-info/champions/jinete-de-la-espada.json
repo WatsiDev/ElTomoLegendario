@@ -1,0 +1,87 @@
+{
+  "slug": "jinete-de-la-espada",
+  "name": "Jinete de la Espada",
+  "faction": "Argonitas",
+  "rarity": "Raro",
+  "role": "Nuker capaz de control a 1 objetivo y aumentarse su daño",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 14865,
+    "speed": 98,
+    "attack": 1310,
+    "defense": 727,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Corte Doble (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Daño +10%"
+      ],
+      "multiplier": "1.75xATK",
+      "description": "Ataca 2 veces a 1 enemigo.\n\n Cada crítico ignora el 5% de DEF del objetivo."
+    },
+    {
+      "name": "Estocada (ATK)",
+      "levels": [
+        "Nivel 2: Daño +15%",
+        "Nivel 3: Prob-Bufo / Debufo +10%",
+        "Nivel 4: Prob-Bufo / Debufo +15%",
+        "Nivel 5: Tiempo de Reutilización -1",
+        "Nivel 6: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "aturdir"
+      ],
+      "multiplier": "5.55xATK golpe individual. 3.65xATK en área",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.\n\n Repite el ataque contra el resto de enemigos si este campeón tiene un bufo de [Aumentar ATK]"
+    },
+    {
+      "name": "Ráfaga Enredadora (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Tiempo de Reutilización -1",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "aumentar-atk-1",
+        "aumentar-d-crit-1"
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 25% de [Aumentar ATK] y un bufo de 15% de [Aumentar D.Crit] a todos los aliados durante 2 turnos.\n\n Cada crítico llena un 5% la barra de turno de este campeón."
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en criptas de facción en 21%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/jinete-de-la-espada.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

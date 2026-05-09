@@ -1,0 +1,177 @@
+{
+  "slug": "arne-el-blanco",
+  "name": "Arne el Blanco",
+  "faction": "Bárbaros",
+  "rarity": "Mítico",
+  "role": "Nuker de ATK en su forma base y de HP/ATK en su forma base. Es inmune al control y tiene buenas sinergias",
+  "type": "ATK / HP",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=e1-oGSZmRvg",
+  "blessings": null,
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "malleos_de_fuego",
+    "mirada_del_gato",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "letal",
+    "despiadado",
+    "instinto",
+    "salvaje"
+  ],
+  "uses": "Versátil tanto para PvP como PvE. Bueno para limpiar oleadas y brillará más en batallas largas",
+  "stats": null,
+  "skills": null,
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 80."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 17505,
+        "speed": 115,
+        "attack": 1707,
+        "defense": 980,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Canción de Acero (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "4xATK",
+          "description": "Ataca a 1 enemigo. Ataca 1 vez más si el objetivo tiene un debufo de [Marca de Muerte].\n\n Reduce un 10% de HP y DEF del objetivo (se acumula hasta el 30%). Este efecto no funciona contra Jefes."
+        },
+        {
+          "name": "Furia Candente (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-habilidades-pasivas"
+          ],
+          "multiplier": "6xATK",
+          "description": "Ataca a 1 enemigo. Antes de atacar, aplica un debufo de [Bloquear Habilidades Pasivas] durante 1 turno. Ignora el 50% de DEF, al igual que los bufos de [Bloquear Daño] e [Inmortal].\n\n Si el objetivo inicial muere, repite el ataque contra todos los enemigos e ignora el 25% de DEF. También reduce 2 turnos el tiempo de reutilización de la habilidad Aullido Ártico si el objetivo inicial muere con un debufo de [Marca de Muerte]"
+        },
+        {
+          "name": "Aullido Ártico (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "aumentar-atk-2",
+            "aumentar-punt-2",
+            "marca-de-la-muerte"
+          ],
+          "description": "Aplica un bufo de 50% de [Aumentar ATK] y un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 3 turnos.\n\n Aplica un debufo de [Marca de Muerte] a todos los enemigos durante 2 turnos.\n\n Luego obtén un turno adicional."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Voluntad de la Tundra (Pasiva)",
+          "levels": [],
+          "buffDebuff": [
+            "bloquear-dano"
+          ],
+          "description": "[Efecto Pasivo]\n\n Los enemigos que tienen un debufo de [Marca de Muerte] sufren un 20% más de daño y hacen un 20% menos de daño. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.\n\n Este campeón es inmune a debufos de [Congelar], [Aturdir] e [Incitar].\n\n[Efecto Activo]\n\n Cuando este campeón muere, revive con un 50% de HP, un 100% de Barra de turno y se aplica un bufo de [Bloquear Daño] durante 1 turno."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 25605,
+        "speed": 115,
+        "attack": 815,
+        "defense": 1332,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Tormenta de Espadas (HP)(ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "buffDebuff": [
+            "aturdir"
+          ],
+          "multiplier": "0.12xHP+1.4xATK",
+          "description": "Ataca 2 veces a 1 enemigo. Aplica un debufo de [Aturdir] durante 1 turno.\n\n Si el objetivo tiene menos MAX HP que este campeón, este debufo no se puede resistir."
+        },
+        {
+          "name": "Rugido Provocador (HP)(ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "incitar",
+            "fortalecer-2",
+            "contraataque"
+          ],
+          "description": "Aplica un debufo de [Incitar] a todos los enemigos durante 1 turno. Si el objetivo es un Jefe, el debufo de [Incitar] es de 2 turnos. Si el objetivo tiene menos MAX HP que este campeón, estos debufos no se pueden resistir.\n\n Aplica un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos. También aplica un bufo de [Contraataque] a este campeón durante 2 turnos."
+        },
+        {
+          "name": "Ruptura Glacial (HP)(ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "red-def-2"
+          ],
+          "multiplier": "0.35xHP+1.4xATK",
+          "description": "Ataca a todos los enemigos. Antes de atacar, aplica un debufo de 60% de [Reducir DEF] a todos los enemigos durante 2 turnos. Si el objetivo tiene menos MAX HP que este campeón, este debufo no se puede resistir.\n\n Este ataque hace daño individual a cada objetivo en lugar de daño de área. Ignora el 30% de DEF. Ataca 1 vez más a Jefes y enemigos que tengan un debufo de [Aturdir] o [Incitar]. Si el objetivo es un jefe o tiene un debufo de [Aturdir] o [Incitar], ignora el 50% de DEF en vez del 30%."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Corazón de Oso (Pasiva)",
+          "description": "[Efecto Activo]\n\n Cada vez que un campeón muere, obtiene +20% HP y DEF (se acumula hasta el 100%).\n\n Inmune a debufos de [Congelar], [Aturdir] e [Incitar].\n\n[Efecto Activo]\n\n Cuando un enemigo intenta aplicar un debufo de [Congelar].[Aturdir] o [Incitar] a este campeón, activa inmediatamente la habilidad de Ruptura Glacial. Esto no pone la habilidad de Ruptura Glacial en tiempo de reutilización."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/arne-el-blanco.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

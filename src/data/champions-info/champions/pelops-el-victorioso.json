@@ -1,0 +1,106 @@
+{
+  "slug": "pelops-el-victorioso",
+  "name": "Pelops el Victorioso",
+  "faction": "Argonitas",
+  "rarity": "Legendario",
+  "role": "Tanque capaz de control, muchos bufos y debufos",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=F59jVQry-lY",
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "craneo_de_traicion",
+    "campana_fundida",
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "salvaje",
+    "parada-rapida",
+    "letal"
+  ],
+  "uses": "En casi todo puede tener hueco: setups de escudos con Wixwell y Titus, tanque de arañas, Golem, incluso arenas. Es muy versátil y no molesta en ningún sitio",
+  "stats": {
+    "hp": 22800,
+    "speed": 97,
+    "attack": 749,
+    "defense": 1310,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Golpe Triunfal (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad de Bufo / Debufo +10%",
+        "Nivel 4: Daño +15%",
+        "Nivel 5:  Probabilidad de Bufo / Debufo +15%"
+      ],
+      "buffDebuff": [
+        "red-atk-2"
+      ],
+      "multiplier": "0.25xHP",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos. Este debufo no se puede resistir ni bloquear si el objetivo tiene un debufo de [Quemar HP]."
+    },
+    {
+      "name": "Perdición de Gorgoa (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "aturdir"
+      ],
+      "multiplier": "0.4xHP",
+      "description": "Ataca a 1 enemigo.\n\n Ignora el 50% de DEF si el objetivo tiene un debufo de [Quemar HP]. Esta habilidad hace +10% de daño por cada turno restante en los debufos de este campeón y del objetivo (se acumula hasta el 200%).\n\n Si el daño hecho por esta habilidad es inferior a 50% de MAX HP del objetivo, roba todos los bufos del objetivo y le aplica un debufo de [Aturdir] durante 2 turnos. Estos efectos no se pueden resistir si el objetivo tiene un debufo de [Quemar HP]."
+    },
+    {
+      "name": "Abundancia del Victorioso (HP)",
+      "levels": [
+        "Nivel 2: Escudo +10%",
+        "Nivel 3: Escudo +10%",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "escudo-de-magma",
+        "aumentar-atk-2",
+        "burlon"
+      ],
+      "description": "[Efecto Activo]\n\n Aplica un bufo de 50% de [Aumentar ATK] y un bufo de [Escudo de Magma] a todos los aliados durante 2 turnos. La magnitud del [Escudo de Magma] es igual al 30% de MAX HP de este campeón.\n\n También aplica un bufo de [Burlón] a este campeón durante 2 turnos.\n\n[Efecto Pasivo]\n\n Reduce un 20% el daño que reciben todos los aliados mientras este campeón no tenga un debufo de [Reducir DEF]"
+    },
+    {
+      "name": "Maestro de Juegos (Pasiva)",
+      "buffDebuff": [
+        "petrificacion",
+        "quemar-hp"
+      ],
+      "description": "Este campeón es inmune a debufos de [Aturdir], [Quemar HP] y [Petrficación].\n\n Cada vez que un enemigo ataca a este campeón, tiene un 100% de probabilidad de aplicar un debufo de [Quemar HP] a dicho enemigo durante 2 turnos. La probabilidad se reduce al 50% si este campeón tiene un debufo de [Reducir DEF]. Una vez por habilidad enemiga.\n\n Cada vez que un enemigo ataca a este campeón, también tiene un 50% de probabilidad de aplicar un debufo de [Petrificación] a dicho enemigo durante 1 turno. La probabilidad  se reduce al 25% si este campeón tiene un debufo de [Reducir DEF]. Una vez por habilidad enemiga."
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 60."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pelops-el-victorioso.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

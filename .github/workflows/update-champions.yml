@@ -1,0 +1,38 @@
+name: Update Champions
+
+on:
+  schedule:
+    # Corre todos los martes a las 08:00 UTC
+    - cron: '0 8 * * 2'
+  workflow_dispatch: # Permite ejecutar el script manualmente desde la interfaz de GitHub
+
+jobs:
+  update-champions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          # Para que el commit automático pueda hacerse con los permisos correctos
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22' # Usa la versión más reciente para fetch nativo
+
+      - name: Run Update Script
+        env:
+          API_TOKEN: ${{ secrets.SUPABASE_API_TOKEN }}
+        run: |
+          node scripts/update-champions.js
+
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated: Update champions from API"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          file_pattern: "src/data/champions-info/champions/*.json src/assets/champions/*.webp"

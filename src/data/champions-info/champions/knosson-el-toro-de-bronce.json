@@ -1,0 +1,90 @@
+{
+  "slug": "knosson-el-toro-de-bronce",
+  "name": "Knosson el Toro de Bronce",
+  "faction": "Argonitas",
+  "rarity": "Legendario",
+  "role": "Nuker de HP. Tiene potencial para Arena ignorando Piel de Piedra así como control de oleadas con Incitar",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": null,
+  "gear": [
+    "parada-rapida",
+    "percepcion",
+    "salvaje",
+    "letal"
+  ],
+  "uses": null,
+  "stats": {
+    "hp": 23130,
+    "speed": 97,
+    "attack": 738,
+    "defense": 1299,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Fuerza de Lakon (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Daño +15%"
+      ],
+      "multiplier": "0.23xHP",
+      "description": "Ataca a 1 enemigo.\n\n Destruye el 10% de MAX HP del objetivo. En lugar de lo anterior, destruye el 20% de MAX HP del objetivo si este tiene un debufo de [Incitar] (se acumula hasta el 50%).\n\n Llena un 20% la Barra de Turno de este campeón. En lugar de lo anterior, aumenta un 40% la Barra de Turno de este campeón si el enemigo tiene un debufo de [Incitar]."
+    },
+    {
+      "name": "Por los Cuernos (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Daño +15%",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "multiplier": "0.35xHP",
+      "description": "Ataca a 1 enemigo.\n\n Ignora 50% de DEF del objetivo y cualquier bufo de [Piel de Piedra] si este campeón tiene más MAX HP que el objetivo.\n\n Si el objetivo muere, activa inmediatamente la habilidad Confianza Ganada a Pulso. Si el objetivo sobrevive, cura a todos los aliados una cantidad igual a la diference entre los HP actuales del objetivo y su MAX HP."
+    },
+    {
+      "name": "Confianza ganada a pulso (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad Bufo/Debufo +10%",
+        "Nivel 4: Daño +10%",
+        "Nivel 5: Probabilidad Bufo/Debufo +10%"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "incitar",
+        "contraataque"
+      ],
+      "multiplier": "0.27xHP",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 80% de probabilidad de aplicar un debufo de [Incitar] a todos los enemigos durante 1 turno. Ignora un 50% de RES de objetivos con menos MAX HP que este campeón.\n\n Aplica un bufo de [Contraataque] a este campeón durante 2 turnos.\n\n Aplica un bufo de [Contraataque] a este campeón durante 2 turnos."
+    },
+    {
+      "name": "¿Eso es todo lo que tienes? (Pasiva)",
+      "description": "Los enemigos que tienen un debufo de [Incitar] hacen un 50% menos de daño. Los aliados hacen un 20% más de daño a enemigos que tienen un debufo de [Incitar]. Si hay varios campeones con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón."
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en batallas de Arena en 80"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/knosson-el-toro-de-bronce.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

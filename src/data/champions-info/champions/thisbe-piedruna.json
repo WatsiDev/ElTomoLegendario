@@ -1,0 +1,97 @@
+{
+  "slug": "thisbe-piedruna",
+  "name": "Thisbe Piedruna",
+  "faction": "Argonitas",
+  "rarity": "Epico",
+  "role": "Debufer bastante decente capaz de aplicar debufos, curar, dar barra de turno y aumentar el daño de aliados",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "diario_de_necrotos"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Hydra y oleadas es bastante buena. En facciones seguro que también saca trabajo",
+  "stats": {
+    "hp": 18165,
+    "speed": 100,
+    "attack": 958,
+    "defense": 1134,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Ojos de Granito (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Probabilidad Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad Bufo/Debufo +15%"
+      ],
+      "buffDebuff": [
+        "red-atk-2"
+      ],
+      "multiplier": "4.95xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 25% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos.\n\n Roba el 10% de la barra de turno del objetivo."
+    },
+    {
+      "name": "Colmillos de Cuarzo (ATK)",
+      "levels": [
+        "Nivel 2: Daño +20%",
+        "Nivel 3: Probabilidad Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad Bufo/Debufo +15%",
+        "Nivel 5: Tiempo de Reutilización -1",
+        "Nivel 6: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "maleficio",
+        "bloquear-bufos"
+      ],
+      "multiplier": "4.6xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Maleficio] y un debufo de [Bloquear Bufos] a todos los enemigos durante 2 turnos"
+    },
+    {
+      "name": "Corazón de Pedernal",
+      "levels": [
+        "Nivel 2: Curación +5%",
+        "Nivel 3: Curación +5%",
+        "Nivel 4: Tiempo de Reutilización -1",
+        "Nivel 5: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "description": "Reduce 1 turno la duración de todos los debufos aliados.\n\n Cura a todos los aliados el 15% de su MAX HP.\n\n Llena un 20% las barras de turno de todos los aliados."
+    },
+    {
+      "name": "Heredera de la Gorgona (Pasiva)",
+      "description": "Los aliados hacen un 10% más de daño a enemigos que tienen debufos aplicados por este campeón. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón."
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 40"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/thisbe-piedruna.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

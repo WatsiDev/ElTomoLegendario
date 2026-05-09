@@ -1,0 +1,106 @@
+{
+  "slug": "pallas-la-gloriosa",
+  "name": "Pallas la Gloriosa",
+  "faction": "Argonitas",
+  "rarity": "Legendario",
+  "role": "Revividora / Healer de la facción. Además tiene una pasiva interesante que pone escudo y da barra de turno gratis",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=Es0Z_8Wyk5U",
+  "blessings": [
+    "jaula-de-rayos"
+  ],
+  "relics": [
+    "crisalida_de_renacer",
+    "politopo_infernal",
+    "elixir_dorado",
+    "efigie_demoniaca",
+    "arpa_de_kasbiel",
+    "infernosfera",
+    "dedo_real",
+    "codice_luminis",
+    "corona_lugubre"
+  ],
+  "gear": [
+    "renacer",
+    "inmortal",
+    "regeneracion",
+    "guardian",
+    "piel-de-piedra"
+  ],
+  "uses": null,
+  "stats": {
+    "hp": 21810,
+    "speed": 109,
+    "attack": 826,
+    "defense": 1299,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Lanza de Serenidad (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Curación +10%",
+        "Nivel 4: Daño +15%",
+        "Nivel 5: Curación +10%"
+      ],
+      "multiplier": "6xATK. Curación 0.1xHP",
+      "description": "Ataca a 1 enemigo con 1 aliado al azar de la facción de los Argonitas. El aliado que se une al ataque usa su habilidad base.\n\n Cura a todos los aliados el 10% del MAX HP de este campeón."
+    },
+    {
+      "name": "Don de Thalass",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 3: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "bloquear-debufos",
+        "fervor"
+      ],
+      "description": "Elimina todos los debufos de todos los aliados y les aplica un bufo de [Bloquear Debufos] y un bufo de [Fervor]."
+    },
+    {
+      "name": "Reanimación Gloriosa",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 3: Tiempo de Reutilización -1",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 7,
+      "buffDebuff": [
+        "fortalecer-2",
+        "aumentar-vel-2"
+      ],
+      "description": "Revive a todos los aliados muertos con el 50% del HP y el 50% de barra de turno.\n\n Aplica un bufo de 25% de Fortalecer y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos."
+    },
+    {
+      "name": "Escudo de las Argólidas (Pasiva)",
+      "buffDebuff": [
+        "escudo-habilidad"
+      ],
+      "description": "Cada vez que un aliado recibe un debufo, aplica un bufo de [Escudo] a dicho aliado del 20% de su MAX HP durante 1 turno.\n\n Llena un 15% las barras de turno de todos los aliados al final del turno de este campeón."
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados en todas las batallas en 50."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/pallas-la-gloriosa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

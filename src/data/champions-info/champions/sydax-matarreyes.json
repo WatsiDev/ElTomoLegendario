@@ -1,0 +1,93 @@
+{
+  "slug": "sydax-matarreyes",
+  "name": "Sydax Matarreyes",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Tanque con bastantes debufos y bufos interesantes y versátiles. ",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=K3xlp31GcLA",
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": "Muy bueno en sitios concretos debido a su pasiva de no recibir daño reflejado. Por ejemplo en quimera contra la molesta forma del carnero",
+  "stats": {
+    "hp": 18825,
+    "speed": 99,
+    "attack": 859,
+    "defense": 1465,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 20
+  },
+  "skills": [
+    {
+      "name": "Cortacarne (DEF)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Probabilidad Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad Bufo/Debufo +10%"
+      ],
+      "buffDebuff": [
+        "red-atk-2",
+        "vinculo-de-dolor"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 80% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] y un dbeufo de [Vinculo de Dolor] durante 2 turnos."
+    },
+    {
+      "name": "Decapitador Brutal (DEF)(MAX HP del Enemigo)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Probabilidad Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad Bufo/Debufo +15%",
+        "Nivel 6: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "red-def-2",
+        "red-vel-2"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n El primer ataque tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos. El segundo ataque tiene un 75% de probabilidad de aplicar un debufgo de 30% de [Reducir VEL] durante 2 turnos."
+    },
+    {
+      "name": "Vínculo de los Esclavizados",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 3: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "aumentar-def-2",
+        "aumentar-vel-2",
+        "proteccion-de-aliado"
+      ],
+      "description": "Aplica un bufo de 60% de [Aumentar DEF] y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos. También aplica un bufo de 50% de [Protección de Aliado] a todos los aliados excepto este campeón durante 2 turnos."
+    },
+    {
+      "name": "Resiliencia Adquirida (Pasiva)",
+      "description": "Este campeón recibe un 10% menos de daño por cada aliado un bufo de [Protección de Aliado].\n\n Este campeón es inmune a debufos de [Vínculo de Dolor] y al daño de bufos de [Reflejar Daños] o efectos pasivos de Reflejar Daño."
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/sydax-matarreyes.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "mavara-la-pitonisa",
+  "name": "Mavara la Pitonisa",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Apoyo interesante capaz de aplicar Fervor así como darles capacidad de hacer cargas. También revive y bufea",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=ugdYq5lQFo8",
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "empunadura_sacra",
+    "mano_de_descrear",
+    "plumaje_dorado",
+    "estrellas_jinang",
+    "servidumbre_de_xibia",
+    "crisalida_de_renacer",
+    "efigie_demoniaca",
+    "infernosfera",
+    "arpa_de_kasbiel",
+    "sombra_encaramada",
+    "corona_lugubre",
+    "cristal_de_exanima"
+  ],
+  "gear": [
+    "proteccion",
+    "mercurial"
+  ],
+  "uses": "Muy versátil para casi todo el contenido. Arenas en equipos de ir segundo, oleadas y jefes, ya que aporta buenos bufos, curas y revive.",
+  "stats": {
+    "hp": 22305,
+    "speed": 110,
+    "attack": 892,
+    "defense": 1200,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Golpea a mi Señal (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Daño +5%",
+        "Nivel 5: Daño +5%"
+      ],
+      "buffDebuff": [
+        "fervor"
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo.\n\n Aplica un bufo de [Fervor] durante 2 turnos a un aliado aleatorio excepto a este campeón. Si el aliado elegido ya está bajo un bufo de [Fervor], lo aplica a otro aliado elegido aleatoriamente.\n\n[Efecto Pasivo]\n\n Los aliados bajo un bufo de [Fervor] tienen un 50% de probabilidad de unirse a los ataques de otros aliados con bufos de [Fervor]. Este campeón no se unirá a ataques aliados. Si hay multiples campeones en el equipo con esta habilidad, solo una se activará. Esta habilidad no se activará en copias duplicadas de este campeon, si este campeón en particular está muerto."
+    },
+    {
+      "name": "Nexo de Seda",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 2: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "fortalecer-2",
+        "aumentar-res-2"
+      ],
+      "description": "Aplica un bufo de [Fortalecer] y un bufo de 50% de [Aumentar RES] a todos los aliados durante 2 turnos. También iguala los niveles de HP de todos los aliados. Los niveles de HP de todos los aliados se igualarán al nivel de HP del aliado con más HP."
+    },
+    {
+      "name": "Susurros de las Telas",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 3: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "velo-perfecto",
+        "inmortal"
+      ],
+      "description": "Revive a un aliado con 50% de HP y 50% de barra de turno.\n\n Luego aplica un bufo de [Velo Perfecto] a todos los aliados excepto a este campeón durante 2 turnos. También aplica un bufo de [Inmortal] a este campeón durante 2 turnos. Estos bufos se aplican aunque esta habilidad no reviva a ningún aliado."
+    },
+    {
+      "name": "Theridine Visions (Pasiva)",
+      "description": "Por cada 8 bufos que recibe el equipo enemigo, aumenta la barra de turno de todos los aliados un 20%.\n\n Por cada 16 bufos que este campeón y sus aliados reciben, cura a todos los aliados el 20% de su MAX HP."
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL aliados en Arenas en 28% ."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/mavara-la-pitonisa.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

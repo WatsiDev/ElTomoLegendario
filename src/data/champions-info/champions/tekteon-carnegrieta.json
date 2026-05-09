@@ -1,0 +1,103 @@
+{
+  "slug": "tekteon-carnegrieta",
+  "name": "Tekteon Carnegrieta",
+  "faction": "Argonitas",
+  "rarity": "Legendario",
+  "role": "Nuker de HP, capaz de autoprotegerse con Nubes de Veneno, control y proporcionar Escudos protegidos a aliados",
+  "type": "HP",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=K3xlp31GcLA",
+  "blessings": [
+    "Desgarro-Aplastante",
+    "segar-almas"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "vial_del_sombrerero"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "parada-rapida",
+    "mercurial",
+    "piel-de-piedra"
+  ],
+  "uses": null,
+  "stats": {
+    "hp": 22305,
+    "speed": 98,
+    "attack": 705,
+    "defense": 1387,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Cuchillas de Grieta (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Probabilidad Bufo/Debufo +10%"
+      ],
+      "buffDebuff": [
+        "aturdir"
+      ],
+      "multiplier": "?xHP",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n Tiene un 25% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno."
+    },
+    {
+      "name": "Presencia Volcánica (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +15%",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "romper-2"
+      ],
+      "multiplier": "?xHP",
+      "description": "Ataca 2 veces a todos los enemigos. Antes de atacar, aplica un bufo de 15% de [Romper] a este campeón durante 2 turnos. Ignora bufos de [Escudo], [Fortalecer] y [Aumentar DEF].\n\n Cada ataque aumenta 2 turnos los tiempos de Reutilización de todas las habilidades enemigas."
+    },
+    {
+      "name": "Baluarte Llameante",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 3: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "burlon",
+        "nube-venenosa",
+        "escudo-habilidad"
+      ],
+      "description": "Aplica un bufo de [Burlón] y un bufo de [Nube de Veneno] a este campeón durante 3 turnos. También aplica un bufo protegido de [Escudo] del 30% de MAX HP de este campeón a todos los aliados durante 2 turnos.\n\n Luego obtén un turno adicional."
+    },
+    {
+      "name": "Aliento Sulfuroso (Pasiva)",
+      "buffDebuff": [
+        "nube-de-veneno"
+      ],
+      "description": "Al comienzo de cada ronda, aplica un bufo de [Nube de Veneno] a este campeón durante 1 turno.\n\n Reduce un 50% el daño que recibe este campeón de críticos.\n\n Cada vez que un enemigo ataca a este campeón, aumenta un 5% MAX HP de este campeón. Los ataques débiles aumentan un 10% de MAX HP de este campeón en vezs de un 5%. Se acumula hasta el 100%."
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/tekteon-carnegrieta.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

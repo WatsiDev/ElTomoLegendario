@@ -1,0 +1,107 @@
+{
+  "slug": "baerd-el-ancho",
+  "name": "Baerd el Ancho",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Tanque-curador incitador que reparte daño entre los enemigos con Vínculo del Dolor. Cuenta con mucho potencial de curar también tanto en A1 como en pasiva",
+  "type": "Defensa",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "defensa-impecable",
+    "jaula-de-rayos"
+  ],
+  "relics": [
+    "yelmotorre",
+    "elixir_dorado",
+    "filos_de_akumori",
+    "eternizalmas"
+  ],
+  "gear": [
+    "incitar",
+    "punteria",
+    "percepcion",
+    "bestial",
+    "defensa"
+  ],
+  "uses": "Facciones y oleadas principalmente",
+  "stats": {
+    "hp": 19155,
+    "speed": 100,
+    "attack": 903,
+    "defense": 1398,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Amigo Feroz (DEF)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Daño +10%"
+      ],
+      "buffDebuff": [
+        "curacion-continua-2"
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Aplica un bufo de 15% de [Curación Continua] a este campeón y al aliado con menos HP, excepto este campeón, durante 1 turno."
+    },
+    {
+      "name": "Leñador Ladrón (DEF)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad Bufo/Debufo +15%",
+        "Nivel 5: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "multiplier": "2xDEF",
+      "description": "Ataca a 1 enemigo 3 veces.\n\n El primer ataque tiene un 75% de probabilidad de robar todos los bufos del objetivo. El segundo ataque traspasa todos los debufos de este campeón al objetivo. El tercer ataque aplica un efecto de [Contagiar Debufos] que contagia todos los debufos del objetivo al resto de enemigos."
+    },
+    {
+      "name": "Fuerza de Bucklan",
+      "levels": [
+        "Nivel 2: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 3:Probabilidad de Bufo/Debufo +15%",
+        "Nivel 4: Tiempo de Reutilización -1",
+        "Nivel 5: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "incitar",
+        "vinculo-de-dolor",
+        "contraataque"
+      ],
+      "multiplier": "4.8xDEF",
+      "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de [Incitar] a todos los enemigos durante 1 turno. Tiene un 75% de probabilidad de aplicar un debufo de [Vinculo de Dolor] a todos los enemigos durante 2 turnos. El debufo de [Vínculo de Dolor] refleja el 45% del daño hecho.\n\n Aplica un bufo de [Contraataque] a este campeón y al aliado con más D.Crit durante 2 turnos."
+    },
+    {
+      "name": "Discípulo de Padraig (Pasiva)",
+      "buffDebuff": [
+        "aumentar-def-2"
+      ],
+      "multiplier": "Curación 0.4xDaño hecho",
+      "description": "Cura a todos los aliados el 40% del daño que recibe este campeón.\n\n Al final del turno de este campeón, aplica un bufo de 60% de [Aumentar DEF] a este campeón durante 1 turno."
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/baerd-el-ancho.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

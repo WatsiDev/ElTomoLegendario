@@ -1,0 +1,95 @@
+{
+  "slug": "nagis-garfioabismo",
+  "name": "Nagis Garfioabismo",
+  "faction": "Argonitas",
+  "rarity": "Epico",
+  "role": "Tanque con bastante control y un par de bufos defensivos",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": "Buena para controlar facciones y oleadas en early y mid. En late game puede servir en algún piso específico de la Ciudad Maldita y Torre del Destino",
+  "stats": {
+    "hp": 17175,
+    "speed": 98,
+    "attack": 892,
+    "defense": 1266,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Atrapar Presa (DEF)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Prob. Bufo/Debufo +10%",
+        "Nivel 4: Daño +10%",
+        "Nivel 5: Prob. Bufo/Debufo +10%"
+      ],
+      "buffDebuff": [
+        "incitar"
+      ],
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 40% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno."
+    },
+    {
+      "name": "Purga de Marea",
+      "levels": [
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 2: Tiempo de Reutilización -1",
+        "Nivel 3: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "proteccion-de-aliado-2",
+        "fortalecer-2",
+        "aumentar-atk-2"
+      ],
+      "description": "Elimina todos los debufos de este campeón y de un aliado objetivo.\n\n Aplica un bufo de 50% de [Protección de Aliado], un bufo de 25% de [Fortalecer] y un bufo de 50% de [Aumentar ATK] al aliado objetivo durante 2 turnos.\n\n Luego llena las barras de turno de este campeón y del aliado objetivo."
+    },
+    {
+      "name": "Asalto de Serpiente Marina (DEF)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Tiempo de Reutilización -1",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "aturdir",
+        "debilitar-2"
+      ],
+      "multiplier": "4xDEF",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 80% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos. También tiene un 40% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno."
+    },
+    {
+      "name": "Poder Tritóneo (Pasiva)",
+      "buffDebuff": [
+        "aumentar-vel-2"
+      ],
+      "description": "[Efecto Activo]\n\n Cada vez que un enemigo ataca a este campeón, cura a todos los aliados el 10% de su MAX HP y llena un 10% sus barras de turno. Cada vez que un enemigo ataca a este campeón, también aplica un bufo de 30% de [Aumentar VEL] a todos los aliados durante 1 turno."
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en 25%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/nagis-garfioabismo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

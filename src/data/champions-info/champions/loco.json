@@ -1,0 +1,75 @@
+{
+  "slug": "loco",
+  "name": "Loco",
+  "faction": "Enanos",
+  "rarity": "Raro",
+  "role": "Su trabajo es hacer daño, pero se queda corto a la primera semana del juego",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal"
+  ],
+  "relics": null,
+  "gear": null,
+  "uses": "Ninguno, no se usa",
+  "stats": {
+    "hp": 14040,
+    "speed": 99,
+    "attack": 1343,
+    "defense": 749,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 57,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Acuchillar a lo Bestia (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Daño +5%",
+        "Nivel 5: Daño +10%"
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de atacar a todos los enemigos con un segundo ataque que hace el 30% del daño del primero. Este segundo ataque siempre es normal."
+    },
+    {
+      "name": "Resiliencia Demencial (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Daño +5%",
+        "Nivel 5: Daño +10%",
+        "Nivel 6: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "multiplier": "3.4xATK",
+      "description": "Ataca a todos los enemigos. Cura a este campeón el 10% del daño hecho si actualmente tiene menos del 50% de HP."
+    },
+    {
+      "name": "Estocada Bestial (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Daño +15%"
+      ],
+      "cooldown": 4,
+      "multiplier": "4.5xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 30% de DEF del objetivo. Ignora bufos de [Bloquear Daño] y [Escudo]"
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/loco.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

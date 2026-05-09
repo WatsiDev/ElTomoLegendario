@@ -1,0 +1,171 @@
+{
+  "slug": "marquesa-sangrienta-mina",
+  "name": "Marquesa Sangrienta Mina",
+  "faction": "No Muertos",
+  "rarity": "Mítico",
+  "role": "Nuker con control y muchos debufos",
+  "type": "Ataque / Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "malleos_de_fuego",
+    "mirada_del_gato",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "letal",
+    "despiadado",
+    "salvaje",
+    "instinto",
+    "salvaje"
+  ],
+  "uses": "Pega fuerte en general, pero tiene problemas debido a su pasiva que no acaba de funcionar del todo bien. Ni es top en arenas ni es top en PvE ni jefes",
+  "stats": null,
+  "skills": null,
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en todas las batallas en 35%."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 18165,
+        "speed": 110,
+        "attack": 1487,
+        "defense": 1156,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Espinaodio (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "2.3xATK",
+          "description": "Ataca 2 veces a 1 enemigo.\n\n Repite el ataque contra el enemigo con más barra de turno si el objetivo inicial tiene un debufo de [Chupar Sangre]."
+        },
+        {
+          "name": "Acero Carmesí (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aturdir"
+          ],
+          "multiplier": "4.5xATK",
+          "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de [Aturdir] durante 1 turno y reduce un 50% las barras de turno de todos los enemigos. Los objetivos que tienen menos ATK que este campeón no puede resistir estos efectos."
+        },
+        {
+          "name": "Vórtice de Sangre (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "chupar-vida",
+            "red-atk-2"
+          ],
+          "multiplier": "4.5xATK",
+          "description": "Ataca a todos los enemigos. Antes de atacar, elimina todos los bufos de los enemigos. Los objetivos que tienen menos ATK que este campeón no pueden resistir este efecto.\n\n Aplica un debufo de [Chupar Sangre] y un debufo de 50% de [Reducir ATK] a todos los enemigos durante 2 turnos. Los objetivos que tienen menos ATK que este campeón no pueden resistir estos debufos."
+        },
+        {
+          "name": "Metamorfosis (Pasiva)",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa cada vez que este campeón revive por una habilidad, un efecto o un bufo de [Revivir al Morir].\n\n Luego obtén un turno adicional"
+        },
+        {
+          "name": "Máquina de Asesinar (Pasiva)(MAX HP del enemigo)",
+          "levels": [],
+          "description": "Cada vez que se llena la barra de turno de un enemigo, este campeón hace daño puro a ese enemigo equivalente a 3% de su MAX HP por cada 10% de barra de turno llenada. Si el enemigo tiene un debufo de [Chupar Sangre], el daño puro es equivalente al 6% de su MAX HP en lugar del 3%. Este daño no puede ser crítico e ifnora bufos de [Piel de Piedra], [Protección de Aliado], [Escudo], [Fortalecer] y [Fervor], acumulaciones de [Armadura de Hueso] y cualquier habilidad o efecfto que modifique el daño. Si el enemigo es un jefe, el daño no puede superar 50 000HP por ataque.\n\n Cada vez qeu se llena la barra de turno de un enemigo, también le destruye 3 VEL por cada 10% de Barra de turno llenada (se acumula hasta 100). Si el enemigo tiene un debufo de [Chupar Sangre], destruye 6 VEL por cada 10% de barra de turno llenada en lugar de 3. Este efecto no funciona contra jefes.\n\n Revive a este campeón con el 100% de HP cada 2 turnos si hay al menos 1 aliado vivo, 1 vez por ronda, revive al instante a este campeón con el 100% de HP si todos los aliados están muertos."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 15690,
+        "speed": 110,
+        "attack": 1905,
+        "defense": 903,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Aguja Temible (ATK)(VEL)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "ATKx(0.5xVEL/100)",
+          "description": "Ataca 2 veces a 1 enemigo.\n\n Ignora el 10% de DEF. Ignora el 20% de DEF en lugar de lo anterior si el objetivo tiene menos ATK que este campeón.\n\n Esta habilidad hace +5% de daño por cada debufo que tiene el objetivo."
+        },
+        {
+          "name": "Espadas Serradas (ATK)(VEL)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "ATKx(0.75xVEL/100)",
+          "description": "Ataca 2 veces a 1 enemigo.\n\n Ignora el 50% de DEF. Ignora el 100% de DEF en lugar de lo anterior si el objetivo tiene menos ATK que este campeón.\n\n También ignora bufos de [Bloquear Daño] e [Inmortal] si el objetivo tiene un debufo de [Curación Reducida].\n\n Si esta habilidad mata a un enemigo, cura a este campeón el 100% de su MAX HP y repite el ataque contra un objetivo aleatorio que tenga un debufo de [Miedo] o [Miedo de Verdad]. Ocurre una vez por habilidad."
+        },
+        {
+          "name": "Mil Alas (ATK)(VEL)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "curacion-reducida-2",
+            "miedo-de-verdad"
+          ],
+          "multiplier": "ATKx(1xVEL/100)",
+          "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de 100% de [Curación Reducida] y un debufo de [Miedo de Verdad] a todos los enemigos durante 2 turnos. Ignora bufos de [Bloquear Debufos]. Los objetivos que tienen menos ATK que este campeón no pueden resistir estos debufos.\n\n También ignora el 20% de DEF de cada objetivo que tenga menos ATK que este campeón."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base.\n\n Luego obtén un turno adicional"
+        },
+        {
+          "name": "Impulsada por Sangre (Pasiva)",
+          "description": "Cura a este campeón el 1% de su MAX HP por cada 1% de barra de turno que se llenen los enemigos. Si este campeón tiene más ATK que el enemigo, la curación es del 2% por cada 1% de barra de turno que llenen los enemigos en lugar del 1%.\n\n Este campeón obtiene 3 VEL por cada 1% de barra de turno que llenen los enemigos (se acumula hasta 100). Si este campeón tiene mas ATK que el enemigo, obtiene 6 VEL por cada 1% de barra de turno que llenen los enemigos en lugar de 3."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/marquesa-sangrienta-mina.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "kosk-dos-pieles",
+  "name": "Kosk Dos Pieles",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Nuker con capacidad de aplicar y activar venenos",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "elixir_aracnido",
+    "vara_de_esporas",
+    "lente_intangible",
+    "garra_malefica",
+    "bomba_de_terror",
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "despiadado",
+    "bestial",
+    "cruel"
+  ],
+  "uses": "Decente contra jefes y limpiado oleadas aplicando venenos, golpes en área y activación de venenos",
+  "stats": {
+    "hp": 15690,
+    "speed": 99,
+    "attack": 1542,
+    "defense": 991,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Hoz Envenenada (ATK)",
+      "levels": [
+        "Nivel 2: Daño +20%",
+        "Nivel 3: Probabilidad Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad Bufo/Debufo +15%"
+      ],
+      "multiplier": "1.9xATK",
+      "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque tiene un 15% de probabilidad de aumentar 1 turno la duración de todos los debufos del enemigo. Si el segundo ataque no aumenta la duración de todos los debufos del enemigo, activa inmediatamente todos los debufos de [Veneno] del objetivo."
+    },
+    {
+      "name": "Se Arrepentirán (ATK)",
+      "levels": [
+        "Nivel 2: Daño +20%",
+        "Nivel 3: Probabilidad Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad Bufo/Debufo +15%",
+        "Nivel 5: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "aumentar-punt-2",
+        "sensibilidad-al-veneno-2",
+        "veneno-2"
+      ],
+      "multiplier": "2.9xATK",
+      "description": "Ataca 2 veces a 1 enemigo. Antes de atacar, aplica un bufo de 50% de [Aumentar PUNT] a este campeón durante 2 turnos.\n\n El primer ataque tiene un 75% de probabilidad de aplicar un debufo de 25% de [Sensibilidad al Veneno] y dos debufos de 5% de [Veneno] durante 2 turno.\n\n El segundo ataque aplica un efecto de [Contagiar Debufos] que contagia todos los debufos de [Veneno] y [Sensibilidad al Veneno] del objetivo al resto de enemigos."
+    },
+    {
+      "name": "Vitriolo Tóxico (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "red-atk-2"
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de 50% de [Reducir ATK] a todos los enemigos durante 2 turnos. Aumenta un 20% de Barra de Turno de este Campeón por cada debufo de [Reducir ATK] aplicado.\n\n Activa inmediatamente todos los debufos de [Veneno] de todos los enemigos."
+    },
+    {
+      "name": "Inmunidad Asimilada (Pasiva)",
+      "description": "Este Campeón es inmune a debufos de [Veneno], [Aturdir] y [Reducir VEL].\n\n Este Campeón hace +5% de daño (se acumula hasta el 50%) y tiene +3% de Ignorar DEF (se acumula hasta el 30%) por cada debufo del grupo enemigo.\n\n Siempre que este campeón es atacado por un enemigo que tiene un debufo aplicado por este campeón, contraataca usando su habilidad base."
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de Aliados en todas las batallas en 70"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/kosk-dos-pieles.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

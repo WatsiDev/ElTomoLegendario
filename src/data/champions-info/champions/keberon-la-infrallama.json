@@ -1,0 +1,112 @@
+{
+  "slug": "keberon-la-infrallama",
+  "name": "Keberon la Infrallama",
+  "faction": "Argonitas",
+  "rarity": "Legendario",
+  "role": "Nuker, capaz de quemar HP y bloquear revivir",
+  "type": "Ataque",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=kfT9st3IZ3M",
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "malleos_de_fuego",
+    "mirada_del_gato",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "despiadado",
+    "piel-de-piedra",
+    "cruel",
+    "letal",
+    "salvaje",
+    "instinto",
+    "dano-critico"
+  ],
+  "uses": "Golem de hielo, quizá arenas. Oleadas. No es malo pero no lo veo nuker top meta",
+  "stats": {
+    "hp": 15030,
+    "speed": 99,
+    "attack": 1454,
+    "defense": 1123,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Desgarro Ígneo (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Daño +15%",
+        "Nivel 5: Daño +5%"
+      ],
+      "buffDebuff": [
+        "red-def-2"
+      ],
+      "multiplier": "1.8xATK",
+      "description": "Ataca 2 veces a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.\n\n Tiene un 50% de probabilidad de atacar con esta habilidad cada vez que se activa un debufo de [Quemar HP] en un enemigo. Una vez por turno."
+    },
+    {
+      "name": "Marca Abrasadora (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "marca-de-la-muerte"
+      ],
+      "multiplier": "2.8xATK",
+      "description": "Ataca 2 veces al 1 enemigo. Antes de atacar, aplica un debufo de [Marca de Muerte] al objetivo durante 2 turnos.\n\n Ignora bufos de [Inmortal] y [Escudo] además del 25% de DEF del objetivo.\n\n Activa la habilidad Poder de Pyrenei de este campeón si el objetivo muere. Si el objetivo sobrevive, llena un 50% la barra de turno de este campeón."
+    },
+    {
+      "name": "Poder de Pyrenei",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Prob. Bufo/Debufo +10%",
+        "Nivel 5: Prob. Bufo/Debufo +10%",
+        "Nivel 6: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "aumentar-punt-2",
+        "quemar-hp"
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [QUemar HP] a todos los enemigos durante 2 turnos.\n\n Llena un 20% la Barra de Turno de este campeón por cada debufo de [Quemar HP] aplicado a enemigos y llena un 10% la barra de turno de este campeón por cada debufo de [Quemar HP] resistido por enemigos."
+    },
+    {
+      "name": "Protección de la Infrallama (Pasiva)",
+      "buffDebuff": [
+        "miedo-de-verdad"
+      ],
+      "description": "[Efecto Activo]\n\n Activa un efecto de [Retrasar] en este campeón cada vez que recibe un ataque letal.\n\n[Efecto Pasivo]\n\n Cura a este campeón el 20% de su MAX HP cada vez que se activa un debufo de [Quemar HP] en un enemigo.\n\n Cada vez que un debufo de [Quemar HP] vence o ese eliminado de un enemigo, aplica un debufo de [Miedo de Verdad] a dicho enemigo durante 1 turno."
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 28%."
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/keberon-la-infrallama.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

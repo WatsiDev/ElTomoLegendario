@@ -1,0 +1,167 @@
+{
+  "slug": "sabrael-la-lejana",
+  "name": "Sabrael la Lejana",
+  "faction": "Altos Elfos",
+  "rarity": "Mítico",
+  "role": "Controlador y limpiador de bufos enemigo en la forma base. En su forma alternativa es un nuker que pega más fuerte en función de habilidades enemigas en tiempo de reutilización",
+  "type": "Apoyo / ATK",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=3cPx-V0ZRYQ",
+  "blessings": null,
+  "relics": [
+    "varita_de_sumision",
+    "mirada_de_gato",
+    "rostro_inmortal",
+    "bomba_de_terror",
+    "apagador_de_esencia",
+    "lente_intangible",
+    "dados_diabolicos"
+  ],
+  "gear": [
+    "mercurial",
+    "supersonico",
+    "letal",
+    "fervor",
+    "piel-de-piedra"
+  ],
+  "uses": "Top en arena, en prácticamente cualquier setup (tanto de velocidad como de ir segundo). Muy buena en oleadas también",
+  "stats": null,
+  "skills": null,
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL aliados en Arenas en 33% ."
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 23790,
+        "speed": 113,
+        "attack": 1046,
+        "defense": 1222,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Esgrima Hipnótica (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "buffDebuff": [
+            "dormir"
+          ],
+          "multiplier": "4xATK",
+          "description": "Ataca a 1 enemigo.\n\n Aplica un debufo de [Dormir] al objetivo durante 1 turno.\n\n Activa al instante esta habilidad contra el enemigo con la barra de turno más llena cuando una habilidad llena la barra de turno de un enemigo. Una vez por turno."
+        },
+        {
+          "name": "Perfección en Movimiento (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "2.2xATK",
+          "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque roba todos los bufos de todos los enemigos.\n\n Luego aplica un efecto de [Contagiar Bufos], que aplica todos los bufos de este campeón a todos los aliados."
+        },
+        {
+          "name": "Mueca de Desdén (ATK)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "chupar-vida",
+            "red-atk-2"
+          ],
+          "multiplier": "2.2xATK",
+          "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque aumenta 1 turno el tiempo de reutilización de las habilidades de todos los enemigos hasta el máximo. También reduce un 30% las barras de turno de todos los enemigos.\n\n Luego obtén un turno adicional."
+        },
+        {
+          "name": "Metamorfosis (Pasiva)",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa.\n\n Luego obtén un turno adicional"
+        },
+        {
+          "name": "¿Esto es...todo? (Pasiva)",
+          "levels": [],
+          "description": "Este campeón no recibe ningún daño al ser atacado por enemigos incluidos Jefes y sus esbirros, que no estén en su turno activo.\n\n Todos los aliados excepto este campeón haven un 3% más de daño por cada habilidad enemiga a la que este campeón haya aumentado el tiempo de reutilización (se acumula hasta un 25%). Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 18495,
+        "speed": 105,
+        "attack": 1652,
+        "defense": 969,
+        "accuracy": 0,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Ira de Superioridad (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "1.5xATK",
+          "description": "Ataca a 1 enemigo 3 veces. Ignora bufos de [Bloquear Daño] e [Inmortal].\n\n Activa inmediatamente esta habilidad contra cualquier enemigo que reciba un bufo de [Bloquer Daño] o [Inmortal], o cuya muerte se evite. Una vez por turno."
+        },
+        {
+          "name": "Alas de Ira (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "multiplier": "2.5xATK",
+          "description": "Ataca 2 veces a todos los enemigos. Antes de atacar, intercambia HP con un enemigo objetivo.\n\n Para esta habilidad, aumenta ATK de este campeón y reduce DEF de todos los enemigos en un porcentaje igual al porcentaje de HP intercambiados."
+        },
+        {
+          "name": "Llorarás (ATK)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "escudo-habilidad"
+          ],
+          "multiplier": "2.1xATK - Escudo 6xATK",
+          "description": "Ataca a todos los enemigos. Ignora el 25% de DEF.\n\n Antes de atacar, reduce un 75% la magnitud de cualquier bufo de [Piel de Piedra], [Escudo] y [Escudo de Magma]. Este efecto no se puede resistir si el objetivo tiene alguna habilidad en tiempo de reutilización.\n\n Aplica un bufo protegido de [Escudo] a este campeón durante 2 turnos. La magnitud del [Escudo] es proporcional a ATK de este campeón."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base.\n\n Luego obtén un turno adicional"
+        },
+        {
+          "name": "Contempla mi Majestuosidad (Pasiva)",
+          "description": "Los ataques de este campeón siempre son críticos contra enemigos que tengan alguna habilidad en tiempo de reutilización.\n\n Las habilidades de este campeón hacen un 3% más de daño por cada turno en tiempo de reutilización restante en todas las habilidades enemigas."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/sabrael-la-lejana.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

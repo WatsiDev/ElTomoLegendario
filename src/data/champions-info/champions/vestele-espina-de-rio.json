@@ -1,0 +1,108 @@
+{
+  "slug": "vestele-espina-de-rio",
+  "name": "Vestele Espina de Río",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Nuker con muy alto ataque que no necesita PUNT, capaz de tener turnos extra y potenciar su ignorar DEF",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=e1-oGSZmRvg",
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "corona_de_ireth",
+    "malleos_de_fuego",
+    "mirada_del_gato",
+    "invocatormentas",
+    "lente_intangible"
+  ],
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "letal",
+    "despiadado",
+    "instinto",
+    "salvaje"
+  ],
+  "uses": "Muy buena para cualquier objetivo, tanto individual como en área como jefes. Capaz de potenciar su daño y mitigar daño entrante",
+  "stats": {
+    "hp": 14700,
+    "speed": 103,
+    "attack": 1728,
+    "defense": 870,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Río Embravecido (ATK)",
+      "levels": [
+        "Nivel 2: Daño +20%",
+        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+      ],
+      "multiplier": "1.7xATK",
+      "description": "Ataca 2 veces a 1 enemigo. Antes de atacar, tiene un 50% de probabilidad de eliminar todos los bufos del objetivo. Si esta habilidad no se usa en el turno de este campeón, tiene el 100% de robar todos los bufos en lugar de lo anterior. Los objetivos que no tienen más ATK que este campeón no pueden resistir este efecto.\n\n Ignora un 5% de DEF por cada bufo que tenga este campeón."
+    },
+    {
+      "name": "Fuerza Erosiva (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "aumentar-atk-2",
+        "romper-1"
+      ],
+      "multiplier": "5.2xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] y un bufo de 15% de [Romper] a este campeón durante 2 turnos. Ignora bufos de [Bloquear Daño] y [Piel de Piedra].\n\n Obtén un turno adicional si este ataque mata a un enemigo. Si el objetivo sobrevive, llena un 30% la barra de turno de todos los aliados en lugar de lo anterior."
+    },
+    {
+      "name": "Inundación por Deshielo (ATK)",
+      "levels": [
+        "Nivel 2: Daño +20%",
+        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +15%",
+        "Nivel 5: Tiempo de Reutilización -1",
+        "Nivel 6: Tiempo de Reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "inmortal",
+        "contraataque",
+        "debilitar-2"
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos. Los objetivos que no tienen más ATK que este campeón no pueden resistir este debufo. Ignora el 25% de DEF de cada objetivo."
+    },
+    {
+      "name": "Estudiante de Glaicad (Pasiva)",
+      "levels": [],
+      "description": "Tiene un 50% de probabilidad de hacer un 100% más de daño a los enemigos que no tienen más ATK que este campeón.\n\n Este campeón sufre un 30% menos de daño de los enemigos que no tienen más ATK que este campeón."
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de los aliados en batallas de Arena en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/vestele-espina-de-rio.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
