@@ -67,16 +67,6 @@
   animation: pulse-gold-glow 2s infinite;
 }
 
-/* Clase para el fondo de imagen fijo (efecto parallax) */
-@utility bg-hero-image {
-  /* IMPORTANTE: Reemplaza esta URL por una imagen épica de Raid (ej. un loading screen sin texto) */
-  background-image: url('https://www.sendaplays.com/images/backgrounds/cover-assassins.webp');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  /* Esto hace la magia del parallax */
-}
-
 /* Un pequeño truco de diseño: Fondo con textura de viñeta */
 @utility bg-raid-vignette {
   background: radial-gradient(circle, #1a202c 0%, #0a0e14 100%);

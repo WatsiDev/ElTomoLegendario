@@ -61,7 +61,10 @@ const resolvedChampions = boss.best_champions ? boss.best_champions.map((slug: s
 
 ---
 
-<Layout title={`${boss.name} - Guía - El Tomo Legendario`}>
+<Layout 
+  title={`${boss.name} - Guía - El Tomo Legendario`}
+  description={`Guía completa para derrotar a ${boss.name} en Raid Shadow Legends. Descubre sus mecánicas, estrategias y los mejores equipos recomendados.`}
+>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 animate-fade-in">
     <!-- Breadcrumbs -->
     <nav class="mb-6 flex text-sm text-gray-400">

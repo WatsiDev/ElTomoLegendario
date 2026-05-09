@@ -24,7 +24,10 @@ const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/ass
 const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
 ---
 
-<Layout title="Facciones - El Tomo Legendario">
+<Layout 
+  title="Facciones - El Tomo Legendario"
+  description="Explora todos los campeones de Raid Shadow Legends organizados por sus facciones. Encuentra estrategias, builds y análisis detallados."
+>
   <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div class="mb-12 text-center">
       <h1

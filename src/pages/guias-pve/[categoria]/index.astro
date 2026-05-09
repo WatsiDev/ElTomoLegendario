@@ -34,7 +34,10 @@ const { bosses, categoryData } = Astro.props;
 const pageTitle = categoryData.title;
 ---
 
-<Layout title={`${pageTitle} - Guías PvE - El Tomo Legendario`}>
+<Layout 
+  title={`${pageTitle} - Guías PvE - El Tomo Legendario`}
+  description={`Guías, mecánicas y equipos recomendados para dominar los jefes de la categoría ${pageTitle} en Raid Shadow Legends.`}
+>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 animate-fade-in">
     <!-- Breadcrumbs -->
     <nav class="mb-8 flex text-sm text-gray-400">
