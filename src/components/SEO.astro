@@ -4,6 +4,7 @@ interface Props {
   description: string;
   image?: string;
   type?: string;
+  keywords?: string;
 }
 
 const {
@@ -11,6 +12,7 @@ const {
   description,
   image = '/default-og.webp',
   type = 'website',
+  keywords = 'Raid Shadow Legends, Guias, Campeones, Tier List, Español, El Tomo Legendario',
 } = Astro.props;
 
 // Determine canonical URL
@@ -20,12 +22,24 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const resolvedImageWithDomain = new URL(image, Astro.site).toString();
 
 const siteName = "El Tomo Legendario";
+const siteUrl = Astro.site ? Astro.site.toString() : Astro.url.origin;
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": siteName,
+  "alternateName": ["Tomo Legendario", "TomoLegendario"],
+  "url": siteUrl,
+  "description": "Tu fuente de guías, tier lists y herramientas para Raid: Shadow Legends en español.",
+  "inLanguage": "es"
+};
 ---
 
 <!-- Global Metadata -->
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/webp" href="/favicon.webp" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <meta name="google-site-verification" content="Dw6ZEE8PeEe1HjbzyOw2e2925WxzlWlGvbLpqnopqHM" />
@@ -38,6 +52,14 @@ const siteName = "El Tomo Legendario";
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="keywords" content={keywords} />
+<meta name="author" content={siteName} />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="Spanish" />
+<meta name="theme-color" content="#1e1e2e" />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={type} />
