@@ -18,13 +18,16 @@ const champions = Object.values(championFiles).map(
 );
 
 // Importar imágenes locales para Vite / Astro Assets
-const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/icons/factions/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/icons/factions/*.{png,jpg,jpeg,webp,svg}",
+  { eager: true },
+);
 
 // Función auxiliar para generar slugs (URLs amigables)
 const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
 ---
 
-<Layout 
+<Layout
   title="Facciones - El Tomo Legendario"
   description="Explora todos los campeones de Raid Shadow Legends organizados por sus facciones. Encuentra estrategias, builds y análisis detallados."
 >
@@ -51,7 +54,11 @@ const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
             <div class="absolute inset-0 bg-linear-to-t from-raid-gold/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
             <Image
-              src={(faction.image && factionImagesGlob[faction.image] ? factionImagesGlob[faction.image].default : faction.image || "/favicon.png") as any}
+              src={
+                (faction.image && factionImagesGlob[faction.image]
+                  ? factionImagesGlob[faction.image].default
+                  : faction.image || "/favicon.webp") as any
+              }
               alt={faction.name}
               width={80}
               height={80}

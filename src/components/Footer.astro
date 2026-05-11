@@ -1,25 +1,37 @@
 ---
+import { Image } from "astro:assets";
+import logo from "../assets/icons/favicon-no-bg.webp";
+
 // Footer component for El Tomo Legendario
 ---
 
 <footer class="bg-raid-bg border-t border-gray-700">
-	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-		<!-- Footer Content Grid -->
-		<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-			<!-- Branding -->
-			<div class="col-span-1">
-				<div class="flex items-center gap-2 mb-4">
-					<img src="/favicon.png" alt="El Tomo Legendario Logo" class="w-10 h-10 object-contain"/>
-					<div>
-						<h3 class="font-bold text-white text-lg">El Tomo Legendario</h3>
-						<p class="text-gray-400 text-xs">La comunidad de Raid en español</p>
-					</div>
-				</div>
-				<p class="text-gray-400 text-sm mt-4">
-					Tu fuente definitiva de guías, estrategias y análisis de Raid: Shadow Legends.
-				</p>
-				<!-- Social Links -->
-				<!-- <div class="flex gap-4 mt-4">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Footer Content Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <!-- Branding -->
+      <div class="col-span-1">
+        <div class="flex items-center gap-2 mb-4">
+          <Image
+            src={logo}
+            alt="El Tomo Legendario"
+            width={32}
+            height={32}
+            loading="eager"
+            decoding="async"
+            class="w-10 h-10 object-contain"
+          />
+          <div>
+            <h3 class="font-bold text-white text-lg">El Tomo Legendario</h3>
+            <p class="text-gray-400 text-xs">La comunidad de Raid en español</p>
+          </div>
+        </div>
+        <p class="text-gray-400 text-sm mt-4">
+          Tu fuente definitiva de guías, estrategias y análisis de Raid: Shadow
+          Legends.
+        </p>
+        <!-- Social Links -->
+        <!-- <div class="flex gap-4 mt-4">
 					<a href="#" class="text-gray-400 hover:text-raid-gold transition-colors">
 						<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
 							<path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 22.5c-5.799 0-10.5-4.701-10.5-10.5s4.701-10.5 10.5-10.5 10.5 4.701 10.5 10.5-4.701 10.5-10.5 10.5z"/>
@@ -36,49 +48,106 @@
 						</svg>
 					</a>
 				</div> -->
-			</div>
+      </div>
 
-			<!-- Guías -->
-			<div class="col-span-1">
-				<h4 class="font-bold text-white mb-4">Guías</h4>
-				<ul class="space-y-2">
-					<li><a href="/guias/early-game" class="text-gray-400 hover:text-raid-gold transition-colors text-sm">Early Game</a></li>
-					<li><a href="/guias/mid-game" class="text-gray-400 hover:text-raid-purple transition-colors text-sm">Mid Game</a></li>
-					<li><a href="/guias/late-game" class="text-gray-400 hover:text-raid-blue transition-colors text-sm">Late Game</a></li>
-					<li><a href="/guias-pve" class="text-gray-400 hover:text-raid-gold transition-colors text-sm">Todas las Guías</a></li>
-				</ul>
-			</div>
+      <!-- Guías -->
+      <div class="col-span-1">
+        <h4 class="font-bold text-white mb-4">Guías</h4>
+        <ul class="space-y-2">
+          <li>
+            <a
+              href="/guias/early-game"
+              class="text-gray-400 hover:text-raid-gold transition-colors text-sm"
+              >Early Game</a>
+          </li>
+          <li>
+            <a
+              href="/guias/mid-game"
+              class="text-gray-400 hover:text-raid-purple transition-colors text-sm"
+              >Mid Game</a>
+          </li>
+          <li>
+            <a
+              href="/guias/late-game"
+              class="text-gray-400 hover:text-raid-blue transition-colors text-sm"
+              >Late Game</a>
+          </li>
+          <li>
+            <a
+              href="/guias-pve"
+              class="text-gray-400 hover:text-raid-gold transition-colors text-sm"
+              >Todas las Guías</a>
+          </li>
+        </ul>
+      </div>
 
-			<!-- Campeones -->
-			<div class="col-span-1">
-				<h4 class="font-bold text-white mb-4">Campeones</h4>
-				<ul class="space-y-2">
-					<li><a href="/campeones" class="text-gray-400 hover:text-raid-gold transition-colors text-sm">Base de Campeones</a></li>
-					<li><a href="/rankings" class="text-gray-400 hover:text-raid-purple transition-colors text-sm">Rankings</a></li>
-					<li><a href="/tier-list" class="text-gray-400 hover:text-raid-blue transition-colors text-sm">Tier List</a></li>
-					<!-- <li><a href="/sinergias" class="text-gray-400 hover:text-raid-gold transition-colors text-sm">Sinergias</a></li> -->
-				</ul>
-			</div>
+      <!-- Campeones -->
+      <div class="col-span-1">
+        <h4 class="font-bold text-white mb-4">Campeones</h4>
+        <ul class="space-y-2">
+          <li>
+            <a
+              href="/campeones"
+              class="text-gray-400 hover:text-raid-gold transition-colors text-sm"
+              >Base de Campeones</a>
+          </li>
+          <li>
+            <a
+              href="/rankings"
+              class="text-gray-400 hover:text-raid-purple transition-colors text-sm"
+              >Rankings</a>
+          </li>
+          <li>
+            <a
+              href="/tier-list"
+              class="text-gray-400 hover:text-raid-blue transition-colors text-sm"
+              >Tier List</a>
+          </li>
+          <!-- <li><a href="/sinergias" class="text-gray-400 hover:text-raid-gold transition-colors text-sm">Sinergias</a></li> -->
+        </ul>
+      </div>
 
-			<!-- Legal -->
-			<div class="col-span-1">
-				<h4 class="font-bold text-white mb-4">Información</h4>
-				<ul class="space-y-2">
-					<li><a href="/sobre-nosotros" class="text-gray-400 hover:text-raid-gold transition-colors text-sm">Sobre Nosotros</a></li>
-					<li><a href="/contacto" class="text-gray-400 hover:text-raid-purple transition-colors text-sm">Contacto</a></li>
-					<li><a href="/politica-de-privacidad" class="text-gray-400 hover:text-raid-blue transition-colors text-sm">Política de Privacidad</a></li>
-					<li><a href="/terminos-y-condiciones" class="text-gray-400 hover:text-raid-gold transition-colors text-sm">Términos y Condiciones</a></li>
-				</ul>
-			</div>
-		</div>
+      <!-- Legal -->
+      <div class="col-span-1">
+        <h4 class="font-bold text-white mb-4">Información</h4>
+        <ul class="space-y-2">
+          <li>
+            <a
+              href="/sobre-nosotros"
+              class="text-gray-400 hover:text-raid-gold transition-colors text-sm"
+              >Sobre Nosotros</a>
+          </li>
+          <li>
+            <a
+              href="/contacto"
+              class="text-gray-400 hover:text-raid-purple transition-colors text-sm"
+              >Contacto</a>
+          </li>
+          <li>
+            <a
+              href="/politica-de-privacidad"
+              class="text-gray-400 hover:text-raid-blue transition-colors text-sm"
+              >Política de Privacidad</a>
+          </li>
+          <li>
+            <a
+              href="/terminos-y-condiciones"
+              class="text-gray-400 hover:text-raid-gold transition-colors text-sm"
+              >Términos y Condiciones</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-		<!-- Divider -->
-		<div class="border-t border-gray-700 pt-8">
-			<!-- Footer Bottom -->
-			<div class="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
-				<p>&copy; 2026 El Tomo Legendario. Todos los derechos reservados.</p>
-				<p>Raid: Shadow Legends es propiedad de Plarium Games.</p>
-			</div>
-		</div>
-	</div>
+    <!-- Divider -->
+    <div class="border-t border-gray-700 pt-8">
+      <!-- Footer Bottom -->
+      <div
+        class="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm"
+      >
+        <p>&copy; 2026 El Tomo Legendario. Todos los derechos reservados.</p>
+        <p>Raid: Shadow Legends es propiedad de Plarium Games.</p>
+      </div>
+    </div>
+  </div>
 </footer>

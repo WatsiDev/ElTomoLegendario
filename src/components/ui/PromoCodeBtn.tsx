@@ -63,7 +63,7 @@ export default function PromoCodeBtn() {
         >
             <span className="text-gray-400 text-xs sm:text-sm font-semibold">Nuevo Código:</span>
             <div className="relative flex items-center justify-center">
-                <div className="bg-raid-bg border border-raid-purple/50 px-3 py-0.5 rounded-full text-raid-purple font-bold tracking-wider group-hover:bg-raid-purple/20 group-hover:border-raid-purple transition-all shadow-[0_0_8px_rgba(168,85,247,0.2)] text-xs sm:text-sm flex items-center gap-2">
+                <div className="bg-raid-bg border border-raid-gold/50 px-3 py-0.5 rounded-full text-raid-gold font-bold tracking-wider group-hover:bg-raid-gold/20 group-hover:border-raid-gold transition-all shadow-[0_0_8px_rgba(168,85,247,0.2)] text-xs sm:text-sm flex items-center gap-2">
                     <span>{latestCode}</span>
                     {!copied ? (
                         <svg className="w-3 h-3 opacity-50 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>

@@ -5,7 +5,10 @@ import factionsData from "@data/champions-info/factions/factions.json";
 import { getRarityStyle } from "../../utils/rarity";
 import { Image } from "astro:assets";
 
-const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/icons/factions/*.{png,jpg,jpeg,webp,svg}", { eager: true });
+const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/icons/factions/*.{png,jpg,jpeg,webp,svg}",
+  { eager: true },
+);
 
 interface Champion {
   slug: string;
@@ -100,10 +103,10 @@ export async function getStaticPaths() {
 // Recuperamos las props
 const { factionName, factionData, groupedChampions, allChampions } =
   Astro.props as Props;
-const factionImage = factionData?.image || "/assets/favicon.png";
+const factionImage = factionData?.image || "favicon.webp";
 ---
 
-<Layout 
+<Layout
   title={`${factionName} - Campeones`}
   description={`Descubre todos los campeones de la facción ${factionName} en Raid Shadow Legends. Análisis, builds y estadísticas detalladas.`}
 >
@@ -112,7 +115,11 @@ const factionImage = factionData?.image || "/assets/favicon.png";
       class="flex flex-col md:flex-row items-center gap-8 mb-12 bg-gray-900/80 p-8 rounded-2xl border border-gray-800 shadow-2xl"
     >
       <Image
-        src={(factionData && factionData.image && factionImagesGlob[factionData.image] ? factionImagesGlob[factionData.image].default : factionImage) as any}
+        src={(factionData &&
+        factionData.image &&
+        factionImagesGlob[factionData.image]
+          ? factionImagesGlob[factionData.image].default
+          : factionImage) as any}
         alt={factionName}
         width={128}
         height={128}

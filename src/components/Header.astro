@@ -2,6 +2,8 @@
 import SearchBar from "./ui/SearchBar";
 import ActiveEvents from "./ui/ActiveEvents";
 import PromoCodeBtn from "./ui/PromoCodeBtn";
+import { Image } from "astro:assets";
+import logo from "../assets/icons/favicon-no-bg.webp";
 
 // Cargar la data de los campeones para el buscador en tiempo real
 const championFiles = import.meta.glob(
@@ -22,8 +24,9 @@ const globalEventFiles = import.meta.glob(
   "/src/data/live-ops/global-events/*.json",
   { eager: true },
 );
-const globalEvents = Object.values(globalEventFiles)
-  .map((file: any) => file.default || file);
+const globalEvents = Object.values(globalEventFiles).map(
+  (file: any) => file.default || file,
+);
 ---
 
 <header class="bg-raid-bg border-b border-gray-700 sticky top-0 z-50">
@@ -35,10 +38,10 @@ const globalEvents = Object.values(globalEventFiles)
       class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-sm gap-2 sm:gap-0"
     >
       <!-- Active Events Island -->
-      <ActiveEvents client:load events={globalEvents} />
+      <ActiveEvents client:idle events={globalEvents} />
 
       <!-- Promo Code Component (Island) -->
-      <PromoCodeBtn client:load />
+      <PromoCodeBtn client:idle />
     </div>
   </div>
 
@@ -50,9 +53,13 @@ const globalEvents = Object.values(globalEventFiles)
           <div
             class="text-2xl font-black bg-linear-to-r from-raid-gold to-raid-purple bg-clip-text text-transparent"
           >
-            <img
-              src="/favicon.png"
-              alt="El Tomo Legendario Logo"
+            <Image
+              src={logo}
+              alt="El Tomo Legendario"
+              width={32}
+              height={32}
+              loading="eager"
+              decoding="async"
               class="w-8 h-8 object-contain"
             />
           </div>
@@ -95,7 +102,7 @@ const globalEvents = Object.values(globalEventFiles)
       <!-- Search & CTA Button -->
       <div class="flex items-center gap-4">
         <div class="hidden lg:block">
-          <SearchBar client:load champs={searchData} />
+          <SearchBar client:idle champs={searchData} />
         </div>
 
         <!-- Mobile Menu Button -->
@@ -152,7 +159,7 @@ const globalEvents = Object.values(globalEventFiles)
           Comunidad
         </a> -->
         <div class="pt-2">
-          <SearchBar client:load champs={searchData} />
+          <SearchBar client:idle champs={searchData} />
         </div>
       </nav>
     </div>
@@ -182,7 +189,11 @@ const globalEvents = Object.values(globalEventFiles)
 
       // Close menu when clicking outside
       document.addEventListener("click", (event) => {
-        if (!menu.classList.contains("hidden") && !menu.contains(event.target) && !btn.contains(event.target)) {
+        if (
+          !menu.classList.contains("hidden") &&
+          !menu.contains(event.target) &&
+          !btn.contains(event.target)
+        ) {
           menu.classList.add("hidden");
           menuPath.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
         }
