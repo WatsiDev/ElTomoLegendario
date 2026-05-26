@@ -1,1 +1,16 @@
-{}
+{
+  "name": "Mimeto",
+  "slug": "mimic",
+  "category": "grim-forest",
+  "image": "/src/assets/game-modes/pve/grim-forest/mimic.webp",
+  "description": "No todo tesoro es lo que parece. Si ves un Cofre en el camino, ve con cuidado, porque puede que sea un Mimeto letal. Si lo derrotas, conseguirás una gran cantidad de recompensas, así que asegúrate de revisar todos los Cofres con los que te cruces.",
+  "mechanics": "La primera habilidad del Mimeto, Zarpazo Saqueador, es un ataque en área que hace daño puro adicional en función del número de bufos de cada objetivo. \n¡Tendrás que vigilar tus propios bufos y asegurarte de que cuando ataque no te hagas daño extra por tu propia culpa! El Mimeto también tiene la posibilidad de aplicar un debufo de [Reducir ATK], así que lleva un limpiador o asegúrate de que tus Campeones tengan RES alta para resistirlo.",
+  "best_champions": [
+    "leminisi-el-ala-dorada",
+    "lord-calavera",
+    "corazon-frio",
+    "reina-eva",
+    "mago-venenoso"
+  ],
+  "strategy": "Para lograr vencer a este jefe lo ideal sería aplicar un debufo de [Curación Reducida] para evitar que se cure, también es buena estrategia llevar un Campeón cebo que tenga la mayor cantidad de daño crítico para que el mini mimeto invocado lo ingiera y puedas realizarle daño al jefe con tus mejores Campeones, si no logras mantenerte con vida durante la larga pelea puedes llevar Campeones que te ayuden con curaciones y te mantengan con vida."
+}
