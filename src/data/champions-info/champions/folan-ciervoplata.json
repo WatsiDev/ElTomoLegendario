@@ -1,0 +1,99 @@
+{
+  "slug": "folan-ciervoplata",
+  "name": "Folan Ciervoplata",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Nuker con buena capacidad de daño, aplicación y contagio de debufos. Funciona mejor con más Vigías Silvanos en el equipo",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=DombzCZL_5A",
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "aberracion_antigua",
+    "lente_intangible",
+    "garra_malefica",
+    "bomba_de_terror",
+    "corona_de_ireth"
+  ],
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "letal",
+    "salvaje"
+  ],
+  "uses": "Facciones, oleadas e incluso arenas. Contra jefes su A1 y A3 pueden ser útiles, pero no será específico de ninguna mazmorra. Está más diseñado para arena y oleadas",
+  "stats": {
+    "hp": 18165,
+    "speed": 98,
+    "attack": 1586,
+    "defense": 782,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Heridas Perforantes (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad de bufo / debufo +10%",
+        "Nivel 4: Probabilidad de bufo / debufo +10%"
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a 1 enemigo 3 veces. \n\nCada golpe tiene un 30% de probabilidad de aumentar la duración de un debufo aleatorio del objetivo en 1 turno."
+    },
+    {
+      "name": "Atar y Pico (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Tiempo de reutilización -1",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "multiplier": "2.9xATK (por golpe)",
+      "description": "Ataca a todos los enemigos 2 veces.\n\n Hace un 10% más de daño a cada enemigo por cada debufo que tengan. Ignora bufos de [Inmortal] y [Bloquear Daño]."
+    },
+    {
+      "name": "La Ira de un Hijo (ATK)",
+      "levels": [
+        "Nivel 2: Probabilidad de bufo / debufo +10%",
+        "Nivel 3: Probabilidad de bufo / debufo +10%",
+        "Nivel 4: Tiempo de reutilización -1",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "red-def-2",
+        "bloquear-habilidades-pasivas"
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo 2 veces.\n\n El primer golpe tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos. El segundo golpe tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Habilidades Pasivas] durante 2 turnos.\n Luego, aplica un efecto de [Contagiar Debufos], cogiendo todos los debufos del objetivo y aplicándolos a todos los enemigos.\n Finalmente, ataca a todos los enemigos 1 vez. Este ataque ignorará el 20% de DEF de cada objetivo."
+    },
+    {
+      "name": "Voluntad Maliciosa (Pasiva)",
+      "description": "For cada campeón de la facción de Vigías Silvanos aliado en el equipo (incluyendo este campeón), este campeón recibe un 10% menos de daño de golpes en área y los efectos de Ignorar DEF serán un 10% menos efectivos contra él.\n\n Siempre que éste campeón ataca, tiene un 30% de probabilidad de convertir un golpe débil en un golpe normal. Esta probabilidad aumenta en 10% por cada debufo en el objetivo."
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/folan-ciervoplata.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

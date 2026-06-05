@@ -1,0 +1,100 @@
+{
+  "slug": "talenna-miralmas",
+  "name": "Talenna Miralmas",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Controlador-envenenador?  Es rara pero interesante y divertida. ",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "dosis-letal",
+    "presencia-amenazante"
+  ],
+  "relics": null,
+  "gear": [
+    "bestial",
+    "percepcion",
+    "velocidad",
+    "velocidad-divina",
+    "puntaria",
+    "mercurial",
+    "supersonico",
+    "impulso"
+  ],
+  "uses": "Va bien en oleadas, Jefes susceptibles de venenos y como controladora para poner habilidades enemigas en tiempo de reutilización así como combinar muy bien con otros envenenadores. Probablemente podamos verla en arena y podamos usarla en oleadas, dragón, etc...",
+  "stats": {
+    "hp": 19815,
+    "speed": 110,
+    "attack": 980,
+    "defense": 1277,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Invocación Agostadora (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Probabilidad de bufo / debufo +10%",
+        "Nivel 5: Probabilidad de bufo / debufo +10%"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 30% de probabilidades de activar inmedianamente 2 debufos de [Veneno] del objetivo. Si el objetivo tiene alguna habilidad en tiempo de reutilización, activa inmediatamente todos los debufos de [Veneno] del objetivo en lugar de solo dos."
+    },
+    {
+      "name": "Veo tu Maldad (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad de bufo / debufo +10%",
+        "Nivel 4: Probabilidad de bufo / debufo +15%",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "veneno-2"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidades de aplicar 2 debufos de [Veneno] a todos los enemigos durante 3 turnos.\n\n Luego aumenta las barras de turno de todos los aliados en 20%."
+    },
+    {
+      "name": "Sofocar la Oscuridad (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad de bufo / debufo +10%",
+        "Nivel 4: Probabilidad de bufo / debufo +15%",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "aumentar-punt-2"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n Tiene un 75% de probabilidad de reducir la duración de todos los bufos enemigos en 2 turnos. También tiene un 75% de probabilidad de aumentar el tiempo de reutilización de todas las habilidades enemigas en 2 turnos."
+    },
+    {
+      "name": "El Mal Mengua Ante Ella (Pasiva)",
+      "description": "Aumenta las barras de turno de los aliados en 2% siempre que un debufo de [Veneno] se active en un enemigo. Si hay multiples campeones en el equipo con esta habilidad, solo se activa una. Esta habilidad no se activará en copias de este campeón, si este campeón en particular está muerto.\n\n Reducir el P.Crit del enemigo en 5% y el D.Crit en 10% por cada debufo de [Veneno] en ellos. Este efecto no funciona contra jefes."
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/talenna-miralmas.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

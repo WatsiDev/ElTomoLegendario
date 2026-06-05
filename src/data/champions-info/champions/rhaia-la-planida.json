@@ -1,0 +1,106 @@
+{
+  "slug": "rhaia-la-planida",
+  "name": "Rhaia la Plañida",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Nuker capaz de hacer mucho daño, controlar y ser \"inmortal\" si tiene 3 bufos determinados gracias a su pasiva",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=l26p9hIEYIo",
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "garra_malefica",
+    "mirada_del_gato",
+    "corona_de_ireth",
+    "varita_de_sumision",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "piel-de-piedra",
+    "letal",
+    "mercurial",
+    "instinto",
+    "despiadado"
+  ],
+  "uses": "Principalmente arena, siendo counter de campeones equipados con 9 piezas de mercurial así como capaz de robar piel de piedra y otra cantidad de bufos enemigos. Será también muy poderosa en arenas, oleadas y tendrá buen daño contra jefes, aunque su trabajo es ese: hacer daño",
+  "stats": {
+    "hp": 14700,
+    "speed": 99,
+    "attack": 1608,
+    "defense": 991,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Angustia y Agonía (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe ignora el 15% de la DEF del objetivo. Cura a este campeón el 30% del daño hecho.\n\n Obtiene un turno adicional si este ataque mata al objetivo."
+    },
+    {
+      "name": "Legado de Desesperación (ATK)",
+      "levels": [
+        "Nivel 2: Daño +20%",
+        "Nivel 3: DProbabilidad de bufo / debufo +10%",
+        "Nivel 4: Probabilidad de bufo / debufo +15%",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "debilitar-2",
+        "aturdir"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Antes de atacar, tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] al objetivo durante 2 turnos.\n\n Ignorará el 15% de la DEF del objetivo y cualquier bufo de [Bloquear Daño]. También ignorará un 5% de DEF adicional por cada bufo en este campeón (se acumula hasta el 35%).\n\n Reduce el tiempo de reutilización de la habilidad Furia Discordante en 1 turno y aplica un debufo de [Aturdir] a todos los enemigos si este ataque mata a un enemigo. Este debufo no se puede resistir ni bloquear."
+    },
+    {
+      "name": "Furia Discordante (ATK)",
+      "levels": [
+        "Nivel 2: Daño +20%",
+        "Nivel 3: Probabilidad de bufo / debufo +10%",
+        "Nivel 4: Probabilidad de bufo / debufo +15%",
+        "Nivel 5: Tiempo de reutilización -1",
+        "Nivel 6: Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "aumentar-atk-2"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos 3 veces. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos. \n\n Cada golpe tiene un 75% de probabilidad de robar 1 bufos de cada enemigo. Llena la barra de turno de este campeón un 10% por cada bufo robado."
+    },
+    {
+      "name": "Majestad Corrompida (Pasiva)",
+      "description": "Este campeón hace un 30% más de daño mientras esté bajo 3 o más bufos.\n\n Mientras este campeón está bajo un bufo de [Aumentar ATK], un bufo de [Bloquear Debufos], y un bufo de [Velo] o [Velo Perfecto] al mismo tiempo, previene la muerte de este campeón y sus debufos y efectos instantáneos tampoco se pueden resistir."
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 35% (solo aplica a los Vigías Silvanos)"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/rhaia-la-planida.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

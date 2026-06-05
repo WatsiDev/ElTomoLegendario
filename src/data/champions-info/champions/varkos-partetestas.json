@@ -1,0 +1,97 @@
+{
+  "slug": "varkos-partetestas",
+  "name": "Varkos Partetestas",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Nuker de Defensa con multigolpes. Su kit gira en torno a contraataques y ataques de aliados",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "caido-del-cielo",
+    "Desgarro-Aplastante-6"
+  ],
+  "relics": [
+    "invocatormentas",
+    "luna_de_sangre",
+    "garra_malefica",
+    "mirada_del_gato",
+    "varita_de_sumision",
+    "lente_intangible"
+  ],
+  "gear": [
+    "salvaje",
+    "piel-de-piedra",
+    "letal",
+    "mercurial"
+  ],
+  "uses": "Principalmente Arenas y Arena en Tiempo Real por el hecho de que aplica bloquear revivir. Quizá contra Caballero de Fuego también al tener muchos golpes, pero son todos a 1 solo objetivo y no aplica debufos como para ser útil en muchos más sitios",
+  "stats": {
+    "hp": 19485,
+    "speed": 101,
+    "attack": 760,
+    "defense": 1520,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Mole Asesina (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Daño +10%"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Ignora bufos de [Inmortal].\n\n Cuando contraataque, atacará 3 veces en lugar de 2."
+    },
+    {
+      "name": "Luchador Homicida (DEF)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Daño +10%",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Ignora bufos de [Bloquear Daño] y [Escudo].\n\n Siempre que este campeón se une al ataque de un aliado, usará esta habilidad. Cuando se una al ataque de un aliado, atacará 3 veces en lugar de 2."
+    },
+    {
+      "name": "Supremacía Brutal (DEF)",
+      "levels": [
+        "Nivel 2: Tiempo de reutilización -1",
+        "Nivel 3: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "aumentar-def-2",
+        "romper-2",
+        "contraataque"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Aplica un bufo de 60% de [Aumentar DEF], un bufo de [Contraataque] y un bufo de 15% de [Romper] a este campeón durante 3 turnos.\n\n Luego, obtén un turno adicional."
+    },
+    {
+      "name": "Instrumento de Poder (Pasiva)",
+      "buffDebuff": [
+        "bloquear-revivir"
+      ],
+      "description": "Tiene un 15% de probabilidad de unirse al ataque de un aliado siempre que un aliado ataque a un enemigo. La probabilidad aumenta a 25% cuando ataque un aliado de la facción de Elfos Oscuros.\n\n Los enemigos muertos por este campeón cuando éste contraataca o se une a ataques aliados no pueden ser revividos."
+    }
+  ],
+  "aura": null,
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/varkos-partetestas.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
