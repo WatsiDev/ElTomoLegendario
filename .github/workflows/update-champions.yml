@@ -26,7 +26,7 @@ jobs:
 
       - name: Run Update Script
         env:
-          API_TOKEN: ${{ secrets.SUPABASE_API_TOKEN }}
+          API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
           node scripts/update-champions.js
 
