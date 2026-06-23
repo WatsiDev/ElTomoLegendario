@@ -1,0 +1,91 @@
+{
+  "slug": "haggibah-la-incubatriz",
+  "name": "Haggibah-la-Incubatriz",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Nuker de bombas que escalan por HP así como Quemar HP. ",
+  "type": "HP",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": [
+    "vara_de_esporas"
+  ],
+  "gear": [
+    "percepcion",
+    "redirigir",
+    "letal",
+    "punteria"
+  ],
+  "uses": "Decente en arenas contra Piel de Piedra así como oleadas",
+  "stats": null,
+  "skills": [
+    {
+      "name": "Explosión de Purificación (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+      ],
+      "buffDebuff": [
+        "quemar-hp",
+        "velo-perfecto"
+      ],
+      "multiplier": "?xHP",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Quemar HP] durante 2 turnos.\n\n Luego aplica un debufo de [Velo Perfecto] a este campeón durante 1 turno."
+    },
+    {
+      "name": "Erupción Insidiosa (HP)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +15%",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "chupar-vida"
+      ],
+      "multiplier": "?xHP",
+      "description": "Ataca a todos los enemigos.\n\n Detona instantéamente todos los debufos de [Bomba] y activa un tick de todos los debufos de [Quemar HP] a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Chupar Vida] durante 2 turnos."
+    },
+    {
+      "name": "Consumo de Larvas (HP)",
+      "levels": [
+        "Nivel 2: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 3: Probabilidad de Bufo/Debufo +15%",
+        "Nivel 4: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "bomba"
+      ],
+      "multiplier": "?xHP",
+      "description": "Roba todos los bufos de todos los enemigos.\n\n Luego tiene un 75% de probabilidad de aplicar dos debufos de [Bomba] a todos los enemigos que detonarán a los 2 turnos. Aplicará los debufos de [Bomba] que detonarán en 1 turno contra enemigos que no tengan ningún bufo."
+    },
+    {
+      "name": "Recipiente del Señor de los Insecto (Pasiva)",
+      "buffDebuff": [
+        "bomba"
+      ],
+      "description": "Este campeón es inmune a debufos de [Quemar HP] y [Bomba], y no recibirá ningún daño de debufos de [Quemar HP].\n\n Siempre que es un enemigo intente aplicar un debufo de [Aturdir], [Congelar], [Dormir], [Provocar], [Miedo], [Miedo de Verdad] o [Petrificación] a este campeón o aumentar el tiempo de reutilización de sus habilidades, aplica un debufo de [Bomba] a ese enemigo que detona tras 1 turno. Estos debufos ignorarán cualqueir bufo de [Bloquear Debufos]."
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta el HP de aliados en todas las batallas en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/haggibah-la-incubatriz.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
