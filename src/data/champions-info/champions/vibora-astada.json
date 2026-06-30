@@ -1,0 +1,86 @@
+{
+  "slug": "vibora-astada",
+  "name": "Víbora Astada",
+  "faction": "Argonitas",
+  "rarity": "Raro",
+  "role": null,
+  "type": "Apoyo",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=6v_j5Tf2K7M",
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 19155,
+    "speed": 96,
+    "attack": 804,
+    "defense": 947,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Picada de Víbora (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad de Bufo/Debufo +10%"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 30% de probabilidad de eliminar 1 debufo al azar de un aliado aleatorio."
+    },
+    {
+      "name": "Por Debajo de la Cintura (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad de Bufo/Debufo +15%",
+        "Nivel 6: Tiempo de reutilización -1",
+        "Nivel 7: Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "incitar",
+        "red-punt-2",
+        "escudo-habilidad"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca 2 veces a 1 enemigo.\n\n El primer ataque tiene un 75% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. El segundo ataque tiene un 75% de probabilidad de aplicar un debufo de 25% de [Reducir PUNT] durante 2 turnos.\n\n Luego aplica un bufo de [Escudo] del 20% de MAX HP de este campeón a este campeón durante 2 turnos."
+    },
+    {
+      "name": "Sociedad Guerrera (ATK)",
+      "levels": [
+        "Nivel 2: Tiempo de reutilización -1",
+        "Nivel 3: Tiempo de reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "bloquear-debufos",
+        "aumentar-punt-2"
+      ],
+      "description": "Aplica un bufo de [Bloquear Debufos] a todos los aliados durante 1 turno y un bufo de 25% de [Aumentar PUNT] a todos los aliados durante 2 turnos."
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 30"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/vibora-astada.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

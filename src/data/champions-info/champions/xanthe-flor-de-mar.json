@@ -1,0 +1,93 @@
+{
+  "slug": "xanthe-flor-de-mar",
+  "name": "Xanthe Flor de Mar",
+  "faction": "Argonitas",
+  "rarity": "Epico",
+  "role": "Apoyo Defensivo con bufos y debufos para algunos sitios específicos",
+  "type": "Defensa",
+  "affinity": "Fuerza",
+  "youtube_link": "https://www.youtube.com/watch?v=6v_j5Tf2K7M",
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 18495,
+    "speed": 97,
+    "attack": 738,
+    "defense": 1332,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 15
+  },
+  "skills": [
+    {
+      "name": "Flecha de Languidez (DEF)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad de Bufo/Debufo +10%"
+      ],
+      "buffDebuff": [
+        "bloquear-bufos"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Bloquear Daño] durante 2 turnos."
+    },
+    {
+      "name": "Andanada de Raíz de la Pasión (DEF)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad de Bufo/Debufo +15%",
+        "Nivel 6: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "red-atk-2"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos.\n\n Cura a todos los aliados el 5% de MAX HP de este campeón por cada debufo aplicado."
+    },
+    {
+      "name": "Amistad Generosa (DEF)",
+      "levels": [
+        "Nivel 2: Tiempo de reutilización -1",
+        "Nivel 3: Tiempo de reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "aumentar-res-2",
+        "curacion-continua-2"
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar RES] y un bufo protegido de 15% de [Curación Continua] a todos los aliados durante 2 turnos."
+    },
+    {
+      "name": "Remedio Natural (Pasiva)",
+      "buffDebuff": [
+        "curacion-continua-1"
+      ],
+      "description": "Elimina 1 debufo al azar de este campeón al comienzo de su turno. Cuando elimina un debufo de esta forma, aplica un bufo de 7.5% de [Curación Continua] a este campeón durante 2 turnos."
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en Criptas de Facción en 30%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/xanthe-flor-de-mar.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

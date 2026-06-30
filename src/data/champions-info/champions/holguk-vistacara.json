@@ -1,0 +1,94 @@
+{
+  "slug": "holguk-vistacara",
+  "name": "Holguk Vistacara",
+  "faction": "Orcos",
+  "rarity": "Legendario",
+  "role": null,
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=6v_j5Tf2K7M",
+  "blessings": null,
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer"
+  ],
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 19650,
+    "speed": 105,
+    "attack": 947,
+    "defense": 1321,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 20
+  },
+  "skills": [
+    {
+      "name": "Bastonazo de Calaveras (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad de Bufo/Debufo +10%"
+      ],
+      "buffDebuff": [
+        "red-p-crit-2",
+        "red-d-crit-2"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 80% de probabilidad de aplicar un debufo de 30% de [Reducir P.Crit] durante 2 turnos. También aplica un debufo de 25% de [Reducir D.Crit] durante 2 turnos si el objetivo tiene un debufo de [Maleficio]"
+    },
+    {
+      "name": "Maleficio Sacro (DEF)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +15%",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        "bloquear-bufos",
+        "maleficio"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de reducir 2 turnos la duración de todos los bufos de todos los enemigos.\n\n También tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] y un debufo de [Maleficio] a todos los enemigos durante 2 turnos. El debufo de [Maleficio] no se puede eliminar, robar ni traspasar."
+    },
+    {
+      "name": "Voz de Espíritus",
+      "levels": [
+        "Nivel 2: Tiempo de reutilización -1",
+        "Nivel 3: Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "revivir-al-morir",
+        "escudo-habilidad"
+      ],
+      "description": "Revive a todos los aliados muertos con el 50% de HP y el 50% de barra de turno.\n\n Aplica un bufo de [Revivir al Morir] a todos los aliados durante 1 turno y un bufo de [Escudo] del 30% de MAX HP de este campeón a todos los aliados durante 2 turnos."
+    },
+    {
+      "name": "Líder de Exiliados (Pasiva)",
+      "description": "Cuando un bufo de [Revivir al Morir] revive a un aliado, llena un 50% la barra de turno.\n\n Cuando un enemigo con un debufo de [Maleficio] muere, reduce un 25% la barra de turno de todos los enemigos.\n\n Reduce un 20% de P.Crit de los enemigos que tengan un debufo de [Maleficio]. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón."
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en batallas de Arena en 28%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/holguk-vistacara.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

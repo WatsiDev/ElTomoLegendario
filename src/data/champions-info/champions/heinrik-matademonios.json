@@ -1,0 +1,164 @@
+{
+  "slug": "heinrik-matademonios",
+  "name": "Heinrik Matademonios",
+  "faction": "Orden Sagrada",
+  "rarity": "Mítico",
+  "role": null,
+  "type": "Defensa / HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=6v_j5Tf2K7M",
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": null,
+  "skills": null,
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 25%"
+    }
+  ],
+  "lore": null,
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 19980,
+        "speed": 105,
+        "attack": 936,
+        "defense": 1586,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Maza Santificada (DEF)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "multiplier": "?xDEF",
+          "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque reduce un 10% la barra de turno del objetivo. La reducción es del 20% en lugar del 10% si el objetivo tiene un debufo de [Aturdir], [Dormir], [Oveja], [Miedo], [Miedo de Verdad], [Incitar], [Congelar] o [Petrificación]."
+        },
+        {
+          "name": "¡Fuera, Mal! (DEF)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aturdir",
+            "red-vel-2"
+          ],
+          "multiplier": "?xDEF",
+          "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de [Aturdir] a todos los enemigos durante 1 turno y un debufo de [Reducir VEL] a todos los enemigos durante 2 turnos. Si la barra de turno del objetivo está al menos al 50% estos debufos ignoran bufos de [Bloquear Debufos]."
+        },
+        {
+          "name": "Orador de Odio",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aumentar-vel-2",
+            "aumentar-punt-2"
+          ],
+          "description": "Aplica un bufo de 30% de [Aumentar VEL] y un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n Roba el 50% de la barra de turno de cada enemigo."
+        },
+        {
+          "name": "Metamorfosis (Pasiva)",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa.\n\n Luego obtén un turno adicional"
+        },
+        {
+          "name": "Propósito Renovado (Pasiva)",
+          "levels": [],
+          "description": "Llena un 10% la barra de turno de este campeón cuando un enemigo recibe ub debufo de [Aturdir], [Dormir], [Oveja], [Miedo], [Miedo de Verdad], [Incitar], [Congelar] o [Petrificación].\n\n Cuando un aliado ataca a un enemigo con un debufo de [Aturdir], [Dormir], [Oveja], [Miedo], [Miedo de Verdad], [Incitar], [Congelar] o [Petrificación], llena un 10% la barra de turno de dicho aliado."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 23130,
+        "speed": 105,
+        "attack": 969,
+        "defense": 1343,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 20
+      },
+      "skills": [
+        {
+          "name": "Icono de Terror (HP)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%"
+          ],
+          "buffDebuff": [
+            "miedo-de-verdad"
+          ],
+          "multiplier": "?xHP",
+          "description": "Ataca a 1 enemigo.\n\n Tiene un 100% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 1 turno."
+        },
+        {
+          "name": "A Cualquier Precio (HP)",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "red-def-2",
+            "red-atk-2"
+          ],
+          "multiplier": "?xHP",
+          "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de 60% de [Reducir DEF] y un debufo de 50% de [Reducir ATK] a todos los enemigos durante 2 turnos. Los objetivos que tienen un debufo de [Aturdir], [Dormir], [Oveja], [Miedo], [Miedo de Verdad], [Incitar], [Congelar] o [Petrificación] no pueden resistir ni bloquear estos debufos."
+        },
+        {
+          "name": "Escudo de Fe",
+          "levels": [
+            "Nivel 2: Tiempo de reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "proteccion-de-aliado-2",
+            "reflejar-dano-2",
+            "aumentar-res-2",
+            "piel-de-piedra"
+          ],
+          "description": "Aplica un bufo de 50% de [Protección de Aliado] a todos los aliados, excepto a este campeón, durante 2 turnos. También aplica un bufo del 30% de [Reflejar Daño] y un bufo de 50% de [Aumentar RES] a todos los aliados durante 2 turnos.\n\n Aplica un bufo de [Piel de Piedra] a este campeón durante 2 turnos"
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base.\n\n Luego obtén un turno adicional"
+        },
+        {
+          "name": "Lumaya nos ve (Pasiva)",
+          "buffDebuff": [
+            "aturdir"
+          ],
+          "description": "Cuando un aliado con un bufo de [Protección de Aliado] ataca, cura a este campeón el 10% de su MAX HP.\n\n Siempre que un aliado ataca a un aliado con un bufo de [Protección de Aliado], tiene un 25% de probabilidad de aplicar un debufo de [Aturdir] al atacante durante 1 turno."
+        }
+      ]
+    }
+  ],
+  "image": "/src/assets/champions/heinrik-matademonios.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "guardian-de-opalo-celendiel",
+  "name": "Guardián de Ópalo Celendiel",
+  "faction": "Altos Elfos",
+  "rarity": "Legendario",
+  "role": "Nuker con potentes bufos y sinergias de inmunidades y aumento de daño si se dan ciertos bufos y debufos.",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": "https://www.youtube.com/watch?v=6v_j5Tf2K7M",
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": "Arena y oleadas contra ciertos enemigos que apliquen ciertos bufos. Facciones también puede ser interesante ya que es bastante duro y aplica Contraataque e Inmortal",
+  "stats": {
+    "hp": 17670,
+    "speed": 98,
+    "attack": 782,
+    "defense": 1619,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Estocada de Ópalo (DEF)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
+        "Nivel 5: Probabilidad de Bufo/Debufo +15%"
+      ],
+      "buffDebuff": [
+        "aturdir"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo. Al contraatacar, repite este ataque contra un enemigo al azar.\n\n Tiene un 50% de probabilidad de aplicar un debufo de `[Aturdir] durante 1 turno. Este debufo no se puede resistir."
+    },
+    {
+      "name": "Agente de la Luz (DEF)",
+      "levels": [
+        "Nivel 2: Daño +20%",
+        "Nivel 3: Tiempo de reutilización -1",
+        "Nivel 4: Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "aumentar-def-2",
+        "romper-2"
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos y un bufo de 15% de [Romper] a este campeón durante 2 turnos.\n\n Ignora el 25% de DEF, así como bufos de [Inmortal] y [Bloquear Daño]. Ignora el 50% de DEF en lugar del 25% si el objetivo tiene un bufo de [Aumentar DEF] o [Fortalecer], o un debufo de [Reducir DEF], [Aturdir], [Miedo] o [Miedo de Verdad]."
+    },
+    {
+      "name": "Defensor Eterno (DEF)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Daño +10%",
+        "Nivel 4: Tiempo de reutilización -1",
+        "Nivel 5: Tiempo de reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "inmortal",
+        "contraataque"
+      ],
+      "description": "Ataca a todos los enemigos.\n\n Ataca 1 vez más a los enemigos que tienen un debufo de [Aumentar DEF] o [Fortalecer] o un debufo de [Reducir DEF], [Aturdir] o [Miedo]. Ignora bufos de [Aumentar DEF] y [Fortalecer]. AUmenta un 5% el daño que recibe cada enemigo por cada bufo y debufo que tiene. (se acumula hasta el 100%).\n\n Aplica un bufo de [Inmortal] a todos los aliados durante 1 turno y un bufo de [Contraataque] a todos los aliados durante 2 turnos."
+    },
+    {
+      "name": "Guardián Reluciente (Pasiva)",
+      "description": "[Efecto Pasivo]\n\n Este campeón es inmune a debufo de [Reducir DEF], [Miedo] y [Aturdir].\n\n [Efecto Activo]\n\n Cuando un enemigo intenta aplicar un debufo de [Reducir DEF], [Miedo] o [Aturdir] a este campeón, activa su habilidad Agente de la Luz. No pone la habilidad Agente de la Luz en tiempo de reutilización."
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de aliados en todas las batallas en 33%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/guardian-de-opalo-celendiel.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
