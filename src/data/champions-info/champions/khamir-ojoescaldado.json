@@ -1,0 +1,91 @@
+{
+  "slug": "khamir-ojoescaldado",
+  "name": "Khamir Ojoescaldado",
+  "faction": "Ogretes",
+  "rarity": "Legendario",
+  "role": "Revividor Legendario para la facción, principalmente para Guerra de Facciones.",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": [
+    "efigie_demoniaca",
+    "crisalida_de_renacer"
+  ],
+  "gear": [
+    "velocidad",
+    "velocidad-divina",
+    "proteccion"
+  ],
+  "uses": "Principalmente facciones, pero también puede servir en otros sitios donde necesitemos revividor, aunque habrá opciones mejores para revivir",
+  "stats": {
+    "hp": 20145,
+    "speed": 110,
+    "attack": 903,
+    "defense": 1332,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Restauración Oscura (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Daño +5%",
+        "Nivel 5: Daño +5%"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo 2 veces.\n\n Cada golpe restaura el MAX HP destruido de los aliados equivalente al 5% del total de MAX HP destruído. Cada golpe también cura a todos los aliados el 5% del MAX HP de éste campeón."
+    },
+    {
+      "name": "Energía de la Penumbra",
+      "levels": [
+        "Nivel 2: Tiempo de reutilización -1",
+        "Nivel 3: Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "aumentar-atk-2",
+        "aumentar-vel-2"
+      ],
+      "description": "Llena la barra de turno de todos los aliados en 25%.\n\n Aplica un bufo de 50% de [Aumentar ATK] y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos."
+    },
+    {
+      "name": "La Muerte es Debilidad",
+      "levels": [
+        "Nivel 3: Tiempo de reutilización -1",
+        "Nivel 4: Tiempo de reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "aumentar-def-2",
+        "fortalecer-2"
+      ],
+      "description": "Revive a los aliados muertos con el 50% de HP y el 50% de Barra de turno.\n\n Aplica un bufo de 60% de [Aumentar DEF] y un bufo de [Fortalecer] a todos los aliados durante 2 turnos."
+    },
+    {
+      "name": "Celo Asesino (Pasiva)",
+      "description": "Siempre que un aliado muere, cura a este campeón el 25% de su MAX HP y llena la barra de turno de este campeón en 25%. También cura a todos los aliados el 10% del MAX HP de éste campeón y sus barras de turno en 10%."
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 20%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/khamir-ojoescaldado.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
