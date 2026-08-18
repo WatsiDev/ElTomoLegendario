@@ -1,0 +1,84 @@
+{
+  "slug": "el-espantapajaros",
+  "name": "El Espantapájaros",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Apoyo capaz de revivir, con sinergias al haber muerto campeones y autorevivir",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=z9qLPoMS_Ko",
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "accuracy": 0,
+    "critRate": 0,
+    "critDamage": 0,
+    "resistance": 0
+  },
+  "skills": [
+    {
+      "name": "Cazador de Cuervos (ATK)",
+      "levels": [
+        "Nivel 2: Daño +5%",
+        "Nivel 3: Daño +5%",
+        "Nivel 4: Probabilidad Bufo/Debufo +10%",
+        "Nivel 4: Probabilidad Bufo/Debufo +15%"
+      ],
+      "buffDebuff": [
+        "red-res-2",
+        "red-punt-2"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca 2 veces a 1 enemigo.\n\n El primer ataque tiene un 50% de probabilidad de aplicar un debufo de 50% de [Reducir RES]. El segundo ataque tiene un 50% de probabilidad de aplicar un debufo de 50% de [Reducir PUNT] durante 2 turnos. Estos debufos no se pueden resistir si ha muerto algún aliado durante este batalla (incluido este campeón)."
+    },
+    {
+      "name": "Pensamiento Astuto",
+      "levels": [
+        "Nivel 2: Tiempo de reutilización -1",
+        "Nivel 3: Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "description": "Reduce 1 turno el tiempo de reutilización de todas las habilidades de todos los aliados, excepto este campeón.\n\n Aplica un bufo de 50% de [Aumentar RES] y un bufo de [Aumentar PUNT] a todos los aliados durante 2 turnos."
+    },
+    {
+      "name": "Todo Cosido",
+      "levels": [
+        "Nivel 2: Tiempo de reutilización -1",
+        "Nivel 3: Tiempo de reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "bloquear-dano",
+        "fortificar-2"
+      ],
+      "description": "Revive a un aliado con el 50% de HP y el 50% de barra de turno, y aplica un bufo de [Bloquear Daño] a dicho aliado durante 2 turnos.\n\n También aplica un bufo de 25% de [Fortificar] a todos los aliados durante 2 turnos."
+    },
+    {
+      "name": "Cerebo de Verdad (Pasiva)",
+      "description": "[Efecto Activo]\n\n Cuando este campeón muere, revive con el 50% de HP y el 50% de Barra de turno. Luego elimina todos lso debufos de todos los aliados.\n\n[Efecto Pasivo]\n\n Este campeón es inmune a debufos de [Miedo], [Miedo de Verdad], [Incitar] y [Petrificacion] si ha muerto algún aliado durante esta batalla (incluido este campeón)."
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 60"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/el-espantapajaros.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

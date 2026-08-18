@@ -1,0 +1,98 @@
+{
+  "slug": "dorothy-gale",
+  "name": "Dorothy Game",
+  "faction": "Hidalgos",
+  "rarity": "Legendario",
+  "role": "Apoyo bastante versátil para oleadas y jefes. Combina con el resto de campeones de Oz. También capaz de controlar, robar bufos enemigos y contagiar bufos a aliados",
+  "type": "Apoyo",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=tXbZd_plsLg",
+  "blessings": [
+    "crueldad",
+    "polimorfia"
+  ],
+  "relics": null,
+  "gear": null,
+  "uses": "Tiene potencial en muchos sitios: Hydra, Arenas, Oleadas",
+  "stats": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "accuracy": 0,
+    "critRate": 0,
+    "critDamage": 0,
+    "resistance": 0
+  },
+  "skills": [
+    {
+      "name": "Descarga Esmeralda (ATK)",
+      "levels": [
+        "Nivel 2: Daño +10%",
+        "Nivel 3: Probabilidad de Bufo / Debufo +10%",
+        "Nivel 4: Probabilidad de Bufo / Debufo +15%"
+      ],
+      "buffDebuff": [
+        "debilitar-2"
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de eliminar un bufo al azar del objetivo. También tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos."
+    },
+    {
+      "name": "Tormenta de Viento",
+      "levels": [
+        "Nivel 2: Probabilidad de Bufo / Debufo +10%",
+        "Nivel 3: Probabilidad de Bufo / Debufo +15%",
+        "Nivel 4: Tiempo de reutilización -1",
+        "Nivel 5 Tiempo de reutilización -1"
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        "red-def-2",
+        "red-punt-2"
+      ],
+      "description": "Tiene un 75% de probabilidad de aplicar un debufo de [Reducir DEF] y un debufo de 50% de [Reducir PUNT] a todos los enemigos durante 2 turnos."
+    },
+    {
+      "name": "Tornado Furioso",
+      "levels": [
+        "Nivel 2: Probabilidad de Bufo / Debufo +10%",
+        "Nivel 3: Probabilidad de Bufo / Debufo +15%",
+        "Nivel 4: Tiempo de reutilización -1",
+        "Nivel 5 Tiempo de reutilización -1"
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        "aturdir"
+      ],
+      "description": "Ataca a todos los enemigos.\n\n Roba todos los bufos de todos los enemigos. Luego aplica un efecto de [Contagiar Bufos], cogiendo todos los bufos de éste campeón y aplicándolos a todos los aliados.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] a todos los enemigos durante 1 turno.",
+      "factionUnity": "Unidad de Oz",
+      "unityEffects": {
+        "1-ally": "No puede hacer golpe débil con ésta habilidad",
+        "2-ally": "Esta habilidad no se puede poner en tiempo de reutilización.",
+        "3-ally": "Esta habilidad ignorará efectos de bendición de [Polimorfia] de los enemigos"
+      }
+    },
+    {
+      "name": "Amistad de Verdad (Pasiva)",
+      "description": "Cuando este campeón muere, todos los aliados se unen para atacar al enemigo que haya causado su muerte. Cuando este campeón es reanimado, instantáneamente activa la habilidad de [Tornado Furioso].\n\n Este campeón obtiene +3% HP por cada turno de un aliado y +3% VEL por cada turno enemigo (ambos se acumulan hasta el 30%)"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 19%"
+    }
+  ],
+  "lore": null,
+  "forms": null,
+  "image": "/src/assets/champions/dorothy-gale.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
