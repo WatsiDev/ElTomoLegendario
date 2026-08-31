@@ -42,6 +42,7 @@ const DICTIONARIES = {
     "crueldad": "crueldad",
     "ira-de-la-naturaleza": "ira-de-la-naturaleza",
     "desgarro-aplastante": "desgarro-aplastante-6",
+    "desgarro-aplastante": "Desgarro-Aplastante-6",
   }
 };
 
