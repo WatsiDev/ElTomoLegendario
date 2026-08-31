@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [
     "segar-almas",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "agarre_de_valkanen",
@@ -20,7 +20,6 @@
     "piel-de-piedra",
     "percepcion",
     "punteria",
-    "redirigir",
     "mercurial"
   ],
   "uses": "Facciones y defensa de arenas",
@@ -140,7 +139,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/goffred-brassclad.webp",
   "masteries": [],
   "artworks": [],

@@ -12,7 +12,7 @@
     "toque-fantasmal"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Poco o ninguno, no es muy buena",
   "stats": {
     "hp": 13545,
@@ -116,7 +116,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/ejemplar.webp",
   "masteries": [],
   "artworks": [],

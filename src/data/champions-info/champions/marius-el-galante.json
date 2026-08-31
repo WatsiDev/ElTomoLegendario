@@ -3,13 +3,13 @@
   "name": "Marius el Galante",
   "faction": "Cambiapieles",
   "rarity": "Legendario",
-  "role": "Gran nuker defensivo multiusos.",
+  "role": "Gran nuker defensivo multiusos capaz de limpiar bufos enemigos",
   "type": "Defensa",
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "crueldad",
-    "desgarro-aplastante"
+    "segar-almas",
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "invocatormentas",
@@ -18,13 +18,16 @@
     "colmillo_asesino",
     "garra_malefica",
     "corona_corrompida",
-    "lente_intangible"
+    "lente_intangible",
+    "dados_diabolicos",
+    "bomba_de_terror"
   ],
   "gear": [
     "fervor",
     "letal",
     "salvaje",
-    "matador"
+    "matador",
+    "mercurial"
   ],
   "uses": "Top en Arena, Hydra, Quimera, Necropolis, etc.. Probablemente uno de los mejores legendarios del juego.",
   "stats": {
@@ -122,7 +125,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/marius-el-galante.webp",
   "masteries": [],
   "artworks": [],

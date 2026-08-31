@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=Q3msPrD8Zt4",
   "blessings": [
     "segar-almas",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
@@ -118,7 +118,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/errol.webp",
   "masteries": [],
   "artworks": [],

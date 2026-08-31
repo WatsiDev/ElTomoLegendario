@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=cf0HSO91BYI",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "segar-almas"
   ],
   "relics": [
@@ -17,7 +17,7 @@
     "luna_de_sangre",
     "apagador_de_esencia"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Nuker de arenas, no se usa.",
   "stats": {
     "hp": 23130,
@@ -119,7 +119,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/espadachin-fatalis.webp",
   "masteries": [],
   "artworks": [],

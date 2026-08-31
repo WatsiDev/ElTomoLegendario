@@ -18,7 +18,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Principalmente arenas, pero no es meta",
   "stats": {
     "hp": 15690,
@@ -104,7 +104,7 @@
   ],
   "aura": [],
   "lore": "Xena, que en su día fue una mercenaria temida y despiadada, aterrorizó las tierras de Peltas, dejando destrucción a su paso por las Estepas Áridas, las Tierras Quemadas y la Cuenca del Infierno. Su violento pasado le dio reputación de ser una de las guerreras más poderosas del continente. Pero todo cambió después de un sueño en el que un misterioso extraño la instó a buscar el perdón por sus acciones pasadas y a defender a los débiles. Atormentada por estas palabras, Xena decidió cambiar su camino, al darse cuenta de que matar no era la única forma de demostrar su fuerza.\n\n Al día siguiente, Xena se propuso proteger a los clanes nómadas de numerosas amenazas, como los engendros demoníacos, los bandidos orcos y los esclavistas. Su feroz dedicación a la defensa de quienes no podían defenderse por sí mismos comenzó a ganarse su respeto. Sorpresivamente, Xena hizo amigos entre los nómadas y su historia se difundió por todas partes. Una joven incluso se unió a ella y Xena pasó de ser una mercenaria temida a una heroína que inspiraba esperanza. La leyenda de Xena, la princesa guerrera, comenzó a arraigarse en Peltas.\n\n Una noche, el misterioso extraño visitó a Xena nuevamente, esta vez instándola a regresar a su tierra natal, Hell's Basin. En el camino, escuchó rumores inquietantes sobre un señor de la guerra salvaje que estaba aterrorizando la zona. Cuando se acercaba a su destino, presenció los horrores de primera mano: una aldea en llamas, con asaltantes atacando brutalmente a sus habitantes. Xena no pudo quedarse de brazos cruzados y se lanzó a la lucha, salvando a un grupo de niños de la ejecución y derrotando a las fuerzas del líder.\n\n Pero el pasado de Xena la alcanzó en la forma del señor de la guerra, alguien a quien reconoció. El señor de la guerra era un niño cuando Xena había asesinado a sus padres años atrás, y ahora, llena de odio, buscaba venganza. Aunque Xena intentó disculparse y evitar más derramamiento de sangre, el señor de la guerra no se dejó convencer. Después de una intensa batalla, Xena se vio obligada a terminar la pelea arrojando su chakram, hiriendo fatalmente al señor de la guerra. La victoria fue hueca, ya que Xena se dio cuenta de que los males contra los que ahora luchaba eran las consecuencias directas de su vida anterior.\n\n Esa noche, el extraño apareció una vez más, calmando el corazón de Xena, pero sin ofrecerle perdón. En cambio, le dejó un sentido del deber, un llamado a seguir enmendando el daño, protegiendo a los inocentes y luchando contra la injusticia. Con este nuevo sentido de propósito, Xena decidió responder a este llamado por el resto de su vida.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/xena-princesa-guerrera.webp",
   "masteries": [],
   "artworks": [],

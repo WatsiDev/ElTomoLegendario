@@ -8,8 +8,8 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=6DD5qHwHYPM",
   "blessings": [
-    "desgarro-aplastante",
-    "llegado-del-cielo"
+    "Desgarro-Aplastante-6",
+    "caido-del-cielo"
   ],
   "relics": [
     "mirada_del_gato",
@@ -109,7 +109,7 @@
       "description": "Ataca a todos los enemigos. Esta habilidad hace un 5% más de daño por cada bufo que tengan los aliados y los enemigos.\n\n Elimina todos los bufos de todos los enemigos si este ataque mata a un enemigo. Este efecto no se puede resistir.",
       "factionUnity": "Unidad de Tortugas Ninja",
       "unityEffects": {
-        "1-ally": "Ignora el 15% de DEF por cada Leonardo, Donatello, Mikey y Raphael del grupo. Este campeón no cuenta.",
+        "1-ally": "Ignora el 15% de DEF por cada Leonardo, Donatello, Michelangelo y Raphael del grupo. Este campeón no cuenta.",
         "2-ally": "El daño de esta habilidad aumenta según los HP que le falten a este campeón.",
         "3-ally": "Activa esta habilidad siempre que los HP de un aliado bajan al 50%. Ocurre una vez por habilidad. Si hay varios campeones en el grupo con esta habilidad, solo se activa una."
       },
@@ -124,7 +124,7 @@
           "key_name": "piel-de-piedra"
         }
       ],
-      "description": "Aplica un bufo de [Piel de Piedra] a este campeón durante 1 turno cuando los HP de este camopeón bajan del 50%. Ocurre una vez por habilidad.\n\n Este campeón se una al ataque siempre que ataca Leonardo, Donatello, Mikey o Raphael.",
+      "description": "Aplica un bufo de [Piel de Piedra] a este campeón durante 1 turno cuando los HP de este camopeón bajan del 50%. Ocurre una vez por habilidad.\n\n Este campeón se una al ataque siempre que ataca Leonardo, Donatello, Michelangelo o Raphael.",
       "book_priority": "Ninguna"
     }
   ],
@@ -135,7 +135,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/leonardo.webp",
   "masteries": [],
   "artworks": [],

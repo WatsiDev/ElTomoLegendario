@@ -15,7 +15,7 @@
     "brebaje_de_colera",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Salas secretas y Ciudad Maldita",
   "stats": {
     "hp": 13545,
@@ -113,7 +113,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/arquera-del-alma.webp",
   "masteries": [],
   "artworks": [],

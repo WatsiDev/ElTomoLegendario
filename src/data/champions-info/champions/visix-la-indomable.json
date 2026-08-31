@@ -17,7 +17,7 @@
     "tiempo_de_sangre",
     "campana_fundida"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Hydra, oleadas, Caballero de Fuego normal",
   "stats": {
     "hp": 17175,
@@ -110,7 +110,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/visix-la-indomable.webp",
   "masteries": [],
   "artworks": [],

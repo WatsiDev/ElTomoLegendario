@@ -8,13 +8,13 @@
   "affinity": "Magia",
   "youtube_link": null,
   "blessings": [
-    "rompe-cadenas"
+    "romper-cadenas"
   ],
   "relics": [
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": null,
   "stats": {
     "hp": 18990,
@@ -118,7 +118,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/armina.webp",
   "masteries": [],
   "artworks": [],

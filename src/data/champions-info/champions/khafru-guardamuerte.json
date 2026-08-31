@@ -1,7 +1,7 @@
 {
   "slug": "khafru-guardamuerte",
   "name": "Khafru Guardamuerte",
-  "faction": "No-Muertos",
+  "faction": "No Muertos",
   "rarity": "Épico",
   "role": "Épico con Burlon. Poco específico",
   "type": "Defensa",
@@ -12,7 +12,7 @@
     "curacion-milagrosa"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Shogun o Facciones",
   "stats": {
     "hp": 18330,
@@ -100,7 +100,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/khafru-guardamuerte.webp",
   "masteries": [],
   "artworks": [],

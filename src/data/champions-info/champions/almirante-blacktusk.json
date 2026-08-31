@@ -16,7 +16,7 @@
     "corona_de_ireth",
     "antorcha_esclava"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Control así como protección de aliados.",
   "stats": {
     "hp": 20640,
@@ -122,7 +122,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/almirante-blacktusk.webp",
   "masteries": [],
   "artworks": [],

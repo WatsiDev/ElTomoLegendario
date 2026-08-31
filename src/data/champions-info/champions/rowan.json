@@ -15,7 +15,7 @@
     "corona_de_ireth",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Caballero de Fuego Fácil",
   "stats": {
     "hp": 16845,
@@ -113,7 +113,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/rowan.webp",
   "masteries": [],
   "artworks": [],

@@ -8,8 +8,8 @@
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "polimorfar",
-    "desgarro-aplastante"
+    "polimorfia-6",
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "vial_del_sombrerero",
@@ -25,6 +25,7 @@
     "letal",
     "salvaje",
     "fervor",
+    "parada-rapida",
     "dano-critico",
     "golpe-mortal"
   ],
@@ -129,7 +130,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/taras-el-fiero.webp",
   "masteries": [],
   "artworks": [],

@@ -16,7 +16,7 @@
     "corazon_volcardiaco",
     "mano_de_descrear"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Muchos: Arena, Hydra, Gemelos, Facciones, Jefe de Ciudad Maldita...",
   "stats": {
     "hp": 20310,
@@ -128,7 +128,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/mithrala-lifebane.webp",
   "masteries": [],
   "artworks": [],

@@ -9,12 +9,13 @@
   "youtube_link": "https://www.youtube.com/watch?v=G-5u1rwZ9zE",
   "blessings": [
     "cosechar-vida",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "servidumbre_de_xibia",
     "crisalida_de_renacer",
     "efigie_demoniaca",
+    "craneo_de_vida",
     "corona_lugubre"
   ],
   "gear": [
@@ -64,7 +65,7 @@
             "Nivel 2: Curación +20%",
             "Nivel 3: Prob. Bufo/Debufo +15%"
           ],
-          "multiplier": "?xATK",
+          "multiplier": "(6+RES/1000)xATK. Curación (0.05xMAX HP objetivo)+(RES del objetivo x 10)",
           "description": "Ataca a 1 enemigo.\n\n Cura a todos los aliados. La magnitud de la cura es proporcional a su RES y al 5% de su MAX HP.\n\n Tiene un 35% de probabilidad de aplicar un efecto de [Contagiar Bufos] que contagia 1 bufo aleatorio de cada aliado y lo aplica a todos los aliados."
         },
         {
@@ -122,7 +123,7 @@
           "levels": [
             "Nivel 2: Daño +20%"
           ],
-          "multiplier": "?xATK",
+          "multiplier": "ATKx(2.9+RES/1000)",
           "description": "Ataca a todos los enemigos. Este ataque hace daño individual a cada objetivo en lugar de daño extra.\n\n Siempre que este campeón contraataca, aumenta un 5% el efecto de Ignorar DEF de esta habilidad (se acumula hasta el 25%). \n\n[Efecto Pasivo]\n\n Hace el doble de daño al contraatacar."
         },
         {
@@ -135,7 +136,7 @@
           "buffDebuff": [
             "bloquear-dano"
           ],
-          "multiplier": "?xATK",
+          "multiplier": "ATKx(4.4+RES/1000)",
           "description": "Ataca a todos los enemigos. Antes de atacar, roba el 25% de la barra de turno de cada enemigo. Este efecto no se puede resistir. \n\nEsta habilidad hace un 35% más de daño contra enemigos con menos RES que este campeón.\n\n Luego aplica un bufo de [Bloquear Daño] a este campeón durante 2 turnos."
         },
         {
@@ -148,6 +149,7 @@
           "buffDebuff": [
             "bloquear-revivir"
           ],
+          "multiplier": "ATKx(2+RES/1000)",
           "description": "Ataca a 1 enemigo 3 veces.\n\n Ignora bufos de [Escudo], [Bloquear Daño] e [Inmortal]. También ignora un 35% de DEF de objetivos con menos RES que este campeón.\n\n Si el objetivo muere y tiene menos RES que este campeón, le aplica un debufo de [Bloquear Revivir]. Si el objetivo no muere, en lugar de lo anterior obtén un turno adicional."
         },
         {

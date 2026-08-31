@@ -16,7 +16,7 @@
     "el_triturador",
     "antorcha_esclava"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Aremas, oleadas, facciones...es poco específico pero completo al mismo tiempo si va con Aparecidos",
   "stats": {
     "hp": 18825,
@@ -125,7 +125,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/losan-kleth.webp",
   "masteries": [],
   "artworks": [],

@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=oEfh0mjLV2A",
   "blessings": [
-    "rompe-cadenas"
+    "romper-cadenas"
   ],
   "relics": [
     "efigie_demoniaca",
@@ -99,7 +99,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/cardenal.webp",
   "masteries": [],
   "artworks": [],

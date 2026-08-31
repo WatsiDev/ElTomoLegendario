@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": null,
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "toque-fantasmal"
   ],
   "relics": [
@@ -18,7 +18,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Ninguno en late, demasiado simple y sin sinergias",
   "stats": {
     "hp": 14535,
@@ -113,7 +113,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/fylja.webp",
   "masteries": [],
   "artworks": [],

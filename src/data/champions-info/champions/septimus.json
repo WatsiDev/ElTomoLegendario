@@ -3,17 +3,19 @@
   "name": "Septimus",
   "faction": "Hidalgos",
   "rarity": "Legendario",
-  "role": "Nuker por MAX HP de un solo objetivo. Desactualizado",
+  "role": "Nuker por MAX HP con un potente básico. Recibió un rebalanceo, pero sigue lejos de otros campeones similares que hacen más cosas",
   "type": "Ataque",
   "affinity": "Espíritu",
-  "youtube_link": "https://www.youtube.com/watch?v=Xn77CKLTXFM",
+  "youtube_link": "https://www.youtube.com/watch?v=QN0mT_AL5ho",
   "blessings": [
-    "fuego-y-azufre"
+    "fuego-y-azufre",
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
     "colmillo_asesino",
-    "lente_intangible"
+    "lente_intangible",
+    "mirada_del_gato"
   ],
   "gear": [
     "salvaje",
@@ -22,7 +24,7 @@
     "instinto",
     "despiadado"
   ],
-  "uses": "Mazmorras niveles 1-20. Quizá algún otro jefe, pero no es meta.",
+  "uses": "Tras el rebalanceo, contará con habilidades potentes pero por desgracia limitadas en jefes. Será bueno donde los enemigos tengan mucho HP, incluso limpiando oleadas. Quizá Hydra y facciones también",
   "stats": {
     "hp": 13710,
     "speed": 102,
@@ -51,7 +53,7 @@
         }
       ],
       "multiplier": "3.6xATK",
-      "description": "Ataca a 1 enemigo. Obtiene un turno adicional y restablece el tiempo de reutilización de la habilidad de Espada Sagrada de este campeón si se mata al objetivo.",
+      "description": "Ataca a 1 enemigo. Ignorará el 30% de la DEF del objetivo.\n\n Obtiene un turno adicional y restablece el tiempo de reutilización de la habilidad de Espada Sagrada de este campeón si se mata al objetivo. El tiempo de reutilización se restablecerá aunque este ataque sea un contraataque.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },
@@ -73,14 +75,14 @@
       ],
       "cooldown": 4,
       "multiplier": "2.5xATK + 0.1xMAX HP",
-      "description": "Ataca a 1 enemigo. Ignorará los bufos de [Escudo] y [Bloquear daño]. El daño aumenta según el enemigo MAX HP.",
+      "description": "Ataca a todos los enemigos. Ignorará los bufos de [Escudo] y [Bloquear daño]. El daño aumenta según el MAX HP de los enemigos.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },
     {
       "name": "Matagigantes (Pasiva)",
       "levels": [],
-      "description": "Cada ataque tiene un 30% de probabilidad de aumentar la duración de todos los debuffs en el objetivo en 1 turno. El daño infligido por cada ataque aumenta en un 30% si el HP actual del enemigo es superior al 50%.",
+      "description": "Cada ataque tiene un 30% de probabilidad de aumentar la duración de todos los debufos del objetivo en 1 turno. Este efecto no se puede resistir.\n\n El daño infligido por las habilidades de este campeón aumentará en 30% si el MAX HP del enemigo es mayor que el MAX HP de éste campeón.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
@@ -92,7 +94,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/septimus.webp",
   "masteries": [],
   "artworks": [],

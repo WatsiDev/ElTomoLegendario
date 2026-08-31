@@ -14,7 +14,7 @@
     "rocadragon_dorada",
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y se usaba en Señor Demoníaco",
   "stats": {
     "hp": 16185,
@@ -105,7 +105,7 @@
     }
   ],
   "lore": "Innumerables criptas y mausoleos malditos yacen ocultos en las Tierras Baldías de Ventormenta. Atraen a los necios mortales con la promesa de poder, riqueza o incluso la vida eterna, y aquellos que caen en esta trampa a menudo terminan pagando con su vida o, consciente o inconscientemente, desatando cualquier mal que haya en el mundo. Pero mientras que el hechicero o renegado ocasional solo presenta un peligro marginal, los temidos Caballeros Aparecidos  tienen tanto mano de obra como conocimiento esotérico en abundancia: las pérdidas sufridas al explorar tumbas antiguas son insignificantes para ellos. Muchos secretos terribles cayeron en manos de los Caballeros Aparecidos  a lo largo de los siglos de su existencia, pero pocos igualarían al Sepulcro de Gorak-Kha la Serpiente, un Señor Demonio que lideró la primera invasión de Teleria. Aunque la Mediadora, en la cima de su poder en aquellos tiempos antiguos, había matado a Gorak-Kha en combate personal y destruido su espíritu impío, los sectarios mortales que sentarían las bases para los Caballeros Aparecidos de hoy lograron recuperar lo que quedaba de la cuerpo de gran demonio. Jurando guardar el secreto, lo enterraron en un sarcófago de obsidiana encantada en las profundidades de la tierra. Y aunque pasaron milenios desde esa fatídica batalla, el poder de Gorak-Kha aún reside en el plano mortal. Los Caballeros Aparecidos guardan celosamente la cripta, y los Centinelas Sepulcrales de élite están a cargo de su defensa. Estos guerreros de corazón oscuro han repelido innumerables asaltos iniciados por cultos rivales, Señores No Muertos, mercenarios e incluso bandas de Campeones de Lumaya. El poder de Gorak-Kha les otorga dones impíos, algunos endurecen la armadura de los Centinelas para que pueda rechazar incluso el golpe o hechizo más cruel, otros les permiten debilitar al enemigo con solo un toque. No solo eso, los Centinelas Sepulcrales a menudo llevan pequeñas fichas tomadas de las ofrendas dejadas en la tumba de su Overlord, que extienden las «bendiciones» de Gorak-Kha a aquellos que luchan codo a codo con su elegido.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/centinela-sepulcral.webp",
   "masteries": [],
   "artworks": [],

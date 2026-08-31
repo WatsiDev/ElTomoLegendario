@@ -7,9 +7,20 @@
   "type": "Defensa",
   "affinity": "Espíritu",
   "youtube_link": "https://www.youtube.com/watch?v=6v_j5Tf2K7M",
-  "blessings": null,
-  "relics": null,
-  "gear": null,
+  "blessings": [
+    "polimorfia",
+    "jaula-de-rayos"
+  ],
+  "relics": [
+    "estrellas_jinang",
+    "mascara_de_zozobra",
+    "varita_de_sumision"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "exactitud"
+  ],
   "uses": "Contra Jefes su A1 puede ser interesante contra Amius o Jefes del Bosque Lúgubre. Puede ser interesante también en oleadas difíciles con un poderoso Bloquear Pasivas en área ",
   "stats": {
     "hp": 18000,
@@ -25,51 +36,89 @@
     {
       "name": "Gloria Abrasadora (DEF)",
       "levels": [
-        "Nivel 2: Daño +20%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        }
       ],
       "buffDebuff": [
-        "curacion-reducida-2"
+        {
+          "key_name": "curacion-reducida-2"
+        }
       ],
-      "multiplier": "?xDEF",
-      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 100% de [Curación Reducida] durante 2 turnos.\n\n[Efecto Pasivo]\n\n Activa esta habilidad cuando sus HP bajan del 50%. El debufo de 100% de [Curación Reducida] no se puede eliminar, resistir ni bloquear cuando esta habilidad se activa de esta forma. Una vez por turno. Si hay varios campeones en el grupo con esta habilidad solo se activará una. Si este campeón en concreto está muerto, esta habilidad no se activa en copias repetidas de éste campeón."
+      "multiplier": "3.3xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 100% de [Curación Reducida] durante 2 turnos.\n\n[Efecto Pasivo]\n\n Activa esta habilidad cuando sus HP bajan del 50%. El debufo de 100% de [Curación Reducida] no se puede eliminar, resistir ni bloquear cuando esta habilidad se activa de esta forma. Una vez por turno. Si hay varios campeones en el grupo con esta habilidad solo se activará una. Si este campeón en concreto está muerto, esta habilidad no se activa en copias repetidas de éste campeón.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Bendiciones Serenas (ATK)",
       "levels": [
-        "Nivel 2: Daño +20%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +15%",
-        "Nivel 5: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "fortificar-2",
-        "fortalecer-2"
+        {
+          "key_name": "fortificar-2"
+        },
+        {
+          "key_name": "fortalecer-2"
+        }
       ],
-      "multiplier": "?xDEF",
-      "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 75% de probabilidad de traspasar todos los debufos a todos los aliados a todos los enemigos.\n\n Aplica un bufo de 25% de [Fortificar] y un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos."
+      "multiplier": "3.5xDEF",
+      "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 75% de probabilidad de traspasar todos los debufos a todos los aliados a todos los enemigos.\n\n Aplica un bufo de 25% de [Fortificar] y un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Avatar de Victoria (DEF)",
       "levels": [
-        "Nivel 2: Daño +20%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +15%",
-        "Nivel 5: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "miedo-de-verdad",
-        "bloquear-habilidades-pasivas"
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "bloquear-habilidades-pasivas"
+        }
       ],
-      "multiplier": "?xDEF",
-      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de robar todos los bufos de todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 1 turno y un debufo de [Bloquear Habilidades Pasivas] durante 2 turnos."
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de robar todos los bufos de todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 1 turno y un debufo de [Bloquear Habilidades Pasivas] durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Éxito Seguro (Pasiva)",
-      "description": "Antes del comienzo de cada turno, reduce un 5% la barra de turno de todos los enemigos. No funciona contra Jefes y sus esbirros. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.\n\n Los efectos enemigos de Ignorar DEF se reducen un 50% al usarse contra este campeón."
+      "description": "Antes del comienzo de cada turno, reduce un 5% la barra de turno de todos los enemigos. No funciona contra Jefes y sus esbirros. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.\n\n Los efectos enemigos de Ignorar DEF se reducen un 50% al usarse contra este campeón.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -79,7 +128,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/aria-la-esperanza-aurea.webp",
   "masteries": [],
   "artworks": [],

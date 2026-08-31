@@ -19,7 +19,12 @@
     "dedo_real",
     "sombra_encaramada"
   ],
-  "gear": [],
+  "gear": [
+    "bestial",
+    "maldito",
+    "punteria",
+    "percepcion"
+  ],
   "uses": "Casi todo: Hydra, oleadas, Quimera, Mazmorras, Facciones...",
   "stats": {
     "hp": 20805,
@@ -152,7 +157,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/lydia-la-sirena.webp",
   "masteries": [],
   "artworks": [],

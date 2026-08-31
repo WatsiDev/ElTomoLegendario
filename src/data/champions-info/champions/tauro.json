@@ -17,7 +17,7 @@
     "lente_intangible",
     "caldero_acaparador"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Muy pocos, salvo alguna setup especial de explotar venenos",
   "stats": {
     "hp": 17010,
@@ -104,7 +104,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/tauro.webp",
   "masteries": [],
   "artworks": [],

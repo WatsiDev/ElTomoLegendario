@@ -14,7 +14,7 @@
   "relics": [
     "rocadragon_dorada"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y revividor para cualquier sitio en early",
   "stats": {
     "hp": 16515,
@@ -100,7 +100,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/malkith-bandasangre.webp",
   "masteries": [],
   "artworks": [],

@@ -15,7 +15,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": null,
   "stats": {
     "hp": 15195,
@@ -104,7 +104,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/maeve.webp",
   "masteries": [],
   "artworks": [],

@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [
     "toque-fantasmal",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "colmillo_malefico",
@@ -118,9 +118,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/nogoryo.webp",
   "masteries": [],
   "artworks": [],

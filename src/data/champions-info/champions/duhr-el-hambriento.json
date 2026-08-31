@@ -8,7 +8,7 @@
   "affinity": "Espíritu",
   "youtube_link": null,
   "blessings": [
-    "desgarro-aplastante"
+    "sobrevivir"
   ],
   "relics": [
     "crisalida_del_renacer",
@@ -18,7 +18,7 @@
     "elixir_dorado",
     "corona_lugubre"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Revividor para facciones a falta de alto mejor",
   "stats": {
     "hp": 17505,
@@ -101,7 +101,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/duhr-el-hambriento.webp",
   "masteries": [],
   "artworks": [],

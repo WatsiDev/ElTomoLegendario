@@ -9,14 +9,14 @@
   "youtube_link": null,
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "pergamino_invisible",
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones como mucho pero no es muy útil",
   "stats": {
     "hp": 15030,
@@ -110,7 +110,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/lady-eresh.webp",
   "masteries": [],
   "artworks": [],

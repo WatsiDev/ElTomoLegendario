@@ -15,9 +15,7 @@
     "lente_intangible"
   ],
   "gear": [
-    {
-      "set_name": ""
-    }
+    ""
   ],
   "uses": "Parte de la fusión de Rhazin y potencialmente útil en Cripta de pociones verdes",
   "stats": {
@@ -111,9 +109,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/diente-de-roca.webp",
   "masteries": [],
   "artworks": [],

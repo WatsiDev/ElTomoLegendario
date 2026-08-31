@@ -8,8 +8,8 @@
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=pHrW9bo1UPE",
   "blessings": [
-    "desgarro-aplastante",
-    "llegado-del-cielo"
+    "Desgarro-Aplastante-6",
+    "caido-del-cielo"
   ],
   "relics": [
     "tributo_de_san_zavier",
@@ -122,7 +122,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/depredador.webp",
   "masteries": [],
   "artworks": [],

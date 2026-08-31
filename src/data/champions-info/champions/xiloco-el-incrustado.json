@@ -6,14 +6,23 @@
   "role": null,
   "type": "Defensa",
   "affinity": "Magia",
-  "youtube_link": null,
+  "youtube_link": "https://www.youtube.com/watch?v=IxnxhvlpuXw",
   "blessings": null,
-  "relics": null,
-  "gear": null,
+  "relics": [
+    "arpa_de_kasbiel",
+    "efigie_demoniaca",
+    "varita_de_sumision"
+  ],
+  "gear": [
+    "incansable",
+    "reflejo",
+    "proteccion",
+    "apoyo"
+  ],
   "uses": null,
   "stats": {
     "hp": 17835,
-    "speed": 925,
+    "speed": 101,
     "attack": 925,
     "defense": 1465,
     "accuracy": 0,
@@ -25,43 +34,74 @@
     {
       "name": "Garrote Enjoyado (DEF)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Probabilidad de bufo / debufo +10%",
-        "Nivel 5: Probabilidad de bufo / debufo +10%"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de bufo / debufo +10%"
+        }
       ],
-      "multiplier": "?xDEF",
-      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de reducir un turno el tiempo de reutilización de una habilidad de un aliado al azar.\n\n También cura a dicho aliado el 10% de MAX HP de este campeón."
+      "multiplier": "3.8xDEF",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de probabilidad de reducir un turno el tiempo de reutilización de una habilidad de un aliado al azar.\n\n También cura a dicho aliado el 10% de MAX HP de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Secreto Primigenio",
       "levels": [
-        "Nivel 2: Tiempo de reutilización -1",
-        "Nivel 3: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "inmortal",
-        "contraataque"
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "contraataque"
+        }
       ],
-      "description": "Aplica un bufo de [Inmortal] y un bufo de [Contraataque] a un aliado durante 2 turnos. También reduce 2 turnos el tiempo de reutilización de las habilidades de dicho aliado. No se puede reducir ni reiniciar el tiempo de reutilización de esta habilidad"
+      "description": "Aplica un bufo de [Inmortal] y un bufo de [Contraataque] a un aliado durante 2 turnos. También reduce 2 turnos el tiempo de reutilización de las habilidades de dicho aliado. No se puede reducir ni reiniciar el tiempo de reutilización de esta habilidad",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Crisálida de Reanimación",
       "levels": [
-        "Nivel 2: Tiempo de Reutilización -1",
-        "Nivel 3: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 6,
       "buffDebuff": [
-        "aumentar-atk-2",
-        "aumentar-def-2"
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
+        }
       ],
-      "description": "Revive a un aliado con el 50% de HP y el 75% de barra de turno.\n\n Aplica un bufo de [Aumentar ATK] y un bufo de 60% de [Aumentar DEF] a dicho aliado durante 2 turnos."
+      "description": "Revive a un aliado con el 50% de HP y el 75% de barra de turno.\n\n Aplica un bufo de [Aumentar ATK] y un bufo de 60% de [Aumentar DEF] a dicho aliado durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Erudito Temporal (Pasiva)",
-      "description": "Llena un 30% la barra de turno de este campeón cada vez que se activa una habilidad pasiva de un campeón enemigo. Una vez por turno."
+      "description": "Llena un 30% la barra de turno de este campeón cada vez que se activa una habilidad pasiva de un campeón enemigo. Una vez por turno.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -71,7 +111,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/xiloco-el-incrustado.webp",
   "masteries": [],
   "artworks": [],

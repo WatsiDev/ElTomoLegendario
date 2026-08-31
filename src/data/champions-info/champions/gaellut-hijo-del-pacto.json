@@ -51,7 +51,7 @@
           "key_name": "bloquear-bufos"
         }
       ],
-      "multiplier": "?xHP",
+      "multiplier": "0.23xHP",
       "description": "Ataca a 1 enemigo. Antes de atacar, reduce 1 turno la duración de todos los bufos del objetivo. También tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] durante 2 turnos. Este debufo está protegido al aplicarse a Jefes.",
       "book_priority": "Ninguna"
     },
@@ -72,9 +72,16 @@
         }
       ],
       "cooldown": 5,
-      "multiplier": "?xHP",
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        },
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "0.28xHP",
       "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno y un debufo de 60% de [Reducir DEF] durante 2 turnos. Reduce un 30% la Barra de Turno de los enemigos que no tienen debufos de [Aturdir]",
-      "buffDebuff": [],
       "book_priority": "Ninguna"
     },
     {
@@ -99,7 +106,7 @@
           "key_name": "fortificar-2"
         }
       ],
-      "multiplier": "",
+      "multiplier": "Cura 0x25xHP, Escudo 0.25xHP",
       "description": "Elimina todos los debufos de todos los aliados y luego les cura el 25% de MAX HP de este campeón. Aplica un bufo de [Escudo] del 25% de MAX HP de este campeón y un bufo de [Fortificar] a todos los aliados durante 2 turnos.",
       "book_priority": "Ninguna"
     },
@@ -118,7 +125,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/gaellut-hijo-del-pacto.webp",
   "masteries": [],
   "artworks": [],

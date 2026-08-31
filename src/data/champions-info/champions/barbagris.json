@@ -18,8 +18,7 @@
     "resiliencia",
     "punteria",
     "defensa",
-    "percepcion",
-    "redirigir"
+    "percepcion"
   ],
   "uses": "Facciones e incluso torre del destino",
   "stats": {
@@ -126,7 +125,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/barbagris.webp",
   "masteries": [],
   "artworks": [],

@@ -9,13 +9,13 @@
   "youtube_link": "https://www.youtube.com/watch?v=tqnqLoI16nc",
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
     "malleos_de_fuego",
     "la_carcajada_final",
-    "martillo_del_fin",
+    "dados_diabolicos",
     "sombra_encaramada",
     "invocatormentas",
     "luna_de_sangre",
@@ -126,7 +126,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/alicia-la-viajera.webp",
   "masteries": [],
   "artworks": [],

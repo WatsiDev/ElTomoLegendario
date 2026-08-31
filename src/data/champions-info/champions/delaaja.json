@@ -17,7 +17,7 @@
     "aberracion_antigua",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Bastante buena en facciones y junto otros lagartos",
   "stats": {
     "hp": 20640,
@@ -117,7 +117,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/delaaja.webp",
   "masteries": [],
   "artworks": [],

@@ -107,7 +107,7 @@
     "fuego-y-azufre"
   ],
   "uses": "PvE y PvP, pero brillará más en PvE. Es parecida a Ankora pero en ofensiva.",
-  "forms": null,
+  "forms": [],
   "gear": [
     "punteria",
     "percepcion",
@@ -126,7 +126,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=2AEUFklyx-w",
   "sinergias": [],
   "type": "Apoyo",
-  "image": "/src/assets/champions/domina-venalicia.jpg",
+  "image": "/src/assets/champions/domina-venalicia.webp",
   "faction": "Aparecidos",
   "stats": {
     "hp": 22140,

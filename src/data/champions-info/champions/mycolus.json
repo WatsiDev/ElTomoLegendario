@@ -14,9 +14,7 @@
     ""
   ],
   "gear": [
-    {
-      "set_name": ""
-    }
+    ""
   ],
   "uses": "Facciones principalmente.",
   "stats": {
@@ -97,7 +95,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/mycolus.webp",
   "masteries": [],
   "artworks": [],

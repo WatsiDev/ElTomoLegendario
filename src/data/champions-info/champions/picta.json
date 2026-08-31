@@ -8,13 +8,13 @@
   "affinity": "Espíritu",
   "youtube_link": null,
   "blessings": [
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": null,
   "stats": {
     "hp": 19815,
@@ -100,7 +100,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/picta.webp",
   "masteries": [],
   "artworks": [],

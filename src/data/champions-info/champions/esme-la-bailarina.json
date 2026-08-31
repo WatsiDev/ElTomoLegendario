@@ -15,7 +15,7 @@
     "elixir_dorado",
     "caldero_acaparador"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Bastante buena en Hydra",
   "stats": {
     "hp": 18165,
@@ -119,7 +119,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/esme-la-bailarina.webp",
   "masteries": [],
   "artworks": [],

@@ -13,7 +13,7 @@
   "relics": [
     ""
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Ninguno, muy malo. Puedes usarlo para subir otros campeones",
   "stats": {
     "hp": 18000,
@@ -116,7 +116,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/magister.webp",
   "masteries": [],
   "artworks": [],

@@ -19,7 +19,6 @@
     "piel-de-piedra",
     "percepcion",
     "punteria",
-    "redirigir",
     "mercurial"
   ],
   "uses": "Pocos o ninguno. Se consigue muy tarde para ser viable y es muy mediocre",
@@ -118,7 +117,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/gronjarr.webp",
   "masteries": [],
   "artworks": [],

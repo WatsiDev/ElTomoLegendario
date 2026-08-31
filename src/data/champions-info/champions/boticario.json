@@ -12,9 +12,10 @@
   ],
   "relics": [
     "diario_de_necrotos",
-    "tiempo_de_sangre"
+    "tiempo_de_sangre",
+    "craneo_de_vida"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Muy bueno en early. En Caballero de Fuego normal hará buen trabajo",
   "stats": {
     "hp": 17175,
@@ -96,7 +97,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/boticario.webp",
   "masteries": [],
   "artworks": [],

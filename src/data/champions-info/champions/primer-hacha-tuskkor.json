@@ -8,7 +8,7 @@
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=NEZEm68vgsQ",
   "blessings": [
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "luna_de_sangre",
@@ -79,7 +79,7 @@
       ],
       "cooldown": 4,
       "multiplier": "?xATK",
-      "description": "Ataca a todos los enemigos. Esta habilidad hace un 10% más de daño por cada bufo que tiene este campeón. Reduce 1 turno el tiempo de reutilización de esta habilidad si este ataque mata a un enemigo. SI este ataque mata a 2 o más enemigos, da un turno adicional a este campeón en lugar de lo anterior.",
+      "description": "Ataca a todos los enemigos. Esta habilidad hace un 10% más de daño por cada bufo que tiene este campeón. Reduce 1 turno el tiempo de reutilización de esta habilidad si este ataque mata a un enemigo. Si este ataque mata a 2 o más enemigos, da un turno adicional a este campeón en lugar de lo anterior.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },
@@ -97,9 +97,16 @@
         }
       ],
       "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-d-crit-2"
+        }
+      ],
       "multiplier": "?xATK",
       "description": "Ataca a 1 enemigo 2. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] y un bufo de 30% de [Aumentar D.Crit] a este campeón durante 2 turnos. Ignora bufos de [Escudo]. Obtén un turno adicional si este ataque mata a un enemigo.",
-      "buffDebuff": [],
       "book_priority": "Ninguna"
     },
     {
@@ -117,7 +124,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/primer-hacha-tuskkor.webp",
   "masteries": [],
   "artworks": [],

@@ -12,9 +12,7 @@
   ],
   "relics": [],
   "gear": [
-    {
-      "set_name": ""
-    }
+    ""
   ],
   "uses": "Ninguno, un pollo.",
   "stats": {
@@ -111,7 +109,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/testigo.webp",
   "masteries": [],
   "artworks": [],

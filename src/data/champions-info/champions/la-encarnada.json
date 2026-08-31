@@ -16,7 +16,7 @@
     "diadema_no_muerta",
     "mascara_de_ira"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Demasiado de nicho para ser útil en algo más que no sea ir con Mediadora",
   "stats": {
     "hp": 19320,
@@ -51,7 +51,7 @@
         }
       ],
       "multiplier": "1.8xDEF",
-      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. Tiene un 10% de posibilidades de contraatacar cuando una Mediadora aliado es golpeado. Una vez por ataque.",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 45% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno. \n\nTiene un 30% de posibilidades de contraatacar cuando un aliado es atacado. Si el aliado es de la facción de Altos Elfos y no es este campeón, la probabilidad aumenta al 100%. Una vez por ataque.",
       "book_priority": "Ninguna"
     },
     {
@@ -80,7 +80,7 @@
         }
       ],
       "multiplier": "3.6xDEF",
-      "description": "Ataca a todos los enemigos. Tiene un 75 % de posibilidades de eliminar todos los bufos de [Escudo] y 1 bufo aleatorio de todos los enemigos. Luego aplica un bufo de [Escudo] a todos los aliados durante 2 turnos. El valor del [Escudo] es proporcional a la DEF de este Campeón.",
+      "description": "Ataca a todos los enemigos. Tiene un 75 % de posibilidades de eliminar todos los bufos de [Escudo] y 2 bufos al azar de todos los enemigos.\n\n Luego aplica un bufo de [Escudo] a todos los aliados durante 2 turnos. El valor del [Escudo] es proporcional a la DEF de este Campeón.",
       "book_priority": "Ninguna"
     },
     {
@@ -103,14 +103,14 @@
         }
       ],
       "multiplier": "3.6xDEF",
-      "description": "Aplica un bufo del 50% de [Protección de aliados] a todos los aliados excepto en este campeón durante 2 turnos. También aplica un bufo de [Fortalecer] del 25 % a todos los aliados durante 2 turnos.",
+      "description": "Aplica un bufo del 50% de [Protección de aliados] a todos los aliados excepto en este campeón durante 2 turnos. También aplica un bufo de [Fortalecer] del 25 % a todos los aliados durante 2 turnos.\n\n Cura a todas las Mediadoras aliadas el 100% de MAX HP.\n\n Activa inmediatamente esta habilidad cuando este campeón es reanimado. Eso no pone esta habilidad en tiempo de reutilización",
       "book_priority": "Ninguna"
     },
     {
       "name": "Respuesta a una Crisis (Pasiva)",
       "levels": [],
       "cooldown": 4,
-      "description": "Aumenta la PUNT de este campeón en 20 por cada aliado bajo un bufo de [Protección de aliados]. Al morir, reinicia el tiempo de reutilización de la habilidad Llamada del destino de cualquier Mediadora aliada. Si hay varios campeones en el equipo con esta habilidad, este efecto solo se activará una vez.",
+      "description": "+20 PUNT a todos los aliados por cada aliado bajo un bufo de [Protección de aliados]. \n\nAl morir, reinicia el tiempo de reutilización de la habilidad Llamada del destino de cualquier Mediadora aliada. Si hay varios campeones en el equipo con esta habilidad, este efecto solo se activará una vez.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },
@@ -118,14 +118,14 @@
       "name": "Respuesta Final (Pasiva)",
       "levels": [],
       "cooldown": 4,
-      "description": "Aumenta la RES de este Campeón en 20 por cada aliado bajo un bufo de [Protección de aliado]. Este Campeón también recibirá el 20% del daño de cualquier Mediadora aliada. Si hay varios campeones en el equipo con esta habilidad, este efecto solo se activará una vez. Si una Mediadora aliada está a punto de ser morir por un ataque letal, le aplica un bufo de [Inmortal] durante 1 turno. Si hay varios campeones en el equipo con esta habilidad, este efecto solo se activará una vez.",
+      "description": "+20 de RES a todos los aliados por cada aliado bajo un bufo de [Protección de aliado]. Este Campeón también recibirá el 20% del daño de cualquier Mediadora aliada. Si hay varios campeones en el equipo con esta habilidad, este efecto solo se activará una vez.\n\n Si una Mediadora aliada está a punto de ser morir por un ataque letal, le aplica un bufo de [Inmortal] durante 1 turno. Si hay varios campeones en el equipo con esta habilidad, este efecto solo se activará una vez.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/la-encarnada.webp",
   "masteries": [],
   "artworks": [],

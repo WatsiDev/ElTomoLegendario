@@ -16,7 +16,7 @@
     "corona_de_ireth",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Caballero de Fuego Normal con algún debufo interesante para facciones.",
   "stats": {
     "hp": 15030,
@@ -101,7 +101,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/legionario-senorial.webp",
   "masteries": [],
   "artworks": [],

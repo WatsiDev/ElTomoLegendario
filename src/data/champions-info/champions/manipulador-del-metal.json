@@ -13,7 +13,7 @@
   "relics": [
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Rey Escarabajo en la ciudad maldita, ya que pone escudos de 2 turnos cada 2 turnos.",
   "stats": {
     "hp": 16350,
@@ -108,7 +108,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/manipulador-del-metal.webp",
   "masteries": [],
   "artworks": [],

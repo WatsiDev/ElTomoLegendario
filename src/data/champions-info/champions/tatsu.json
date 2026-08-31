@@ -9,10 +9,10 @@
   "youtube_link": null,
   "blessings": [
     "ira-de-la-naturaleza",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Su único uso es para comertela y poder fusionar a Lady Mikage. Como legendario es muy malo",
   "stats": {
     "hp": 14700,
@@ -111,7 +111,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/tatsu.webp",
   "masteries": [],
   "artworks": [],

@@ -1,0 +1,127 @@
+{
+  "slug": "miyoko-flor-de-yakai",
+  "name": "Miyoko, Flor de Sakai",
+  "faction": "Sombríos",
+  "rarity": "Legendario",
+  "role": "Nuker top para arenas, que juega mucho con las habilidades en tiempo de reutilización",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "Desgarro-aplastante-6"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "lente_intangible",
+    "pasion_codiciosa"
+  ],
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "letal",
+    "salvaje"
+  ],
+  "uses": "De lo mejor en arenas. Muy potente en oleadas también, pero no tan útil contra jefes",
+  "stats": {
+    "hp": 15460,
+    "speed": 99,
+    "attack": 1597,
+    "defense": 958,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Corte Asesino (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 25% de DEF.\n\n Tiene un 50% de probabilidad de aumentar 2 turnos el tiempo de reutilización de una de las habilidades del objetivo tiene al menos una habilidad en tiempo de reutilización.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Saboteadora Seductora",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "multiplier": "?xATK",
+      "description": "Ataca 2 veces a 1 enemigo. Cada ataque ignora el 25% de DEF y bufos de [Bloquear Daño] y [Piel de Piedra].\n\n Si esta habilidad mata al objetivo, pone en tiempo de reutilización una habilidad al azar de uno de los demás enemigos y da un turno adicional a este campeón. Este efecto no se puede resistir.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Esgrima Elegante",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-de-magma"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos. Ataca a cada objetivo un número de adicional de veces igual al número de habilidades activas que tenga en tiempo reutilización (hasta 2 ataques adicionales). El daño que hace esta habilidad aumenta un 5% por cada turno de tiempo de reutilización restante en todas sus habilidades (se acumula hasta el 50%).\n\n Si realiza al menos 1 ataque adicional, aplica un bufo de [Escudo de Magma] a este campeón del 300% de su MAX HP durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Dos Pasos por Delante (Pasiva)",
+      "cooldown": 4,
+      "description": "[Efecto Pasivo]\n\n No se puede aumentar los tiempos de reutilización de las habilidades de este campeón.\n\n Los enemigos cuyas habilidades hayan sido puestas en tiempo de reutilización por este campeón, no pueden hacer críticos a este campeón.\n\n[Efecto Activo] Cuando un enemigo aplica un efecto de reducción de tiemp ode reutilización con una habilidad, reduce 2 turnos el tiempo de reutilzación de todos los aliados excepto las de este campeón.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta VEL de alaidos en batallas de Arena en 30%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/miyoko-flor-de-yakai.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

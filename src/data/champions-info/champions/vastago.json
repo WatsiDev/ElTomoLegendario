@@ -15,7 +15,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Ninguno, muy malo",
   "stats": {
     "hp": 13875,
@@ -120,7 +120,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/vastago.webp",
   "masteries": [],
   "artworks": [],

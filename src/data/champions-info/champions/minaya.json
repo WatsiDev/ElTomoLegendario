@@ -16,7 +16,8 @@
     "dedo_real",
     "elixir_dorado",
     "empunadura_sacra",
-    "tiara_de_andromeda"
+    "tiara_de_andromeda",
+    "craneo_de_vida"
   ],
   "gear": [
     "proteccion",
@@ -146,7 +147,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/minaya.webp",
   "masteries": [],
   "artworks": [],

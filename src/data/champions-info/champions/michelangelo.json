@@ -50,55 +50,93 @@
     {
       "name": "Buu-ya! (ATK)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Daño +5%",
-        "Nivel 5: Daño +5%"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +5%"
+        }
       ],
       "buffDebuff": [
-        "aumentar-atk-2"
+        {
+          "key_name": "aumentar-atk-2"
+        }
       ],
       "multiplier": "2xATK",
-      "description": "Ataca a 2 veces a un enemigo.\n\n Si alguno de los dos ataques es crítico, aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos."
+      "description": "Ataca a 2 veces a un enemigo.\n\n Si alguno de los dos ataques es crítico, aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Entrega Exprés",
       "levels": [
-        "Nivel 2: Probabilidad de bufo/debufo +10%",
-        "Nivel 3: Probabilidad de bufo/debufo +15%",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo/debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo/debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "red-def-2",
-        "aturdir"
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "aturdir"
+        }
       ],
       "multiplier": "6xATK",
-      "description": "Ataca a 1 enemigo. Antes de atacar, tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Ignora el 25% de RES si este ataque es crítico.\n\n Luego aplica un efecto de [Contagiar Debufos] que contagia todos los debufos del objetivo a todos los enemigos. Ignora el 25% de RES si el ataque inicial ha sido crítico."
+      "description": "Ataca a 1 enemigo. Antes de atacar, tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Ignora el 25% de RES si este ataque es crítico.\n\n Luego aplica un efecto de [Contagiar Debufos] que contagia todos los debufos del objetivo a todos los enemigos. Ignora el 25% de RES si el ataque inicial ha sido crítico.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Ciclón Caparazón",
       "levels": [
-        "Nivel 2: Probabilidad de bufo / debufo +10%",
-        "Nivel 3: Probabilidad de bufo / debufo +15%",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Probabilidad de bufo / debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "red-atk-2",
-        "chupar-vida",
-        "burlon"
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        },
+        {
+          "key_name": "burlon"
+        }
       ],
       "multiplier": "5xATK",
-      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] y un debufo de [Chupar Sangre] durante 2 turnos. Ignora el 25% de RES si este ataque es crítico.\n\n Luego aplica un bufo de [Burlón] a este campeón durante 2 turnos."
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] y un debufo de [Chupar Sangre] durante 2 turnos. Ignora el 25% de RES si este ataque es crítico.\n\n Luego aplica un bufo de [Burlón] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Fiestero (Pasiva)",
       "levels": [],
       "buffDebuff": [
-        "escudo-habilidad"
+        {
+          "key_name": "escudo-habilidad"
+        }
       ],
-      "description": "[Efecto Pasivo]\n\n Tiene un 15% de probabilidad de Evadir una habilidad enemiga y todos los efectos asociados. Si este campeón tiene un bufo de [Burlón], la probabilidad aumenta a un 30%.\n\n Este campeón se une al ataque siempre que ataca Leonardo, Donatello, Michelangelo o Raphael.\n\n [Efecto Activo]\n\n Aplica un bufo de [Escudo] a este campeón del 300% de su ATK durante 1 turno cuando sufre un ataque."
+      "description": "[Efecto Pasivo]\n\n Tiene un 15% de probabilidad de Evadir una habilidad enemiga y todos los efectos asociados. Si este campeón tiene un bufo de [Burlón], la probabilidad aumenta a un 30%.\n\n Este campeón se une al ataque siempre que ataca Leonardo, Donatello, Michelangelo o Raphael.\n\n [Efecto Activo]\n\n Aplica un bufo de [Escudo] a este campeón del 300% de su ATK durante 1 turno cuando sufre un ataque.",
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -108,7 +146,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/michelangelo.webp",
   "masteries": [],
   "artworks": [],

@@ -43,47 +43,81 @@
     {
       "name": "Lanza de Serenidad (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Curación +10%",
-        "Nivel 4: Daño +15%",
-        "Nivel 5: Curación +10%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Curación +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Curación +10%"
+        }
       ],
       "multiplier": "6xATK. Curación 0.1xHP",
-      "description": "Ataca a 1 enemigo con 1 aliado al azar de la facción de los Argonitas. El aliado que se une al ataque usa su habilidad base.\n\n Cura a todos los aliados el 10% del MAX HP de este campeón."
+      "description": "Ataca a 1 enemigo con 1 aliado al azar de la facción de los Argonitas. El aliado que se une al ataque usa su habilidad base.\n\n Cura a todos los aliados el 10% del MAX HP de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Don de Thalass",
       "levels": [
-        "Nivel 2: Tiempo de Reutilización -1",
-        "Nivel 3: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "bloquear-debufos",
-        "fervor"
+        {
+          "key_name": "bloquear-debufos"
+        },
+        {
+          "key_name": "fervor"
+        }
       ],
-      "description": "Elimina todos los debufos de todos los aliados y les aplica un bufo de [Bloquear Debufos] y un bufo de [Fervor]."
+      "description": "Elimina todos los debufos de todos los aliados y les aplica un bufo de [Bloquear Debufos] y un bufo de [Fervor].",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Reanimación Gloriosa",
       "levels": [
-        "Nivel 2: Tiempo de Reutilización -1",
-        "Nivel 3: Tiempo de Reutilización -1",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 7,
       "buffDebuff": [
-        "fortalecer-2",
-        "aumentar-vel-2"
+        {
+          "key_name": "fortalecer-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        }
       ],
-      "description": "Revive a todos los aliados muertos con el 50% del HP y el 50% de barra de turno.\n\n Aplica un bufo de 25% de Fortalecer y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos."
+      "description": "Revive a todos los aliados muertos con el 50% del HP y el 50% de barra de turno.\n\n Aplica un bufo de 25% de Fortalecer y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Escudo de las Argólidas (Pasiva)",
       "buffDebuff": [
-        "escudo-habilidad"
+        {
+          "key_name": "escudo-habilidad"
+        }
       ],
-      "description": "Cada vez que un aliado recibe un debufo, aplica un bufo de [Escudo] a dicho aliado del 20% de su MAX HP durante 1 turno.\n\n Llena un 15% las barras de turno de todos los aliados al final del turno de este campeón."
+      "description": "Cada vez que un aliado recibe un debufo, aplica un bufo de [Escudo] a dicho aliado del 20% de su MAX HP durante 1 turno.\n\n Llena un 15% las barras de turno de todos los aliados al final del turno de este campeón.",
+      "levels": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -93,7 +127,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/pallas-la-gloriosa.webp",
   "masteries": [],
   "artworks": [],

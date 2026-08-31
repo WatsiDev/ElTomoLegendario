@@ -7,12 +7,15 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=m9eCbiR7NxI",
-  "blessings": ["polimorfar", "cosechar-vida"],
+  "blessings": [
+    "polimorfia",
+    "cosechar-vida"
+  ],
   "relics": [
     "el_triturador",
     "politopo_infernal",
     "cronocubo",
-    "estrellas_jiinang",
+    "estrellas_jinang",
     "mente_de_marquat"
   ],
   "gear": [
@@ -102,7 +105,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/caudillo.webp",
   "masteries": [],
   "artworks": [],

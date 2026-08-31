@@ -8,14 +8,14 @@
   "affinity": "Fuerza",
   "youtube_link": null,
   "blessings": [
-    "rompe-cadenas"
+    "romper-cadenas"
   ],
   "relics": [
     "mascara_de_ira",
     "diadema_no_muerta",
     "abanico_negro"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y early game como tanque de oleadas.",
   "stats": {
     "hp": 17340,
@@ -135,7 +135,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/senor-de-la-prole.webp",
   "masteries": [],
   "artworks": [],

@@ -15,7 +15,7 @@
     "diadema_no_muerta",
     "elixir_dorado"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Bueno en casi todas parte en early-mid game. Se puede seguir usando en Golem y Facciones",
   "stats": {
     "hp": 23460,
@@ -93,7 +93,7 @@
     }
   ],
   "lore": "La sociedad de los Hombres Lagarto es apenas homogénea. Mientras que algunas tribus viven casi como los humanos y los elfos de antaño, construyendo asentamientos y construyendo herramientas, otras son poco más que depredadores de inteligencia que viven y cazan en manadas. Jareg es el líder de una de esas «familias», que lo ha guiado durante muchas décadas. Puede que no sea un estratega sin igual o un maestro de armas, pero hay dos cualidades forjadas por las dificultades que tuvo que soportar que son invaluables: tenacidad e instinto. Como líder de la manada, es el deber de Jareg defender a sus parientes de cualquier peligro que puedan enfrentar, así como liderarlos en cacerías y luchar por más territorio. Durante décadas de lucha constante, aprendió a proteger a quienes dependen de él, incluso si eso significa ponerse en peligro.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/jareg.webp",
   "masteries": [],
   "artworks": [],

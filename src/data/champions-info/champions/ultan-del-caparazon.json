@@ -9,13 +9,13 @@
   "youtube_link": "https://www.youtube.com/watch?v=zLYes2zlBmQ",
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Casi ninguno, muy malo.",
   "stats": {
     "hp": 15525,
@@ -98,7 +98,7 @@
           "key_name": "aturdir"
         },
         {
-          "key_name": "red-velocidad-2"
+          "key_name": "red-vel-2"
         }
       ],
       "multiplier": "3.6xATK",
@@ -120,7 +120,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/ultan-del-caparazon.webp",
   "masteries": [],
   "artworks": [],

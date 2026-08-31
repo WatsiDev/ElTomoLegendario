@@ -15,7 +15,7 @@
     "empunadura_sacra",
     "tiara_de_andromeda"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Quimera, combina top con Senna ahí",
   "stats": {
     "hp": 22470,
@@ -107,7 +107,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/opardin-clanfather.webp",
   "masteries": [],
   "artworks": [],

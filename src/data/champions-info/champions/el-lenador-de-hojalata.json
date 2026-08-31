@@ -24,7 +24,7 @@
     "mercurial",
     "piel-de-piedra"
   ],
-  "uses": null,
+  "uses": "Polivalente tanto en PvP como en PvE, aunque no es específico de ningún sitio en concreto. Funciona mejor con el resto de campeones de Oz pero su principal trabajo es hacer daño.",
   "stats": {
     "hp": 17670,
     "speed": 99,
@@ -39,43 +39,78 @@
     {
       "name": "Hacha de Tala (DEF)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Curación +10%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +10%"
+        }
       ],
-      "multiplier": "?xDEF",
-      "description": "Ataca a 1 enemigo.\n\n Cura a este campeón el 15% de su MAX HP."
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Cura a este campeón el 15% de su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Tálalo ya! (DEF)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Daño +10%",
-        "Nivel 5: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 5,
-      "multiplier": "?xDEF",
-      "description": "Ataca a 1 enemigo. Hace un 10% más de daño e ignora un 10% adicional de DEF por cada bufo de este campeón.\n\n Luego, el resto de aliados atacan juntos al mismo objetivo. Los aliados que se unan al ataque usarán su habilidad base.\n\n Por cada bufo que tenga este campeón, aumenta un 5% el daño y los efectos de ignorar DEF de los aliados que se unan al ataque (10% para Dorothy Gale, El Leñador de Hojalata, El Espantapájaros y El León Cobarde).\n\n Reinicia el tiempo de reutilización de la habilidad Maquina Taladora si el objetivo muere."
+      "multiplier": "3.7xDEF",
+      "description": "Ataca a 1 enemigo. Hace un 10% más de daño e ignora un 10% adicional de DEF por cada bufo de este campeón.\n\n Luego, el resto de aliados atacan juntos al mismo objetivo. Los aliados que se unan al ataque usarán su habilidad base.\n\n Por cada bufo que tenga este campeón, aumenta un 5% el daño y los efectos de ignorar DEF de los aliados que se unan al ataque (10% para Dorothy Gale, El Leñador de Hojalata, El Espantapájaros y El León Cobarde).\n\n Reinicia el tiempo de reutilización de la habilidad Maquina Taladora si el objetivo muere.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Máquina Taladora (DEF)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "aumentar-d-crit-2",
-        "romper-2",
-        "revivir-al-morir"
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "romper-2"
+        },
+        {
+          "key_name": "revivir-al-morir"
+        }
       ],
-      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 30% de [Aumentar D.Crit] y un bufo de 15% de [Romper] a todos los aliados durante 2 turnos.\n\n Ignora un 5% de DEF por cada bufo que tenga este campeón.\n\n Aplica un bufo de [Revivir al Morir] a este campeón durante 1 turno si este ataque mata a un enemigo."
+      "multiplier": "3.9xDEF",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 30% de [Aumentar D.Crit] y un bufo de 15% de [Romper] a todos los aliados durante 2 turnos.\n\n Ignora un 5% de DEF por cada bufo que tenga este campeón.\n\n Aplica un bufo de [Revivir al Morir] a este campeón durante 1 turno si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Coraje Verdadero (Pasiva)",
-      "description": "Reduce un 15% el daño que reciben todos los aliados (30% para Dorothy Gale, El Leñador de Hojalata, El Espantapájaros, y el León Cobarde). Este campeón recibirá ese daño.\n\n Si el daño recibido de esta forma supera el 50% de MAX HP de este campeón, aplica un bufo de [Revivir al Morir] a este campeón durante 2 turnos.\n\n Si el daño recibido de esta forma supera el 50% de MAX HP de este campeón, activa la habilidad Hacha de Tala contra el enemigo con menos HP. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.\n\n Siempre que este campeón recibe daño de esta habilidad, este campeón obtiene +10% DEF (se acumula hasta el 100%)"
+      "description": "Reduce un 15% el daño que reciben todos los aliados (30% para Dorothy Gale, El Leñador de Hojalata, El Espantapájaros, y el León Cobarde). Este campeón recibirá ese daño.\n\n Si el daño recibido de esta forma supera el 50% de MAX HP de este campeón, aplica un bufo de [Revivir al Morir] a este campeón durante 2 turnos.\n\n Si el daño recibido de esta forma supera el 50% de MAX HP de este campeón, activa la habilidad Hacha de Tala contra el enemigo con menos HP. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.\n\n Siempre que este campeón recibe daño de esta habilidad, este campeón obtiene +10% DEF (se acumula hasta el 100%)",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -85,7 +120,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/el-lenador-de-hojalata.webp",
   "masteries": [],
   "artworks": [],

@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "crueldad"
   ],
   "relics": [
@@ -16,6 +16,7 @@
     "malleos_de_fuego",
     "repartemuerte",
     "garra_malefica",
+    "dados_diabolicos",
     "lente_intangible"
   ],
   "gear": [
@@ -109,7 +110,7 @@
     }
   ],
   "lore": "Hay innumerables historias de valor y habilidad que los Campeones de Lumaya han demostrado durante milenios. Valientes caballeros, cuya habilidad con la espada es incomparable, sabios magos, por cuya sola palabra se derrumban montañas, audaces pícaros y soldados incondicionales. Sin embargo, tampoco se debe subestimar a quienes siguen el camino oscuro. El Hegemón es una presencia imponente en cualquier campo de batalla, su dominio de la espada solo se compara con su capacidad para dirigir los ataques de sus secuaces. Se dice que alguna vez fue un noble Campeón de su pueblo y la perdición de los malhechores. Había derrotado a muchos enemigos en esa vida pasada, traído la victoria a muchas batallas. Pero esa habilidad viene con orgullo la mayoría de las veces, y con orgullo, la semilla de la arrogancia que humilló a tantos héroes. Asegurado de su superioridad y sabiduría, el Campeón había renunciado a su señor, dejando a un lado sus votos y lealtades. A partir de entonces, fue conocido como el Hegemón, el único gobernante digno cuyo derecho se ganó con sangre y espada. Muchos de los soldados bajo su mando, influidos por el carisma del Hegemón, se unieron a su rebelión y marcharon sobre las tierras de sus rivales. Se necesitaron muchos meses de guerra sangrienta y los esfuerzos conjuntos de Kaerok y los Señores de la frontera Aravian, así como una Misión de la Orden Sagrada para finalmente detener la campaña del Hegemón y derrotar a su ejército. Aunque el propio Campeón rebelde huyó después de matar sin ayuda a los hombres de armas enviados tras él. Con su caída ahora completa, juró venganza sangrienta sobre la gente de Teleria y entregó su alma a Siroth y sus secuaces mortales. Un día, cuando sus rivales entre los caballeros renegados Aparecidos sean derrotados, el Hegemón reunirá un nuevo ejército y marchará sobre Kaerok.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/hegemon.webp",
   "masteries": [],
   "artworks": [],

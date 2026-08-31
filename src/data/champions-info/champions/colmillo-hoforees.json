@@ -17,7 +17,7 @@
     "crisalida_de_renacer",
     "corona_lugubre"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Revividor para facciones y algo de Ciudad Maldita",
   "stats": {
     "hp": 20475,
@@ -108,7 +108,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/colmillo-hoforees.webp",
   "masteries": [],
   "artworks": [],

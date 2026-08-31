@@ -11,7 +11,7 @@
     "sobrevivir"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y oleadas hasta conseguir algo mejor.",
   "stats": {
     "hp": 15030,
@@ -96,9 +96,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/denid.webp",
   "masteries": [],
   "artworks": [],

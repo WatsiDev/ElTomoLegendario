@@ -13,7 +13,7 @@
   "relics": [
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Muy limitada aunque con buenos stats. Facciones normal quizá",
   "stats": {
     "hp": 17670,
@@ -108,7 +108,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/peydma.webp",
   "masteries": [],
   "artworks": [],

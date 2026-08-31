@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "polimorfar",
+    "polimorfia-6",
     "fuego-y-azufre"
   ],
   "relics": [
@@ -19,7 +19,14 @@
     "dedo_real",
     "caldero_acaparador"
   ],
-  "gear": [],
+  "gear": [
+    "incansable",
+    "velocidad",
+    "punteria",
+    "percepcion",
+    "bestial",
+    "proteccion"
+  ],
   "uses": "Top apoyo en hydra. No molesta en ningún sitio",
   "stats": {
     "hp": 21645,
@@ -133,7 +140,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/tuhanarak.webp",
   "masteries": [],
   "artworks": [],

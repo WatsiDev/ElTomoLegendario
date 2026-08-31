@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=LtBWzyPNg_I",
   "blessings": [
-    "polimorfar",
+    "polimorfia",
     "presencia-amenazante"
   ],
   "relics": [
@@ -154,7 +154,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/april-oneil.webp",
   "masteries": [],
   "artworks": [],

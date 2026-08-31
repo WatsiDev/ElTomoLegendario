@@ -7,16 +7,17 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": null,
-  "blessings": ["crueldad", "polimorfar"],
+  "blessings": [
+    "crueldad",
+    "polimorfia"
+  ],
   "relics": [
     "varita_de_sumision",
     "diario_de_necrotos",
     "arpa_de_kasbiel",
-    "caldero_acaparador",
-    "retono_repugnante",
-    "impasse_temporal",
+    "ancla_sempiterna",
     "servidumbre_de_xibia",
-    "estrellas_jiinang",
+    "estrellas_jinang",
     "mascara_de_zozobra",
     "plumaje_dorado",
     "tempus_morbidia",
@@ -27,7 +28,13 @@
     "orbe_de_transfixion",
     "tiempo_de_sangre"
   ],
-  "gear": ["supersonico", "velocidad", "punteria", "percepcion", "mercurial"],
+  "gear": [
+    "supersonico",
+    "velocidad",
+    "punteria",
+    "percepcion",
+    "mercurial"
+  ],
   "uses": "Muy bueno como controlador en cualquier sitio, PvE y PvP",
   "stats": {
     "hp": 21810,
@@ -124,7 +131,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/pontifice-agustin.webp",
   "masteries": [],
   "artworks": [],

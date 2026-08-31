@@ -8,8 +8,8 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=nAr8bTi35iA",
   "blessings": [
-    "llegado-del-cielo",
-    "desgarro-aplastante"
+    "caido-del-cielo",
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
@@ -155,7 +155,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/valkanen.webp",
   "masteries": [],
   "artworks": [],

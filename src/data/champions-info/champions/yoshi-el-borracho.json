@@ -14,12 +14,13 @@
   "gear": [
     "velocidad",
     "punteria",
-    "percepcion"
+    "percepcion",
+    "reflejo"
   ],
-  "uses": "Casi ninguno, bastante malo y poco específico. Facciones como mucho",
+  "uses": "Tras el rebalanceo puede servir como quemador y controlador en área. Muy bueno con pruebas de Quimera",
   "stats": {
     "hp": 19650,
-    "speed": 103,
+    "speed": 108,
     "attack": 1299,
     "defense": 969,
     "accuracy": 20,
@@ -47,10 +48,13 @@
       "buffDebuff": [
         {
           "key_name": "aturdir"
+        },
+        {
+          "key_name": "red-res-2"
         }
       ],
       "multiplier": "4.1xATK",
-      "description": "Ataca a 1 enemigo. Tiene un 30% de probabilidad de colocar un debufo [Aturdir] durante 1 turno.",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 40% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Aplica un debufo de 50% de [Reducir RES] durante 2 turnos en su lugar si el deubfo de [Aturdir] no se aplica.",
       "book_priority": "Ninguna"
     },
     {
@@ -85,7 +89,7 @@
         }
       ],
       "multiplier": "2.6xATK",
-      "description": "Ataca 2 veces al azar. Tiene 75% de probabilidad de colocar un debufo de [Reducir PUNT] y un debufo de [Quemar HP] del 50% durante 2 turnos.",
+      "description": "Ataca a todos los enemigos.\n\n Tiene 75% de probabilidad de aplicar un debufo de 50% [Reducir PUNT] y un debufo de [Quemar HP] del 50% durante 2 turnos.",
       "book_priority": "Ninguna"
     },
     {
@@ -116,13 +120,13 @@
           "key_name": "miedo-de-verdad"
         }
       ],
-      "description": "Coloca un buff del 50% [Aumentar ATK] y un 50% [Aumentar PUNT] en todos los aliados durante 2 turnos. También tiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] en todos los enemigos durante 1 turno. En su lugar, tiene un 75% de probabilidad en enemigos con buffos de [Aumentar ATK].",
+      "description": "Aplica un bufo del 50% [Aumentar ATK] y un 50% [Aumentar PUNT] a todos los aliados durante 2 turnos, y llena las barras de turno de los aliados en 20%.\n\n También tiene un 75% de probabilidad de aplicar un debufo de [Miedo de Verdad] a todos los enemigos durante 1 turno.",
       "book_priority": "Ninguna"
     },
     {
       "name": "Partier (Pasiva)",
       "levels": [],
-      "description": "Llena el medidor de turno de este campeón en un 4% cada vez que un enemigo recibe un buff.",
+      "description": "Llena el medidor de turno de este campeón en un 5% cada vez que un enemigo recibe un bufo.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
@@ -134,7 +138,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/yoshi-el-borracho.webp",
   "masteries": [],
   "artworks": [],

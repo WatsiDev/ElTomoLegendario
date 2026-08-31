@@ -12,62 +12,101 @@
   "gear": null,
   "uses": "Oleadas y arenas principalmente. Muy buena y molesta como controladora",
   "stats": {
-    "hp": 0,
-    "speed": 0,
-    "attack": 0,
-    "defense": 0,
-    "accuracy": 0,
-    "critRate": 0,
-    "critDamage": 0,
-    "resistance": 0
+    "hp": 21810,
+    "speed": 108,
+    "attack": 925,
+    "defense": 1200,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
   },
   "skills": [
     {
       "name": "Maldición Debilitante (ATK)",
       "levels": [
-        "Nivel 2: Daño +15%",
-        "Nivel 3: Probabilidad de Bufo / Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo / Debufo +10%"
+        }
       ],
       "buffDebuff": [
-        "bloquear-habilidades-activas"
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
       ],
-      "multiplier": "?xATK",
-      "description": "Ataca a todos los enemigos.\n\n Tiene un 40% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 1 turno. Tiene un 100% de probabilidad en lugar de lo anterior contra objetivos que estén bajo un debufo de [Miedo] o [Miedo de Verdad]."
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 40% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 1 turno. Tiene un 100% de probabilidad en lugar de lo anterior contra objetivos que estén bajo un debufo de [Miedo] o [Miedo de Verdad].",
+      "book_priority": "Ninguna"
     },
     {
       "name": "No Puedes Escapar de Mí",
       "levels": [
-        "Nivel 2: Probabilidad de Bufo / Debufo +10%",
-        "Nivel 3: Probabilidad de Bufo / Debufo +15%",
-        "Nivel 4: Tiempo de reutilización -1",
-        "Nivel 5 Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo / Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5 Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "red-def-2",
-        "enredar-2"
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "enredar-2"
+        }
       ],
-      "description": "Elimina todos los bufos de todos los enemigos.\n\n Roba el 30% de la barra de turno de todos los enemigos que estén bajo un debufo de [Miedo] o [Miedo de Verdad].\n\n Tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir Defensa] y un debufo de 100% de [Enredar] a todos los enemigos durante 2 turnos."
+      "description": "Elimina todos los bufos de todos los enemigos.\n\n Roba el 30% de la barra de turno de todos los enemigos que estén bajo un debufo de [Miedo] o [Miedo de Verdad].\n\n Tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir Defensa] y un debufo de 100% de [Enredar] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Corderos al Matadero",
       "levels": [
-        "Nivel 2: Daño +20%",
-        "Nivel 3: Tiempo de reutilización -1",
-        "Nivel 4: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 6,
       "buffDebuff": [
-        "sello-maestro",
-        "oveja",
-        "bloquear-habilidades-pasivas"
+        {
+          "key_name": "sello-maestro"
+        },
+        {
+          "key_name": "oveja"
+        },
+        {
+          "key_name": "bloquear-habilidades-pasivas"
+        }
       ],
-      "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de [Sello Maestro] al objetivo inicial durante 2 turnos.\n\n También tiene un 30% de probabilidad de aplicar un debufo de [Oveja] a todos los demás enemigos durante 1 turno. Aplica un debufo de [Bloquear Habilidades Pasivas] durante 2 turnos a los enemigos a los que no ha aplicado el debufo de [Oveja]."
+      "multiplier": "5xATK",
+      "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de [Sello Maestro] al objetivo inicial durante 2 turnos.\n\n También tiene un 30% de probabilidad de aplicar un debufo de [Oveja] a todos los demás enemigos durante 1 turno. Aplica un debufo de [Bloquear Habilidades Pasivas] durante 2 turnos a los enemigos a los que no ha aplicado el debufo de [Oveja].",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Más que Trastornada (Pasiva)",
-      "description": "Este campeón es inmune a debufos de [Oveja], [Miedo], [Miedo de Verdad], [Enredar], [Bloquear Habilidades Activas], [Bloquear Habilidades Pasiovas], [Sello] y [Sello Maestro].\n\n Siempre que un enemigo recibe un bufo, tiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] a ese enemigo durante 1 turno. Este efecto solo se activa 1 vez por habilidad, y una vez por objetivo. Si hay multiples copias de este campeón en el equipo, solo se activa una. Esta habilidad no se activa en copias duplicadas de este campeón, si este campeón en particular está muerto.\n\n Este campeón y sus aliados hacen un 20% más de daño a enemigo bajo debufos de [Miedo] o [Miedo de Verdad]. Si hay multiples campeones en el equipo con esta habilidad, solo se activa una. Esta habilidad no se activa en copias duplicadas de este campeón, si este cmapeón en particular está muerto"
+      "description": "Este campeón es inmune a debufos de [Oveja], [Miedo], [Miedo de Verdad], [Enredar], [Bloquear Habilidades Activas], [Bloquear Habilidades Pasiovas], [Sello] y [Sello Maestro].\n\n Siempre que un enemigo recibe un bufo, tiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] a ese enemigo durante 1 turno. Este efecto solo se activa 1 vez por habilidad, y una vez por objetivo. Si hay multiples copias de este campeón en el equipo, solo se activa una. Esta habilidad no se activa en copias duplicadas de este campeón, si este campeón en particular está muerto.\n\n Este campeón y sus aliados hacen un 20% más de daño a enemigo bajo debufos de [Miedo] o [Miedo de Verdad]. Si hay multiples campeones en el equipo con esta habilidad, solo se activa una. Esta habilidad no se activa en copias duplicadas de este campeón, si este cmapeón en particular está muerto",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -77,7 +116,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/ozilda-la-malvada.webp",
   "masteries": [],
   "artworks": [],

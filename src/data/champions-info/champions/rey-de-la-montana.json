@@ -9,14 +9,15 @@
   "youtube_link": "https://www.youtube.com/watch?v=VKYP1C5sqxc",
   "blessings": [
     "toque-fantasmal",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "colmillo_asesino",
     "vial_del_sombrerero",
     "luna_de_sangre",
     "garra_malefica",
-    "lente_intangible"
+    "lente_intangible",
+    "lanza_trueno"
   ],
   "gear": [
     "apoyo",
@@ -116,7 +117,7 @@
     }
   ],
   "lore": "Hay pocos lugares tan magníficos y terroríficos como el Rey de la montaña a la cabeza de un ejército enano. Por derecho de nacimiento y por derecho de poder, es el soberano de todos los Enanos, el gobernante indiscutible de todo lo que se encuentra debajo de las Montañas de la Desesperación. Su bramido guerrero lleva a sus parientes a hazañas de valor cada vez mayores, y Ogryn y Demon temen con razón su habilidad. Siendo todavía un joven príncipe, había luchado y asesinado a un posible rey de los sanguinarios Ogryns que buscaban esculpir su dominio de las tierras periféricas, e indefensas, como imaginaban en su arrogancia, de los Enanos. Más tarde, reunió a su familia contra las fuerzas de Siroth y derrotó personalmente a innumerables enemigos y al asqueroso demonio que lideró la invasión. Ahora, él marcha con la vanguardia de los Enanos porque es el deber del Rey asegurar que su pueblo permanezca a salvo y que todos los que se atrevan a amenazarlos se vean frustrados. Armado con un hacha que se dice que perteneció al progenitor de todos los Enanos, el Rey de la Montaña dispersa a sus enemigos de izquierda a derecha con la furia de un volcán despierto. Ninguna armadura puede ser suficiente para detener su temible arma, ni siquiera la poderosa magia protectora puede desviarla. Ganar el respeto y la asistencia del Rey es difícil, como siempre es el caso con los Enanos, pero su fuerza sería un activo innegable para los Campeones de Lumaya. ",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/rey-de-la-montana.webp",
   "masteries": [],
   "artworks": [],

@@ -8,8 +8,8 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=xB1LJwsEHWQ",
   "blessings": [
-    "desgarro-aplastante",
-    "llegado-del-cielo"
+    "Desgarro-Aplastante-6",
+    "caido-del-cielo"
   ],
   "relics": [
     "corazon_volcardiaco",
@@ -20,9 +20,8 @@
     "eternizalmas"
   ],
   "gear": [
-    "apoyo",
+    "despiadado",
     "escudo",
-    "inmortal",
     "salvaje",
     "letal",
     "proteccion"
@@ -130,7 +129,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/titus-plumanegra.webp",
   "masteries": [],
   "artworks": [],

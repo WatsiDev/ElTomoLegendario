@@ -15,7 +15,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Muy útil en oleadas, arenas y facciones",
   "stats": {
     "hp": 13545,
@@ -106,7 +106,7 @@
     }
   ],
   "lore": "Golpeador nunca ha honrado las tradiciones de los cambiapieles y nunca ha creído en las leyendas de Ch’arocah. En lo único que cree es en la fuerza bruta. Habiendo sido exiliado de su tribu en su niñez, se fue al sur a través de las Montañas Picorojo donde sirvió primero como explorador de los señores Ordun, luego como asesino y torturador. Golpeaedor nunca habla de su pasado y nunca ha pronunciado el nombre real que le dio su madre. Lo que lo enorgullece es su apodo actual: Golpeador.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/golpeador.webp",
   "masteries": [],
   "artworks": [],

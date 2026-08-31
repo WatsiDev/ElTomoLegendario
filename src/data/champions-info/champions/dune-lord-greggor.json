@@ -8,14 +8,14 @@
   "affinity": "Fuerza",
   "youtube_link": null,
   "blessings": [
-    "polimorfar",
-    "rompe-cadenas"
+    "polimorfia",
+    "romper-cadenas"
   ],
   "relics": [
     "campana_fundida",
     "tiempo_de_sangre"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Arenas con Barbaros. Nicho pero polivalente según con quien vaya",
   "stats": {
     "hp": 19485,
@@ -50,7 +50,7 @@
         }
       ],
       "multiplier": "3.6xDEF",
-      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno.",
+      "description": "Ataca a 1 enemigo. Tiene un 100% de probabilidad de aplicar un debufo de [Incitar] durante 1 turno.\n\n Si el debufo de [Provocar] se aplica con éxito, el aliado con mayor D.Crit se unirá al ataque.",
       "book_priority": "Ninguna"
     },
     {
@@ -73,7 +73,7 @@
         }
       ],
       "multiplier": "3.8xDEF",
-      "description": "Ataca a todos los enemigos. Reduce 1 turno la duración de todos los bufos enemigos y aumenta 1 turno la duración de todos los bufos aliados.  \n\nTambién aplica un bufo de [Escudo] a todos los aliados del 20% de MAX HP de este campeón durante 2 turnos",
+      "description": "Ataca a todos los enemigos.\n\n Elimina todos los bufos de todos los enemigos y aumenta 1 turno la duración de todos los bufos aliados.  \n\nTambién aplica un bufo de [Escudo] a todos los aliados proporcional a la DEF de este campeón durante 2 turnos",
       "book_priority": "Ninguna"
     },
     {
@@ -93,9 +93,12 @@
         },
         {
           "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-def-2"
         }
       ],
-      "description": "Aplica un bufo del 50% de [Aumentar ATK] y un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.",
+      "description": "Aplica un bufo del 50% de [Aumentar ATK] y un bufo de 50% de [Aumentar PUNT] y un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos.",
       "factionUnity": "Unidad de Barbaros",
       "unityEffects": {
         "1-ally": "Reduce 1 turno el tiempo de reutilización de todas las habilidades de todos los aliados, excepto este campeón.",
@@ -112,12 +115,12 @@
           "key_name": "incitar"
         }
       ],
-      "description": "Al ser atacado, tiene un 20% de probabilidad de aplicar un debufo de [Incitar] al atacante durante 1 turno. Una vez por ataque.",
+      "description": "Al ser atacado, tiene un 50% de probabilidad de aplicar un debufo de [Incitar] al atacante durante 1 turno. Una vez por ataque.",
       "factionUnity": "Unidad de Barbaros",
       "unityEffects": {
         "1-ally": "Los aliados hacen un 25% más de daño a los enemigos que tienen un debufo de [Aturdir], [Dormir], [Miedo], [Miedo de Verdad], [Incitar], [Congelar] o [Petrificación]. Si hay varios campeones en el grupo con esta habilidad, este efecto solo se activa una vez.",
         "2-ally": "Los aliados ignoran el 50% de RES del objetivo al aplicar debufos de [Aturdir], [Dormir], [Miedo], [Miedo de Verdad], [Incitar], [Congelar] o [Petrificación].",
-        "3-ally": "Al contraatacar, los efectos instantáneos y los debufos aplicados por las habilidades de los aliados no se pueden ni resistir ni bloquear."
+        "3-ally": "Al aplicar un debufo fuera de su turno, o durante un turno instantáneo o turno extra, los efectos instantáneos y los debufos aplicados por las habilidades de los aliados no se pueden ni resistir ni bloquear."
       },
       "book_priority": "Ninguna"
     }
@@ -125,7 +128,7 @@
   "aura": [
     {
       "type": "def",
-      "description": "Aumenta la DEF de aliados en todas las batallas en 25%"
+      "description": "Aumenta la DEF de aliados en todas las batallas en 30%"
     },
     {
       "type": "punt",
@@ -133,7 +136,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/dune-lord-greggor.webp",
   "masteries": [],
   "artworks": [],

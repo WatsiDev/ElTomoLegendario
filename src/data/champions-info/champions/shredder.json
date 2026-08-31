@@ -8,8 +8,8 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=eAJfuICeANw",
   "blessings": [
-    "desgarro-aplastante",
-    "llegado-del-cielo"
+    "Desgarro-Aplastante-6",
+    "caido-del-cielo"
   ],
   "relics": [
     "mirada_del_gato",
@@ -129,7 +129,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/shredder.webp",
   "masteries": [],
   "artworks": [],

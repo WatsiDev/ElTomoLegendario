@@ -37,48 +37,80 @@
     {
       "name": "Asalto de Orgullo (ATK)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Daño +10%"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
       ],
       "multiplier": "4xATK",
-      "description": "Ataca a 1 enemigo.\n\n Ataca 1 vez más si el objetivo tiene un debufo de [Reducir DEF].\n\n Reduce un 10% la barra de turno del objetivo."
+      "description": "Ataca a 1 enemigo.\n\n Ataca 1 vez más si el objetivo tiene un debufo de [Reducir DEF].\n\n Reduce un 10% la barra de turno del objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Corte Supremo (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Tiempo de Reutilización -1",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "bloquear-revivir"
+        {
+          "key_name": "bloquear-revivir"
+        }
       ],
       "multiplier": "6.3xATK",
-      "description": "Ataca a 1 enemigo.\n\n Aplica un debufo de [Bloquear Revivir] si el objetivo muere.\n\n Llena un 30% la barra de turno de este campeón."
+      "description": "Ataca a 1 enemigo.\n\n Aplica un debufo de [Bloquear Revivir] si el objetivo muere.\n\n Llena un 30% la barra de turno de este campeón.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Aspirante de Theosomi",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Tiempo de Reutilización -1",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 6,
       "multiplier": "3.8xATK",
-      "description": "Ataca a todos los enemigos.\n\n Ignora 15% de DEF del objetivo si tiene afinidad de Espíritu. Ignora 25% de DEF del objetivo si tiene otra afinidad.\n\n Activa la habilidad Corte Supremo contra un enemigo aleatorio al que esta habilidad le haya reducido sus HP más del 50%. Ocurre una vez por habilidad."
+      "description": "Ataca a todos los enemigos.\n\n Ignora 15% de DEF del objetivo si tiene afinidad de Espíritu. Ignora 25% de DEF del objetivo si tiene otra afinidad.\n\n Activa la habilidad Corte Supremo contra un enemigo aleatorio al que esta habilidad le haya reducido sus HP más del 50%. Ocurre una vez por habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Lecciones de Guardialeón (Pasiva)",
-      "description": "Antes de atacar, tiene un 25% de probabilidad de eliminar cualquier debufo de [Reducir ATK] de este campeón y reemplazarlo por el bufo reflejado equivalente. También tiene un 25% de probabilidad de eliminar cualquier bufo de [Aumentar DEF] de enemigos y reemplazarlo por el debufo reflejado equivalente."
+      "description": "Antes de atacar, tiene un 25% de probabilidad de eliminar cualquier debufo de [Reducir ATK] de este campeón y reemplazarlo por el bufo reflejado equivalente. También tiene un 25% de probabilidad de eliminar cualquier bufo de [Aumentar DEF] de enemigos y reemplazarlo por el debufo reflejado equivalente.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/guardialeon-galatea.webp",
   "masteries": [],
   "artworks": [],

@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=K3xlp31GcLA",
   "blessings": [
-    "Desgarro-Aplastante",
+    "Desgarro-Aplastante-6",
     "segar-almas"
   ],
   "relics": [
@@ -22,7 +22,7 @@
     "mercurial",
     "piel-de-piedra"
   ],
-  "uses": null,
+  "uses": "Uno de los nukers top de arena. Muy molestos y dificil de hacerle daño por su pasiva de aplicarse Nube de Veneno. No pega durísimo, pero golpea mucho",
   "stats": {
     "hp": 22305,
     "speed": 98,
@@ -37,50 +37,83 @@
     {
       "name": "Cuchillas de Grieta (HP)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Probabilidad Bufo/Debufo +10%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo/Debufo +10%"
+        }
       ],
       "buffDebuff": [
-        "aturdir"
+        {
+          "key_name": "aturdir"
+        }
       ],
       "multiplier": "?xHP",
-      "description": "Ataca 2 veces a todos los enemigos.\n\n Tiene un 25% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno."
+      "description": "Ataca 2 veces a todos los enemigos.\n\n Tiene un 25% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Presencia Volcánica (HP)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +15%",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "romper-2"
+        {
+          "key_name": "romper-2"
+        }
       ],
       "multiplier": "?xHP",
-      "description": "Ataca 2 veces a todos los enemigos. Antes de atacar, aplica un bufo de 15% de [Romper] a este campeón durante 2 turnos. Ignora bufos de [Escudo], [Fortalecer] y [Aumentar DEF].\n\n Cada ataque aumenta 2 turnos los tiempos de Reutilización de todas las habilidades enemigas."
+      "description": "Ataca 2 veces a todos los enemigos. Antes de atacar, aplica un bufo de 15% de [Romper] a este campeón durante 2 turnos. Ignora bufos de [Escudo], [Fortalecer] y [Aumentar DEF].\n\n Cada ataque aumenta 2 turnos los tiempos de Reutilización de todas las habilidades enemigas.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Baluarte Llameante",
       "levels": [
-        "Nivel 2: Tiempo de Reutilización -1",
-        "Nivel 3: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "burlon",
-        "nube-venenosa",
-        "escudo-habilidad"
+        {
+          "key_name": "burlon"
+        },
+        {
+          "key_name": "nube-venenosa"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
       ],
-      "description": "Aplica un bufo de [Burlón] y un bufo de [Nube de Veneno] a este campeón durante 3 turnos. También aplica un bufo protegido de [Escudo] del 30% de MAX HP de este campeón a todos los aliados durante 2 turnos.\n\n Luego obtén un turno adicional."
+      "description": "Aplica un bufo de [Burlón] y un bufo de [Nube de Veneno] a este campeón durante 3 turnos. También aplica un bufo protegido de [Escudo] del 30% de MAX HP de este campeón a todos los aliados durante 2 turnos.\n\n Luego obtén un turno adicional.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Aliento Sulfuroso (Pasiva)",
       "buffDebuff": [
-        "nube-de-veneno"
+        {
+          "key_name": "nube-de-veneno"
+        }
       ],
-      "description": "Al comienzo de cada ronda, aplica un bufo de [Nube de Veneno] a este campeón durante 1 turno.\n\n Reduce un 50% el daño que recibe este campeón de críticos.\n\n Cada vez que un enemigo ataca a este campeón, aumenta un 5% MAX HP de este campeón. Los ataques débiles aumentan un 10% de MAX HP de este campeón en vezs de un 5%. Se acumula hasta el 100%."
+      "description": "Al comienzo de cada ronda, aplica un bufo de [Nube de Veneno] a este campeón durante 1 turno.\n\n Reduce un 50% el daño que recibe este campeón de críticos.\n\n Cada vez que un enemigo ataca a este campeón, aumenta un 5% MAX HP de este campeón. Los ataques débiles aumentan un 10% de MAX HP de este campeón en vezs de un 5%. Se acumula hasta el 100%.",
+      "levels": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -89,8 +122,8 @@
       "description": "Aumenta el HP de aliados en todas las batallas en 33%"
     }
   ],
-  "lore": null,
-  "forms": null,
+  "lore": "«Su piel es magma, cambiante y burbujeante por el calor. Su aliento son vapores sulfurosos, enfermizos y mortales. Cristal líquido corre por sus venas en lugar de sangre, y el agua se convierte en vapor en su presencia. Cada una de sus pisadas va acompañada del chisporroteo de la roca fundida al solidificarse. Es el alma de la montaña de fuego, salvador y destructor.» — Testimonio de un adorador de Tekteon.\\n\\n\n\nTekteon es un antiguo Engendro que sobrevivió a la campaña contra los Dragonkin, pero quedó abandonado cuando el resto de las fuerzas de Siroth se retiraron de Teleria tras su derrota en la Primera Gran Guerra. El fracaso del Dios de las Sombras lo dejó destrozado. La causa de Siroth le parecía ahora vanidosa y carente de sentido. Además, Tekteon había masacrado a incontables telerianos, tanto combatientes como inocentes. Para evitar la atención de los mortales, vagó de un lugar a otro hasta encontrar refugio en una isla volcánica de las Argólades.\\n\\n\n\nInevitablemente, los telerianos también acabaron asentándose allí. Eran humanos argonitas que llamaron a la isla Perikras. Al comprender la inutilidad de seguir huyendo constantemente, Tekteon decidió quedarse, aunque continuó viviendo en aislamiento voluntario.\\n\\n\n\nA pesar de sus esfuerzos por permanecer oculto, comenzaron a extenderse entre los argonitas historias sobre una figura solitaria y ardiente que aparecía entre los vapores y las ondas de calor de las fumarolas. Debido a su naturaleza reservada y su aterradora apariencia, Tekteon adquirió una reputación siniestra. Los argonitas lo culpaban de enfermedades, terremotos, erupciones volcánicas e incluso de la simple mala suerte. A Tekteon le satisfacía ser odiado mientras lo dejaran en paz, y así transcurrieron los años.\\n\\n\n\nSin embargo, el monte Perikras entró en erupción con una violencia nunca vista, amenazando con cubrir toda la isla bajo un océano de roca fundida. Las multitudes llegaron a la conclusión de que el volcán finalmente había dejado de tolerar la presencia de Tekteon y que pretendía ahogar la isla en lava para destruirlo.\\n\\n\n\nLo persiguieron, lo capturaron y lo llevaron ante la creciente muralla de magma para ofrecerlo como sacrificio a la roca ardiente. Tekteon siempre había querido compensar a la Humanidad por los crímenes de su pasado, incluso mientras esta lo despreciaba y demonizaba. Pero en aquel momento creyó comprender la verdadera naturaleza de los hombres.\\n\\n\n\nAun así, razonó que permitir que los aldeanos fueran exterminados —pues su asesinato ritual no haría absolutamente nada para detener la lava— tendría el mismo resultado que las masacres que él mismo había perpetrado durante la Gran Guerra.\\n\\n\n\nTekteon rompió sus ataduras y, mientras los aterrorizados aldeanos se preparaban para atacarlo una vez más, comenzó a arrancar la tierra del suelo. Excavó una enorme zanja y acumuló la tierra desplazada en el lado opuesto al magma para formar una barrera. Los aldeanos ya habían intentado algo similar anteriormente, sin éxito, pero la fuerza primigenia de Tekteon cambió por completo la situación.\\n\\n\n\nCon sus espadas abrasadoras partía la roca y la tierra compacta como si fueran agua, realizando el trabajo de diez obreros en una décima parte del tiempo. Los humanos colaboraron con él para excavar dos canales que convergían en un punto central frente al avance de la lava y continuaban por los laterales de la población.\\n\\n\n\nLa colada volcánica terminó desviándose alrededor de la aldea, fluyendo como el agua que rodea una roca en medio de un arroyo.\\n\\n\n\nDespués de aquello, los humanos ya no quisieron dejarlo en paz. Le llevaban ofrendas, difundían historias sobre su increíble presencia y aseguraban que tenía control sobre el volcán y dominio sobre la tierra misma. Un culto de adoración surgió en torno a él, extendiéndose incluso a las islas cercanas y atrayendo peregrinos y fieles a su morada en la ladera de la montaña.\\n\\n\n\nDesde entonces, durante generaciones, Tekteon ha protegido a sus seguidores y aceptado sus tributos, aunque sigue contemplando toda aquella devoción con una mezcla de desconcierto e indiferencia.\\n\\n\n\nAcepta esta situación no porque disfrute siendo venerado como un dios viviente, sino porque no se atreve a arriesgarse a alterar el equilibrio. Ha visto con sus propios ojos lo que ocurre cuando la opinión de las volubles masas humanas cambia repentinamente.\\n\\n\n",
+  "forms": [],
   "image": "/src/assets/champions/tekteon-carnegrieta.webp",
   "masteries": [],
   "artworks": [],

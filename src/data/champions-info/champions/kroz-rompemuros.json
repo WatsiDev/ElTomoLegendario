@@ -8,7 +8,7 @@
   "affinity": "Espíritu",
   "youtube_link": "https://www.youtube.com/watch?v=mDCzNjpE9ow",
   "blessings": [
-    "polimorfar"
+    "polimorfia"
   ],
   "relics": [
     "varita_de_sumision"
@@ -54,7 +54,7 @@
           "key_name": "aturdir"
         }
       ],
-      "multiplier": "?xATK",
+      "multiplier": "1.5xATK",
       "description": "Ataca a 1 enemigo 3 veces.\n\n Cada ataque tiene un 30% de probabilidad de reducir 1 turno la cuenta atrás de todos los debufos de [Bomba] del objetivo.\n\n También tiene un 30% de probabilidad de aplicar un debufo de [Aturdir] al objetivo durante 1 turno.",
       "book_priority": "Ninguna"
     },
@@ -80,7 +80,7 @@
           "key_name": "bomba"
         }
       ],
-      "multiplier": "?xATK",
+      "multiplier": "5xATK",
       "description": "Tiene un 75% de probabilidad de aplicar 2 debufos de [Bomba] a todos los enemigos que explotarán en 2 turnos.\n\n Llena un 25% la barra de turno de este campeón por cada enemigo que tenga un debufo de [Bomba]",
       "book_priority": "Ninguna"
     },
@@ -106,7 +106,7 @@
           "key_name": "bloquear-habilidades-activas"
         }
       ],
-      "multiplier": "?xATK",
+      "multiplier": "4.35xATK",
       "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de reducir 1 turno la cuenta atrás de todos los debufos de [Bomba].\n\n También tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 2 turnos.",
       "book_priority": "Ninguna"
     },
@@ -123,7 +123,7 @@
     "description": "Aumenta el ATK de aliados en todas las batallas en un 30%."
   },
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/kroz-rompemuros.webp",
   "masteries": [],
   "artworks": [],

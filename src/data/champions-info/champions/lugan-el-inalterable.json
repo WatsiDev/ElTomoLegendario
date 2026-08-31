@@ -3,19 +3,20 @@
   "name": "Lugan el Inalterable",
   "faction": "Hidalgos",
   "rarity": "Legendario",
-  "role": "Extraño healer-nuker con control y bufos defensivos",
+  "role": "Healer-nuker con control y bufos defensivos",
   "type": "HP",
   "affinity": "Espíritu",
-  "youtube_link": null,
+  "youtube_link": "https://www.youtube.com/watch?v=JNqZlQcJ_yQ",
   "blessings": [
-    "fuego-y-azufre",
+    "Desgarro-Aplastante-6",
     "guarda-de-los-caidos"
   ],
   "relics": [
     "vial_del_sombrerero",
     "elixir_dorado",
     "abanico_negro",
-    "diadema_no_muerta"
+    "diadema_no_muerta",
+    "craneo_de_vida"
   ],
   "gear": [
     "inmortal",
@@ -23,12 +24,9 @@
     "vida",
     "percepcion",
     "punteria",
-    "prob-critico",
-    "p-crit-divino",
-    "velocidad",
-    "velocidad-divina"
+    "parada-rapida"
   ],
-  "uses": "Arenas? Realmente no se usa mucho ni es meta en ningún sitio. Quizá Escarabajo de la Torre",
+  "uses": "Un poco para todo pero top en nada. No pega mal, pero no cura tanto. Su pasiva y A2 son interesantes para casi todo pero no es meta",
   "stats": {
     "hp": 22140,
     "speed": 103,
@@ -41,7 +39,7 @@
   },
   "skills": [
     {
-      "name": "Golpe Aplastante (HP)",
+      "name": "Golpe Rompedor (HP)",
       "levels": [
         {
           "level_desc": "Nivel 2: Daño +5%"
@@ -58,15 +56,15 @@
       ],
       "buffDebuff": [
         {
-          "key_name": "escudo-habilidad"
+          "key_name": "aturdir"
         }
       ],
       "multiplier": "0.23xHP",
-      "description": "Ataca a 1 enemigo. Cura a todos los aliados en un 25% del daño infligido. Aplica un bufo de [Escudo] en este Campeón durante 2 turnos igual al 10% de su HP MÁXIMO.",
+      "description": "Ataca a 1 enemigo. Cura a todos los aliados en un 25% del daño hecho.\n\n. Tiene un 50% de probabilidad de aplicar un debufo de [Aturdir]durante 1 turno.\n\n Al contraatacar también ignora el 20% de DEF.",
       "book_priority": "Ninguna"
     },
     {
-      "name": "Guardaespaldas",
+      "name": "Protector",
       "levels": [
         {
           "level_desc": "Nivel 2: Tiempo de Reutilización -1"
@@ -79,9 +77,12 @@
         },
         {
           "key_name": "proteccion-de-aliado-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
         }
       ],
-      "description": "Aplica un bufo de 60% [Aumentar DEF] en este Campeón durante 3 turnos. También aplica un bufo de 50% [Protección de aliado] en todos los aliados durante 2 turnos.",
+      "description": "Aplica un bufo de 60% [Aumentar DEF], un bufo de 50% [Protección de aliado] y un bufo de [Escudo] del 30% de MAX HP de este campeón a todos los aliados durante 2 turnos.",
       "book_priority": "Ninguna"
     },
     {
@@ -109,13 +110,17 @@
       "cooldown": 4,
       "buffDebuff": [
         {
-          "key_name": "aumentar-def-2"
-        },
-        {
           "key_name": "bloquear-habilidades-activas"
         }
       ],
-      "description": "Ataca a todos los enemigos. Tiene un 80% de posibilidades de aplicar un debufo [Bloquear habilidades activas] durante 2 turnos.",
+      "description": "Ataca a todos los enemigos. \n\nTiene un 80% de posibilidades de reducir 2 turnos la duración de todos sus bufos. También tiene un 80% de probabildiad de aplicar un debufo [Bloquear habilidades activas] durante 2 turnos.\n\n Ignora el 25% de DEF si este campeón tiene un bufo de [Escudo]",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Solidaridad Estoica (Pasiva)",
+      "description": "Cuando un enemigo ataca a un aliado con un bufo de [Escudo], contraataca con la habilidad base de este campeón.\n\n Este campeón hace 10% más de daño por cada bufo activo aplicado por este campeón a aliados.",
+      "levels": [],
+      "buffDebuff": [],
       "book_priority": "Ninguna"
     }
   ],
@@ -126,7 +131,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/lugan-el-inalterable.webp",
   "masteries": [],
   "artworks": [],

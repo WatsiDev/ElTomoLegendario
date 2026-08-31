@@ -3,12 +3,12 @@
   "name": "Polara Corazónfuego",
   "faction": "Orden Sagrada",
   "rarity": "Mítico",
-  "role": "Nuker antijefes y con daño en oleadas en la forma base, y tanque/debufer en su segunda",
+  "role": "Poderoso nuker de PvP y PvE y con daño en oleadas en la forma base, y tanque/debufer en su segunda",
   "type": "Ataque / Defensa",
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=yVL06Xw-q04",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "ira-de-la-naturaleza"
   ],
   "relics": [
@@ -28,7 +28,7 @@
     "salvaje",
     "matador"
   ],
-  "uses": "Casi todo, buena en jefes y mamzorras en early y late. Para arenas puede ser útil también.",
+  "uses": "Casi todo, buena en jefes y mamzorras en early y late. Para arenas puede ser útil también. Después del rebalanceo que recibió en Julio de 2026 quedó muy interesante",
   "stats": null,
   "skills": [],
   "aura": [
@@ -59,7 +59,7 @@
             "Nivel 2: Daño +20%"
           ],
           "multiplier": "1.2xATK + 4xDEF",
-          "description": "Ataca a 1 enemigo. Ataca 1 vez más si el objetivo tiene algún debufo.\n\n Tiene un 25% de probabilidad de obtener un turno adicional."
+          "description": "Ataca a 1 enemigo. Ataca 1 vez más si el objetivo tiene algún bufo o debufo.\n\n Tiene un 25% de probabilidad de obtener un turno adicional."
         },
         {
           "name": "Conflagración (DEF)(ATK)",
@@ -72,7 +72,7 @@
             "quemar-hp"
           ],
           "multiplier": "1.2xATK + 1.8xDEF",
-          "description": "Ataca a 1 enemigo 3 veces.\n\n Cada ataque ignora el 25% de DEF. Cada ataque ignora el 50% de DEF (en vez del 50%) si el objetivo tiene un debufo de [Quemar HP] o [Congelar].\n\n Cada ataque también destruye un 3% de DEF y RES del objetivo (se acumula hasta el 30%).\n\n Aplica un debufo de [Quemar HP] a todos los enemigos durante 2 turnos si este ataque mata al objetivo. Este debufo no se puede resistir.."
+          "description": "Ataca a 1 enemigo 3 veces.\n\n Cada ataque ignora el 25% de DEF. Cada ataque ignora el 50% de DEF (en vez del 50%) si el objetivo tiene un debufo de [Quemar HP] o [Congelar]. Ignorará el 100% de la DEF del objetivo en lugar de lo anterior si el objetivo está bajo ambos debufos.\n\n Cada ataque también destruye un 3% de DEF y RES del objetivo (se acumula hasta el 30%).\n\n Aplica un debufo de [Quemar HP] a todos los enemigos durante 2 turnos si este ataque mata al objetivo. Este debufo no se puede resistir.."
         },
         {
           "name": "Llama Máxima (DEF)(ATK)",
@@ -85,7 +85,7 @@
             "bloquear-revivir"
           ],
           "multiplier": "1.2xATK + 4xDEF",
-          "description": "Ataca a todos los enemigos. Este ataque hace daño individual a cada objetivo en lugar de daño en área. Ignora bufos de [Escudo], [Bloquear Daño] e [Inmortal].\n\n Activa inmediatamente todos los debufos de [Quemar HP] de todos los enemigos.\n\n Aplica un debufo de [Bloquear Revivir] a los objetivos que mueren con un debufo de [Quemar HP] o [Congelar]."
+          "description": "Ataca a todos los enemigos. Antes de atacar, activa instantáneamente cualquier debufo de [Quemar HP] en todos los enemigos, luego aplica otro debufo de [Quemar HP] a todos los enemigos durante 1 turno. Este debufo no se puede resistir.\n\n Este ataque hace daño individual a cada objetivo en lugar de daño en área. Ignora bufos de [Escudo], [Bloquear Daño] e [Inmortal].\n\n Activa inmediatamente todos los debufos de [Quemar HP] de todos los enemigos.\n\n Aplica un debufo de [Bloquear Revivir] a los objetivos que mueren con un debufo de [Quemar HP] o [Congelar].\n\n Obtén un turno adicional si esta habilidad mata a un enemigo"
         },
         {
           "name": "Metamorfosis (Pasiva)",
@@ -96,7 +96,7 @@
         {
           "name": "Ama Elemental (Pasiva)",
           "levels": [],
-          "description": "Este campeón hace un 25% más de daño a enemigos que tienen un debufo de [Quemar HP] o [Congelar]. Este campeón hace un 100% más de daño a enemigos que tienen un debufo de [Quemar HP] y un debufo de [Congelar].\n\n Este campeón ignora la reducción de daño de los debufos de [Congelar]."
+          "description": "Este campeón hace un 50% más de daño a enemigos que tienen un debufo de [Quemar HP] o [Congelar] y recibe un 50% menos de daño de enemigos bajo [Quemar HP]. Este campeón hace un 100% más de daño a enemigos que tienen un debufo de [Quemar HP] y un debufo de [Congelar].\n\n Este campeón ignora la reducción de daño de los debufos de [Congelar].\n\n Este campeón es inmune a debufos de [Congelar] y a [Quemar HP]."
         }
       ]
     },
@@ -121,10 +121,10 @@
             "Nivel 3: Curación +20%"
           ],
           "buffDebuff": [
-            "proteccion-de-aliado-2"
+            "aumentar-def-2"
           ],
           "multiplier": "?xATK + ?xDEF",
-          "description": "Ataca a 1 enemigo.\n\n Aplica un bufo de 50% de [Protección de Aliado] a un aliado al azar, excepto a este campeón, durante 2 turnos. Si el aliado seleccionado al azar ya tiene un bufo de [Protección de Aliado], lo aplica a otro aliado seleccionado al azar.\n\n Cura a este campeón y a cualquier aliado que tenga un bufo de [Protección de Aliado]. La magnitud de la cura es proporcional a la DEF de este campeón."
+          "description": "Ataca a 1 enemigo.\n\n Aplica un bufo de 60% de [Aumentar DEF] a este campeón y a un aliado al azar durante 2 turnos. Si el aliado seleccionado al azar ya tiene un bufo de [Protección de Aliado], lo aplica a otro aliado seleccionado al azar.\n\n Cura a este campeón y a cualquier aliado que tenga un bufo de [Aumentar DEF]. La magnitud de la cura es proporcional a la DEF de este campeón."
         },
         {
           "name": "Zarcillos Congelados",
@@ -135,9 +135,10 @@
           "buffDebuff": [
             "bloquear-debufos",
             "fortalecer-2",
-            "enredar"
+            "enredar",
+            "bloquear-bufos"
           ],
-          "description": "Aplica un bufo de [Bloquear Debufos] y un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos.\n\n Aplica un debufo de 100% de [Enredar] a todos los enemigos durante 2 turnos. Los enemigos que tienen un debufo de [Quemar HP] o [Congelar] no pueden resistir este debufo."
+          "description": "Aplica un bufo de [Bloquear Debufos] y un bufo de 25% de [Fortalecer] a todos los aliados durante 2 turnos.\n\n Aplica un debufo de 100% de [Enredar] y un debufo de [Bloquear Bufos] a todos los enemigos durante 2 turnos. Los enemigos que tienen un debufo de [Quemar HP] o [Congelar] no pueden resistir estos debufos."
         },
         {
           "name": "Ventisca de Cuchillas",
@@ -151,7 +152,7 @@
             "congelar"
           ],
           "multiplier": "?xATK + ?xDEF",
-          "description": "Ataca a todos los enemigos. Antes de atacar aplica 1 acumulación de [Interceptar] a todos los aliados.\n\n Aplica un debufo de [Congelar] a todos los enemigos durante 1 turno. Este debufo no se puede resistir."
+          "description": "Ataca a todos los enemigos. Antes de atacar aplica 1 acumulación de [Interceptar] a todos los aliados.\n\n Aplica un debufo de [Congelar] a todos los enemigos durante 2 turnos. Este debufo no se puede resistir."
         },
         {
           "name": "Metamorfosis",
@@ -162,7 +163,7 @@
         {
           "name": "Reanimación Criomántica (Pasiva)",
           "levels": [],
-          "description": "[Efecto Pasivo]\n Los aliados que tienen un debufo de [Congelar] reciben un 90% menos de daño. Si hay varios campeones con esta habilidad, solo se activa una.\n\n [Efecto Activo]\n Una vez por ronda, revive a cada aliado, incluido este campeón, con el 100% de HP. Aplica este debufo de [Congelar] al aliado revivido durante 1 turno. Este debufo no se puede ni revivir ni bloquear."
+          "description": "[Efecto Pasivo]\n Los aliados que tienen un debufo de [Congelar] reciben un 90% menos de daño. Si hay varios campeones con esta habilidad, solo se activa una. \n\nSiempre que este campeón es atacado, aplica un debufo de [Quemar HP] en el atacante durante 2 turnos. Este debufo no se puede resistir.\n\n Elimina cualquier debufo de [Congelar] en cada aliado al comienzo de su turno.\n\n [Efecto Activo]\n Una vez por ronda, revive a cada aliado, incluido este campeón, con el 100% de HP. Aplica este debufo de [Congelar] al aliado revivido durante 1 turno. Este debufo no se puede ni resistir ni bloquear."
         }
       ]
     }

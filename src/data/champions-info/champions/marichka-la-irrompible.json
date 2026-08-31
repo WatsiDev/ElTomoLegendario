@@ -7,17 +7,22 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": null,
-  "blessings": ["polimorfar", "cosechar-vida"],
+  "blessings": [
+    "polimorfia",
+    "cosechar-vida"
+  ],
   "relics": [
     "corazon_volcardiaco",
     "politopo_infernal",
+    "aspecto_de_siroth",
     "efigie_demoniaca",
     "diario_de_necrotos",
     "crisalida_de_renacer",
     "arpa_de_kasbiel",
-    "estrellas_jiinang",
-    "dedo_real",
-    "eternizalmas",
+    "craneo_de_vida",
+    "estrellas_jinang",
+    "yelmotorre",
+    "rostro_inmortal",
     "corona_lugubre"
   ],
   "gear": [
@@ -122,7 +127,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/marichka-la-irrompible.webp",
   "masteries": [],
   "artworks": [],

@@ -14,7 +14,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": null,
   "stats": {
     "hp": 19485,
@@ -125,7 +125,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/sikara.webp",
   "masteries": [],
   "artworks": [],

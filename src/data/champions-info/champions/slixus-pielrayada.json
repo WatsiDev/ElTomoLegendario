@@ -18,7 +18,7 @@
     "luna_de_sangre",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "No mucho, arenas en early y pisos bajos de facciones.",
   "stats": {
     "hp": 14535,
@@ -132,7 +132,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/slixus-pielrayada.webp",
   "masteries": [],
   "artworks": [],

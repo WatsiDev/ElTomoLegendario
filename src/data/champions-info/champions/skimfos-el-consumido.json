@@ -16,7 +16,7 @@
     "tiempo_de_sangre",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "En mid y late casi ninguno. Muy de nicho",
   "stats": {
     "hp": 13050,
@@ -130,7 +130,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/skimfos-el-consumido.webp",
   "masteries": [],
   "artworks": [],

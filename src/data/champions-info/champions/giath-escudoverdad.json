@@ -17,7 +17,7 @@
     "tiempo_de_sangre",
     "abanico_negro"
   ],
-  "gear": [],
+  "gear": null,
   "uses": null,
   "stats": {
     "hp": 18495,
@@ -127,7 +127,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/giath-escudoverdad.webp",
   "masteries": [],
   "artworks": [],

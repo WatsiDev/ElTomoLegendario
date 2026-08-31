@@ -8,11 +8,11 @@
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "polimorfar",
-    "desgarro-aplastante"
+    "polimorfia",
+    "Desgarro-Aplastante-6"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": null,
   "stats": {
     "hp": 18825,
@@ -112,7 +112,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/ginro-la-ciguena.webp",
   "masteries": [],
   "artworks": [],

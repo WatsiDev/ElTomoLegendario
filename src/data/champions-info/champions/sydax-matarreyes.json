@@ -8,8 +8,18 @@
   "affinity": "Espíritu",
   "youtube_link": "https://www.youtube.com/watch?v=K3xlp31GcLA",
   "blessings": null,
-  "relics": null,
-  "gear": null,
+  "relics": [
+    "rocadragon_dorada",
+    "elixir_dorado"
+  ],
+  "gear": [
+    "proteccion",
+    "salvaje",
+    "letal",
+    "despiadado",
+    "impulso",
+    "feral"
+  ],
   "uses": "Muy bueno en sitios concretos debido a su pasiva de no recibir daño reflejado. Por ejemplo en quimera contra la molesta forma del carnero",
   "stats": {
     "hp": 18825,
@@ -25,52 +35,94 @@
     {
       "name": "Cortacarne (DEF)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Probabilidad Bufo/Debufo +10%",
-        "Nivel 5: Probabilidad Bufo/Debufo +10%"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo/Debufo +10%"
+        }
       ],
       "buffDebuff": [
-        "red-atk-2",
-        "vinculo-de-dolor"
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "vinculo-de-dolor"
+        }
       ],
       "multiplier": "?xDEF",
-      "description": "Ataca a 1 enemigo.\n\n Tiene un 80% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] y un dbeufo de [Vinculo de Dolor] durante 2 turnos."
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 80% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] y un dbeufo de [Vinculo de Dolor] durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Decapitador Brutal (DEF)(MAX HP del Enemigo)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Probabilidad Bufo/Debufo +10%",
-        "Nivel 5: Probabilidad Bufo/Debufo +15%",
-        "Nivel 6: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "red-def-2",
-        "red-vel-2"
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
       ],
       "multiplier": "?xDEF",
-      "description": "Ataca 2 veces a todos los enemigos.\n\n El primer ataque tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos. El segundo ataque tiene un 75% de probabilidad de aplicar un debufgo de 30% de [Reducir VEL] durante 2 turnos."
+      "description": "Ataca 2 veces a todos los enemigos.\n\n El primer ataque tiene un 75% de probabilidad de aplicar un debufo de 60% de [Reducir DEF] durante 2 turnos. El segundo ataque tiene un 75% de probabilidad de aplicar un debufgo de 30% de [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Vínculo de los Esclavizados",
       "levels": [
-        "Nivel 2: Tiempo de Reutilización -1",
-        "Nivel 3: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "aumentar-def-2",
-        "aumentar-vel-2",
-        "proteccion-de-aliado"
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "proteccion-de-aliado"
+        }
       ],
-      "description": "Aplica un bufo de 60% de [Aumentar DEF] y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos. También aplica un bufo de 50% de [Protección de Aliado] a todos los aliados excepto este campeón durante 2 turnos."
+      "description": "Aplica un bufo de 60% de [Aumentar DEF] y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos. También aplica un bufo de 50% de [Protección de Aliado] a todos los aliados excepto este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Resiliencia Adquirida (Pasiva)",
-      "description": "Este campeón recibe un 10% menos de daño por cada aliado un bufo de [Protección de Aliado].\n\n Este campeón es inmune a debufos de [Vínculo de Dolor] y al daño de bufos de [Reflejar Daños] o efectos pasivos de Reflejar Daño."
+      "description": "Este campeón recibe un 10% menos de daño por cada aliado un bufo de [Protección de Aliado].\n\n Este campeón es inmune a debufos de [Vínculo de Dolor] y al daño de bufos de [Reflejar Daños] o efectos pasivos de Reflejar Daño.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -79,8 +131,8 @@
       "description": "Aumenta la DEF de Aliados en todas las batallas en 30%"
     }
   ],
-  "lore": null,
-  "forms": null,
+  "lore": "«Retroceded y cerrad filas. Nuestros sueños no morirán hoy con nosotros en este lodazal. Serán estos arrogantes bastardos aravianos quienes caerán, ahogándose en barro y sangre, pisoteados bajo nuestras botas, para perecer bajo un cielo extranjero, mientras sus cadáveres sirven de festín a los escarabajos.» — Sydax el Matarreyes, durante la Batalla del Río Greenwhorl.\\n\\n\n\nAntes de convertirse en el Matarreyes, el joven Sydax quedó huérfano debido a un asesinato político y fue vendido como esclavo. Sufrió penalidades indescriptibles que lo volvieron indomable tanto en cuerpo como en espíritu. Su fuerza, astucia y carisma le ganaron seguidores, incluidos esclavos no elfos traídos de tierras lejanas. Cuando llegó el momento oportuno, lideró una rebelión y masacró a sus amos. Aquellas almas endurecidas y desesperadas le pidieron por unanimidad que continuara guiándolas. Sydax los organizó en una compañía mercenaria conocida como la Banda Astada, que pronto alcanzó fama por su resistencia y brutalidad. Estaban unidos por un vínculo irrompible forjado en los horrores compartidos de la esclavitud.\\n\\n\n\nSydax alimentaba el sueño de gobernar como príncipe de Durham o incluso de fundar un reino propio, convenciendo a sus compañeros de su visión. Ellos creían en la creciente aura de invencibilidad que parecía acompañarlo, como si sus ambiciones estuvieran destinadas a hacerse realidad. Tras acumular riqueza y poner distancia entre él y sus antiguos esclavistas, Sydax estableció a su banda de guerra cerca de la frontera araviana y se proclamó príncipe. Aunque era universalmente despreciado por los demás nobles, la primera gran amenaza a su gobierno no vino de su propio pueblo, sino de una invasión araviana que arrasaba los territorios que acababa de reclamar.\\n\\n\n\nLa expedición estaba liderada por el propio rey Hatharil de Aravia, y Sydax ansiaba enfrentarse a él en combate. Sin embargo, actuó con paciencia y permitió que los Altos Elfos invasores se adentraran demasiado en territorio hostil. Obligados a avanzar por laberintos de raíces retorcidas, agotados, enfermos y acosados por horrores chirriantes de todos los tamaños, los aravianos fueron desgastándose poco a poco. Sydax lanzó una serie de emboscadas para provocar que los Altos Elfos aceptaran una batalla en condiciones desfavorables, hasta que finalmente atacaron sus posiciones fortificadas al otro lado de las aguas poco profundas del río Greenwhorl.\\n\\n\n\nÉl y su Banda Astada resistieron seis oleadas consecutivas de asaltos aravianos, derrotando a sus enemigos a pesar de encontrarse en una aplastante inferioridad numérica. A medida que la Banda retrocedía —una maniobra que Sydax ya había previsto— su fuerza de combate se concentraba cada vez más. Aunque estaban masivamente superados en número, su moral jamás vaciló. El rey araviano no tuvo más remedio que liderar personalmente la carga final, esperando que su presencia inspirara la victoria de sus tropas y quebrara la voluntad de los Elfos Oscuros.\\n\\n\n\nPara entonces, Sydax ya había sido herido una docena de veces. Su armadura quitinosa apenas se mantenía unida, su escudo estaba abollado y astillado, y su propia sangre se acumulaba dentro de sus botas y goteaba allí donde caminaba. Sin mostrar el menor signo de miedo o dolor, continuó luchando de forma metódica e implacable.\\n\\n\n\nEl rey Hatharil subestimó a Sydax, creyendo que el Elfo Oscuro estaba al borde de la muerte. Sydax alimentó deliberadamente esa falsa confianza, limitándose a esquivar y parar golpes mientras respondía con contraataques débiles. Pero cuando Hatharil comenzó a jadear y a cometer errores por el cansancio, Sydax atravesó la coraza real con el cuerno de su yelmo. Un torrente de sangre anunció la derrota de los Altos Elfos.\\n\\n\n\nLos aravianos se retiraron de manera ordenada, llevándose consigo el cuerpo de su rey. Sin embargo, en menos de una semana, la mayor parte de la fuerza expedicionaria fue destruida mientras intentaba atravesar el Bosque de Durham. La retirada se convirtió primero en una huida desorganizada y después en una masacre. Solo unos pocos supervivientes regresaron, abatidos y humillados, para asistir a la ascensión al trono de la hija del rey, Eva.\\n\\n\n\nSydax permaneció victorioso, y su triunfo obligó incluso a sus enemigos más acérrimos a reconocer su poder y prestigio.\\n\\n\n",
+  "forms": [],
   "image": "/src/assets/champions/sydax-matarreyes.webp",
   "masteries": [],
   "artworks": [],

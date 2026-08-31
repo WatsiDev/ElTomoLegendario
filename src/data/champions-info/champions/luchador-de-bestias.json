@@ -14,7 +14,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Bastante inútil, no se usa.",
   "stats": {
     "hp": 15525,
@@ -99,7 +99,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/luchador-de-bestias.webp",
   "masteries": [],
   "artworks": [],

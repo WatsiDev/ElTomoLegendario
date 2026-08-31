@@ -8,7 +8,7 @@
   "affinity": "Espíritu",
   "youtube_link": "https://www.youtube.com/watch?v=ABvyVBWupYc",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "jaula-de-rayos"
   ],
   "relics": [
@@ -26,7 +26,7 @@
     "piel-de-piedra",
     "mercurial"
   ],
-  "uses": "Principalmente arenas, aunque hace daño en PvE en general también.",
+  "uses": "Principalmente arenas, aunque hace daño en PvE en general también. Se ve bastante en arenas porque pega duro y hace counter al Mercurial",
   "stats": {
     "hp": 24780,
     "speed": 105,
@@ -132,7 +132,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/granyt-guardapuertas.webp",
   "masteries": [],
   "artworks": [],

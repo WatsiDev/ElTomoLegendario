@@ -6,13 +6,20 @@
   "role": "Daño / Apoyo con debufos útiles y supervivencia individual, curándose a si mismo y reiniciando el cooldown de sus habilidades al recibir daño",
   "type": "Ataque",
   "affinity": "Magia",
-  "youtube_link": "https://www.youtube.com/watch?v=6v_j5Tf2K7M",
+  "youtube_link": "https://www.youtube.com/watch?v=XbzL2kfQegE",
   "blessings": [
     "ira-de-la-naturaleza",
     "fuego-y-azufre"
   ],
   "relics": null,
-  "gear": null,
+  "gear": [
+    "despiadado",
+    "salvaje",
+    "bestial",
+    "punteria",
+    "cruel",
+    "percepcion"
+  ],
   "uses": "Tiene buen potencial contra Amius en la Ciudad Maldita, así como contra algunos jefes del Bosque Lúgubre, por su poderosa A1 que aplica Bloquear Curación",
   "stats": {
     "hp": 14865,
@@ -28,48 +35,85 @@
     {
       "name": "Armonía Violenta (ATK)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 5: Probabilidad de Bufo/Debufo +15%"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo +15%"
+        }
       ],
       "buffDebuff": [
-        "curacion-reducida-2"
+        {
+          "key_name": "curacion-reducida-2"
+        }
       ],
-      "multiplier": "?xATK",
-      "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque cura a este campeón el 20% del daño hecho. Cada ataque también tiene un 50% de probabilidad de aplicar un debufo de 100% de [Curación Reducida] durante 2 turnos."
+      "multiplier": "1.9xATK",
+      "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque cura a este campeón el 20% del daño hecho. Cada ataque también tiene un 50% de probabilidad de aplicar un debufo de 100% de [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Intervención Precisa (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 5: Probabilidad de Bufo/Debufo +15%",
-        "Nivel 6: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "debilitar-2",
-        "chupar-vida"
+        {
+          "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "chupar-vida"
+        }
       ],
-      "multiplier": "?xATK",
-      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] y un debufo de [Chupar Sangre] a todos los enemigos durante 2 turnos."
+      "multiplier": "3.9xATK",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] y un debufo de [Chupar Sangre] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Resultado Asegurado (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 4,
-      "multiplier": "?xATK",
-      "description": "Ataca 2 veces a 1 enemigo. Antes de atacar, elimina todos los debufos de este campeón e intercambia HP con el objetivo.\n\n Ignora el 15% de DEF. En lugar de lo anterior, ignora el 30% de DEF y bufos de [Escudo] si este campeón actualmente tiene más HP que el objetivo."
+      "multiplier": "2.8xATK",
+      "description": "Ataca 2 veces a 1 enemigo. Antes de atacar, elimina todos los debufos de este campeón e intercambia HP con el objetivo.\n\n Ignora el 15% de DEF. En lugar de lo anterior, ignora el 30% de DEF y bufos de [Escudo] si este campeón actualmente tiene más HP que el objetivo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Mi Propósito Verdadero (Pasiva)",
-      "description": "[Efecto Activo]\n\n Si este campeón pierde un 30% o más de HP por una habilidad enemiga en un solo turno, reduce 2 turnos el tiempo de reutilización de una de las habilidades de este campeón.\n\n[Efecto Pasivo]\n\n Este campeón contraataca con su habilidad base cada vez que un enemigo se cura con una habilidad. Una vez por turno."
+      "description": "[Efecto Activo]\n\n Si este campeón pierde un 30% o más de HP por una habilidad enemiga en un solo turno, reduce 2 turnos el tiempo de reutilización de una de las habilidades de este campeón.\n\n[Efecto Pasivo]\n\n Este campeón contraataca con su habilidad base cada vez que un enemigo se cura con una habilidad. Una vez por turno.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -79,7 +123,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/vallaryn-el-ecualizador.webp",
   "masteries": [],
   "artworks": [],

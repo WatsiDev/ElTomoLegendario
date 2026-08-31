@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Parte de la fusión de Rhazin. Luego comida.",
   "stats": {
     "hp": 12060,
@@ -84,9 +84,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/alabardero.webp",
   "masteries": [],
   "artworks": [],

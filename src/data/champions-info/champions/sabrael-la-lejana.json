@@ -26,7 +26,7 @@
   ],
   "uses": "Top en arena, en prácticamente cualquier setup (tanto de velocidad como de ir segundo). Muy buena en oleadas también",
   "stats": null,
-  "skills": null,
+  "skills": [],
   "aura": [
     {
       "type": "vel",

@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=WhI7Zo6yj9g",
   "blessings": [
     "fuego-y-azufre",
-    "desgarro-aplastante"
+    "Desgarrro-Aplastante-6"
   ],
   "relics": [
     "corona_de_ireth",
@@ -17,7 +17,7 @@
     "diario_de_necrotos",
     "caldero_acaparador"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Muy buena en Hydra, debufer y control de oleadas",
   "stats": {
     "hp": 18990,
@@ -128,7 +128,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/arquera-r-nergigante.webp",
   "masteries": [],
   "artworks": [],

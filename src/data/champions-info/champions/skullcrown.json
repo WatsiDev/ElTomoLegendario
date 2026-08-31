@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=SQNgz_MULzE",
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "invocatormentas",
@@ -19,7 +19,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Arenas en early. Con set de aturdir se usa como control en varios sitios",
   "stats": {
     "hp": 14535,
@@ -118,7 +118,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/skullcrown.webp",
   "masteries": [],
   "artworks": [],

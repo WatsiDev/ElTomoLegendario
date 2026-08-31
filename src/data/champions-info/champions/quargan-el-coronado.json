@@ -15,7 +15,7 @@
     "el_triturador",
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Apoyo para facciones",
   "stats": {
     "hp": 17670,
@@ -111,7 +111,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/quargan-el-coronado.webp",
   "masteries": [],
   "artworks": [],

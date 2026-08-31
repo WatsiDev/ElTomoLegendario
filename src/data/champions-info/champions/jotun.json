@@ -9,13 +9,13 @@
   "youtube_link": null,
   "blessings": [
     "toque-fantasmal",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Jefes en early por el largo Quemar HP. Para todo lo demás es muy mediocre",
   "stats": {
     "hp": 16680,
@@ -116,7 +116,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/jotun.webp",
   "masteries": [],
   "artworks": [],

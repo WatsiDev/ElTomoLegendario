@@ -14,9 +14,7 @@
     ""
   ],
   "gear": [
-    {
-      "set_name": ""
-    }
+    ""
   ],
   "uses": "Pollo, no gastes tiempo en él.",
   "stats": {
@@ -104,9 +102,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/judicador.webp",
   "masteries": [],
   "artworks": [],

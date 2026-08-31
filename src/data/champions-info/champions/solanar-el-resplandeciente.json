@@ -4,7 +4,9 @@
     "corona_de_ireth",
     "malleos_de_fuego",
     "mirada_del_gato",
-    "invocatormentas"
+    "invocatormentas",
+    "la_carcajada_final",
+    "aspecto_de_siroth"
   ],
   "skills": [
     {
@@ -100,25 +102,24 @@
   "name": "Solanar el Resplandeciente",
   "slug": "solanar-el-resplandeciente",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "ira-de-la-naturaleza"
   ],
-  "uses": "Bastante poderoso para lidiar. con oleadas. Enfocado más quizá a Arenas junto con Noldua para intentar hacer counter al meta de velocidad",
-  "forms": null,
+  "uses": "Muy poderoso para lidiar. con oleadas, aunque quizá donde más brilla es en arenas, siendo uno de los campeones más meta para arena. Muy buen combo junto con Noldua",
+  "forms": [],
   "gear": [
     "mercurial",
     "piel-de-piedra",
     "letal",
     "despiadado",
     "instinto",
-    "salvaje",
-    "cruel"
+    "salvaje"
   ],
   "contras": [],
   "masteries": [],
   "role": "Nuker poderoso, pareja de Noldua la Crepuscular, capaz de ignorar piel de piedra, ignorar defensa, robar curaciones y ser inmune a debufos. Mucho más poderoso combinado con Noldua",
   "lore": null,
-  "youtube_link": "https://www.youtube.com/watch?v=GQxGXbwzYlY",
+  "youtube_link": "https://www.youtube.com/watch?v=GKdCuonn8nM",
   "sinergias": [
     "noldua-la-crepuscular"
   ],

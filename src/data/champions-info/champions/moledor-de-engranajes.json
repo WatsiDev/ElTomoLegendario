@@ -14,9 +14,7 @@
     ""
   ],
   "gear": [
-    {
-      "set_name": ""
-    }
+    ""
   ],
   "uses": "Facciones o salas secretas de la Torre del Destino.",
   "stats": {
@@ -108,7 +106,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/moledor-de-engranajes.webp",
   "masteries": [],
   "artworks": [],

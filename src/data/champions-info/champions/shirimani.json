@@ -13,6 +13,7 @@
   ],
   "relics": [
     "empunadura_sacra",
+    "craneo_de_vida",
     "tiara_de_andromeda",
     "campana_fundida"
   ],
@@ -119,7 +120,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/shirimani.webp",
   "masteries": [],
   "artworks": [],

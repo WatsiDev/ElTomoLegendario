@@ -12,7 +12,7 @@
   "gear": null,
   "uses": null,
   "stats": null,
-  "skills": null,
+  "skills": [],
   "aura": [
     {
       "type": "vel",

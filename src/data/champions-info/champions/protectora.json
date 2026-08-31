@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Parte de la fusión de Rhazin.",
   "stats": {
     "hp": 16350,
@@ -111,7 +111,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/protectora.webp",
   "masteries": [],
   "artworks": [],

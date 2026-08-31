@@ -18,14 +18,13 @@
     "plumaje_dorado",
     "capa_de_pecadores",
     "fauces_de_odio",
-    "cascaron_gelido",
+    "okulos_kustodion",
     "filos_de_akumori"
   ],
   "gear": [
     "proteccion",
     "inmortal",
     "resiliencia",
-    "redirigir",
     "piel-de-piedra",
     "fortaleza",
     "escarcha",
@@ -140,7 +139,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/strategos-islin.webp",
   "masteries": [],
   "artworks": [],

@@ -8,18 +8,27 @@
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "fuego-y-azufre"
+    "fuego-y-azufre",
+    "ira-de-la-naturaleza"
   ],
   "relics": [
     "cronocubo",
     "varita_de_sumision",
-    "mirada_del_gato",
     "malleos_de_fuego",
     "campana_fundida",
     "mascara_de_zozobra"
   ],
-  "gear": [],
-  "uses": "Muy usado en arenas, gran control de oleadas y buen daño en jefes.",
+  "gear": [
+    "velocidad",
+    "bestial",
+    "impulso",
+    "percepcion",
+    "punteria",
+    "supersonico",
+    "mercurial",
+    "exactitud"
+  ],
+  "uses": "Muy usado en arenas, gran control de oleadas y buen daño. Sus habilidades de daño ya ignoran DEF así que no necesitará sets para ello.",
   "stats": {
     "hp": 18825,
     "speed": 105,
@@ -116,7 +125,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/odin-faefather.webp",
   "masteries": [],
   "artworks": [],

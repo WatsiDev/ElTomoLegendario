@@ -8,9 +8,9 @@
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=JQTiEA0hKHU",
   "blessings": [
-    "polimorfar",
+    "polimorfia",
     "cosechar-vida",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "vial_del_sombrerero",
@@ -24,6 +24,7 @@
     "letal",
     "salvaje",
     "percepcion",
+    "parada-rapida",
     "punteria",
     "inmortal",
     "exactitud"
@@ -115,7 +116,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/timit-el-tonto.webp",
   "masteries": [],
   "artworks": [],

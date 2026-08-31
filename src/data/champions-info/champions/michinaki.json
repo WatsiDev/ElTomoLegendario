@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=SDxBh_FLTQs",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "ira-de-la-naturaleza"
   ],
   "relics": [
@@ -124,7 +124,7 @@
     "description": "Aumenta la DEF de los aliados en 30% en todas las batallas."
   },
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/michinaki.webp",
   "masteries": [],
   "artworks": [],

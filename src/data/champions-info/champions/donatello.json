@@ -16,6 +16,7 @@
     "diario_de_necrotos",
     "empunadura_sacra",
     "tiara_de_andromeda",
+    "craneo_de_vida",
     "sombra_encaramada",
     "codice_luminis"
   ],
@@ -110,7 +111,7 @@
           "level_desc": "Nivel 3: Tiempo de Reutilización -1"
         }
       ],
-      "description": "[Efecto Pasivo]\n\n Este campeón se une al ataque siempre que ataca Leonardo, Donatello, Mikey o Raphael.\n\n [Efecto Activo]\n\n Siempre que un aliado está a punto de recibir un ataque letal, este campeón evita su muerte y lo mantiene vivo con 1HP. Luego equilibra los HP de ese aliado. El nivel de HP de ese aliado se establece al nivel medio de HP del grupo. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
+      "description": "[Efecto Pasivo]\n\n Este campeón se une al ataque siempre que ataca Leonardo, Donatello, Michelangelo o Raphael.\n\n [Efecto Activo]\n\n Siempre que un aliado está a punto de recibir un ataque letal, este campeón evita su muerte y lo mantiene vivo con 1HP. Luego equilibra los HP de ese aliado. El nivel de HP de ese aliado se establece al nivel medio de HP del grupo. Si hay varios campeones en el grupo con esta habilidad, solo se activa una.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
@@ -122,7 +123,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/donatello.webp",
   "masteries": [],
   "artworks": [],

@@ -14,7 +14,7 @@
     "dedo_real",
     "campana_fundida"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Pocos. Facciones como mucho.",
   "stats": {
     "hp": 19980,
@@ -111,7 +111,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/senescal.webp",
   "masteries": [],
   "artworks": [],

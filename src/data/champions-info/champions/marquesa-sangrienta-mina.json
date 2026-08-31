@@ -30,7 +30,7 @@
   ],
   "uses": "Pega fuerte en general, pero tiene problemas debido a su pasiva que no acaba de funcionar del todo bien. Ni es top en arenas ni es top en PvE ni jefes",
   "stats": null,
-  "skills": null,
+  "skills": [],
   "aura": [
     {
       "type": "atk",

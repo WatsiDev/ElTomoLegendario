@@ -11,7 +11,7 @@
     "crueldad"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y early game, poco más",
   "stats": {
     "hp": 18000,
@@ -88,7 +88,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/erudita-de-batalla.webp",
   "masteries": [],
   "artworks": [],

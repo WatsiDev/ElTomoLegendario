@@ -14,7 +14,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Solear Soulcross piso 9 en Ciudad Maldita. Revisar el video al respecto",
   "stats": {
     "hp": 15690,
@@ -97,7 +97,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/bushi.webp",
   "masteries": [],
   "artworks": [],

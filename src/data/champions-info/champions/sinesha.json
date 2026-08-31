@@ -9,13 +9,13 @@
   "youtube_link": "https://www.youtube.com/watch?v=SdtCZaQiMMM",
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Daño, curas pero control si le ponemos set de aturdir",
   "stats": {
     "hp": 17340,
@@ -103,7 +103,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/sinesha.webp",
   "masteries": [],
   "artworks": [],

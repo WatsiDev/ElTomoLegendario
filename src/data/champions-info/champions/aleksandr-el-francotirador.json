@@ -11,7 +11,7 @@
     "segar-almas"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Terrible, debería ser un raro",
   "stats": {
     "hp": 17505,
@@ -108,7 +108,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/aleksandr-el-francotirador.webp",
   "masteries": [],
   "artworks": [],

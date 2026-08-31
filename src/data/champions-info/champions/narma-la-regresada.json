@@ -4,7 +4,7 @@
   "faction": "Aparecidos",
   "rarity": "Legendario",
   "role": "Poderoso envenador y extensor, pero que requiere de demasiados libros",
-  "type": "Ataque",
+  "type": "Apoyo",
   "affinity": "Magia",
   "youtube_link": null,
   "blessings": [
@@ -143,7 +143,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/narma-la-regresada.webp",
   "masteries": [],
   "artworks": [],

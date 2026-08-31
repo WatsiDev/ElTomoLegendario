@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
@@ -28,7 +28,7 @@
     "golpe-mortal",
     "dano-critico"
   ],
-  "uses": "Arena",
+  "uses": "Arena principalmente. Puede servir para limpiar oleadas",
   "stats": {
     "hp": 18495,
     "speed": 106,
@@ -98,17 +98,28 @@
         }
       ],
       "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
       "multiplier": "2xATK",
       "description": "Ataca a todos los enemigos. Tiene un 80% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 1 turno. Antes de atacar, tiene un 80% de probabilidad de aplicar un debufo del 25% [Debilitar] a todos los enemigos durante 2 turnos.",
-      "buffDebuff": [],
       "book_priority": "Ninguna"
     },
     {
       "name": "Agallas de Verdad (Pasiva) ",
       "levels": [],
       "cooldown": 3,
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        }
+      ],
       "description": "[Efecto activo] Aplica instantáneamente un bufo  de [Inmortal] en este campeón durante 1 turno antes de recibir un golpe fatal. [Efecto pasivo] El daño aumenta a medida que disminuye el HP del campeón (en un 1% por cada 1% de HP perdido).",
-      "buffDebuff": [],
       "book_priority": "Ninguna"
     }
   ],
@@ -119,7 +130,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/leorius.webp",
   "masteries": [],
   "artworks": [],

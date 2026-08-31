@@ -8,7 +8,7 @@
   "affinity": "Espíritu",
   "youtube_link": "https://www.youtube.com/watch?v=lEFE3jSEbmM",
   "blessings": [
-    "rompe-cadenas"
+    "romper-cadenas"
   ],
   "relics": [
     "elixir_dorado",
@@ -115,7 +115,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/lady-annabelle.webp",
   "masteries": [],
   "artworks": [],

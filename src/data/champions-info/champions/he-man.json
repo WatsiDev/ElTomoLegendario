@@ -6,10 +6,10 @@
   "role": "Nuker con potencial en arena capaz de pegar durísimo si lo cargamos antes aplicandole muchos bufos.",
   "type": "Ataque",
   "affinity": "Magia",
-  "youtube_link": "https://www.youtube.com/watch?v=O0uha4Cn9PA",
+  "youtube_link": "https://www.youtube.com/watch?v=f4vMb6kbA0g",
   "blessings": [
-    "llegado-del-cielo",
-    "desgarro-aplastante"
+    "caido-del-cielo",
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
@@ -120,7 +120,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/he-man.webp",
   "masteries": [],
   "artworks": [],

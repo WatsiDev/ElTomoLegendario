@@ -15,7 +15,6 @@
     "robar-vida",
     "resiliencia",
     "inmortal",
-    "redirigir",
     "guardian",
     "defensa"
   ],
@@ -93,7 +92,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/aplastacraneos.webp",
   "masteries": [],
   "artworks": [],

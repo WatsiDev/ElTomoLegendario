@@ -16,7 +16,7 @@
     "abanico_negro",
     "diadema_no_muerta"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y PvE en early-mid",
   "stats": {
     "hp": 18495,
@@ -119,7 +119,7 @@
     }
   ],
   "lore": "Luchar como parte de la retaguardia no es tan fácil como algunos imaginan. De hecho, el suyo es un papel crucial y el suyo es el sacrificio, en caso de que la fuerza principal necesite retirarse. Si bien puede que no siempre sea posible retener a los mejores guerreros, los Enanos saben que los oficiales, al menos, deben tener experiencia y habilidad. El sargento de retaguardia ha estado al servicio de Jarl durante muchos años y no le ha fallado ni una vez. Ella es una maestra severa, pero una experta en su oficio. Su pesado mayal había aplastado a muchos enemigos, destrozando armaduras y armas por igual de un solo golpe. Pero a pesar de todas sus fanfarronadas y hábitos autoritarios, acepta su deber y la necesidad de proteger a los demás. De hecho, la Sargento a menudo estará a la vanguardia de su banda de Campeones e interceptará cualquier ataque enemigo que pueda mientras sus aliados se recuperan.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/sargento-de-retirada.webp",
   "masteries": [],
   "artworks": [],

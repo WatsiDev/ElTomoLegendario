@@ -17,7 +17,7 @@
     "el_triturador",
     "caldero_acaparador"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y Jefes en early. Es bueno pero se queda corto en late",
   "stats": {
     "hp": 16020,
@@ -106,7 +106,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/craneo-de-acero.webp",
   "masteries": [],
   "artworks": [],

@@ -7,10 +7,20 @@
   "type": "Defensa",
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=6v_j5Tf2K7M",
-  "blessings": null,
+  "blessings": [
+    "crueldad",
+    "defensa-impecable"
+  ],
   "relics": null,
-  "gear": null,
-  "uses": null,
+  "gear": [
+    "redirigir",
+    "percepcion",
+    "inmortal",
+    "bestial",
+    "salvaje",
+    "piel-de-piedra"
+  ],
+  "uses": "Es un poco de nicho, ya que vale para todo y al mismo tiempo no  es  específico para ningún sitio en concreto. Puede ser divertido en PvP pero lo veo más en PvE",
   "stats": {
     "hp": 18990,
     "speed": 103,
@@ -25,51 +35,91 @@
     {
       "name": "Guerrero Inquietante (DEF)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        }
       ],
       "buffDebuff": [
-        "miedo-de-verdad",
-        "bloquear-habilidades-activas"
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
       ],
-      "multiplier": "?xDEF",
-      "description": "Ataca a 1 enemigo 1 vez.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 1 turno. También tiene un 50% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 1 turno si el objetivo tiene un debufo de [Chupar Sangre]"
+      "multiplier": "4.3xDEF",
+      "description": "Ataca a 1 enemigo 1 vez.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 1 turno. También tiene un 50% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 1 turno si el objetivo tiene un debufo de [Chupar Sangre]",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Misión Espantosa (DEF)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 5: Probabilidad de Bufo/Debufo +15%",
-        "Nivel 6: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "chupar-sangre",
-        "red-res-2"
+        {
+          "key_name": "chupar-sangre"
+        },
+        {
+          "key_name": "red-res-2"
+        }
       ],
-      "multiplier": "?xDEF",
-      "description": "Ataca 2 veces a todos los enemigos. Cada ataque ignora el 15% de DEF de cada objetivo.\n\n El primer ataque tiene un 75% de probabilidad de aplicar un debufo de [Chupar Sangre] durante 2 turnos. El segundo ataque tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir RES] durante 2 turnos."
+      "multiplier": "2.1xDEF",
+      "description": "Ataca 2 veces a todos los enemigos. Cada ataque ignora el 15% de DEF de cada objetivo.\n\n El primer ataque tiene un 75% de probabilidad de aplicar un debufo de [Chupar Sangre] durante 2 turnos. El segundo ataque tiene un 75% de probabilidad de aplicar un debufo de 50% de [Reducir RES] durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Resiliencia Impía",
       "levels": [
-        "Nivel 2: Tiempo de reutilización -1",
-        "Nivel 3: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "aumentar-def-2",
-        "reflejar-dano",
-        "aumentar-punt-2"
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "reflejar-dano"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
       ],
-      "description": "Aplica un bufo de 60% de [Aumentar DEF], un bufo de [Aumentar PUNT] y un bufo de 30% de [Reflejar Daño] a todos los aliados durante 2 turnos."
+      "description": "Aplica un bufo de 60% de [Aumentar DEF], un bufo de [Aumentar PUNT] y un bufo de 30% de [Reflejar Daño] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Constructo de Siroth (Pasiva)",
-      "description": "Los bufos de [Reflejar Daño] de este campeón y sus aliados reflejan un 30% más de daño. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.\n\n Cuando este campeón es atacado, refleja el 50% del daño que recibe este campeón al atacante.\n\n Si este campeón tiene un bufo de [Reflejar Daño], se cura el 50% de cualquier daño recibido de habilidades enemigas."
+      "description": "Los bufos de [Reflejar Daño] de este campeón y sus aliados reflejan un 30% más de daño. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.\n\n Cuando este campeón es atacado, refleja el 50% del daño que recibe este campeón al atacante.\n\n Si este campeón tiene un bufo de [Reflejar Daño], se cura el 50% de cualquier daño recibido de habilidades enemigas.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -79,7 +129,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/xalgaze-colmimuro.webp",
   "masteries": [],
   "artworks": [],

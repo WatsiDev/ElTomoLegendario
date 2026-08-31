@@ -14,7 +14,8 @@
   "relics": [
     "diario_de_necrotos",
     "tiempo_de_sangre",
-    "impasse_temporal"
+    "impasse_temporal",
+    "ancla_sempiterna"
   ],
   "gear": [
     "velocidad",
@@ -127,7 +128,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/eostrid-cancionsueno.webp",
   "masteries": [],
   "artworks": [],

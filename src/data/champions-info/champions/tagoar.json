@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": null,
   "blessings": [
-    "rompe-cadenas",
+    "romper-cadenas",
     "crueldad"
   ],
   "relics": [
@@ -21,7 +21,6 @@
     "inmortal",
     "vida-divina",
     "vida",
-    "redirigir",
     "renacer"
   ],
   "uses": "Útil en early y mid-game en general y facciones",
@@ -121,7 +120,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/tagoar.webp",
   "masteries": [],
   "artworks": [],

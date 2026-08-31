@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "polimorfar"
+    "polimorfia"
   ],
   "relics": [
     "mano_de_descrear",
@@ -16,7 +16,7 @@
     "diadema_no_muerta",
     "abanico_negro"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Arenas, pero se ve poco en late",
   "stats": {
     "hp": 23460,
@@ -132,7 +132,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/ursuga-llamaguerra.webp",
   "masteries": [],
   "artworks": [],

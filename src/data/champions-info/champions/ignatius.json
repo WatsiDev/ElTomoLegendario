@@ -21,7 +21,6 @@
     "lente_intangible"
   ],
   "gear": [
-    "redirigir",
     "punteria",
     "percepcion",
     "salvaje",
@@ -124,7 +123,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/ignatius.webp",
   "masteries": [],
   "artworks": [],

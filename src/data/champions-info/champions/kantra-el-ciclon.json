@@ -16,7 +16,7 @@
     "orbe_de_transfixion",
     "caldero_acaparador"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Decente en Hydra por sus debufos. Buena en oledadas también.",
   "stats": {
     "hp": 18330,
@@ -116,7 +116,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/kantra-el-ciclon.webp",
   "masteries": [],
   "artworks": [],

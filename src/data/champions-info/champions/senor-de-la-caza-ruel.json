@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=ovYWQAirvek",
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "luna_de_sangre",
@@ -19,7 +19,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Hydra en early, pero limitado en mid y late game",
   "stats": {
     "hp": 13545,
@@ -119,7 +119,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/senor-de-la-caza-ruel.webp",
   "masteries": [],
   "artworks": [],

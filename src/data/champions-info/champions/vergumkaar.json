@@ -8,17 +8,26 @@
   "affinity": "Espíritu",
   "youtube_link": null,
   "blessings": [
-    "fuego-y-azufre"
+    "fuego-y-azufre",
+    "crueldad"
   ],
   "relics": [
     "campana_fundida",
     "mascara_de_ira"
   ],
-  "gear": [],
-  "uses": "Facciones como mucho, no es gran cosa.",
+  "gear": [
+    "proteccion",
+    "bestial",
+    "escudo",
+    "apoyo",
+    "percepcion",
+    "punteria",
+    "inmortal"
+  ],
+  "uses": "Tras el rebalanceo, bastante versátil como apoyo en oleadas y facciones. Buen counter contra enemigos que nos intenten aturdir e incitar",
   "stats": {
     "hp": 22140,
-    "speed": 99,
+    "speed": 104,
     "attack": 914,
     "defense": 1189,
     "accuracy": 10,
@@ -49,7 +58,7 @@
         }
       ],
       "multiplier": "5xATK",
-      "description": "Ataca a 1 enemigo. Tiene un 35% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno. La probabilidad aumenta en un 15% por cada bufo en el objetivo.",
+      "description": "Ataca a 1 enemigo. Tiene un 40% de posibilidades de aplicar un debufo de [Aturdir] durante 1 turno. La probabilidad aumenta un 25%  si el objetivo tiene algún bufo.",
       "book_priority": "Ninguna"
     },
     {
@@ -77,7 +86,7 @@
           "key_name": "escudo-habilidad"
         }
       ],
-      "description": "Elimina todos los debufos de [Provocar] y 1 debufo aleatorio de todos los aliados. Aplica un bufo del 60% [Aumentar DEF] durante 2 turnos a los aliados a los que se les han eliminado los debufos. También aplica un bufo de [Escudo] en todos los aliados igual al 20% del MAX HP de este Campeón durante 2 turnos.",
+      "description": "Elimina todos los debufos de todos los aliados.\n\n Aplica un bufo del 60% [Aumentar DEF] durante 2 turnos a los aliados. También aplica un bufo de [Escudo] en todos los aliados igual al 30% del MAX HP de este Campeón durante 2 turnos.",
       "book_priority": "Ninguna"
     },
     {
@@ -109,13 +118,13 @@
         }
       ],
       "multiplier": "4.85xATK",
-      "description": "Ataca a todos los enemigos. Elimina 1 bufo aleatorio de cada enemigo. Tiene un 75% de probabilidad de eliminar 2 bufos aleatorio de cada enemigo. Aplica un debufo del 100% [Bloquear Curación] durante 3 turnos a los enemigos a los que se les ha eliminado 1 o más bufos. También aplica un debufo del 60% [Reducir DEF] durante 2 turnos en enemigos a los que se les han eliminado 2 bufos.",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de eliminar todos los bufos de todos los enemigos. También tiene un 75% de probibilidad de aplicar un debufo del 100% [Curación Reducida] durante y un debufo del 60% [Reducir DEF] durante 2 turnos.",
       "book_priority": "Ninguna"
     },
     {
       "name": "Estoico saurio (Pasiva)",
       "levels": [],
-      "description": "Inmune a los debufos de [Provocar]. Llena la barra de turno de este campeón en un 20% cada vez que un enemigo intenta aplicar un debufo de [Provocar] en este campeón.",
+      "description": "Inmune a los debufos de [Incitar] y [Aturdir].\n\n Llena un 25% la barra de turno de este campeón cada vez que un enemigo intente aplicarle un debufo de [Incitar] o [Aturdir]. También llena un 15% la barra de turno de este campeón cada vez que un aliado reciba un debufo de [Incitar] o [Aturdir].",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
@@ -127,7 +136,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/vergumkaar.webp",
   "masteries": [],
   "artworks": [],

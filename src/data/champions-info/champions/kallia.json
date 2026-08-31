@@ -15,7 +15,7 @@
     "corona_de_ireth",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Hydra en early y quizá facciones con Atur",
   "stats": {
     "hp": 12885,
@@ -115,7 +115,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/kallia.webp",
   "masteries": [],
   "artworks": [],

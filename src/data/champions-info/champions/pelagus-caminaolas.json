@@ -7,8 +7,14 @@
   "type": "Apoyo",
   "affinity": "Espíritu",
   "youtube_link": "https://www.youtube.com/watch?v=K3xlp31GcLA",
-  "blessings": null,
-  "relics": null,
+  "blessings": [
+    "fuego-y-azufre"
+  ],
+  "relics": [
+    "varita_de_sumision",
+    "arpa_de_kasbiel",
+    "sombra_encaramada"
+  ],
   "gear": [
     "bestial",
     "punteria",
@@ -17,7 +23,7 @@
     "velocidad-divina",
     "redirigir"
   ],
-  "uses": "Principalmente oleadas y facciones. Puede tener potencial en arenas pero no funciona muy bien si el enemigo tiene Mercurial",
+  "uses": "Principalmente oleadas y facciones. Puede tener potencial en arenas pero no funciona muy bien si el enemigo tiene Mercurial. Bastante bueno contra el Hada Oscura de la Torre del Destino",
   "stats": {
     "hp": 20805,
     "speed": 115,
@@ -32,48 +38,84 @@
     {
       "name": "Empuje de Ola (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Probabilidad Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad Bufo/Debufo +15%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad Bufo/Debufo +15%"
+        }
       ],
-      "multiplier": "?xATK",
-      "description": "Ataca a 1 enemigo 3 veces.\n\n Cada ataque tiene un 50% de probabilidad de robar un 5% de la barra de turno del objetivo.\n\n Llena las barras de turno de todos los aliados en una cantidad equivalente a la cantidad total de barra de turno robada."
+      "multiplier": "2.2xATK",
+      "description": "Ataca a 1 enemigo 3 veces.\n\n Cada ataque tiene un 50% de probabilidad de robar un 5% de la barra de turno del objetivo.\n\n Llena las barras de turno de todos los aliados en una cantidad equivalente a la cantidad total de barra de turno robada.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Corriente de Resaca",
       "levels": [
-        "Nivel 2: Probabilidad Bufo/Debufo +10%",
-        "Nivel 3: Probabilidad Bufo/Debufo +15%",
-        "Nivel 4: Tiempo de Reutilización -1",
-        "Nivel 5: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Probabilidad Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "red-vel-2",
-        "debilitar-2"
+        {
+          "key_name": "red-vel-2"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
       ],
-      "description": "Elimina todos los bufos de todos los enemigos.\n\n Luego tiene un 75% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] y un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos."
+      "description": "Elimina todos los bufos de todos los enemigos.\n\n Luego tiene un 75% de probabilidad de aplicar un debufo de 30% de [Reducir VEL] y un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Marea Implacable",
       "levels": [
-        "Nivel 2: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 3:Probabilidad de Bufo/Debufo +15%",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3:Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "bloquear-habilidades-pasivas",
-        "desfallecer"
+        {
+          "key_name": "bloquear-habilidades-pasivas"
+        },
+        {
+          "key_name": "desfallecer"
+        }
       ],
-      "description": "Tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Habilidades Pasivas] y un debufo de [Desfallecer] a todos los enemigos durante 2 turnos.\n\n También roba toda la barra de turno del objetivo."
+      "description": "Tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Habilidades Pasivas] y un debufo de [Desfallecer] a un enemigo durante 2 turnos.\n\n También roba toda la barra de turno del objetivo.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Profundidades Aplastantes (Pasiva)",
       "buffDebuff": [
-        "enredar-2"
+        {
+          "key_name": "enredar-2"
+        }
       ],
-      "description": "Aplica un debufo de 100% de [Enredar] al enemigo con menos barra de turno durante 2 turnos al final del turno de este campeón. Este debufo no se puede resistir.\n\n Cada vez que una habilidad llena la barra de turno de un enemigo, también llena un 15% la barra de turno de este campeón. Una vez por turno."
+      "description": "Aplica un debufo de 100% de [Enredar] al enemigo con menos barra de turno durante 2 turnos al final del turno de este campeón. Este debufo no se puede resistir.\n\n Cada vez que una habilidad llena la barra de turno de un enemigo, también llena un 15% la barra de turno de este campeón. Una vez por turno.",
+      "levels": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -82,8 +124,8 @@
       "description": "Aumenta la VEL de Aliados en batallas de Arena en 28%"
     }
   ],
-  "lore": null,
-  "forms": null,
+  "lore": "«No puedes comprender la inmensidad del océano: su asombrosa extensión y profundidad, la cantidad inimaginable de seres vivos que lo habitan, ni su historia, que se remonta al nacimiento mismo del mundo. Yo sí puedo. Y por eso puedo decirte que, a pesar de toda esa inmensidad, una sola pieza de basura arrojada por la borda es una afrenta contra todo ello.» — Pelagus el Caminante de las Olas.\\n\\n\n\nPelagus es un Maestro de las Mareas poderoso y respetado que fue ampliando gradualmente su meticulosa labor de protección hasta abarcar un archipiélago entero, algo con lo que pocos Maestros de las Mareas siquiera podrían soñar. No era una afirmación vacía, pues Pelagus era más que capaz de imponer su voluntad sobre enormes extensiones de mar.\\n\\n\n\nHundió varios barcos enanos que vertían petróleo al océano, ignorando por completo las posibles represalias, para poner fin a su contaminación. Una vez que los navíos descansaban en el fondo marino, tejía enormes bolsas de algas marinas para contener el petróleo derramado y retirarlo de las aguas.\\n\\n\n\nQuizá como respuesta a su creciente talento, fue «llamado» a las profundidades por una extraña e incomprensible compulsión que, según él, provenía de una entidad primordial de las profundidades oceánicas, un espíritu del mar.\\n\\n\n\nPelagus desapareció en el abismo oscuro y aplastante durante ochenta y ocho días. Cuando regresó, había cambiado. Se había adaptado al frío extremo y a las enormes presiones de las profundidades, sin perder la capacidad de sobrevivir en aguas poco profundas e incluso en tierra firme. Además, su ya impresionante dominio de la magia oceánica había alcanzado cotas completamente nuevas.\\n\\n\n\nPresentándose ante el polemarca Agameos mientras este celebraba un cónclave de nobles, Pelagus declaró que se le había «concedido» el título de Maestro de las Mareas de todas las Argólades.\\n\\n\n\nEra una figura peculiar. Su voz, poderosa y resonante bajo el agua, se volvía fina, áspera y entrecortada al respirar el aire de la superficie. A pesar de ello, se comportaba con dignidad y captaba la atención de todos cuando hablaba.\\n\\n\n\nMuchos reaccionaron con escepticismo y preocupación ante semejante afirmación, aunque unos pocos se convirtieron en seguidores fanáticamente leales.\\n\\n\n\nDesde entonces, Pelagus ha procurado involucrarse en la política de las Argólades, pues considera necesario vigilar a los habitantes de tierra firme para comprender cómo sus acciones pueden afectar a los mares.\\n\\n\n\nHa perfeccionado tanto la hidromancia que puede controlar el agua salada presente en la mayoría de las criaturas, incluidos animales, monstruos y habitantes de Teleria. Mediante manipulaciones sutiles o espectaculares de esos fluidos, Pelagus puede debilitar, desorientar, ralentizar y frustrar a sus enemigos, o incluso desgarrar sus tejidos desde el interior.\\n\\n\n\nSin embargo, estos no son los poderes que más aprecia. Pelagus es, ante todo, un extraordinario conversador con la vida marina, desde las mayores ballenas hasta el más diminuto krill.\\n\\n\n\nSiente una especial simpatía por los navíos leviatán de los Sylvan, con quienes disfruta manteniendo largas y divagantes conversaciones. También aprecia a los Sylvan más que al resto de miembros de la Unión Nyresana, pues considera que su reverencia y conexión con el bosque se asemejan a su propio vínculo con los océanos.\\n\\n\n\nAunque, según él mismo afirma, su conexión es más profunda y poderosa, ya que los mares abarcan todo el mundo, mientras que el Bosque de la Niebla es comparativamente pequeño.\\n\\n\n\nPelagus es mucho más reservado respecto a los barcos de los Enanos y los Shadowkin. No obstante, incluso esas embarcaciones transportan percebes, lapas y gusanos marinos, y cada uno de ellos posee una historia que contar.\\n\\n\n\nLas manadas migratorias de delfines y ballenas también le traen noticias de los océanos lejanos, haciendo que su conocimiento del mundo y de los acontecimientos que ocurren en él sea casi tan vasto como los propios mares.\\n\\n\n\nResulta una paradoja sorprendente en alguien que protege con tanto celo su tierra natal y que casi nunca la abandona.\\n\\n\n",
+  "forms": [],
   "image": "/src/assets/champions/pelagus-caminaolas.webp",
   "masteries": [],
   "artworks": [],

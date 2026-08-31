@@ -15,7 +15,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Puede hacer de nuker en Señor Demoníaco, y decente contra Jefes en early y mid. En late no se usa",
   "stats": {
     "hp": 14205,
@@ -134,7 +134,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/anax.webp",
   "masteries": [],
   "artworks": [],

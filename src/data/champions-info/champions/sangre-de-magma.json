@@ -14,9 +14,7 @@
     ""
   ],
   "gear": [
-    {
-      "set_name": ""
-    }
+    ""
   ],
   "uses": "Pollo",
   "stats": {
@@ -120,7 +118,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/sangre-de-magma.webp",
   "masteries": [],
   "artworks": [],

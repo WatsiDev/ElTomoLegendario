@@ -21,7 +21,6 @@
     "resiliencia",
     "punteria",
     "percepcion",
-    "redirigir",
     "supersonico"
   ],
   "uses": "Facciones y early-mid game. No es muy bueno",
@@ -123,7 +122,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/brewguard-jeroboam.webp",
   "masteries": [],
   "artworks": [],

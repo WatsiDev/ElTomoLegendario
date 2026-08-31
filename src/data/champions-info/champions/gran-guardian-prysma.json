@@ -56,7 +56,7 @@
           "key_name": "aturdir"
         }
       ],
-      "multiplier": "?xATK",
+      "multiplier": "2.5xATK",
       "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 35 % de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Después de atacar, transfiere todos los debufos del aliado con más debufos al objetivo. No transferirá los debufos de [Aturdir], [Congelar], [Dormir], [Miedo], [Miedo de verdad], [Incitar], [Petrificar] y [Oveja].",
       "book_priority": "Ninguna"
     },
@@ -77,7 +77,7 @@
         }
       ],
       "cooldown": 5,
-      "multiplier": "?xATK",
+      "multiplier": "6.5xATK",
       "description": "Ataca a 1 enemigo. Antes de atacar, elimina todos los bufos del objetivo. El aliado con más D.Crit se unirá al ataque. El aliado que se una al ataque usará su habilidad base e ignorará el 35 % de la DEF del objetivo. Si el aliado que se una a este ataque mata al enemigo, activa un efecto de [Turno Instantáneo] en ese aliado.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
@@ -119,7 +119,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/gran-guardian-prysma.webp",
   "masteries": [],
   "artworks": [],

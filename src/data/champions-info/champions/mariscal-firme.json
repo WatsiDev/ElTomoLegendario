@@ -11,7 +11,7 @@
     "defensa-impecable"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Malillo. No perder tiempo en él porque no se usa.",
   "stats": {
     "hp": 20640,
@@ -81,9 +81,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/mariscal-firme.webp",
   "masteries": [],
   "artworks": [],

@@ -17,7 +17,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Astranyx, poco más.",
   "stats": {
     "hp": 14535,
@@ -118,7 +118,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/roric-wyrmbane.webp",
   "masteries": [],
   "artworks": [],

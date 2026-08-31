@@ -15,7 +15,7 @@
     "dedo_real",
     "rocadragon_dorada"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Pocos, solo control de oleadas así que facciones",
   "stats": {
     "hp": 17505,
@@ -125,7 +125,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/giscard-el-encantado.webp",
   "masteries": [],
   "artworks": [],

@@ -9,14 +9,14 @@
   "youtube_link": null,
   "blessings": [
     "toque-fantasmal",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
     "campana_fundida",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Pocos. Facciones como mucho.",
   "stats": {
     "hp": 12555,
@@ -111,7 +111,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/gerhard-el-penon.webp",
   "masteries": [],
   "artworks": [],

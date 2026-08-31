@@ -14,7 +14,8 @@
   "relics": [
     "varita_de_sumision",
     "corona_de_ireth",
-    "sombra_encaramada"
+    "sombra_encaramada",
+    "mirada_del_gato"
   ],
   "gear": [
     "proteccion",
@@ -23,7 +24,8 @@
     "piel-de-piedra",
     "bestial",
     "punteria",
-    "percepcion"
+    "percepcion",
+    "mercurial"
   ],
   "uses": "Quimera, arenas, oleadas...muy bueno y versátil",
   "stats": {
@@ -136,7 +138,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/bayek.webp",
   "masteries": [],
   "artworks": [],

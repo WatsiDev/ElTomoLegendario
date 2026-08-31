@@ -14,8 +14,7 @@
   "gear": [
     "inmortal",
     "resistencia",
-    "proteccion",
-    "redirigir"
+    "proteccion"
   ],
   "uses": "Facciones y early mid. No es demasiado bueno",
   "stats": {
@@ -115,7 +114,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/drokgul-el-demacrado.webp",
   "masteries": [],
   "artworks": [],

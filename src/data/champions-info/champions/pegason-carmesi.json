@@ -25,38 +25,67 @@
     {
       "name": "Asalto Demoledor (HP)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Prob.Bufo / Debufo +5%",
-        "Nivel 4: Daño +10%",
-        "Nivel 5: Prob.Bufo / Debufo +10%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob.Bufo / Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob.Bufo / Debufo +10%"
+        }
       ],
       "multiplier": "0.21xHP",
-      "description": "Ataca a 1 enemigo.\n\n Tiene un 15% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno."
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 15% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Postura de Acero",
       "levels": [
-        "Nivel 2: Escudo +10%",
-        "Nivel 3: Escudo +10%",
-        "Nivel 4: Tiempo de Reutilización -1",
-        "Nivel 5: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Escudo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 6,
       "buffDebuff": [
-        "burlon",
-        "escudo-habilidad"
+        {
+          "key_name": "burlon"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
       ],
       "multiplier": "0.15xHP",
-      "description": "Aplica un bufo de [Burlón] a este campeón durante 1 turno.\n\n También aplica un bufo de [Escudo] a todos los aliados del 15% de MAX HP de este campeón durante 2 turnos."
+      "description": "Aplica un bufo de [Burlón] a este campeón durante 1 turno.\n\n También aplica un bufo de [Escudo] a todos los aliados del 15% de MAX HP de este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Disciplina Militar (Pasiva)",
       "levels": [
-        "Nivel 2: Prob.Bufo / Debufo +10%",
-        "Nivel 2: Prob.Bufo / Debufo +10%"
+        {
+          "level_desc": "Nivel 2: Prob.Bufo / Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Prob.Bufo / Debufo +10%"
+        }
       ],
       "cooldown": 1,
-      "description": "Al ser atacado, tiene un 5% de probabilidad de reducir todo el daño entrante a cero"
+      "description": "Al ser atacado, tiene un 5% de probabilidad de reducir todo el daño entrante a cero",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -66,7 +95,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/pegason-carmesi.webp",
   "masteries": [],
   "artworks": [],

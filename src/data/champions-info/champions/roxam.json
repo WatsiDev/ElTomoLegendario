@@ -6,10 +6,10 @@
   "role": "Nuker con buen daño, así como potencial de debufer para hacer aún más daño. Se oculta tras un Velo cual camaleón y pega fuerte.",
   "type": "Ataque",
   "affinity": "Magia",
-  "youtube_link": "https://www.youtube.com/watch?v=L3ySF8u9W7o",
+  "youtube_link": "https://www.youtube.com/watch?v=Hm_gz0u_BC0",
   "blessings": [
     "ira-de-la-naturaleza",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
@@ -159,7 +159,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/roxam.webp",
   "masteries": [],
   "artworks": [],

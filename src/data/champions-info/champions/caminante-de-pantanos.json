@@ -13,7 +13,7 @@
   "relics": [
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones como mucho, es un raro decente a falta de otras cosas.",
   "stats": {
     "hp": 16020,
@@ -116,7 +116,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/caminante-de-pantanos.webp",
   "masteries": [],
   "artworks": [],

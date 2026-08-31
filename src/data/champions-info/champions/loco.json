@@ -27,42 +27,72 @@
     {
       "name": "Acuchillar a lo Bestia (ATK)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Daño +5%",
-        "Nivel 5: Daño +10%"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        }
       ],
       "multiplier": "3xATK",
-      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de atacar a todos los enemigos con un segundo ataque que hace el 30% del daño del primero. Este segundo ataque siempre es normal."
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de atacar a todos los enemigos con un segundo ataque que hace el 30% del daño del primero. Este segundo ataque siempre es normal.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Resiliencia Demencial (ATK)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Daño +5%",
-        "Nivel 5: Daño +10%",
-        "Nivel 6: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
       "multiplier": "3.4xATK",
-      "description": "Ataca a todos los enemigos. Cura a este campeón el 10% del daño hecho si actualmente tiene menos del 50% de HP."
+      "description": "Ataca a todos los enemigos. Cura a este campeón el 10% del daño hecho si actualmente tiene menos del 50% de HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Estocada Bestial (ATK)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Daño +15%"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        }
       ],
       "cooldown": 4,
       "multiplier": "4.5xATK",
-      "description": "Ataca a 1 enemigo. Ignora el 30% de DEF del objetivo. Ignora bufos de [Bloquear Daño] y [Escudo]"
+      "description": "Ataca a 1 enemigo. Ignora el 30% de DEF del objetivo. Ignora bufos de [Bloquear Daño] y [Escudo]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/loco.webp",
   "masteries": [],
   "artworks": [],

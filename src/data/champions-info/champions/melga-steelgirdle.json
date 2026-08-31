@@ -19,7 +19,7 @@
     "cristal_de_exanima",
     "corona_lugubre"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Revividor para facciones y PvE en early-mid",
   "stats": {
     "hp": 20475,
@@ -123,7 +123,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/melga-steelgirdle.webp",
   "masteries": [],
   "artworks": [],

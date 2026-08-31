@@ -15,7 +15,7 @@
     "mascara_de_ira",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Bastante malo, como mucho las primeras etapas de facciones",
   "stats": {
     "hp": 16515,
@@ -114,7 +114,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/jizoh.webp",
   "masteries": [],
   "artworks": [],

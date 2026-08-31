@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=qfaOF5VFwrs",
   "blessings": [
     "ira-de-la-naturaleza",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "invocatormentas",
@@ -129,9 +129,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/edward-kenway.webp",
   "masteries": [],
   "artworks": [],

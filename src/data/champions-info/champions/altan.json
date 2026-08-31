@@ -13,7 +13,7 @@
   "relics": [
     "rocadragon_dorada"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Casi ninguno. Demasiado anticuado",
   "stats": {
     "hp": 20145,
@@ -98,7 +98,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/altan.webp",
   "masteries": [],
   "artworks": [],

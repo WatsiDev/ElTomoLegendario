@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Ninguno, muy malo.",
   "stats": {
     "hp": 19650,
@@ -104,9 +104,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/maestro-de-espias.webp",
   "masteries": [],
   "artworks": [],

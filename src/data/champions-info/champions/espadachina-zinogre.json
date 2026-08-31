@@ -123,7 +123,7 @@
     "description": "Aumenta la VEL de aliados en mazmorras en un 30%"
   },
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/espadachina-zinogre.webp",
   "masteries": [],
   "artworks": [],

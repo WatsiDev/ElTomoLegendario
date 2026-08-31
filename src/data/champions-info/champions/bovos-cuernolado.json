@@ -13,7 +13,7 @@
   "relics": [
     "el_triturador"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Muy de nicho para ser útil",
   "stats": {
     "hp": 19155,
@@ -112,7 +112,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/bovos-cuernolado.webp",
   "masteries": [],
   "artworks": [],

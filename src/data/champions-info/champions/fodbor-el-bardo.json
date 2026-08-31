@@ -14,7 +14,7 @@
     "campana_fundida",
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y PvE en early-mid",
   "stats": {
     "hp": 15360,
@@ -106,7 +106,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/fodbor-el-bardo.webp",
   "masteries": [],
   "artworks": [],

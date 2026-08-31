@@ -16,7 +16,8 @@
     "corazon_volcardiaco",
     "diadema_no_muerta",
     "abanico_negro",
-    "agarre_de_valkanen"
+    "agarre_de_valkanen",
+    "craneo_de_vida"
   ],
   "gear": [
     "resiliencia",
@@ -132,7 +133,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/acelin-el-inmutable.webp",
   "masteries": [],
   "artworks": [],

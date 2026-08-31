@@ -29,46 +29,77 @@
     {
       "name": "Virote Acuoso (ATK)",
       "levels": [
-        "Nivel 2: Daño +5%",
-        "Nivel 3: Daño +5%",
-        "Nivel 4: Curación +5%",
-        "Nivel 4: Curación +5%"
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Curación +5%"
+        }
       ],
       "multiplier": "2.4xATK. Curación 0.05xHP",
-      "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque cura al aliado con menos HP el 5% de MAX HP de este campeón."
+      "description": "Ataca 2 veces a 1 enemigo.\n\n Cada ataque cura al aliado con menos HP el 5% de MAX HP de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Ira del Maestro de Mareas (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Tiempo de Reutilización -1",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "aumentar-def-2"
+        {
+          "key_name": "aumentar-def-2"
+        }
       ],
       "multiplier": "4.5xATK",
-      "description": "Ataca a todos los enemigos.\n\n Aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos."
+      "description": "Ataca a todos los enemigos.\n\n Aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Aguas Rejuvenecedoras",
       "levels": [
-        "Nivel 2: Tiempo de Reutilización -1",
-        "Nivel 3: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 6,
       "buffDebuff": [
-        "velo-perfecto"
+        {
+          "key_name": "velo-perfecto"
+        }
       ],
       "multiplier": "Curación 0.15xHP",
-      "description": "Revive a 2 aliados al azar con el 40% de HP y el 20% de Barra de Turno.\n\n Cura a todos los aliados el 15% de MAX HP de este campeón. Cura a los aliados aunque no se haya reanimado ningún aliado.\n\n Aplica un bufo de [Velo Perfecto] a todos los aliados excepto a este campeón durante 1 turno. Estos bufos se aplican aunque no se haya reanimado ningún aliado."
+      "description": "Revive a 2 aliados al azar con el 40% de HP y el 20% de Barra de Turno.\n\n Cura a todos los aliados el 15% de MAX HP de este campeón. Cura a los aliados aunque no se haya reanimado ningún aliado.\n\n Aplica un bufo de [Velo Perfecto] a todos los aliados excepto a este campeón durante 1 turno. Estos bufos se aplican aunque no se haya reanimado ningún aliado.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Seguridad de las Olas (Pasiva)",
       "multiplier": "Curación 0.15 x MAX HP",
-      "description": "Al comienzo del turno de este campeón, aplica un bufo de [Escudo] durante 1 turno a todos los aliados que tengan menos del 100% de HP. La magnitud del [Escudo] es igual al 15% de MAX HP del campeón que lo recibe."
+      "description": "Al comienzo del turno de este campeón, aplica un bufo de [Escudo] durante 1 turno a todos los aliados que tengan menos del 100% de HP. La magnitud del [Escudo] es igual al 15% de MAX HP del campeón que lo recibe.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -78,7 +109,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/maestro-de-mareas-dexikos.webp",
   "masteries": [],
   "artworks": [],

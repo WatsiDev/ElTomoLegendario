@@ -15,7 +15,7 @@
     "infernosfera",
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Quimera, Hydra, Facciones...No molesta",
   "stats": {
     "hp": 20805,
@@ -112,7 +112,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/espadachin-alatreon.webp",
   "masteries": [],
   "artworks": [],

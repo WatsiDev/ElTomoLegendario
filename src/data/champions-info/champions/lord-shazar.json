@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [
     "presencia-amenazante",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "vara_de_esporas",
@@ -109,7 +109,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/lord-shazar.webp",
   "masteries": [],
   "artworks": [],

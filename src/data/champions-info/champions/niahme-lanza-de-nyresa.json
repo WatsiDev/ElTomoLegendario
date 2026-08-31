@@ -48,9 +48,16 @@
           "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
         }
       ],
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        },
+        {
+          "key_name": "red-p-crit-2"
+        }
+      ],
       "multiplier": "4.1xDEF",
       "description": "Ataca a 1 enemigo.\n\n Aplica un debufo de 50% de [Reducir ATK] y un debufo de 30% de [Reducir P.Crit] en el objetivo durante 2 turnos. Tiene un 50% de probabilidades de que estos debufos no se puedan resistir ni bloquear.",
-      "buffDebuff": [],
       "book_priority": "Ninguna"
     },
     {
@@ -67,9 +74,13 @@
         }
       ],
       "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
       "multiplier": "5.4xDEF",
       "description": "Ataca a 1 enemigo. Si el objetivo tiene 50% o menos de HP, este ataque siempre es crítico e ignorará el 50% de la DEF del objetivo.\n\n Aplica un bufo de [Escudo] a todos los aliados durante 2 turnos. El valor del [Escudo] es igual a la diferencia entre el HP actual del objetivo y su MAX HP. Si el objetivo es un jefe, el tamaño del escudo será proporcional a la DEF de este campeón.\n\n Si el objetivo muere, también reduce el tiempo de reutilización de todas las habilidades de los aliados en 2 turnos.",
-      "buffDebuff": [],
       "book_priority": "Ninguna"
     },
     {
@@ -117,7 +128,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/niahme-lanza-de-nyresa.webp",
   "masteries": [],
   "artworks": [],

@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": null,
   "blessings": [
-    "polimorfar",
+    "polimorfia",
     "fuego-y-azufre"
   ],
   "relics": [
@@ -59,7 +59,7 @@
         }
       ],
       "multiplier": "3.75xATK",
-      "description": "Ataca a 1 enemigo. Aplica un bufo de [Escudo] durante 2 turnos en el aliado con el HP más bajo. El valor del [Escudo] es igual al 15% del HP MÁXIMO del aliado",
+      "description": "Ataca a 1 enemigo. Aplica un bufo de [Escudo] durante 2 turnos a este campeón y al aliado con menos HP. La magnitud del [Escudo] es igual al 15% del HP MÁXIMO de éste campeón.",
       "book_priority": "Ninguna"
     },
     {
@@ -88,7 +88,7 @@
         }
       ],
       "multiplier": "4.2xATK",
-      "description": "Ataca a todos los enemigos. Tiene un 80% de posibilidades de eliminar todos los bufos. Aplica un debufo del 5% [Veneno] durante 2 turnos en cada enemigo por cada bufo que se les quite. También tiene un 80 % de probabilidad de aplicar un debufo de [Bloquear Bufos] en todos los enemigos durante 1 turno.",
+      "description": "Ataca a todos los enemigos. Tiene un 80% de posibilidades de eliminar todos sus bufos. Aplica dos debufos de 5% [Veneno] a cada enemigo durante 2 turnos. Aplica un debufo de 5% de [Veneno] adicional durante 2 turnos a cada enemigo por cada bufo que le ha eliminado (aplica hasta 3 debufos de [Veneno] adicionales). También tiene un 80 % de probabilidad de aplicar un debufo de [Bloquear Bufos] en todos los enemigos durante 2 turnos.",
       "book_priority": "Ninguna"
     },
     {
@@ -110,13 +110,13 @@
           "key_name": "escudo-habilidad"
         }
       ],
-      "description": "Elimina todos los debufos de todos los aliados. Aplica un bufo de [Curación continua] del 15% durante 1 turno en cada aliado por cada debufo que se les quite. Aplica también un bufo de [Escudo] en todos los aliados durante 2 turnos. El valor del [Escudo] es igual al 25% del HP MÁXIMO de este Campeón",
+      "description": "Elimina todos los debufos de todos los aliados y luego les aplica dos bufos de 15% de [Curación Continua] durante 1 turno. También aplica un bufo de [Escudo] a todos los aliados durante 2 turnos. La magnitud de [Escudo] es igual al 25% de MAX HP de éste campeón.",
       "book_priority": "Ninguna"
     },
     {
       "name": "Chamán de Zarzas (Pasiva)",
       "levels": [],
-      "description": "Cada vez que un enemigo bajo un debufo de [Veneno] ataca a un aliado bajo un bufo de [Escudo], activa instantáneamente un debufo de [Veneno] en ese enemigo. También activa instantáneamente 1 bufo de [Curación continua] en el aliado atacado.",
+      "description": "Siempre que un enemigo que tiene un debufo de [Veneno] ataca a un aliado, activa instantáneamente todos los debufos de [Veneno] de dicho enemigo (una vez por aliado atacado). También activa instantáneamente 1 bufo de [Curación Continua] del aliado atacado.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
@@ -128,7 +128,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/rey-gallcobar.webp",
   "masteries": [],
   "artworks": [],

@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=2aTh1jybgX0",
   "blessings": [
     "cosechar-vida",
-    "polimorfar"
+    "polimorfia-6"
   ],
   "relics": [
     "el_triturador",
@@ -17,6 +17,7 @@
     "mano_de_descrear",
     "politopo_infernal",
     "arpa_de_kasbiel",
+    "craneo_de_vida",
     "efigie_demoniaca",
     "empunadura_sacra",
     "tiara_de_andromeda",
@@ -25,7 +26,6 @@
   ],
   "gear": [
     "apoyo",
-    "parada-rapida",
     "piel-de-piedra",
     "escudo",
     "inmortal",
@@ -125,7 +125,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/pythion.webp",
   "masteries": [],
   "artworks": [],

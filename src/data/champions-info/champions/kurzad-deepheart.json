@@ -14,7 +14,7 @@
   "relics": [
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Aumentar nuestras PUNT en early",
   "stats": {
     "hp": 12225,
@@ -128,7 +128,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/kurzad-deepheart.webp",
   "masteries": [],
   "artworks": [],

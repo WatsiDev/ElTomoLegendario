@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "rompe-cadenas"
+    "romper-cadenas"
   ],
   "relics": [
     "efigie_demoniaca",
@@ -16,7 +16,7 @@
     "dedo_real",
     "corona_lugubre"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Útil en facciones si no tenemos otro revividor",
   "stats": {
     "hp": 18660,
@@ -112,7 +112,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/fauces-grandes.webp",
   "masteries": [],
   "artworks": [],

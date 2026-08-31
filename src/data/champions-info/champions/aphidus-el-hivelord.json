@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "mirada_del_gato",
@@ -20,7 +20,7 @@
     "corona_de_ireth",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Principalmente hydra en la forma base.",
   "stats": null,
   "skills": [],
@@ -112,37 +112,45 @@
       },
       "skills": [
         {
-          "name": "Guadaña (ATK)",
+          "name": "Pinzas Trituradoras (DEF)",
           "levels": [
-            "Nivel 2: Daño +20%",
-            "Nivel 3: Ignorar RES +20%"
+            "Nivel 2: Daño +20%"
           ],
-          "multiplier": "4xATK",
-          "description": "Ataca a 1 enemigo. Después de atacar, traspasa todos los debufos de este campeón al objetivo. Si el objetivo tiene un debufo de [Maleficio] antes del ataque, los debufos se traspasan antes del ataque en lugar de después."
+          "buffDebuff": [
+            "aumentar-punt-2"
+          ],
+          "multiplier": "3.7xDEF",
+          "description": "Ataca a 1 enemigo. Aplica un bufo de 50% de [Aumentar PUNT] al aliado con más PUNT durane 2 turnos y llena un 10% su barra de turno."
         },
         {
-          "name": "Testamento Final (ATK)",
+          "name": "Capullo Pútrido (DEF)",
           "levels": [
             "Nivel 2: Daño +20%",
-            "Nivel 3: Tiempo de Reutilización -1"
-          ],
-          "cooldown": 4,
-          "multiplier": "4.2xATK x (1+0.1x Debufos del objetivo)",
-          "description": "Ataca a todos los enemigos. Antes de atacar, elimina todos los debufos de este campeón. Hace un 10% más de daño por cada debufo que tiene cada objetivo. Ignora el 20 de DEF del objetivo si tiene un debufo de [Maleficio]."
-        },
-        {
-          "name": "Rescición (ATK)",
-          "levels": [
-            "Nivel 2: Daño +20%",
-            "Nivel 3: Ignorar RES +20%"
+            "Nivel 3: Ignorar RES +20%",
+            "Nivel 4: Tiempo de Reutilización -1"
           ],
           "cooldown": 4,
           "buffDebuff": [
-            "maleficio",
-            "red-def-2"
+            "aturdir",
+            "curacion-continua-2"
           ],
-          "multiplier": "4.4xATK",
-          "description": "Ataca a todos los enemigos. Antes de atacar, aplica un debufo de [Maleficio] y un debufo de 60% de [Reducir DEF] durante 2 turnos. Ignora bufos de [Barrera de Vida], [Nube de veneno] y [Protección de Aliado]."
+          "multiplier": "2.5xDEF",
+          "description": "Ataca a todos los enemigos. Aplica un debufo de [Aturdir] a todos los enemigos durante 1 turno. \n\nTambién aplica dos bufos de 15% de [Curación Continua] a todos los aliados durante 2 turnos."
+        },
+        {
+          "name": "Contemplar la Bestia",
+          "levels": [
+            "Nivel 2: Ignorar RES +20%",
+            "Nivel 3: Tiempo de Reutilización -1",
+            "Nivel 4: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "incitar",
+            "fortalecer-2",
+            "aumentar-def-2"
+          ],
+          "description": "Aplica un debufo de [Incitar] a todos los enemigos durante 1 turno.\n\n También aplica un bufo de 25% de [Fortalecer] y un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos."
         },
         {
           "name": "Metamorfosis",
@@ -151,9 +159,9 @@
           "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
         },
         {
-          "name": "Banquete de la Muerte (Pasiva)",
+          "name": "Entomofobia (Pasiva)",
           "levels": [],
-          "description": "Cura completamente a este campeón siempre que mata a un enemigo con un debufo de [Maleficio]. +10% de ATK por cada enemigo que tiene un debufo de [Maleficio]."
+          "description": "Al ser atacado, tiene un 100% de probabilidad de aplicar un debufo de 25% de [Debilitar] y un 40% de probabilidad de aplicar un debufo de [Aturdir] al atacante durante 1 turno.\n\n Aumenta DEF de este campeón 1 punto por cada 2 puntos de ATK cuando está en su forma alternativa."
         }
       ]
     }

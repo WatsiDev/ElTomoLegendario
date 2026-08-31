@@ -14,7 +14,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Debufer de oleadas y facciones. Útil en Hydra en early.",
   "stats": {
     "hp": 12720,
@@ -113,7 +113,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/thylessia.webp",
   "masteries": [],
   "artworks": [],

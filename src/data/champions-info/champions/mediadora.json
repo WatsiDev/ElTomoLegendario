@@ -7,7 +7,9 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=tl98PsmOcj4",
-  "blessings": ["presencia-amenazante"],
+  "blessings": [
+    "presencia-amenazante"
+  ],
   "relics": [
     "crisalida_de_renacer",
     "empunadura_sacra",
@@ -15,9 +17,13 @@
     "diario_de_necrotos",
     "tiempo_de_sangre",
     "arpa_de_kasbiel",
-    "estrellas_jiinang"
+    "estrellas_jinang"
   ],
-  "gear": ["impulso", "velocidad", "velocidad-divina"],
+  "gear": [
+    "impulso",
+    "velocidad",
+    "velocidad-divina"
+  ],
   "uses": "Principalmente arena pero en early ayuda en casi todo",
   "stats": {
     "hp": 21136,
@@ -103,7 +109,7 @@
     }
   ],
   "lore": "La Diosa de la Luz Lumaya tiene muchos sirvientes, pero ninguno tan poderoso como la Mediadora. Creada a partir de la tela de la Luz hace muchos milenios, iba a ser la extensión de la voluntad de Lumaya, su heraldo y la protectora de Teleria. Es un deber que la Mediadora sostuvo con determinación inquebrantable, ya que la Sombra es tan implacable como insidiosa. De hecho, aunque es una guerrera poderosa por derecho propio, la fuerza de la Mediadora por sí sola no sería suficiente para ganar el día. A medida que las civilizaciones subían y bajaban, su solemne tarea permaneció sin cambios: encontrar héroes dignos de liderar a los mejores Campeones del mundo en la batalla. Innumerables generaciones de guerreros respondieron a su llamado, y por su sacrificio Siroth fue mantenido a raya. Pero ahora Teleria enfrenta su mayor desafío hasta el momento. El poder de la Mediadora disminuye y toda esperanza parece perdida. En este momento final, se hizo un sacrificio: el último don divino de Lumaya se gastó para convocar a un solo campeón para llevar a la gente de Teleria a la victoria sobre las fuerzas de la oscuridad. Aunque mortal ahora, ella aún conserva una considerable habilidad y habilidad mágica, así como la riqueza de la experiencia que ningún otro guerrero puede presumir. Ella todavía es capaz de guiar a los Campeones para cumplir sus destinos y servirá a Lumaya hasta su último aliento.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/mediadora.webp",
   "masteries": [],
   "artworks": [],

@@ -17,7 +17,7 @@
     "campana_fundida",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Bastante malo, facciones como mucho",
   "stats": {
     "hp": 13215,
@@ -124,9 +124,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/tratante-del-miedo.webp",
   "masteries": [],
   "artworks": [],

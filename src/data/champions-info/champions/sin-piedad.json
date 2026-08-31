@@ -15,7 +15,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones como mucho pero es un poco relleno",
   "stats": {
     "hp": 16350,
@@ -89,7 +89,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/sin-piedad.webp",
   "masteries": [],
   "artworks": [],

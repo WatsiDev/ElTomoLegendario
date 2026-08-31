@@ -13,7 +13,8 @@
   "relics": [
     "elixir_dorado",
     "diario_de_necrotos",
-    "dedo_real"
+    "dedo_real",
+    "craneo_de_vida"
   ],
   "gear": [
     "regeneracion",
@@ -118,7 +119,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/cronista-adelyn.webp",
   "masteries": [],
   "artworks": [],

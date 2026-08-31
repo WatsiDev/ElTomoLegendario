@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=as37cDvxJn4",
   "blessings": [
-    "llegado-del-cielo",
+    "caido-del-cielo",
     "ira-de-la-naturaleza"
   ],
   "relics": [
@@ -20,7 +20,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Arenas, Hydra, Arañas y limpiado oleadas",
   "stats": {
     "hp": 15690,
@@ -119,7 +119,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/thor-faehammer.webp",
   "masteries": [],
   "artworks": [],

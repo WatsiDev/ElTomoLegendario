@@ -26,7 +26,7 @@
   ],
   "uses": "Versátil tanto para PvP como PvE. Bueno para limpiar oleadas y brillará más en batallas largas",
   "stats": null,
-  "skills": null,
+  "skills": [],
   "aura": [
     {
       "type": "punt",

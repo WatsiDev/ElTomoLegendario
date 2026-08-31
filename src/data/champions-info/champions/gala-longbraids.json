@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=6s4nk0hxsOw",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "toque-fantasmal"
   ],
   "relics": [
@@ -19,7 +19,7 @@
     "apagador_de_esencia",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Arenas principalmente, oleadas y facciones",
   "stats": {
     "hp": 18165,
@@ -110,7 +110,7 @@
     }
   ],
   "lore": "Malhumorada, violenta y extremadamente buena golpeando caras caras, suponiendo que pueda alcanzarlos, pero si no, las tripas y las ingles lo harán. Gala Longbraids es realmente un epítome de una Dama Enana adecuada (de acuerdo con sus propias palabras, de todos modos). De hecho, muchos habitantes de la superficie se sorprenderían al darse cuenta de que Gala es, de hecho, parte de la nobleza, una hija de un respetado Jarl y el heredero de una antigua línea de sangre. El asombro de esa comprensión evidente en sus rostros nunca ha dejado de divertir a Gala hasta el momento. Aunque ella luchó con su padre dominante y sobreprotector en su infancia, los talentos particulares de Gala no se desperdiciaron. Después de ver a su hija meterse en demasiadas peleas con sus compañeros, el viejo Jarl le había permitido a regañadientes que se entrenara en las diversas artes del guerrero.Esto había resultado ser una sabia decisión cuando las legiones de Siroth invadieron, asediaron la fortaleza de Jarl y casi la arruinan. Nunca para entretener la idea de ser una damisela en apuros, Gala agarró uno de los adornados martillos del arsenal del castillo y se unió a la refriega. Incluso los soldados canosos de la Guardia de Honor de Jarl no pudieron evitar dejar caer las fauces por un momento al ver a Gala estrellarse contra la masa chirriante de garras, colmillos y cuernos que barrieron la fortaleza. No era solo un talento impresionante, sino también su valentía y la agresión de su técnica. Gala luchó como una osa enfurecida, y ninguna armadura, encantada o no, pudo salvar a la escoria demoníaca de su ira. Envalentonados, los guardias del Jarl avanzaron con gritos de guerra y rompieron la columna vertebral del ejército de demonios en un día de lucha feroz. Cuando terminó la batalla, incluso el padre de Gala quedó asombrado. Este, dijo el viejo, debe haber sido el momento más orgulloso de su vida: pelear al lado de su hija y asegurar una victoria digna de sus grandes antepasados. Por supuesto, él todavía gruñó y maldijo cuando el Reino estaba a salvo y el deseo de aventura de Gala la llevó a unirse a la expedición del Rey a la Superficie. Pero nunca más se permitió interponerse en el camino del destino de su hija.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/gala-longbraids.webp",
   "masteries": [],
   "artworks": [],

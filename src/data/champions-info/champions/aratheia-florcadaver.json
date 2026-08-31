@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [
     "ira-de-la-naturaleza",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "mirada_del_gato",
@@ -57,7 +57,7 @@
         }
       ],
       "multiplier": "3.8xATK",
-      "description": "Ataca a 1 enemigo.\n\n Llena un 10% la Barra de turno de este campeón. Llena un 10% más la barra de turno de este campeón si el enemigo tiene un debufo de [Maleficio].\n\n Contraataca con esta habilidad al ser atacado con enemigos que tienen un debufo de [Maleficio].",
+      "description": "Ataca a 1 enemigo.\n\n Llena un 10% la Barra de turno de este campeón. Llena un 10% más la barra de turno de este campeón si el enemigo tiene un debufo de [Maleficio].\n\n Contraataca con esta habilidad al ser atacado con enemigos que tienen un debufo de [Maleficio]. Esta habilidad también hace +50% de daño al contraatacar.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },
@@ -75,9 +75,13 @@
         }
       ],
       "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "maleficio"
+        }
+      ],
       "multiplier": "2xATK+1+0.1xATK por cada debufo de Maleficio",
-      "description": "Ataca 2 veces a todos los enemigos.\n\n Hace un 10% más de daño por cada debufo de [Maleficio]. Ignora bufos de [Escudo] y [Fortalecer]. También ignora los bufos de [Bloquear Daño] de enemigos con un debufo de [Maleficio].\n\n Llena un 30% la Barra de Turno de este campeón. Llena un 20% más la barra de turno de este campeón por cada enemigo que mate esta habilidad.",
-      "buffDebuff": [],
+      "description": "Ataca 2 veces a todos los enemigos.\n\n Hace un 15% más de daño por cada debufo de [Maleficio]. Ignora bufos de [Escudo], [Bloquear Daño] y [Fortalecer].\n\n Llena un 30% la Barra de Turno de este campeón. Llena un 20% más la barra de turno de este campeón por cada enemigo que mate esta habilidad.",
       "book_priority": "Ninguna"
     },
     {
@@ -109,7 +113,7 @@
         }
       ],
       "multiplier": "0.4xHP",
-      "description": "Aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Marca de la Muerte] a un objetivo enemigo durante 2 turnos. También tiene un 75% de probabilidad de aplicar un debufo de [Maleficio] a todos los enemigos durante 2 turnos.\n\n Luego llena un 50% la Barra de Turno de este campeón. Llena un 10% más la barra de turno de este campeón por cada debufo aplicado por esta habilidad. También aplica un bufo de [Bloquear Daño] a este campeón durante 1 turno.",
+      "description": "Aplica un bufo de 50% de [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Marca de la Muerte] a un objetivo enemigo durante 2 turnos. También tiene un 75% de probabilidad de aplicar un debufo de [Maleficio] a todos los enemigos durante 2 turnos.\n\n Ignora bufos de [Bloquear Debufos].\n\n También aplica un bufo protegido de [Bloquear Daño] a este campeón durante 2 turnos.\n\n Luego obtén un turno adicional.",
       "book_priority": "Ninguna"
     },
     {
@@ -118,9 +122,12 @@
       "buffDebuff": [
         {
           "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "bloquear-revivir"
         }
       ],
-      "description": "Si este campeón mata a 1 o más enemigos en combate, ignora el 10% de DEF.\n\n Si este campeón mata a 2 o más enemigos en combate, obtiene un bufo de [Escudo] del 40% de su MAX HP durante 2 turnos al comienzo de su turno.\n\n Si este campeón mata a 3 o más enemigos en combate, cada ataque reduce un 10% la Barra de Turno del objetivo. Este efecto no se puede resistir.",
+      "description": "Después de matar a un enemigo en combate este campeón ignora un 10% de DEF de cualquier objetivo (se acumula hasta el 30%).\n\n Cuando este campeón mata a 2 o más enemigos en combate obtiene un bufo de [Escudo] durante 2 turnos al final de su turno. La magnitud del [Escudo] es igual al 400% de ATK de este campeón.\n\n Si este campeón amta a 3 o más enemigos en combate, aplica un debufo de [Bloquear Revivir] a todos los enemigos que mata a partir de entonces.",
       "book_priority": "Ninguna"
     }
   ],
@@ -131,7 +138,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/aratheia-florcadaver.webp",
   "masteries": [],
   "artworks": [],

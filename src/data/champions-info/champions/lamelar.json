@@ -12,9 +12,7 @@
   ],
   "relics": [],
   "gear": [
-    {
-      "set_name": ""
-    }
+    ""
   ],
   "uses": "Muy malo, se puede usar como pollo.",
   "stats": {
@@ -94,7 +92,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/lamelar.webp",
   "masteries": [],
   "artworks": [],

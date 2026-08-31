@@ -13,7 +13,7 @@
   "relics": [
     ""
   ],
-  "gear": [],
+  "gear": null,
   "uses": "No muy buena, se puede usar de comida.",
   "stats": {
     "hp": 15360,
@@ -101,7 +101,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/interceptora.webp",
   "masteries": [],
   "artworks": [],

@@ -3,13 +3,13 @@
   "name": "Danag Skullreap",
   "faction": "Orcos",
   "rarity": "Legendario",
-  "role": "Nuker limitado a luchar contra elfos",
+  "role": "Nuker especialista el matar elfos, con debufos interesantes e imbloqueables dependiendo de su D.Crit",
   "type": "Ataque",
   "affinity": "Magia",
-  "youtube_link": null,
+  "youtube_link": "https://www.youtube.com/watch?v=JHiEyHySvtg",
   "blessings": [
     "toque-fantasmal",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "corona_de_ireth",
@@ -25,10 +25,11 @@
     "letal",
     "salvaje",
     "instinto",
-    "percepcion",
-    "punteria"
+    "dano-critico",
+    "mercurial",
+    "piel-de-piedra"
   ],
-  "uses": "Malillo, no se usa",
+  "uses": "Muy buen nuker contra Elfos en general, pero algo de nicho. No aporta mucho más que daño, por lo que quizá en arenas contra algún equipo compuesto por Elfos pueda ser divertido",
   "stats": {
     "hp": 17010,
     "speed": 98,
@@ -57,7 +58,7 @@
         }
       ],
       "multiplier": "1.9xATK",
-      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 30 % de probabilidad de aplicar un debufo del 60 % de [Reducir DEF] durante 2 turnos. La probabilidad aumenta al 50% si el objetivo está bajo un debufo de [Miedo] o [Miedo de verdad].",
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe tiene un 60% de probabilidad de aplicar un debufo del 60 % de [Reducir DEF] durante 2 turnos. Este debufo no se puede resistir si este campeón tiene más D.Crit que el objetivo. Este debufo no se puede bloquear ni resistir si el enemigo es de la facción de Altos Elfos, Elfos Oscuros y Vigías Silvanos.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },
@@ -90,7 +91,7 @@
         }
       ],
       "multiplier": "4.2xATK",
-      "description": "Ataca a todos los enemigos. Tiene un 75 % de posibilidades de aplicar un debufo del 50 % [Reducir PUNT] durante 2 turnos y un debufo de [Miedo de verdad] durante 1 turno. Los campeones de las facciones de Altos Elfos y Elfos Oscuros no pueden resistir estos debuffos.",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75 % de posibilidades de aplicar un debufo del 50 % [Reducir PUNT] durante 2 turnos y un debufo de [Miedo de verdad] durante 1 turno. Este debufo no se puede resistir si este campeón tiene más D.Crit que el objetivo. Este debufo no se puede bloquear ni resistir si el enemigo es de la facción de Altos Elfos, Elfos Oscuros y Vigías Silvanos.",
       "book_priority": "Ninguna"
     },
     {
@@ -116,21 +117,21 @@
         }
       ],
       "multiplier": "5.9xATK",
-      "description": "Ataca a 1 enemigo. Ignorará los buffos de [Escudo].\n\n Reduce el tiempo de reutilización de la habilidad [Flujo de batalla] en 2 turnos, llena la barra de turno de este campeón en un 30 % y aplica un bufo de 30 % [Aumentar D.Crit] en este campeón durante 2 turnos si este ataque mata a un enemigo",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de 30% de [Aumentar D.Crit] a este campeón durante 2 turnos.\n\n Ignora los bufos de [Escudo], [Inmortal] y [Fortalecer] además del 20% de DEF del objetivo. Si el objetivo es de la facción de los Altos Elfos, Elfos Oscuros o Vigías Silvanos, ignora el 40% de DEF en lugar del 20%.\n\n Si este ataque mata a un enemigo, reinicia el tiempo de reutilización de esta habilidad y llena el 50% la barra de turno de éste campeón.",
       "book_priority": "Ninguna"
     },
     {
       "name": "Rencor Saludable (Pasiva)",
       "levels": [],
       "cooldown": 5,
-      "description": "Cura a este campeón en un 50 % de su HP MÁXIMO cada vez que este campeón mata a un enemigo.\n\nTambién otorga un turno extra cada vez que este campeón mata a un enemigo de las facciones de Altos Elfos o Elfos Oscuros.",
+      "description": "Cura a este campeón en un 50 % de su MAX HP cada vez que este campeón mata a un enemigo.\n\n También otorga un turno adicional cada vez que este campeón mata a un enemigo de las facciones de Altos Elfos, Elfos Oscuros o Vigías Silvanos.\n\n Este campeón contraataca al ser atacado por un enemigo de la facción de los Altos Elfos, Elfos Oscuros o Vigías Silvanos.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/danag-skullreap.webp",
   "masteries": [],
   "artworks": [],

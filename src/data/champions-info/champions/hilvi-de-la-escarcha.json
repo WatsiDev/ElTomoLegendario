@@ -8,7 +8,7 @@
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=9PMUe-Dglx4",
   "blessings": [
-    "polimorfar",
+    "polimorfia",
     "presencia-amenazante"
   ],
   "relics": [
@@ -28,7 +28,7 @@
     "punteria",
     "incansable"
   ],
-  "uses": "Facciones, oleadas y cualquier sitio donde vaya Tormin (aunque Tormin contra Jefes no es muy bueno)",
+  "uses": "Facciones, oleadas y cualquier sitio donde vaya Tormin (aunque Tormin contra Jefes no es muy bueno). Muy buena y usada en arenas también",
   "stats": {
     "hp": 20475,
     "speed": 110,
@@ -127,7 +127,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/hilvi-de-la-escarcha.webp",
   "masteries": [],
   "artworks": [],

@@ -11,7 +11,7 @@
     "toque-fantasmal"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Casi ninguno, pollo.",
   "stats": {
     "hp": 16185,
@@ -103,7 +103,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/gran-maestro.webp",
   "masteries": [],
   "artworks": [],

@@ -15,7 +15,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones como mucho pero es un poco relleno",
   "stats": {
     "hp": 12555,
@@ -107,7 +107,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/necro-cazador.webp",
   "masteries": [],
   "artworks": [],

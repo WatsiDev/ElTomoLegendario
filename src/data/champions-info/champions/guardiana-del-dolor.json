@@ -108,7 +108,7 @@
     "description": "Aumenta el HP de aliados en Critas de Facción en 21%."
   },
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/guardiana-del-dolor.webp",
   "masteries": [],
   "artworks": [],

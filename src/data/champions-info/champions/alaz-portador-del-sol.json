@@ -8,20 +8,26 @@
   "affinity": "Fuerza",
   "youtube_link": null,
   "blessings": [
-    "llegado-del-cielo",
-    "desgarro-aplastante"
+    "jaula-de-rayos",
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "colmillo_asesino",
+    "apagador_de_esencia",
     "invocatormentas",
     "mirada_del_gato",
+    "lente_intangible",
     "malleos_de_fuego",
     "mano_de_descrear",
     "agarre_de_valkanen",
     "rocadragon_dorada",
     "mascara_de_ira"
   ],
-  "gear": [],
+  "gear": [
+    "salvaje",
+    "letal",
+    "piel-de-piedra"
+  ],
   "uses": "Arenas, Quimera en según que setup. No estorba en ningún sitio y pega fuerte. ",
   "stats": null,
   "skills": [],

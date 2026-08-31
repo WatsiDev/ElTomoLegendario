@@ -8,7 +8,7 @@
   "affinity": "Fuerza",
   "youtube_link": null,
   "blessings": [
-    "desgarro-aplastante"
+    "desgarro-aplastante-6"
   ],
   "relics": [
     "corona_de_ireth",
@@ -16,7 +16,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Arañas en early, pero no es meta",
   "stats": {
     "hp": 16185,
@@ -112,7 +112,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/elder-skarg.webp",
   "masteries": [],
   "artworks": [],

@@ -19,8 +19,7 @@
   "gear": [
     "inmortal",
     "resiliencia",
-    "guardian",
-    "redirigir"
+    "guardian"
   ],
   "uses": "Buen healer para facciones y oleadas, sobretodo en early. En mid y late se queda algo corto.",
   "stats": {
@@ -115,7 +114,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/yuzan-el-abandonado.webp",
   "masteries": [],
   "artworks": [],

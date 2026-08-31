@@ -16,7 +16,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Arena en setups con Astralith. Señor Demoníaco en early o dragón en fácil, pero casi ninguno",
   "stats": {
     "hp": 16350,
@@ -127,7 +127,7 @@
     }
   ],
   "lore": "Incluso en una sociedad de magos oscuros intrigantes y asesinos despiadados, el Visir Ovelis se destaca como un hombre al que realmente se debe temer. Una leyenda entre sus parientes y un compañero para nadie, es una espada en la oscuridad que golpea donde sea que quiera. De hecho, aunque se le había otorgado un título de respeto e integrado en la nobleza de los Elfos Oscuros, Ovelis no tiene más amo que él mismo. Incluso como un joven guerrero, Ovelis era ambicioso y albergaba sueños de llegar muy por encima de su humilde posición. Con ese fin, se aventuró mucho más allá del dominio de su pueblo. Durante años buscó tutores y enemigos de los que aprender. Durante años reunió obsesivamente folklore y fragmentos de información que podrían llevarlo a elementos de poder. Después de todo, Teleria es una tierra llena de magia antigua, donde las maravillas y los artefactos antiguos existen al alcance de aquellos que son lo suficientemente valientes como para llegar. Finalmente, el destino le sonrió a Ovelis y un mapa llegó a su posesión. Detallaba la ubicación de la tumba de Mairenn, un legendario asesino, cuyos actos se remontan al Cisma que separó a la raza élfica, una vez unida. A través de la astucia, la arena y la determinación despiadada, Ovelis logró romper la basílica oculta y desafiar sus numerosas trampas. Los ‘aliados’ que lo acompañaban a esta aventura perecieron hasta el final, pero eso encajaba perfectamente con el futuro Visir. No necesitaba compartir la gloria de esa manera, ni tener un reclamante rival para las cimitarras de Mairenn que descansaban en su sarcófago en el corazón del complejo. Aunque la magia que se usó para forjar estas cuchillas era tan volátil como se decía que su difunta Ama había sido, seguían siendo igual de formidables. Cuando Ovelis regresó, lo hizo triunfante. Con habilidad experiencia y poderosas armas a su lado, forjó un camino sangriento a la altura de la sociedad de los Elfos Oscuros. Muchos aspirantes a rivales fueron encontrados muertos en sus propiedades aparentemente impenetrables, asesinados por veneno o por cuchilla. Existen pocos relatos de estas peleas, aunque un solo esclavo aterrorizado sostuvo que su amo fue asesinado por una sombra sin forma que se movió sin ser escuchada y se disipó en la nada cuando se hizo el acto. Ya sea que solo los delirios de un desventurado desgraciado o alguna poderosa magia conjurada por las cuchillas al cuidado de Ovelis se dejen en rumores y especulaciones.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/visir-ovelis.webp",
   "masteries": [],
   "artworks": [],

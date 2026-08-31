@@ -99,7 +99,7 @@
           "key_name": "veneno-2"
         },
         {
-          "key_name": "sensibilidad-al-veneno"
+          "key_name": "sensibilidad-al-veneno-2"
         }
       ],
       "description": "Ataca a todos los enemigos 2 veces. Cada golpe tiene un 75 % de probabilidad de aplicar dos debufos de [Veneno] al 5 % durante 2 turnos. Después de atacar, aplica un 25 % de [Sensibilidad al Veneno] en los enemigos con 2 o más debufos de [Veneno].",
@@ -120,7 +120,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/corvis-el-corruptor.webp",
   "masteries": [],
   "artworks": [],

@@ -6,9 +6,9 @@
   "role": "Nuker poderoso a 1 solo objetivo y con un básico muy potente, pero muy blandito y de solo 1 objetivo",
   "type": "Ataque",
   "affinity": "Vacío",
-  "youtube_link": "https://www.youtube.com/watch?v=nC7fU7VLhBw",
+  "youtube_link": "https://www.youtube.com/watch?v=ZxmkfiFPIc8",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "toque-fantasmal"
   ],
   "relics": [
@@ -24,13 +24,15 @@
   "gear": [
     "letal",
     "despiadado",
+    "piel-de-piedra",
+    "mercurial",
     "instinto",
     "dano-critico",
     "salvaje",
     "cruel",
     "golpe-mortal"
   ],
-  "uses": "Nuker de 1 solo objetivo. Puede ser usado en arenas o caballero de fuego, pero no es meta",
+  "uses": "Tras el segundo rebalanceo, puede ser divertida y una amezana en cualquier tipo de arenas, siendo capaz de bloquear revivir, y matar al revivir",
   "stats": {
     "hp": 18330,
     "speed": 99,
@@ -83,10 +85,13 @@
       "buffDebuff": [
         {
           "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "bloquear-revivir"
         }
       ],
       "multiplier": "6.9xATK",
-      "description": "Ataca a 1 enemigo. Tiene una probabilidad del 75% de aplicar un debufo del 25% [Debilitar] durante 2 turnos. Tiene un 75% de posibilidades de eliminar 2 bufos aleatorios del objetivo. Otorga un turno extra.",
+      "description": "Ataca a 1 enemigo. Antes de atacar tiene un 75% de posibilidades de eliminar todos los bufos del objetivo. Tiene un 75% de probabilidad de aplicar un debufo del 25% [Debilitar] durante 2 turnos. Ignora el 50% de la DEF.\n\n Si esta habilidad mata a un enemigo, aplica un debufo de [Bloquear Revivir]. Luego obtiene un turno adicional.",
       "book_priority": "Ninguna"
     },
     {
@@ -97,18 +102,18 @@
           "key_name": "revivir-al-morir"
         }
       ],
-      "description": "Aplica un bufo de [Revivir al morir] en este campeón durante 2 turnos al comienzo de cada ronda. Aplica un bufo de [Revivir al Morir] en este Campeón durante 1 turno cuando este Campeón mata a un enemigo. [No ocurre con las arañitas].",
+      "description": "Aplica un bufo protegido de [Revivir al morir] en este campeón durante 2 turnos al comienzo de cada ronda. Aplica un bufo protegido de [Revivir al Morir] en este Campeón durante 1 turno cuando este Campeón mata a un enemigo. [No ocurre con las arañitas].\n\n Si este campeón revive gracias a un bufo de [Revivir al Morir], obtiene el 100% de barra de turno y ataca con su habilidad base al enemigo con más barra de turno.",
       "book_priority": "Ninguna"
     }
   ],
   "aura": [
     {
       "type": "atk",
-      "description": "Aumenta el ATK de aliados en todas las batallas en un 24%"
+      "description": "Aumenta el ATK de aliados en todas las batallas en un 30%"
     }
   ],
   "lore": "Entre otros muchos títulos condenables, Cruetraxa es conocida como la Madre de las Espadas, la Reina de lo Infernal y la Evisceradora Invisible. Es una demonio primogénita y, si hay que creer en las historias, una de las confidentes más antiguas y cercanas de Siroth.\n\n Después de que Lumaya abandonara la Danza de la Oscuridad, Cruetraxa fue una de las primeras en instar a Siroth a tomar las armas y afirmar su superioridad. Entre algunos Primogénitos se afirma que ella intervino en los orígenes de la disputa primordial, aunque eso es falso. No está claro si se trata de una mentira difundida por los enemigos de Cruetraxa para socavar su posición y caracterizarla como una conspiradora traidora, o una mentira difundida por sus aliados para mostrar aún más su favor e influencia ante el gran Siroth; tal vez sean ambas cosas.\n\n Se dice que Cruetraxa entregó su vista para demostrar su lealtad a su dios, un sacrificio que la elevó a su elevada posición. Sin embargo, tal influencia tiene un costo menos obvio. La posición de Cruetraxa es observada por innumerables personas. A lo largo de los siglos, Cruetraxa ha dado un vuelco a su posición potencialmente precaria al presentarse como una matriarca demoníaca, una figura maternal y, a veces, una especie de consorte de Siroth, quien desde hace tiempo parece dispuesto a complacer las excentricidades de Primogénito de Cruetraxa a cambio de su compromiso fanático. Ella ha asumido el papel de consejera de muchos Demonios y Engendros Demoníacos menores: la veneran y buscan su consejo y favor, creyendo que con ello tendrán un vínculo más directo con el propio Siroth.\n\n Cruetraxa alienta esto, ofreciendo mucha sabiduría y ayuda a aquellos que anhelan su guía. Esos mismos Demonspawn se sienten en deuda con ella, pero es tal la sutileza y astucia de Cruetraxa en el juego de la política de Anathraad que muchos solo se dan cuenta de que se han convertido en sus peones cuando ya es demasiado tarde. Nunca se podrá demostrar cuánta influencia tiene realmente Cruetraxa con el Dios de las Sombras, pero, al caracterizarse como su favorita, ha ayudado a garantizar que su posición rara vez sea cuestionada, algo inusual en las peligrosas realidades de Anathraad.\n\n Aunque Cruetraxa ha trabajado con cuidado para desempeñar el papel de matriarca de los demonios, sus manifestaciones en Teleria son todo menos tiernas y maternales. Cuando la autoproclamada Reina de los Infernales marcha a la guerra, a menudo lo hace con un séquito de aduladores y cortesanos demoníacos. Esta devoción hacia ella se extiende incluso a otros devotos de Siroth, ya sean vampiros, nigromantes u otros, ya que el apoyo de la infame Madre de las Espadas es buscado por cualquier tipo de seguidores de Siroth. Muchos son los engendros demoníacos que sacrificarían los cuerpos que han robado para entrar en Teleria solo para asegurarse una audiencia única con ella.\n\n Cruetraxa ha deformado su cuerpo anfitrión hasta lograr una apariencia tan hermosa como letal, aunque siempre permanece ciega, con sus sentidos atentos a su entorno de otras formas antinaturales. Al igual que ocurre con el de muchos engendros demoníacos, el cuerpo esbelto que Cruetraxa ha reclamado contradice la fuerza antinatural que está a su disposición. Blandiendo su arma favorita, la espada de múltiples puntas conocida como Escupealmas, sus golpes tienen el poder de perforar las puertas del castillo y atravesar las corazas y los huesos de media docena de caballeros a la vez. Los zarcillos que adornan su cabeza, cada uno tan afilado y blindado como el resto de su forma, bailan y se entrelazan a su alrededor mientras lucha, a menudo tan peligrosos para sus aliados como para el enemigo, incluso el corte o rasguño más pequeño inflige un dolor terrible. Si fueran heridos por ellos, solo los engendros demoníacos más tontos se quejarían, pues es mejor estar en la presencia mortal de Cruetraxa y herido que ser expulsado de su vista antinatural y de su favor ileso.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/cruetraxa.webp",
   "masteries": [],
   "artworks": [],

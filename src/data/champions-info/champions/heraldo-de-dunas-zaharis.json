@@ -15,7 +15,7 @@
     "elixir_dorado",
     "diario_de_necrotos"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Apoyo en early-mid. No molesta pero tampoco es top",
   "stats": {
     "hp": 21480,
@@ -128,7 +128,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/heraldo-de-dunas-zaharis.webp",
   "masteries": [],
   "artworks": [],

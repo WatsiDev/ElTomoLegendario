@@ -7,13 +7,15 @@
   "type": "Apoyo",
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=xTWtqhSkrqg",
-  "blessings": ["polimorfar"],
+  "blessings": [
+    "polimorfia"
+  ],
   "relics": [
     "varita_de_sumision",
     "orbe_de_transfixion",
     "campana_fundida",
     "cronocubo",
-    "estrellas_jiinang",
+    "estrellas_jinang",
     "mascara_de_zozobra",
     "mente_de_marquat"
   ],
@@ -123,7 +125,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/armanz-el-magnifico.webp",
   "masteries": [],
   "artworks": [],

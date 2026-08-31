@@ -30,44 +30,78 @@
     {
       "name": "Fuerza de Lakon (HP)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Daño +15%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        }
       ],
       "multiplier": "0.23xHP",
-      "description": "Ataca a 1 enemigo.\n\n Destruye el 10% de MAX HP del objetivo. En lugar de lo anterior, destruye el 20% de MAX HP del objetivo si este tiene un debufo de [Incitar] (se acumula hasta el 50%).\n\n Llena un 20% la Barra de Turno de este campeón. En lugar de lo anterior, aumenta un 40% la Barra de Turno de este campeón si el enemigo tiene un debufo de [Incitar]."
+      "description": "Ataca a 1 enemigo.\n\n Destruye el 10% de MAX HP del objetivo. En lugar de lo anterior, destruye el 20% de MAX HP del objetivo si este tiene un debufo de [Incitar] (se acumula hasta el 50%).\n\n Llena un 20% la Barra de Turno de este campeón. En lugar de lo anterior, aumenta un 40% la Barra de Turno de este campeón si el enemigo tiene un debufo de [Incitar].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Por los Cuernos (HP)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Daño +15%",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
       "multiplier": "0.35xHP",
-      "description": "Ataca a 1 enemigo.\n\n Ignora 50% de DEF del objetivo y cualquier bufo de [Piel de Piedra] si este campeón tiene más MAX HP que el objetivo.\n\n Si el objetivo muere, activa inmediatamente la habilidad Confianza Ganada a Pulso. Si el objetivo sobrevive, cura a todos los aliados una cantidad igual a la diference entre los HP actuales del objetivo y su MAX HP."
+      "description": "Ataca a 1 enemigo.\n\n Ignora 50% de DEF del objetivo y cualquier bufo de [Piel de Piedra] si este campeón tiene más MAX HP que el objetivo.\n\n Si el objetivo muere, activa inmediatamente la habilidad Confianza Ganada a Pulso. Si el objetivo sobrevive, cura a todos los aliados una cantidad igual a la diference entre los HP actuales del objetivo y su MAX HP.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Confianza ganada a pulso (HP)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Probabilidad Bufo/Debufo +10%",
-        "Nivel 4: Daño +10%",
-        "Nivel 5: Probabilidad Bufo/Debufo +10%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Probabilidad Bufo/Debufo +10%"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "incitar",
-        "contraataque"
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "contraataque"
+        }
       ],
       "multiplier": "0.27xHP",
-      "description": "Ataca a todos los enemigos.\n\n Tiene un 80% de probabilidad de aplicar un debufo de [Incitar] a todos los enemigos durante 1 turno. Ignora un 50% de RES de objetivos con menos MAX HP que este campeón.\n\n Aplica un bufo de [Contraataque] a este campeón durante 2 turnos.\n\n Aplica un bufo de [Contraataque] a este campeón durante 2 turnos."
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 80% de probabilidad de aplicar un debufo de [Incitar] a todos los enemigos durante 1 turno. Ignora un 50% de RES de objetivos con menos MAX HP que este campeón.\n\n Aplica un bufo de [Contraataque] a este campeón durante 2 turnos.\n\n Aplica un bufo de [Contraataque] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "¿Eso es todo lo que tienes? (Pasiva)",
-      "description": "Los enemigos que tienen un debufo de [Incitar] hacen un 50% menos de daño. Los aliados hacen un 20% más de daño a enemigos que tienen un debufo de [Incitar]. Si hay varios campeones con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón."
+      "description": "Los enemigos que tienen un debufo de [Incitar] hacen un 50% menos de daño. Los aliados hacen un 20% más de daño a enemigos que tienen un debufo de [Incitar]. Si hay varios campeones con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -77,7 +111,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/knosson-el-toro-de-bronce.webp",
   "masteries": [],
   "artworks": [],

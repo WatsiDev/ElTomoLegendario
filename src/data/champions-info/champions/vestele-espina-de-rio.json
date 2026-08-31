@@ -42,50 +42,88 @@
     {
       "name": "Río Embravecido (ATK)",
       "levels": [
-        "Nivel 2: Daño +20%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        }
       ],
       "multiplier": "1.7xATK",
-      "description": "Ataca 2 veces a 1 enemigo. Antes de atacar, tiene un 50% de probabilidad de eliminar todos los bufos del objetivo. Si esta habilidad no se usa en el turno de este campeón, tiene el 100% de robar todos los bufos en lugar de lo anterior. Los objetivos que no tienen más ATK que este campeón no pueden resistir este efecto.\n\n Ignora un 5% de DEF por cada bufo que tenga este campeón."
+      "description": "Ataca 2 veces a 1 enemigo. Antes de atacar, tiene un 50% de probabilidad de eliminar todos los bufos del objetivo. Si esta habilidad no se usa en el turno de este campeón, tiene el 100% de robar todos los bufos en lugar de lo anterior. Los objetivos que no tienen más ATK que este campeón no pueden resistir este efecto.\n\n Ignora un 5% de DEF por cada bufo que tenga este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Fuerza Erosiva (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 5,
       "buffDebuff": [
-        "aumentar-atk-2",
-        "romper-1"
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "romper-1"
+        }
       ],
       "multiplier": "5.2xATK",
-      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] y un bufo de 15% de [Romper] a este campeón durante 2 turnos. Ignora bufos de [Bloquear Daño] y [Piel de Piedra].\n\n Obtén un turno adicional si este ataque mata a un enemigo. Si el objetivo sobrevive, llena un 30% la barra de turno de todos los aliados en lugar de lo anterior."
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] y un bufo de 15% de [Romper] a este campeón durante 2 turnos. Ignora bufos de [Bloquear Daño] y [Piel de Piedra].\n\n Obtén un turno adicional si este ataque mata a un enemigo. Si el objetivo sobrevive, llena un 30% la barra de turno de todos los aliados en lugar de lo anterior.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Inundación por Deshielo (ATK)",
       "levels": [
-        "Nivel 2: Daño +20%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +15%",
-        "Nivel 5: Tiempo de Reutilización -1",
-        "Nivel 6: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +20%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 6,
       "buffDebuff": [
-        "inmortal",
-        "contraataque",
-        "debilitar-2"
+        {
+          "key_name": "inmortal"
+        },
+        {
+          "key_name": "contraataque"
+        },
+        {
+          "key_name": "debilitar-2"
+        }
       ],
       "multiplier": "3xATK",
-      "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos. Los objetivos que no tienen más ATK que este campeón no pueden resistir este debufo. Ignora el 25% de DEF de cada objetivo."
+      "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 75% de probabilidad de aplicar un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos. Los objetivos que no tienen más ATK que este campeón no pueden resistir este debufo. Ignora el 25% de DEF de cada objetivo.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Estudiante de Glaicad (Pasiva)",
       "levels": [],
-      "description": "Tiene un 50% de probabilidad de hacer un 100% más de daño a los enemigos que no tienen más ATK que este campeón.\n\n Este campeón sufre un 30% menos de daño de los enemigos que no tienen más ATK que este campeón."
+      "description": "Tiene un 50% de probabilidad de hacer un 100% más de daño a los enemigos que no tienen más ATK que este campeón.\n\n Este campeón sufre un 30% menos de daño de los enemigos que no tienen más ATK que este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -95,7 +133,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/vestele-espina-de-rio.webp",
   "masteries": [],
   "artworks": [],

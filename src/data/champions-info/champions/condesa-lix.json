@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=DeAotGShKT8",
   "blessings": [
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "mirada_del_gato",
@@ -56,7 +56,11 @@
           "level_desc": "Nivel 5: Probabilidad de Bufo / Debufo +10%"
         }
       ],
-      "buffDebuff": [],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
       "multiplier": "1.6xATK",
       "description": "Ataca a 1 enemigo 2 veces. Tiene un 30% de probabilidad de aplicar un debufo del 25% [Debilitar] durante 2 turnos.",
       "book_priority": "Ninguna"
@@ -134,7 +138,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/condesa-lix.webp",
   "masteries": [],
   "artworks": [],

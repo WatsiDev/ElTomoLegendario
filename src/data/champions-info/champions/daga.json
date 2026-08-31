@@ -11,7 +11,7 @@
     "toque-fantasmal"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y oleadas hasta conseguir algo mejor.",
   "stats": {
     "hp": 12720,
@@ -116,7 +116,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/daga.webp",
   "masteries": [],
   "artworks": [],

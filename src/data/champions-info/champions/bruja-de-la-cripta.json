@@ -15,7 +15,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones como mucho pero es un poco relleno",
   "stats": {
     "hp": 14865,
@@ -108,7 +108,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/bruja-de-la-cripta.webp",
   "masteries": [],
   "artworks": [],

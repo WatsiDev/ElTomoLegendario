@@ -120,14 +120,14 @@
     {
       "name": "Emisario (Pasiva)",
       "levels": [],
-      "description": "Reduce el daño que infligen los enemigos bajo las debufos de [Veneno] (5 % menos por debufo de [Veneno], se acumula hasta un 25 %).",
+      "description": "Llena un 3% la barra de turno de este campeón cada vez que un aliado es atacado. Reduce un 25% el daño recibido si el atacante tiene menos ATK que este campeón.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/astralon.webp",
   "masteries": [],
   "artworks": [],

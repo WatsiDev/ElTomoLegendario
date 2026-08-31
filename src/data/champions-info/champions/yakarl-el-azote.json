@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [
     "toque-fantasmal",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "colmillo_asesino",
@@ -22,7 +22,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Buen control en oleadas, caballero de fuego dificil y Astranyx.",
   "stats": {
     "hp": 16350,
@@ -137,7 +137,7 @@
     }
   ],
   "lore": "Yakarl, un guerrero legendario de las Tierras de Invierno, llama la atención con su imponente presencia en el campo de batalla, luciendo una armadura de oro y escarcha. Antaño un temible asaltante, gobernó un próspero puerto de las Tierras de Invierno durante los últimos días de la Edad Gris. Cuando estalló la guerra con Siroth, Yakarl decidió ignorar el llamado a la unidad, viendo el caos como una oportunidad para saquear las debilitadas colonias de Dragonkin y el Reino Élfico de Aravia. Sus incursiones le reportaron inmensas riquezas, pero la codicia y las luchas de poder pronto socavaron el reino que buscaba construir.\n\n Mientras Yakarl estaba ausente, los jarls que dejó a cargo se entregaron a la riqueza y a planes políticos, dividiendo la tierra. A su regreso, Yakarl encontró un reino fracturado, con facciones rivales que amenazaban con desmantelar su reino duramente ganado. A pesar de su destreza en la guerra, Yakarl demostró ser un líder pobre en tiempos de paz, incapaz de sofocar el malestar entre su pueblo. La guerra civil se avecinaba mientras luchaba por unir a los jarls en disputa, lo que lo obligó a enfrentar la realidad de que su sueño de un reino fuerte y unificado se estaba desvaneciendo.\n\n En busca de una solución, Yakarl recurrió a sus sabios, quienes le hablaron de una poderosa fuerza oculta en el corazón de las Tierras de Invierno. Creyendo que esta era su última oportunidad, Yakarl emprendió un arduo viaje con la esperanza de reclamar la fuerza de los propios dioses. En el camino, sus hombres perecieron uno a uno, sucumbiendo a los peligros del paisaje helado. Solo y exhausto, Yakarl finalmente llegó a un estanque místico de agua cristalina, donde se encontró con una misteriosa figura de pie junto a su borde.\n\n Esta figura era el Inquisidor, aunque Yakarl no la reconoció. Al confundirla con un enemigo, la desafió a un combate singular, pero a pesar de su gran fuerza, Yakarl fue derrotado fácilmente. Con el espíritu destrozado, rogó por una muerte rápida, solo para descubrir la verdadera identidad de su oponente. El Inquisidor reveló el fracaso de Yakarl en proteger a Teleria durante la Primera Gran Guerra, acusándolo de egoísmo y cobardía por explotar el caos en lugar de luchar contra las fuerzas de Siroth.\n\n Ante esta verdad, Yakarl tuvo que elegir entre morir por sus pecados o redimirse sirviendo al Inquisidor por la eternidad. Avergonzado y humillado, le juró lealtad, decidido a expiar los errores de su pasado y luchar por el futuro de Teleria.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/yakarl-el-azote.webp",
   "masteries": [],
   "artworks": [],

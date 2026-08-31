@@ -11,7 +11,7 @@
     "toque-fantasmal"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Facciones como debufer a falta de algo mejor.",
   "stats": {
     "hp": 12810,
@@ -108,7 +108,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/carnicero.webp",
   "masteries": [],
   "artworks": [],

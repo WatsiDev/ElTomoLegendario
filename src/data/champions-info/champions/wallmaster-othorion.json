@@ -126,9 +126,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/wallmaster-othorion.webp",
   "masteries": [],
   "artworks": [],

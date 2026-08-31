@@ -8,7 +8,7 @@
   "affinity": "Fuerza",
   "youtube_link": null,
   "blessings": [
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "mirada_del_gato",
@@ -17,7 +17,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones y oleadas pero ni pega demasiado ni sus sinergias son las más útiles. ",
   "stats": {
     "hp": 14700,
@@ -114,7 +114,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/bystophus.webp",
   "masteries": [],
   "artworks": [],

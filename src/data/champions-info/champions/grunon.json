@@ -13,7 +13,7 @@
   "relics": [
     "dedo_real"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Ninguno, muy malo. Como mucho en early contra el torreón de pociones verde",
   "stats": {
     "hp": 19485,
@@ -110,7 +110,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/grunon.webp",
   "masteries": [],
   "artworks": [],

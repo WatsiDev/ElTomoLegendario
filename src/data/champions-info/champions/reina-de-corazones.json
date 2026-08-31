@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=CcjBuq8PJvw",
   "blessings": [
     "crueldad",
-    "polimorfar"
+    "polimorfia"
   ],
   "relics": [
     "campana_fundida",
@@ -119,7 +119,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/reina-de-corazones.webp",
   "masteries": [],
   "artworks": [],

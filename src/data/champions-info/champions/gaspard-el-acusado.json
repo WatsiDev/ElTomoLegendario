@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=2AEUFklyx-w",
   "blessings": [
     "ira-de-la-naturaleza",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
@@ -18,6 +18,7 @@
     "malleos_de_fuego",
     "corona_de_ireth",
     "invocatormentas",
+    "ancla_sempiterna",
     "bomba_de_terror",
     "sombra_encaramada",
     "lente_intangible"
@@ -144,7 +145,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/gaspard-el-acusado.webp",
   "masteries": [],
   "artworks": [],

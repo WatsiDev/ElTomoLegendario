@@ -17,7 +17,7 @@
     "lente_intangible",
     "caldero_acaparador"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Debufer en early, facciones y salas secretas",
   "stats": {
     "hp": 14700,
@@ -113,7 +113,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/doncella-de-guerra.webp",
   "masteries": [],
   "artworks": [],

@@ -8,7 +8,7 @@
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=V9Ifgcd-xN8",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "ira-de-la-naturaleza"
   ],
   "relics": [
@@ -18,7 +18,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Nuker / debufer para Hydra y oleadas en early/mid",
   "stats": {
     "hp": 15360,
@@ -117,7 +117,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/maranix.webp",
   "masteries": [],
   "artworks": [],

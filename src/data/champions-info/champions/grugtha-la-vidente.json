@@ -41,43 +41,73 @@
     {
       "name": "Si las Miradas Matasen (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        }
       ],
-      "multiplier": "?xATK",
-      "description": "Ataca a todos los enemigos. Ataca 1 vez más a los objetivos que no tienen más ATK que este campeón."
+      "multiplier": "3.2xATK",
+      "description": "Ataca a todos los enemigos. Ataca 1 vez más a los objetivos que no tienen más ATK que este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Preferida de Siroth (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
-      "multiplier": "?xATK",
-      "description": "Ataca a todos los enemigos. Antes de atacar, iguala los HP de todos los enemigos. Los niveles de HP de todos los enemigos se establecen al nivel medio de HP del grupo enemigo.\n\n Ignora el 30% de DEF de cada ojetivo si la media de HP del grupo enemigo está por encima del 50%. Ataca 1 vez más si la media de HP del grupo es igual o inferior al 50%.\n\n +10% de ATK de este campeón por cada enemigo que mate esta habilidad."
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, iguala los HP de todos los enemigos. Los niveles de HP de todos los enemigos se establecen al nivel medio de HP del grupo enemigo.\n\n Ignora el 30% de DEF de cada ojetivo si la media de HP del grupo enemigo está por encima del 50%. Ataca 1 vez más si la media de HP del grupo es igual o inferior al 50%.\n\n +10% de ATK de este campeón por cada enemigo que mate esta habilidad.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Alabarda Sangrienta (ATK)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Daño +10%",
-        "Nivel 4: Tiempo de Reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de Reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "aumentar-d-crit-2",
-        "romper-2"
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "romper-2"
+        }
       ],
-      "description": "Ataca 2 veces a todos los enemigos. Antes de atacar, aplica un bufo de 30% de [Aumentar D.Crit] y un bufo de 15% de [Romper] a este campeón durante 2 turnos.\n\n El primer ataque reduce un 10% DEF de cada objetivo (se acumula hasta el 30%). El segundo ataque, destruye el 10% de MAX HP de cada objetivo (se acumula hasta el 60%).\n\n Obtén un turno adicional si este ataque mata a un enemigo."
+      "multiplier": "2.4xATK",
+      "description": "Ataca 2 veces a todos los enemigos. Antes de atacar, aplica un bufo de 30% de [Aumentar D.Crit] y un bufo de 15% de [Romper] a este campeón durante 2 turnos.\n\n El primer ataque reduce un 10% DEF de cada objetivo (se acumula hasta el 30%). El segundo ataque, destruye el 10% de MAX HP de cada objetivo (se acumula hasta el 60%).\n\n Obtén un turno adicional si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
     },
     {
       "name": "Amante de la Matanza (Pasiva)",
       "buffDebuff": [
-        "escudo-habilidad"
+        {
+          "key_name": "escudo-habilidad"
+        }
       ],
-      "description": "Cuando este campeón hace un crítico, se cura el 5% de su MAX HP. Si este campeón está al máximo de HP, en lugar de lo anterior cada crítico llena un 5% su barra de turno.\n\n Si sobra algo de curación de esta habilidad, aplica un bufo de [Escudo] a este campeón durante 2 turnos de la curación sobrante. La magnitud del [Escudo] no puede superar el 30% de MAX HP de este campeón. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón."
+      "description": "Cuando este campeón hace un crítico, se cura el 5% de su MAX HP. Si este campeón está al máximo de HP, en lugar de lo anterior cada crítico llena un 5% su barra de turno.\n\n Si sobra algo de curación de esta habilidad, aplica un bufo de [Escudo] a este campeón durante 2 turnos de la curación sobrante. La magnitud del [Escudo] no puede superar el 30% de MAX HP de este campeón. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.",
+      "levels": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -86,8 +116,8 @@
       "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
     }
   ],
-  "lore": null,
-  "forms": null,
+  "lore": "«Grugtha la Vidente Oscura y sus Devoradores de Penumbra de Stormwind eran infames fanáticos de Siroth. Las historias de sus guerreros, cegados deliberadamente con alquitrán hirviendo y aun así capaces de combatir con una habilidad sobrenatural, eran conocidas por todas partes durante la Segunda Gran Guerra. Incluso hoy, décadas después, los ogryn de todo el mundo utilizan el término “devorador de penumbra” como sinónimo de traidor, fanático o lunático.\\n\\n\n\nConozco su maldad de primera mano. Fui capturado por aquellos brutos durante la fallida campaña del general Mayal Aalwaen en los Yermos, en el apogeo del conflicto. Me llevaron junto a otros dos prisioneros, un enano y un orco, hasta la entrada de una enorme gruta, donde descendimos a una oscuridad absoluta. Sin embargo, mientras bajábamos, lancé discretamente un hechizo de visión en la oscuridad para conservar la calma y planear una posible huida.\\n\\n\n\nLlegamos a una inmensa caverna donde nos aguardaba un caldero de brea que hervía de calor, pese a que no había rastro alguno del fuego que debía alimentarlo. La poderosa matriarca de su clan, a quien mis guardianes llamaban Grugtha, comenzó el ritual. Invocó el pacto que habían sellado: se habían cegado a sí mismos con sus notorios tapones oculares de alquitrán hirviendo, soportando el dolor abrasador y la pérdida de la vista para poder “vivir en una oscuridad más profunda” y “aferrarse a Siroth”.\\n\\n\n\nA cambio, Siroth les había concedido a todos una “visión de sombras”, que deduje era una combinación de afinidad mágica y el agudizamiento de los sentidos restantes. Los detalles exactos de cómo cultivaban aquella percepción sin vista se me escapaban. Grugtha continuó su arenga, explicando a sus fieles que habían rechazado “las mentiras de la luz, los engaños de los ojos”. Según ella, solo en la Sombra podían encontrarse las verdaderas verdades del mundo.\\n\\n\n\nEntonces, para mi horror, se apoderaron primero del orco y después del enano. Mi mente corría desesperadamente de un plan a otro para salvar a aquellos pobres desgraciados y a mí mismo. Cada idea parecía más improbable y peligrosa que la anterior. Uno o dos hechizos podrían aturdir o inmovilizar a uno o dos ogryn, pero no a toda la multitud; además, Grugtha, que parecía una especie de chamana, quizá fuera capaz de disipar mi magia. Mi humilde cuchillo me había sido arrebatado y, aunque hubiera conseguido armarme de algún modo, sabía que no tendría ninguna posibilidad contra tantos brutos gigantescos.\\n\\n\n\nLo único que pude hacer fue lanzar un sutil hechizo de sopor sobre mis compañeros cautivos, para que murieran sin conciencia del miedo ni del dolor. Impotente, y capaz de contemplar su destino en la oscuridad, observé cómo los ejecutaban sumergiéndolos de cabeza en el hirviente caldero de alquitrán ritual de los Devoradores de Penumbra; la misma sustancia, supongo, que Grugtha y sus ogryn utilizaban para cegarse a sí mismos. Rezo para que no despertaran de mi hechizo antes de morir, pues sin duda habría sido la agonía más diabólica imaginable.\\n\\n\n\nDespués de que cada uno expirara, sus cuerpos fueron arrojados a las masas enfervorizadas de seguidores ogryn de Grugtha, que despedazaron y devoraron los cadáveres, dejando únicamente la cabeza cubierta de alquitrán como trofeo. Mientras los Devoradores de Penumbra celebraban sus sacrificios, comprendí que aquella era mi mejor oportunidad para escapar sin ser detectado. Liberé mis ataduras con un simple truco mágico y, confiando en mi visión sobrenatural, me deslicé de regreso por el mismo camino por el que habíamos venido.\\n\\n\n\nNunca he contemplado una escena tan depravada, ni a un adorador de la Oscuridad más terrible que la horrenda Grugtha la Vidente Oscura. Las pesadillas que reviven aquella experiencia me atormentan con frecuencia, y no puedo soportar viajar por mar ni visitar los muelles, pues el olor del alquitrán de los marineros me llena de náusea y terror.»\\n\\n\n\n— Extracto de Las Memorias de Parvical Lowes, mago erudito y explorador, recientemente de Delanos.",
+  "forms": [],
   "image": "/src/assets/champions/grugtha-la-vidente.webp",
   "masteries": [],
   "artworks": [],

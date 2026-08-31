@@ -8,12 +8,12 @@
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=_7QV3f4Eoto",
   "blessings": [
-    "rompe-cadenas"
+    "romper-cadenas"
   ],
   "relics": [
     "el_triturador"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Pocos. Facciones como mucho.",
   "stats": {
     "hp": 20640,
@@ -109,9 +109,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/signy-granescudo.webp",
   "masteries": [],
   "artworks": [],

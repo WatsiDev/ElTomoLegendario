@@ -69,7 +69,7 @@
           ],
           "cooldown": 3,
           "multiplier": "3.8xATK",
-          "description": "Ataca a todos los enemigos. Reduce la duración de todos los bufos de los enemigos y de todos los debufos de los aliados en 1 turno. Luego, aumenta la duración de todos los debufos enemigos y reduce los de todos los aliados en 1 turno."
+          "description": "Ataca a todos los enemigos. Reduce la 1 turno la duración de todos los bufos de los enemigos y de todos los debufos de los aliados.\n\n Luego aumenta 1 turno la duración de todos los debufos de los enemigos y todos los bufos de los aliados."
         },
         {
           "name": "Decreto Imperial",

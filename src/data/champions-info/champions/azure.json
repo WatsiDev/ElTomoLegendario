@@ -11,7 +11,7 @@
     "cura-de-urgencia"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "No es demasiado bueno",
   "stats": {
     "hp": 19320,
@@ -110,7 +110,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/azure.webp",
   "masteries": [],
   "artworks": [],

@@ -15,7 +15,7 @@
     "rocadragon_dorada",
     "campana_fundida"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Puede solear Bommal, fuera de eso no se usa.",
   "stats": {
     "hp": 22965,
@@ -114,7 +114,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/raf-matab.webp",
   "masteries": [],
   "artworks": [],

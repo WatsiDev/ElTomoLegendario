@@ -3,7 +3,7 @@
   "name": "Sombrerero Loco",
   "faction": "Aparecidos",
   "rarity": "Legendario",
-  "role": "Buen debufer capaz de curar, controlar y dar barra de turno",
+  "role": "Buen debufer capaz de curar, aplicar bufos debufos y dar barra de turno así como limpiar debufos y aumentar duración de los mismos",
   "type": "Apoyo",
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=NayW1pnTwM8",
@@ -13,7 +13,7 @@
   "relics": [
     "diario_de_necrotos"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Bastante bueno en muchos sitios y Jefes ya que aporta cosas interesantes: Hydra muy bueno, oleadas, Torre del Destino, facciones, etc...",
   "stats": {
     "hp": 23295,
@@ -113,7 +113,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/sombrerero-loco.webp",
   "masteries": [],
   "artworks": [],

@@ -11,7 +11,7 @@
     "toque-fantasmal"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": null,
   "stats": {
     "hp": 18495,
@@ -101,7 +101,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/renegada.webp",
   "masteries": [],
   "artworks": [],

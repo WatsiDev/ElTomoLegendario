@@ -11,7 +11,7 @@
     "crueldad"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Tras el rework, decente en PvE y facciones. En arena no se ve mucho pero puede ser divertido a falta de algo mejor",
   "stats": {
     "hp": 19650,
@@ -102,7 +102,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/gamuran.webp",
   "masteries": [],
   "artworks": [],

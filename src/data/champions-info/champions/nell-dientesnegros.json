@@ -1,6 +1,6 @@
 {
   "slug": "nell-dientesnegros",
-  "name": "Nell Dientesnegros",
+  "name": "Nell Dientes Negros",
   "faction": "Vigías Silvanos",
   "rarity": "Mítico",
   "role": "Debufer y Nuker capaz de mucho daño rápido y sinergia con venenos",
@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": "https://www.youtube.com/watch?v=BIP3XdyjJLI",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "ira-de-la-naturaleza"
   ],
   "relics": [
@@ -21,7 +21,8 @@
     "luna_de_sangre",
     "invocatormentas",
     "elixir_aracnido",
-    "lente_intangible"
+    "lente_intangible",
+    "ancla_sempiterna"
   ],
   "gear": [
     "letal",
@@ -29,9 +30,11 @@
     "instinto",
     "despiadado",
     "cruel",
-    "percepcion"
+    "percepcion",
+    "mercurial",
+    "piel-de-piedra"
   ],
-  "uses": "Va muy bien en muchos sitios: se usa en arenas, oleadas, jefes...",
+  "uses": "Va muy bien en muchos sitios: se usa en arenas, oleadas, jefes...En arenas se ve mucho por tener una sinergia muy similar a Kalvalax al aplicar venenos con la reliquia de de Elixir Aránico",
   "stats": null,
   "skills": [],
   "aura": [

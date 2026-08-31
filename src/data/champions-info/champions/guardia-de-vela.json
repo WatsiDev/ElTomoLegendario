@@ -14,9 +14,7 @@
     ""
   ],
   "gear": [
-    {
-      "set_name": ""
-    }
+    ""
   ],
   "uses": "Casi ninguno",
   "stats": {
@@ -107,9 +105,9 @@
       "book_priority": "Ninguna"
     }
   ],
-  "aura": null,
+  "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/guardia-de-vela.webp",
   "masteries": [],
   "artworks": [],

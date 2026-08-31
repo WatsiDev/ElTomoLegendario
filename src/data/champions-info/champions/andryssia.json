@@ -17,7 +17,6 @@
   "gear": [
     "defensa",
     "resiliencia",
-    "redirigir",
     "inmortal",
     "percepcion",
     "punteria"
@@ -132,7 +131,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/andryssia.webp",
   "masteries": [],
   "artworks": [],

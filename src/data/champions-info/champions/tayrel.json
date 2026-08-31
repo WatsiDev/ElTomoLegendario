@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": null,
   "blessings": [
-    "rompe-cadenas",
+    "romper-cadenas",
     "presencia-dominante"
   ],
   "relics": [
@@ -19,7 +19,6 @@
     "ferreo",
     "resiliencia",
     "defensa",
-    "redirigir",
     "percepcion",
     "punteria"
   ],
@@ -120,7 +119,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/tayrel.webp",
   "masteries": [],
   "artworks": [],

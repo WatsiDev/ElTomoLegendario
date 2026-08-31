@@ -13,7 +13,7 @@
   "relics": [
     "mascara_de_ira"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Muy malo, no se usa.",
   "stats": {
     "hp": 18000,
@@ -129,7 +129,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/cromax-moonblood.webp",
   "masteries": [],
   "artworks": [],

@@ -9,7 +9,7 @@
   "youtube_link": null,
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "garra_malefica",
@@ -19,7 +19,7 @@
     "invocatormentas",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones, oleadas y arenas en early. No lo hace mal, pero no entra en el meta y está limitada",
   "stats": {
     "hp": 18165,
@@ -101,7 +101,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/morag-bronzelock.webp",
   "masteries": [],
   "artworks": [],

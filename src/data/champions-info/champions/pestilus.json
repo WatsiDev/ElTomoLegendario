@@ -9,13 +9,13 @@
   "youtube_link": null,
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "orbe_de_transfixion",
     "sombra_encaramada"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones fácil, pero bastante mediocre",
   "stats": {
     "hp": 20145,
@@ -124,7 +124,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/pestilus.webp",
   "masteries": [],
   "artworks": [],

@@ -8,7 +8,7 @@
   "affinity": "Vacío",
   "youtube_link": null,
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "crueldad"
   ],
   "relics": [
@@ -17,7 +17,7 @@
     "malleos_de_fuego",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Debufer y algo de daño en jefes en early y mazmorras",
   "stats": {
     "hp": 16680,
@@ -124,7 +124,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/rugnor-goldgleam.webp",
   "masteries": [],
   "artworks": [],

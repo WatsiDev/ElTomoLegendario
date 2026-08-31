@@ -1,13 +1,15 @@
 {
   "slug": "haggibah-la-incubatriz",
-  "name": "Haggibah-la-Incubatriz",
+  "name": "Haggibah la Incubatriz",
   "faction": "Elfos Oscuros",
   "rarity": "Legendario",
   "role": "Nuker de bombas que escalan por HP así como Quemar HP. ",
   "type": "HP",
   "affinity": "Fuerza",
-  "youtube_link": null,
-  "blessings": null,
+  "youtube_link": "https://www.youtube.com/watch?v=jh9xgaf6Iww",
+  "blessings": [
+    "vara-de-esporas"
+  ],
   "relics": [
     "vara_de_esporas"
   ],
@@ -18,57 +20,101 @@
     "punteria"
   ],
   "uses": "Decente en arenas contra Piel de Piedra así como oleadas",
-  "stats": null,
+  "stats": {
+    "hp": 23955,
+    "speed": 103,
+    "attack": 705,
+    "defense": 1277,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 20
+  },
   "skills": [
     {
-      "name": "Explosión de Purificación (HP)",
+      "name": "Descarga Purificante (HP)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        }
       ],
       "buffDebuff": [
-        "quemar-hp",
-        "velo-perfecto"
+        {
+          "key_name": "quemar-hp"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
       ],
-      "multiplier": "?xHP",
-      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Quemar HP] durante 2 turnos.\n\n Luego aplica un debufo de [Velo Perfecto] a este campeón durante 1 turno."
+      "multiplier": "0.25xHP",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Quemar HP] durante 2 turnos.\n\n Luego aplica un debufo de [Velo Perfecto] a este campeón durante 1 turno.",
+      "book_priority": "Ninguna"
     },
     {
-      "name": "Erupción Insidiosa (HP)",
+      "name": "Erupción Pérfida (HP)",
       "levels": [
-        "Nivel 2: Daño +10%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 4: Probabilidad de Bufo/Debufo +15%",
-        "Nivel 5: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "chupar-vida"
+        {
+          "key_name": "chupar-vida"
+        }
       ],
-      "multiplier": "?xHP",
-      "description": "Ataca a todos los enemigos.\n\n Detona instantéamente todos los debufos de [Bomba] y activa un tick de todos los debufos de [Quemar HP] a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Chupar Vida] durante 2 turnos."
+      "multiplier": "0.28xHP",
+      "description": "Ataca a todos los enemigos.\n\n Detona instantéamente todos los debufos de [Bomba] y activa un tick de todos los debufos de [Quemar HP] a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Chupar Vida] durante 2 turnos.",
+      "book_priority": "Ninguna"
     },
     {
-      "name": "Consumo de Larvas (HP)",
+      "name": "Ingesta de Larvas (HP)",
       "levels": [
-        "Nivel 2: Probabilidad de Bufo/Debufo +10%",
-        "Nivel 3: Probabilidad de Bufo/Debufo +15%",
-        "Nivel 4: Tiempo de reutilización -1"
+        {
+          "level_desc": "Nivel 2: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
       ],
       "cooldown": 4,
       "buffDebuff": [
-        "bomba"
+        {
+          "key_name": "bomba"
+        }
       ],
-      "multiplier": "?xHP",
-      "description": "Roba todos los bufos de todos los enemigos.\n\n Luego tiene un 75% de probabilidad de aplicar dos debufos de [Bomba] a todos los enemigos que detonarán a los 2 turnos. Aplicará los debufos de [Bomba] que detonarán en 1 turno contra enemigos que no tengan ningún bufo."
+      "multiplier": "0.32xHP",
+      "description": "Roba todos los bufos de todos los enemigos.\n\n Luego tiene un 75% de probabilidad de aplicar dos debufos de [Bomba] a todos los enemigos que detonarán a los 2 turnos. Aplicará los debufos de [Bomba] que detonarán en 1 turno contra enemigos que no tengan ningún bufo.",
+      "book_priority": "Ninguna"
     },
     {
-      "name": "Recipiente del Señor de los Insecto (Pasiva)",
+      "name": "Receptáculo del Señor Insecto (Pasiva)",
       "buffDebuff": [
-        "bomba"
+        {
+          "key_name": "bomba"
+        }
       ],
-      "description": "Este campeón es inmune a debufos de [Quemar HP] y [Bomba], y no recibirá ningún daño de debufos de [Quemar HP].\n\n Siempre que es un enemigo intente aplicar un debufo de [Aturdir], [Congelar], [Dormir], [Provocar], [Miedo], [Miedo de Verdad] o [Petrificación] a este campeón o aumentar el tiempo de reutilización de sus habilidades, aplica un debufo de [Bomba] a ese enemigo que detona tras 1 turno. Estos debufos ignorarán cualqueir bufo de [Bloquear Debufos]."
+      "description": "Este campeón es inmune a debufos de [Quemar HP] y [Bomba] y no recibe ningún daño de debufos de [Quemar HP].\n\n Cuando un enemigo intente aplicar un debufo de [Aturdir], [Congelar], [Dormir], [Provocar], [Miedo], [Miedo de Verdad] o [Petrificación] a este campeón o aumentar el tiempo de reutilización de sus habilidades, aplica a dicho enemigo un debufo de [Bomba] que explota en 1 turno. Estos debufos ignoran bufos de [Bloquear Debufos].",
+      "levels": [],
+      "book_priority": "Ninguna"
     }
   ],
   "aura": [
@@ -78,7 +124,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/haggibah-la-incubatriz.webp",
   "masteries": [],
   "artworks": [],

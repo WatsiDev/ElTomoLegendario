@@ -1,12 +1,12 @@
 {
   "relics": [
     "campana_fundida",
-    "repartemuerte",
-    "mente_de_marquat",
-    "estrellas_jiinang",
     "varita_de_sumision",
     "orbe_de_transfixion",
-    "mascara_de_zozobra"
+    "estrellas_jinang",
+    "mascara_de_zozobra",
+    "repartemuerte",
+    "mente_de_marquat"
   ],
   "skills": [
     {
@@ -21,12 +21,8 @@
       ],
       "multiplier": "?xATK",
       "description": "Ataca a 1 enemigo 2 veces. Cada golpe roba un 10% de la barra de turno del enemigo. Aplica un debufo de [Miedo de Verdad] durante 2 turnos si la bara de turno del enemigo se reduce completamente. ",
-      "buffDebuff": [
-        {
-          "key_name": "miedo-de-verdad"
-        }
-      ],
-      "book_priority": "Baja"
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
     },
     {
       "name": "Invitado Indeseado (ATK)",
@@ -55,7 +51,7 @@
       ],
       "multiplier": "?xATK",
       "description": "Ataca 1 enemigo. Aplica un bufo de [Petrificación] durante 1 turno. Tiene un 75% de aplicar un debufo de [Miedo de Verdad] durante 2 turnos en todos los otros enemigos que no estén bajo un debufo de [Miedo] y [Miedo de Verdad]. \n\nEfecto Pasivo:\n\n Activa esta habilidad siempre que un enemigo bajo un debufo de [Miedo] o [Miedo de Verdad] utiliza una habilidad. Si hay multiples campeones con esta habilidad, solo una se activa.",
-      "book_priority": "Alta"
+      "book_priority": "Ninguna"
     },
     {
       "name": "Florecimiento Espectral (ATK)",
@@ -77,12 +73,25 @@
       "multiplier": "?xATK",
       "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 75% de reducir la duración de todos los bufos de los enemigos en 3 turnos.\n\n Tiene un 75% de probabilidad de aumentar el tiempo de reutilización de todas las habilidades de los enemigos en 3 turnos. Otorga un turno adicional si no hay bufos en el equipo enemigo tras este ataque.",
       "buffDebuff": [],
-      "book_priority": "Alta"
+      "book_priority": "Ninguna"
     },
     {
       "name": "El Fantasma Numero 1 (Pasiva) ",
-      "levels": [],
-      "cooldown": 0,
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Probabilidad de Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Probabilidad de Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
       "buffDebuff": [
         {
           "key_name": "miedo-de-verdad"
@@ -117,20 +126,18 @@
   "name": "Lord Entretenedor Fabian",
   "slug": "lord-entretenedor-fabian",
   "blessings": [
-    "polimorfar",
-    "cosechar-vida",
-    "presencia-amenazante"
+    "polimorfia",
+    "cosechar-vida"
   ],
   "uses": "Controlador top en arenas y oleadas.",
-  "forms": null,
+  "forms": [],
   "gear": [
     "exactitud",
     "bestial",
     "percepcion",
     "velocidad",
     "velocidad-divina",
-    "cronofago",
-    "mercurial"
+    "cronofago"
   ],
   "contras": [],
   "masteries": [

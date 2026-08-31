@@ -9,12 +9,12 @@
   "youtube_link": null,
   "blessings": [
     "crueldad",
-    "desgarro-aplastante"
+    "Desgarro-Aplastante-6"
   ],
   "relics": [
     "mascara_de_ira"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Control de oleadas en early y facciones como mucho",
   "stats": {
     "hp": 21810,
@@ -94,7 +94,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/bergoth-el-malformado.webp",
   "masteries": [],
   "artworks": [],

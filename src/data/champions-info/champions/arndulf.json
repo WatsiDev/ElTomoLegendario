@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": null,
   "blessings": [
-    "llegado-del-cielo",
+    "caido-del-cielo",
     "crueldad"
   ],
   "relics": [
@@ -16,7 +16,7 @@
     "campana_fundida",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Facciones, pero algo mediocre.",
   "stats": {
     "hp": 17670,
@@ -111,7 +111,7 @@
   ],
   "aura": [],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/arndulf.webp",
   "masteries": [],
   "artworks": [],

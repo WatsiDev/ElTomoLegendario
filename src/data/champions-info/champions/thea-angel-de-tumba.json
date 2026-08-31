@@ -8,7 +8,7 @@
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=DDQEPvCs3bo",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "toque-fantasmal"
   ],
   "relics": [
@@ -17,7 +17,7 @@
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Bastante inútil, no se usa",
   "stats": {
     "hp": 16020,
@@ -102,7 +102,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/thea-angel-de-tumba.webp",
   "masteries": [],
   "artworks": [],

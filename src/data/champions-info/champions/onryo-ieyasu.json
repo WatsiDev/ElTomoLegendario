@@ -9,7 +9,7 @@
   "youtube_link": "https://www.youtube.com/watch?v=OLJL5PDhgqo",
   "blessings": [
     "toque-fantasmal",
-    "llegado-del-cielo"
+    "caido-del-cielo"
   ],
   "relics": [
     "colmillo_asesino",
@@ -118,7 +118,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/onryo-ieyasu.webp",
   "masteries": [],
   "artworks": [],

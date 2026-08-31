@@ -19,6 +19,7 @@
     "diario_de_necrotos",
     "campana_fundida",
     "codice_luminis",
+    "ancla_sempiterna",
     "tiempo_de_sangre"
   ],
   "gear": [
@@ -130,7 +131,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/morrigaine.webp",
   "masteries": [],
   "artworks": [],

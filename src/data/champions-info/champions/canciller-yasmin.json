@@ -8,14 +8,14 @@
   "affinity": "Fuerza",
   "youtube_link": null,
   "blessings": [
-    "rompe-cadenas",
+    "romper-cadenas",
     "presencia-dominante"
   ],
   "relics": [
     "diario_de_necrotos",
     "campana_fundida"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Control y curaciones. Facciones y early.",
   "stats": {
     "hp": 16680,
@@ -103,7 +103,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/canciller-yasmin.webp",
   "masteries": [],
   "artworks": [],

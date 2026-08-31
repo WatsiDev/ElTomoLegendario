@@ -8,14 +8,14 @@
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=NEZEm68vgsQ",
   "blessings": [
-    "desgarro-aplastante",
+    "desgarro-aplastante-6",
     "toque-fantasmal"
   ],
   "relics": [
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Poco o ninguno, no es muy buena",
   "stats": {
     "hp": 15690,
@@ -114,7 +114,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/siendra-guardaluz.webp",
   "masteries": [],
   "artworks": [],

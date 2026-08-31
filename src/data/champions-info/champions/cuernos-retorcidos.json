@@ -11,7 +11,7 @@
     "sobrevivir"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Arboleda del Shogun y Facciones como controlador",
   "stats": {
     "hp": 17010,
@@ -90,7 +90,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/cuernos-retorcidos.webp",
   "masteries": [],
   "artworks": [],

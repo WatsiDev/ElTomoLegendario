@@ -11,7 +11,7 @@
     "sobrevivir"
   ],
   "relics": null,
-  "gear": [],
+  "gear": null,
   "uses": "Facciones como mucho a falta de otro revividor",
   "stats": {
     "hp": 16020,
@@ -109,7 +109,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/arbolescudo-knott.webp",
   "masteries": [],
   "artworks": [],

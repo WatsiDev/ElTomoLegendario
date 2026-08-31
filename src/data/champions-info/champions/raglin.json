@@ -19,6 +19,7 @@
     "crisalida_de_renacer",
     "arpa_de_kasbiel",
     "cronocubo",
+    "craneo_de_vida",
     "dedo_real",
     "corona_lugubre"
   ],
@@ -27,8 +28,6 @@
     "justiciero",
     "renacer",
     "piel-de-piedra",
-    "velocidad",
-    "velocidad-divina",
     "mercurial"
   ],
   "uses": "PvE principalmente en cualquier sitio. PvP quizá con algún set y setup específica",
@@ -119,7 +118,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/raglin.webp",
   "masteries": [],
   "artworks": [],

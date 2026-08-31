@@ -6,21 +6,29 @@
   "role": "En su forma base, es un buen healer tanque. En su segunda forma, un nuker de HP algo mediocre",
   "type": "Defensa / HP",
   "affinity": "Espíritu",
-  "youtube_link": "https://www.youtube.com/watch?v=rm0lHo5GGZs",
+  "youtube_link": "https://www.youtube.com/watch?v=RtdNr_Wn64Y",
   "blessings": [
-    "ira-de-la-naturaleza"
+    "ira-de-la-naturaleza",
+    "crueldad"
   ],
   "relics": [
+    "varita_de_sumision",
+    "sombra_encaramada",
+    "corona_de_ireth",
+    "lanza_de_trueno",
     "empunadura_sacra",
     "vial_del_sombrerero",
     "diario_de_necrotos"
   ],
   "gear": [
-    "inmortal",
+    "salvaje",
     "mercurial",
-    "piel-de-piedra"
+    "piel-de-piedra",
+    "bestial",
+    "exactitud",
+    "parada-rapida"
   ],
-  "uses": "Oleadas, hydra y prácticamente en cualquier sitio como healer. Como nuker en su segunda forma depende de sus multiplicadores, pero a priori hay mejores opciones ",
+  "uses": "Oleadas, hydra y prácticamente en cualquier sitio como healer. Principalmente contenido PvE",
   "stats": null,
   "skills": [],
   "aura": [
@@ -50,7 +58,7 @@
           "levels": [
             "Nivel 2: Daño +20%"
           ],
-          "multiplier": "?xDEF",
+          "multiplier": "4xDEF",
           "description": "Ataca a 1 enemigo.\n\n Cura a todos los aliados el 5% de su MAX HP. Cura a todos los aliados un 5% adicional de su MAX HP si este campeón ataca a un objetivo que tenga un debufo de [Chupar Vida]"
         },
         {
@@ -63,7 +71,7 @@
           "buffDebuff": [
             "escudo-habilidad"
           ],
-          "multiplier": "?xDEF",
+          "multiplier": "3.7xDEF",
           "description": "Ataca a todos los enemigos.\n\n Cura a todos los aliados el 15% del MAX HP de este campeón. El valor de la curación aumenta un 5% por cada [Chupar Vida] en el equipo enemigo.\n\n Si un campeón recibe curación y ya está a tope de HP, aplica un bufo de [Escudo] en ese campeón durante 2 turnos. El valor del [Escudo] es igual a la cantidad de curación sobrante recibida, hasta el 30% del MAX HP del campeón."
         },
         {
@@ -78,7 +86,7 @@
             "contraataque",
             "incitar"
           ],
-          "multiplier": "?xDEF",
+          "multiplier": "4xDEF",
           "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de [Chupar Vida] durante 2 turnos y un debufo de [Provocar] durante 1 turno a todos los enemigos.\n\n También aplica un bufo de [Contraataque] a este campeón durante 2 turnos."
         },
         {
@@ -114,34 +122,38 @@
       },
       "skills": [
         {
-          "name": "Espada del Destructor (HP)(PUNT)",
+          "name": "Axis de Espada (HP)",
           "levels": [
-            "Nivel 2: Daño +10%",
-            "Nivel 3: Daño +20%"
+            "Nivel 2: Daño +20%"
           ],
           "buffDebuff": [
-            "bloquear-revivir"
+            "bloquear-bufos"
           ],
-          "multiplier": "HPx(0.25+PUNT/1000",
-          "description": "Ataca a 1 enemigo. Hace un golpe adicional si el objetivo tiene acumulaciones de [Necrosis]. También aplica un debufo de [Bloquear Revivir] si este ataque mata a un enemigo."
+          "multiplier": "0.23xHP",
+          "description": "Ataca a 1 enemigo.\n\n Aplica un debufo de [Bloquear Bufos] durante 2 turnos. Este debufo no se puede resistir si el objetivo tiene menos HP que este campeón."
         },
         {
-          "name": "Atomizar (HP)(PUNT)",
+          "name": "Ejecución Frenética (HP)",
           "levels": [
             "Nivel 2: Daño +20%",
             "Nivel 3: Tiempo de Reutilización -1"
           ],
           "cooldown": 4,
-          "multiplier": "HPx(0.28+PUNT/1000",
-          "description": "Ataca a todos los enemigos. Inflige el doble de daño a los enemigos cuya PUNT sea inferior al de este campeón. Ignora el 50 % de la DEF de cada enemigo cuya PUNT sea igual o superior al de este campeón."
+          "multiplier": "0.3xHP",
+          "description": "Ataca a 1 enemigo.\n\n Ignora bufos de [Piel de Piedra]. Esta habilidad hace un 50% más de daño si el objetivo tiene menos HP que este campeón.\n\n Reinicia el tiempo de reutilización de esta habiliodad si el objetivo muere."
         },
         {
-          "name": "Tu vida está perdida!",
+          "name": "Separar Almas (HP)",
           "levels": [
-            "Nivel 2: Tiempo de Reutilización -1"
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
           ],
-          "cooldown": 5,
-          "description": "Intercambia HP con un enemigo. Si el objetivo es un jefe, restaura por completo eñ MAX HP destruido de este campeón y lo cura por completo en su lugar. Cada vez que se usa esta habilidad, aumenta el efecto Ignorar DEF de este campeón en un 10 % mientras está en su forma alternativa (se acumula hasta un 50 %). Luego, obtén un turno adicional."
+          "cooldown": 3,
+          "buffDebuff": [
+            "aumentar-d-crit-2"
+          ],
+          "multiplier": "0.28xHP",
+          "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de 30% de [Aumentar D.Crit] a todos los aliados durante 2 turnos.\n\n Roba el 50% de barra de turno del objetivo. Si el objetivo tiene menos HP que este campeón, roba el 100% de barra de turno en vez de 50%.\n\n Destruye MAX HP del objetivo (25% del daño hecho). Destruye MAX HP del objetivo si este tiene menos MAX HP que este campeón (50% del daño hecho)."
         },
         {
           "name": "Metamorfosis",
@@ -150,13 +162,9 @@
           "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
         },
         {
-          "name": "Degenerador (Pasiva)",
+          "name": "Nexo de Furia (Pasiva)",
           "levels": [],
-          "buffDebuff": [
-            "necrosis",
-            "revivir-al-morir"
-          ],
-          "description": "[Efecto pasivo] Al morir este campeón, refleja el 50% del daño del ataque letal de vuelta al atacante, incluido todo el daño sobrante. Cada vez que un enemigo muere, aplica una acumulación de [Necrosis] sobre todos los demás enemigos. Las acumulaciones de [Necrosis] no se pueden resistir ni bloquear. Las acumulaciones de [Necrosis] solo se pueden eliminar reviviendo a los aliados muertos. Este efecto no se aplica contra jefes y sus esbirros. Si hay varios campeones en el equipo con esta habilidad, solo se activará uno.\n\n [Efecto activo] Si este campeón está a punto de morir por un ataque letal, se anticipa a ese golpe y aplica instantáneamente un bufo de [Revivir al morir] sobre él durante 1 turno antes de que reciba el daño."
+          "description": "Ignora el 15% de DEF del objetivo si tiene menos HP que este campeón. También ignora el 15% de DEF si el objetivo tiene un debufo de [Chupar Sangre].\n\n Cada tercera habilidad que usa este campeón ataca a todosl os enemigos en lugar de uno.\n\n Este campeón se una a cada tercera habilidad de ataque que usen los aliados. Este campeón usa su habilidad base al unirse a dicha habilidad."
         }
       ]
     }

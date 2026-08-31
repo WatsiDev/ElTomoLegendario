@@ -14,7 +14,7 @@
   "relics": [
     "agarre_de_valkanen"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Setups inmortales, poco más.",
   "stats": {
     "hp": 21975,
@@ -115,7 +115,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/alsgor-crimsonhorn.webp",
   "masteries": [],
   "artworks": [],

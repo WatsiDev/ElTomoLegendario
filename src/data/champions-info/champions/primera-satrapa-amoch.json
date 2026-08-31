@@ -8,7 +8,7 @@
   "affinity": "Magia",
   "youtube_link": null,
   "blessings": [
-    "polimorfar",
+    "polimorfia",
     "cadenas-temporales"
   ],
   "relics": [
@@ -17,7 +17,8 @@
     "diario_de_necrotos",
     "elixir_dorado",
     "infernosfera",
-    "el_triturador"
+    "el_triturador",
+    "craneo_de_vida"
   ],
   "gear": [
     "proteccion",
@@ -131,7 +132,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/primera-satrapa-amoch.webp",
   "masteries": [],
   "artworks": [],

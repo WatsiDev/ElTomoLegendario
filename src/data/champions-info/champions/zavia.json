@@ -8,7 +8,7 @@
   "affinity": "Fuerza",
   "youtube_link": "https://www.youtube.com/watch?v=5obLHxl_GPM",
   "blessings": [
-    "desgarro-aplastante",
+    "Desgarro-Aplastante-6",
     "ira-de-la-naturaleza"
   ],
   "relics": [
@@ -22,7 +22,7 @@
     "elixir_aracnido",
     "lente_intangible"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Nuker que pierde usos en late, pero muy buena en oleadas de mazmorras, aunque no pega suficiente para arenas",
   "stats": {
     "hp": 18660,
@@ -122,7 +122,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/zavia.webp",
   "masteries": [],
   "artworks": [],

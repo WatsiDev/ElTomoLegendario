@@ -13,7 +13,7 @@
   "relics": [
     "agarre_de_valkanen"
   ],
-  "gear": [],
+  "gear": null,
   "uses": "Cierta etapa de la Ciudad Maldita. Fuera de eso no se usa",
   "stats": {
     "hp": 15525,
@@ -103,7 +103,7 @@
     }
   ],
   "lore": null,
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/basilisco.webp",
   "masteries": [],
   "artworks": [],

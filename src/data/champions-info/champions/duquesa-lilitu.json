@@ -16,6 +16,8 @@
     "crisalida_de_renacer",
     "corazon_volcardiaco",
     "arpa_de_kasbiel",
+    "yelmotorre",
+    "okulos_kustodion",
     "servidumbre_de_xibia",
     "cristal_de_exanima",
     "corona_lugubre"
@@ -124,7 +126,7 @@
     }
   ],
   "lore": "La duquesa Lilitu es uno de los demonios más poderosos de las legiones de Siroth y un teniente de Mortu-Macaab. Sus poderes hechiceros solo se corresponden con su mente y experiencia astutas. De hecho, Lilitu tuvo el bufo de existir durante miles de años, aprendiendo todo lo que hay que aprender sobre la magia oscura y las intrigas infernales de las cortes demoníacas. De hecho, ella ha vivido lo suficiente como para participar personalmente en no menos de tres invasiones de Teleria. Ella luchó contra el árbitro y sobrevivió a la experiencia, apenas, no es que ella lo admitiera, lo cual es un logro en sí mismo. Una de las mayores fortalezas de Lilitu es su sabia evaluación de sus propios talentos y la falta de arrogancia que es tan común entre sus parientes. Ella sabe que no es una guerrera de la leyenda y que sería de poca utilidad en el torbellino cuerpo a cuerpo. En lugar, ella enfoca sus poderes en empoderar y proteger a quienes luchan por ella. En la batalla, Lilitu canta hechizos y hechizos en la lengua oscura, ahora olvidada por todos menos por los sirvientes de Siroth, invocando a la estructura misma del Vacío para proteger a sus aliados. No lo hace por la amabilidad de su corazón, por supuesto, sino con el propósito frío y calculado de mantener vivos a sus secuaces durante el tiempo suficiente para llevar a cabo su voluntad. Por esa misma razón, ella gastará una gran cantidad de energía mágica para apoderarse de las almas de los caídos y guiarlos de regreso a sus recipientes mortales, curando sus heridas y haciendo que luchen de nuevo. Ahora, mientras la oscura voluntad de Siroth envuelve a todo Teleria una vez más, Lilitu se aleja de su palacio infernal, con sus ejércitos a la espalda. Ya es hora de que los mortales paguen los insultos pasados ​​y finalmente doblen la rodilla.",
-  "forms": null,
+  "forms": [],
   "image": "/src/assets/champions/duquesa-lilitu.webp",
   "masteries": [],
   "artworks": [],
