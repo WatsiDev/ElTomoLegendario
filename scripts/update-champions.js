@@ -40,7 +40,8 @@ const DICTIONARIES = {
     "toque-fantasmal": "toque-fantasmal",
     "segar-almas": "segar-almas",
     "crueldad": "crueldad",
-    "ira-de-la-naturaleza": "ira-de-la-naturaleza"
+    "ira-de-la-naturaleza": "ira-de-la-naturaleza",
+    "desgarro-aplastante": "desgarro-aplastante-6",
   }
 };
 
@@ -133,18 +134,8 @@ async function main() {
     process.exit(1);
   }
 
-  // 4. Filtrar los nuevos
-  const newChampions = apiChampions.filter(champ => !localSlugs.has(champ.slug));
-  
-  if (newChampions.length === 0) {
-    console.log('🎉 No hay campeones nuevos para actualizar. Todo está al día.');
-    return;
-  }
-  
-  console.log(`🔥 Se han encontrado ${newChampions.length} campeones nuevos!`);
-
-  // 5. Transformación y Guardado
-  for (const champ of newChampions) {
+  // 4. Transformación y Guardado (Fusión Inteligente)
+  for (const champ of apiChampions) {
     console.log(`Procesando: ${champ.name} (${champ.slug})...`);
     
     // Aplicar diccionarios
@@ -152,8 +143,36 @@ async function main() {
     const gear = applyDictionary('gear', champ.gear);
     const blessings = applyDictionary('blessings', champ.blessings);
 
-    // Transformar estructura al formato local
+    // --- EL ESCUDO: TRANSFORMACIÓN AL FORMATO DEL CMS ---
+    const sanitizedSkills = (champ.skills || []).map(skill => {
+      return {
+        ...skill,
+        // Convertimos los strings a los objetos que espera tu CMS
+        levels: (skill.levels || []).map(level => {
+          return typeof level === 'string' ? { level_desc: level } : level;
+        }),
+        buffDebuff: (skill.buffDebuff || []).map(buff => {
+          return typeof buff === 'string' ? { key_name: buff } : buff;
+        }),
+        book_priority: skill.book_priority || "Ninguna"
+      };
+    });
+
+    // --- LECTURA LOCAL (PROTEGER TUS CAMPOS MANUALES) ---
+    const jsonPath = path.join(CHAMPIONS_DIR, `${champ.slug}.json`);
+    let localData = {};
+    
+    if (fs.existsSync(jsonPath)) {
+      // Si el campeón ya existe, leemos sus datos para no sobreescribir tus notas
+      localData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+    }
+
+    // --- MERGE: LA FUSIÓN DE DATOS ---
     const transformedChamp = {
+      // 1. Mantenemos todo lo local primero
+      ...localData,
+
+      // 2. Actualizamos con datos limpios de la API
       slug: champ.slug,
       name: champ.name,
       faction: champ.faction,
@@ -167,42 +186,42 @@ async function main() {
       gear: gear,
       uses: champ.uses,
       stats: champ.stats,
-      skills: champ.skills,
-      aura: champ.aura,
-      lore: champ.lore,
-      forms: champ.forms,
+      skills: sanitizedSkills,
       
-      // Construir la ruta de la imagen local
+      // 3. Eliminamos los 'null' problemáticos
+      aura: champ.aura || [],
+      forms: champ.forms || [],
+      lore: champ.lore || null, 
+      
       image: `/src/assets/champions/${champ.slug}.webp`,
       
-      // Inicializar campos exclusivos locales
-      masteries: [],
-      artworks: [],
-      pros: [],
-      contras: [],
-      pve_stats: [],
-      pvp_stats: [],
-      game_modes: [],
-      sinergias: []
+      // 4. Inicializar campos exclusivos locales SOLO si no existían
+      masteries: localData.masteries || [],
+      artworks: localData.artworks || [],
+      pros: localData.pros || [],
+      contras: localData.contras || [],
+      pve_stats: localData.pve_stats || [],
+      pvp_stats: localData.pvp_stats || [],
+      game_modes: localData.game_modes || [],
+      sinergias: localData.sinergias || []
     };
 
-    // Descargar la imagen
+    // Descargar la imagen (solo si no existe localmente para no saturar tu red)
     if (champ.image_url) {
       const imgPath = path.join(IMAGES_DIR, `${champ.slug}.webp`);
-      console.log(`   Descargando imagen...`);
-      await downloadImage(champ.image_url, imgPath);
+      if (!fs.existsSync(imgPath)) {
+        console.log(`   Descargando imagen nueva...`);
+        await downloadImage(champ.image_url, imgPath);
+      }
     } else {
       console.warn(`   ⚠️ ${champ.name} no tiene image_url en la API.`);
     }
 
     // Escribir a disco
-    const jsonPath = path.join(CHAMPIONS_DIR, `${champ.slug}.json`);
     fs.writeFileSync(jsonPath, JSON.stringify(transformedChamp, null, 2), 'utf-8');
-    
-    console.log(`   ✅ Guardado: ${champ.slug}.json`);
+    console.log(`   ✅ Guardado/Actualizado: ${champ.slug}.json`);
   }
 
-  console.log('✨ Actualización completada exitosamente.');
+  console.log('✨ Sincronización y reparación completadas exitosamente.');
 }
-
 main();
