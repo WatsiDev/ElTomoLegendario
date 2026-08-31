@@ -1,39 +1,10 @@
 {
-  "slug": "folan-ciervoplata",
-  "name": "Folan Ciervoplata",
-  "faction": "Vigías Silvanos",
-  "rarity": "Legendario",
-  "role": "Nuker con buena capacidad de daño, aplicación y contagio de debufos. Funciona mejor con más Vigías Silvanos en el equipo",
-  "type": "Ataque",
-  "affinity": "Espíritu",
-  "youtube_link": "https://www.youtube.com/watch?v=DombzCZL_5A",
-  "blessings": [
-    "Desgarro-Aplastante-6",
-    "ira-de-la-naturaleza"
-  ],
   "relics": [
     "lente_intangible",
     "garra_malefica",
     "bomba_de_terror",
     "corona_de_ireth"
   ],
-  "gear": [
-    "mercurial",
-    "piel-de-piedra",
-    "letal",
-    "salvaje"
-  ],
-  "uses": "Facciones, oleadas e incluso arenas. Contra jefes su A1 y A3 pueden ser útiles, pero no será específico de ninguna mazmorra. Está más diseñado para arena y oleadas",
-  "stats": {
-    "hp": 18165,
-    "speed": 98,
-    "attack": 1586,
-    "defense": 782,
-    "accuracy": 10,
-    "critRate": 15,
-    "critDamage": 63,
-    "resistance": 30
-  },
   "skills": [
     {
       "name": "Heridas Perforantes (ATK)",
@@ -112,21 +83,50 @@
       "book_priority": "Ninguna"
     }
   ],
+  "game_modes": [],
   "aura": [
     {
       "type": "atk",
       "description": "Aumenta el ATK de aliados en todas las batallas en 30%"
     }
   ],
-  "lore": null,
-  "forms": [],
-  "image": "/src/assets/champions/folan-ciervoplata.webp",
-  "masteries": [],
-  "artworks": [],
   "pros": [],
-  "contras": [],
-  "pve_stats": [],
+  "affinity": "Espíritu",
   "pvp_stats": [],
-  "game_modes": [],
-  "sinergias": []
+  "rarity": "Legendario",
+  "name": "Folan Ciervoplata",
+  "slug": "folan-ciervoplata",
+  "blessings": [
+    "ira-de-la-naturaleza",
+    "desgarro-aplastante"
+  ],
+  "uses": "Facciones, oleadas e incluso arenas. Contra jefes su A1 y A3 pueden ser útiles, pero no será específico de ninguna mazmorra. Está más diseñado para arena y oleadas",
+  "forms": [],
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "letal",
+    "salvaje"
+  ],
+  "contras": [],
+  "masteries": [],
+  "role": "Nuker con buena capacidad de daño, aplicación y contagio de debufos. Funciona mejor con más Vigías Silvanos en el equipo",
+  "lore": null,
+  "youtube_link": "https://www.youtube.com/watch?v=DombzCZL_5A",
+  "sinergias": [],
+  "type": "Ataque",
+  "image": "/src/assets/champions/folan-ciervoplata.webp",
+  "faction": "Vigías Silvanos",
+  "stats": {
+    "hp": 18165,
+    "speed": 98,
+    "attack": 1586,
+    "defense": 782,
+    "accuracy": 10,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "artworks": [],
+  "pve_stats": []
 }
