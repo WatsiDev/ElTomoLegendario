@@ -5,7 +5,7 @@
       "slug": "raidtogether",
       "release-date": "16.04.2026",
       "account-type": "all",
-      "active": true,
+      "active": false,
       "rewards": [
         {
           "type": "xp-brew",
