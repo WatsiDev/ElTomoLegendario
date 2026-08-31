@@ -2,20 +2,13 @@
 import Layout from "../../layouts/Layout.astro";
 import factionsData from "@data/champions-info/factions/factions.json";
 import { Image } from "astro:assets";
+import { getAllChampions } from "../../utils/champions";
 
 // Access the array from the object wrapper
 const factions = factionsData.factions;
 
-// Cargar todos los campeones desde la carpeta de datos
-const championFiles = import.meta.glob(
-  "/src/data/champions-info/champions/*.json",
-  {
-    eager: true,
-  },
-);
-const champions = Object.values(championFiles).map(
-  (file: any) => file.default || file,
-);
+// Cargar todos los campeones usando el helper centralizado
+const champions = getAllChampions();
 
 // Importar imágenes locales para Vite / Astro Assets
 const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>(
@@ -31,7 +24,7 @@ const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
   title="Facciones - El Tomo Legendario"
   description="Explora todos los campeones de Raid Shadow Legends organizados por sus facciones. Encuentra estrategias, builds y análisis detallados."
 >
-  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div class="mb-12 text-center">
       <h1
         class="text-5xl font-black mb-4 text-raid-gold uppercase tracking-tight drop-shadow-md"
@@ -133,5 +126,5 @@ const createSlug = (name: string) => name.toLowerCase().replace(/\s+/g, "-");
         </div>
       </div>
     </section>
-  </main>
+  </div>
 </Layout>

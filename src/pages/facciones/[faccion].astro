@@ -1,9 +1,12 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import ChampionCard from "../../components/champion/ChampionCard.astro"; // Ajusta si tu componente está en otra ruta
+import ChampionCard from "../../components/champion/ChampionCard.astro";
 import factionsData from "@data/champions-info/factions/factions.json";
-import { getRarityStyle } from "../../utils/rarity";
+import { getRarityStyle, RARITY_ORDER } from "../../utils/rarity";
+import { AFFINITY_ORDER } from "../../utils/affinity";
+import { getAllChampions } from "../../utils/champions";
 import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 
 const factionImagesGlob = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/icons/factions/*.{png,jpg,jpeg,webp,svg}",
@@ -36,52 +39,31 @@ interface Props {
 export async function getStaticPaths() {
   const factionsList = factionsData.factions;
 
-  // Cargar todos los campeones desde la carpeta de datos
-  const championFiles = import.meta.glob(
-    "/src/data/champions-info/champions/*.json",
-    {
-      eager: true,
-    },
-  );
-  const champions = Object.values(championFiles).map(
-    (file: any) => file.default || file,
-  );
+  // Cargar todos los campeones usando el helper centralizado
+  const champions = getAllChampions();
 
   // Recorremos la lista de facciones para crear una página por cada una
   return factionsList.map((factionData) => {
     // 1. Generamos el SLUG (URL) en minúsculas y con guiones
-    // Ejemplo: "Orden Sagrada" -> "orden-sagrada"
     const slug = factionData.name.toLowerCase().replace(/\s+/g, "-");
 
-    // 2. Filtramos los campeones usando el NOMBRE EXACTO (con mayúsculas/espacios)
-    // Comparamos factionData.name ("Orden Sagrada") con champion.faction ("Orden Sagrada")
+    // 2. Filtramos los campeones usando el NOMBRE EXACTO
     const factionChampions = champions.filter(
       (c: any) => c.faction === factionData.name,
     );
 
-    // 3. Orden de Rareza y Afinidad
-    const rarityOrder = [
-      "Mítico",
-      "Legendario",
-      "Épico",
-      "Raro",
-      "Poco Común",
-      "Común",
-    ];
-    const affinityOrder = ["Espíritu", "Magia", "Fuerza", "Vacío"];
-
-    // 4. Agrupar por Rareza
+    // 3. Agrupar por Rareza
     const groupedChampions: Record<string, Champion[]> = {};
-    rarityOrder.forEach((rarity) => {
+    RARITY_ORDER.forEach((rarity) => {
       const champsInRarity = factionChampions.filter(
         (c) => c.rarity === rarity,
       );
       if (champsInRarity.length > 0) {
-        // 5. Ordenar por Afinidad dentro de cada Rareza
+        // 4. Ordenar por Afinidad dentro de cada Rareza
         champsInRarity.sort((a, b) => {
           return (
-            affinityOrder.indexOf(a.affinity) -
-            affinityOrder.indexOf(b.affinity)
+            AFFINITY_ORDER.indexOf(a.affinity as any) -
+            AFFINITY_ORDER.indexOf(b.affinity as any)
           );
         });
         groupedChampions[rarity] = champsInRarity;
@@ -91,10 +73,10 @@ export async function getStaticPaths() {
     return {
       params: { faccion: slug }, // La URL será /facciones/orden-sagrada
       props: {
-        factionName: factionData.name, // Pasamos el nombre bonito ("Orden Sagrada")
+        factionName: factionData.name,
         factionData: factionData,
-        groupedChampions: groupedChampions, // Pasamos los campeones agrupados y ordenados
-        allChampions: factionChampions, // Mantenemos la lista plana para filtros si es necesario
+        groupedChampions: groupedChampions,
+        allChampions: factionChampions,
       },
     };
   });
@@ -110,7 +92,7 @@ const factionImage = factionData?.image || "favicon.webp";
   title={`${factionName} - Campeones`}
   description={`Descubre todos los campeones de la facción ${factionName} en Raid Shadow Legends. Análisis, builds y estadísticas detalladas.`}
 >
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div
       class="flex flex-col md:flex-row items-center gap-8 mb-12 bg-gray-900/80 p-8 rounded-2xl border border-gray-800 shadow-2xl"
     >
@@ -148,7 +130,8 @@ const factionImage = factionData?.image || "favicon.webp";
         class="flex flex-col md:flex-row justify-between items-center mb-4 gap-4"
       >
         <h2 class="text-lg font-bold text-white flex items-center gap-2">
-          🔍 Buscar Campeón
+          <Icon name="lucide:search" class="w-5 h-5 text-raid-gold" />
+          Buscar Campeón
         </h2>
       </div>
 
@@ -198,78 +181,63 @@ const factionImage = factionData?.image || "favicon.webp";
       id="noResults"
       class="hidden text-center py-20 bg-gray-800/30 rounded-xl border border-dashed border-gray-700"
     >
-      <p class="text-2xl text-gray-500 font-bold mb-2">🤷‍♂️ No hay campeones</p>
+      <Icon name="lucide:search-x" class="w-12 h-12 text-gray-500 mx-auto mb-3 opacity-60" />
+      <p class="text-2xl text-gray-500 font-bold mb-2">No hay campeones</p>
       <p class="text-gray-400">Intenta con otro nombre.</p>
     </div>
-  </main>
+  </div>
 
-  <script is:inline>
-    (function () {
-      console.log("Initializing Faction Search Script...");
+  <script>
+    document.addEventListener("astro:page-load", () => {
+      const filterSearch = document.getElementById("filterSearch") as HTMLInputElement | null;
+      const noResults = document.getElementById("noResults");
+      const rarityGroups = document.querySelectorAll<HTMLElement>(".rarity-group");
 
-      function initSearch() {
-        const filterSearch = document.getElementById("filterSearch");
-        const noResults = document.getElementById("noResults");
-        const rarityGroups = document.querySelectorAll(".rarity-group");
+      if (!filterSearch) return;
 
-        if (!filterSearch) {
-          console.error("Search input #filterSearch not found!");
-          return;
-        }
+      // Handle search input filtering
+      const handleFilter = () => {
+        const sVal = filterSearch.value.toLowerCase().trim();
+        let totalVisibleCards = 0;
 
-        console.log("Search input found, attaching listener.");
+        rarityGroups.forEach((group) => {
+          const cards = group.querySelectorAll<HTMLElement>(".champion-card");
+          let groupVisibleCount = 0;
 
-        filterSearch.addEventListener("input", (e) => {
-          const sVal = e.target.value.toLowerCase();
-          console.log("Filtering for:", sVal);
+          cards.forEach((card) => {
+            const cName = card.getAttribute("data-name") || "";
+            const match = !sVal || cName.includes(sVal);
 
-          let totalVisibleCards = 0;
-
-          rarityGroups.forEach((group) => {
-            const cards = group.querySelectorAll(".champion-card");
-            let groupVisibleCount = 0;
-
-            cards.forEach((card) => {
-              const cName = card.getAttribute("data-name") || "";
-              // Normalizamos strings para evitar problemas con tildes, etc.
-              const match = !sVal || cName.includes(sVal);
-
-              if (match) {
-                card.classList.remove("hidden");
-                card.classList.add("flex");
-                groupVisibleCount++;
-              } else {
-                card.classList.add("hidden");
-                card.classList.remove("flex");
-              }
-            });
-
-            // Mostrar/Ocultar el grupo entero (Header + Grid)
-            if (groupVisibleCount > 0) {
-              group.classList.remove("hidden");
-              totalVisibleCards += groupVisibleCount;
+            if (match) {
+              card.classList.remove("hidden");
+              card.classList.add("flex");
+              groupVisibleCount++;
             } else {
-              group.classList.add("hidden");
+              card.classList.add("hidden");
+              card.classList.remove("flex");
             }
           });
 
-          // Mostrar mensaje si no hay resultados
-          if (noResults) {
-            if (totalVisibleCards === 0) {
-              noResults.classList.remove("hidden");
-            } else {
-              noResults.classList.add("hidden");
-            }
+          // Show/Hide rarity group
+          if (groupVisibleCount > 0) {
+            group.classList.remove("hidden");
+            totalVisibleCards += groupVisibleCount;
+          } else {
+            group.classList.add("hidden");
           }
         });
-      }
 
-      // Ejecutar cuando el DOM esté listo
-      if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", initSearch);
-      } else {
-        initSearch();
-      }
-    })();
+        // Show/Hide no results notice
+        if (noResults) {
+          if (totalVisibleCards === 0) {
+            noResults.classList.remove("hidden");
+          } else {
+            noResults.classList.add("hidden");
+          }
+        }
+      };
+
+      filterSearch.addEventListener("input", handleFilter);
+    });
   </script>
 </Layout>

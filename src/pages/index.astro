@@ -1,25 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ChampionCard from "../components/champion/ChampionCard.astro";
-
-// Cargar todos los campeones desde la carpeta de datos
-const championFiles = import.meta.glob(
-  "/src/data/champions-info/champions/*.json",
-  {
-    eager: true,
-  },
-);
-const champions = Object.values(championFiles).map(
-  (file: any) => file.default || file,
-);
+import { getFeaturedChampions } from "../utils/champions";
+import { Icon } from "astro-icon/components";
 
 // Tomamos 4 campeones icónicos para mostrar un adelanto
-// (Idealmente, elegirías manualmente a Kael, Gnut, etc. por sus índices)
-const featuredChampions = champions.filter((champ: any) =>
-  ["acrizia", "gnut", "maria-sanguinaria", "lord-entretenedor-fabian"].includes(
-    champ.slug,
-  ),
-);
+const featuredChampions = getFeaturedChampions([
+  "acrizia",
+  "gnut",
+  "maria-sanguinaria",
+  "lord-entretenedor-fabian",
+]);
 ---
 
 <Layout
@@ -36,19 +27,20 @@ const featuredChampions = champions.filter((champ: any) =>
 
     <!-- Contenido del Hero -->
     <div class="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-20">
-      <div class="max-w-4xl mx-auto text-center animate-fade-in">
+      <div class="max-w-4xl mx-auto text-center hero-content">
         <!-- Badge de confianza -->
-        <div class="mb-6 animate-float">
+        <div class="mb-6 hero-float">
           <span
-            class="inline-block px-4 py-2 bg-linear-to-r from-raid-gold to-raid-purple rounded-full text-sm font-bold text-white"
+            class="inline-flex items-center px-4 py-2 bg-linear-to-r from-raid-gold to-raid-purple rounded-full text-sm font-bold text-white shadow-md"
           >
-            🏆 Tu Referencia en Raid: Shadow Legends
+            <Icon name="lucide:trophy" class="w-4 h-4 mr-1.5 text-raid-gold" />
+            Tu Referencia en Raid: Shadow Legends
           </span>
         </div>
 
         <!-- Claim Principal (Value Proposition) -->
         <h1
-          class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 animate-float leading-tight"
+          class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 hero-float leading-tight"
         >
           <span
             class="bg-linear-to-r from-raid-gold via-raid-purple to-raid-blue bg-clip-text text-transparent"
@@ -108,12 +100,12 @@ const featuredChampions = champions.filter((champ: any) =>
     class="bg-raid-card py-16 px-4 sm:px-6 lg:px-8 border-b border-gray-700"
   >
     <div class="max-w-6xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 timeline-view animate-slide-in-left animate-range-[entry_5%_contain_20%]">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 motion-reveal-features">
         <!-- Feature 1 -->
         <div
           class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300"
         >
-          <div class="text-3xl mb-3">📋</div>
+          <div class="mb-3 text-raid-gold"><Icon name="lucide:clipboard-list" class="w-8 h-8" /></div>
           <h3 class="font-bold text-white mb-2">
             Guías Oficiales y Actualizadas
           </h3>
@@ -126,7 +118,7 @@ const featuredChampions = champions.filter((champ: any) =>
         <div
           class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-purple transition-all duration-300"
         >
-          <div class="text-3xl mb-3">🎯</div>
+          <div class="mb-3 text-raid-purple"><Icon name="lucide:target" class="w-8 h-8" /></div>
           <h3 class="font-bold text-white mb-2">Estrategias para Todos</h3>
           <p class="text-gray-400 text-sm">
             Desde jugadores nuevos hasta expertos de endgame
@@ -137,7 +129,7 @@ const featuredChampions = champions.filter((champ: any) =>
         <div
           class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-blue transition-all duration-300"
         >
-          <div class="text-3xl mb-3">🌎</div>
+          <div class="mb-3 text-raid-blue"><Icon name="lucide:globe" class="w-8 h-8" /></div>
           <h3 class="font-bold text-white mb-2">Comunidad en Español</h3>
           <p class="text-gray-400 text-sm">
             La comunidad activa más grande de habla hispana
@@ -148,7 +140,7 @@ const featuredChampions = champions.filter((champ: any) =>
         <div
           class="group p-6 bg-raid-bg rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300"
         >
-          <div class="text-3xl mb-3">👑</div>
+          <div class="mb-3 text-raid-gold"><Icon name="lucide:crown" class="w-8 h-8" /></div>
           <h3 class="font-bold text-white mb-2">Creadores Expertos</h3>
           <p class="text-gray-400 text-sm">
             Contenido de jugadores legendarios y competitivos
@@ -165,7 +157,7 @@ const featuredChampions = champions.filter((champ: any) =>
         Números que Hablan por Nosotros
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 timeline-view animate-flip-in-x animate-range-[entry_5%_contain_20%]">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 motion-reveal-stats">
         <!-- Stat 1 -->
         <div
           class="text-center p-6 border border-gray-700 rounded-lg hover:border-raid-gold transition-all duration-300"
@@ -252,7 +244,7 @@ const featuredChampions = champions.filter((champ: any) =>
         </div>
 
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center timeline-view animate-zoom-in animate-range-[entry_10%_contain_25%]"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center motion-reveal-meta"
         >
           {
             featuredChampions.map((champion) => (
@@ -323,12 +315,14 @@ const featuredChampions = champions.filter((champ: any) =>
           </span>
         </h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 timeline-view animate-blurred-fade-in animate-range-[entry_10%_contain_30%]">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 motion-reveal-progress">
           <!-- Early Game -->
           <div
             class="group relative bg-linear-to-br from-raid-blue/20 to-transparent p-8 rounded-lg border-2 border-raid-blue overflow-hidden hover:shadow-lg hover:shadow-raid-blue/30 transition-all duration-300"
           >
-            <div class="absolute top-0 right-0 text-6xl opacity-10">🌱</div>
+            <div class="absolute top-4 right-4 text-raid-blue opacity-10 pointer-events-none">
+              <Icon name="lucide:sprout" class="w-16 h-16" />
+            </div>
             <div class="relative z-10">
               <h3 class="text-2xl font-bold text-raid-blue mb-4">Early Game</h3>
               <p class="text-gray-300 mb-6">
@@ -356,7 +350,9 @@ const featuredChampions = champions.filter((champ: any) =>
           <div
             class="group relative bg-linear-to-br from-raid-purple/20 to-transparent p-8 rounded-lg border-2 border-raid-purple overflow-hidden hover:shadow-lg hover:shadow-raid-purple/30 transition-all duration-300"
           >
-            <div class="absolute top-0 right-0 text-6xl opacity-10">⚔️</div>
+            <div class="absolute top-4 right-4 text-raid-purple opacity-10 pointer-events-none">
+              <Icon name="lucide:swords" class="w-16 h-16" />
+            </div>
             <div class="relative z-10">
               <h3 class="text-2xl font-bold text-raid-purple mb-4">Mid Game</h3>
               <p class="text-gray-300 mb-6">
@@ -383,7 +379,9 @@ const featuredChampions = champions.filter((champ: any) =>
           <div
             class="group relative bg-linear-to-br from-raid-gold/20 to-transparent p-8 rounded-lg border-2 border-raid-gold overflow-hidden hover:shadow-lg hover:shadow-raid-gold/30 transition-all duration-300"
           >
-            <div class="absolute top-0 right-0 text-6xl opacity-10">👑</div>
+            <div class="absolute top-4 right-4 text-raid-gold opacity-10 pointer-events-none">
+              <Icon name="lucide:crown" class="w-16 h-16" />
+            </div>
             <div class="relative z-10">
               <h3 class="text-2xl font-bold text-raid-gold mb-4">Late Game</h3>
               <p class="text-gray-300 mb-6">
@@ -431,7 +429,7 @@ const featuredChampions = champions.filter((champ: any) =>
   <section
     class="bg-linear-to-r from-raid-gold/20 via-raid-purple/20 to-raid-blue/20 py-16 px-4 sm:px-6 lg:px-8 border-t border-gray-700"
   >
-    <div class="max-w-4xl mx-auto text-center timeline-view animate-slide-in-bottom animate-range-[entry_5%_contain_30%]">
+    <div class="max-w-4xl mx-auto text-center motion-reveal-cta">
       <h2 class="text-4xl sm:text-5xl font-bold mb-6 text-white">
         Empieza a Mejorar en Raid Hoy
       </h2>
@@ -455,3 +453,22 @@ const featuredChampions = champions.filter((champ: any) =>
     </div>
   </section>
 </Layout>
+
+<script>
+  import { animateFadeIn, animateOnScroll, animateFloating } from "../utils/motion";
+
+  document.addEventListener("astro:page-load", () => {
+    // Hero Entrance animation
+    animateFadeIn(".hero-content");
+
+    // Smooth floating animation
+    animateFloating(".hero-float", 8, 5);
+
+    // Scroll reveal observers
+    animateOnScroll(".motion-reveal-features", ":scope > div");
+    animateOnScroll(".motion-reveal-stats", ":scope > div");
+    animateOnScroll(".motion-reveal-meta", ":scope > div");
+    animateOnScroll(".motion-reveal-progress", ":scope > div");
+    animateOnScroll(".motion-reveal-cta");
+  });
+</script>

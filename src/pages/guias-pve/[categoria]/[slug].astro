@@ -2,6 +2,7 @@
 import Layout from "../../../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
+import { getAllChampions } from "../../../utils/champions";
 
 const pveImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/game-modes/**/*.{png,jpg,jpeg,webp,svg}", { eager: true });
 const championImagesGlob = import.meta.glob<{ default: ImageMetadata }>("/src/assets/champions/*.{png,jpg,jpeg,webp,svg}", { eager: true });
@@ -36,8 +37,7 @@ const { categoria } = Astro.params;
 const categoryTitle = categoryData.title;
 
 // Cargar data de campeones para resolver imágenes y nombres
-const championFiles = import.meta.glob('/src/data/champions-info/champions/*.json', { eager: true });
-const championsData = Object.values(championFiles).map((file: any) => file.default || file);
+const championsData = getAllChampions();
 
 function getChampionInfo(slug: string) {
   const champ = championsData.find((c: any) => c.slug === slug);

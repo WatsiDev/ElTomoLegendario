@@ -5,6 +5,8 @@ import { getRarityStyle } from "../../utils/rarity";
 import { getAffinityStyle } from "../../utils/affinity";
 import affinityIconsData from "@data/champions-info/assets/affinities.json";
 import { Image } from "astro:assets";
+import { getAllChampions } from "../../utils/champions";
+import { Icon } from "astro-icon/components";
 
 // --- NUEVOS IMPORTS DE IMÁGENES VIA GLOB ---
 const championImagesGlob = import.meta.glob<{ default: ImageMetadata }>(
@@ -73,15 +75,7 @@ const affinityIcons = affinityIconsData as Record<string, string>;
 
 // 1. Generar rutas
 export async function getStaticPaths() {
-  const championFiles = import.meta.glob(
-    "/src/data/champions-info/champions/*.json",
-    {
-      eager: true,
-    },
-  );
-  const champions = Object.values(championFiles).map(
-    (file: any) => file.default || file,
-  );
+  const champions = getAllChampions();
 
   return champions.map((champ: any) => ({
     params: { slug: champ.slug },
@@ -194,7 +188,7 @@ const rarityTextClass = rarityStyle.text;
   description={`Guía completa del campeón ${champ.name} en Raid Shadow Legends. Descubre sus mejores builds, maestrías, habilidades y estadísticas.`}
   image={champ.image}
 >
-  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 animate-fade-in">
       <div class="md:col-span-1 flex justify-center md:justify-end text-center">
         <div class="flex flex-col items-center w-fit mx-auto md:mx-0">
@@ -207,8 +201,10 @@ const rarityTextClass = rarityStyle.text;
               width={180}
               height={280}
               class={`w-full max-w-[180px] rounded-lg border-4 transition-all duration-300 group-hover:scale-105 relative z-10 shadow-2xl ${rarityStyle.border} hover:${rarityStyle.glow}`}
-              loading="lazy"
+              loading="eager"
+              fetchpriority="high"
               decoding="async"
+              transition:name={`champ-image-${champ.slug}`}
             />
           </div>
 
@@ -504,7 +500,8 @@ const rarityTextClass = rarityStyle.text;
     <div class="space-y-8 min-h-[400px]">
       <section id="habilidades" class="tab-content">
         <h2 class="text-3xl font-bold mb-6 text-white flex items-center gap-2">
-          ⚔️ Habilidades
+          <Icon name="lucide:swords" class="w-8 h-8 text-raid-gold" />
+          Habilidades
         </h2>
         <div class="space-y-6">
           {
@@ -619,8 +616,9 @@ const rarityTextClass = rarityStyle.text;
       </section>
 
       <section id="builds" class="tab-content hidden">
-        <h2 class="text-3xl font-bold mb-6 text-white">
-          🛡️ Builds y Equipamiento
+        <h2 class="text-3xl font-bold mb-6 text-white flex items-center gap-2">
+          <Icon name="lucide:shield" class="w-8 h-8 text-raid-gold" />
+          Builds y Equipamiento
         </h2>
 
         <div
@@ -817,7 +815,10 @@ const rarityTextClass = rarityStyle.text;
       </section>
 
       <section id="galeria" class="tab-content hidden">
-        <h2 class="text-3xl font-bold mb-6 text-white">🎨 Galería de Arte</h2>
+        <h2 class="text-3xl font-bold mb-6 text-white flex items-center gap-2">
+          <Icon name="lucide:palette" class="w-8 h-8 text-raid-gold" />
+          Galería de Arte
+        </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div
             class="group relative overflow-hidden rounded-lg border border-gray-700 hover:border-raid-gold transition-all duration-300 lg:col-span-1 lg:row-span-2 shadow-xl"
@@ -834,7 +835,7 @@ const rarityTextClass = rarityStyle.text;
               decoding="async"
             />
             <div
-              class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-100"
+              class="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-100"
             >
             </div>
             <div class="absolute bottom-0 left-0 right-0 p-4">
@@ -852,7 +853,7 @@ const rarityTextClass = rarityStyle.text;
                         ? artworksImagesGlob[art].default
                         : art) as any
                     }
-                    alt={`Arte ${i}`}
+                    alt={`Ilustración oficial ${i + 1} de ${champ.name} - Raid: Shadow Legends`}
                     width={600}
                     height={800}
                     class="w-full h-full object-cover"
@@ -864,7 +865,7 @@ const rarityTextClass = rarityStyle.text;
             ) : (
               // Placeholder si no hay extra artworks
               <div class="col-span-1 md:col-span-2 bg-raid-card/30 border border-dashed border-gray-700 rounded-lg flex flex-col items-center justify-center p-12 text-center">
-                <span class="text-4xl mb-2 opacity-50">🖼️</span>
+                <Icon name="lucide:image" class="w-12 h-12 mb-2 text-gray-500 opacity-60" />
                 <p class="text-gray-500">
                   No hay ilustraciones adicionales disponibles.
                 </p>
@@ -988,7 +989,7 @@ const rarityTextClass = rarityStyle.text;
           {
             champ.game_modes && champ.game_modes.length > 0 ? (
               champ.game_modes.map((mode: any) => (
-                <div class="bg-gradient-to-br from-gray-900/60 to-transparent p-6 rounded-lg border border-gray-700/80">
+                <div class="bg-linear-to-br from-gray-900/60 to-transparent p-6 rounded-lg border border-gray-700/80">
                   <h3 class="text-raid-gold font-bold text-lg mb-2 flex justify-between items-center">
                     {mode.area}{" "}
                     <span class="text-xs text-gray-400 font-normal">
@@ -1097,101 +1098,102 @@ const rarityTextClass = rarityStyle.text;
         </div>
       </section>
     </div>
-  </main>
+  </div>
 
   <script>
-    // Script para manejar los botones de Forma Mítica
-    document
-      .querySelectorAll<HTMLElement>(".form-toggle-btn")
-      .forEach((btn) => {
-        btn.addEventListener("click", () => {
-          const targetForm = btn.dataset.targetForm;
-          if (!targetForm) return;
+    document.addEventListener("astro:page-load", () => {
+      // Script para manejar los botones de Forma Mítica
+      document
+        .querySelectorAll<HTMLElement>(".form-toggle-btn")
+        .forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const targetForm = btn.dataset.targetForm;
+            if (!targetForm) return;
 
-          // Actualizar estilos de los botones (indicando cuál está activo)
-          document
-            .querySelectorAll<HTMLElement>(".form-toggle-btn")
-            .forEach((b) => {
-              if (b === btn) {
-                b.classList.add(
-                  "active",
-                  "border-raid-gold",
-                  "text-raid-gold",
-                  "shadow-lg",
-                  "bg-raid-gold/10",
-                );
-                b.classList.remove(
-                  "border-gray-600",
-                  "text-gray-400",
-                  "bg-transparent",
-                );
-              } else {
-                b.classList.remove(
-                  "active",
-                  "border-raid-gold",
-                  "text-raid-gold",
-                  "shadow-lg",
-                  "bg-raid-gold/10",
-                );
-                b.classList.add(
-                  "border-gray-600",
-                  "text-gray-400",
-                  "bg-transparent",
-                );
-              }
-            });
-
-          // Mostrar / Ocultar contenedores de habilidades, stats, libros, nombres, tipos
-          const containers = [
-            ".form-type-container",
-            ".form-name-container",
-            ".form-stats-container",
-            ".form-skills-container",
-            ".form-books-container",
-          ];
-          containers.forEach((containerSelector) => {
+            // Actualizar estilos de los botones (indicando cuál está activo)
             document
-              .querySelectorAll<HTMLElement>(containerSelector)
-              .forEach((c) => {
-                if (c.dataset.formId === targetForm) {
-                  c.classList.remove("hidden");
+              .querySelectorAll<HTMLElement>(".form-toggle-btn")
+              .forEach((b) => {
+                if (b === btn) {
+                  b.classList.add(
+                    "active",
+                    "border-raid-gold",
+                    "text-raid-gold",
+                    "shadow-lg",
+                    "bg-raid-gold/10",
+                  );
+                  b.classList.remove(
+                    "border-gray-600",
+                    "text-gray-400",
+                    "bg-transparent",
+                  );
                 } else {
-                  c.classList.add("hidden");
+                  b.classList.remove(
+                    "active",
+                    "border-raid-gold",
+                    "text-raid-gold",
+                    "shadow-lg",
+                    "bg-raid-gold/10",
+                  );
+                  b.classList.add(
+                    "border-gray-600",
+                    "text-gray-400",
+                    "bg-transparent",
+                  );
                 }
               });
+
+            // Mostrar / Ocultar contenedores de habilidades, stats, libros, nombres, tipos
+            const containers = [
+              ".form-type-container",
+              ".form-name-container",
+              ".form-stats-container",
+              ".form-skills-container",
+              ".form-books-container",
+            ];
+            containers.forEach((containerSelector) => {
+              document
+                .querySelectorAll<HTMLElement>(containerSelector)
+                .forEach((c) => {
+                  if (c.dataset.formId === targetForm) {
+                    c.classList.remove("hidden");
+                  } else {
+                    c.classList.add("hidden");
+                  }
+                });
+            });
           });
         });
-      });
 
-    // Tu Script Original de Tabs (Funciona Perfecto)
-    document.querySelectorAll<HTMLElement>(".tab-button").forEach((button) => {
-      button.addEventListener("click", () => {
-        const tabName = button.dataset.tab;
-        if (!tabName) return;
+      // Script de Tabs (Pestañas de Detalle)
+      document.querySelectorAll<HTMLElement>(".tab-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const tabName = button.dataset.tab;
+          if (!tabName) return;
 
-        // Reset tabs buttons
-        document.querySelectorAll<HTMLElement>(".tab-button").forEach((btn) => {
-          btn.classList.remove("active", "border-raid-gold", "text-raid-gold");
-          btn.classList.add("border-transparent", "text-gray-400");
-        });
-
-        // Hide contents
-        document
-          .querySelectorAll<HTMLElement>(".tab-content")
-          .forEach((content) => {
-            content.classList.add("hidden");
+          // Reset tabs buttons
+          document.querySelectorAll<HTMLElement>(".tab-button").forEach((btn) => {
+            btn.classList.remove("active", "border-raid-gold", "text-raid-gold");
+            btn.classList.add("border-transparent", "text-gray-400");
           });
 
-        // Activate current
-        button.classList.add("active", "border-raid-gold", "text-raid-gold");
-        button.classList.remove("border-transparent", "text-gray-400");
+          // Hide contents
+          document
+            .querySelectorAll<HTMLElement>(".tab-content")
+            .forEach((content) => {
+              content.classList.add("hidden");
+            });
 
-        const tabElement = document.getElementById(tabName);
-        if (tabElement) {
-          tabElement.classList.remove("hidden");
-          // Pequeño scroll suave si la tab está muy abajo
-          tabElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        }
+          // Activate current
+          button.classList.add("active", "border-raid-gold", "text-raid-gold");
+          button.classList.remove("border-transparent", "text-gray-400");
+
+          const tabElement = document.getElementById(tabName);
+          if (tabElement) {
+            tabElement.classList.remove("hidden");
+            tabElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          }
+        });
       });
     });
   </script>

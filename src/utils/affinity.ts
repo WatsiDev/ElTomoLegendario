@@ -4,6 +4,8 @@ export interface AffinityStyle {
     icon?: string; // Path to icon if needed relative to assets (optional)
 }
 
+export const AFFINITY_ORDER = ["Espíritu", "Magia", "Fuerza", "Vacío"] as const;
+
 export const AFFINITY_STYLES: Record<string, AffinityStyle> = {
     "Fuerza": {
         text: "text-raid-red",

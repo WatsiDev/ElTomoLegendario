@@ -5,6 +5,15 @@ export interface RarityStyle {
   hex: string;
 }
 
+export const RARITY_ORDER = [
+  "Mítico",
+  "Legendario",
+  "Épico",
+  "Raro",
+  "Poco Común",
+  "Común",
+] as const;
+
 export const RARITY_STYLES: Record<string, RarityStyle> = {
   "Mítico": {
     text: "text-raid-red",

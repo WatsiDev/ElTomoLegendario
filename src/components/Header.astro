@@ -5,19 +5,10 @@ import PromoCodeBtn from "./ui/PromoCodeBtn";
 import { Image } from "astro:assets";
 import logo from "../assets/icons/favicon-no-bg.webp";
 
+import { getChampionsSearchData } from "../utils/champions";
+
 // Cargar la data de los campeones para el buscador en tiempo real
-const championFiles = import.meta.glob(
-  "/src/data/champions-info/champions/*.json",
-  { eager: true },
-);
-const searchData = Object.values(championFiles).map((file: any) => {
-  const data = file.default || file;
-  return {
-    slug: data.slug,
-    name: data.name,
-    image: data.image,
-  };
-});
+const searchData = getChampionsSearchData();
 
 // Cargar eventos globales
 const globalEventFiles = import.meta.glob(
@@ -165,39 +156,46 @@ const globalEvents = Object.values(globalEventFiles).map(
     </div>
   </div>
 
-  <script is:inline>
-    const btn = document.getElementById("mobile-menu-btn");
-    const menu = document.getElementById("mobile-menu");
-    const menuPath = document.getElementById("menu-path");
+  <script>
+    document.addEventListener("astro:page-load", () => {
+      const btn = document.getElementById("mobile-menu-btn");
+      const menu = document.getElementById("mobile-menu");
+      const menuPath = document.getElementById("menu-path");
 
-    if (btn && menu && menuPath) {
-      const toggleMenu = () => {
-        const isHidden = menu.classList.contains("hidden");
-        if (isHidden) {
-          menu.classList.remove("hidden");
-          menuPath.setAttribute("d", "M6 18L18 6M6 6l12 12"); // X icon
-        } else {
-          menu.classList.add("hidden");
-          menuPath.setAttribute("d", "M4 6h16M4 12h16M4 18h16"); // Hamburger icon
-        }
-      };
+      if (btn && menu && menuPath) {
+        // Reset state upon new page navigation
+        menu.classList.add("hidden");
+        menuPath.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
 
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        toggleMenu();
-      });
+        const toggleMenu = () => {
+          const isHidden = menu.classList.contains("hidden");
+          if (isHidden) {
+            menu.classList.remove("hidden");
+            menuPath.setAttribute("d", "M6 18L18 6M6 6l12 12"); // X icon
+          } else {
+            menu.classList.add("hidden");
+            menuPath.setAttribute("d", "M4 6h16M4 12h16M4 18h16"); // Hamburger icon
+          }
+        };
 
-      // Close menu when clicking outside
-      document.addEventListener("click", (event) => {
-        if (
-          !menu.classList.contains("hidden") &&
-          !menu.contains(event.target) &&
-          !btn.contains(event.target)
-        ) {
-          menu.classList.add("hidden");
-          menuPath.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
-        }
-      });
-    }
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          toggleMenu();
+        };
+
+        const handleClickOutside = (event: MouseEvent) => {
+          if (
+            !menu.classList.contains("hidden") &&
+            !menu.contains(event.target as Node) &&
+            !btn.contains(event.target as Node)
+          ) {
+            menu.classList.add("hidden");
+            menuPath.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
+          }
+        };
+
+        document.addEventListener("click", handleClickOutside);
+      }
+    });
   </script>
 </header>
