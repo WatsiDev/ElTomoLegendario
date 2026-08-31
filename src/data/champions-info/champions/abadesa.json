@@ -1,16 +1,4 @@
 {
-  "slug": "abadesa",
-  "name": "Abadesa",
-  "faction": "Orden Sagrada",
-  "rarity": "Legendario",
-  "role": "Nuker con debufos, pero de poca utilidad en mid y late game.",
-  "type": "Ataque",
-  "affinity": "Fuerza",
-  "youtube_link": "https://www.youtube.com/watch?v=Se1Y2mg7xL4",
-  "blessings": [
-    "segar-almas",
-    "crueldad"
-  ],
   "relics": [
     "garra_malefica",
     "malleos_de_fuego",
@@ -20,29 +8,6 @@
     "mirada_del_gato",
     "lente_intangible"
   ],
-  "gear": [
-    "letal",
-    "salvaje",
-    "velocidad",
-    "cruel",
-    "ataque",
-    "punteria",
-    "dano-critico",
-    "percepcion",
-    "despiadado",
-    "instinto"
-  ],
-  "uses": "No es mala, pero hay campeones que hacen lo mismo mejor. ",
-  "stats": {
-    "hp": 16020,
-    "speed": 104,
-    "attack": 1674,
-    "defense": 837,
-    "accuracy": 0,
-    "critRate": 15,
-    "critDamage": 63,
-    "resistance": 30
-  },
   "skills": [
     {
       "name": "Flecha de Reprimenda (ATK)",
@@ -114,21 +79,56 @@
       "book_priority": "Ninguna"
     }
   ],
+  "game_modes": [],
   "aura": [
     {
       "type": "atk",
       "description": " Aumenta el ATK de aliados en criptas de facción en un 34%."
     }
   ],
-  "lore": null,
-  "forms": null,
-  "image": "/src/assets/champions/abadesa.webp",
-  "masteries": [],
-  "artworks": [],
   "pros": [],
-  "contras": [],
-  "pve_stats": [],
+  "affinity": "Fuerza",
   "pvp_stats": [],
-  "game_modes": [],
-  "sinergias": []
+  "rarity": "Épico",
+  "name": "Abadesa",
+  "slug": "abadesa",
+  "blessings": [
+    "segar-almas",
+    "crueldad"
+  ],
+  "uses": "No es mala, pero hay campeones que hacen lo mismo mejor. ",
+  "forms": null,
+  "gear": [
+    "letal",
+    "salvaje",
+    "velocidad",
+    "cruel",
+    "ataque",
+    "punteria",
+    "dano-critico",
+    "percepcion",
+    "despiadado",
+    "instinto"
+  ],
+  "contras": [],
+  "masteries": [],
+  "role": "Nuker con debufos, pero de poca utilidad en mid y late game.",
+  "lore": null,
+  "youtube_link": "https://www.youtube.com/watch?v=Se1Y2mg7xL4",
+  "sinergias": [],
+  "type": "Ataque",
+  "image": "/src/assets/champions/abadesa.webp",
+  "faction": "Orden Sagrada",
+  "stats": {
+    "hp": 16020,
+    "speed": 104,
+    "attack": 1674,
+    "defense": 837,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "artworks": [],
+  "pve_stats": []
 }
