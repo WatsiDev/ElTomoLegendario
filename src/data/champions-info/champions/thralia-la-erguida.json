@@ -1,0 +1,128 @@
+{
+  "slug": "thralia-la-erguida",
+  "name": "Thralia la Erguida",
+  "faction": "Enanos",
+  "rarity": "Legendario",
+  "role": "Poderoso nuker de HP, con sinergias de Ignorar DEF y daño extra basados en destruir MAX HP",
+  "type": "HP",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=DlwoYg2WPsc",
+  "blessings": [
+    "Desgarro-aplastante-6"
+  ],
+  "relics": [
+    "garra_malefica",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "lente_intangible",
+    "pasion_codiciosa"
+  ],
+  "gear": [
+    "mercurial",
+    "letal",
+    "salvaje",
+    "piel-de-piedra"
+  ],
+  "uses": "Brilla en arena en setups lentas y facciones. No es especialmente útil contra ningún jefe de mazmorra, pero no lo hará mal tampoco ya que cuando más se alargue la batalla, más fuerte pega",
+  "stats": {
+    "hp": 22800,
+    "speed": 99,
+    "attack": 760,
+    "defense": 1299,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Furia Cristalina (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5"
+        }
+      ],
+      "multiplier": "?xHP",
+      "description": "Ataca a 1 enemigo.\n\n Ignora bufos de [Escudo], además de un 1% de DEF del enemigo por cada 1% de MAX HP destruido.\n\n Reinicia el tiempo de reutilización de la habilidad ¡Alzaos junto a mí! si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "¡Alzaos Junto a mí!",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "?xHP",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque ignora bufos de [Inmortal y el 15% de DEF de cada objetivo. Ignora un 1% adicional de DEF del enemigo por cada 1% de su MAX HP destruido.\n\n Reinicia el tiempo de reutilización de la habilidad Baluarte Inquebrantable si este ataque mata a un enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Baluarte Inquebrantable",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "description": "[Efecto Activo]\n\n Aplica un bufo de 30% de [Aumentar P.Crit], un bufo de 30% de [Aumentar D.Crit] y un bufo de [Escudo] a este campeón durante 3 turnos. La magnitud del [Escudo] es igual al 30% de MAX HP de este campeón. Luego obtén un turno adicional.\n\n[Efecto Pasivo]\n\n Este campeón es inmune a efectos de Ignorar DEF usados contra él mientras tenga un bufo de [Escudo] aplicado por esta habilidad.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Por Jardínruna (Pasiva)",
+      "description": "Cuando este campeón ataca, destruye un 2.5% de MAX HP del objetivo. Cuando este campeón es atacado, destruye un 5% de MAX HP del atacante (2.5% en caso de Jefes). Se acumula hasta el 50% (25% para jefes).\n\n Cuando este campeón ataca, aumenta un 2.5% MAX HP de este campeón. Cuando este campeón es atacado, aumenta un 5% de MAX HP de este campeón. Se acumula hasta el 50%.\n\n Este campeón hace +1% de daño por cada 1% de MAX HP destruido del objetivo.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "hp",
+      "description": "Aumenta HP de Aliados en todas las batallas en 40% (solo se aplica a Enanos)"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/thralia-la-erguida.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

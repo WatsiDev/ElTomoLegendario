@@ -3,10 +3,10 @@
   "name": "Robar",
   "faction": "Orcos",
   "rarity": "Legendario",
-  "role": "Nuker off meta con control y buenos escalados de daño.",
+  "role": "Nuker off meta con control y buenos escalados de daño. Recibió un rebalanceo en Septiembre de 2026 para enfocarlo a facciones",
   "type": "Ataque",
   "affinity": "Fuerza",
-  "youtube_link": null,
+  "youtube_link": "https://www.youtube.com/watch?v=bm5WRVxxsxc",
   "blessings": [
     "fuego-y-azufre"
   ],
@@ -28,7 +28,7 @@
     "cruel",
     "instinto"
   ],
-  "uses": "Control de oleadas de 1 solo objetivo, no se usa.",
+  "uses": "Control de oleadas además de daño. Funciona mejor junto con otros orcos, ya que fué rebalanceo como nuker / control para facciones",
   "stats": {
     "hp": 18990,
     "speed": 97,
@@ -56,9 +56,13 @@
           "level_desc": "Niv. 5 Daño +10%"
         }
       ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
       "multiplier": "3.4xATK",
       "description": "Ataca a 1 enemigo. Tiene un 50% de posibilidades de aplicar un debufo [Aturdir] durante 1 turno. Otorga un turno adicional si este debufo se aplicacon éxito.",
-      "buffDebuff": [],
       "book_priority": "Ninguna"
     },
     {
@@ -84,10 +88,19 @@
       "buffDebuff": [
         {
           "key_name": "red-def-2"
+        },
+        {
+          "key_name": "miedo-de-verdad"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
         }
       ],
       "multiplier": "4.3xATK",
-      "description": "Ataca a todos los enemigos. Cada golpe tiene una probabilidad del 75% de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos. ",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos.\n\n Tiene un 75% de probabilidad de aplicar un debufo del 60% [Reducir DEF] y un debufo de [Miedo de Verdad] durante 2 turnos. ",
       "book_priority": "Ninguna"
     },
     {
@@ -105,7 +118,14 @@
       ],
       "cooldown": 4,
       "multiplier": "4.2xATK",
-      "description": "Ataca a todos los enemigos. El daño aumenta si el objetivo está bajo debuffs [Dormir] , [Aturdir] o [Congelar]",
+      "description": "Ataca a todos los enemigos. Ignora bufos de [Escudo] y el 20% de DEF.\n\n Hace daño adicional si el objetivo tiene un debufo de [Miedo], [Miedo de Verdad], [Incitar], [Dormir], [Aturdir], [Petrificación] o [Congelar]",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hermandad Orca (Pasiva)",
+      "description": "Llena un 15% la barra de turno de este campeón cuando se aplique un debufo de [Miedo de Verdad], [Miedo], [Congelar], [Incitar], [Dormir] o [Aturdir] a un aliado (excepto este campeón].\n\n Llena un 15% la barra de turno de todos los aliados cuando este campeón aplique un debufo de[Aturdir] a un enemigo.\n\n Contraataca con la habilidad de Fuerza Aturdidora cuando un aliado de la facción de los Orcos es atacado. Una vez por turno.",
+      "levels": [],
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }

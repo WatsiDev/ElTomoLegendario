@@ -1,0 +1,135 @@
+{
+  "slug": "owein-llamainvernal",
+  "name": "Owein Llamainvernal",
+  "faction": "Vigías Silvanos",
+  "rarity": "Legendario",
+  "role": "Tanque, healer y poderoso protector de nuestro equipo",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=DlwoYg2WPsc",
+  "blessings": [
+    "defensa-impecable",
+    "cura-de-urgencia"
+  ],
+  "relics": [
+    "elixir_dorado",
+    "rocadragon_dorada",
+    "infernosfera"
+  ],
+  "gear": [
+    "mercurial",
+    "piel-de-piedra",
+    "defensa",
+    "inmortal",
+    "apoyo",
+    "proteccion",
+    "guardian"
+  ],
+  "uses": "Poderoso en facciones y oleadas. Incluso en defensa de arenas, como campeón capaz de blindar a nuestros aliados con escudos y curarlos.",
+  "stats": {
+    "hp": 18165,
+    "speed": 105,
+    "attack": 804,
+    "defense": 1564,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 50
+  },
+  "skills": [
+    {
+      "name": "Guarda del Final del Verano (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque tiene un 50% de probabilidad de eliminar cualquier bufo de [Escudo] y [Escudo de Magma], además de otro bufo aleatorio de cada enemigo. Este efecto no se puede resistir si este campeón tiene un bufo de [Escudo] o [Escudo de Magma].",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Don de la Guardia de Ascuas (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Curación +20"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "reflejar-dano"
+        }
+      ],
+      "description": "Iguala los niveles de HP de todos los aliados. Los niveles de HP de todos los aliados se igualarán al del aliado con más HP.\n\n Cura a todos los aliados. La magnitud de la cura es proporcional a DEF de este campeón.\n\n También aplica un bufo de 30% de [Reflejar Daño] a todos los aliados durante 2 turnos. Los aliados con los HP al máximo reciben un bufo protegido de [Reflejar Daño] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Siempreardiente",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Escudo +20"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        },
+        {
+          "key_name": "escudo-de-magma"
+        }
+      ],
+      "description": "[Efecto Activo]\n\n Aplica un bufo de 60% de [Aumentar DEF] y un bufo de [Escudo] a todos los aliados durante 2 turnos. La magnitud del [Escudo] es proporcional a DEF de este campeón.\n\n[Efecto Pasivo]\n\n Cuando venza un bufo de [Escudo] de un aliado o sea eliminado por daño o cualquier otro efecto, aplica un bufo de [Escudo de Magma] a dicho aliado durante 1 turno. La magnitud del bufo de [Escudo de Magma] es proporcional a DEF de este campeón. Una vez por turno. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Llama Invernal (Pasiva)",
+      "buffDebuff": [
+        {
+          "key_name": "inmortal"
+        }
+      ],
+      "description": "Reduce un 25% el daño que recibe este campeón. La reducción pasa a ser del 50% si este campeón tiene un bufo de [Escudo] o un [Escudo de Magma]. La cantidad de daño reducida de esta forma se refleja a todos los enemigos.\n\n Cuando este campeón o un aliado maten a un enemigo con el daño de bufos de [Reflejar Daño], efectos pasivos de Reflejar Daño o un bufo de [Escudo de Magma], les aplica un bufo de [Inmortal] durante 1 turno. Una vezs por aliado y turno. Si hay varios campeones en el grupo con esta habilidad solo se activa una.Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.",
+      "levels": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/owein-llamainvernal.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

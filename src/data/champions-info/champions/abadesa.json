@@ -26,7 +26,7 @@
         }
       ],
       "multiplier": "2.8xATK",
-      "description": "Ataca a 1 enemigo. Elimina 1 debufo aleatorio de este campeón y lo aplica al objetivo.",
+      "description": "Ataca a 1 enemigo. Elimina 1 debufo aleatorio de este campeón y lo aplica al objetivo. Luego tiene un 100% de probabilidad de robar un bufo aleatorio del objetivo",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },
@@ -53,11 +53,11 @@
         }
       ],
       "multiplier": "5.1xATK",
-      "description": "Ataca a todos los enemigos. Tiene una probabilidad del 75% de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos.",
+      "description": "Ataca a todos los enemigos. Antes de atacar, tiene un 75% de probabilidad aplicar un debufo del 60% [Reducir DEF] durante 2 turnos.\n\n Ignora bufos de [Escudo] y el 15% de DEF. Obtén un turno adicional si este ataque mata a un enemigo",
       "book_priority": "Ninguna"
     },
     {
-      "name": "Cólera divina (ATK)",
+      "name": "Ira divina (ATK)",
       "levels": [
         {
           "level_desc": "Nivel 2: Daño +5%"
@@ -73,8 +73,19 @@
         }
       ],
       "cooldown": 6,
-      "multiplier": "4.5xATK o 4.5xATK/DEF enemigo (la que sea más alta que el ATK de Abadesa)",
-      "description": "Ataca a todos los enemigos. El daño infligido es proporcional al ATK de este Campeón o a la DEF o al ATK del objetivo, lo que sea más alto. Causa un DAÑO CRIT adicional de 30% si el ATK del objetivo es más alto, e ignora el 30% de la DEF del objetivo si la DEF del objetivo es más alta.",
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "multiplier": "4.5xATK",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 50% de [Aumentar ATK] a este campeón durante 2 turnos.\n\n Ignora el 15% de DEF de cada objetivo. Ignora el 30% de DEF de cada objetivo en lugar del 15% si ATK de este campeón es mayor que DEF de dicho objetivo. También ignora bufos de [Inmortal].",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "La Luz más Brillante (Pasiva)",
+      "description": "Ignora el 25% de RES de cada objetivo si el ATK de este campeón es mayor que ATK de dicho objetivo.\n\n +5% de ATK por cada bufo que recibe o roba este campeón (se acumula hasta el 50%).",
+      "levels": [],
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }
@@ -96,7 +107,7 @@
     "segar-almas",
     "crueldad"
   ],
-  "uses": "No es mala, pero hay campeones que hacen lo mismo mejor. ",
+  "uses": "Buen nuker de oleadas. Tras el rework pega muy fuerte y pone debufos simples pero efectivos ",
   "forms": [],
   "gear": [
     "letal",
@@ -112,9 +123,9 @@
   ],
   "contras": [],
   "masteries": [],
-  "role": "Nuker con debufos, pero de poca utilidad en mid y late game.",
+  "role": "Nuker con debufos, pero de poca utilidad en mid y late game fuera de facciones y oleadas. Le falta aplicar más debufos/bufos para que destaque sobre otros nuker",
   "lore": null,
-  "youtube_link": "https://www.youtube.com/watch?v=Se1Y2mg7xL4",
+  "youtube_link": "https://www.youtube.com/watch?v=AVc4Zvc77FY",
   "sinergias": [],
   "type": "Ataque",
   "image": "/src/assets/champions/abadesa.webp",

@@ -1,0 +1,134 @@
+{
+  "slug": "thayla-cuernomartillo",
+  "name": "Thayla Cuernomartillo",
+  "faction": "Cambiapieles",
+  "rarity": "Legendario",
+  "role": "Healer, debufer y revividor de la facción. No es top pero cumple un rol importante en la facción",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=DlwoYg2WPsc",
+  "blessings": null,
+  "relics": null,
+  "gear": [
+    "renacer",
+    "bestial",
+    "percepcion",
+    "piel-de-piedra"
+  ],
+  "uses": "Está diseñada como revividor de su facción para guerra de facciones. En early y mid game vale para casi todo, ya que sus debufos son buenos y su revivir es decente",
+  "stats": {
+    "hp": 21480,
+    "speed": 107,
+    "attack": 826,
+    "defense": 1321,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Golpe Rompecráneos (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +15%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-bufos"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Bloquear Bufos] durante 2 turnos.\n\n Cura a todos los aliados el 10% de MAX HP de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Embestida Devastadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +20"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        },
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca 2 veces a todos los enemigos.\n\n El primer ataque tiene un 75% de probabilidad de eliminar todos los bufos de todos los enemigos. El segundo ataque aplica un debufo de 60% de [Reducir DEF] y un debufo de 30% de [Reducir VEL] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Heraldo de Loriaca",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "aumentar-vel-2"
+        },
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "description": "Revive a todos los aliados muertos con el 50% de HP y el 50% de Barra de turno.\n\n Aplica un bufo de 60% de [Aumentar DEF] y un bufo de 30% de [Aumentar VEL] a todos los aliados durante 2 turnos.\n\n Aplica un debufo de [Aturdir] a todos los enemigos durante 1 turno.\n\n Esta habilidad se puede usar aumenta no haya ningún aliado muerto.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Por la Manada (Pasiva)",
+      "description": "Los enemigos que tienen un debufo aplicado por este campeón reciben un 15% más de daño y hacen un 15% menos de daño. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, está habilidad no se activa en las copias repetidas de este campeón.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 20%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/thayla-cuernomartillo.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

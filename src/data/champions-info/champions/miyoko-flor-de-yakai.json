@@ -1,12 +1,12 @@
 {
   "slug": "miyoko-flor-de-yakai",
-  "name": "Miyoko, Flor de Sakai",
-  "faction": "Sombríos",
+  "name": "Miyoko, Flor de Yakai",
+  "faction": "Sombrios",
   "rarity": "Legendario",
   "role": "Nuker top para arenas, que juega mucho con las habilidades en tiempo de reutilización",
   "type": "Ataque",
   "affinity": "Vacío",
-  "youtube_link": null,
+  "youtube_link": "https://www.youtube.com/watch?v=s87jeDZx66A",
   "blessings": [
     "Desgarro-aplastante-6"
   ],
