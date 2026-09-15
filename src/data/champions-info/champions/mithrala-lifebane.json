@@ -16,7 +16,11 @@
     "corazon_volcardiaco",
     "mano_de_descrear"
   ],
-  "gear": null,
+  "gear": [
+    "proteccion",
+    "percepcion",
+    "bestial"
+  ],
   "uses": "Muchos: Arena, Hydra, Gemelos, Facciones, Jefe de Ciudad Maldita...",
   "stats": {
     "hp": 20310,

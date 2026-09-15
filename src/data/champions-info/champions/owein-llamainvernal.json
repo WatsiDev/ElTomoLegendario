@@ -3,7 +3,7 @@
   "name": "Owein Llamainvernal",
   "faction": "Vigías Silvanos",
   "rarity": "Legendario",
-  "role": "Tanque, healer y poderoso protector de nuestro equipo",
+  "role": "Tanque, healer y poderoso protector de nuestro equipo. Hace mucho daño pasivamente con el reflejo de daño",
   "type": "Defensa",
   "affinity": "Espíritu",
   "youtube_link": "https://www.youtube.com/watch?v=DlwoYg2WPsc",
@@ -17,13 +17,10 @@
     "infernosfera"
   ],
   "gear": [
-    "mercurial",
-    "piel-de-piedra",
-    "defensa",
-    "inmortal",
     "apoyo",
+    "piel-de-piedra",
     "proteccion",
-    "guardian"
+    "escudo"
   ],
   "uses": "Poderoso en facciones y oleadas. Incluso en defensa de arenas, como campeón capaz de blindar a nuestros aliados con escudos y curarlos.",
   "stats": {

@@ -3,14 +3,30 @@
   "name": "El Espantapájaros",
   "faction": "No Muertos",
   "rarity": "Legendario",
-  "role": "Apoyo capaz de revivir, con sinergias al haber muerto campeones y autorevivir",
+  "role": "Apoyo capaz de revivir, con sinergias al haber muerto campeones y autorevivir. También capaz de poner bufos y debufos algo de nicho pero muy top para progresar",
   "type": "Apoyo",
   "affinity": "Espíritu",
-  "youtube_link": "https://www.youtube.com/watch?v=z9qLPoMS_Ko",
-  "blessings": null,
-  "relics": null,
-  "gear": null,
-  "uses": null,
+  "youtube_link": "https://www.youtube.com/watch?v=1V2f0FhfQYY",
+  "blessings": [
+    "presencia-amenazante",
+    "cosechar-vida"
+  ],
+  "relics": [
+    "varita_de_sumision",
+    "corazon_volcardiaco",
+    "cristal_de_exanima",
+    "sombra_encaramada",
+    "aspecto_de_siroth",
+    "efigie_demoniaca",
+    "crisalida_de_renacer"
+  ],
+  "gear": [
+    "proteccion",
+    "bestial",
+    "incansable",
+    "impulso"
+  ],
+  "uses": "Muy bueno y versátil tanto en PvE como en PvP (en cosas como asedio por ejemplo). Muy bueno también en pruebas de Quimera",
   "stats": {
     "hp": 21315,
     "speed": 105,

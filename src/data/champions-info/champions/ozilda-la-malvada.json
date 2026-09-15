@@ -7,9 +7,19 @@
   "type": "Apoyo",
   "affinity": "Vacío",
   "youtube_link": "https://www.youtube.com/watch?v=0K0x5pQbh4Y",
-  "blessings": null,
-  "relics": null,
-  "gear": null,
+  "blessings": [
+    "cadenas-temporales",
+    "polimorfia"
+  ],
+  "relics": [
+    "campana_fundida"
+  ],
+  "gear": [
+    "bestial",
+    "supersonico",
+    "redirigir",
+    "mercurial"
+  ],
   "uses": "Oleadas y arenas principalmente. Muy buena y molesta como controladora",
   "stats": {
     "hp": 21810,
