@@ -15,11 +15,18 @@
     "luna_de_sangre",
     "mirada_del_gato",
     "malleos_de_fuego",
+    "brazal_de_ruina",
     "corona_de_ireth",
     "garra_malefica",
     "lente_intangible"
   ],
-  "gear": null,
+  "gear": [
+    "salvaje",
+    "letal",
+    "percepcion",
+    "bestial",
+    "instinto"
+  ],
   "uses": "Hydra en early, pero limitado en mid y late game",
   "stats": {
     "hp": 13545,
