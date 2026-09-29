@@ -1,0 +1,116 @@
+{
+  "slug": "imperturbable",
+  "name": "Imperturbable",
+  "faction": "Altos Elfos",
+  "rarity": "Epico",
+  "role": "Controlador de oleadas y healer con algunos debufos útiles de nicho",
+  "type": "HP",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=c3CNiC_W_bU",
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 20970,
+    "speed": 97,
+    "attack": 771,
+    "defense": 1134,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Lanza de Centinela (HP)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "multiplier": "?xHP",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 50% de probabilidad de aplicar un debufo de 100% de [Curación Continua] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Intransigente",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        },
+        {
+          "key_name": "escudo-habilidad"
+        }
+      ],
+      "multiplier": "?xHP",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Bloquear Habilidades Activas] durante 2 turnos.\n\n Aplica un bufo de [Escudo] a todos los aliados durante 2 turnos. La magnitud del [Escudo] es igual al 15% de MAX HP de este campeón y un 5% adicional de MAX HP de este campeón por cada debufo de [Bloquear Habilidad Activas] aplicado correctamente.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "El Muro Interior",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Restaura un 50% de MAX HP destruido de todos los aliados.\n\n Luego iguala los niveles de HP de todos los aliados. Los niveles de HP de todos los aliados se igualarán al del aliado con más HP.\n\n Obtén un turno adicional.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Vigilia Eterna (Pasiva)",
+      "description": "Reduce un 20% el daño que recibe este cmapeón de las habilidades base de los enemigos.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/imperturbable.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

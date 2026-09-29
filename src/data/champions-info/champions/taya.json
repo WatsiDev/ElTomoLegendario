@@ -1,0 +1,132 @@
+{
+  "slug": "taya",
+  "name": "Taya",
+  "faction": "Sombrios",
+  "rarity": "Epicos",
+  "role": "Capaz de aplicar un par de debufos interesantes así como activar Quemar HP y Venenos",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "elixir_aracnido"
+  ],
+  "gear": [
+    "punteria",
+    "percepcion",
+    "cruel"
+  ],
+  "uses": "Muy pocos o ninguno. Es una especie de Mago Venenoso, pero peor",
+  "stats": {
+    "hp": 12885,
+    "speed": 95,
+    "attack": 1465,
+    "defense": 980,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Polvo de Atontar (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
+      "multiplier": "3.65xATK",
+      "description": "Ataca a 1 enemigo. Tiene un 50% de probabilidad de aplicar un debufo de 50% de [Reducir PUNT] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Veneno Kunai (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "veneno-2"
+        }
+      ],
+      "description": "Ataca a 1 enemigo 3 veces. Cada ataque tiene un 75% de probabilidad de aplicar un debufo de 5% de [Veneno] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hervir la Sangre (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "curacion-reducida-2"
+        }
+      ],
+      "description": "Ataca a 1 enemigo. Tiene un 75% de probabilidad de activar inmediatamente una activación de todos los debufos de [Veneno] y [Quemar HP] del objetivo. También tiene un 75% de probabilidad de aplicar un debufo de 100% de [Curación Reducida] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "punt",
+      "description": "Aumenta la PUNT de aliados en todas las batallas en 50"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/taya.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

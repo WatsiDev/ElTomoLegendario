@@ -1,0 +1,131 @@
+{
+  "slug": "cormac-el-pico-alto",
+  "name": "Cormac el Pico Alto",
+  "faction": "Vigías Silvanos",
+  "rarity": "Epico",
+  "role": "Nuker de 1 solo objetivo con buenos debufos",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica"
+  ],
+  "gear": [
+    "bestial",
+    "percepcion",
+    "punteria",
+    "cruel",
+    "salvaje",
+    "letal"
+  ],
+  "uses": "Early y mid game, contra jefes principalmente ya que solo pega a un solo objetivo, pero mete debufos decentes",
+  "stats": {
+    "hp": 14535,
+    "speed": 94,
+    "attack": 1509,
+    "defense": 826,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Arriero (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "red-vel-2"
+        }
+      ],
+      "multiplier": "3xATK",
+      "description": "Ataca a 1 enemigo. Tiene 40% de probabilidad de aplicar un debufo de 30% de [Reducir Vel] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cumbres Altas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-def-2"
+        }
+      ],
+      "multiplier": "5xATK",
+      "description": "Ataca a 1 enemigo. Antes de atacar tiene un 75% de probabilidad de aplicar un debufo de 60% de [Red. Defensa] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Cambio de Tempo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-punt-2"
+        },
+        {
+          "key_name": "aumentar-p-crit-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% de [Aumentar PUNT] y un bufo de 30% de [Aumentar P.Crit] a este campeón durante 3 turnos. Luego obtén un turno adicional",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en todas las batallas en 20%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/cormac-el-pico-alto.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

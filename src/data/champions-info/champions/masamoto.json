@@ -1,0 +1,125 @@
+{
+  "slug": "masamoto",
+  "name": "Masamoto",
+  "faction": "Sombrios",
+  "rarity": "Epicos",
+  "role": "Tanque defensivo capaz de bufos, debufos y aumento de barra de turno",
+  "type": "Defensa",
+  "affinity": "Espíritu",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad",
+    "defensa-impecable"
+  ],
+  "relics": [
+    "diario_de_necrotos",
+    "orbe_de_transfixion"
+  ],
+  "gear": null,
+  "uses": "Ninguno, ya que requiere de demasiados libros para lo que aporta",
+  "stats": {
+    "hp": 16020,
+    "speed": 98,
+    "attack": 870,
+    "defense": 1365,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 45
+  },
+  "skills": [
+    {
+      "name": "Corte Doble (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 6: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 7: Prob. Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 8: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 9: Prob. Bufo/Debufo +5%"
+        }
+      ],
+      "multiplier": "1.5xDEF",
+      "description": "Ataca a 1 enemigo 2 veces. Tiene un 10% de probabilidad de robar 1 bufo al azar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tifón de Acero (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "red-atk-2"
+        }
+      ],
+      "multiplier": "4.1xDEF",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de aplicar un debufo de 50% de [Reducir ATK] durante 2 turnos",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Yojimbo",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos. También llena un 15% la Barra de turno de todos los aliados.",
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/masamoto.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

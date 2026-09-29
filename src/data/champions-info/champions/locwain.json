@@ -1,0 +1,129 @@
+{
+  "slug": "locwain",
+  "name": "Locwain",
+  "faction": "Vigías Silvanos",
+  "rarity": "Epico",
+  "role": "Eliminador de bufos enemigos con algo de daño",
+  "type": "Ataque",
+  "affinity": "Magia",
+  "youtube_link": null,
+  "blessings": [
+    "toque-fantasmal",
+    "Desgarro-aplastante-6"
+  ],
+  "relics": [
+    "garra_malefica",
+    "martillo_del_fin"
+  ],
+  "gear": [
+    "percepcion",
+    "punteria",
+    "salvaje",
+    "letal"
+  ],
+  "uses": "Principalmente diseñado para PvP aunque no se usa. No aporta suficiente y a día de hoy regalan cosas mejores así que no recomendaría subirlo",
+  "stats": {
+    "hp": 14040,
+    "speed": 98,
+    "attack": 1409,
+    "defense": 958,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Cazador de Bendiciones (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +10%"
+        }
+      ],
+      "multiplier": "3.5xATK",
+      "description": "Ataca a 1 enemigo. Tiene 30% de probabilidad de robar 1 bufo al azar.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Revelación (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "3.8xATK",
+      "description": "Ataca a todos los enemigos. TIene un 25% de probabilidad de eliminar cualquier bufo de [Velo] o [Velo Perfecto] de todos los enemigos.\n\n También tiene un 75% de probabilidad de eliminar 1 bufo al azar de cada enemigo.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Fuerza Enfocada (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "multiplier": "2.9xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Ignora bufos de [Escudo].\n\n Reinicia el tiempo de reutlización de esta habilidad si este ataque mata a un enemigo",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Caza a los Altivos (Pasiva)",
+      "description": "Este camopeón tiene +10 PUNT por cada bufo que tenga cada enemigo",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de Aliados en arena en 20%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/locwain.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "guardavid-wysteri",
+  "name": "Guardavid Wysteri",
+  "faction": "Vigías Silvanos",
+  "rarity": "Epico",
+  "role": "Nuker bastante potente a un solo objetivo con auto bufos para potenciar aún más su daño",
+  "type": "Ataque",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "ira-de-la-naturaleza"
+  ],
+  "relics": [
+    "garra_malefica",
+    "ira_de_la_naturaleza"
+  ],
+  "gear": [
+    "salvaje",
+    "letal",
+    "cruel",
+    "despiadado",
+    "percepcion",
+    "punteria"
+  ],
+  "uses": "Nuker de 1 solo objetivo bastante potente. Pega duro contra jefes pero no es muy buena en oleadas",
+  "stats": {
+    "hp": 16515,
+    "speed": 99,
+    "attack": 1310,
+    "defense": 892,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 60,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Flechas de Vid Drenadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "debilitar-2"
+        }
+      ],
+      "multiplier": "2xATK",
+      "description": "Ataca a 1 enemigo 2 veces. Cada ataque tiene un 50% de probabilidad de aplicar un debufo de 25% de [Debilitar] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Saeta Perforadora (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "description": "Ataca a 1 enemigo.\n\n Ignora bufos de [Aumentar ATK] y [Fortalecer] además del 20% de DEF del objetivo.\n\n Si este ataque mata a un enemigo, aumenta 1 turno la duración de todos los bufos de este campeón.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Prepárate, Apunta...",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-d-crit-2"
+        },
+        {
+          "key_name": "aumentar-atk-2"
+        }
+      ],
+      "description": "Aplica un bufo de 30% de [Aumentar D.Crit] y un bufo de 50% de [Aumentar ATK] a este campeón durante 3 turnos. Luego obtén un turno adicional.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Hoja de Muerte (Pasiva)",
+      "description": "+10% de ATK por cada enemigo que tiene el 50% o menos de HP (se acumula hasta el 50%).",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de aliados en todas las batallas en 25%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/guardavid-wysteri.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
