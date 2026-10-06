@@ -70,7 +70,7 @@
             "Nivel 3: Daño +10%"
           ],
           "multiplier": "3xATK, Cura 2xATK",
-          "description": "Ataca a todos los enemigos. \n\n Cura a todos los aliados. El valor de la curación es proporcional al ATK de este campeón. "
+          "description": "Ataca a todos los enemigos. \n\n Recupera el 10% del MAX HP destruido de cada aliado. Cura a todos los aliados. El valor de la curación es proporcional al ATK de este campeón. "
         },
         {
           "name": "Todo por Siroth (ATK)",
@@ -96,7 +96,7 @@
             "fortificar-1",
             "inmortal"
           ],
-          "description": "Aplica un bufo de [Burlón] y un bufo de [Fortificar] en este campeón durante 2 turnos. También aplica un bufo de [Inmortal] a todos los aliados excepto a este campeón durante 2 turnos."
+          "description": "Aplica un bufo de [Inmortal] y un bufo de [Fortificar] a todos los aliados.\n\n Aplica un bufo de [Burlón] a este campeón durante 2 turnos. "
         },
         {
           "name": "Metamorfosis",
@@ -107,7 +107,7 @@
         {
           "name": "Coleccionista de Peones (Pasiva)",
           "levels": [],
-          "description": "[Efecto Pasivo]\n Recibe un 15% menos de daño por cada aliado vivo.\n\n [Efecto Activo]\n Transforma a este campeón en su forma alternativa instantáneamente siempre que muera el último aliado vivo."
+          "description": "[Efecto Pasivo]\n Recibe un 15% menos de daño por cada aliado vivo. Este campeón es inmune a debufos de [Miedo] y [Miedo de Verdad].\n\n Siempre que este campeón se transforma en su forma alternativa, cura completamente a este campeón. \n\n [Efecto Activo]\n Transforma a este campeón en su forma alternativa instantáneamente siempre que muera el último aliado vivo."
         }
       ]
     },
@@ -144,7 +144,7 @@
             "debilitar-2"
           ],
           "multiplier": "4xATK",
-          "description": "Ataca 1 enemigo 3 veces.\n\n Antes de atacar, roba todos los bufos de todos los enemigos. Los objetivos cuyo ataque sea menor o igual que el de este campeón, no pueden resistir este efecto. También aplica un debufo de 25% de [Debilitar] a todos los enemigos durante 2 turnos. Los objetivos cuyo ataque sea igual o inferior al de este campeón, no pueden resistir este debufo."
+          "description": "Ataca 1 enemigo 3 veces.\n\n Antes de atacar, roba todos los bufos de todos los enemigos. También aplica un dbeufo de [Debilitar] a todos los enemigos durante 2 turnos. Los objetivos cuyo ATK sea menor o igual que el de este campeón, además de los Jefes, no pueden resistir estos efectos.\n\n Aumenta el daño hecho por esta habilidad en 15% por cada bufo robado."
         },
         {
           "name": "Agente Implacable (ATK)",
@@ -156,9 +156,10 @@
           "buffDebuff": [
             "romper-2",
             "aumentar-p-crit-2",
+            "aumentar-atk-2",
             "miedo-de-verdad"
           ],
-          "description": "Aplica un bufo de 15% de [Romper] y un bufo 30% de [Aumentar P.Crit] a este campeón durante 3 turnos. Aplica un debufo de [Miedo de Verdad] a todos los enemigos durante 1 turno. Los enemigos cuyo ataque sea menor o igual al de este campeón no pueden resistir este efecto."
+          "description": "Elimina todos los debufos de este campeón. Aplica un bufo de 15% de [Romper], un bufo 30% de [Aumentar P.Crit] y un bufo de 50% de [Aumentar ATK] a este campeón durante 3 turnos. Estos bufos están protegidos. Aplica un debufo de [Miedo de Verdad] a todos los enemigos durante 2 turno. Los enemigos cuyo ataque sea menor o igual al de este campeón, además de los Jefes, no pueden resistir este efecto."
         },
         {
           "name": "Metamorfosis",
@@ -169,7 +170,7 @@
         {
           "name": "Asesina Vil (Pasiva)",
           "levels": [],
-          "description": "Hace un 15% más de daño por cada aliado muerto. Cada golpe crítico llena la barra de turno de este campeón un 10% por cada aliado muerto."
+          "description": "Este campeón es inmune a debufos de [Miedo] y [Miedo de Verdad]. \n\nHace un 15% más de daño por cada aliado muerto y cada enemigo bajo un debufo de [Miedo] y [Miedo de Verdad].\n\n Siempre que este campeón hace un crítico llena su barra de turno un 15%."
         }
       ]
     }

@@ -1,0 +1,133 @@
+{
+  "slug": "skartorsis",
+  "name": "Skartorsis",
+  "faction": "No Muertos",
+  "rarity": "Legendario",
+  "role": "Buen campeón para progreso, capaz de curar, bufear, revivir y limpiar",
+  "type": "Apoyo",
+  "affinity": "Fuerza",
+  "youtube_link": null,
+  "blessings": [
+    "crueldad"
+  ],
+  "relics": [
+    "orbe_de_transfixion",
+    "empunadura_sacra",
+    "tiara_de_andromeda",
+    "diario_de_necrotos",
+    "impasse_temporal",
+    "corazon_volcardiaco"
+  ],
+  "gear": [
+    "renacer",
+    "reflejo",
+    "percepcion",
+    "punteria",
+    "impulso",
+    "proteccion"
+  ],
+  "uses": "Bastante polivalente para early, mid y facciones en late. Puede tener hueco incluso en arena",
+  "stats": {
+    "hp": 20145,
+    "speed": 109,
+    "attack": 859,
+    "defense": 1376,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Mano de Perdición (ATK)",
+      "levels": [
+        {
+          "level_desc": "Niv. 2 Daños +5%."
+        },
+        {
+          "level_desc": "Niv. 3 Probabilidad de bufo/debufo +5%."
+        },
+        {
+          "level_desc": "Niv. 4 Probabilidad de bufo/debufo +5%."
+        },
+        {
+          "level_desc": "Niv. 5 Daños +10%."
+        },
+        {
+          "level_desc": "Niv. 6 Probabilidad de bufo/debufo +10%."
+        }
+      ],
+      "multiplier": "4xATK",
+      "description": "Ataca a todos los enemigos. Tiene un 50% de probabilidad de robar 1 bufo aleatorio de cada enemigo. Luego, aplica un efecto de [Contagiar Bufos] que aplica un bufo aleatorio de este campeón a todos los aliados. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Comando",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-atk-2"
+        },
+        {
+          "key_name": "aumentar-punt-2"
+        }
+      ],
+      "description": "Aplica un bufo de 50% [Aumentar ATK] y un bufo de 50% [Aumentar PUNT] a todos los aliados durante 2 turnos.\n\n Luego reduce 1 turno el tiempo de reutilización de todas las habilidades de todos los aliados, excepto de este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Renacer",
+      "levels": [
+        {
+          "level_desc": "Niv. 2: Curación +5%"
+        },
+        {
+          "level_desc": "Niv. 3: Curación +5%"
+        },
+        {
+          "level_desc": "Niv. 4: Curación +5%"
+        },
+        {
+          "level_desc": "Niv. 5: Tiempo de Reutilización -1"
+        },
+        {
+          "level_desc": "Niv. 6: Tiempo de Reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Revive a todos los aliados con el 50% de barra de turno y el 50% de HP.\n\n Elimina todos los debufos de todos los aliados, luego cura a todos los aliados el 25% del MAX HP de este campeón y llena sus barras de turno en 10%. Cura a todos los aliados un 5% adicional del MAX HP de todos los aliados  y llena su barra de turno un 10% adicional por cada debufo eliminado.\n\n Esta habilidad se puede usar aunque no haya ningún aliado muerto. ",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Envite Mortal (Pasiva)",
+      "description": "Al final del turno de este campeón, llena su barra de turno un 10%. Llenará su barra de turno un 20% en lugar de lo anterior si hay algún aliado muerto",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la velocidad de aliado en mazmorras en un 33%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/skartorsis.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
