@@ -1,0 +1,130 @@
+{
+  "slug": "tartarus-el-remero",
+  "name": "Tartarus el Remero",
+  "faction": "Argonitas",
+  "rarity": "Legendario",
+  "role": "Nuker de Defensa con un nuevo bufo de Vista Aguda, capaz de ignorar multiples bufos poderosos e ignorar defensa",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": "Principalmente arena. Es poderoso pero su kit es limitado para casi todo el demás contenido",
+  "stats": {
+    "hp": 19155,
+    "speed": 101,
+    "attack": 760,
+    "defense": 1542,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 40
+  },
+  "skills": [
+    {
+      "name": "Golpe de Remo (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Aturdir] durante 1 turno. Este debufo no se puede resistir si hay algún aliado muerto.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Juzgado Indigno (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        },
+        {
+          "key_name": "burlon"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos y un bufo de [Burlón] a este campeón durante 2 turnos.\n\n Ignora el 25% de DEF, al igual que los bufos de [Bloquear Daño] y [Escudo]. Si hay algún aliado o enemigo muerto, ignora el 50% de DEF en lugar del 25% y ataca 1 vez más.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Indigno de Vivir (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "vista-aguda"
+        }
+      ],
+      "description": "Ataca a 1 enemigo. Antes de atacar, aplica un bufo de [Vista Aguda] a este campeón durante 2 turnos. Ignora el 50% de DEF, al igual que los bufos de [Piel de Piedra] e [Inmortal]. Si hay algún aliado o enemigo muerto, ignora el 100% de DEF en lugar del 50%.\n\n Esta habilidad puede designar como objetivo a enemigos con bufos de [Velo] o [Velo Perfecto].\n\n Obtén un turno adicional si este ataque mata a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "La Muerte no tiene Poder (Pasiva)",
+      "buffDebuff": [
+        {
+          "key_name": "berserker"
+        }
+      ],
+      "description": "[Efecto Pasivo]\n\n Este campeón no puede morir hasta que un enemigo haya matado al menos a 1 aliado. Una vez por ronda. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.\n\n [Efecto Activo]\n\n Deniega 1 intento de revivir enemigo. Si se reviven varios enemigos a la vez, deniega 1 intento de revivir enemigo aleatorio. Activa un efecto de [Turno Instantáneo] en este campeón y aplica un debufo de [Berserker] a este campeón durante 1 turno después de denegar un intento de revivir enemigo.\n\n Este debufo no se puede eliminar, resistir ni bloquear.Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.",
+      "levels": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "res",
+      "description": "Aumenta la RES de aliados del vacío en batallas de arena en 120"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/tartarus-el-remero.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

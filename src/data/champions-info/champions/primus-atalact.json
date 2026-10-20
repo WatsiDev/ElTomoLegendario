@@ -1,0 +1,126 @@
+{
+  "slug": "primus-atalact",
+  "name": "Primus Atalact",
+  "faction": "Hombres Lagarto",
+  "rarity": "Epico",
+  "role": "Tanque - Controlador de facciones y oleadas",
+  "type": "Defensa",
+  "affinity": "Vacío",
+  "youtube_link": null,
+  "blessings": null,
+  "relics": null,
+  "gear": null,
+  "uses": null,
+  "stats": {
+    "hp": 17010,
+    "speed": 96,
+    "attack": 793,
+    "defense": 1376,
+    "accuracy": 15,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Promesa de Primus (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +5%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob- Bufo/Debufo +5%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "aturdir"
+        },
+        {
+          "key_name": "velo-perfecto"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a un enemigo.\n\n Tiene un 25% de probabilidad de aplicar un debufo de [Aturdir] al objetivo durante 1 turno.\n\n Aplica un bufo de [Velo Perfecto] al aliado con menos DEF durante 1 turno.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Lealtad Inquebrantable (DEF)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
+        }
+      ],
+      "cooldown": 4,
+      "buffDebuff": [
+        {
+          "key_name": "incitar"
+        },
+        {
+          "key_name": "contraataque"
+        }
+      ],
+      "multiplier": "?xDEF",
+      "description": "Ataca a todos los enemigos.\n\n Tiene un 75% de probabilidad de aplicar un debufo de [Incitar] a todos los enemigos durante 1 turno.\n\n Aplica un bufo de [Contraataque] a este campeón durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Falange de Escamas",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 3: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "buffDebuff": [
+        {
+          "key_name": "aumentar-def-2"
+        }
+      ],
+      "description": "Aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos.\n\n Luego se junta con 3 aliados al azar para atacar a un enemigo.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Deber hasta la Muerte (Pasiva)",
+      "description": "Roba 1 bufo aleatorio del objetivo cada vez que este campeón contraataca.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta DEF de alaidos en criptas de facción en 35%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/primus-atalact.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}

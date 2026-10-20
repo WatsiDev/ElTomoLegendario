@@ -1,0 +1,134 @@
+{
+  "slug": "orynyx-roementes",
+  "name": "Orynyx Roementes",
+  "faction": "Elfos Oscuros",
+  "rarity": "Legendario",
+  "role": "Controlador / Iniciador. Capaz de poner habilidades en tiempo de reutilización y de bloquear habilidades activas",
+  "type": "Apoyo",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=NHxUsmK3-k0",
+  "blessings": [
+    "presencia-amenazante",
+    "crueldad"
+  ],
+  "relics": [
+    "varita_de_sumision"
+  ],
+  "gear": [
+    "mercurial",
+    "supersonico",
+    "bestial",
+    "percepcion",
+    "exactitud",
+    "piel-de-piedra"
+  ],
+  "uses": "Principalmente arena, pero también sirve en oleadas y facciones para controlar enemigos",
+  "stats": {
+    "hp": 21645,
+    "speed": 106,
+    "attack": 837,
+    "defense": 1299,
+    "accuracy": 20,
+    "critRate": 15,
+    "critDamage": 50,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Colmillo Onírico (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +5%"
+        },
+        {
+          "level_desc": "Nivel 4: Daño +10%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "dormir"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca 1 enemigo. Reduce la barra de turno del objetivo en 10%.\n\n Aplica un debufo de [Dormir] al objetivo durante 1 turno, si el enemigo tiene alguna habilidad puesta en tiempo de reutilización por este campeón.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Tormenta de Telarañas (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 6: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "bloquear-habilidades-activas"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos 2 veces.\n\n El primer golpe tiene un 75% de probabilidad de robar todos los bufos de todos los enemigos. El segundo golpe tiene un 75% de probabilidad de aplicar un bufo de [Bloquear Habilidades Activas] a todos los enemigos durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Roementes",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Prob. Bufo/Debufo +15%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        },
+        {
+          "level_desc": "Nivel 5: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 6,
+      "description": "Tiene un 75% de probabilidad de aumentar los tiempos de reutilización de las habilidades de todos los enemigos en 3 turnos.\n\n Llena las barras de turno de todos los aliados en 20%.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Neuroreptador (Pasiva)",
+      "description": "[Efecto Pasivo]\n\n Las habilidades de este campeón no se pueden poner en tiempo de reutilización.\n\n [Efecto Activo]\n\n Siempre que un enemigo intenta poner en tiempo de reutilización las habilidades de este campeón o de un aliado, activa un efecto de [Turno Adicional] en este campeón. Si hay multiples campeones en el mismo equipo con esta habilidad, solo se activa una. Esta habilidad no se activa en copias duplicadas de este campeón si este campeón en particular está muerto.",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "vel",
+      "description": "Aumenta la VEL de aliados en todas las batallas en 20%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/orynyx-roementes.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
