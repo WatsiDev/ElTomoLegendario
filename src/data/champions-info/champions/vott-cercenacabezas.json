@@ -91,7 +91,7 @@
         }
       ],
       "cooldown": 6,
-      "description": "Ataca 3 veces a todos los enemigos.\n\n Cada ataque reduce 1 turno la duración de todos los bufos de cada objetivo.\n\n Si hay algún enemigo que no tenga ningún bufo después de esta habilidad, obtén un turno adicional.",
+      "description": "Ataca 3 veces a todos los enemigos.\n\n Cada ataque reduce 1 turno la duración de todos los bufos de cada objetivo.\n\n Si este efecto deja a algún enemigo sin ningún bufo, obtén un turno adicional.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },

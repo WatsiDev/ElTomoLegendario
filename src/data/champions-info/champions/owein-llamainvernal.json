@@ -52,7 +52,7 @@
           "level_desc": "Nivel 5: Prob. Bufo/Debufo +15%"
         }
       ],
-      "multiplier": "?xDEF",
+      "multiplier": "1.3xDEF",
       "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque tiene un 50% de probabilidad de eliminar cualquier bufo de [Escudo] y [Escudo de Magma], además de otro bufo aleatorio de cada enemigo. Este efecto no se puede resistir si este campeón tiene un bufo de [Escudo] o [Escudo de Magma].",
       "buffDebuff": [],
       "book_priority": "Ninguna"
@@ -76,6 +76,7 @@
           "key_name": "reflejar-dano"
         }
       ],
+      "multiplier": "Cura 4xDEF",
       "description": "Iguala los niveles de HP de todos los aliados. Los niveles de HP de todos los aliados se igualarán al del aliado con más HP.\n\n Cura a todos los aliados. La magnitud de la cura es proporcional a DEF de este campeón.\n\n También aplica un bufo de 30% de [Reflejar Daño] a todos los aliados durante 2 turnos. Los aliados con los HP al máximo reciben un bufo protegido de [Reflejar Daño] durante 2 turnos.",
       "book_priority": "Ninguna"
     },
@@ -104,6 +105,7 @@
           "key_name": "escudo-de-magma"
         }
       ],
+      "multiplier": "Tamaño Escudo 4xDEF",
       "description": "[Efecto Activo]\n\n Aplica un bufo de 60% de [Aumentar DEF] y un bufo de [Escudo] a todos los aliados durante 2 turnos. La magnitud del [Escudo] es proporcional a DEF de este campeón.\n\n[Efecto Pasivo]\n\n Cuando venza un bufo de [Escudo] de un aliado o sea eliminado por daño o cualquier otro efecto, aplica un bufo de [Escudo de Magma] a dicho aliado durante 1 turno. La magnitud del bufo de [Escudo de Magma] es proporcional a DEF de este campeón. Una vez por turno. Si hay varios campeones en el grupo con esta habilidad, solo se activa una. Si este campeón en concreto está muerto, esta habilidad no se activa en las copias repetidas de este campeón.",
       "book_priority": "Ninguna"
     },

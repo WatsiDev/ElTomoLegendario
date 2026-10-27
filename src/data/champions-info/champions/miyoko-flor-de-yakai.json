@@ -51,7 +51,7 @@
           "level_desc": "Nivel 4: Prob. Bufo/Debufo +15%"
         }
       ],
-      "multiplier": "?xATK",
+      "multiplier": "3.3xATK",
       "description": "Ataca a 1 enemigo. Ignora el 25% de DEF.\n\n Tiene un 50% de probabilidad de aumentar 2 turnos el tiempo de reutilización de una de las habilidades del objetivo tiene al menos una habilidad en tiempo de reutilización.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
@@ -70,7 +70,7 @@
         }
       ],
       "cooldown": 5,
-      "multiplier": "?xATK",
+      "multiplier": "2.6xATK",
       "description": "Ataca 2 veces a 1 enemigo. Cada ataque ignora el 25% de DEF y bufos de [Bloquear Daño] y [Piel de Piedra].\n\n Si esta habilidad mata al objetivo, pone en tiempo de reutilización una habilidad al azar de uno de los demás enemigos y da un turno adicional a este campeón. Este efecto no se puede resistir.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
@@ -94,7 +94,7 @@
           "key_name": "escudo-de-magma"
         }
       ],
-      "multiplier": "?xATK",
+      "multiplier": "3.6xATK",
       "description": "Ataca a todos los enemigos. Ataca a cada objetivo un número de adicional de veces igual al número de habilidades activas que tenga en tiempo reutilización (hasta 2 ataques adicionales). El daño que hace esta habilidad aumenta un 5% por cada turno de tiempo de reutilización restante en todas sus habilidades (se acumula hasta el 50%).\n\n Si realiza al menos 1 ataque adicional, aplica un bufo de [Escudo de Magma] a este campeón del 300% de su MAX HP durante 2 turnos.",
       "book_priority": "Ninguna"
     },

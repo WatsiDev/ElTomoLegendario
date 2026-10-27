@@ -52,7 +52,7 @@
           "level_desc": "Nivel 4: Daño +5"
         }
       ],
-      "multiplier": "?xHP",
+      "multiplier": "0.25xHP",
       "description": "Ataca a 1 enemigo.\n\n Ignora bufos de [Escudo], además de un 1% de DEF del enemigo por cada 1% de MAX HP destruido.\n\n Reinicia el tiempo de reutilización de la habilidad ¡Alzaos junto a mí! si este ataque mata a un enemigo.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
@@ -71,7 +71,7 @@
         }
       ],
       "cooldown": 4,
-      "multiplier": "?xHP",
+      "multiplier": "0.15xHP",
       "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque ignora bufos de [Inmortal y el 15% de DEF de cada objetivo. Ignora un 1% adicional de DEF del enemigo por cada 1% de su MAX HP destruido.\n\n Reinicia el tiempo de reutilización de la habilidad Baluarte Inquebrantable si este ataque mata a un enemigo.",
       "buffDebuff": [],
       "book_priority": "Ninguna"

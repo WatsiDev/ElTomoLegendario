@@ -52,7 +52,7 @@
           "key_name": "incitar"
         }
       ],
-      "multiplier": "?xATK",
+      "multiplier": "1.8xATK",
       "description": "Ataca 2 veces a todos los enemigos.\n\n Cada ataque tiene un 15% de proabilidad de aplicar un debufo de [Incitar] durante 1 turno.",
       "book_priority": "Ninguna"
     },
@@ -84,7 +84,7 @@
           "key_name": "escudo-habilidad"
         }
       ],
-      "multiplier": "?xATK",
+      "multiplier": "5xATK",
       "description": "Ataca a todos los enemigos. \n\nTiene un 75% de probabilidad de eliminar toods los bufos de todos los enemigos. Luego tiene un 75% de probabilidad de aplicar tres debufos de [Veneno] a todos los enemigos durante 2 turnos.\n\n Aplica un bufo de [Escudo] a este campeón durante 2 turnos. La magnitud del escudo es igua al 10% de MAX HP de este campeón y un 5% adicional de MAX HP de este campeón por cada debufo que no haya sido aplicado por esta habilidad (se acumula hasta el 50%)",
       "book_priority": "Ninguna"
     },

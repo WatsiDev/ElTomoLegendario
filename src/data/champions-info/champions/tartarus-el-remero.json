@@ -7,9 +7,20 @@
   "type": "Defensa",
   "affinity": "Vacío",
   "youtube_link": null,
-  "blessings": null,
-  "relics": null,
-  "gear": null,
+  "blessings": [
+    "romper-cadenas",
+    "jaula-de-rayos"
+  ],
+  "relics": [
+    "mirada_del_gato",
+    "garra_malefica"
+  ],
+  "gear": [
+    "piel-de-piedra",
+    "mercurial",
+    "salvaje",
+    "letal"
+  ],
   "uses": "Principalmente arena. Es poderoso pero su kit es limitado para casi todo el demás contenido",
   "stats": {
     "hp": 19155,
