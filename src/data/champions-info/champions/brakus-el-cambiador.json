@@ -28,7 +28,7 @@
     "cruel",
     "instinto"
   ],
-  "uses": "Arenas en early-mid",
+  "uses": "Ciertos usos en arenas al golpear muchos veces y aplicar consistentemente miedos para bien control",
   "stats": {
     "hp": 19815,
     "speed": 101,
@@ -57,7 +57,7 @@
         }
       ],
       "multiplier": "3.75xATK",
-      "description": "Ataca a 1 enemigo. Cura a este campeón un 15% del daño infligido.",
+      "description": "Ataca a 1 enemigo. Cura a este campeón un 30% del daño infligido.\n\n Tiene un 25% de probabilidad de repetir el ataque.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     },
@@ -87,10 +87,13 @@
       "buffDebuff": [
         {
           "key_name": "debilitar-2"
+        },
+        {
+          "key_name": "miedo-de-verdad"
         }
       ],
       "multiplier": "0.97xATK",
-      "description": "Ataca a 1 enemigo 6 veces. CUra a este campeón un 25% del daño infligido. Sana a este Campeón en un 50% del daño infligido en su lugar si el objetivo está bajo un debufo de [Miedo] o [Miedo de Verdad]. Después del primer golpe, tiene un 75% de posibilidades de aplicar un debufo del 25% [Debilitar] durante 2 turnos.",
+      "description": "Ataca a 1 enemigo 6 veces. El primer golpe tiene un 75% de probabilidad de aplicar un debufo de [Debilitar] durante 3 turnos. Cada golpe ignorará el 20% de la defensa del objetivo y cura a este campeón el 25% del daño inflingido.\n\n Cada golpe ignorará el 20% de la DEF del objetivo y cura a este campeón el 50% del daño inflingido en su lugar, si el objetivo está bajo un debufo de [Miedo] o [Miedo de Verdad].\n\n Aplica un debufo de [Miedo de Verdad] durante 2 turnos a los demás enemigos si este ataque mata al objetivo.\n\n Este debufo no se puede resistir ni bloquear.",
       "book_priority": "Ninguna"
     },
     {
@@ -109,7 +112,7 @@
           "key_name": "aumentar-atk-2"
         }
       ],
-      "description": "Aplica un bufo de 50% [Aumentar ATK] en todos los aliados durante 3 turnos, luego ataca a 1 enemigo 3 veces. Cada golpe tiene un 50% de posibilidades de aplicar un debufo de [Miedo de verdad] durante 1 turno. Tiene una probabilidad del 50% de aplicar un debufo de [Miedo] en 2 enemigos aleatorios durante 1 turno si se aplica el debufo de [Miedo de verdad].",
+      "description": "Ataca a todos los enemigos. Antes de atacar, aplica un bufo de 50% [Aumentar ATK] en todos los aliados durante 3 turnos, luego ataca a 1 enemigo 3 veces. \n\n Tiene un 75% de probabilidad de aplicar un debufo de [Miedo de verdad] a todos los enemigos durante 1 turno. Si un enemigo tiene un debufo de [Miedo] o [Miedo de Verdad], hace un golpe extra a ese enemigo. Ambos golpes ignorarán bufos de [Inmortal].",
       "book_priority": "Ninguna"
     },
     {
@@ -123,7 +126,7 @@
         }
       ],
       "cooldown": 7,
-      "description": "[Efecto pasivo] el daño aumenta en un 40% cuando el HP de este Campeón cae por debajo del 40%.\n\n [Efecto activo]: revive a este campeón con un 20% de HP al morir. Inmediatamente otorga un turno extra.",
+      "description": "[Efecto pasivo] Este campeón es inmune a debufos de [Miedo] o [Miedo de Verdad]. El daño aumenta en un 50% cuando el HP de este Campeón cae por debajo del 50%.\n\n [Efecto activo]\n\n Revive a este campeón con un 20% de HP al morir y resetea el tiempo de reutilización de la habilidad Locura de Luna Llena. Inmediatamente otorga un turno adicional.",
       "buffDebuff": [],
       "book_priority": "Ninguna"
     }

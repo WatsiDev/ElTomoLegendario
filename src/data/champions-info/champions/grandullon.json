@@ -35,7 +35,7 @@
     "despiadado",
     "exactitud"
   ],
-  "uses": "Limpiezas de oleadas ya que pega siempre en área",
+  "uses": "Limpiezas de oleadas ya que pega siempre en área y aplica debufos útiles. Tras su rebalanceo quedó muy potente para limpiar oleadas en general",
   "stats": {
     "hp": 17505,
     "speed": 104,
@@ -63,9 +63,13 @@
           "level_desc": "Nivel 5: Daño + 15%"
         }
       ],
+      "buffDebuff": [
+        {
+          "key_name": "red-punt-2"
+        }
+      ],
       "multiplier": "2.5xATK",
-      "description": "Ataca a 1 enemigo. Ataca a todos los enemigos 1 vez si el primer ataque es crítico.",
-      "buffDebuff": [],
+      "description": "Ataca a 1 enemigo. Luego, ataca a todos los enemigos una vez más y aplica un debufo de 50% de [Reducir PUNT] a todos los enemigos durante 1 turno. Ambos golpes ignorarán el 15% de la DEF de cada objetivo.",
       "book_priority": "Ninguna"
     },
     {
@@ -75,7 +79,7 @@
           "level_desc": "Nivel 2: Daño +10%"
         },
         {
-          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +5%"
+          "level_desc": "Nivel 3: Probabilidad de bufo / debufo +10%"
         },
         {
           "level_desc": "Nivel 4: Daño + 15%"
@@ -90,11 +94,11 @@
           "key_name": "aturdir"
         },
         {
-          "key_name": "red-punt-2"
+          "key_name": "red-def-2"
         }
       ],
       "multiplier": "3.6xATK",
-      "description": "Ataca a todos los enemigos. Tiene un 30% de probabilidad de aplicar una debufo [Aturdir] durante 1 turno. También tiene una probabilidad del 50% de aplicar un debufo del 50% [Reducir PUNT] durante 2 turnos.",
+      "description": "Ataca a todos los enemigos. Tiene un 75% de probabilidad de aplicar una debufo [Aturdir] durante 1 turno. También tiene una probabilidad del 75% de aplicar un debufo del 60% [Reducir DEF] durante 2 turnos.",
       "book_priority": "Ninguna"
     },
     {
@@ -113,14 +117,21 @@
           "level_desc": "Nivel 5: Tiempo de Reutilización -1"
         }
       ],
-      "cooldown": 7,
+      "cooldown": 6,
       "buffDebuff": [
         {
           "key_name": "red-vel-2"
         }
       ],
       "multiplier": "1.9xATK",
-      "description": "Ataca a todos los enemigos 2 veces. Reduce el barra de turno en un 25%. Tiene una probabilidad del 30% de aplicar un debufo del 30% [Reducir VEL] durante 2 turnos.",
+      "description": "Ataca a todos los enemigos 2 veces. Ignora bufos de [Escudo].\n\n Reduce el barra de turno en un 25% y aplicas un debufo del 30% [Reducir VEL] durante 2 turnos.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Golpe Salvaje (Pasiva)",
+      "description": "[Efecto Pasivo]\n\n Este campeón y sus aliados hacen un 10% más de daño con golpes en área.\n\n [Efecto Activo]\n\n Siempre que un enemigo llena su barra de turno utilizando una habilidad, activa la habilidad Escoria Fundida. Ocurre una vez por turno.",
+      "levels": [],
+      "buffDebuff": [],
       "book_priority": "Ninguna"
     }
   ],
