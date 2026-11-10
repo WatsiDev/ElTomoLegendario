@@ -1,0 +1,168 @@
+{
+  "slug": "el-primogenitor",
+  "name": "El Primogenitor",
+  "faction": "Aparecidos",
+  "rarity": "Mítico",
+  "role": "Tanque de HP en su forma base con bufos y debufos, y nuker de DEF en su forma alternativa",
+  "type": "HP / Defensa",
+  "affinity": "Magia",
+  "youtube_link": "https://www.youtube.com/watch?v=agf3gyhxoCY",
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "jaula-de-rayos"
+  ],
+  "relics": [
+    "filos_de_akumori",
+    "mirada_del_gato",
+    "tumba_de_sintranos"
+  ],
+  "gear": [
+    "mercurial",
+    "salvaje",
+    "piel-de-piedra",
+    "letal",
+    "parada-rapida"
+  ],
+  "uses": "Bueno tanto en PvE como en PvP, ya que hace tanto de defensor como de daño en ambas formas",
+  "stats": null,
+  "skills": [],
+  "aura": [
+    {
+      "type": "def",
+      "description": "Aumenta la DEF de Aliados en todas las batallas en 40% (Solo se aplica a Campeones Míticos)"
+    }
+  ],
+  "forms": [
+    {
+      "id": "base",
+      "name": "Forma Base",
+      "stats": {
+        "hp": 24615,
+        "speed": 108,
+        "attack": 991,
+        "defense": 1222,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 50,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Golpe Eviscerador (HP)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "multiplier": "?xHP",
+          "description": "Ataca a todos los enemigos. Traspasa todos los debufos de este campeón a todos los enemigos."
+        },
+        {
+          "name": "Creción Retorcida (HP)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Ignorar RES +20%"
+          ],
+          "cooldown": 3,
+          "buffDebuff": [
+            "red-res-2",
+            "red-vel-2",
+            "aumentar-res-2",
+            "curacion-continua-2"
+          ],
+          "description": "Ataca a todos los enemigos.\n\n Aplica un debufo de 50% de [Reducir RES] y un debufo de 30% de [Reducir VEL] a todos los enemigos durante 2 turnos.\n\n Aplica un bufo de 50% de [Aumentar RES] y dos bufos de [Curacion Continua] a todos los aliados durante 2 turnos."
+        },
+        {
+          "name": "Criado para la Guerra",
+          "levels": [
+            "Nivel 2: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 5,
+          "buffDebuff": [
+            "piel-de-piedra"
+          ],
+          "description": "Intercambia HP con un enemigo. Si el objetivo es un jefe, en lugar de lo anterior cura completamente este campeón.\n\n Aplica un bufo de [Piel de Piedra] a todos los aliados excepto a este campeón durante 1 turno."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Alternativa. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Resiliencia Genoforjada (Pasiva)",
+          "levels": [],
+          "description": "Este campeón es inmune a debufos de [Incitar] y a que las habilidades enemigas, las Bendiciones o los Sets de Equipo aumenten sus tiempos de reutilización o reduzcan o destruyan sus atributos.\n\n Cuando este campeón es atacado, hace daño equivalente al 25% del daño recibido a todos los enemigos. Este daño siempre es normal y nunca cuenta como un ataque. También ignora el 100% de DEF del objetivo. Este ataque no activa contraataques."
+        }
+      ]
+    },
+    {
+      "id": "alternativa",
+      "name": "Forma Alternativa",
+      "stats": {
+        "hp": 19650,
+        "speed": 98,
+        "attack": 936,
+        "defense": 1608,
+        "accuracy": 20,
+        "critRate": 15,
+        "critDamage": 63,
+        "resistance": 30
+      },
+      "skills": [
+        {
+          "name": "Impulso Pulverizador (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "multiplier": "?xDEF",
+          "description": "Ataca a 1 enemigo 2 veces. Cada ataque ignora el 15% de DEF. Ataca 1 vez más si el objetivo no tiene más DEF que este campeón.\n\n Cada ataque llena un 10% la barra de turno de este campeón."
+        },
+        {
+          "name": "Rompemontañas (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%",
+            "Nivel 3: Tiempo de Reutilización -1"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "bloquear-revivir"
+          ],
+          "multiplier": "?xDEF",
+          "description": "Ataca a 1 enemigo 2 veces. Cada ataque ignora el 25% de DEF. Si el objetivo no tiene más DEF que este campeón, en lugar de lo anterior cada ataque ignora el 50% de DEF del objetivo y bufos de [Inmorta] y [Piel de Piedra].\n\n Si esta habilidad mata al objetivo, aplica un debufo de [Bloquear Revivir] al objetivo y roba todos los bufos de todos los enemigos. El efecto de robar bufos no se puede resisitir."
+        },
+        {
+          "name": "Superpoder Sintético (DEF)",
+          "levels": [
+            "Nivel 2: Daño +20%"
+          ],
+          "cooldown": 4,
+          "buffDebuff": [
+            "aumentar-def-2"
+          ],
+          "description": "Ataca a 1 enemigo 2 veces. Antes de atacar, aplica un bufo de 60% de [Aumentar DEF] a todos los aliados durante 2 turnos.\n\n Antes de cada ataque reduce un 5% DEF del objetivo (se acumula hasta el 30%). El daño que hace esta habilidad aumenta un 10% por cada bufo y debufo de este campeón (se acumula hasta el 100%).\n\n Obtén un turno adicional si este ataque mata al objetivo."
+        },
+        {
+          "name": "Metamorfosis",
+          "levels": [],
+          "cooldown": 4,
+          "description": "Transforma a este campeón en su forma Base. Luego obtén un turno adicional"
+        },
+        {
+          "name": "Heraldo de la Perdición (Pasiva)",
+          "levels": [],
+          "description": "Este campeón ignora los efectos que redirigen ataques y los bufos de [Nube de Veneno]. Este campeón es inmune al daño de los bufos de [Reflejar Daño] y de los efectos pasivos de Reflejar Daño.\n\n Cuando este campeón ataca a un enemigo, el resto de enemigos (excepto el objetivo inicial) reciben el 25% del daño hecho. Este daño siempre es normal y nunca cuenta como un ataque. También ignora el 100% de DEF del objetivo. Este ataque no activa Contraataques."
+        }
+      ]
+    }
+  ],
+  "lore": null,
+  "image": "/src/assets/champions/el-primogenitor.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
