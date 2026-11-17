@@ -1,0 +1,130 @@
+{
+  "slug": "skorza-acechanorr",
+  "name": "Skorza Acechanorr",
+  "faction": "Hombres Lagarto",
+  "rarity": "Legendario",
+  "role": "Nuker con mecánicas de destrucción de MAX HP",
+  "type": "Ataque",
+  "affinity": "Espíritu",
+  "youtube_link": "https://www.youtube.com/watch?v=NRtP_RBxUzY",
+  "blessings": [
+    "Desgarro-Aplastante-6",
+    "segar-almas"
+  ],
+  "relics": [
+    "corona_de_ireth",
+    "garra_malefica",
+    "luna_de_sangre",
+    "mirada_del_gato",
+    "pasion_codiciosa",
+    "bomba_de_terror",
+    "apagador_de_esencia",
+    "lente_intangible"
+  ],
+  "gear": [
+    "letal",
+    "salvaje",
+    "mercurial",
+    "piel-de-piedra"
+  ],
+  "uses": "Bastante bueno y decente en oleadas, y capacidad de daño en arenas. La destrucción de HP es útil pero no determinante en ningún sitio.",
+  "stats": {
+    "hp": 15855,
+    "speed": 106,
+    "attack": 1575,
+    "defense": 947,
+    "accuracy": 0,
+    "critRate": 15,
+    "critDamage": 63,
+    "resistance": 30
+  },
+  "skills": [
+    {
+      "name": "Asesino de Norteños (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Prob. Bufo/Debufo +10%"
+        },
+        {
+          "level_desc": "Nivel 5: Prob- Bufo/Debufo +15%"
+        }
+      ],
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad-2"
+        }
+      ],
+      "multiplier": "?xATK",
+      "description": "Ataca a 1 enemigo. Ignora el 20% de la DEF.\n\n Tiene un 50% de probabilidad de aplicar un debufo de [Miedo de Verdad] durante 2 turnos. Este debufo no se puede resistir mientras el objetivo tenga MAX HP destruio.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Gran Carnicero (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 4,
+      "multiplier": "?xATK",
+      "description": "Ataca a todos los enemigos 2 veces. Ignora bufos de [Escudo].\n\n Cada ataque destruye el MAX HP de cada objetivo equivalente al 50% del daño hecho (se acumula hasta el 60%).\n\n Hace un 20% más de daño por cada enemigo muerto durante la batalla por cualquier aliado (se acumula hasta el 100%). No se resetea entre rondas.",
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Venganza Dracónida (ATK)",
+      "levels": [
+        {
+          "level_desc": "Nivel 2: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 3: Daño +10%"
+        },
+        {
+          "level_desc": "Nivel 4: Tiempo de reutilización -1"
+        }
+      ],
+      "cooldown": 5,
+      "buffDebuff": [
+        {
+          "key_name": "miedo-de-verdad"
+        }
+      ],
+      "description": "Ataca a 1 enemigo 2 veces. Cada golpe ignorará el 30% de la DEF del objetivo.\n\n Si el objetivo inicial muere por esta habilidad, destruye el 20% de cada MAX HP de cada objetivo (se acumula hasta el 60%). Destruirá el 15% del MAX HP en su lugar (se acumula hasta el 60%). También aplica un debufo de [Miedo de Verdad] a todos los demás enemigos durante 2 turnos.\n\n Si el objetivo inicial sobrevive, aplica un debufo de [Miedo de Verdad] a ellos durante 2 turnos. Este debufo no se puede resistir si el objetivo tiene el MAX HP destruido.",
+      "book_priority": "Ninguna"
+    },
+    {
+      "name": "Acechanorr (Pasiva)",
+      "description": "Los ataques de este campeón ignoran bufos de [Fortalecer], [Aumentar DEF] y [Bloquear Daño] de objetivos que tengan destruida par de su MAX HP o tengan un debufo de [Miedo] o [Miedo de Verdad].\n\n Este campeón recibe un 3% menos de daño por cada 1% del MAX HP destruido que tenga el atacante (se acumula hasta el 50% de reducción de daño).",
+      "levels": [],
+      "buffDebuff": [],
+      "book_priority": "Ninguna"
+    }
+  ],
+  "aura": [
+    {
+      "type": "atk",
+      "description": "Aumenta el ATK de Aliados en todas las batallas en 30%"
+    }
+  ],
+  "forms": [],
+  "lore": null,
+  "image": "/src/assets/champions/skorza-acechanorr.webp",
+  "masteries": [],
+  "artworks": [],
+  "pros": [],
+  "contras": [],
+  "pve_stats": [],
+  "pvp_stats": [],
+  "game_modes": [],
+  "sinergias": []
+}
